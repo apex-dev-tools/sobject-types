@@ -21,7 +21,7 @@ import com.nawforce.runforce.System.Id;
 import com.nawforce.runforce.System.SObject;
 
 @SuppressWarnings("unused")
-public class AuthConfigProviders extends SObject implements com.nawforce.runforce.SObjectsStub.AuthConfigProviders {
+public class AuthConfigProviders extends SObject {
 	public static SObjectType$<AuthConfigProviders> SObjectType;
 	public static SObjectFields$<AuthConfigProviders> Fields;
 

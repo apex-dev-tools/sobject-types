@@ -19,7 +19,7 @@ import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
-public class ChatterActivity extends SObject implements com.nawforce.runforce.SObjectsStub.ChatterActivity {
+public class ChatterActivity extends SObject {
 	public static SObjectType$<ChatterActivity> SObjectType;
 	public static SObjectFields$<ChatterActivity> Fields;
 

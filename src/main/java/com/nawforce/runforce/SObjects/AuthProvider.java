@@ -19,7 +19,7 @@ import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
-public class AuthProvider extends SObject implements com.nawforce.runforce.SObjectsStub.AuthProvider {
+public class AuthProvider extends SObject {
 	public static SObjectType$<AuthProvider> SObjectType;
 	public static SObjectFields$<AuthProvider> Fields;
 
