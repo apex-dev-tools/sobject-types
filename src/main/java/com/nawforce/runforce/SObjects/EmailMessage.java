@@ -1,21 +1,13 @@
 /*
- Copyright (c) 2019 Kevin Jones, All rights reserved.
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
  */
 
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -25,46 +17,52 @@ public class EmailMessage extends SObject {
 
 	public Id ActivityId;
 	public Task Activity;
-	public com.nawforce.runforce.System.String BccAddress;
-	public com.nawforce.runforce.System.String CcAddress;
+	public String BccAddress;
+	public String CcAddress;
+	public String ClientThreadIdentifier;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Id EmailTemplateId;
 	public EmailTemplate EmailTemplate;
 	public Datetime FirstOpenedDate;
-	public com.nawforce.runforce.System.String FromAddress;
-	public com.nawforce.runforce.System.String FromName;
-	public com.nawforce.runforce.System.Boolean HasAttachment;
-	public com.nawforce.runforce.System.String Headers;
-	public com.nawforce.runforce.System.String HtmlBody;
+	public String FromAddress;
+	public String FromName;
+	public Boolean HasAttachment;
+	public String Headers;
+	public String HtmlBody;
 	public Id Id;
-	public com.nawforce.runforce.System.Boolean Incoming;
-	public com.nawforce.runforce.System.Boolean IsBounced;
-	public com.nawforce.runforce.System.Boolean IsClientManaged;
-	public com.nawforce.runforce.System.Boolean IsDeleted;
-	public com.nawforce.runforce.System.Boolean IsExternallyVisible;
-	public com.nawforce.runforce.System.Boolean IsOpened;
-	public com.nawforce.runforce.System.Boolean IsTracked;
+	public Boolean Incoming;
+	public Boolean IsBounced;
+	public Boolean IsClientManaged;
+	public Boolean IsDeleted;
+	public Boolean IsExternallyVisible;
+	public Boolean IsOpened;
+	public Boolean IsTracked;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastOpenedDate;
 	public Datetime MessageDate;
-	public com.nawforce.runforce.System.String MessageIdentifier;
+	public String MessageIdentifier;
+	public String Name;
 	public Id ParentId;
 	public Case Parent;
 	public Id RelatedToId;
 	public Name RelatedTo;
 	public Id ReplyToEmailMessageId;
 	public EmailMessage ReplyToEmailMessage;
-	public com.nawforce.runforce.System.String Status;
-	public com.nawforce.runforce.System.String Subject;
+	public String Status;
+	public String Subject;
 	public Datetime SystemModstamp;
-	public com.nawforce.runforce.System.String TextBody;
-	public com.nawforce.runforce.System.String ThreadIdentifier;
-	public com.nawforce.runforce.System.String ToAddress;
-	public com.nawforce.runforce.System.String ValidatedFromAddress;
+	public String TextBody;
+	public String ThreadIdentifier;
+	public String ToAddress;
+	public String ValidatedFromAddress;
+	public String[] ContentDocumentIds;
+	public String[] ToIds;
+	public String[] CcIds;
+	public String[] BccIds;
 
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
@@ -75,8 +73,8 @@ public class EmailMessage extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 
 	public EmailMessage clone$() {throw new java.lang.UnsupportedOperationException();}
-	public EmailMessage clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public EmailMessage clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public EmailMessage clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public EmailMessage clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public EmailMessage clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public EmailMessage clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public EmailMessage clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public EmailMessage clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

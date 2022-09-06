@@ -1,21 +1,14 @@
 /*
- Copyright (c) 2019 Kevin Jones, All rights reserved.
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
  */
 
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -25,56 +18,82 @@ public class Asset extends SObject {
 
 	public Id AccountId;
 	public Account Account;
-	public com.nawforce.runforce.System.Integer AssetLevel;
+	public Address Address;
+	public Integer AssetLevel;
 	public Id AssetProvidedById;
 	public Account AssetProvidedBy;
 	public Id AssetServicedById;
 	public Account AssetServicedBy;
+	public Decimal Availability;
+	public Decimal AverageUptimePerDay;
+	public String City;
+	public String ConsequenceOfFailure;
 	public Id ContactId;
 	public Contact Contact;
+	public String Country;
+	public String CountryCode;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String CurrencyIsoCode;
+	public String CurrencyIsoCode;
 	public Decimal CurrentAmount;
 	public Datetime CurrentLifecycleEndDate;
 	public Decimal CurrentMrr;
 	public Decimal CurrentQuantity;
-	public com.nawforce.runforce.System.String Description;
-	public com.nawforce.runforce.System.Boolean HasLifecycleManagement;
+	public String Description;
+	public String DigitalAssetStatus;
+	public String ExternalIdentifier;
+	public String GeocodeAccuracy;
+	public Boolean HasLifecycleManagement;
 	public Id Id;
 	public Date InstallDate;
-	public com.nawforce.runforce.System.Boolean IsCompetitorProduct;
-	public com.nawforce.runforce.System.Boolean IsDeleted;
-	public com.nawforce.runforce.System.Boolean IsInternal;
+	public Boolean IsCompetitorProduct;
+	public Boolean IsDeleted;
+	public Boolean IsInternal;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Decimal Latitude;
 	public Datetime LifecycleEndDate;
 	public Datetime LifecycleStartDate;
 	public Id LocationId;
 	public Location Location;
-	public com.nawforce.runforce.System.String Name;
+	public Decimal Longitude;
+	public Date ManufactureDate;
+	public String Name;
 	public Id OwnerId;
 	public User Owner;
 	public Id ParentId;
 	public Asset Parent;
+	public String PostalCode;
 	public Decimal Price;
 	public Id Product2Id;
 	public Product2 Product2;
-	public com.nawforce.runforce.System.String ProductCode;
+	public String ProductCode;
+	public String ProductDescription;
+	public String ProductFamily;
 	public Date PurchaseDate;
 	public Decimal Quantity;
+	public Decimal Reliability;
 	public Id RootAssetId;
 	public Asset RootAsset;
-	public com.nawforce.runforce.System.String SerialNumber;
-	public com.nawforce.runforce.System.String Status;
-	public com.nawforce.runforce.System.String StockKeepingUnit;
+	public String SerialNumber;
+	public String State;
+	public String StateCode;
+	public String Status;
+	public String StatusReason;
+	public String StockKeepingUnit;
+	public String Street;
+	public Decimal SumDowntime;
+	public Decimal SumUnplannedDowntime;
 	public Datetime SystemModstamp;
 	public Decimal TotalLifecycleAmount;
+	public Datetime UptimeRecordEnd;
+	public Datetime UptimeRecordStart;
 	public Date UsageEndDate;
+	public String Uuid;
 
 	public ActivityHistory[] ActivityHistories;
 	public AssetAction[] AssetActions;
@@ -86,7 +105,9 @@ public class Asset extends SObject {
 	public Asset[] ChildAssets;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContractLineItem[] ContractLineItems;
 	public EmailMessage[] Emails;
+	public Entitlement[] Entitlements;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AssetFeed[] Feeds;
@@ -104,6 +125,7 @@ public class Asset extends SObject {
 	public AssetRelationship[] RelatedAssets;
 	public ResourcePreference[] ResourcePreferences;
 	public ReturnOrderLineItem[] ReturnOrderLineItems;
+	public SerializedProduct[] SerializedProducts;
 	public ServiceAppointment[] ServiceAppointments;
 	public AssetShare[] Shares;
 	public SurveySubject[] SurveySubjectEntities;
@@ -115,8 +137,8 @@ public class Asset extends SObject {
 	public WorkPlanSelectionRule[] WorkPlanSelectionRules;
 
 	public Asset clone$() {throw new java.lang.UnsupportedOperationException();}
-	public Asset clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public Asset clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public Asset clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public Asset clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public Asset clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public Asset clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public Asset clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public Asset clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

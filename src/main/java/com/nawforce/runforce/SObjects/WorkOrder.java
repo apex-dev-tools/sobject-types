@@ -1,21 +1,14 @@
 /*
- Copyright (c) 2019 Kevin Jones, All rights reserved.
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
  */
 
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -34,34 +27,37 @@ public class WorkOrder extends SObject {
 	public BusinessHours BusinessHours;
 	public Id CaseId;
 	public Case Case;
-	public com.nawforce.runforce.System.String City;
+	public String City;
 	public Id ContactId;
 	public Contact Contact;
-	public com.nawforce.runforce.System.String Country;
-	public com.nawforce.runforce.System.String CountryCode;
+	public String Country;
+	public String CountryCode;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String CurrencyIsoCode;
-	public com.nawforce.runforce.System.String Description;
+	public String CurrencyIsoCode;
+	public String Description;
 	public Decimal Discount;
 	public Decimal Duration;
 	public Decimal DurationInMinutes;
-	public com.nawforce.runforce.System.String DurationType;
+	public String DurationType;
 	public Datetime EndDate;
-	public com.nawforce.runforce.System.String GeocodeAccuracy;
+	public Id EntitlementId;
+	public Entitlement Entitlement;
+	public String GeocodeAccuracy;
 	public Decimal GrandTotal;
 	public Id Id;
-	public com.nawforce.runforce.System.Boolean IsClosed;
-	public com.nawforce.runforce.System.Boolean IsDeleted;
-	public com.nawforce.runforce.System.Boolean IsGeneratedFromMaintenancePlan;
+	public Boolean IsClosed;
+	public Boolean IsDeleted;
+	public Boolean IsGeneratedFromMaintenancePlan;
+	public Boolean IsStopped;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Decimal Latitude;
-	public com.nawforce.runforce.System.Integer LineItemCount;
+	public Integer LineItemCount;
 	public Id LocationId;
 	public Location Location;
 	public Decimal Longitude;
@@ -69,45 +65,51 @@ public class WorkOrder extends SObject {
 	public MaintenancePlan MaintenancePlan;
 	public Id MaintenanceWorkRuleId;
 	public MaintenanceWorkRule MaintenanceWorkRule;
-	public com.nawforce.runforce.System.Integer MinimumCrewSize;
+	public String MilestoneStatus;
+	public Integer MinimumCrewSize;
 	public Id OwnerId;
 	public Name Owner;
 	public Id ParentWorkOrderId;
 	public WorkOrder ParentWorkOrder;
-	public com.nawforce.runforce.System.String PostalCode;
+	public String PostalCode;
 	public Id Pricebook2Id;
 	public Pricebook2 Pricebook2;
-	public com.nawforce.runforce.System.String Priority;
+	public String Priority;
 	public Id ProductServiceCampaignId;
 	public ProductServiceCampaign ProductServiceCampaign;
 	public Id ProductServiceCampaignItemId;
 	public ProductServiceCampaignItem ProductServiceCampaignItem;
-	public com.nawforce.runforce.System.Integer RecommendedCrewSize;
+	public Integer RecommendedCrewSize;
 	public Id ReturnOrderId;
 	public ReturnOrder ReturnOrder;
 	public Id ReturnOrderLineItemId;
 	public ReturnOrderLineItem ReturnOrderLineItem;
 	public Id RootWorkOrderId;
 	public WorkOrder RootWorkOrder;
-	public com.nawforce.runforce.System.Integer ServiceAppointmentCount;
-	public com.nawforce.runforce.System.String ServiceReportLanguage;
+	public Integer ServiceAppointmentCount;
+	public Id ServiceContractId;
+	public ServiceContract ServiceContract;
+	public String ServiceReportLanguage;
 	public Id ServiceReportTemplateId;
 	public ServiceReportLayout ServiceReportTemplate;
 	public Id ServiceTerritoryId;
 	public ServiceTerritory ServiceTerritory;
+	public Datetime SlaExitDate;
+	public Datetime SlaStartDate;
 	public Datetime StartDate;
-	public com.nawforce.runforce.System.String State;
-	public com.nawforce.runforce.System.String StateCode;
-	public com.nawforce.runforce.System.String Status;
-	public com.nawforce.runforce.System.String StatusCategory;
-	public com.nawforce.runforce.System.String Street;
-	public com.nawforce.runforce.System.String Subject;
+	public String State;
+	public String StateCode;
+	public String Status;
+	public String StatusCategory;
+	public Datetime StopStartDate;
+	public String Street;
+	public String Subject;
 	public Decimal Subtotal;
 	public Date SuggestedMaintenanceDate;
 	public Datetime SystemModstamp;
 	public Decimal Tax;
 	public Decimal TotalPrice;
-	public com.nawforce.runforce.System.String WorkOrderNumber;
+	public String WorkOrderNumber;
 	public Id WorkTypeId;
 	public WorkType WorkType;
 
@@ -121,12 +123,15 @@ public class WorkOrder extends SObject {
 	public WorkOrder[] DescendantWorkOrders;
 	public DigitalSignature[] DigitalSignatures;
 	public EmailMessage[] Emails;
+	public EntityMilestone[] EntityMilestones;
 	public Event[] Events;
 	public Expense[] Expenses;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkOrderFeed[] Feeds;
 	public WorkOrderHistory[] Histories;
 	public LinkedArticle[] LinkedArticles;
+	public WorkPlan[] NewWorkPlans;
+	public WorkStep[] NewWorkSteps;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
@@ -152,8 +157,8 @@ public class WorkOrder extends SObject {
 	public WorkStep[] WorkSteps;
 
 	public WorkOrder clone$() {throw new java.lang.UnsupportedOperationException();}
-	public WorkOrder clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public WorkOrder clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public WorkOrder clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public WorkOrder clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public WorkOrder clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WorkOrder clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WorkOrder clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WorkOrder clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

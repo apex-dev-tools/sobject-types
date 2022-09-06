@@ -1,21 +1,13 @@
 /*
- Copyright (c) 2019 Kevin Jones, All rights reserved.
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
  */
 
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -23,11 +15,13 @@ public class ContactPointTypeConsentChangeEvent extends SObject {
 	public static SObjectType$<ContactPointTypeConsentChangeEvent> SObjectType;
 	public static SObjectFields$<ContactPointTypeConsentChangeEvent> Fields;
 
-	public com.nawforce.runforce.System.String CaptureContactPointType;
+	public Id BusinessBrandId;
+	public BusinessBrand BusinessBrand;
+	public String CaptureContactPointType;
 	public Datetime CaptureDate;
-	public com.nawforce.runforce.System.String CaptureSource;
+	public String CaptureSource;
 	public Object ChangeEventHeader;
-	public com.nawforce.runforce.System.String ContactPointType;
+	public String ContactPointType;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -36,21 +30,25 @@ public class ContactPointTypeConsentChangeEvent extends SObject {
 	public Datetime DoubleConsentCaptureDate;
 	public Datetime EffectiveFrom;
 	public Datetime EffectiveTo;
+	public Id EngagementChannelTypeId;
+	public EngagementChannelType EngagementChannelType;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
-	public com.nawforce.runforce.System.String Name;
+	public String Name;
 	public Id OwnerId;
 	public User Owner;
 	public Id PartyId;
 	public Individual Party;
-	public com.nawforce.runforce.System.String PrivacyConsentStatus;
-	public com.nawforce.runforce.System.String ReplayId;
+	public Id PartyRoleId;
+	public SObject PartyRole;
+	public String PrivacyConsentStatus;
+	public String ReplayId;
 
 	public ContactPointTypeConsentChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
-	public ContactPointTypeConsentChangeEvent clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public ContactPointTypeConsentChangeEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public ContactPointTypeConsentChangeEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public ContactPointTypeConsentChangeEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public ContactPointTypeConsentChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public ContactPointTypeConsentChangeEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public ContactPointTypeConsentChangeEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public ContactPointTypeConsentChangeEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

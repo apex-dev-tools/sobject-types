@@ -1,21 +1,14 @@
 /*
- Copyright (c) 2019 Kevin Jones, All rights reserved.
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
  */
 
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -26,30 +19,30 @@ public class Quote extends SObject {
 	public Id AccountId;
 	public Account Account;
 	public Address AdditionalAddress;
-	public com.nawforce.runforce.System.String AdditionalCity;
-	public com.nawforce.runforce.System.String AdditionalCountry;
-	public com.nawforce.runforce.System.String AdditionalCountryCode;
-	public com.nawforce.runforce.System.String AdditionalGeocodeAccuracy;
+	public String AdditionalCity;
+	public String AdditionalCountry;
+	public String AdditionalCountryCode;
+	public String AdditionalGeocodeAccuracy;
 	public Decimal AdditionalLatitude;
 	public Decimal AdditionalLongitude;
-	public com.nawforce.runforce.System.String AdditionalName;
-	public com.nawforce.runforce.System.String AdditionalPostalCode;
-	public com.nawforce.runforce.System.String AdditionalState;
-	public com.nawforce.runforce.System.String AdditionalStateCode;
-	public com.nawforce.runforce.System.String AdditionalStreet;
+	public String AdditionalName;
+	public String AdditionalPostalCode;
+	public String AdditionalState;
+	public String AdditionalStateCode;
+	public String AdditionalStreet;
 	public Address BillingAddress;
-	public com.nawforce.runforce.System.String BillingCity;
-	public com.nawforce.runforce.System.String BillingCountry;
-	public com.nawforce.runforce.System.String BillingCountryCode;
-	public com.nawforce.runforce.System.String BillingGeocodeAccuracy;
+	public String BillingCity;
+	public String BillingCountry;
+	public String BillingCountryCode;
+	public String BillingGeocodeAccuracy;
 	public Decimal BillingLatitude;
 	public Decimal BillingLongitude;
-	public com.nawforce.runforce.System.String BillingName;
-	public com.nawforce.runforce.System.String BillingPostalCode;
-	public com.nawforce.runforce.System.String BillingState;
-	public com.nawforce.runforce.System.String BillingStateCode;
-	public com.nawforce.runforce.System.String BillingStreet;
-	public com.nawforce.runforce.System.Boolean CanCreateQuoteLineItems;
+	public String BillingName;
+	public String BillingPostalCode;
+	public String BillingState;
+	public String BillingStateCode;
+	public String BillingStreet;
+	public Boolean CanCreateQuoteLineItems;
 	public Id ContactId;
 	public Contact Contact;
 	public Id ContractId;
@@ -57,57 +50,57 @@ public class Quote extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String CurrencyIsoCode;
-	public com.nawforce.runforce.System.String Description;
+	public String CurrencyIsoCode;
+	public String Description;
 	public Decimal Discount;
-	public com.nawforce.runforce.System.String Email;
+	public String Email;
 	public Date ExpirationDate;
-	public com.nawforce.runforce.System.String Fax;
+	public String Fax;
 	public Decimal GrandTotal;
 	public Id Id;
-	public com.nawforce.runforce.System.Boolean IsDeleted;
-	public com.nawforce.runforce.System.Boolean IsSyncing;
+	public Boolean IsDeleted;
+	public Boolean IsSyncing;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
-	public com.nawforce.runforce.System.Integer LineItemCount;
-	public com.nawforce.runforce.System.String Name;
+	public Integer LineItemCount;
+	public String Name;
 	public Id OpportunityId;
 	public Opportunity Opportunity;
 	public Id OwnerId;
 	public Name Owner;
-	public com.nawforce.runforce.System.String Phone;
+	public String Phone;
 	public Id Pricebook2Id;
 	public Pricebook2 Pricebook2;
-	public com.nawforce.runforce.System.String QuoteNumber;
+	public String QuoteNumber;
 	public Address QuoteToAddress;
-	public com.nawforce.runforce.System.String QuoteToCity;
-	public com.nawforce.runforce.System.String QuoteToCountry;
-	public com.nawforce.runforce.System.String QuoteToCountryCode;
-	public com.nawforce.runforce.System.String QuoteToGeocodeAccuracy;
+	public String QuoteToCity;
+	public String QuoteToCountry;
+	public String QuoteToCountryCode;
+	public String QuoteToGeocodeAccuracy;
 	public Decimal QuoteToLatitude;
 	public Decimal QuoteToLongitude;
-	public com.nawforce.runforce.System.String QuoteToName;
-	public com.nawforce.runforce.System.String QuoteToPostalCode;
-	public com.nawforce.runforce.System.String QuoteToState;
-	public com.nawforce.runforce.System.String QuoteToStateCode;
-	public com.nawforce.runforce.System.String QuoteToStreet;
+	public String QuoteToName;
+	public String QuoteToPostalCode;
+	public String QuoteToState;
+	public String QuoteToStateCode;
+	public String QuoteToStreet;
 	public Address ShippingAddress;
-	public com.nawforce.runforce.System.String ShippingCity;
-	public com.nawforce.runforce.System.String ShippingCountry;
-	public com.nawforce.runforce.System.String ShippingCountryCode;
-	public com.nawforce.runforce.System.String ShippingGeocodeAccuracy;
+	public String ShippingCity;
+	public String ShippingCountry;
+	public String ShippingCountryCode;
+	public String ShippingGeocodeAccuracy;
 	public Decimal ShippingHandling;
 	public Decimal ShippingLatitude;
 	public Decimal ShippingLongitude;
-	public com.nawforce.runforce.System.String ShippingName;
-	public com.nawforce.runforce.System.String ShippingPostalCode;
-	public com.nawforce.runforce.System.String ShippingState;
-	public com.nawforce.runforce.System.String ShippingStateCode;
-	public com.nawforce.runforce.System.String ShippingStreet;
-	public com.nawforce.runforce.System.String Status;
+	public String ShippingName;
+	public String ShippingPostalCode;
+	public String ShippingState;
+	public String ShippingStateCode;
+	public String ShippingStreet;
+	public String Status;
 	public Decimal Subtotal;
 	public Datetime SystemModstamp;
 	public Decimal Tax;
@@ -125,6 +118,7 @@ public class Quote extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public Order[] Orders;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public QuoteDocument[] QuoteDocuments;
@@ -135,8 +129,8 @@ public class Quote extends SObject {
 	public Task[] Tasks;
 
 	public Quote clone$() {throw new java.lang.UnsupportedOperationException();}
-	public Quote clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public Quote clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public Quote clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public Quote clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public Quote clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public Quote clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public Quote clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public Quote clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

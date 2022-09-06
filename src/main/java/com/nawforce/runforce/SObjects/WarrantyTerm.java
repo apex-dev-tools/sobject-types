@@ -1,21 +1,14 @@
 /*
- Copyright (c) 2019 Kevin Jones, All rights reserved.
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
  */
 
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -23,25 +16,25 @@ public class WarrantyTerm extends SObject {
 	public static SObjectType$<WarrantyTerm> SObjectType;
 	public static SObjectFields$<WarrantyTerm> Fields;
 
-	public com.nawforce.runforce.System.String Code;
+	public String Code;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String CurrencyIsoCode;
-	public com.nawforce.runforce.System.String Description;
-	public com.nawforce.runforce.System.String EffectiveStartDate;
-	public com.nawforce.runforce.System.String ExchangeType;
-	public com.nawforce.runforce.System.String Exclusions;
+	public String CurrencyIsoCode;
+	public String Description;
+	public String EffectiveStartDate;
+	public String ExchangeType;
+	public String Exclusions;
 	public Decimal ExpensesCovered;
-	public com.nawforce.runforce.System.Integer ExpensesCoveredDuration;
-	public com.nawforce.runforce.System.String ExpensesCoveredUnitOfTime;
+	public Integer ExpensesCoveredDuration;
+	public String ExpensesCoveredUnitOfTime;
 	public Id Id;
-	public com.nawforce.runforce.System.Boolean IsActive;
-	public com.nawforce.runforce.System.Boolean IsDeleted;
-	public com.nawforce.runforce.System.Boolean IsTransferable;
+	public Boolean IsActive;
+	public Boolean IsDeleted;
+	public Boolean IsTransferable;
 	public Decimal LaborCovered;
-	public com.nawforce.runforce.System.Integer LaborCoveredDuration;
-	public com.nawforce.runforce.System.String LaborCoveredUnitOfTime;
+	public Integer LaborCoveredDuration;
+	public String LaborCoveredUnitOfTime;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -50,15 +43,15 @@ public class WarrantyTerm extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public Decimal PartsCovered;
-	public com.nawforce.runforce.System.Integer PartsCoveredDuration;
-	public com.nawforce.runforce.System.String PartsCoveredUnitOfTime;
+	public Integer PartsCoveredDuration;
+	public String PartsCoveredUnitOfTime;
 	public Id Pricebook2Id;
 	public Pricebook2 Pricebook2;
 	public Datetime SystemModstamp;
-	public com.nawforce.runforce.System.Integer WarrantyDuration;
-	public com.nawforce.runforce.System.String WarrantyTermName;
-	public com.nawforce.runforce.System.String WarrantyType;
-	public com.nawforce.runforce.System.String WarrantyUnitOfTime;
+	public Integer WarrantyDuration;
+	public String WarrantyTermName;
+	public String WarrantyType;
+	public String WarrantyUnitOfTime;
 
 	public ActivityHistory[] ActivityHistories;
 	public AssetWarranty[] AssetWarrantyTerms;
@@ -79,8 +72,8 @@ public class WarrantyTerm extends SObject {
 	public TopicAssignment[] TopicAssignments;
 
 	public WarrantyTerm clone$() {throw new java.lang.UnsupportedOperationException();}
-	public WarrantyTerm clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public WarrantyTerm clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public WarrantyTerm clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public WarrantyTerm clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public WarrantyTerm clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WarrantyTerm clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WarrantyTerm clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WarrantyTerm clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }
