@@ -16,6 +16,8 @@ case class DescribedSObject(describe: DescribeSObjectResult) {
     describe.getChildRelationships.map(cr => (cr.getRelationshipName, cr.getChildSObject))
       .filterNot(cr => cr._1 == null)
 
+  lazy val junctionIdList: Array[String] = describe.getChildRelationships.flatMap(cr => cr.getJunctionIdListNames.filter(_.nonEmpty))
+
   lazy val asJava: String = {
     val stringWriter = new StringWriter()
     val writer = new BufferedWriter(stringWriter)
@@ -99,6 +101,11 @@ case class DescribedSObject(describe: DescribeSObjectResult) {
     }
 
     fieldsAndTypes.sortBy(_._1).foreach(fd => writeField(fd._1, fd._2, writer))
+    if (junctionIdList.nonEmpty) {
+      junctionIdList.foreach(jl => {
+        writer.write(s"\tpublic String[] $jl;\n")
+      })
+    }
     if (relationshipsAndTypes.nonEmpty)
       writer.write(s"\n")
     relationshipsAndTypes.sortBy(_._1).foreach(rd =>
