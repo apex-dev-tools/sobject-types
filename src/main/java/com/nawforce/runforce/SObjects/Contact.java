@@ -137,6 +137,7 @@ public class Contact extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
+	public WorkFeedbackRequest[] RelatedObjects;
 	public ReturnOrder[] ReturnOrders;
 	public ServiceAppointment[] ServiceAppointments;
 	public ServiceContract[] ServiceContracts;

@@ -92,6 +92,7 @@ public class Campaign extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
+	public WorkFeedbackRequest[] RelatedObjects;
 	public CampaignShare[] Shares;
 	public SurveySubject[] SurveySubjectEntities;
 	public Task[] Tasks;

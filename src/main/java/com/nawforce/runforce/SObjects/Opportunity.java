@@ -108,6 +108,7 @@ public class Opportunity extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
+	public WorkFeedbackRequest[] RelatedObjects;
 	public ServiceAppointment[] ServiceAppointments;
 	public OpportunityShare[] Shares;
 	public SurveySubject[] SurveySubjectEntities;

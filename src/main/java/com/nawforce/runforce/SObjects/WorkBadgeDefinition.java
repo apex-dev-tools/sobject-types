@@ -39,6 +39,8 @@ public class WorkBadgeDefinition extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id RewardFundId;
+	public WorkRewardFund RewardFund;
 	public Datetime SystemModstamp;
 
 	public AttachedContentDocument[] AttachedContentDocuments;

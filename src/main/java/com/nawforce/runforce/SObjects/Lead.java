@@ -120,6 +120,7 @@ public class Lead extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
+	public WorkFeedbackRequest[] RelatedObjects;
 	public ServiceAppointment[] ServiceAppointments;
 	public LeadShare[] Shares;
 	public SurveyInvitation[] SurveyInvitations;
