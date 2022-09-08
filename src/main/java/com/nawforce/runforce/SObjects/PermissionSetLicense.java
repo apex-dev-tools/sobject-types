@@ -102,6 +102,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsCustomSidebarOnAllPages;
 	public Boolean MaximumPermissionsCustomizeApplication;
 	public Boolean MaximumPermissionsDataExport;
+	public Boolean MaximumPermissionsDelegatedPortalUserAdmin;
 	public Boolean MaximumPermissionsDelegatedTwoFactor;
 	public Boolean MaximumPermissionsDeleteActivatedContract;
 	public Boolean MaximumPermissionsDeleteTopics;
@@ -182,6 +183,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsManageContentPermissions;
 	public Boolean MaximumPermissionsManageContentProperties;
 	public Boolean MaximumPermissionsManageContentTypes;
+	public Boolean MaximumPermissionsManageCssUsers;
 	public Boolean MaximumPermissionsManageCustomPermissions;
 	public Boolean MaximumPermissionsManageCustomReportTypes;
 	public Boolean MaximumPermissionsManageDashbdsInPubFolders;
@@ -206,6 +208,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsManageMobile;
 	public Boolean MaximumPermissionsManageNetworks;
 	public Boolean MaximumPermissionsManageOrchInstsAndWorkItems;
+	public Boolean MaximumPermissionsManagePartners;
 	public Boolean MaximumPermissionsManagePasswordPolicies;
 	public Boolean MaximumPermissionsManageProfilesPermissionsets;
 	public Boolean MaximumPermissionsManagePropositions;
@@ -233,7 +236,11 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsManageUsers;
 	public Boolean MaximumPermissionsMassInlineEdit;
 	public Boolean MaximumPermissionsMergeTopics;
+	public Boolean MaximumPermissionsMicrobatching;
 	public Boolean MaximumPermissionsModerateChatter;
+	public Boolean MaximumPermissionsModerateNetworkFeeds;
+	public Boolean MaximumPermissionsModerateNetworkFiles;
+	public Boolean MaximumPermissionsModerateNetworkMessages;
 	public Boolean MaximumPermissionsModerateNetworkUsers;
 	public Boolean MaximumPermissionsModifyAllData;
 	public Boolean MaximumPermissionsModifyDataClassification;
@@ -249,6 +256,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsPackaging2PromoteVersion;
 	public Boolean MaximumPermissionsPasswordNeverExpires;
 	public Boolean MaximumPermissionsPaymentsAPIUser;
+	public Boolean MaximumPermissionsPortalSuperUser;
 	public Boolean MaximumPermissionsPreventClassicExperience;
 	public Boolean MaximumPermissionsPrivacyDataAccess;
 	public Boolean MaximumPermissionsPublishPackaging;
@@ -269,6 +277,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsSendCustomNotifications;
 	public Boolean MaximumPermissionsSendSitRequests;
 	public Boolean MaximumPermissionsServiceAnalyticsUser;
+	public Boolean MaximumPermissionsShareFilesWithNetworks;
 	public Boolean MaximumPermissionsShareInternalArticles;
 	public Boolean MaximumPermissionsShowCompanyNameAsUserBadge;
 	public Boolean MaximumPermissionsSkipIdentityConfirmation;
@@ -306,12 +315,14 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsViewAllUsers;
 	public Boolean MaximumPermissionsViewAnomalyEvents;
 	public Boolean MaximumPermissionsViewContent;
+	public Boolean MaximumPermissionsViewCustomerSentiment;
 	public Boolean MaximumPermissionsViewDataAssessment;
 	public Boolean MaximumPermissionsViewDataCategories;
 	public Boolean MaximumPermissionsViewDataLeakageEvents;
 	public Boolean MaximumPermissionsViewDeveloperName;
 	public Boolean MaximumPermissionsViewEncryptedData;
 	public Boolean MaximumPermissionsViewEventLogFiles;
+	public Boolean MaximumPermissionsViewGlobalHeader;
 	public Boolean MaximumPermissionsViewHealthCheck;
 	public Boolean MaximumPermissionsViewHelpLink;
 	public Boolean MaximumPermissionsViewMLModels;

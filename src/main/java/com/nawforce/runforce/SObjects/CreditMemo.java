@@ -75,6 +75,7 @@ public class CreditMemo extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;

@@ -49,6 +49,7 @@ public class SerializedProduct extends SObject {
 	public SerializedProductHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductConsumedState[] ProductConsumedStates;

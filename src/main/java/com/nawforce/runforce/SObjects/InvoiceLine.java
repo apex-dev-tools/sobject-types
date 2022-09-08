@@ -69,6 +69,7 @@ public class InvoiceLine extends SObject {
 	public FinanceTransaction[] FinanceTransactions;
 	public InvoiceLineHistory[] Histories;
 	public InvoiceLine[] InvoiceLines;
+	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

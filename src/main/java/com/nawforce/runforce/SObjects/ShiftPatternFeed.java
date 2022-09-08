@@ -31,6 +31,7 @@ public class ShiftPatternFeed extends SObject {
 	public Datetime LastModifiedDate;
 	public Integer LikeCount;
 	public String LinkUrl;
+	public String NetworkScope;
 	public Id ParentId;
 	public ShiftPattern Parent;
 	public Id RelatedRecordId;
@@ -38,6 +39,7 @@ public class ShiftPatternFeed extends SObject {
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;
+	public String Visibility;
 
 	public FeedAttachment[] FeedAttachments;
 	public FeedComment[] FeedComments;

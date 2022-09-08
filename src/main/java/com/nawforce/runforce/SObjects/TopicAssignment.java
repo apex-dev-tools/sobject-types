@@ -24,6 +24,8 @@ public class TopicAssignment extends SObject {
 	public String EntityType;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Id NetworkId;
+	public Network Network;
 	public Datetime SystemModstamp;
 	public Id TopicId;
 	public Topic Topic;

@@ -43,6 +43,7 @@ public class AssignedResource extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AssignedResourceFeed[] Feeds;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

@@ -26,6 +26,8 @@ public class CollaborationGroupRecord extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id NetworkId;
+	public Network Network;
 	public Id RecordId;
 	public Name Record;
 	public Datetime SystemModstamp;

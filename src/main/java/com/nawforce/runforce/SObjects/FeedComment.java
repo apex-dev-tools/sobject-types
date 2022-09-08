@@ -46,9 +46,11 @@ public class FeedComment extends SObject {
 	public Id ThreadParentId;
 	public FeedComment ThreadParent;
 
+	public NetworkActivityAudit[] AuditableEntities;
 	public FeedAttachment[] FeedAttachments;
 	public FeedRevision[] FeedRevisions;
 	public FeedComment[] FeedThreadedComments;
+	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToFeedComment;
 
 	public FeedComment clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FeedComment clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

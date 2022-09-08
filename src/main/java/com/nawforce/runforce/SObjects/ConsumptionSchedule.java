@@ -48,6 +48,7 @@ public class ConsumptionSchedule extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ConsumptionScheduleFeed[] Feeds;
 	public ConsumptionScheduleHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductConsumptionSchedule[] ProductConsumptionSchedules;

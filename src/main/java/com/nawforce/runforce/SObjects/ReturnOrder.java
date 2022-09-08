@@ -76,6 +76,7 @@ public class ReturnOrder extends SObject {
 	public ReturnOrderFeed[] Feeds;
 	public ReturnOrderHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

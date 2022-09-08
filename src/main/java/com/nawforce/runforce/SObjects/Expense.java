@@ -58,6 +58,7 @@ public class Expense extends SObject {
 	public ExpenseFeed[] Feeds;
 	public ExpenseHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ExpenseShare[] Shares;

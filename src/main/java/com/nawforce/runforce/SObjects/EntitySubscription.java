@@ -21,6 +21,8 @@ public class EntitySubscription extends SObject {
 	public Datetime CreatedDate;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Id NetworkId;
+	public Network Network;
 	public Id ParentId;
 	public Name Parent;
 	public Id SubscriberId;

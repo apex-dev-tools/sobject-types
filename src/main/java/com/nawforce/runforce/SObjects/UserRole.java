@@ -33,6 +33,7 @@ public class UserRole extends SObject {
 	public Account PortalAccount;
 	public Id PortalAccountOwnerId;
 	public User PortalAccountOwner;
+	public String PortalRole;
 	public String PortalType;
 	public String RollupDescription;
 	public Datetime SystemModstamp;

@@ -130,6 +130,7 @@ public class Contact extends SObject {
 	public Opportunity[] Opportunities;
 	public OpportunityContactRole[] OpportunityContactRoles;
 	public OutgoingEmailRelation[] OutgoingEmailRelations;
+	public NetworkActivityAudit[] ParentEntities;
 	public UserEmailPreferredPerson[] PersonRecord;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

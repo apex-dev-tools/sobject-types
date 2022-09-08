@@ -26,6 +26,8 @@ public class Community extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public Id NetworkId;
+	public Network Network;
 	public Datetime SystemModstamp;
 
 	public Community clone$() {throw new java.lang.UnsupportedOperationException();}

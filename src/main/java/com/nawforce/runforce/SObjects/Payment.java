@@ -79,6 +79,7 @@ public class Payment extends SObject {
 	public PaymentFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
+	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public PaymentGatewayLog[] PaymentGatewayLogs;
 	public PaymentLineInvoice[] PaymentLinesInvoice;

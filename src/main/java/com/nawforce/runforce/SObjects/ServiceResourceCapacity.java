@@ -43,6 +43,7 @@ public class ServiceResourceCapacity extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceResourceCapacityFeed[] Feeds;
 	public ServiceResourceCapacityHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public TopicAssignment[] TopicAssignments;

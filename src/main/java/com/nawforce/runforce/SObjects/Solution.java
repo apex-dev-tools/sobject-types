@@ -54,6 +54,7 @@ public class Solution extends SObject {
 	public SolutionFeed[] Feeds;
 	public SolutionHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public SurveySubject[] SurveySubjectEntities;

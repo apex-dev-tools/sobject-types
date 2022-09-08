@@ -35,6 +35,7 @@ public class NamespaceRegistry extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public NamespaceRegistryFeed[] Feeds;
 	public NamespaceRegistryHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 
 	public NamespaceRegistry clone$() {throw new java.lang.UnsupportedOperationException();}
 	public NamespaceRegistry clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

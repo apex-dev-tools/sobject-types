@@ -51,6 +51,7 @@ public class MaintenanceWorkRule extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public MaintenanceWorkRuleFeed[] Feeds;
 	public MaintenanceWorkRuleHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public MaintenanceWorkRuleShare[] Shares;

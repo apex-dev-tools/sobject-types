@@ -16,6 +16,8 @@ public class KnowledgeableUser extends SObject {
 	public static SObjectFields$<KnowledgeableUser> Fields;
 
 	public Id Id;
+	public Id NetworkId;
+	public Network Network;
 	public Integer RawRank;
 	public Datetime SystemModstamp;
 	public Id TopicId;

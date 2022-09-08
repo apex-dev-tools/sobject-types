@@ -45,6 +45,7 @@ public class CommSubscriptionTiming extends SObject {
 	public CommSubscriptionTimingHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

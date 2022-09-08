@@ -60,6 +60,7 @@ public class ProductConsumed extends SObject {
 	public ProductConsumedFeed[] Feeds;
 	public ProductConsumedHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductConsumedState[] ProductConsumedStates;

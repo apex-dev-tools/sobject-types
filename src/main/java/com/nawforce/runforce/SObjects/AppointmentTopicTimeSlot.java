@@ -42,6 +42,7 @@ public class AppointmentTopicTimeSlot extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AppointmentTopicTimeSlotFeed[] Feeds;
 	public AppointmentTopicTimeSlotHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 
 	public AppointmentTopicTimeSlot clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AppointmentTopicTimeSlot clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

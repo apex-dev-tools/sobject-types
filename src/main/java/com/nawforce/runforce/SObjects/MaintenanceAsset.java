@@ -49,6 +49,7 @@ public class MaintenanceAsset extends SObject {
 	public MaintenanceAssetHistory[] Histories;
 	public MaintenanceWorkRule[] MaintenanceWorkRules;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

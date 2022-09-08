@@ -44,6 +44,7 @@ public class CommSubscription extends SObject {
 	public CommSubscriptionHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public CommSubscriptionShare[] Shares;

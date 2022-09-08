@@ -61,6 +61,7 @@ public class User extends SObject {
 	public Individual Individual;
 	public Boolean IsActive;
 	public Boolean IsExtIndicatorVisible;
+	public Boolean IsPortalEnabled;
 	public Boolean IsProfilePhotoActive;
 	public Integer JigsawImportLimitOverride;
 	public String LanguageLocaleKey;
@@ -86,6 +87,7 @@ public class User extends SObject {
 	public Datetime OfflineTrialExpirationDate;
 	public String OutOfOfficeMessage;
 	public String Phone;
+	public String PortalRole;
 	public String PostalCode;
 	public Id ProfileId;
 	public Profile Profile;
@@ -223,6 +225,7 @@ public class User extends SObject {
 	public User[] DelegatedUsers;
 	public Shipment[] DeliveredToShipments;
 	public EmailMessageRelation[] EmailMessageRelations;
+	public NetworkActivityAudit[] EntityCreators;
 	public EventRelation[] EventRelations;
 	public ExternalDataUserAuth[] ExternalDataUserAuths;
 	public EntitySubscription[] FeedSubscriptions;
@@ -234,10 +237,14 @@ public class User extends SObject {
 	public InstalledMobileApp[] InstalledMobileApps;
 	public LeadCleanInfo[] LeadCleanInfoReviewers;
 	public User[] ManagedUsers;
+	public NetworkMember[] NetworkMemberUsers;
+	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToUser;
 	public OpportunitySplit[] OpportunitySplits;
 	public OpportunityTeamMember[] OpportunityTeams;
 	public OutgoingEmailRelation[] OutgoingEmailRelations;
 	public OwnedContentDocument[] OwnedContentDocuments;
+	public NetworkActivityAudit[] ParentEntities;
+	public DelegatedAccount[] ParentId;
 	public PermissionSetAssignment[] PermissionSetAssignments;
 	public PermissionSetLicenseAssign[] PermissionSetLicenseAssignments;
 	public UserEmailPreferredPerson[] PersonRecord;

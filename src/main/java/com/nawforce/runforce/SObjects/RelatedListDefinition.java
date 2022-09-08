@@ -30,9 +30,9 @@ public class RelatedListDefinition extends SObject {
 
 	public RelatedListColumnDefinition[] RelatedListColumnDefinitions;
 
-	public RelatedListDefinition clone$() {throw new java.lang.UnsupportedOperationException();}
-	public RelatedListDefinition clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public RelatedListDefinition clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public RelatedListDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public RelatedListDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public RelatedListDefinition clone$() {throw new UnsupportedOperationException();}
+	public RelatedListDefinition clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
+	public RelatedListDefinition clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
+	public RelatedListDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
+	public RelatedListDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
 }

@@ -69,6 +69,7 @@ public class ReturnOrderLineItem extends SObject {
 	public ReturnOrderLineItemFeed[] Feeds;
 	public ReturnOrderLineItemHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductTransfer[] ProductTransfers;

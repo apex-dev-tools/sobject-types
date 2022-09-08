@@ -101,6 +101,7 @@ public class Opportunity extends SObject {
 	public OpportunitySplit[] OpportunitySplits;
 	public OpportunityTeamMember[] OpportunityTeamMembers;
 	public Order[] Orders;
+	public NetworkActivityAudit[] ParentEntities;
 	public Partner[] Partners;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

@@ -48,6 +48,8 @@ public class ContentVersionChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Integer NegativeRatingCount;
+	public Id NetworkId;
+	public Network Network;
 	public String Origin;
 	public Id OwnerId;
 	public User Owner;

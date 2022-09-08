@@ -86,7 +86,9 @@ public class Case extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public CaseFeed[] Feeds;
 	public CaseHistory[] Histories;
+	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

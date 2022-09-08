@@ -45,6 +45,7 @@ public class ShiftPatternEntry extends SObject {
 	public ShiftPatternEntryFeed[] Feeds;
 	public ShiftPatternEntryHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public Task[] Tasks;
 
 	public ShiftPatternEntry clone$() {throw new java.lang.UnsupportedOperationException();}

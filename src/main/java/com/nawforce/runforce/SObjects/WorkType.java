@@ -52,6 +52,7 @@ public class WorkType extends SObject {
 	public MaintenanceAsset[] MaintenanceAssets;
 	public MaintenancePlan[] MaintenancePlans;
 	public MaintenanceWorkRule[] MaintenanceWorkRules;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductServiceCampaign[] ProductServiceCampaignWorkTypes;

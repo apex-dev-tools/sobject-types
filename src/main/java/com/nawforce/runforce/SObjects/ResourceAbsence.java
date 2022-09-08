@@ -56,6 +56,7 @@ public class ResourceAbsence extends SObject {
 	public ResourceAbsenceFeed[] Feeds;
 	public ResourceAbsenceHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

@@ -26,6 +26,8 @@ public class RecentlyViewed extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public String NameOrAlias;
+	public Id NetworkId;
+	public Network Network;
 	public String Phone;
 	public Id ProfileId;
 	public Profile Profile;

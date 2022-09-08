@@ -119,6 +119,7 @@ public class Quote extends SObject {
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public Order[] Orders;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public QuoteDocument[] QuoteDocuments;

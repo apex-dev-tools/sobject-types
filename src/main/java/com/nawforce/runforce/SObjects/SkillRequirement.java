@@ -40,6 +40,7 @@ public class SkillRequirement extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public SkillRequirementFeed[] Feeds;
 	public SkillRequirementHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

@@ -70,6 +70,7 @@ public class ContractLineItem extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public Task[] Tasks;

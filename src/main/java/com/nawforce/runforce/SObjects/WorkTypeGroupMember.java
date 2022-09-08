@@ -39,6 +39,7 @@ public class WorkTypeGroupMember extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkTypeGroupMemberFeed[] Feeds;
 	public WorkTypeGroupMemberHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

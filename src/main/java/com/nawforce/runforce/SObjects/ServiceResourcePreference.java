@@ -42,6 +42,7 @@ public class ServiceResourcePreference extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceResourcePreferenceFeed[] Feeds;
 	public ServiceResourcePreferenceHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ServiceResourcePreferenceShare[] Shares;
 
 	public ServiceResourcePreference clone$() {throw new java.lang.UnsupportedOperationException();}

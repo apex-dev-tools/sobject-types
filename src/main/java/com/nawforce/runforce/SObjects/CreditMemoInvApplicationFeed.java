@@ -31,6 +31,7 @@ public class CreditMemoInvApplicationFeed extends SObject {
 	public Datetime LastModifiedDate;
 	public Integer LikeCount;
 	public String LinkUrl;
+	public String NetworkScope;
 	public Id ParentId;
 	public CreditMemoInvApplication Parent;
 	public Id RelatedRecordId;
@@ -38,6 +39,7 @@ public class CreditMemoInvApplicationFeed extends SObject {
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;
+	public String Visibility;
 
 	public FeedAttachment[] FeedAttachments;
 	public FeedComment[] FeedComments;

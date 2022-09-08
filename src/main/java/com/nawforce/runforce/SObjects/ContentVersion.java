@@ -51,6 +51,8 @@ public class ContentVersion extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Integer NegativeRatingCount;
+	public Id NetworkId;
+	public Network Network;
 	public String Origin;
 	public Id OwnerId;
 	public User Owner;
@@ -69,6 +71,7 @@ public class ContentVersion extends SObject {
 	public String VersionDataUrl;
 	public String VersionNumber;
 
+	public NetworkActivityAudit[] AuditableEntities;
 	public AuthorizationFormConsent[] AuthorizationFormConsents;
 	public ContentVersionHistory[] Histories;
 

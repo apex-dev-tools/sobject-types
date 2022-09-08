@@ -46,6 +46,7 @@ public class Survey extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public SurveyFeed[] Feeds;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public SurveyShare[] Shares;

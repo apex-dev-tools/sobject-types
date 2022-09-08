@@ -42,6 +42,7 @@ public class LocationGroup extends SObject {
 	public LocationGroupFeed[] Feeds;
 	public LocationGroupHistory[] Histories;
 	public LocationGroupAssignment[] LocationGroups;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public LocationGroupShare[] Shares;

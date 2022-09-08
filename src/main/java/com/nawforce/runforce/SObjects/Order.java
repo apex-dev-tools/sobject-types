@@ -106,11 +106,13 @@ public class Order extends SObject {
 	public OrderFeed[] Feeds;
 	public OrderHistory[] Histories;
 	public Invoice[] Invoices;
+	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public OrderItem[] OrderItems;
 	public Order[] Orders;
+	public NetworkActivityAudit[] ParentEntities;
 	public PaymentGroup[] PaymentGroups;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;

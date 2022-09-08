@@ -42,6 +42,7 @@ public class EngagementChannelType extends SObject {
 	public EngagementChannelTypeHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public EngagementChannelTypeShare[] Shares;

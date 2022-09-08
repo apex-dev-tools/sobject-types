@@ -39,6 +39,7 @@ public class FeedItem extends SObject {
 	public Datetime LastModifiedDate;
 	public Integer LikeCount;
 	public String LinkUrl;
+	public String NetworkScope;
 	public Id ParentId;
 	public Name Parent;
 	public Id RelatedRecordId;
@@ -48,7 +49,9 @@ public class FeedItem extends SObject {
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;
+	public String Visibility;
 
+	public NetworkActivityAudit[] AuditableEntities;
 	public FeedAttachment[] FeedAttachments;
 	public FeedComment[] FeedComments;
 	public WorkThanks[] FeedItemThanks;
@@ -56,6 +59,7 @@ public class FeedItem extends SObject {
 	public FeedRevision[] FeedRevisions;
 	public FeedSignal[] FeedSignals;
 	public FeedTrackedChange[] FeedTrackedChanges;
+	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToFeedItem;
 	public TopicAssignment[] TopicAssignments;
 
 	public FeedItem clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -20,6 +20,8 @@ public class CampaignChangeEvent extends SObject {
 	public Decimal AmountAllOpportunities;
 	public Decimal AmountWonOpportunities;
 	public Decimal BudgetedCost;
+	public Id CampaignImageId;
+	public ContentDocument CampaignImage;
 	public Id CampaignMemberRecordTypeId;
 	public RecordType CampaignMemberRecordType;
 	public Object ChangeEventHeader;

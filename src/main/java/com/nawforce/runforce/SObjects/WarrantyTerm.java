@@ -64,6 +64,7 @@ public class WarrantyTerm extends SObject {
 	public WarrantyTermFeed[] Feeds;
 	public WarrantyTermHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductWarrantyTerm[] ProductWarrantyTerms;

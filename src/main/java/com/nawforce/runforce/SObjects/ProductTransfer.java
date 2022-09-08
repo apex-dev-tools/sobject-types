@@ -75,6 +75,7 @@ public class ProductTransfer extends SObject {
 	public ProductTransferFeed[] Feeds;
 	public ProductTransferHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductItemTransaction[] ProductItemTransactions;

@@ -47,6 +47,7 @@ public class ExpenseReportEntry extends SObject {
 	public ExpenseReportEntryFeed[] Feeds;
 	public ExpenseReportEntryHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

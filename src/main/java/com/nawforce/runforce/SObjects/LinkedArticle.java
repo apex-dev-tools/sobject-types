@@ -43,6 +43,7 @@ public class LinkedArticle extends SObject {
 	public LinkedArticleHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public NetworkActivityAudit[] ParentEntities;
 	public TopicAssignment[] TopicAssignments;
 
 	public LinkedArticle clone$() {throw new java.lang.UnsupportedOperationException();}

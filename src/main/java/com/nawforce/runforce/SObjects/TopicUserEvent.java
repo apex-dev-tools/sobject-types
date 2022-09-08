@@ -18,6 +18,8 @@ public class TopicUserEvent extends SObject {
 	public String ActionEnum;
 	public Datetime CreatedDate;
 	public Id Id;
+	public Id NetworkId;
+	public Network Network;
 	public Id TopicId;
 	public Topic Topic;
 	public Id UserId;

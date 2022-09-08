@@ -27,6 +27,8 @@ public class ChatterExtensionConfig extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id NetworkId;
+	public Network Network;
 	public Integer Position;
 	public Datetime SystemModstamp;
 

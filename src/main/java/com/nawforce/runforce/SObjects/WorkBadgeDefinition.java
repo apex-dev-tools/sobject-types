@@ -37,6 +37,8 @@ public class WorkBadgeDefinition extends SObject {
 	public Integer LimitNumber;
 	public Date LimitStartDate;
 	public String Name;
+	public Id NetworkId;
+	public Network Network;
 	public Id OwnerId;
 	public Name Owner;
 	public Id RewardFundId;
@@ -50,6 +52,7 @@ public class WorkBadgeDefinition extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkBadgeDefinitionFeed[] Feeds;
 	public WorkBadgeDefinitionHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public WorkBadgeDefinitionShare[] Shares;

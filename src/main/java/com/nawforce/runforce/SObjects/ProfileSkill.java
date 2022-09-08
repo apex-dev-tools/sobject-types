@@ -40,6 +40,7 @@ public class ProfileSkill extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ProfileSkillFeed[] Feeds;
 	public ProfileSkillHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProfileSkillUser[] ProfileSkillUserChildren;

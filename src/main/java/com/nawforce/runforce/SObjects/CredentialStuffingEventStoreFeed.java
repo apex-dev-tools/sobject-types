@@ -31,6 +31,7 @@ public class CredentialStuffingEventStoreFeed extends SObject {
 	public Datetime LastModifiedDate;
 	public Integer LikeCount;
 	public String LinkUrl;
+	public String NetworkScope;
 	public Id ParentId;
 	public CredentialStuffingEventStore Parent;
 	public Id RelatedRecordId;
@@ -38,6 +39,7 @@ public class CredentialStuffingEventStoreFeed extends SObject {
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;
+	public String Visibility;
 
 	public FeedAttachment[] FeedAttachments;
 	public FeedComment[] FeedComments;

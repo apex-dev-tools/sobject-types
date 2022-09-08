@@ -130,11 +130,13 @@ public class WorkOrder extends SObject {
 	public WorkOrderFeed[] Feeds;
 	public WorkOrderHistory[] Histories;
 	public LinkedArticle[] LinkedArticles;
+	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public WorkPlan[] NewWorkPlans;
 	public WorkStep[] NewWorkSteps;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductRequestLineItem[] ProductRequestLineItems;

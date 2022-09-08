@@ -56,6 +56,7 @@ public class OrderItem extends SObject {
 	public InvoiceLine[] GroupInvoiceLines;
 	public OrderItemHistory[] Histories;
 	public InvoiceLine[] InvoiceLines;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessException[] ProcessExceptions;
 	public ReturnOrderLineItem[] ReturnOrderLineItems;
 

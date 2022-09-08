@@ -57,6 +57,7 @@ public class ServiceTerritoryMember extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceTerritoryMemberFeed[] Feeds;
 	public ServiceTerritoryMemberHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

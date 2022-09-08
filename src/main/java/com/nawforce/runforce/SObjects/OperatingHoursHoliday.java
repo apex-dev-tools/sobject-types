@@ -43,6 +43,7 @@ public class OperatingHoursHoliday extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OperatingHoursHolidayFeed[] Feeds;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public Task[] Tasks;
 
 	public OperatingHoursHoliday clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -44,6 +44,7 @@ public class Territory2Model extends SObject {
 	public Territory2ModelFeed[] Feeds;
 	public Territory2ModelHistory[] Histories;
 	public ObjectTerritory2AssignmentRule[] ObjectTerritory2AssignmentRules;
+	public NetworkActivityAudit[] ParentEntities;
 	public Territory2[] Territory2s;
 
 	public Territory2Model clone$() {throw new java.lang.UnsupportedOperationException();}

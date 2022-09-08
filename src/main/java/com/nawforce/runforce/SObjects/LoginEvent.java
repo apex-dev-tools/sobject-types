@@ -43,6 +43,8 @@ public class LoginEvent extends SObject {
 	public Decimal LoginLongitude;
 	public String LoginType;
 	public String LoginUrl;
+	public Id NetworkId;
+	public Network Network;
 	public String Platform;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;

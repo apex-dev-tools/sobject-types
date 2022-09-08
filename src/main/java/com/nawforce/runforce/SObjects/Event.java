@@ -86,6 +86,7 @@ public class Event extends SObject {
 	public EventRelation[] EventRelations;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public EventFeed[] Feeds;
+	public NetworkActivityAudit[] ParentEntities;
 	public Event[] RecurringEvents;
 	public SurveySubject[] SurveySubjectEntities;
 	public TopicAssignment[] TopicAssignments;

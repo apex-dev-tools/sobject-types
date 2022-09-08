@@ -43,6 +43,7 @@ public class ProductRequired extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ProductRequiredFeed[] Feeds;
 	public ProductRequiredHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

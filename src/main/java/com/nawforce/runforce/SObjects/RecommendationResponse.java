@@ -27,6 +27,8 @@ public class RecommendationResponse extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id NetworkId;
+	public Network Network;
 	public String OnBehalfOf;
 	public String OnBehalfOfName;
 	public String OnBehalfOfType;

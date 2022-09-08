@@ -45,6 +45,7 @@ public class ReportAnomalyEventStore extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ThreatDetectionFeedback[] Feedbacks;
 	public ReportAnomalyEventStoreFeed[] Feeds;
+	public NetworkActivityAudit[] ParentEntities;
 
 	public ReportAnomalyEventStore clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ReportAnomalyEventStore clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

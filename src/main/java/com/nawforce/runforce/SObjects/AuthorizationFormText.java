@@ -43,6 +43,7 @@ public class AuthorizationFormText extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AuthorizationFormTextFeed[] Feeds;
 	public AuthorizationFormTextHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

@@ -43,6 +43,7 @@ public class KnowledgeArticle extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public LinkedArticle[] LinkedArticles;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public KnowledgeArticleVersionHistory[] VersionHistories;

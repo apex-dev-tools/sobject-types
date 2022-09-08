@@ -48,6 +48,7 @@ public class ShipmentItem extends SObject {
 	public ShipmentItemFeed[] Feeds;
 	public ShipmentItemHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public Task[] Tasks;

@@ -113,9 +113,11 @@ public class Asset extends SObject {
 	public AssetFeed[] Feeds;
 	public AssetHistory[] Histories;
 	public MaintenanceAsset[] MaintenanceAssets;
+	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public AssetRelationship[] PrimaryAssets;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

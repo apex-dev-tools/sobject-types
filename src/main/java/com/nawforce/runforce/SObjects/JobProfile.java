@@ -42,6 +42,7 @@ public class JobProfile extends SObject {
 	public Shift[] JobProfiles;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public JobProfileShare[] Shares;

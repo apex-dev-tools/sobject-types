@@ -15,6 +15,8 @@ public class SurveyInvitation extends SObject {
 	public static SObjectType$<SurveyInvitation> SObjectType;
 	public static SObjectFields$<SurveyInvitation> Fields;
 
+	public Id CommunityId;
+	public Network Community;
 	public Id ContactId;
 	public Contact Contact;
 	public Id CreatedById;

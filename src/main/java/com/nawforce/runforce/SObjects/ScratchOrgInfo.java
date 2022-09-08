@@ -70,6 +70,7 @@ public class ScratchOrgInfo extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ScratchOrgInfoFeed[] Feeds;
 	public ScratchOrgInfoHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ScratchOrgInfoShare[] Shares;

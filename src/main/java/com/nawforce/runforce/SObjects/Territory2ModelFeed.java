@@ -31,6 +31,7 @@ public class Territory2ModelFeed extends SObject {
 	public Datetime LastModifiedDate;
 	public Integer LikeCount;
 	public String LinkUrl;
+	public String NetworkScope;
 	public Id ParentId;
 	public Territory2Model Parent;
 	public Id RelatedRecordId;
@@ -38,6 +39,7 @@ public class Territory2ModelFeed extends SObject {
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;
+	public String Visibility;
 
 	public FeedAttachment[] FeedAttachments;
 	public FeedComment[] FeedComments;

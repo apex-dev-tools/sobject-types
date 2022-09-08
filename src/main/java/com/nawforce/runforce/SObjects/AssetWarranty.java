@@ -59,6 +59,7 @@ public class AssetWarranty extends SObject {
 	public AssetWarrantyFeed[] Feeds;
 	public AssetWarrantyHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public Task[] Tasks;

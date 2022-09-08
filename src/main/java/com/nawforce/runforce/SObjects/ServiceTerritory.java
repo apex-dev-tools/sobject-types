@@ -65,6 +65,7 @@ public class ServiceTerritory extends SObject {
 	public ServiceTerritoryFeed[] Feeds;
 	public ServiceTerritoryHistory[] Histories;
 	public ServiceTerritoryLocation[] Locations;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

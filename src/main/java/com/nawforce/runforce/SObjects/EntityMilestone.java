@@ -65,6 +65,7 @@ public class EntityMilestone extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public EntityMilestoneFeed[] Feeds;
 	public EntityMilestoneHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

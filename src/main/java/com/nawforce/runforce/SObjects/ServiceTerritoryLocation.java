@@ -37,6 +37,7 @@ public class ServiceTerritoryLocation extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceTerritoryLocationFeed[] Feeds;
 	public ServiceTerritoryLocationHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

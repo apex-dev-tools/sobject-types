@@ -26,6 +26,8 @@ public class FeedRevision extends SObject {
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsValueRichText;
+	public Id OriginNetworkId;
+	public Network OriginNetwork;
 	public Integer Revision;
 	public Datetime SystemModstamp;
 	public String Value;

@@ -50,6 +50,7 @@ public class TimeSheet extends SObject {
 	public TimeSheetFeed[] Feeds;
 	public TimeSheetHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

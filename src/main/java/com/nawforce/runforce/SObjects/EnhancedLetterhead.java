@@ -36,6 +36,7 @@ public class EnhancedLetterhead extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public EnhancedLetterheadFeed[] Feeds;
+	public NetworkActivityAudit[] ParentEntities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 

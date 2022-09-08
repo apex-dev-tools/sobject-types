@@ -28,6 +28,8 @@ public class CollaborationGroupMember extends SObject {
 	public Datetime LastModifiedDate;
 	public Id MemberId;
 	public User Member;
+	public Id NetworkId;
+	public Network Network;
 	public String NotificationFrequency;
 	public Datetime SystemModstamp;
 

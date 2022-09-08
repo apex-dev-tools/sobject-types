@@ -41,6 +41,7 @@ public class WorkTypeGroup extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkTypeGroupFeed[] Feeds;
 	public WorkTypeGroupHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

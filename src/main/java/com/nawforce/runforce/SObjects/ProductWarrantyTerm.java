@@ -40,6 +40,7 @@ public class ProductWarrantyTerm extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ProductWarrantyTermFeed[] Feeds;
 	public ProductWarrantyTermHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 
 	public ProductWarrantyTerm clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ProductWarrantyTerm clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

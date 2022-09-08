@@ -22,6 +22,8 @@ public class Campaign extends SObject {
 	public Decimal AmountAllOpportunities;
 	public Decimal AmountWonOpportunities;
 	public Decimal BudgetedCost;
+	public Id CampaignImageId;
+	public ContentDocument CampaignImage;
 	public Id CampaignMemberRecordTypeId;
 	public RecordType CampaignMemberRecordType;
 	public Id CreatedById;
@@ -87,6 +89,8 @@ public class Campaign extends SObject {
 	public ListEmail[] ListEmails;
 	public OpenActivity[] OpenActivities;
 	public Opportunity[] Opportunities;
+	public NetworkActivityAudit[] ParentEntities;
+	public PartnerFundRequest[] PartnerFundRequests;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

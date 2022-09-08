@@ -19,6 +19,8 @@ public class ContentFolder extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id FeaturedMediaId;
+	public ContentAsset FeaturedMedia;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

@@ -20,6 +20,8 @@ public class ChatterActivity extends SObject {
 	public Id Id;
 	public Integer InfluenceRawRank;
 	public Integer LikeReceivedCount;
+	public Id NetworkId;
+	public Network Network;
 	public Id ParentId;
 	public User Parent;
 	public Integer PostCount;

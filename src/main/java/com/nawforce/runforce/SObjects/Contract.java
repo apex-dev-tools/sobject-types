@@ -92,11 +92,13 @@ public class Contract extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContractFeed[] Feeds;
 	public ContractHistory[] Histories;
+	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public Opportunity[] Opportunities;
 	public Order[] Orders;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public Quote[] Quotes;

@@ -39,6 +39,7 @@ public class OperatingHours extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OperatingHoursFeed[] Feeds;
 	public OperatingHoursHoliday[] OperatingHoursHolidays;
+	public NetworkActivityAudit[] ParentEntities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public ServiceResourcePreference[] ServiceResourcePreferences;

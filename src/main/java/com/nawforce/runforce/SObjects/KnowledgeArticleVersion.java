@@ -73,6 +73,7 @@ public class KnowledgeArticleVersion extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public LinkedArticle[] LinkedArticles;
+	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public SearchPromotionRule[] SearchPromotionRules;

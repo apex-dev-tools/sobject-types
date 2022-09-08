@@ -64,9 +64,11 @@ public class Product2 extends SObject {
 	public Product2Feed[] Feeds;
 	public Product2History[] Histories;
 	public InvoiceLine[] InvoiceLines;
+	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public PricebookEntry[] PricebookEntries;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

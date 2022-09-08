@@ -54,6 +54,7 @@ public class SessionHijackingEventStore extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ThreatDetectionFeedback[] Feedbacks;
 	public SessionHijackingEventStoreFeed[] Feeds;
+	public NetworkActivityAudit[] ParentEntities;
 
 	public SessionHijackingEventStore clone$() {throw new java.lang.UnsupportedOperationException();}
 	public SessionHijackingEventStore clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

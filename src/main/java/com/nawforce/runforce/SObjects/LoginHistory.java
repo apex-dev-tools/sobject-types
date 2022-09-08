@@ -31,6 +31,8 @@ public class LoginHistory extends SObject {
 	public Datetime LoginTime;
 	public String LoginType;
 	public String LoginUrl;
+	public Id NetworkId;
+	public Network Network;
 	public Boolean OptionsIsGet;
 	public Boolean OptionsIsPost;
 	public String Platform;

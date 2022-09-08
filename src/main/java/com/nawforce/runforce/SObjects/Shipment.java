@@ -80,6 +80,7 @@ public class Shipment extends SObject {
 	public ShipmentFeed[] Feeds;
 	public ShipmentHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductTransfer[] ProductTransfers;

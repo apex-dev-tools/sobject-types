@@ -44,6 +44,7 @@ public class ServiceCrew extends SObject {
 	public ServiceCrewFeed[] Feeds;
 	public ServiceCrewHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

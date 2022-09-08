@@ -55,6 +55,7 @@ public class PartyConsent extends SObject {
 	public PartyConsentFeed[] Feeds;
 	public PartyConsentHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public PartyConsentShare[] Shares;

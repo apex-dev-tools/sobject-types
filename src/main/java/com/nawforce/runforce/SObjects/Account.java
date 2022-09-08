@@ -32,6 +32,8 @@ public class Account extends SObject {
 	public String BillingState;
 	public String BillingStateCode;
 	public String BillingStreet;
+	public String ChannelProgramLevelName;
+	public String ChannelProgramName;
 	public String CleanStatus;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -44,8 +46,10 @@ public class Account extends SObject {
 	public String Fax;
 	public Id Id;
 	public String Industry;
+	public Boolean IsCustomerPortal;
 	public Boolean IsDeleted;
 	public Boolean IsExcludedFromRealign;
+	public Boolean IsPartner;
 	public String Jigsaw;
 	public String JigsawCompanyId;
 	public Date LastActivityDate;
@@ -91,6 +95,7 @@ public class Account extends SObject {
 	public String Website;
 	public String YearStarted;
 
+	public AccountBrand[] AccountBrands;
 	public AccountCleanInfo[] AccountCleanInfos;
 	public AccountContactRole[] AccountContactRoles;
 	public AccountPartner[] AccountPartnersFrom;
@@ -105,6 +110,7 @@ public class Account extends SObject {
 	public AuthorizationFormConsent[] AuthorizationFormConsents;
 	public CardPaymentMethod[] CardPaymentMethods;
 	public Case[] Cases;
+	public ChannelProgramMember[] ChannelProgramMembers;
 	public Account[] ChildAccounts;
 	public CombinedAttachment[] CombinedAttachments;
 	public CommSubscriptionConsent[] CommSubscriptionConsents;
@@ -116,6 +122,7 @@ public class Account extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public Contract[] Contracts;
 	public CreditMemo[] CreditMemos;
+	public DelegatedAccount[] DelegatedAccounts;
 	public DigitalWallet[] DigitalWallets;
 	public DuplicateRecordItem[] DuplicateRecordItems;
 	public EmailMessage[] Emails;
@@ -129,6 +136,7 @@ public class Account extends SObject {
 	public AccountHistory[] Histories;
 	public Invoice[] Invoices;
 	public MaintenancePlan[] MaintenancePlans;
+	public DelegatedAccount[] ManagedAccount;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public ObjectTerritory2Association[] ObjectTerritory2Associations;
@@ -136,6 +144,11 @@ public class Account extends SObject {
 	public Opportunity[] Opportunities;
 	public OpportunityPartner[] OpportunityPartnersTo;
 	public Order[] Orders;
+	public NetworkActivityAudit[] ParentEntities;
+	public PartnerFundAllocation[] PartnerFundAllocations;
+	public PartnerFundClaim[] PartnerFundClaims;
+	public PartnerFundRequest[] PartnerFundRequests;
+	public PartnerMarketingBudget[] PartnerMarketingBudgets;
 	public Partner[] PartnersFrom;
 	public Partner[] PartnersTo;
 	public PaymentAuthAdjustment[] PaymentAuthAdjustments;

@@ -71,6 +71,8 @@ public class Task extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public TaskFeed[] Feeds;
+	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
+	public NetworkActivityAudit[] ParentEntities;
 	public Task[] RecurringTasks;
 	public SurveySubject[] SurveySubjectEntities;
 	public TopicAssignment[] TopicAssignments;

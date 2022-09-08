@@ -50,6 +50,7 @@ public class ProductItem extends SObject {
 	public ProductItemFeed[] Feeds;
 	public ProductItemHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductItemTransaction[] ProductItemTransactions;

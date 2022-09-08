@@ -52,6 +52,7 @@ public class CreditMemoInvApplication extends SObject {
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
 	public CreditMemoInvApplicationHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

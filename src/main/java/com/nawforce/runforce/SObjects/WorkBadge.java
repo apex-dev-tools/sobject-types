@@ -33,6 +33,8 @@ public class WorkBadge extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Message;
+	public Id NetworkId;
+	public Network Network;
 	public Id RecipientId;
 	public User Recipient;
 	public Id SourceId;

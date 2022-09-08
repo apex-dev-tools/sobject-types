@@ -43,6 +43,8 @@ public class CollaborationGroup extends SObject {
 	public String MediumPhotoUrl;
 	public Integer MemberCount;
 	public String Name;
+	public Id NetworkId;
+	public Network Network;
 	public Id OwnerId;
 	public User Owner;
 	public String SmallPhotoUrl;
@@ -57,6 +59,7 @@ public class CollaborationGroup extends SObject {
 	public CollaborationGroupFeed[] Feeds;
 	public CollaborationGroupMemberRequest[] GroupMemberRequests;
 	public CollaborationGroupMember[] GroupMembers;
+	public NetworkActivityAudit[] ParentEntities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 

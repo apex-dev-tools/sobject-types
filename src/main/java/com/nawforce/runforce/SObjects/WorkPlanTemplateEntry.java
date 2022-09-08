@@ -45,6 +45,7 @@ public class WorkPlanTemplateEntry extends SObject {
 	public WorkPlanTemplateEntryFeed[] Feeds;
 	public WorkPlanTemplateEntryHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public Task[] Tasks;

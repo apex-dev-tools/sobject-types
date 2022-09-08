@@ -50,6 +50,7 @@ public class ApiAnomalyEventStore extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ThreatDetectionFeedback[] Feedbacks;
 	public ApiAnomalyEventStoreFeed[] Feeds;
+	public NetworkActivityAudit[] ParentEntities;
 
 	public ApiAnomalyEventStore clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ApiAnomalyEventStore clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -42,6 +42,7 @@ public class AssetDowntimePeriod extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AssetDowntimePeriodFeed[] Feeds;
 	public AssetDowntimePeriodHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 

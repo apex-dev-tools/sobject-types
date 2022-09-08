@@ -19,6 +19,10 @@ public class Site extends SObject {
 	public Id AdminId;
 	public User Admin;
 	public String AnalyticsTrackingCode;
+	public String ArchiveStatus;
+	public Id ArchivedById;
+	public User ArchivedBy;
+	public Datetime ArchivedDate;
 	public String ClickjackProtectionLevel;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -67,6 +71,7 @@ public class Site extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public SiteFeed[] Feeds;
 	public SiteHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public DomainSite[] SiteDomainPaths;
 	public SiteIframeWhiteListUrl[] SiteIframeWhiteListUrls;
 

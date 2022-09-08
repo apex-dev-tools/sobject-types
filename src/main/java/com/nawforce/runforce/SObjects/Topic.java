@@ -23,6 +23,8 @@ public class Topic extends SObject {
 	public Id Id;
 	public String ManagedTopicType;
 	public String Name;
+	public Id NetworkId;
+	public Network Network;
 	public Datetime SystemModstamp;
 	public Integer TalkingAbout;
 
@@ -32,6 +34,7 @@ public class Topic extends SObject {
 	public TopicFeed[] Feeds;
 	public ListEmailRecipientSource[] ListEmailRecipientSources;
 	public TopicLocalization[] Localization;
+	public NetworkActivityAudit[] ParentEntities;
 	public TopicAssignment[] TopicAssignments;
 
 	public Topic clone$() {throw new java.lang.UnsupportedOperationException();}

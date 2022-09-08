@@ -97,6 +97,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsCustomSidebarOnAllPages;
 	public Boolean PermissionsCustomizeApplication;
 	public Boolean PermissionsDataExport;
+	public Boolean PermissionsDelegatedPortalUserAdmin;
 	public Boolean PermissionsDelegatedTwoFactor;
 	public Boolean PermissionsDeleteActivatedContract;
 	public Boolean PermissionsDeleteTopics;
@@ -177,6 +178,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsManageContentPermissions;
 	public Boolean PermissionsManageContentProperties;
 	public Boolean PermissionsManageContentTypes;
+	public Boolean PermissionsManageCssUsers;
 	public Boolean PermissionsManageCustomPermissions;
 	public Boolean PermissionsManageCustomReportTypes;
 	public Boolean PermissionsManageDashbdsInPubFolders;
@@ -201,6 +203,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsManageMobile;
 	public Boolean PermissionsManageNetworks;
 	public Boolean PermissionsManageOrchInstsAndWorkItems;
+	public Boolean PermissionsManagePartners;
 	public Boolean PermissionsManagePasswordPolicies;
 	public Boolean PermissionsManageProfilesPermissionsets;
 	public Boolean PermissionsManagePropositions;
@@ -228,7 +231,11 @@ public class Profile extends SObject {
 	public Boolean PermissionsManageUsers;
 	public Boolean PermissionsMassInlineEdit;
 	public Boolean PermissionsMergeTopics;
+	public Boolean PermissionsMicrobatching;
 	public Boolean PermissionsModerateChatter;
+	public Boolean PermissionsModerateNetworkFeeds;
+	public Boolean PermissionsModerateNetworkFiles;
+	public Boolean PermissionsModerateNetworkMessages;
 	public Boolean PermissionsModerateNetworkUsers;
 	public Boolean PermissionsModifyAllData;
 	public Boolean PermissionsModifyDataClassification;
@@ -244,6 +251,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsPackaging2PromoteVersion;
 	public Boolean PermissionsPasswordNeverExpires;
 	public Boolean PermissionsPaymentsAPIUser;
+	public Boolean PermissionsPortalSuperUser;
 	public Boolean PermissionsPreventClassicExperience;
 	public Boolean PermissionsPrivacyDataAccess;
 	public Boolean PermissionsPublishMultiforce;
@@ -264,6 +272,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsSendCustomNotifications;
 	public Boolean PermissionsSendSitRequests;
 	public Boolean PermissionsServiceAnalyticsUser;
+	public Boolean PermissionsShareFilesWithNetworks;
 	public Boolean PermissionsShareInternalArticles;
 	public Boolean PermissionsShowCompanyNameAsUserBadge;
 	public Boolean PermissionsSkipIdentityConfirmation;
@@ -301,12 +310,14 @@ public class Profile extends SObject {
 	public Boolean PermissionsViewAllUsers;
 	public Boolean PermissionsViewAnomalyEvents;
 	public Boolean PermissionsViewContent;
+	public Boolean PermissionsViewCustomerSentiment;
 	public Boolean PermissionsViewDataAssessment;
 	public Boolean PermissionsViewDataCategories;
 	public Boolean PermissionsViewDataLeakageEvents;
 	public Boolean PermissionsViewDeveloperName;
 	public Boolean PermissionsViewEncryptedData;
 	public Boolean PermissionsViewEventLogFiles;
+	public Boolean PermissionsViewGlobalHeader;
 	public Boolean PermissionsViewHealthCheck;
 	public Boolean PermissionsViewHelpLink;
 	public Boolean PermissionsViewMLModels;

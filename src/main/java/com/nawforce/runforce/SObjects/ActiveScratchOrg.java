@@ -53,6 +53,7 @@ public class ActiveScratchOrg extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ActiveScratchOrgFeed[] Feeds;
 	public ActiveScratchOrgHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ActiveScratchOrgShare[] Shares;

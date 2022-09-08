@@ -45,6 +45,7 @@ public class ShiftPattern extends SObject {
 	public ShiftPatternFeed[] Feeds;
 	public ShiftPatternHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ShiftPatternShare[] Shares;

@@ -28,6 +28,7 @@ public class DashboardComponent extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public DashboardComponentFeed[] Feeds;
+	public NetworkActivityAudit[] ParentEntities;
 
 	public DashboardComponent clone$() {throw new UnsupportedOperationException();}
 	public DashboardComponent clone$(Boolean preserveId) {throw new UnsupportedOperationException();}

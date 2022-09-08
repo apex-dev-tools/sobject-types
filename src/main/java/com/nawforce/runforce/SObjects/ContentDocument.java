@@ -49,6 +49,7 @@ public class ContentDocument extends SObject {
 	public Datetime SystemModstamp;
 	public String Title;
 
+	public NetworkActivityAudit[] AuditableEntities;
 	public AuthorizationFormText[] AuthorizationFormTexts;
 	public ContentDistribution[] ContentDistributions;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -56,6 +57,7 @@ public class ContentDocument extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContentDocumentFeed[] Feeds;
 	public ContentDocumentHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public TopicAssignment[] TopicAssignments;
 
 	public ContentDocument clone$() {throw new java.lang.UnsupportedOperationException();}

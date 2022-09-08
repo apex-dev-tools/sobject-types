@@ -45,6 +45,7 @@ public class ExpenseReport extends SObject {
 	public ExpenseReportFeed[] Feeds;
 	public ExpenseReportHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ExpenseReportShare[] Shares;

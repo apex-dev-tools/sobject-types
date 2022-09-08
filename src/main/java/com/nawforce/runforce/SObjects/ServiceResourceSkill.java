@@ -42,6 +42,7 @@ public class ServiceResourceSkill extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceResourceSkillFeed[] Feeds;
 	public ServiceResourceSkillHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

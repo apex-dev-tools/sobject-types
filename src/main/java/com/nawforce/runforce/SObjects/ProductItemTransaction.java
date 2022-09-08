@@ -42,6 +42,7 @@ public class ProductItemTransaction extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ProductItemTransactionFeed[] Feeds;
 	public ProductItemTransactionHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

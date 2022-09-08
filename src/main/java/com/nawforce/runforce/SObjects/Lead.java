@@ -114,6 +114,7 @@ public class Lead extends SObject {
 	public ObjectTerritory2Association[] ObjectTerritory2Associations;
 	public OpenActivity[] OpenActivities;
 	public OutgoingEmailRelation[] OutgoingEmailRelations;
+	public NetworkActivityAudit[] ParentEntities;
 	public UserEmailPreferredPerson[] PersonRecord;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

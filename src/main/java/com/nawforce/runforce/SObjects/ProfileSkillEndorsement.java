@@ -37,6 +37,7 @@ public class ProfileSkillEndorsement extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ProfileSkillEndorsementFeed[] Feeds;
 	public ProfileSkillEndorsementHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

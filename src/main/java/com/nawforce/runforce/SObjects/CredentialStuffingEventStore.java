@@ -47,6 +47,7 @@ public class CredentialStuffingEventStore extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ThreatDetectionFeedback[] Feedbacks;
 	public CredentialStuffingEventStoreFeed[] Feeds;
+	public NetworkActivityAudit[] ParentEntities;
 
 	public CredentialStuffingEventStore clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CredentialStuffingEventStore clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

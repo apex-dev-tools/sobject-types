@@ -73,6 +73,7 @@ public class Invoice extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public PaymentLineInvoice[] PaymentLinesInvoice;
 	public ProcessException[] ProcessExceptions;

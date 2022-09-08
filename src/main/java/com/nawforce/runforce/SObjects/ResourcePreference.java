@@ -40,6 +40,7 @@ public class ResourcePreference extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ResourcePreferenceFeed[] Feeds;
 	public ResourcePreferenceHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
