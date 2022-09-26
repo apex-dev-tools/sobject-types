@@ -1,21 +1,13 @@
 /*
- Copyright (c) 2019 Kevin Jones, All rights reserved.
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
  */
 
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -25,19 +17,19 @@ public class AssetWarranty extends SObject {
 
 	public Id AssetId;
 	public Asset Asset;
-	public com.nawforce.runforce.System.String AssetWarrantyNumber;
+	public String AssetWarrantyNumber;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String CurrencyIsoCode;
+	public String CurrencyIsoCode;
 	public Date EndDate;
-	public com.nawforce.runforce.System.String ExchangeType;
-	public com.nawforce.runforce.System.String Exclusions;
+	public String ExchangeType;
+	public String Exclusions;
 	public Decimal ExpensesCovered;
 	public Date ExpensesCoveredEndDate;
 	public Id Id;
-	public com.nawforce.runforce.System.Boolean IsDeleted;
-	public com.nawforce.runforce.System.Boolean IsTransferable;
+	public Boolean IsDeleted;
+	public Boolean IsTransferable;
 	public Decimal LaborCovered;
 	public Date LaborCoveredEndDate;
 	public Id LastModifiedById;
@@ -53,10 +45,12 @@ public class AssetWarranty extends SObject {
 	public Datetime SystemModstamp;
 	public Id WarrantyTermId;
 	public WarrantyTerm WarrantyTerm;
-	public com.nawforce.runforce.System.String WarrantyType;
+	public String WarrantyType;
 
 	public ActivityHistory[] ActivityHistories;
+	public Entitlement[] AssetWarranties;
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public Case[] Cases;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EmailMessage[] Emails;
@@ -65,6 +59,7 @@ public class AssetWarranty extends SObject {
 	public AssetWarrantyFeed[] Feeds;
 	public AssetWarrantyHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public Task[] Tasks;
@@ -73,8 +68,8 @@ public class AssetWarranty extends SObject {
 	public WorkOrder[] WorkOrders;
 
 	public AssetWarranty clone$() {throw new java.lang.UnsupportedOperationException();}
-	public AssetWarranty clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public AssetWarranty clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public AssetWarranty clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public AssetWarranty clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public AssetWarranty clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public AssetWarranty clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public AssetWarranty clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public AssetWarranty clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

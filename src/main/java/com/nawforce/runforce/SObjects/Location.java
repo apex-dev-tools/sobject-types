@@ -1,21 +1,14 @@
 /*
- Copyright (c) 2019 Kevin Jones, All rights reserved.
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
  */
 
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -29,14 +22,14 @@ public class Location extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String CurrencyIsoCode;
-	public com.nawforce.runforce.System.String Description;
-	public com.nawforce.runforce.System.String DrivingDirections;
-	public com.nawforce.runforce.System.String ExternalReference;
+	public String CurrencyIsoCode;
+	public String Description;
+	public String DrivingDirections;
+	public String ExternalReference;
 	public Id Id;
-	public com.nawforce.runforce.System.Boolean IsDeleted;
-	public com.nawforce.runforce.System.Boolean IsInventoryLocation;
-	public com.nawforce.runforce.System.Boolean IsMobile;
+	public Boolean IsDeleted;
+	public Boolean IsInventoryLocation;
+	public Boolean IsMobile;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -44,12 +37,12 @@ public class Location extends SObject {
 	public Datetime LastViewedDate;
 	public Decimal Latitude;
 	public Location Location;
-	public com.nawforce.runforce.System.Integer LocationLevel;
-	public com.nawforce.runforce.System.String LocationType;
+	public Integer LocationLevel;
+	public String LocationType;
 	public Id LogoId;
 	public ContentAsset Logo;
 	public Decimal Longitude;
-	public com.nawforce.runforce.System.String Name;
+	public String Name;
 	public Date OpenDate;
 	public Id OwnerId;
 	public Name Owner;
@@ -60,14 +53,15 @@ public class Location extends SObject {
 	public Date RemodelStartDate;
 	public Id RootLocationId;
 	public Location RootLocation;
-	public com.nawforce.runforce.System.Boolean ShouldSyncWithOci;
+	public Boolean ShouldSyncWithOci;
 	public Datetime SystemModstamp;
-	public com.nawforce.runforce.System.String TimeZone;
+	public String TimeZone;
 	public Id VisitorAddressId;
 	public Address VisitorAddress;
 
 	public ActivityHistory[] ActivityHistories;
 	public Address[] Addresses;
+	public Entitlement[] AssetWarranties;
 	public Asset[] Assets;
 	public AssociatedLocation[] AssociatedLocations;
 	public AttachedContentDocument[] AttachedContentDocuments;
@@ -75,6 +69,7 @@ public class Location extends SObject {
 	public Location[] ChildLocations;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContractLineItem[] ContractLineItems;
 	public Shipment[] DestinationLocationShipments;
 	public ProductRequestLineItem[] DestinationProductRequestLineItems;
 	public ProductRequest[] DestinationProductRequests;
@@ -91,6 +86,7 @@ public class Location extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductItem[] ProductItems;
@@ -112,8 +108,8 @@ public class Location extends SObject {
 	public WorkPlanSelectionRule[] WorkPlanSelectionRules;
 
 	public Location clone$() {throw new java.lang.UnsupportedOperationException();}
-	public Location clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public Location clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public Location clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public Location clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public Location clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public Location clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public Location clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public Location clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

@@ -1,21 +1,14 @@
 /*
- Copyright (c) 2019 Kevin Jones, All rights reserved.
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
  */
 
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -26,26 +19,26 @@ public class DataAssessmentMetric extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String CurrencyIsoCode;
+	public String CurrencyIsoCode;
 	public Id Id;
-	public com.nawforce.runforce.System.Boolean IsDeleted;
+	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
-	public com.nawforce.runforce.System.String Name;
-	public com.nawforce.runforce.System.Integer NumDuplicates;
-	public com.nawforce.runforce.System.Integer NumMatched;
-	public com.nawforce.runforce.System.Integer NumMatchedDifferent;
-	public com.nawforce.runforce.System.Integer NumProcessed;
-	public com.nawforce.runforce.System.Integer NumTotal;
-	public com.nawforce.runforce.System.Integer NumUnmatched;
+	public String Name;
+	public Integer NumDuplicates;
+	public Integer NumMatched;
+	public Integer NumMatchedDifferent;
+	public Integer NumProcessed;
+	public Integer NumTotal;
+	public Integer NumUnmatched;
 	public Datetime SystemModstamp;
 
 	public DataAssessmentFieldMetric[] DataAssessmentMetrics;
 
 	public DataAssessmentMetric clone$() {throw new java.lang.UnsupportedOperationException();}
-	public DataAssessmentMetric clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public DataAssessmentMetric clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public DataAssessmentMetric clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public DataAssessmentMetric clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public DataAssessmentMetric clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public DataAssessmentMetric clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public DataAssessmentMetric clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public DataAssessmentMetric clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }
