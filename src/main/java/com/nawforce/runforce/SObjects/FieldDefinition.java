@@ -25,6 +25,7 @@ public class FieldDefinition extends SObject {
 	public String Description;
 	public String DeveloperName;
 	public String DurableId;
+	public EntityDefinition EntityDefinition;
 	public String EntityDefinitionId;
 	public String ExtraTypeInfo;
 	public Id Id;
