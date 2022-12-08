@@ -17,6 +17,7 @@ public class UserEntityAccess extends SObject {
 	public static SObjectFields$<UserEntityAccess> Fields;
 
 	public String DurableId;
+	public EntityDefinition EntityDefinition;
 	public String EntityDefinitionId;
 	public Id Id;
 	public Boolean IsActivateable;
