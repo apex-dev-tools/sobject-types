@@ -46,7 +46,7 @@ public class FinanceBalanceSnapshotChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id LegalEntityId;
-	public SObject LegalEntity;
+	public LegalEntity LegalEntity;
 	public String OriginalEventType;
 	public String OriginalReferenceEntityType;
 	public Id OwnerId;

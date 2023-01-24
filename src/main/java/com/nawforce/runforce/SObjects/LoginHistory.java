@@ -28,6 +28,7 @@ public class LoginHistory extends SObject {
 	public Id Id;
 	public Id LoginGeoId;
 	public LoginGeo LoginGeo;
+	public String LoginSubType;
 	public Datetime LoginTime;
 	public String LoginType;
 	public String LoginUrl;

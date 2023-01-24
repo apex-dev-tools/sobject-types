@@ -27,6 +27,8 @@ public class ConnectedApplication extends SObject {
 	public String MobileStartUrl;
 	public String Name;
 	public Boolean OptionsAllowAdminApprovedUsersOnly;
+	public Boolean OptionsAllowExpiredUvidJWT;
+	public Boolean OptionsCodeCredentialGuestEnabled;
 	public Boolean OptionsFullContentPushNotifications;
 	public Boolean OptionsHasSessionLevelPolicy;
 	public Boolean OptionsIsInternal;
@@ -35,6 +37,7 @@ public class ConnectedApplication extends SObject {
 	public Integer RefreshTokenValidityPeriod;
 	public String StartUrl;
 	public Datetime SystemModstamp;
+	public String UvidTimeout;
 
 	public InstalledMobileApp[] InstalledMobileApps;
 	public SetupEntityAccess[] SetupEntityAccessItems;

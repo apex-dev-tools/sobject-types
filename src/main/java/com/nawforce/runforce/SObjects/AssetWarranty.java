@@ -50,6 +50,7 @@ public class AssetWarranty extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public Entitlement[] AssetWarranties;
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
 	public Case[] Cases;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -58,6 +59,8 @@ public class AssetWarranty extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AssetWarrantyFeed[] Feeds;
 	public AssetWarrantyHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;

@@ -42,6 +42,8 @@ public class ContactPointConsent extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id PartyId;
+	public Individual Party;
 	public Id PartyRoleId;
 	public Name PartyRole;
 	public String PrivacyConsentStatus;

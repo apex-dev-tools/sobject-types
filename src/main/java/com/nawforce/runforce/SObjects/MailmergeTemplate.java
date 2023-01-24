@@ -18,6 +18,7 @@ public class MailmergeTemplate extends SObject {
 
 	public Blob Body;
 	public Integer BodyLength;
+	public String Category;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

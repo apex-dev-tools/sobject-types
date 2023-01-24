@@ -22,6 +22,7 @@ public class ManagedContent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String ExternalId;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

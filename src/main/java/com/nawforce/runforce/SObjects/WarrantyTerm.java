@@ -56,6 +56,7 @@ public class WarrantyTerm extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public AssetWarranty[] AssetWarrantyTerms;
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EmailMessage[] Emails;
@@ -63,6 +64,8 @@ public class WarrantyTerm extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WarrantyTermFeed[] Feeds;
 	public WarrantyTermHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;

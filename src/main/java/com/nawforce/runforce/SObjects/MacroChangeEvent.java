@@ -21,6 +21,8 @@ public class MacroChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public Id FolderId;
+	public Folder Folder;
 	public Id Id;
 	public Boolean IsAlohaSupported;
 	public Boolean IsLightningSupported;

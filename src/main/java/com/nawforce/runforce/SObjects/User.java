@@ -131,6 +131,7 @@ public class User extends SObject {
 	public Boolean UserPreferencesDisableBookmarkEmail;
 	public Boolean UserPreferencesDisableChangeCommentEmail;
 	public Boolean UserPreferencesDisableEndorsementEmail;
+	public Boolean UserPreferencesDisableFeedbackEmail;
 	public Boolean UserPreferencesDisableFileShareNotificationsForApi;
 	public Boolean UserPreferencesDisableFollowersEmail;
 	public Boolean UserPreferencesDisableLaterCommentEmail;
@@ -139,6 +140,7 @@ public class User extends SObject {
 	public Boolean UserPreferencesDisableMessageEmail;
 	public Boolean UserPreferencesDisableProfilePostEmail;
 	public Boolean UserPreferencesDisableSharePostEmail;
+	public Boolean UserPreferencesDisableWorkEmail;
 	public Boolean UserPreferencesEnableAutoSubForFeeds;
 	public Boolean UserPreferencesEventRemindersCheckboxDefault;
 	public Boolean UserPreferencesExcludeMailAppAttachments;
@@ -174,6 +176,7 @@ public class User extends SObject {
 	public Boolean UserPreferencesReminderSoundOff;
 	public Boolean UserPreferencesReverseOpenActivitiesView;
 	public Boolean UserPreferencesSRHOverrideActivities;
+	public Boolean UserPreferencesSendListEmailThroughExternalService;
 	public Boolean UserPreferencesShowCityToExternalUsers;
 	public Boolean UserPreferencesShowCityToGuestUsers;
 	public Boolean UserPreferencesShowCountryToExternalUsers;
@@ -235,6 +238,7 @@ public class User extends SObject {
 	public CollaborationGroupMemberRequest[] GroupMembershipRequests;
 	public CollaborationGroupMember[] GroupMemberships;
 	public InstalledMobileApp[] InstalledMobileApps;
+	public InsuranceContract[] InsuranceContracts;
 	public LeadCleanInfo[] LeadCleanInfoReviewers;
 	public User[] ManagedUsers;
 	public NetworkMember[] NetworkMemberUsers;

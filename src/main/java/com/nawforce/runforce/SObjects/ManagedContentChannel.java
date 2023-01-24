@@ -27,6 +27,7 @@ public class ManagedContentChannel extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Long MediaCacheControlMaxAge;
 	public String Name;
 	public Boolean OptionsIsCacheControlPublic;
 	public Boolean OptionsIsDomainLocked;

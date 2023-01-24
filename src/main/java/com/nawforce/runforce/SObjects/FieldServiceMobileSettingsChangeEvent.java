@@ -48,6 +48,7 @@ public class FieldServiceMobileSettingsChangeEvent extends SObject {
 	public Boolean IsAssignmentNotification;
 	public Boolean IsDefault;
 	public Boolean IsDispatchNotification;
+	public Boolean IsLimitedLocTrackingEnabled;
 	public Boolean IsScheduleViewResourceAbsences;
 	public Boolean IsSendLocationHistory;
 	public Boolean IsShowEditFullRecord;

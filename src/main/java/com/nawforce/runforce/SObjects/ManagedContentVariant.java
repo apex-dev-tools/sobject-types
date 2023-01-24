@@ -19,9 +19,12 @@ public class ManagedContentVariant extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Boolean HasLocks;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsPrimary;
 	public Boolean IsPublished;
+	public Boolean IsReady;
 	public String Language;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

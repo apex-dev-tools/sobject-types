@@ -28,6 +28,7 @@ public class OperatingHours extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public String OperatingHoursRowType;
 	public Datetime SystemModstamp;
 	public String TimeZone;
 

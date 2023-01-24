@@ -33,6 +33,7 @@ public class Organization extends SObject {
 	public String DefaultLocaleSidKey;
 	public String DefaultOpportunityAccess;
 	public String DefaultPricebookAccess;
+	public String DelegatedAuthenticationServiceUrl;
 	public String Division;
 	public String Fax;
 	public Integer FiscalYearStartMonth;

@@ -16,12 +16,17 @@ public class Seller extends SObject {
 	public static SObjectType$<Seller> SObjectType;
 	public static SObjectFields$<Seller> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public Date ActiveFromDate;
 	public Date ActiveToDate;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String Description;
+	public String DisplayName;
 	public Id Id;
+	public Boolean IsActive;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -36,11 +41,14 @@ public class Seller extends SObject {
 	public Integer SalesAmount;
 	public String SellerTier;
 	public String SellerType;
+	public String Status;
 	public Datetime SystemModstamp;
 
 	public CommSubscriptionConsent[] CommSubsConsents;
 	public ContactPointConsent[] ContactPointConsents;
 	public ContactPointTypeConsent[] ContactPointTypeConsents;
+	public SellerHistory[] Histories;
+	public MarketplaceSeller[] MarketplaceSellers;
 	public PartyConsent[] PartyConsents;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

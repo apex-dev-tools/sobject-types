@@ -65,6 +65,7 @@ public class Task extends SObject {
 	public Id WhoId;
 	public Name Who;
 
+	public ActivityFieldHistory[] ActivityFieldHistories;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

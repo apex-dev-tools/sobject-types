@@ -29,8 +29,12 @@ public class CommSubscriptionConsent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataUsePurposeId;
+	public DataUsePurpose DataUsePurpose;
 	public Date EffectiveFromDate;
 	public Date EffectiveToDate;
+	public Id EngagementChannelTypeId;
+	public EngagementChannelType EngagementChannelType;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -41,8 +45,11 @@ public class CommSubscriptionConsent extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id PartyId;
+	public Individual Party;
 	public Id PartyRoleId;
 	public Name PartyRole;
+	public String PrivacyConsentStatus;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;

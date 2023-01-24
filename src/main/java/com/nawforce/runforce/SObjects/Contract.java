@@ -87,11 +87,13 @@ public class Contract extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ContractContactRole[] ContractContactRoles;
+	public ContractGroupPlan[] ContractGroupPlans;
 	public EmailMessage[] Emails;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContractFeed[] Feeds;
 	public ContractHistory[] Histories;
+	public InsuranceContract[] InsuranceContracts;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

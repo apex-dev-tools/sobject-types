@@ -30,8 +30,12 @@ public class CommSubscriptionConsentChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataUsePurposeId;
+	public DataUsePurpose DataUsePurpose;
 	public Date EffectiveFromDate;
 	public Date EffectiveToDate;
+	public Id EngagementChannelTypeId;
+	public EngagementChannelType EngagementChannelType;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -41,6 +45,7 @@ public class CommSubscriptionConsentChangeEvent extends SObject {
 	public User Owner;
 	public Id PartyRoleId;
 	public SObject PartyRole;
+	public String PrivacyConsentStatus;
 	public String ReplayId;
 
 	public CommSubscriptionConsentChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
