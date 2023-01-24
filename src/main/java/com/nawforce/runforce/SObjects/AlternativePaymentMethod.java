@@ -45,6 +45,7 @@ public class AlternativePaymentMethod extends SObject {
 	public Address PaymentMethodAddress;
 	public String PaymentMethodCity;
 	public String PaymentMethodCountry;
+	public String PaymentMethodDetails;
 	public String PaymentMethodCountryCode;
 	public String PaymentMethodGeocodeAccuracy;
 	public Decimal PaymentMethodLatitude;
@@ -53,6 +54,8 @@ public class AlternativePaymentMethod extends SObject {
 	public String PaymentMethodState;
 	public String PaymentMethodStateCode;
 	public String PaymentMethodStreet;
+	public String PaymentMethodSubType;
+	public String PaymentMethodType;
 	public String Phone;
 	public String ProcessingMode;
 	public String Status;
