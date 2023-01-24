@@ -31,4 +31,12 @@ SObject type definitions can be generated from an org using the scripts defined 
     mvn test-compile
     mvn exec:exec -Dsf.user="[username]" -Dsf.pass="[password + security token]" -Dsf.instance="[login/test]"
 
-The output will output to `generated/`. Files can then be compared and copied into `src`.
+The files will print to `generated/`. Files can then be compared and copied into `src`.
+
+Some command ideas to save time, run from `generated/`:
+
+    # Copies all brand new files to src
+    diff -r ../src/main/java/com/nawforce/runforce/SObjects ./ | sed -n 's/Only in .\/: \(.*\)/\1/p' | xargs -I {} cp {} ../src/main/java/com/nawforce/runforce/SObjects
+
+    # Print additions, ignoring copyright to a file ./generated/!diff.txt
+    diff -rub -I 'Copyright' ../src/main/java/com/nawforce/runforce/SObjects ./ | grep -E "^\+" | grep -v '+++ b/' > !diff.txt
