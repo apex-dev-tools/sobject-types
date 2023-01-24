@@ -21,9 +21,9 @@ public class SiteDetail extends SObject {
 	public Boolean IsRegistrationEnabled;
 	public String SecureUrl;
 
-	public SiteDetail clone$() {throw new UnsupportedOperationException();}
-	public SiteDetail clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public SiteDetail clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public SiteDetail clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public SiteDetail clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public SiteDetail clone$() {throw new java.lang.UnsupportedOperationException();}
+	public SiteDetail clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public SiteDetail clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public SiteDetail clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public SiteDetail clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

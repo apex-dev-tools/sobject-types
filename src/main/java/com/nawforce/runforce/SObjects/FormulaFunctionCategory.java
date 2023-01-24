@@ -23,9 +23,9 @@ public class FormulaFunctionCategory extends SObject {
 
 	public FormulaFunction[] Functions;
 
-	public FormulaFunctionCategory clone$() {throw new UnsupportedOperationException();}
-	public FormulaFunctionCategory clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public FormulaFunctionCategory clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public FormulaFunctionCategory clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public FormulaFunctionCategory clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public FormulaFunctionCategory clone$() {throw new java.lang.UnsupportedOperationException();}
+	public FormulaFunctionCategory clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public FormulaFunctionCategory clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public FormulaFunctionCategory clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public FormulaFunctionCategory clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

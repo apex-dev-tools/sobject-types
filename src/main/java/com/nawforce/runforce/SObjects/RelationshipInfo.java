@@ -27,9 +27,9 @@ public class RelationshipInfo extends SObject {
 
 	public RelationshipDomain[] RelationshipDomains;
 
-	public RelationshipInfo clone$() {throw new UnsupportedOperationException();}
-	public RelationshipInfo clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public RelationshipInfo clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public RelationshipInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public RelationshipInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public RelationshipInfo clone$() {throw new java.lang.UnsupportedOperationException();}
+	public RelationshipInfo clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public RelationshipInfo clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public RelationshipInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public RelationshipInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

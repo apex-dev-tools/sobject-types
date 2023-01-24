@@ -30,9 +30,9 @@ public class DashboardComponent extends SObject {
 	public DashboardComponentFeed[] Feeds;
 	public NetworkActivityAudit[] ParentEntities;
 
-	public DashboardComponent clone$() {throw new UnsupportedOperationException();}
-	public DashboardComponent clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public DashboardComponent clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public DashboardComponent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public DashboardComponent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public DashboardComponent clone$() {throw new java.lang.UnsupportedOperationException();}
+	public DashboardComponent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public DashboardComponent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public DashboardComponent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public DashboardComponent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

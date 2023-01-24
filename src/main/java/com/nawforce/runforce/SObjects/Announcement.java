@@ -33,9 +33,9 @@ public class Announcement extends SObject {
 	public Boolean SendEmails;
 	public Datetime SystemModstamp;
 
-	public Announcement clone$() {throw new UnsupportedOperationException();}
-	public Announcement clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public Announcement clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public Announcement clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public Announcement clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public Announcement clone$() {throw new java.lang.UnsupportedOperationException();}
+	public Announcement clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public Announcement clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public Announcement clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public Announcement clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

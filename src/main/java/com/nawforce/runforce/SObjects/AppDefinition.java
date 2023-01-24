@@ -38,9 +38,9 @@ public class AppDefinition extends SObject {
 
 	public AppTabMember[] AppTabs;
 
-	public AppDefinition clone$() {throw new UnsupportedOperationException();}
-	public AppDefinition clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public AppDefinition clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public AppDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public AppDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public AppDefinition clone$() {throw new java.lang.UnsupportedOperationException();}
+	public AppDefinition clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public AppDefinition clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public AppDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public AppDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

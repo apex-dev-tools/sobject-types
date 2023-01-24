@@ -30,9 +30,9 @@ public class GrantedByLicense extends SObject {
 	public PermissionSetLicense PermissionSetLicense;
 	public Datetime SystemModstamp;
 
-	public GrantedByLicense clone$() {throw new UnsupportedOperationException();}
-	public GrantedByLicense clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public GrantedByLicense clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public GrantedByLicense clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public GrantedByLicense clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public GrantedByLicense clone$() {throw new java.lang.UnsupportedOperationException();}
+	public GrantedByLicense clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public GrantedByLicense clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public GrantedByLicense clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public GrantedByLicense clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

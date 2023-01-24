@@ -23,9 +23,9 @@ public class GroupMember extends SObject {
 	public Id UserOrGroupId;
 	public SObject UserOrGroup;
 
-	public GroupMember clone$() {throw new UnsupportedOperationException();}
-	public GroupMember clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public GroupMember clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public GroupMember clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public GroupMember clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public GroupMember clone$() {throw new java.lang.UnsupportedOperationException();}
+	public GroupMember clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public GroupMember clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public GroupMember clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public GroupMember clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

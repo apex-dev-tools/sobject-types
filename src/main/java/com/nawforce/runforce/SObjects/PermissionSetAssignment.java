@@ -27,9 +27,9 @@ public class PermissionSetAssignment extends SObject {
 	public PermissionSet PermissionSet;
 	public Datetime SystemModstamp;
 
-	public PermissionSetAssignment clone$() {throw new UnsupportedOperationException();}
-	public PermissionSetAssignment clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public PermissionSetAssignment clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public PermissionSetAssignment clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public PermissionSetAssignment clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public PermissionSetAssignment clone$() {throw new java.lang.UnsupportedOperationException();}
+	public PermissionSetAssignment clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public PermissionSetAssignment clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public PermissionSetAssignment clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public PermissionSetAssignment clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

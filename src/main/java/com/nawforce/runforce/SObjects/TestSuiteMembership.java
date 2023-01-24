@@ -30,9 +30,9 @@ public class TestSuiteMembership extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime SystemModstamp;
 
-	public TestSuiteMembership clone$() {throw new UnsupportedOperationException();}
-	public TestSuiteMembership clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public TestSuiteMembership clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public TestSuiteMembership clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public TestSuiteMembership clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public TestSuiteMembership clone$() {throw new java.lang.UnsupportedOperationException();}
+	public TestSuiteMembership clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public TestSuiteMembership clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public TestSuiteMembership clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public TestSuiteMembership clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }
