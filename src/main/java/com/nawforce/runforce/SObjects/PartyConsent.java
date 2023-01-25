@@ -25,6 +25,8 @@ public class PartyConsent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataUsePurposeId;
+	public DataUsePurpose DataUsePurpose;
 	public Datetime DoubleConsentCaptureDate;
 	public Date EffectiveFrom;
 	public Date EffectiveTo;

@@ -23,6 +23,7 @@ public class ApptBundleConfig extends SObject {
 	public Id CriteriaForAutoUnbundlingId;
 	public RecordsetFilterCriteria CriteriaForAutoUnbundling;
 	public String CurrencyIsoCode;
+	public Boolean DoesAddTravelTime;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

@@ -119,6 +119,7 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPreferencesDisableBookmarkEmail;
 	public Boolean UserPreferencesDisableChangeCommentEmail;
 	public Boolean UserPreferencesDisableEndorsementEmail;
+	public Boolean UserPreferencesDisableFeedbackEmail;
 	public Boolean UserPreferencesDisableFileShareNotificationsForApi;
 	public Boolean UserPreferencesDisableFollowersEmail;
 	public Boolean UserPreferencesDisableLaterCommentEmail;
@@ -127,6 +128,7 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPreferencesDisableMessageEmail;
 	public Boolean UserPreferencesDisableProfilePostEmail;
 	public Boolean UserPreferencesDisableSharePostEmail;
+	public Boolean UserPreferencesDisableWorkEmail;
 	public Boolean UserPreferencesEnableAutoSubForFeeds;
 	public Boolean UserPreferencesEventRemindersCheckboxDefault;
 	public Boolean UserPreferencesExcludeMailAppAttachments;
@@ -162,6 +164,7 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPreferencesReminderSoundOff;
 	public Boolean UserPreferencesReverseOpenActivitiesView;
 	public Boolean UserPreferencesSRHOverrideActivities;
+	public Boolean UserPreferencesSendListEmailThroughExternalService;
 	public Boolean UserPreferencesShowCityToExternalUsers;
 	public Boolean UserPreferencesShowCityToGuestUsers;
 	public Boolean UserPreferencesShowCountryToExternalUsers;

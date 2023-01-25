@@ -35,9 +35,9 @@ public class CaseTeamMember extends SObject {
 	public Id TeamTemplateMemberId;
 	public CaseTeamTemplateMember TeamTemplateMember;
 
-	public CaseTeamMember clone$() {throw new UnsupportedOperationException();}
-	public CaseTeamMember clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public CaseTeamMember clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public CaseTeamMember clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public CaseTeamMember clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public CaseTeamMember clone$() {throw new java.lang.UnsupportedOperationException();}
+	public CaseTeamMember clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public CaseTeamMember clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public CaseTeamMember clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public CaseTeamMember clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

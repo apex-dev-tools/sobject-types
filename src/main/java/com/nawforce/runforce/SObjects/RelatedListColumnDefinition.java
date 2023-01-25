@@ -18,6 +18,7 @@ public class RelatedListColumnDefinition extends SObject {
 
 	public String Alias;
 	public String ColumnSoql;
+	public String DataType;
 	public String DurableId;
 	public String FieldDefinitionId;
 	public Id Id;

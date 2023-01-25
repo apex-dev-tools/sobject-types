@@ -78,6 +78,7 @@ public class Event extends SObject {
 	public String[] UndecidedEventInviteeIds;
 
 	public AcceptedEventRelation[] AcceptedEventRelations;
+	public ActivityFieldHistory[] ActivityFieldHistories;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

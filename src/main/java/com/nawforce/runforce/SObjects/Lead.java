@@ -106,6 +106,7 @@ public class Lead extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public LeadFeed[] Feeds;
+	public GroupCensus[] GroupCensuses;
 	public LeadHistory[] Histories;
 	public LeadCleanInfo[] LeadCleanInfos;
 	public ListEmailIndividualRecipient[] ListEmailIndividualRecipients;

@@ -25,9 +25,9 @@ public class FeedTrackedChange extends SObject {
 	public String OldCurrencyIsoCode;
 	public Object OldValue;
 
-	public FeedTrackedChange clone$() {throw new UnsupportedOperationException();}
-	public FeedTrackedChange clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public FeedTrackedChange clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public FeedTrackedChange clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public FeedTrackedChange clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public FeedTrackedChange clone$() {throw new java.lang.UnsupportedOperationException();}
+	public FeedTrackedChange clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public FeedTrackedChange clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public FeedTrackedChange clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public FeedTrackedChange clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

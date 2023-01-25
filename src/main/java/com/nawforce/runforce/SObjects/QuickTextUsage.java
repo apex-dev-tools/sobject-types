@@ -21,6 +21,8 @@ public class QuickTextUsage extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id FolderId;
+	public Folder Folder;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

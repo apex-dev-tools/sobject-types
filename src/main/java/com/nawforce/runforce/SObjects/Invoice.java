@@ -41,7 +41,7 @@ public class Invoice extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public Id ReferenceEntityId;
-	public Order ReferenceEntity;
+	public Name ReferenceEntity;
 	public String Status;
 	public Datetime SystemModstamp;
 	public Decimal TotalAdjustmentAmount;

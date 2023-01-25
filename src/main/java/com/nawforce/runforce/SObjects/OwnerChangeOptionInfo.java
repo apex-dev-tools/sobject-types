@@ -27,9 +27,9 @@ public class OwnerChangeOptionInfo extends SObject {
 
 	public OwnerChangeOptionInfo[] ChildOwnerChangeOptionInfo;
 
-	public OwnerChangeOptionInfo clone$() {throw new UnsupportedOperationException();}
-	public OwnerChangeOptionInfo clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public OwnerChangeOptionInfo clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public OwnerChangeOptionInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public OwnerChangeOptionInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public OwnerChangeOptionInfo clone$() {throw new java.lang.UnsupportedOperationException();}
+	public OwnerChangeOptionInfo clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public OwnerChangeOptionInfo clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public OwnerChangeOptionInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public OwnerChangeOptionInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

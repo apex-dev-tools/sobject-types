@@ -28,9 +28,9 @@ public class CustomBrand extends SObject {
 
 	public CustomBrandAsset[] CustomBrandAssets;
 
-	public CustomBrand clone$() {throw new UnsupportedOperationException();}
-	public CustomBrand clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public CustomBrand clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public CustomBrand clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public CustomBrand clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public CustomBrand clone$() {throw new java.lang.UnsupportedOperationException();}
+	public CustomBrand clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public CustomBrand clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public CustomBrand clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public CustomBrand clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

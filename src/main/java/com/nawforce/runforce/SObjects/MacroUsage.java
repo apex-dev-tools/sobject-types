@@ -28,6 +28,8 @@ public class MacroUsage extends SObject {
 	public Datetime ExecutionEndTime;
 	public String ExecutionState;
 	public String FailureReason;
+	public Id FolderId;
+	public Folder Folder;
 	public Id Id;
 	public Integer InstructionCount;
 	public Boolean IsDeleted;

@@ -37,6 +37,7 @@ public class DataUsePurpose extends SObject {
 	public AuthorizationFormDataUse[] AuthorizationFormDataUses;
 	public CommSubscription[] CommSubscriptions;
 	public DataUsePurposeHistory[] Histories;
+	public PartyConsent[] PartyConsents;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public DataUsePurposeShare[] Shares;

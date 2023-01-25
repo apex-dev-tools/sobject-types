@@ -119,6 +119,7 @@ public class Contact extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContactFeed[] Feeds;
+	public GroupCensusMember[] GroupCensusMembers;
 	public ContactHistory[] Histories;
 	public Invoice[] Invoices;
 	public SurveyInvitation[] LeadSurveyInvitations;

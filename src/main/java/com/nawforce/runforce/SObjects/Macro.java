@@ -20,6 +20,9 @@ public class Macro extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public Id FolderId;
+	public Folder Folder;
+	public String FolderName;
 	public Id Id;
 	public Boolean IsAlohaSupported;
 	public Boolean IsDeleted;

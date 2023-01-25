@@ -55,6 +55,7 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsBulkApiHardDelete;
 	public Boolean PermissionsBulkMacrosAllowed;
 	public Boolean PermissionsBypassMFAForUiLogins;
+	public Boolean PermissionsCMSECEAuthoringAccess;
 	public Boolean PermissionsCampaignInfluence2;
 	public Boolean PermissionsCanApproveFeedPost;
 	public Boolean PermissionsCanEditDataPrepRecipe;
@@ -74,9 +75,11 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsClientSecretRotation;
 	public Boolean PermissionsCloseConversations;
 	public Boolean PermissionsConfigCustomRecs;
+	public Boolean PermissionsConfigureDataspaceScope;
 	public Boolean PermissionsConfigureScopedAccessGroup;
 	public Boolean PermissionsConnectOrgToEnvironmentHub;
 	public Boolean PermissionsConsentApiUpdate;
+	public Boolean PermissionsContactCenterUserAccess;
 	public Boolean PermissionsContentAdministrator;
 	public Boolean PermissionsContentHubUser;
 	public Boolean PermissionsContentWorkspaces;
@@ -93,6 +96,7 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsCreateTopics;
 	public Boolean PermissionsCreateWorkBadgeDefinition;
 	public Boolean PermissionsCreateWorkspaces;
+	public Boolean PermissionsCrisisCenterUserAccess;
 	public Boolean PermissionsCustomMobileAppsAccess;
 	public Boolean PermissionsCustomSidebarOnAllPages;
 	public Boolean PermissionsCustomizeApplication;
@@ -153,7 +157,9 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsInsightsAppUser;
 	public Boolean PermissionsInsightsCreateApplication;
 	public Boolean PermissionsInstallPackaging;
+	public Boolean PermissionsInsuranceGroupBenefitsUser;
 	public Boolean PermissionsIotUser;
+	public Boolean PermissionsIsSsoEnabled;
 	public Boolean PermissionsIsotopeAccess;
 	public Boolean PermissionsIsotopeCToCUser;
 	public Boolean PermissionsIsotopeLEX;
@@ -163,11 +169,13 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsLifecycleManagementAPIUser;
 	public Boolean PermissionsLightningConsoleAllowedForUser;
 	public Boolean PermissionsLightningExperienceUser;
+	public Boolean PermissionsLightningOnFSMobile;
 	public Boolean PermissionsListEmailSend;
 	public Boolean PermissionsLtngPromoReserved01UserPerm;
 	public Boolean PermissionsManageAnalyticSnapshots;
 	public Boolean PermissionsManageAuthProviders;
 	public Boolean PermissionsManageBusinessHourHolidays;
+	public Boolean PermissionsManageC2CHighVolumePriming;
 	public Boolean PermissionsManageC360AConnections;
 	public Boolean PermissionsManageCMS;
 	public Boolean PermissionsManageCallCenters;
@@ -178,12 +186,14 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsManageContentPermissions;
 	public Boolean PermissionsManageContentProperties;
 	public Boolean PermissionsManageContentTypes;
+	public Boolean PermissionsManageConvMiningReports;
 	public Boolean PermissionsManageCssUsers;
 	public Boolean PermissionsManageCustomPermissions;
 	public Boolean PermissionsManageCustomReportTypes;
 	public Boolean PermissionsManageDashbdsInPubFolders;
 	public Boolean PermissionsManageDataCategories;
 	public Boolean PermissionsManageDataIntegrations;
+	public Boolean PermissionsManageDataspaceScope;
 	public Boolean PermissionsManageDynamicDashboards;
 	public Boolean PermissionsManageEmailClientConfig;
 	public Boolean PermissionsManageEncryptionKeys;
@@ -254,6 +264,7 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsPortalSuperUser;
 	public Boolean PermissionsPreventClassicExperience;
 	public Boolean PermissionsPrivacyDataAccess;
+	public Boolean PermissionsProductAdmin;
 	public Boolean PermissionsPublishPackaging;
 	public Boolean PermissionsQueryAllFiles;
 	public Boolean PermissionsQuipMetricsAccess;
@@ -270,6 +281,7 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsSelectFilesFromSalesforce;
 	public Boolean PermissionsSendAnnouncementEmails;
 	public Boolean PermissionsSendCustomNotifications;
+	public Boolean PermissionsSendExternalEmailAvailable;
 	public Boolean PermissionsSendSitRequests;
 	public Boolean PermissionsServiceAnalyticsUser;
 	public Boolean PermissionsShareFilesWithNetworks;
@@ -327,6 +339,7 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsViewPrivateStaticResources;
 	public Boolean PermissionsViewPublicDashboards;
 	public Boolean PermissionsViewPublicReports;
+	public Boolean PermissionsViewRestrictionAndScopingRules;
 	public Boolean PermissionsViewRoles;
 	public Boolean PermissionsViewSecurityCommandCenter;
 	public Boolean PermissionsViewSetup;

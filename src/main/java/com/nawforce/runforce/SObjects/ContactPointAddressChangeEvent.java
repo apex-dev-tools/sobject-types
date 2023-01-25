@@ -36,6 +36,7 @@ public class ContactPointAddressChangeEvent extends SObject {
 	public Id Id;
 	public Boolean IsDefault;
 	public Boolean IsPrimary;
+	public Boolean IsThirdPartyAddress;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

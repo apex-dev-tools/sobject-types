@@ -21,6 +21,7 @@ public class SiteRedirectMapping extends SObject {
 	public Datetime CreatedDate;
 	public Id Id;
 	public Boolean IsActive;
+	public Boolean IsDynamic;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

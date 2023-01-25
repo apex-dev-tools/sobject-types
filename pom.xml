@@ -4,7 +4,7 @@
 
   <groupId>io.github.apex-dev-tools</groupId>
   <artifactId>sobject-types</artifactId>
-  <version>56.0.2</version>
+  <version>57.0.0</version>
   <packaging>jar</packaging>
 
   <name>sobject-types</name>
@@ -31,6 +31,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <sf.user>null</sf.user>
+    <sf.pass>null</sf.pass>
+    <sf.instance>login</sf.instance>
   </properties>
 
   <repositories>
@@ -57,70 +60,50 @@
   </repositories>
 
   <dependencies>
+
     <dependency>
       <groupId>io.github.apex-dev-tools</groupId>
       <artifactId>standard-types</artifactId>
-      <version>56.0.0</version>
+      <version>57.0.0</version>
     </dependency>
 
     <!-- Test Dependencies -->
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
-      <version>2.12.6</version>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.scala-lang.modules</groupId>
-      <artifactId>scala-xml_2.12</artifactId>
-      <version>1.1.1</version>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpclient</artifactId>
-      <version>4.5.6</version>
+      <version>2.13.10</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>com.force.api</groupId>
       <artifactId>force-wsc</artifactId>
-      <version>56.0.0</version>
+      <version>57.0.0</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>com.force.api</groupId>
       <artifactId>force-metadata-api</artifactId>
-      <version>56.0.0</version>
+      <version>57.0.0</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>com.force.api</groupId>
       <artifactId>force-partner-api</artifactId>
-      <version>56.0.0</version>
+      <version>57.0.0</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>com.force.api</groupId>
       <artifactId>force-apex-api</artifactId>
-      <version>56.0.0</version>
+      <version>57.0.0</version>
       <scope>test</scope>
     </dependency>
 
-    <dependency>
-      <groupId>net.liftweb</groupId>
-      <artifactId>lift-json_2.12</artifactId>
-      <version>3.3.0</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
-
 
   <distributionManagement>
     <snapshotRepository>
@@ -136,6 +119,7 @@
   <build>
     <finalName>${project.artifactId}</finalName>
     <sourceDirectory>src/main/java</sourceDirectory>
+    <testSourceDirectory>src/test</testSourceDirectory>
 
     <plugins>
 
@@ -265,6 +249,44 @@
             </goals>
           </execution>
         </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
+        <version>4.8.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>testCompile</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>exec</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <executable>java</executable>
+          <classpathScope>test</classpathScope>
+          <arguments>
+            <argument>-classpath</argument>
+            <classpath/>
+            <argument>com.financialforce.tools.SObjectToJava</argument>
+            <argument>${sf.user}</argument>
+            <argument>${sf.pass}</argument>
+            <argument>${sf.instance}</argument>
+          </arguments>
+        </configuration>
       </plugin>
 
     </plugins>

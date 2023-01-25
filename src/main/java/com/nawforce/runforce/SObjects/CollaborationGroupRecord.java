@@ -32,9 +32,9 @@ public class CollaborationGroupRecord extends SObject {
 	public Name Record;
 	public Datetime SystemModstamp;
 
-	public CollaborationGroupRecord clone$() {throw new UnsupportedOperationException();}
-	public CollaborationGroupRecord clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public CollaborationGroupRecord clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public CollaborationGroupRecord clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public CollaborationGroupRecord clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public CollaborationGroupRecord clone$() {throw new java.lang.UnsupportedOperationException();}
+	public CollaborationGroupRecord clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public CollaborationGroupRecord clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public CollaborationGroupRecord clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public CollaborationGroupRecord clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

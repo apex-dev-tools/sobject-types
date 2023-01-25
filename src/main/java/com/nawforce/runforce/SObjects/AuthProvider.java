@@ -35,6 +35,8 @@ public class AuthProvider extends SObject {
 	public String LogoutUrl;
 	public String OauthKickoffUrl;
 	public Boolean OptionsIncludeOrgIdInId;
+	public Boolean OptionsIsMuleSoftEU;
+	public Boolean OptionsIsMuleSoftUS;
 	public Boolean OptionsSendAccessTokenInHeader;
 	public Boolean OptionsSendClientCredentialsInHeader;
 	public Boolean OptionsSendSecretInApis;

@@ -28,9 +28,9 @@ public class ThirdPartyAccountLink extends SObject {
 	public Id UserId;
 	public User User;
 
-	public ThirdPartyAccountLink clone$() {throw new UnsupportedOperationException();}
-	public ThirdPartyAccountLink clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public ThirdPartyAccountLink clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public ThirdPartyAccountLink clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public ThirdPartyAccountLink clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public ThirdPartyAccountLink clone$() {throw new java.lang.UnsupportedOperationException();}
+	public ThirdPartyAccountLink clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public ThirdPartyAccountLink clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public ThirdPartyAccountLink clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public ThirdPartyAccountLink clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

@@ -49,6 +49,7 @@ public class RecordsetFilterCriteria extends SObject {
 	public MaintenanceWorkRule[] MaintenanceWorkRules;
 	public NetworkActivityAudit[] ParentEntities;
 	public RecordsetFilterCriteriaRule[] RecordsetFilterCriteriaRules;
+	public RecordsetFltrCritMonitor[] RecordsetFltrCritMonitors;
 	public RecordsetFilterCriteriaShare[] Shares;
 	public Shift[] ShiftRecordsetFilterCriteria;
 	public ShiftTemplate[] ShiftTemplates;

@@ -21,6 +21,8 @@ public class CommSubscriptionChannelType extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataUsePurposeId;
+	public CommSubscription DataUsePurpose;
 	public Id EngagementChannelTypeId;
 	public EngagementChannelType EngagementChannelType;
 	public Id Id;

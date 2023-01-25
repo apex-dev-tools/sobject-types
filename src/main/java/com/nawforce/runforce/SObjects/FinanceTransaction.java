@@ -49,7 +49,7 @@ public class FinanceTransaction extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id LegalEntityId;
-	public Name LegalEntity;
+	public LegalEntity LegalEntity;
 	public String OriginalCreditGlAccountName;
 	public String OriginalCreditGlAccountNumber;
 	public String OriginalDebitGlAccountName;

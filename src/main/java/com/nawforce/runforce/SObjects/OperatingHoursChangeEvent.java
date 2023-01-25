@@ -26,6 +26,7 @@ public class OperatingHoursChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public String OperatingHoursRowType;
 	public String ReplayId;
 	public String TimeZone;
 

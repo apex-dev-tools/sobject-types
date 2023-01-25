@@ -8,6 +8,7 @@ import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -17,11 +18,14 @@ public class ActivePermSetLicenseMetric extends SObject {
 
 	public Integer ActiveUserCount;
 	public Integer AssignedUserCount;
+	public String DeveloperName;
 	public Id Id;
+	public String MasterLabel;
 	public Date MetricsDate;
 	public Id PermissionSetLicenseId;
 	public PermissionSetLicense PermissionSetLicense;
 	public Datetime SystemModstamp;
+	public Integer TotalLicenses;
 
 	public ActivePermSetLicenseMetric clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ActivePermSetLicenseMetric clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

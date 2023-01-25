@@ -47,7 +47,7 @@ public class FinanceTransactionChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id LegalEntityId;
-	public SObject LegalEntity;
+	public LegalEntity LegalEntity;
 	public String OriginalCreditGlAccountName;
 	public String OriginalCreditGlAccountNumber;
 	public String OriginalDebitGlAccountName;

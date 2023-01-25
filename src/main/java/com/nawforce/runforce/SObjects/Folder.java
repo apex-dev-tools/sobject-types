@@ -32,6 +32,8 @@ public class Folder extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public Macro[] MacroFolders;
+	public QuickText[] QuickTextFolders;
 	public Folder[] SubFolders;
 
 	public Folder clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -97,6 +97,7 @@ public class Asset extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AssetAction[] AssetActions;
+	public AssetAttribute[] AssetAttributes;
 	public AssetDowntimePeriod[] AssetDowntimePeriods;
 	public AssetStatePeriod[] AssetStatePeriods;
 	public AttachedContentDocument[] AttachedContentDocuments;
@@ -124,6 +125,7 @@ public class Asset extends SObject {
 	public ProductServiceCampaignItem[] ProductServiceCampaignItems;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public RecordsetFltrCritMonitor[] RecordsetFltrCritMonitors;
 	public AssetRelationship[] RelatedAssets;
 	public ResourcePreference[] ResourcePreferences;
 	public ReturnOrderLineItem[] ReturnOrderLineItems;

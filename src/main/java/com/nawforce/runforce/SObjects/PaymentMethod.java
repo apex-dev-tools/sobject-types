@@ -35,6 +35,7 @@ public class PaymentMethod extends SObject {
 	public String PaymentMethodCity;
 	public String PaymentMethodCountry;
 	public String PaymentMethodCountryCode;
+	public String PaymentMethodDetails;
 	public String PaymentMethodGeocodeAccuracy;
 	public Decimal PaymentMethodLatitude;
 	public Decimal PaymentMethodLongitude;
@@ -42,6 +43,8 @@ public class PaymentMethod extends SObject {
 	public String PaymentMethodState;
 	public String PaymentMethodStateCode;
 	public String PaymentMethodStreet;
+	public String PaymentMethodSubType;
+	public String PaymentMethodType;
 	public String Status;
 	public Datetime SystemModstamp;
 

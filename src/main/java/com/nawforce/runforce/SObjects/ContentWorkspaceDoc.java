@@ -26,9 +26,9 @@ public class ContentWorkspaceDoc extends SObject {
 	public Boolean IsOwner;
 	public Datetime SystemModstamp;
 
-	public ContentWorkspaceDoc clone$() {throw new UnsupportedOperationException();}
-	public ContentWorkspaceDoc clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public ContentWorkspaceDoc clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public ContentWorkspaceDoc clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public ContentWorkspaceDoc clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public ContentWorkspaceDoc clone$() {throw new java.lang.UnsupportedOperationException();}
+	public ContentWorkspaceDoc clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public ContentWorkspaceDoc clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public ContentWorkspaceDoc clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public ContentWorkspaceDoc clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

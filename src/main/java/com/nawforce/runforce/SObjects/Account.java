@@ -120,6 +120,7 @@ public class Account extends SObject {
 	public ContactRequest[] ContactRequests;
 	public Contact[] Contacts;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContractGroupPlan[] ContractGroupPlans;
 	public Contract[] Contracts;
 	public CreditMemo[] CreditMemos;
 	public DelegatedAccount[] DelegatedAccounts;
@@ -133,6 +134,9 @@ public class Account extends SObject {
 	public AccountFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
+	public GroupCensusMember[] GroupCensusMembers;
+	public GroupCensus[] GroupCensuses;
+	public GroupClass[] GroupClasses;
 	public AccountHistory[] Histories;
 	public Invoice[] Invoices;
 	public MaintenancePlan[] MaintenancePlans;

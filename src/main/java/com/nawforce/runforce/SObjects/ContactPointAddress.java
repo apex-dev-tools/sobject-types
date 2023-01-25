@@ -36,6 +36,7 @@ public class ContactPointAddress extends SObject {
 	public Boolean IsDefault;
 	public Boolean IsDeleted;
 	public Boolean IsPrimary;
+	public Boolean IsThirdPartyAddress;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

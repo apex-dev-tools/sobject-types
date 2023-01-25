@@ -35,11 +35,14 @@ public class ProductWarrantyTerm extends SObject {
 	public WarrantyTerm WarrantyTerm;
 
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ProductWarrantyTermFeed[] Feeds;
 	public ProductWarrantyTermHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
 	public NetworkActivityAudit[] ParentEntities;
 
 	public ProductWarrantyTerm clone$() {throw new java.lang.UnsupportedOperationException();}

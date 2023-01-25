@@ -37,11 +37,14 @@ public class AssetDowntimePeriod extends SObject {
 	public Datetime SystemModstamp;
 
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AssetDowntimePeriodFeed[] Feeds;
 	public AssetDowntimePeriodHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
 	public NetworkActivityAudit[] ParentEntities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;

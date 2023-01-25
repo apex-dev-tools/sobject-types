@@ -25,9 +25,9 @@ public class PicklistValueInfo extends SObject {
 	public String ValidFor;
 	public String Value;
 
-	public PicklistValueInfo clone$() {throw new UnsupportedOperationException();}
-	public PicklistValueInfo clone$(Boolean preserveId) {throw new UnsupportedOperationException();}
-	public PicklistValueInfo clone$(Boolean preserveId, Boolean isDeepClone) {throw new UnsupportedOperationException();}
-	public PicklistValueInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new UnsupportedOperationException();}
-	public PicklistValueInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new UnsupportedOperationException();}
+	public PicklistValueInfo clone$() {throw new java.lang.UnsupportedOperationException();}
+	public PicklistValueInfo clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public PicklistValueInfo clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public PicklistValueInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public PicklistValueInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }
