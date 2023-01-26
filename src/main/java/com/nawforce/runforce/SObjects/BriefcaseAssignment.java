@@ -10,6 +10,7 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.Datetime;
 import com.nawforce.runforce.System.Id;
 import com.nawforce.runforce.System.SObject;
+import com.nawforce.runforce.System.String;
 
 @SuppressWarnings("unused")
 public class BriefcaseAssignment extends SObject {
