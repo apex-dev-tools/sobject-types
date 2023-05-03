@@ -24,7 +24,7 @@
  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
+ */
 
 package com.financialforce.tools
 
@@ -32,7 +32,13 @@ import com.sforce.soap.metadata.MetadataConnection
 import com.sforce.soap.partner.PartnerConnection
 import com.sforce.ws.{ConnectionException, ConnectorConfig}
 
-case class SFConnection(url: String, username: String, connection: PartnerConnection, metadataURL: String, serverURL: String) {
+case class SFConnection(
+  url: String,
+  username: String,
+  connection: PartnerConnection,
+  metadataURL: String,
+  serverURL: String
+) {
   def metadataConnection(): MetadataConnection = {
     val config = new ConnectorConfig
     config.setServiceEndpoint(metadataURL)
@@ -43,7 +49,11 @@ case class SFConnection(url: String, username: String, connection: PartnerConnec
 
 object SFConnection {
 
-  def login(url: String, username: String, passwordAndToken: String): Either[String, SFConnection] = {
+  def login(
+    url: String,
+    username: String,
+    passwordAndToken: String
+  ): Either[String, SFConnection] = {
     val config = new ConnectorConfig
     config.setAuthEndpoint(url)
     config.setServiceEndpoint(url)
@@ -51,12 +61,20 @@ object SFConnection {
 
     try {
       val connection = new PartnerConnection(config)
-      val result = connection.login(username, passwordAndToken)
+      val result     = connection.login(username, passwordAndToken)
 
       val newConfig = new ConnectorConfig
       newConfig.setServiceEndpoint(result.getServerUrl)
       newConfig.setSessionId(result.getSessionId)
-      Right(SFConnection(url, username, new PartnerConnection(newConfig), result.getMetadataServerUrl, result.getServerUrl))
+      Right(
+        SFConnection(
+          url,
+          username,
+          new PartnerConnection(newConfig),
+          result.getMetadataServerUrl,
+          result.getServerUrl
+        )
+      )
     } catch {
       case e: ConnectionException => Left(e.toString)
     }
