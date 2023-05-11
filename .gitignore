@@ -2,3 +2,5 @@
 sobject-types.iml
 generated/
 target/
+.metals/
+.vscode/
