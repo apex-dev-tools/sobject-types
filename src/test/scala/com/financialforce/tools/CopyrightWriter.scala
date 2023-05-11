@@ -34,7 +34,7 @@ object CopyrightWriter {
   def write(writer: Writer): Unit = {
 
     writer.write("""/*
-        | * Copyright (c) 2023 FinancialForce.com, inc. All rights reserved.
+        | * Copyright (c) 2023 Certinia Inc. All rights reserved.
         | */
         |""".stripMargin)
   }
