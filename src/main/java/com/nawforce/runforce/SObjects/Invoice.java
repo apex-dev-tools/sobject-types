@@ -68,6 +68,7 @@ public class Invoice extends SObject {
 	public InvoiceFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public InvoiceHistory[] Histories;
 	public InvoiceLine[] InvoiceLines;
 	public Note[] Notes;

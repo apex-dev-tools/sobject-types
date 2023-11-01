@@ -38,6 +38,7 @@ public class DigitalSignature extends SObject {
 	public Datetime SignedDate;
 	public Datetime SystemModstamp;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

@@ -53,6 +53,7 @@ public class OrderItem extends SObject {
 	public CreditMemoLine[] CreditMemoLines;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OrderItemFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public InvoiceLine[] GroupInvoiceLines;
 	public OrderItemHistory[] Histories;
 	public InvoiceLine[] InvoiceLines;

@@ -46,6 +46,7 @@ public class MacroUsage extends SObject {
 	public Id UserId;
 	public User User;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public MacroUsageShare[] Shares;

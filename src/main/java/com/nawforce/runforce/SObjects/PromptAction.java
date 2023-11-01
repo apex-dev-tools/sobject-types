@@ -44,6 +44,7 @@ public class PromptAction extends SObject {
 	public Id UserId;
 	public User User;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public PromptActionShare[] Shares;

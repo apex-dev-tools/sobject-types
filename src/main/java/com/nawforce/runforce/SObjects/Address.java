@@ -45,6 +45,7 @@ public class Address extends SObject {
 	public Datetime SystemModstamp;
 	public String TimeZone;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

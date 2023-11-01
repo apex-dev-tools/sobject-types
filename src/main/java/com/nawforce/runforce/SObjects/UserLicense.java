@@ -30,6 +30,8 @@ public class UserLicense extends SObject {
 	public Integer UsedLicenses;
 	public Datetime UsedLicensesLastUpdated;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+
 	public UserLicense clone$() {throw new java.lang.UnsupportedOperationException();}
 	public UserLicense clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public UserLicense clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

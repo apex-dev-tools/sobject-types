@@ -39,6 +39,7 @@ public class OrgMetricScanResult extends SObject {
 	public String Url;
 	public String User;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

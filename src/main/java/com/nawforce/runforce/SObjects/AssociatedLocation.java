@@ -36,7 +36,10 @@ public class AssociatedLocation extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AssociatedLocationHistory[] Histories;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 

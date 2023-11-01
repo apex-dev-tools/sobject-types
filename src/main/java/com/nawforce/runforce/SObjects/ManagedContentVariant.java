@@ -38,6 +38,8 @@ public class ManagedContentVariant extends SObject {
 	public String UrlName;
 	public String VariantType;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+
 	public ManagedContentVariant clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ManagedContentVariant clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public ManagedContentVariant clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

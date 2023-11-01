@@ -54,6 +54,7 @@ public class ContactPointPhone extends SObject {
 	public CommSubscriptionConsent[] CommSubscriptionConsents;
 	public ContactPointAddress[] ContactPointAddresses;
 	public ContactPointConsent[] ContactPointConsents;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ContactPointPhoneHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

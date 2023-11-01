@@ -134,6 +134,7 @@ public class Account extends SObject {
 	public AccountFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GroupCensusMember[] GroupCensusMembers;
 	public GroupCensus[] GroupCensuses;
 	public GroupClass[] GroupClasses;
@@ -141,6 +142,8 @@ public class Account extends SObject {
 	public Invoice[] Invoices;
 	public MaintenancePlan[] MaintenancePlans;
 	public DelegatedAccount[] ManagedAccount;
+	public MessagingEndUser[] MessagingEndUsers;
+	public MessagingSession[] MessagingSessions;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public ObjectTerritory2Association[] ObjectTerritory2Associations;
@@ -181,6 +184,8 @@ public class Account extends SObject {
 	public Asset[] ServicedAssets;
 	public AccountShare[] Shares;
 	public SurveySubject[] SurveySubjectEntities;
+	public SwarmMember[] SwarmMembers;
+	public Swarm[] Swarms;
 	public Task[] Tasks;
 	public Territory2ObjectExclusion[] Territory2ObjectExclusions;
 	public TopicAssignment[] TopicAssignments;

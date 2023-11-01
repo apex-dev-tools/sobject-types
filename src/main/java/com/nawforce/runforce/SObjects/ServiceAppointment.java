@@ -91,6 +91,7 @@ public class ServiceAppointment extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceAppointmentFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ServiceAppointmentHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
@@ -100,10 +101,13 @@ public class ServiceAppointment extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public ServiceAppointmentCapacityUsage[] ServiceAptCapacityUsages;
 	public ServiceReport[] ServiceReports;
 	public AssignedResource[] ServiceResources;
 	public ServiceAppointmentShare[] Shares;
 	public SurveySubject[] SurveySubjectEntities;
+	public SwarmMember[] SwarmMembers;
+	public Swarm[] Swarms;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

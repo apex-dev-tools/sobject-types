@@ -112,6 +112,7 @@ public class WorkOrderLineItem extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkOrderLineItemFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public WorkOrderLineItemHistory[] Histories;
 	public LinkedArticle[] LinkedArticles;
 	public WorkPlan[] NewWorkPlans;

@@ -36,6 +36,7 @@ public class ConsumptionRate extends SObject {
 	public Datetime SystemModstamp;
 	public Integer UpperBound;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ConsumptionRateHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

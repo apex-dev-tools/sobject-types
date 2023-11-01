@@ -30,12 +30,15 @@ public class TimeSlot extends SObject {
 	public Datetime LastViewedDate;
 	public Id OperatingHoursId;
 	public OperatingHours OperatingHours;
+	public Id RecordsetFilterCriteriaId;
+	public RecordsetFilterCriteria RecordsetFilterCriteria;
 	public Time StartTime;
 	public Datetime SystemModstamp;
 	public String TimeSlotNumber;
 	public String Type;
 
 	public AppointmentTopicTimeSlot[] AppointmentTopicTimeSlots;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 

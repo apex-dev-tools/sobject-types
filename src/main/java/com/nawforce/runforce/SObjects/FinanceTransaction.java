@@ -81,6 +81,7 @@ public class FinanceTransaction extends SObject {
 	public Datetime TransactionDate;
 
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public FinanceTransactionShare[] Shares;

@@ -37,6 +37,7 @@ public class FlowOrchestrationInstance extends SObject {
 
 	public FlowOrchestrationStageInstance[] FlowOrchestrationStageInstances;
 	public FlowOrchestrationStepInstance[] FlowOrchestrationStepInstances;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public FlowOrchestrationInstanceShare[] Shares;

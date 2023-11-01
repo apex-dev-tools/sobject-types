@@ -63,6 +63,7 @@ public class CreditMemoLine extends SObject {
 	public CreditMemoLineFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public CreditMemoLineHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;

@@ -62,6 +62,7 @@ public class Individual extends SObject {
 	public ContactPointPhone[] ContactPointPhones;
 	public Contact[] Contacts;
 	public DuplicateRecordItem[] DuplicateRecordItems;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public IndividualHistory[] Histories;
 	public ContactPointTypeConsent[] Individuals;
 	public Lead[] Leads;

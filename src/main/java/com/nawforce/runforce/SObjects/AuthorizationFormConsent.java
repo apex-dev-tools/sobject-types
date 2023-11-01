@@ -43,6 +43,7 @@ public class AuthorizationFormConsent extends SObject {
 	public Datetime SystemModstamp;
 
 	public DigitalSignature[] DigitalSignatures;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AuthorizationFormConsentHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

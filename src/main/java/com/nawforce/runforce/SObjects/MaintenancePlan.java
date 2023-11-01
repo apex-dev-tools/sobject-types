@@ -68,6 +68,7 @@ public class MaintenancePlan extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public MaintenancePlanFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public MaintenancePlanHistory[] Histories;
 	public MaintenanceAsset[] MaintenanceAssets;
 	public MaintenanceWorkRule[] MaintenanceWorkRules;

@@ -29,6 +29,8 @@ public class CaseComment extends SObject {
 	public Case Parent;
 	public Datetime SystemModstamp;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+
 	public CaseComment clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CaseComment clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public CaseComment clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

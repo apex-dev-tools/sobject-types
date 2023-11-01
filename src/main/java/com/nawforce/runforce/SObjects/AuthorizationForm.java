@@ -37,6 +37,7 @@ public class AuthorizationForm extends SObject {
 	public Datetime SystemModstamp;
 
 	public AuthorizationFormText[] AuthorizationForms;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AuthorizationFormHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

@@ -34,6 +34,7 @@ public class DuplicateRecordSet extends SObject {
 	public Datetime SystemModstamp;
 
 	public DuplicateRecordItem[] DuplicateRecordItems;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

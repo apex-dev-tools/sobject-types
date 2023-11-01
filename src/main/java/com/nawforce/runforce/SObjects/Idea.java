@@ -55,6 +55,7 @@ public class Idea extends SObject {
 	public Decimal VoteTotal;
 
 	public IdeaComment[] Comments;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public Vote[] Votes;
 
 	public Idea clone$() {throw new java.lang.UnsupportedOperationException();}

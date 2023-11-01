@@ -71,6 +71,7 @@ public class CreditMemo extends SObject {
 	public CreditMemoFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public CreditMemoHistory[] Histories;
 	public Invoice[] Invoices;
 	public Note[] Notes;

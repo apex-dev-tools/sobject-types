@@ -35,6 +35,7 @@ public class PromptError extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public PromptErrorShare[] Shares;

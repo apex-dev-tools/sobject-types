@@ -45,6 +45,7 @@ public class BusinessHours extends SObject {
 
 	public Case[] Cases;
 	public Entitlement[] Entitlements;
+	public MessagingChannel[] MessagingChannels;
 	public WorkOrder[] WorkOrders;
 
 	public BusinessHours clone$() {throw new java.lang.UnsupportedOperationException();}

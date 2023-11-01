@@ -41,6 +41,7 @@ public class QuickText extends SObject {
 	public String SourceType;
 	public Datetime SystemModstamp;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public QuickTextHistory[] Histories;
 	public QuickTextShare[] Shares;
 

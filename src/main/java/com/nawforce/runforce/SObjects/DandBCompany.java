@@ -144,6 +144,7 @@ public class DandBCompany extends SObject {
 	public String YearStarted;
 
 	public Account[] Accounts;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public Lead[] Leads;
 
 	public DandBCompany clone$() {throw new java.lang.UnsupportedOperationException();}

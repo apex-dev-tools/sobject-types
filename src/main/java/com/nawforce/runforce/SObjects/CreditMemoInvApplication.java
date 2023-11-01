@@ -51,6 +51,7 @@ public class CreditMemoInvApplication extends SObject {
 	public CreditMemoInvApplicationFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public CreditMemoInvApplicationHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;

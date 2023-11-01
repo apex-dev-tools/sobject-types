@@ -40,6 +40,7 @@ public class LocationGroup extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public LocationGroupFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LocationGroupHistory[] Histories;
 	public LocationGroupAssignment[] LocationGroups;
 	public NetworkActivityAudit[] ParentEntities;

@@ -33,6 +33,7 @@ public class AttributePicklist extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
 	public AttributeDefinition[] AttributeDefinitions;
 	public AttributePicklistValue[] AttributePicklistValues;
 	public CombinedAttachment[] CombinedAttachments;
@@ -41,7 +42,10 @@ public class AttributePicklist extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AttributePicklistFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AttributePicklistHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

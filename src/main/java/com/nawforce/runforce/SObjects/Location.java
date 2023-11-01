@@ -80,6 +80,7 @@ public class Location extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public LocationFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LocationHistory[] Histories;
 	public LocationGroupAssignment[] Locations;
 	public MaintenancePlan[] MaintenancePlans;

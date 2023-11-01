@@ -56,6 +56,7 @@ public class Expense extends SObject {
 	public ExpenseReportEntry[] ExpenseReportEntries;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ExpenseFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ExpenseHistory[] Histories;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;

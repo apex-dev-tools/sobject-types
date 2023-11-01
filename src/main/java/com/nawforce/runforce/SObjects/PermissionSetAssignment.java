@@ -21,6 +21,7 @@ public class PermissionSetAssignment extends SObject {
 	public Datetime ExpirationDate;
 	public Id Id;
 	public Boolean IsActive;
+	public Boolean IsRevoked;
 	public Id PermissionSetGroupId;
 	public PermissionSetGroup PermissionSetGroup;
 	public Id PermissionSetId;

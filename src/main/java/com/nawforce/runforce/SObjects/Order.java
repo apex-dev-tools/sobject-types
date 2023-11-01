@@ -104,6 +104,7 @@ public class Order extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OrderFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public OrderHistory[] Histories;
 	public Invoice[] Invoices;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;

@@ -128,6 +128,7 @@ public class WorkOrder extends SObject {
 	public Expense[] Expenses;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkOrderFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public WorkOrderHistory[] Histories;
 	public LinkedArticle[] LinkedArticles;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;

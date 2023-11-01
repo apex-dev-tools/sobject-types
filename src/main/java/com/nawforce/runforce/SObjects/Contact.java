@@ -109,6 +109,7 @@ public class Contact extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ContractContactRole[] ContractContactRoles;
 	public Contract[] ContractsSigned;
+	public ConversationParticipant[] ConversationParticipants;
 	public CreditMemo[] CreditMemos;
 	public DeclinedEventRelation[] DeclinedEventRelations;
 	public DuplicateRecordItem[] DuplicateRecordItems;
@@ -119,12 +120,15 @@ public class Contact extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContactFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GroupCensusMember[] GroupCensusMembers;
 	public ContactHistory[] Histories;
 	public Invoice[] Invoices;
 	public SurveyInvitation[] LeadSurveyInvitations;
 	public ListEmailIndividualRecipient[] ListEmailIndividualRecipients;
 	public MaintenancePlan[] MaintenancePlans;
+	public MessagingEndUser[] MessagingEndUsers;
+	public MessagingSession[] MessagingSessions;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

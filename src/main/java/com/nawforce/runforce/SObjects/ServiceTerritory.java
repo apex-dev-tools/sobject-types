@@ -63,6 +63,7 @@ public class ServiceTerritory extends SObject {
 	public ServiceTerritory[] DescendantTerritories;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceTerritoryFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ServiceTerritoryHistory[] Histories;
 	public ServiceTerritoryLocation[] Locations;
 	public NetworkActivityAudit[] ParentEntities;
@@ -75,6 +76,8 @@ public class ServiceTerritory extends SObject {
 	public ServiceTerritoryShare[] Shares;
 	public Shift[] ShiftServiceTerritories;
 	public TopicAssignment[] TopicAssignments;
+	public WorkCapacityLimit[] WorkCapacityLimits;
+	public WorkCapacityUsage[] WorkCapacityUsages;
 	public WorkOrderLineItem[] WorkOrderLineItems;
 	public WorkOrder[] WorkOrders;
 	public WorkPlanSelectionRule[] WorkPlanSelectionRules;

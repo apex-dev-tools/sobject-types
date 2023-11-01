@@ -53,6 +53,7 @@ public class RecordsetFilterCriteria extends SObject {
 	public RecordsetFilterCriteriaShare[] Shares;
 	public Shift[] ShiftRecordsetFilterCriteria;
 	public ShiftTemplate[] ShiftTemplates;
+	public TimeSlot[] TimeSlots;
 
 	public RecordsetFilterCriteria clone$() {throw new java.lang.UnsupportedOperationException();}
 	public RecordsetFilterCriteria clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
