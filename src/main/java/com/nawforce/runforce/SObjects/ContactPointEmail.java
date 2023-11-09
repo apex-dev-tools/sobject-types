@@ -48,6 +48,7 @@ public class ContactPointEmail extends SObject {
 
 	public CommSubscriptionConsent[] CommSubscriptionConsents;
 	public ContactPointConsent[] ContactPointConsents;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ContactPointEmailHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

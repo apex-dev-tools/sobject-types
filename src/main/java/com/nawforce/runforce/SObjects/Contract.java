@@ -82,6 +82,7 @@ public class Contract extends SObject {
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
+	public AppUsageAssignment[] AppUsageAssignments;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
@@ -92,6 +93,7 @@ public class Contract extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContractFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ContractHistory[] Histories;
 	public InsuranceContract[] InsuranceContracts;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;

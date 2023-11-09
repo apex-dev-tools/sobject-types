@@ -43,6 +43,7 @@ public class ContactRequest extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public EmailMessage[] Emails;
 	public Event[] Events;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public OpenActivity[] OpenActivities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;

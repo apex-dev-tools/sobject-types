@@ -89,7 +89,9 @@ public class Opportunity extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OpportunityFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public OpportunityFieldHistory[] Histories;
+	public MessagingSession[] MessagingSessions;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
@@ -113,6 +115,8 @@ public class Opportunity extends SObject {
 	public ServiceAppointment[] ServiceAppointments;
 	public OpportunityShare[] Shares;
 	public SurveySubject[] SurveySubjectEntities;
+	public SwarmMember[] SwarmMembers;
+	public Swarm[] Swarms;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

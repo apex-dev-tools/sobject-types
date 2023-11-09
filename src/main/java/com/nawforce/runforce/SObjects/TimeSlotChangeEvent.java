@@ -28,6 +28,8 @@ public class TimeSlotChangeEvent extends SObject {
 	public Datetime LastModifiedDate;
 	public Id OperatingHoursId;
 	public OperatingHours OperatingHours;
+	public Id RecordsetFilterCriteriaId;
+	public RecordsetFilterCriteria RecordsetFilterCriteria;
 	public String ReplayId;
 	public Time StartTime;
 	public String TimeSlotNumber;

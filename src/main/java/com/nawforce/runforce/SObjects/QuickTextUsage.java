@@ -39,6 +39,7 @@ public class QuickTextUsage extends SObject {
 	public Id UserId;
 	public User User;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public QuickTextUsageShare[] Shares;

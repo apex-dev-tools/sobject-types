@@ -36,6 +36,7 @@ public class WorkThanks extends SObject {
 	public Datetime SystemModstamp;
 
 	public WorkBadge[] Badges;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public WorkThanksShare[] Shares;
 
 	public WorkThanks clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -33,6 +33,7 @@ public class StreamingChannel extends SObject {
 	public Name Owner;
 	public Datetime SystemModstamp;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public StreamingChannelShare[] Shares;

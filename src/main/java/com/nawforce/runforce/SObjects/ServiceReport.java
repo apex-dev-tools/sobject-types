@@ -39,6 +39,7 @@ public class ServiceReport extends SObject {
 	public Datetime SystemModstamp;
 	public String Template;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ServiceReportHistory[] Histories;
 
 	public ServiceReport clone$() {throw new java.lang.UnsupportedOperationException();}

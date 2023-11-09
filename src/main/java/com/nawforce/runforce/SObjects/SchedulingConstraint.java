@@ -39,6 +39,7 @@ public class SchedulingConstraint extends SObject {
 	public Integer RestTimeMinutes;
 	public Datetime SystemModstamp;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ServiceResource[] ServiceResources;

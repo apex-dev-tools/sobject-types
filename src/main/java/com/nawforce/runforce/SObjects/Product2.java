@@ -62,6 +62,7 @@ public class Product2 extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public Product2Feed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public Product2History[] Histories;
 	public InvoiceLine[] InvoiceLines;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;

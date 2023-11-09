@@ -33,6 +33,7 @@ public class DataUseLegalBasis extends SObject {
 	public Datetime SystemModstamp;
 
 	public DataUsePurpose[] DataUsePurposes;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public DataUseLegalBasisHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

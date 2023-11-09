@@ -49,6 +49,7 @@ public class ContactPointConsent extends SObject {
 	public String PrivacyConsentStatus;
 	public Datetime SystemModstamp;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ContactPointConsentHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

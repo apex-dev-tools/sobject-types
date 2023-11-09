@@ -59,6 +59,7 @@ public class ContactPointAddress extends SObject {
 
 	public CommSubscriptionConsent[] CommSubscriptionConsents;
 	public ContactPointConsent[] ContactPointConsents;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ContactPointAddressHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

@@ -46,6 +46,7 @@ public class MaintenanceAsset extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public MaintenanceAssetFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public MaintenanceAssetHistory[] Histories;
 	public MaintenanceWorkRule[] MaintenanceWorkRules;
 	public OpenActivity[] OpenActivities;

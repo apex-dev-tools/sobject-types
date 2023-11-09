@@ -224,6 +224,8 @@ public class User extends SObject {
 	public ContactRequest[] ContactRequests;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public Contract[] ContractsSigned;
+	public ConversationEntry[] ConversationEntries;
+	public ConversationParticipant[] ConversationParticipants;
 	public DeclinedEventRelation[] DeclinedEventRelations;
 	public User[] DelegatedUsers;
 	public Shipment[] DeliveredToShipments;
@@ -234,6 +236,7 @@ public class User extends SObject {
 	public EntitySubscription[] FeedSubscriptions;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public UserFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public WorkThanks[] GivenThanks;
 	public CollaborationGroupMemberRequest[] GroupMembershipRequests;
 	public CollaborationGroupMember[] GroupMemberships;
@@ -260,6 +263,8 @@ public class User extends SObject {
 	public UserShare[] Shares;
 	public SurveyInvitation[] SurveyInvitations;
 	public SurveySubject[] SurveySubjectEntities;
+	public SwarmMember[] SwarmMembers;
+	public Swarm[] Swarms;
 	public UndecidedEventRelation[] UndecidedEventRelations;
 	public UserEntityAccess[] UserEntityAccessRights;
 	public UserFieldAccess[] UserFieldAccessRights;

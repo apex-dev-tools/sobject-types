@@ -32,6 +32,7 @@ public class UnitOfMeasure extends SObject {
 	public String Type;
 	public String UnitCode;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public UnitOfMeasureShare[] Shares;

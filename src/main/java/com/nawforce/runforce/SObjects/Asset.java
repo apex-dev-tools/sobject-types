@@ -96,6 +96,7 @@ public class Asset extends SObject {
 	public String Uuid;
 
 	public ActivityHistory[] ActivityHistories;
+	public AppUsageAssignment[] AppUsageAssignments;
 	public AssetAction[] AssetActions;
 	public AssetAttribute[] AssetAttributes;
 	public AssetDowntimePeriod[] AssetDowntimePeriods;
@@ -112,6 +113,7 @@ public class Asset extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AssetFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AssetHistory[] Histories;
 	public MaintenanceAsset[] MaintenanceAssets;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;

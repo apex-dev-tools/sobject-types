@@ -47,6 +47,7 @@ public class Seller extends SObject {
 	public CommSubscriptionConsent[] CommSubsConsents;
 	public ContactPointConsent[] ContactPointConsents;
 	public ContactPointTypeConsent[] ContactPointTypeConsents;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public SellerHistory[] Histories;
 	public MarketplaceSeller[] MarketplaceSellers;
 	public PartyConsent[] PartyConsents;

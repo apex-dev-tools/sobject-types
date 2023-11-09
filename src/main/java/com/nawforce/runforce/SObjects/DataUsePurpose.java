@@ -36,6 +36,7 @@ public class DataUsePurpose extends SObject {
 
 	public AuthorizationFormDataUse[] AuthorizationFormDataUses;
 	public CommSubscription[] CommSubscriptions;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public DataUsePurposeHistory[] Histories;
 	public PartyConsent[] PartyConsents;
 	public ProcessInstance[] ProcessInstances;

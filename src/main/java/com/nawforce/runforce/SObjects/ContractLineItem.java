@@ -65,6 +65,7 @@ public class ContractLineItem extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContractLineItemFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ContractLineItemHistory[] Histories;
 	public MaintenanceAsset[] MaintenanceAssets;
 	public Note[] Notes;

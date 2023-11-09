@@ -41,6 +41,8 @@ public class WorkBadge extends SObject {
 	public WorkThanks Source;
 	public Datetime SystemModstamp;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+
 	public WorkBadge clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkBadge clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public WorkBadge clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

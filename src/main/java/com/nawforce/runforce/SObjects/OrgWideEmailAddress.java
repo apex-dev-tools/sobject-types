@@ -28,6 +28,8 @@ public class OrgWideEmailAddress extends SObject {
 	public String Purpose;
 	public Datetime SystemModstamp;
 
+	public SetupEntityAccess[] SetupEntityAccessItems;
+
 	public OrgWideEmailAddress clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OrgWideEmailAddress clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public OrgWideEmailAddress clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

@@ -106,10 +106,13 @@ public class Lead extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public LeadFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GroupCensus[] GroupCensuses;
 	public LeadHistory[] Histories;
 	public LeadCleanInfo[] LeadCleanInfos;
 	public ListEmailIndividualRecipient[] ListEmailIndividualRecipients;
+	public MessagingEndUser[] MessagingEndUsers;
+	public MessagingSession[] MessagingSessions;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public ObjectTerritory2Association[] ObjectTerritory2Associations;

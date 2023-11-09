@@ -38,6 +38,7 @@ public class JobProfile extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public JobProfileFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public JobProfileHistory[] Histories;
 	public Shift[] JobProfiles;
 	public Note[] Notes;

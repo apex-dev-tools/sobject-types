@@ -38,6 +38,7 @@ public class Customer extends SObject {
 	public CommSubscriptionConsent[] CommSubsConsents;
 	public ContactPointConsent[] ContactPointConsents;
 	public ContactPointTypeConsent[] ContactPointTypeConsents;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public PartyConsent[] PartyConsents;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

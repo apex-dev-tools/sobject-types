@@ -84,6 +84,7 @@ public class Campaign extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public CampaignFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public CampaignHistory[] Histories;
 	public ListEmailRecipientSource[] ListEmailRecipientSources;
 	public ListEmail[] ListEmails;

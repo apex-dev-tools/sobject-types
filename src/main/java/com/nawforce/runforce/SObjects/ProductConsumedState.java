@@ -32,6 +32,7 @@ public class ProductConsumedState extends SObject {
 	public SerializedProduct SerializedProduct;
 	public Datetime SystemModstamp;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProductConsumedStateHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

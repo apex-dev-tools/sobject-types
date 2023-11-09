@@ -54,6 +54,7 @@ public class AssetAction extends SObject {
 	public String Type;
 
 	public AssetActionSource[] AssetActionSources;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

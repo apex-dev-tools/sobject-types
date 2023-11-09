@@ -45,11 +45,14 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsAddWaveNotificationRecipients;
 	public Boolean MaximumPermissionsAllowEmailIC;
 	public Boolean MaximumPermissionsAllowLightningLogin;
+	public Boolean MaximumPermissionsAllowObjectDetection;
+	public Boolean MaximumPermissionsAllowObjectDetectionTraining;
 	public Boolean MaximumPermissionsAllowUniversalSearch;
 	public Boolean MaximumPermissionsAllowViewEditConvertedLeads;
 	public Boolean MaximumPermissionsAllowViewKnowledge;
 	public Boolean MaximumPermissionsApexRestServices;
 	public Boolean MaximumPermissionsApiEnabled;
+	public Boolean MaximumPermissionsApiUserOnly;
 	public Boolean MaximumPermissionsAssignPermissionSets;
 	public Boolean MaximumPermissionsAssignTopics;
 	public Boolean MaximumPermissionsAuthorApex;
@@ -62,6 +65,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsBypassMFAForUiLogins;
 	public Boolean MaximumPermissionsCMSECEAuthoringAccess;
 	public Boolean MaximumPermissionsCampaignInfluence2;
+	public Boolean MaximumPermissionsCanAccessCE;
 	public Boolean MaximumPermissionsCanApproveFeedPost;
 	public Boolean MaximumPermissionsCanEditDataPrepRecipe;
 	public Boolean MaximumPermissionsCanEditPrompts;

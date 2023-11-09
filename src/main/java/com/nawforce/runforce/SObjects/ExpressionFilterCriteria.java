@@ -34,6 +34,8 @@ public class ExpressionFilterCriteria extends SObject {
 	public Integer SortOrder;
 	public Datetime SystemModstamp;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+
 	public ExpressionFilterCriteria clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ExpressionFilterCriteria clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public ExpressionFilterCriteria clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

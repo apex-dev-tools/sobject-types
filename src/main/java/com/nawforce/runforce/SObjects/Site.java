@@ -70,6 +70,7 @@ public class Site extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public SiteFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public SiteHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public DomainSite[] SiteDomainPaths;

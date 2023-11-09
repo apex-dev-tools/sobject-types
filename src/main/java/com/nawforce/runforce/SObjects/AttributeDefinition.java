@@ -23,7 +23,9 @@ public class AttributeDefinition extends SObject {
 	public String Description;
 	public String DeveloperName;
 	public Id Id;
+	public Boolean IsActive;
 	public Boolean IsDeleted;
+	public Boolean IsRequired;
 	public String Label;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -50,6 +52,7 @@ public class AttributeDefinition extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AttributeDefinitionFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AttributeDefinitionHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

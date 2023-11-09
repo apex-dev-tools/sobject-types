@@ -94,6 +94,7 @@ public class ServiceContract extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceContractFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ServiceContractHistory[] Histories;
 	public MaintenancePlan[] MaintenancePlans;
 	public Note[] Notes;

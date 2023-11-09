@@ -34,6 +34,7 @@ public class ExternalEventMapping extends SObject {
 	public Date StartDate;
 	public Datetime SystemModstamp;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ExternalEventMappingShare[] Shares;

@@ -32,11 +32,14 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsAddWaveNotificationRecipients;
 	public Boolean PermissionsAllowEmailIC;
 	public Boolean PermissionsAllowLightningLogin;
+	public Boolean PermissionsAllowObjectDetection;
+	public Boolean PermissionsAllowObjectDetectionTraining;
 	public Boolean PermissionsAllowUniversalSearch;
 	public Boolean PermissionsAllowViewEditConvertedLeads;
 	public Boolean PermissionsAllowViewKnowledge;
 	public Boolean PermissionsApexRestServices;
 	public Boolean PermissionsApiEnabled;
+	public Boolean PermissionsApiUserOnly;
 	public Boolean PermissionsAssignPermissionSets;
 	public Boolean PermissionsAssignTopics;
 	public Boolean PermissionsAuthorApex;
@@ -49,6 +52,7 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsBypassMFAForUiLogins;
 	public Boolean PermissionsCMSECEAuthoringAccess;
 	public Boolean PermissionsCampaignInfluence2;
+	public Boolean PermissionsCanAccessCE;
 	public Boolean PermissionsCanApproveFeedPost;
 	public Boolean PermissionsCanEditDataPrepRecipe;
 	public Boolean PermissionsCanEditPrompts;

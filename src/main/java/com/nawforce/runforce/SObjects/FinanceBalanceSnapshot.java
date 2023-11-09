@@ -62,6 +62,7 @@ public class FinanceBalanceSnapshot extends SObject {
 	public Decimal TotalAmountWithTax;
 	public Datetime TransactionDate;
 
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public FinanceBalanceSnapshotShare[] Shares;

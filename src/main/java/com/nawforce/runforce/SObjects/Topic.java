@@ -32,6 +32,7 @@ public class Topic extends SObject {
 	public CustomBrand[] CustomBrands;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public TopicFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ListEmailRecipientSource[] ListEmailRecipientSources;
 	public TopicLocalization[] Localization;
 	public NetworkActivityAudit[] ParentEntities;

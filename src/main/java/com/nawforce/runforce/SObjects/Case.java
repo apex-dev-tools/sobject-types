@@ -85,7 +85,9 @@ public class Case extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public CaseFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public CaseHistory[] Histories;
+	public MessagingSession[] MessagingSessions;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
@@ -101,6 +103,8 @@ public class Case extends SObject {
 	public ServiceAppointment[] ServiceAppointments;
 	public CaseShare[] Shares;
 	public SurveySubject[] SurveySubjectEntities;
+	public SwarmMember[] SwarmMembers;
+	public Swarm[] Swarms;
 	public Task[] Tasks;
 	public CaseTeamMember[] TeamMembers;
 	public CaseTeamTemplateRecord[] TeamTemplateRecords;

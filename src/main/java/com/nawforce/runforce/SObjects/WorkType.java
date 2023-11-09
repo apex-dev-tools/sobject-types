@@ -47,6 +47,7 @@ public class WorkType extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkTypeFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public WorkTypeHistory[] Histories;
 	public LinkedArticle[] LinkedArticles;
 	public MaintenanceAsset[] MaintenanceAssets;
