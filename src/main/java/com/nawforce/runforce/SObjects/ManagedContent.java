@@ -28,6 +28,7 @@ public class ManagedContent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String Name;
 	public String PrimaryLanguage;
 	public Datetime SystemModstamp;
 

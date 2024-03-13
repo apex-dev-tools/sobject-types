@@ -31,14 +31,20 @@ public class Profile extends SObject {
 	public Boolean PermissionsAIViewInsightObjects;
 	public Boolean PermissionsAccessCMC;
 	public Boolean PermissionsAccessContentBuilder;
+	public Boolean PermissionsAccessDisputePrompts;
+	public Boolean PermissionsAccessToComplaintMgmt;
+	public Boolean PermissionsAccessToDisputeManagement;
 	public Boolean PermissionsAccessToServiceProcess;
 	public Boolean PermissionsAccountSwitcherUser;
 	public Boolean PermissionsActivateContract;
 	public Boolean PermissionsActivateOrder;
+	public Boolean PermissionsActivateSystemModeFlows;
 	public Boolean PermissionsActivitiesAccess;
 	public Boolean PermissionsAddAnalyticsRemoteConnections;
 	public Boolean PermissionsAddDirectMessageMembers;
 	public Boolean PermissionsAddWaveNotificationRecipients;
+	public Boolean PermissionsAdoptionAnalyticsUser;
+	public Boolean PermissionsAdvancedCsvDataImportUser;
 	public Boolean PermissionsAllowEmailIC;
 	public Boolean PermissionsAllowLightningLogin;
 	public Boolean PermissionsAllowObjectDetection;
@@ -65,8 +71,11 @@ public class Profile extends SObject {
 	public Boolean PermissionsCanApproveFeedPost;
 	public Boolean PermissionsCanEditDataPrepRecipe;
 	public Boolean PermissionsCanEditPrompts;
+	public Boolean PermissionsCanInitiateMessagingSessions;
 	public Boolean PermissionsCanInsertFeedSystemFields;
 	public Boolean PermissionsCanManageMaps;
+	public Boolean PermissionsCanRunAnalysis;
+	public Boolean PermissionsCanUpdateEmailMessage;
 	public Boolean PermissionsCanUseNewDashboardBuilder;
 	public Boolean PermissionsCanVerifyComment;
 	public Boolean PermissionsChangeDashboardColors;
@@ -99,18 +108,26 @@ public class Profile extends SObject {
 	public Boolean PermissionsCreateReportFolders;
 	public Boolean PermissionsCreateReportInLightning;
 	public Boolean PermissionsCreateTopics;
+	public Boolean PermissionsCreateUpdateSDDDataset;
+	public Boolean PermissionsCreateUpdateSDDStory;
 	public Boolean PermissionsCreateWorkBadgeDefinition;
 	public Boolean PermissionsCreateWorkspaces;
 	public Boolean PermissionsCrisisCenterUserAccess;
+	public Boolean PermissionsCustomAppsOnFSMobile;
 	public Boolean PermissionsCustomMobileAppsAccess;
 	public Boolean PermissionsCustomSidebarOnAllPages;
 	public Boolean PermissionsCustomizeApplication;
 	public Boolean PermissionsDataExport;
+	public Boolean PermissionsDebugApex;
 	public Boolean PermissionsDelegatedPortalUserAdmin;
 	public Boolean PermissionsDelegatedTwoFactor;
 	public Boolean PermissionsDeleteActivatedContract;
+	public Boolean PermissionsDeleteCrMemoAndInvoice;
 	public Boolean PermissionsDeleteTopics;
+	public Boolean PermissionsDigitalLendingAdminUser;
+	public Boolean PermissionsDigitalLendingUser;
 	public Boolean PermissionsDistributeFromPersWksp;
+	public Boolean PermissionsDownloadPackageVersionZips;
 	public Boolean PermissionsEditActivatedOrders;
 	public Boolean PermissionsEditBillingInfo;
 	public Boolean PermissionsEditBrandTemplates;
@@ -131,6 +148,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsEmailMass;
 	public Boolean PermissionsEmailSingle;
 	public Boolean PermissionsEmailTemplateManagement;
+	public Boolean PermissionsEmbeddedMessagingAgent;
 	public Boolean PermissionsEnableBCTransactionPolling;
 	public Boolean PermissionsEnableCommunityAppLauncher;
 	public Boolean PermissionsEnableIPFSUpload;
@@ -145,6 +163,8 @@ public class Profile extends SObject {
 	public Boolean PermissionsFieldServiceScheduling;
 	public Boolean PermissionsFlowUFLRequired;
 	public Boolean PermissionsForceTwoFactor;
+	public Boolean PermissionsGetSmartDataDiscovery;
+	public Boolean PermissionsGetSmartDataDiscoveryExternal;
 	public Boolean PermissionsGiveRecognitionBadge;
 	public Boolean PermissionsGovernNetworks;
 	public Boolean PermissionsHasUnlimitedNBAExecutions;
@@ -176,6 +196,8 @@ public class Profile extends SObject {
 	public Boolean PermissionsLightningExperienceUser;
 	public Boolean PermissionsLightningOnFSMobile;
 	public Boolean PermissionsListEmailSend;
+	public Boolean PermissionsLoanOfficerUser;
+	public Boolean PermissionsLobbyManagementUserAccess;
 	public Boolean PermissionsLtngPromoReserved01UserPerm;
 	public Boolean PermissionsManageAnalyticSnapshots;
 	public Boolean PermissionsManageAuthProviders;
@@ -198,6 +220,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsManageDashbdsInPubFolders;
 	public Boolean PermissionsManageDataCategories;
 	public Boolean PermissionsManageDataIntegrations;
+	public Boolean PermissionsManageDataMaskPolicies;
 	public Boolean PermissionsManageDataspaceScope;
 	public Boolean PermissionsManageDynamicDashboards;
 	public Boolean PermissionsManageEmailClientConfig;
@@ -216,8 +239,10 @@ public class Profile extends SObject {
 	public Boolean PermissionsManageLearningReporting;
 	public Boolean PermissionsManageLoginAccessPolicies;
 	public Boolean PermissionsManageMobile;
+	public Boolean PermissionsManageNamedCredentials;
 	public Boolean PermissionsManageNetworks;
 	public Boolean PermissionsManageOrchInstsAndWorkItems;
+	public Boolean PermissionsManageOrchestrationRuns;
 	public Boolean PermissionsManagePartners;
 	public Boolean PermissionsManagePasswordPolicies;
 	public Boolean PermissionsManageProfilesPermissionsets;
@@ -234,6 +259,8 @@ public class Profile extends SObject {
 	public Boolean PermissionsManageSecurityCommandCenter;
 	public Boolean PermissionsManageSessionPermissionSets;
 	public Boolean PermissionsManageSharing;
+	public Boolean PermissionsManageSmartDataDiscovery;
+	public Boolean PermissionsManageSmartDataDiscoveryModel;
 	public Boolean PermissionsManageSolutions;
 	public Boolean PermissionsManageSubscriptions;
 	public Boolean PermissionsManageSurveys;
@@ -258,6 +285,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsMultiStepSchedulingUser;
 	public Boolean PermissionsNativeWebviewScrolling;
 	public Boolean PermissionsNewReportBuilder;
+	public Boolean PermissionsOmnichannelInventoryBasic;
 	public Boolean PermissionsOmnichannelInventorySync;
 	public Boolean PermissionsOptOutGeoLocationTracking;
 	public Boolean PermissionsOverrideForecasts;
@@ -266,6 +294,8 @@ public class Profile extends SObject {
 	public Boolean PermissionsPackaging2PromoteVersion;
 	public Boolean PermissionsPasswordNeverExpires;
 	public Boolean PermissionsPaymentsAPIUser;
+	public Boolean PermissionsPersonalizationPlatform;
+	public Boolean PermissionsPersonalizedFinanceUserAccess;
 	public Boolean PermissionsPortalSuperUser;
 	public Boolean PermissionsPreventClassicExperience;
 	public Boolean PermissionsPrivacyDataAccess;
@@ -274,6 +304,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsQueryAllFiles;
 	public Boolean PermissionsQuipMetricsAccess;
 	public Boolean PermissionsQuipUserEngagementMetrics;
+	public Boolean PermissionsReassignOrchestrationWorkItems;
 	public Boolean PermissionsRecordVisibilityAPI;
 	public Boolean PermissionsRemoveDirectMessageMembers;
 	public Boolean PermissionsResetPasswords;
@@ -283,6 +314,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsSalesConsole;
 	public Boolean PermissionsSandboxTestingInCommunityApp;
 	public Boolean PermissionsScheduleReports;
+	public Boolean PermissionsSegmentIntelligenceUser;
 	public Boolean PermissionsSelectFilesFromSalesforce;
 	public Boolean PermissionsSendAnnouncementEmails;
 	public Boolean PermissionsSendCustomNotifications;
@@ -291,9 +323,15 @@ public class Profile extends SObject {
 	public Boolean PermissionsServiceAnalyticsUser;
 	public Boolean PermissionsShareFilesWithNetworks;
 	public Boolean PermissionsShareInternalArticles;
+	public Boolean PermissionsShareSmartDataDiscoveryStory;
 	public Boolean PermissionsShowCompanyNameAsUserBadge;
+	public Boolean PermissionsShowPreWorkBriefGA;
+	public Boolean PermissionsSimpleCsvDataImportUser;
 	public Boolean PermissionsSkipIdentityConfirmation;
+	public Boolean PermissionsSmartDataDiscoveryForCommunity;
 	public Boolean PermissionsSolutionImport;
+	public Boolean PermissionsStageManagementDesignUser;
+	public Boolean PermissionsStoryOnDSWithPredicate;
 	public Boolean PermissionsStdAutomaticActivityCapture;
 	public Boolean PermissionsSubmitMacrosAllowed;
 	public Boolean PermissionsSubscribeDashboardRolesGrps;
@@ -310,10 +348,12 @@ public class Profile extends SObject {
 	public Boolean PermissionsTransferAnyEntity;
 	public Boolean PermissionsTransferAnyLead;
 	public Boolean PermissionsTwoFactorApi;
+	public Boolean PermissionsUnderwriterUser;
 	public Boolean PermissionsUseAssistantDialog;
 	public Boolean PermissionsUseMySearch;
 	public Boolean PermissionsUseOmnichannelInventoryAPIs;
 	public Boolean PermissionsUseQuerySuggestions;
+	public Boolean PermissionsUseSmartDataDiscovery;
 	public Boolean PermissionsUseSubscriptionEmails;
 	public Boolean PermissionsUseTeamReassignWizards;
 	public Boolean PermissionsUseTemplatedApp;
@@ -349,6 +389,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsViewSecurityCommandCenter;
 	public Boolean PermissionsViewSetup;
 	public Boolean PermissionsViewUserPII;
+	public Boolean PermissionsWaveCommunityUser;
 	public Boolean PermissionsWaveManagePrivateAssetsUser;
 	public Boolean PermissionsWaveTabularDownload;
 	public Boolean PermissionsWorkCalibrationUser;
@@ -359,6 +400,7 @@ public class Profile extends SObject {
 	public String UserType;
 
 	public MobileSettingsAssignment[] MobileSettingsAssignments;
+	public OrgEmailAddressSecurity[] OrgEmailAddressSecurityItems;
 	public User[] Users;
 
 	public Profile clone$() {throw new java.lang.UnsupportedOperationException();}

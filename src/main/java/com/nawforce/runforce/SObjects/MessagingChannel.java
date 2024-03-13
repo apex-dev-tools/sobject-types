@@ -17,6 +17,7 @@ public class MessagingChannel extends SObject {
 
 	public Id BusinessHoursId;
 	public BusinessHours BusinessHours;
+	public String ChannelAddressIdentifier;
 	public String ConsentType;
 	public String ConversationEndResponse;
 	public Id CreatedById;
@@ -50,6 +51,7 @@ public class MessagingChannel extends SObject {
 	public Id TargetQueueId;
 	public Group TargetQueue;
 
+	public CommSubscriptionChannelType[] MessagingChannels;
 	public MsgChannelLanguageKeyword[] MsgChannelLanguageKeywords;
 
 	public MessagingChannel clone$() {throw new java.lang.UnsupportedOperationException();}

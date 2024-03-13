@@ -15,9 +15,11 @@ public class WorkCapacityLimit extends SObject {
 	public static SObjectType$<WorkCapacityLimit> SObjectType;
 	public static SObjectFields$<WorkCapacityLimit> Fields;
 
+	public String CapacityLimitRelaxation;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String Description;
 	public Date EndDate;
 	public Id Id;
@@ -27,6 +29,7 @@ public class WorkCapacityLimit extends SObject {
 	public Boolean IsMonday;
 	public Boolean IsSaturday;
 	public Boolean IsSunday;
+	public Boolean IsSvcTerrOnlyLimit;
 	public Boolean IsThursday;
 	public Boolean IsTuesday;
 	public Boolean IsWednesday;
@@ -43,6 +46,7 @@ public class WorkCapacityLimit extends SObject {
 	public ServiceTerritory ServiceTerritory;
 	public Date StartDate;
 	public String SvcApptField;
+	public String SvcApptFieldValDplyNm;
 	public String SvcApptFieldValue;
 	public Datetime SystemModstamp;
 	public String TimePeriod;

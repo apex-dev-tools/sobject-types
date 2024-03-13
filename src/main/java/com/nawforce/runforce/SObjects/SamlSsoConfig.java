@@ -38,6 +38,7 @@ public class SamlSsoConfig extends SObject {
 	public String LogoutUrl;
 	public String MasterLabel;
 	public String NamespacePrefix;
+	public Boolean OptionsRequireMfaSaml;
 	public Boolean OptionsSpInitBinding;
 	public Boolean OptionsUseConfigRequestMethod;
 	public Boolean OptionsUseSameDigestAlgoForSigning;

@@ -29,6 +29,8 @@ public class Skill extends SObject {
 	public Datetime LastViewedDate;
 	public String MasterLabel;
 	public Datetime SystemModstamp;
+	public Id TypeId;
+	public SkillType Type;
 
 	public ServiceResourceSkill[] ServiceResources;
 	public SkillRequirement[] SkillRequirements;

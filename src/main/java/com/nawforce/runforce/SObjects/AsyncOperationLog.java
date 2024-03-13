@@ -32,6 +32,8 @@ public class AsyncOperationLog extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastStatusUpdateAt;
 	public Datetime LastViewedDate;
+	public Id RelatedRecordId;
+	public Asset RelatedRecord;
 	public String Request;
 	public String Response;
 	public Datetime StartedAt;

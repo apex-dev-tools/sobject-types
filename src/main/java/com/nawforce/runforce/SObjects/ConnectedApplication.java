@@ -26,13 +26,16 @@ public class ConnectedApplication extends SObject {
 	public String MobileSessionTimeout;
 	public String MobileStartUrl;
 	public String Name;
+	public String NamedUserUvidTimeout;
 	public Boolean OptionsAllowAdminApprovedUsersOnly;
 	public Boolean OptionsAllowExpiredUvidJWT;
+	public Boolean OptionsAppIssueJwtTokenEnabled;
 	public Boolean OptionsCodeCredentialGuestEnabled;
 	public Boolean OptionsFullContentPushNotifications;
 	public Boolean OptionsHasSessionLevelPolicy;
 	public Boolean OptionsIsInternal;
 	public Boolean OptionsRefreshTokenValidityMetric;
+	public Boolean OptionsTokenExchangeManageBitEnabled;
 	public String PinLength;
 	public Integer RefreshTokenValidityPeriod;
 	public String StartUrl;

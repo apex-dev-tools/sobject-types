@@ -35,6 +35,7 @@ public class EventRelayFeedback extends SObject {
 	public String RemoteResource;
 	public String Status;
 	public Datetime SystemModstamp;
+	public String UsageType;
 
 	public EventRelayFeedback clone$() {throw new java.lang.UnsupportedOperationException();}
 	public EventRelayFeedback clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

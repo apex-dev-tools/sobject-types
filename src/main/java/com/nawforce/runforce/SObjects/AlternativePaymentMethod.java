@@ -19,6 +19,9 @@ public class AlternativePaymentMethod extends SObject {
 	public Account Account;
 	public String AlternativePaymentMethodNumber;
 	public String AuditEmail;
+	public String BillingFirstName;
+	public String BillingLastName;
+	public String BillingName;
 	public String Comments;
 	public String CompanyName;
 	public Id CreatedById;

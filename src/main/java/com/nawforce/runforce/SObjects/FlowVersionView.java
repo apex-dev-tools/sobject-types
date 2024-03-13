@@ -18,6 +18,7 @@ public class FlowVersionView extends SObject {
 
 	public Decimal ApiVersion;
 	public Decimal ApiVersionRuntime;
+	public String CapabilityType;
 	public String Description;
 	public String DurableId;
 	public String FlowDefinitionViewId;

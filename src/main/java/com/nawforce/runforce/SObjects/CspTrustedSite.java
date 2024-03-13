@@ -15,6 +15,8 @@ public class CspTrustedSite extends SObject {
 	public static SObjectType$<CspTrustedSite> SObjectType;
 	public static SObjectFields$<CspTrustedSite> Fields;
 
+	public Boolean CanAccessCamera;
+	public Boolean CanAccessMicrophone;
 	public String Context;
 	public Id CreatedById;
 	public User CreatedBy;

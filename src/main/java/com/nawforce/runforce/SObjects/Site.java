@@ -57,8 +57,14 @@ public class Site extends SObject {
 	public Boolean OptionsCookieConsent;
 	public Boolean OptionsEnableFeeds;
 	public Boolean OptionsHasStoredPathPrefix;
+	public Boolean OptionsIsSiteConsentBannerIntegrationEnabled;
+	public Boolean OptionsIsSiteDataCloudIntegrationEnabled;
+	public Boolean OptionsIsSiteGAIntegrationEnabled;
+	public Boolean OptionsIsSiteGAIntegrationMigrated;
+	public Boolean OptionsIsSiteGRecaptchaIntegrationEnabled;
 	public Boolean OptionsRedirectToCustomDomain;
 	public Boolean OptionsReferrerPolicyOriginWhenCrossOrigin;
+	public Boolean OptionsUseGuestUserLanguage;
 	public String SiteType;
 	public String Status;
 	public String Subdomain;

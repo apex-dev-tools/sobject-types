@@ -164,6 +164,7 @@ public class User extends SObject {
 	public Boolean UserPreferencesHideSfxWelcomeMat;
 	public Boolean UserPreferencesJigsawListUser;
 	public Boolean UserPreferencesLightningExperiencePreferred;
+	public Boolean UserPreferencesLiveAgentMiawSetupDeflection;
 	public Boolean UserPreferencesNativeEmailClient;
 	public Boolean UserPreferencesNewLightningReportRunPageEnabled;
 	public Boolean UserPreferencesPathAssistantCollapsed;
@@ -186,6 +187,7 @@ public class User extends SObject {
 	public Boolean UserPreferencesShowFaxToExternalUsers;
 	public Boolean UserPreferencesShowFaxToGuestUsers;
 	public Boolean UserPreferencesShowForecastingChangeSignals;
+	public Boolean UserPreferencesShowForecastingRoundedAmounts;
 	public Boolean UserPreferencesShowManagerToExternalUsers;
 	public Boolean UserPreferencesShowManagerToGuestUsers;
 	public Boolean UserPreferencesShowMobilePhoneToExternalUsers;
@@ -243,6 +245,7 @@ public class User extends SObject {
 	public InstalledMobileApp[] InstalledMobileApps;
 	public InsuranceContract[] InsuranceContracts;
 	public LeadCleanInfo[] LeadCleanInfoReviewers;
+	public ListEmail[] ListEmails;
 	public User[] ManagedUsers;
 	public NetworkMember[] NetworkMemberUsers;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToUser;

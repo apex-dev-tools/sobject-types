@@ -59,6 +59,7 @@ public class ContractLineItem extends SObject {
 	public ContractLineItem[] ChildContractLineItems;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContractLineOutcome[] ContractLineOutcomes;
 	public ContractLineItem[] DescendantContractLineItems;
 	public EmailMessage[] Emails;
 	public Entitlement[] Entitlements;

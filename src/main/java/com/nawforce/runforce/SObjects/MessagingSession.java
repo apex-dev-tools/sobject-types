@@ -33,6 +33,7 @@ public class MessagingSession extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Datetime EndTime;
 	public Id EndUserAccountId;
 	public Account EndUserAccount;

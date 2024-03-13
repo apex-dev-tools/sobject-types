@@ -26,6 +26,7 @@ public class FileEventStore extends SObject {
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
 	public String EventIdentifier;
+	public String FileAction;
 	public String FileName;
 	public String FileSource;
 	public String FileType;

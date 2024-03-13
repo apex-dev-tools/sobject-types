@@ -26,6 +26,7 @@ public class AppDefinition extends SObject {
 	public Boolean IsNavAutoTempTabsDisabled;
 	public Boolean IsNavPersonalizationDisabled;
 	public Boolean IsNavTabPersistenceDisabled;
+	public Boolean IsOmniPinnedViewEnabled;
 	public Boolean IsOverrideOrgTheme;
 	public Boolean IsSmallFormFactorSupported;
 	public String Label;

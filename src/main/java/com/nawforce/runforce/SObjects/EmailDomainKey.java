@@ -24,6 +24,7 @@ public class EmailDomainKey extends SObject {
 	public Datetime CreatedDate;
 	public String Domain;
 	public String DomainMatch;
+	public String DomainMatchPattern;
 	public Id Id;
 	public Boolean IsActive;
 	public Boolean IsDeleted;
@@ -31,9 +32,14 @@ public class EmailDomainKey extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String PlatformType;
 	public String PublicKey;
 	public String Selector;
+	public String Status;
+	public String StatusMessage;
 	public Datetime SystemModstamp;
+	public String ThirdSelector;
+	public String ThirdTxtRecordName;
 	public String TxtRecordName;
 	public String TxtRecordsPublishState;
 

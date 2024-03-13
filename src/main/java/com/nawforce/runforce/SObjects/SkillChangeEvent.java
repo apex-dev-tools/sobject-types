@@ -28,6 +28,8 @@ public class SkillChangeEvent extends SObject {
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
 	public String ReplayId;
+	public Id TypeId;
+	public SkillType Type;
 
 	public SkillChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public SkillChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

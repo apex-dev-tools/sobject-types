@@ -22,12 +22,14 @@ public class OrgWideEmailAddress extends SObject {
 	public String DisplayName;
 	public Id Id;
 	public Boolean IsAllowAllProfiles;
+	public Boolean IsVerified;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Purpose;
 	public Datetime SystemModstamp;
 
+	public OrgEmailAddressSecurity[] OrgEmailAddressSecurityItems;
 	public SetupEntityAccess[] SetupEntityAccessItems;
 
 	public OrgWideEmailAddress clone$() {throw new java.lang.UnsupportedOperationException();}

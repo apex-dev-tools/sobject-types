@@ -58,6 +58,7 @@ public class Organization extends SObject {
 	public String PostalCode;
 	public Boolean PreferencesAutoSelectIndividualOnMerge;
 	public Boolean PreferencesConsentManagementEnabled;
+	public Boolean PreferencesEmailSenderIdCompliance;
 	public Boolean PreferencesLightningLoginEnabled;
 	public Boolean PreferencesOnlyLLPermUserAllowed;
 	public Boolean PreferencesRequireOpportunityProducts;

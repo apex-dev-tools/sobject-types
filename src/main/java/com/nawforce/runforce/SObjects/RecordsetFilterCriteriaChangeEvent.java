@@ -19,6 +19,7 @@ public class RecordsetFilterCriteriaChangeEvent extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String CustomLogic;
 	public String Description;
 	public String FilteredObject;

@@ -49,6 +49,7 @@ public class ReturnOrderLineItem extends SObject {
 	public Decimal QuantityRejected;
 	public Decimal QuantityReturned;
 	public String QuantityUnitOfMeasure;
+	public String ReasonForChangeText;
 	public String ReasonForRejection;
 	public String ReasonForReturn;
 	public String RepaymentMethod;

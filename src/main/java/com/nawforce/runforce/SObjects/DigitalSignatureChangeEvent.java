@@ -19,6 +19,7 @@ public class DigitalSignatureChangeEvent extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String DigitalSignatureNumber;
 	public String Document;
 	public Id Id;

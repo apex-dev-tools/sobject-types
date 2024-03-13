@@ -18,6 +18,7 @@ public class ServiceAppointmentCapacityUsage extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Decimal EstimatedUsageInMinutes;
 	public Id Id;
 	public Boolean IsDeleted;

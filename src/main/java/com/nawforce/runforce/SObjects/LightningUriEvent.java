@@ -24,8 +24,11 @@ public class LightningUriEvent extends SObject {
 	public String DeviceSessionId;
 	public Decimal Duration;
 	public Decimal EffectivePageTime;
+	public String EffectivePageTimeDeviationErrorType;
+	public String EffectivePageTimeDeviationReason;
 	public Datetime EventDate;
 	public String EventIdentifier;
+	public Boolean HasEffectivePageTimeDeviation;
 	public Id Id;
 	public String LoginKey;
 	public String Operation;
@@ -48,6 +51,7 @@ public class LightningUriEvent extends SObject {
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;
+	public String UserAgent;
 	public Id UserId;
 	public User User;
 	public String UserType;

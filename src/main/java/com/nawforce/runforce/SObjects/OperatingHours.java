@@ -29,6 +29,8 @@ public class OperatingHours extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public String OperatingHoursRowType;
+	public Id OwnerId;
+	public Name Owner;
 	public Datetime SystemModstamp;
 	public String TimeZone;
 
@@ -46,6 +48,7 @@ public class OperatingHours extends SObject {
 	public RecordAction[] RecordActions;
 	public ServiceResourcePreference[] ServiceResourcePreferences;
 	public ServiceTerritory[] ServiceTerritories;
+	public OperatingHoursShare[] Shares;
 	public TimeSlot[] TimeSlots;
 
 	public OperatingHours clone$() {throw new java.lang.UnsupportedOperationException();}

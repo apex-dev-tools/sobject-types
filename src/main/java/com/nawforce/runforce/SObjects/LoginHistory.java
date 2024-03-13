@@ -25,6 +25,7 @@ public class LoginHistory extends SObject {
 	public String CipherSuite;
 	public String ClientVersion;
 	public String CountryIso;
+	public String ForwardedForIp;
 	public Id Id;
 	public Id LoginGeoId;
 	public LoginGeo LoginGeo;

@@ -21,6 +21,7 @@ public class RecordsetFilterCriteriaRuleChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CriteriaField;
+	public String CurrencyIsoCode;
 	public String FirstOccurrence;
 	public String Frequency;
 	public Id Id;
@@ -36,6 +37,8 @@ public class RecordsetFilterCriteriaRuleChangeEvent extends SObject {
 	public String RecordsetFilterCriteriaRuleNumber;
 	public String ReplayId;
 	public String Type;
+	public String UsageRateField;
+	public String UsageRateUnit;
 	public String Value;
 
 	public RecordsetFilterCriteriaRuleChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}

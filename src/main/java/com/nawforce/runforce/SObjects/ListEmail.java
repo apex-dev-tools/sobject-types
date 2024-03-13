@@ -37,6 +37,8 @@ public class ListEmail extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id RelatedToId;
+	public Name RelatedTo;
 	public Datetime ScheduledDate;
 	public String Status;
 	public String Subject;

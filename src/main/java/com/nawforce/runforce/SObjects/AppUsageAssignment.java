@@ -26,7 +26,7 @@ public class AppUsageAssignment extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id RecordId;
-	public Order Record;
+	public Name Record;
 	public Datetime SystemModstamp;
 
 	public AppUsageAssignment clone$() {throw new java.lang.UnsupportedOperationException();}

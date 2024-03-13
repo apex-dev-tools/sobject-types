@@ -111,6 +111,7 @@ public class Lead extends SObject {
 	public LeadHistory[] Histories;
 	public LeadCleanInfo[] LeadCleanInfos;
 	public ListEmailIndividualRecipient[] ListEmailIndividualRecipients;
+	public ListEmail[] ListEmails;
 	public MessagingEndUser[] MessagingEndUsers;
 	public MessagingSession[] MessagingSessions;
 	public Note[] Notes;
