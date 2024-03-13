@@ -32,7 +32,7 @@ import java.io.{BufferedWriter, FileWriter}
 import java.nio.file.{Files, Paths}
 
 object SObjectToJava {
-  def loginURL(instance: String): String = s"https://$instance.salesforce.com/services/Soap/u/57.0"
+  def loginURL(instance: String): String = s"https://$instance.salesforce.com/services/Soap/u/60.0"
 
   def main(args: Array[String]): Unit = {
 
