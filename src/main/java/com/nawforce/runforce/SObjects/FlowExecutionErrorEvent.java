@@ -16,6 +16,9 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -23,44 +26,44 @@ public class FlowExecutionErrorEvent extends SObject {
 	public static SObjectType$<FlowExecutionErrorEvent> SObjectType;
 	public static SObjectFields$<FlowExecutionErrorEvent> Fields;
 
-	public com.nawforce.runforce.System.String ContextObject;
+	public String ContextObject;
 	public Id ContextRecordId;
 	public SObject ContextRecord;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String ElementApiName;
-	public com.nawforce.runforce.System.String ElementType;
-	public com.nawforce.runforce.System.String ErrorId;
-	public com.nawforce.runforce.System.String ErrorMessage;
+	public String ElementApiName;
+	public String ElementType;
+	public String ErrorId;
+	public String ErrorMessage;
 	public Datetime EventDate;
-	public com.nawforce.runforce.System.String EventIdentifier;
-	public com.nawforce.runforce.System.String EventType;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.String ExtendedErrorCode;
-	public com.nawforce.runforce.System.String FlowApiName;
+	public String EventIdentifier;
+	public String EventType;
+	public String EventUuid;
+	public String ExtendedErrorCode;
+	public String FlowApiName;
 	public Datetime FlowExecutionEndDate;
 	public Datetime FlowExecutionStartDate;
-	public com.nawforce.runforce.System.String FlowNamespace;
-	public com.nawforce.runforce.System.String FlowVersionId;
-	public com.nawforce.runforce.System.Integer FlowVersionNumber;
-	public com.nawforce.runforce.System.String InterviewBatchId;
-	public com.nawforce.runforce.System.String InterviewGuid;
-	public com.nawforce.runforce.System.String InterviewRequestId;
+	public String FlowNamespace;
+	public String FlowVersionId;
+	public Integer FlowVersionNumber;
+	public String InterviewBatchId;
+	public String InterviewGuid;
+	public String InterviewRequestId;
 	public Datetime InterviewStartDate;
 	public Id InterviewStartedById;
 	public User InterviewStartedBy;
-	public com.nawforce.runforce.System.String ProcessType;
-	public com.nawforce.runforce.System.String RelatedRecordId;
-	public com.nawforce.runforce.System.String ReplayId;
-	public com.nawforce.runforce.System.String StageQualifiedApiName;
+	public String ProcessType;
+	public String RelatedRecordId;
+	public String ReplayId;
+	public String StageQualifiedApiName;
 	public Id UserId;
 	public User User;
-	public com.nawforce.runforce.System.String Username;
+	public String Username;
 
 	public FlowExecutionErrorEvent clone$() {throw new java.lang.UnsupportedOperationException();}
-	public FlowExecutionErrorEvent clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public FlowExecutionErrorEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public FlowExecutionErrorEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public FlowExecutionErrorEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public FlowExecutionErrorEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public FlowExecutionErrorEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public FlowExecutionErrorEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public FlowExecutionErrorEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

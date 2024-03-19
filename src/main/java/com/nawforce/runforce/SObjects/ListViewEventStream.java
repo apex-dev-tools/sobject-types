@@ -16,6 +16,9 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -23,45 +26,45 @@ public class ListViewEventStream extends SObject {
 	public static SObjectType$<ListViewEventStream> SObjectType;
 	public static SObjectFields$<ListViewEventStream> Fields;
 
-	public com.nawforce.runforce.System.String AppName;
-	public com.nawforce.runforce.System.String ColumnHeaders;
+	public String AppName;
+	public String ColumnHeaders;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String DeveloperName;
+	public String DeveloperName;
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
-	public com.nawforce.runforce.System.String EventIdentifier;
-	public com.nawforce.runforce.System.String EventSource;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.String ExecutionIdentifier;
-	public com.nawforce.runforce.System.String FilterCriteria;
-	public com.nawforce.runforce.System.String ListViewId;
+	public String EventIdentifier;
+	public String EventSource;
+	public String EventUuid;
+	public String ExecutionIdentifier;
+	public String FilterCriteria;
+	public String ListViewId;
 	public Id LoginHistoryId;
 	public LoginHistory LoginHistory;
-	public com.nawforce.runforce.System.String LoginKey;
-	public com.nawforce.runforce.System.String Name;
-	public com.nawforce.runforce.System.Integer NumberOfColumns;
-	public com.nawforce.runforce.System.String OrderBy;
-	public com.nawforce.runforce.System.String OwnerId;
+	public String LoginKey;
+	public String Name;
+	public Integer NumberOfColumns;
+	public String OrderBy;
+	public String OwnerId;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
-	public com.nawforce.runforce.System.String PolicyOutcome;
-	public com.nawforce.runforce.System.String QueriedEntities;
-	public com.nawforce.runforce.System.String Records;
-	public com.nawforce.runforce.System.String RelatedEventIdentifier;
-	public com.nawforce.runforce.System.String ReplayId;
+	public String PolicyOutcome;
+	public String QueriedEntities;
+	public String Records;
+	public String RelatedEventIdentifier;
+	public String ReplayId;
 	public Decimal RowsProcessed;
-	public com.nawforce.runforce.System.String Scope;
-	public com.nawforce.runforce.System.Integer Sequence;
-	public com.nawforce.runforce.System.String SessionKey;
-	public com.nawforce.runforce.System.String SessionLevel;
-	public com.nawforce.runforce.System.String SourceIp;
+	public String Scope;
+	public Integer Sequence;
+	public String SessionKey;
+	public String SessionLevel;
+	public String SourceIp;
 	public Id UserId;
 	public User User;
-	public com.nawforce.runforce.System.String Username;
+	public String Username;
 
 	public ListViewEventStream clone$() {throw new java.lang.UnsupportedOperationException();}
-	public ListViewEventStream clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public ListViewEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public ListViewEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public ListViewEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public ListViewEventStream clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public ListViewEventStream clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public ListViewEventStream clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public ListViewEventStream clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

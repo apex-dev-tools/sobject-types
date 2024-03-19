@@ -16,6 +16,8 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -25,28 +27,28 @@ public class UriEventStream extends SObject {
 
 	public Datetime CreatedDate;
 	public Datetime EventDate;
-	public com.nawforce.runforce.System.String EventIdentifier;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.String LoginKey;
-	public com.nawforce.runforce.System.String Message;
-	public com.nawforce.runforce.System.String Name;
-	public com.nawforce.runforce.System.String Operation;
-	public com.nawforce.runforce.System.String OperationStatus;
-	public com.nawforce.runforce.System.String QueriedEntities;
-	public com.nawforce.runforce.System.String RecordId;
-	public com.nawforce.runforce.System.String RelatedEventIdentifier;
-	public com.nawforce.runforce.System.String ReplayId;
-	public com.nawforce.runforce.System.String SessionKey;
-	public com.nawforce.runforce.System.String SessionLevel;
-	public com.nawforce.runforce.System.String SourceIp;
+	public String EventIdentifier;
+	public String EventUuid;
+	public String LoginKey;
+	public String Message;
+	public String Name;
+	public String Operation;
+	public String OperationStatus;
+	public String QueriedEntities;
+	public String RecordId;
+	public String RelatedEventIdentifier;
+	public String ReplayId;
+	public String SessionKey;
+	public String SessionLevel;
+	public String SourceIp;
 	public Id UserId;
 	public User User;
-	public com.nawforce.runforce.System.String UserType;
-	public com.nawforce.runforce.System.String Username;
+	public String UserType;
+	public String Username;
 
 	public UriEventStream clone$() {throw new java.lang.UnsupportedOperationException();}
-	public UriEventStream clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public UriEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public UriEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public UriEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public UriEventStream clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public UriEventStream clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public UriEventStream clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public UriEventStream clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

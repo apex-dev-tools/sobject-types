@@ -16,6 +16,8 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -23,31 +25,31 @@ public class CredentialStuffingEvent extends SObject {
 	public static SObjectType$<CredentialStuffingEvent> SObjectType;
 	public static SObjectFields$<CredentialStuffingEvent> Fields;
 
-	public com.nawforce.runforce.System.String AcceptLanguage;
+	public String AcceptLanguage;
 	public Datetime CreatedDate;
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
-	public com.nawforce.runforce.System.String EventIdentifier;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.String LoginKey;
-	public com.nawforce.runforce.System.String LoginType;
-	public com.nawforce.runforce.System.String LoginUrl;
+	public String EventIdentifier;
+	public String EventUuid;
+	public String LoginKey;
+	public String LoginType;
+	public String LoginUrl;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
-	public com.nawforce.runforce.System.String PolicyOutcome;
-	public com.nawforce.runforce.System.String ReplayId;
+	public String PolicyOutcome;
+	public String ReplayId;
 	public Decimal Score;
-	public com.nawforce.runforce.System.String SessionKey;
-	public com.nawforce.runforce.System.String SourceIp;
-	public com.nawforce.runforce.System.String Summary;
-	public com.nawforce.runforce.System.String UserAgent;
+	public String SessionKey;
+	public String SourceIp;
+	public String Summary;
+	public String UserAgent;
 	public Id UserId;
 	public User User;
-	public com.nawforce.runforce.System.String Username;
+	public String Username;
 
 	public CredentialStuffingEvent clone$() {throw new java.lang.UnsupportedOperationException();}
-	public CredentialStuffingEvent clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public CredentialStuffingEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public CredentialStuffingEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public CredentialStuffingEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public CredentialStuffingEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public CredentialStuffingEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public CredentialStuffingEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public CredentialStuffingEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

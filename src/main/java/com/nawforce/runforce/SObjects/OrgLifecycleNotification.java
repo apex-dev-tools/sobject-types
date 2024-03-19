@@ -16,6 +16,8 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -26,17 +28,17 @@ public class OrgLifecycleNotification extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.String LifecycleRequestId;
-	public com.nawforce.runforce.System.String LifecycleRequestType;
-	public com.nawforce.runforce.System.String OrgId;
-	public com.nawforce.runforce.System.String ReplayId;
-	public com.nawforce.runforce.System.String Status;
-	public com.nawforce.runforce.System.String StatusCode;
+	public String EventUuid;
+	public String LifecycleRequestId;
+	public String LifecycleRequestType;
+	public String OrgId;
+	public String ReplayId;
+	public String Status;
+	public String StatusCode;
 
 	public OrgLifecycleNotification clone$() {throw new java.lang.UnsupportedOperationException();}
-	public OrgLifecycleNotification clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public OrgLifecycleNotification clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public OrgLifecycleNotification clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public OrgLifecycleNotification clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public OrgLifecycleNotification clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public OrgLifecycleNotification clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public OrgLifecycleNotification clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public OrgLifecycleNotification clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

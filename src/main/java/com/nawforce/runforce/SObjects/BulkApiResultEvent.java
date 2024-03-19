@@ -16,6 +16,8 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -26,27 +28,27 @@ public class BulkApiResultEvent extends SObject {
 	public Datetime CreatedDate;
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
-	public com.nawforce.runforce.System.String EventIdentifier;
-	public com.nawforce.runforce.System.String EventUuid;
+	public String EventIdentifier;
+	public String EventUuid;
 	public Id LoginHistoryId;
 	public LoginHistory LoginHistory;
-	public com.nawforce.runforce.System.String LoginKey;
+	public String LoginKey;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
-	public com.nawforce.runforce.System.String PolicyOutcome;
-	public com.nawforce.runforce.System.String Query;
-	public com.nawforce.runforce.System.String RelatedEventIdentifier;
-	public com.nawforce.runforce.System.String ReplayId;
-	public com.nawforce.runforce.System.String SessionKey;
-	public com.nawforce.runforce.System.String SessionLevel;
-	public com.nawforce.runforce.System.String SourceIp;
+	public String PolicyOutcome;
+	public String Query;
+	public String RelatedEventIdentifier;
+	public String ReplayId;
+	public String SessionKey;
+	public String SessionLevel;
+	public String SourceIp;
 	public Id UserId;
 	public User User;
-	public com.nawforce.runforce.System.String Username;
+	public String Username;
 
 	public BulkApiResultEvent clone$() {throw new java.lang.UnsupportedOperationException();}
-	public BulkApiResultEvent clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public BulkApiResultEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public BulkApiResultEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public BulkApiResultEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public BulkApiResultEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public BulkApiResultEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public BulkApiResultEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public BulkApiResultEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

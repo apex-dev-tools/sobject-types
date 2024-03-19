@@ -16,6 +16,9 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -23,44 +26,44 @@ public class ApiEventStream extends SObject {
 	public static SObjectType$<ApiEventStream> SObjectType;
 	public static SObjectFields$<ApiEventStream> Fields;
 
-	public com.nawforce.runforce.System.String AdditionalInfo;
-	public com.nawforce.runforce.System.String ApiType;
+	public String AdditionalInfo;
+	public String ApiType;
 	public Decimal ApiVersion;
-	public com.nawforce.runforce.System.String Application;
-	public com.nawforce.runforce.System.String Client;
-	public com.nawforce.runforce.System.String ConnectedAppId;
+	public String Application;
+	public String Client;
+	public String ConnectedAppId;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.Integer ElapsedTime;
+	public Integer ElapsedTime;
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
-	public com.nawforce.runforce.System.String EventIdentifier;
-	public com.nawforce.runforce.System.String EventUuid;
+	public String EventIdentifier;
+	public String EventUuid;
 	public Id LoginHistoryId;
 	public LoginHistory LoginHistory;
-	public com.nawforce.runforce.System.String LoginKey;
-	public com.nawforce.runforce.System.String Operation;
-	public com.nawforce.runforce.System.String Platform;
+	public String LoginKey;
+	public String Operation;
+	public String Platform;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
-	public com.nawforce.runforce.System.String PolicyOutcome;
-	public com.nawforce.runforce.System.String QueriedEntities;
-	public com.nawforce.runforce.System.String Query;
-	public com.nawforce.runforce.System.String Records;
-	public com.nawforce.runforce.System.String RelatedEventIdentifier;
-	public com.nawforce.runforce.System.String ReplayId;
+	public String PolicyOutcome;
+	public String QueriedEntities;
+	public String Query;
+	public String Records;
+	public String RelatedEventIdentifier;
+	public String ReplayId;
 	public Decimal RowsProcessed;
 	public Decimal RowsReturned;
-	public com.nawforce.runforce.System.String SessionKey;
-	public com.nawforce.runforce.System.String SessionLevel;
-	public com.nawforce.runforce.System.String SourceIp;
-	public com.nawforce.runforce.System.String UserAgent;
+	public String SessionKey;
+	public String SessionLevel;
+	public String SourceIp;
+	public String UserAgent;
 	public Id UserId;
 	public User User;
-	public com.nawforce.runforce.System.String Username;
+	public String Username;
 
 	public ApiEventStream clone$() {throw new java.lang.UnsupportedOperationException();}
-	public ApiEventStream clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public ApiEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public ApiEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public ApiEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public ApiEventStream clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public ApiEventStream clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public ApiEventStream clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public ApiEventStream clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }
