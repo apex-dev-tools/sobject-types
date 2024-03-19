@@ -62,15 +62,16 @@ object SObjectToJava {
           .describeSObjects(grp)
           .foreach(sobjectDescribe => {
             val describedSObject = DescribedSObject(sobjectDescribe)
-            if (describedSObject.fieldsAndTypes.exists(_._1 == "Id")) {
-              val output = Paths.get(s"generated/${describedSObject.name}.java")
-              Files.createDirectories(output.getParent)
-              val writer = new BufferedWriter(new FileWriter(output.toFile))
-              writer.write(describedSObject.asJava)
-              writer.flush()
-              writer.close()
-              count += 1;
-            }
+            // Standard platform event objects do not have Id field
+            //if (describedSObject.fieldsAndTypes.exists(_._1 == "Id")) {
+            val output = Paths.get(s"generated/${describedSObject.name}.java")
+            Files.createDirectories(output.getParent)
+            val writer = new BufferedWriter(new FileWriter(output.toFile))
+            writer.write(describedSObject.asJava)
+            writer.flush()
+            writer.close()
+            count += 1
+            //}
           })
       })
     println(s"Generated $count files")
