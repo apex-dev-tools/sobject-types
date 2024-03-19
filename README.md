@@ -39,4 +39,4 @@ Some command ideas to save time, run from `generated/`:
     diff -r ../src/main/java/com/nawforce/runforce/SObjects ./ | sed -n 's/Only in \.\/\{0,1\}: \(.*\)/\1/p' | xargs -I {} cp {} ../src/main/java/com/nawforce/runforce/SObjects
 
     # Print additions, ignoring copyright to a file ./generated/!diff.txt
-    diff -rub -I 'Copyright' ../src/main/java/com/nawforce/runforce/SObjects ./ | grep -E "^\+" | grep -v '+++ b/' > '!diff.txt'
+    diff -rub -I 'Copyright' ../src/main/java/com/nawforce/runforce/SObjects ./ | grep -E "^\+.[^\*]" | grep -v '+++ b/' > '!diff.txt'
