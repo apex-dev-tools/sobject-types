@@ -17,6 +17,8 @@ public class EmailMessage extends SObject {
 
 	public Id ActivityId;
 	public Task Activity;
+	public String AttachmentIds;
+	public String AutomationType;
 	public String BccAddress;
 	public String CcAddress;
 	public String ClientThreadIdentifier;
@@ -27,6 +29,8 @@ public class EmailMessage extends SObject {
 	public EmailTemplate EmailTemplate;
 	public Datetime FirstOpenedDate;
 	public String FromAddress;
+	public Id FromId;
+	public SObject From;
 	public String FromName;
 	public Boolean HasAttachment;
 	public String Headers;

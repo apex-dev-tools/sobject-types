@@ -41,6 +41,8 @@ public class Dashboard extends SObject {
 	public String LeftSize;
 	public String MiddleSize;
 	public String NamespacePrefix;
+	public Id OwnerId;
+	public User Owner;
 	public String RightSize;
 	public Id RunningUserId;
 	public User RunningUser;

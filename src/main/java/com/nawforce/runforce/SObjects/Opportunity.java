@@ -91,6 +91,7 @@ public class Opportunity extends SObject {
 	public OpportunityFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public OpportunityFieldHistory[] Histories;
+	public ListEmail[] ListEmails;
 	public MessagingSession[] MessagingSessions;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
@@ -100,6 +101,7 @@ public class Opportunity extends SObject {
 	public OpportunityHistory[] OpportunityHistories;
 	public OpportunityLineItem[] OpportunityLineItems;
 	public OpportunityPartner[] OpportunityPartnersFrom;
+	public OpportunityRelatedDeleteLog[] OpportunityRelatedDeleteLogs;
 	public OpportunitySplit[] OpportunitySplits;
 	public OpportunityTeamMember[] OpportunityTeamMembers;
 	public Order[] Orders;

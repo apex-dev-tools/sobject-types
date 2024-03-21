@@ -126,6 +126,7 @@ public class Contact extends SObject {
 	public Invoice[] Invoices;
 	public SurveyInvitation[] LeadSurveyInvitations;
 	public ListEmailIndividualRecipient[] ListEmailIndividualRecipients;
+	public ListEmail[] ListEmails;
 	public MaintenancePlan[] MaintenancePlans;
 	public MessagingEndUser[] MessagingEndUsers;
 	public MessagingSession[] MessagingSessions;

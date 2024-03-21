@@ -87,6 +87,7 @@ public class Case extends SObject {
 	public CaseFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public CaseHistory[] Histories;
+	public ListEmail[] ListEmails;
 	public MessagingSession[] MessagingSessions;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public OpenActivity[] OpenActivities;

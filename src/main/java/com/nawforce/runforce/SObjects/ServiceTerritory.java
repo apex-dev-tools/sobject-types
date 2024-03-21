@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -16,6 +17,7 @@ public class ServiceTerritory extends SObject {
 	public static SObjectFields$<ServiceTerritory> Fields;
 
 	public Address Address;
+	public Integer AvgTravelTime;
 	public String City;
 	public String Country;
 	public String CountryCode;
@@ -71,11 +73,13 @@ public class ServiceTerritory extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public SchedulingWorkspaceTerritory[] SchedulingWorkspaceTerritories;
 	public ServiceAppointment[] ServiceAppointments;
 	public ServiceTerritoryMember[] ServiceResources;
 	public ServiceTerritoryShare[] Shares;
 	public Shift[] ShiftServiceTerritories;
 	public TopicAssignment[] TopicAssignments;
+	public WorkCapacityAvailability[] WorkCapacityAvailabilities;
 	public WorkCapacityLimit[] WorkCapacityLimits;
 	public WorkCapacityUsage[] WorkCapacityUsages;
 	public WorkOrderLineItem[] WorkOrderLineItems;

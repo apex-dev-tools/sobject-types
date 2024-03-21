@@ -48,6 +48,7 @@ public class PaymentAuthorization extends SObject {
 	public PaymentGateway PaymentGateway;
 	public Id PaymentGroupId;
 	public PaymentGroup PaymentGroup;
+	public String PaymentIntentGuid;
 	public Id PaymentMethodId;
 	public PaymentMethod PaymentMethod;
 	public String Phone;

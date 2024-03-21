@@ -16,6 +16,8 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -26,19 +28,19 @@ public class DatasetExportEvent extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String DataflowInstanceId;
-	public com.nawforce.runforce.System.String DatasetExportId;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.String Message;
-	public com.nawforce.runforce.System.String Owner;
-	public com.nawforce.runforce.System.String PublisherInfo;
-	public com.nawforce.runforce.System.String PublisherType;
-	public com.nawforce.runforce.System.String ReplayId;
-	public com.nawforce.runforce.System.String Status;
+	public String DataflowInstanceId;
+	public String DatasetExportId;
+	public String EventUuid;
+	public String Message;
+	public String Owner;
+	public String PublisherInfo;
+	public String PublisherType;
+	public String ReplayId;
+	public String Status;
 
 	public DatasetExportEvent clone$() {throw new java.lang.UnsupportedOperationException();}
-	public DatasetExportEvent clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public DatasetExportEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public DatasetExportEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public DatasetExportEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public DatasetExportEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public DatasetExportEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public DatasetExportEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public DatasetExportEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

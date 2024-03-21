@@ -22,6 +22,7 @@ public class MessagingEndUser extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Boolean HasInitialResponseSent;
 	public Id Id;
 	public Boolean IsDeleted;

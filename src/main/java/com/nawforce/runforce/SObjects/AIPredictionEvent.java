@@ -16,6 +16,8 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -27,17 +29,17 @@ public class AIPredictionEvent extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.String FieldName;
-	public com.nawforce.runforce.System.Boolean HasError;
-	public com.nawforce.runforce.System.String InsightId;
-	public com.nawforce.runforce.System.String PredictionEntityId;
-	public com.nawforce.runforce.System.String ReplayId;
-	public com.nawforce.runforce.System.String TargetId;
+	public String EventUuid;
+	public String FieldName;
+	public Boolean HasError;
+	public String InsightId;
+	public String PredictionEntityId;
+	public String ReplayId;
+	public String TargetId;
 
 	public AIPredictionEvent clone$() {throw new java.lang.UnsupportedOperationException();}
-	public AIPredictionEvent clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public AIPredictionEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public AIPredictionEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public AIPredictionEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public AIPredictionEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public AIPredictionEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public AIPredictionEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public AIPredictionEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

@@ -16,6 +16,8 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -23,30 +25,30 @@ public class PlatformStatusAlertEvent extends SObject {
 	public static SObjectType$<PlatformStatusAlertEvent> SObjectType;
 	public static SObjectFields$<PlatformStatusAlertEvent> Fields;
 
-	public com.nawforce.runforce.System.String ApiErrorCode;
-	public com.nawforce.runforce.System.String ComponentName;
+	public String ApiErrorCode;
+	public String ComponentName;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Datetime EventDate;
-	public com.nawforce.runforce.System.String EventIdentifier;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.String ExtendedErrorCode;
-	public com.nawforce.runforce.System.String RelatedEventIdentifier;
-	public com.nawforce.runforce.System.String ReplayId;
-	public com.nawforce.runforce.System.String RequestId;
-	public com.nawforce.runforce.System.String ServiceJobId;
-	public com.nawforce.runforce.System.String ServiceName;
-	public com.nawforce.runforce.System.String StatusType;
-	public com.nawforce.runforce.System.String SubComponentName;
-	public com.nawforce.runforce.System.String Subject;
+	public String EventIdentifier;
+	public String EventUuid;
+	public String ExtendedErrorCode;
+	public String RelatedEventIdentifier;
+	public String ReplayId;
+	public String RequestId;
+	public String ServiceJobId;
+	public String ServiceName;
+	public String StatusType;
+	public String SubComponentName;
+	public String Subject;
 	public Id UserId;
 	public User User;
-	public com.nawforce.runforce.System.String Username;
+	public String Username;
 
 	public PlatformStatusAlertEvent clone$() {throw new java.lang.UnsupportedOperationException();}
-	public PlatformStatusAlertEvent clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public PlatformStatusAlertEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public PlatformStatusAlertEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public PlatformStatusAlertEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public PlatformStatusAlertEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public PlatformStatusAlertEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public PlatformStatusAlertEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public PlatformStatusAlertEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

@@ -18,6 +18,7 @@ public class CollaborationRoom extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsArchived;
 	public Boolean IsAutoJoin;

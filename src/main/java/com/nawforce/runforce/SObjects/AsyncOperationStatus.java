@@ -15,25 +15,27 @@
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class AsyncOperationStatus extends SObject {
 	public static SObjectType$<AsyncOperationStatus> SObjectType;
 
-	public com.nawforce.runforce.System.String Category;
+	public String Category;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String EventUuid;
+	public String EventUuid;
 	public Object Fields;
-	public com.nawforce.runforce.System.String Message;
-	public com.nawforce.runforce.System.String Status;
-	public com.nawforce.runforce.System.String StatusCode;
+	public String Message;
+	public String Status;
+	public String StatusCode;
 
 	public AsyncOperationStatus clone$() {throw new java.lang.UnsupportedOperationException();}
-	public AsyncOperationStatus clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public AsyncOperationStatus clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public AsyncOperationStatus clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public AsyncOperationStatus clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public AsyncOperationStatus clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public AsyncOperationStatus clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public AsyncOperationStatus clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public AsyncOperationStatus clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

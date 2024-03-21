@@ -18,6 +18,7 @@ public class FlowDefinitionView extends SObject {
 
 	public String ActiveVersionId;
 	public String ApiName;
+	public Integer ApiVersion;
 	public String Builder;
 	public String Description;
 	public String DurableId;

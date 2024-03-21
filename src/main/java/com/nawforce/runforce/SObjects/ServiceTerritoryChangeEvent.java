@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -16,6 +17,7 @@ public class ServiceTerritoryChangeEvent extends SObject {
 	public static SObjectFields$<ServiceTerritoryChangeEvent> Fields;
 
 	public Address Address;
+	public Integer AvgTravelTime;
 	public Object ChangeEventHeader;
 	public String City;
 	public String Country;

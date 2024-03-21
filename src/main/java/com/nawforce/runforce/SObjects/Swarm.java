@@ -22,6 +22,7 @@ public class Swarm extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Datetime EndedDateTime;
 	public String HelpNeeded;
 	public Id Id;

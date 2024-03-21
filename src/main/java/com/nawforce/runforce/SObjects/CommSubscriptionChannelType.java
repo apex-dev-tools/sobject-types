@@ -32,6 +32,8 @@ public class CommSubscriptionChannelType extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Id MessagingChannelId;
+	public MessagingChannel MessagingChannel;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;

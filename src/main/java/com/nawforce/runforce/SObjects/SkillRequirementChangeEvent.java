@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -31,6 +32,7 @@ public class SkillRequirementChangeEvent extends SObject {
 	public Skill Skill;
 	public Decimal SkillLevel;
 	public String SkillNumber;
+	public Integer SkillPriority;
 
 	public SkillRequirementChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public SkillRequirementChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

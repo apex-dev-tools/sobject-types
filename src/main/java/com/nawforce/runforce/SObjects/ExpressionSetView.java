@@ -18,12 +18,15 @@ public class ExpressionSetView extends SObject {
 	public String Description;
 	public String DurableId;
 	public String ExpressionSetDetails;
+	public Boolean HasContextDefinitionRef;
 	public Id Id;
+	public Boolean IsExecutable;
 	public Boolean IsTemplate;
 	public String LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
 	public String NamespacePrefix;
+	public String UsageType;
 
 	public ExpressionSetView clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ExpressionSetView clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

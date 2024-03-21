@@ -16,6 +16,9 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -23,26 +26,26 @@ public class WaveAssetEvent extends SObject {
 	public static SObjectType$<WaveAssetEvent> SObjectType;
 	public static SObjectFields$<WaveAssetEvent> Fields;
 
-	public com.nawforce.runforce.System.String ContainerId;
+	public String ContainerId;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.String EventType;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.String FolderId;
-	public com.nawforce.runforce.System.Integer Index;
-	public com.nawforce.runforce.System.String ItemId;
-	public com.nawforce.runforce.System.String ItemLabel;
-	public com.nawforce.runforce.System.String ItemName;
-	public com.nawforce.runforce.System.String Message;
-	public com.nawforce.runforce.System.String ReplayId;
-	public com.nawforce.runforce.System.String Status;
-	public com.nawforce.runforce.System.Integer Total;
-	public com.nawforce.runforce.System.String WaveNamespace;
+	public String EventType;
+	public String EventUuid;
+	public String FolderId;
+	public Integer Index;
+	public String ItemId;
+	public String ItemLabel;
+	public String ItemName;
+	public String Message;
+	public String ReplayId;
+	public String Status;
+	public Integer Total;
+	public String WaveNamespace;
 
 	public WaveAssetEvent clone$() {throw new java.lang.UnsupportedOperationException();}
-	public WaveAssetEvent clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public WaveAssetEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public WaveAssetEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public WaveAssetEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public WaveAssetEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WaveAssetEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WaveAssetEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WaveAssetEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

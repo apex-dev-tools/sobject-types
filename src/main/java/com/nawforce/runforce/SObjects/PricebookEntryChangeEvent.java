@@ -19,6 +19,7 @@ public class PricebookEntryChangeEvent extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsActive;
 	public Boolean IsArchived;

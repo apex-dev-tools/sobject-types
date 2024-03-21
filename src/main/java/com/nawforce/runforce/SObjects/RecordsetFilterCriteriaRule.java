@@ -39,6 +39,8 @@ public class RecordsetFilterCriteriaRule extends SObject {
 	public String RecordsetFilterCriteriaRuleNumber;
 	public Datetime SystemModstamp;
 	public String Type;
+	public String UsageRateField;
+	public String UsageRateUnit;
 	public String Value;
 
 	public RecordsetFilterCriteriaRule clone$() {throw new java.lang.UnsupportedOperationException();}

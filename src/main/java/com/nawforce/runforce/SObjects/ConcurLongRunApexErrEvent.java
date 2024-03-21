@@ -16,6 +16,9 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -24,26 +27,26 @@ public class ConcurLongRunApexErrEvent extends SObject {
 	public static SObjectFields$<ConcurLongRunApexErrEvent> Fields;
 
 	public Datetime CreatedDate;
-	public com.nawforce.runforce.System.Integer CurrentValue;
+	public Integer CurrentValue;
 	public Datetime EventDate;
-	public com.nawforce.runforce.System.String EventIdentifier;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.Integer LimitValue;
-	public com.nawforce.runforce.System.String LoginKey;
-	public com.nawforce.runforce.System.String Quiddity;
-	public com.nawforce.runforce.System.String ReplayId;
-	public com.nawforce.runforce.System.String RequestId;
-	public com.nawforce.runforce.System.String RequestUri;
-	public com.nawforce.runforce.System.String SessionKey;
-	public com.nawforce.runforce.System.String SessionLevel;
-	public com.nawforce.runforce.System.String SourceIp;
+	public String EventIdentifier;
+	public String EventUuid;
+	public Integer LimitValue;
+	public String LoginKey;
+	public String Quiddity;
+	public String ReplayId;
+	public String RequestId;
+	public String RequestUri;
+	public String SessionKey;
+	public String SessionLevel;
+	public String SourceIp;
 	public Id UserId;
 	public User User;
-	public com.nawforce.runforce.System.String Username;
+	public String Username;
 
 	public ConcurLongRunApexErrEvent clone$() {throw new java.lang.UnsupportedOperationException();}
-	public ConcurLongRunApexErrEvent clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public ConcurLongRunApexErrEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public ConcurLongRunApexErrEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public ConcurLongRunApexErrEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public ConcurLongRunApexErrEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public ConcurLongRunApexErrEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public ConcurLongRunApexErrEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public ConcurLongRunApexErrEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

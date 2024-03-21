@@ -152,6 +152,7 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPreferencesHideSfxWelcomeMat;
 	public Boolean UserPreferencesJigsawListUser;
 	public Boolean UserPreferencesLightningExperiencePreferred;
+	public Boolean UserPreferencesLiveAgentMiawSetupDeflection;
 	public Boolean UserPreferencesNativeEmailClient;
 	public Boolean UserPreferencesNewLightningReportRunPageEnabled;
 	public Boolean UserPreferencesPathAssistantCollapsed;
@@ -174,6 +175,7 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPreferencesShowFaxToExternalUsers;
 	public Boolean UserPreferencesShowFaxToGuestUsers;
 	public Boolean UserPreferencesShowForecastingChangeSignals;
+	public Boolean UserPreferencesShowForecastingRoundedAmounts;
 	public Boolean UserPreferencesShowManagerToExternalUsers;
 	public Boolean UserPreferencesShowManagerToGuestUsers;
 	public Boolean UserPreferencesShowMobilePhoneToExternalUsers;

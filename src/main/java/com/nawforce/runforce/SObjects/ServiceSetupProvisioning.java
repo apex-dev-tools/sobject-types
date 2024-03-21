@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -15,6 +16,7 @@ public class ServiceSetupProvisioning extends SObject {
 	public static SObjectType$<ServiceSetupProvisioning> SObjectType;
 	public static SObjectFields$<ServiceSetupProvisioning> Fields;
 
+	public Integer AttemptOrdinal;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

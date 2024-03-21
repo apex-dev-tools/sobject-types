@@ -32,6 +32,7 @@ public class LoginEvent extends SObject {
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
 	public String EventIdentifier;
+	public String ForwardedForIp;
 	public String HttpMethod;
 	public Id Id;
 	public Id LoginGeoId;
@@ -41,6 +42,7 @@ public class LoginEvent extends SObject {
 	public String LoginKey;
 	public Decimal LoginLatitude;
 	public Decimal LoginLongitude;
+	public String LoginSubType;
 	public String LoginType;
 	public String LoginUrl;
 	public Id NetworkId;

@@ -17,6 +17,7 @@ public class EmailMessageChangeEvent extends SObject {
 
 	public Id ActivityId;
 	public Task Activity;
+	public String AutomationType;
 	public String BccAddress;
 	public String CcAddress;
 	public Object ChangeEventHeader;

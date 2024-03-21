@@ -16,6 +16,8 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -26,26 +28,26 @@ public class ReportAnomalyEvent extends SObject {
 	public Datetime CreatedDate;
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
-	public com.nawforce.runforce.System.String EventIdentifier;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.String LoginKey;
+	public String EventIdentifier;
+	public String EventUuid;
+	public String LoginKey;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
-	public com.nawforce.runforce.System.String PolicyOutcome;
-	public com.nawforce.runforce.System.String ReplayId;
-	public com.nawforce.runforce.System.String Report;
+	public String PolicyOutcome;
+	public String ReplayId;
+	public String Report;
 	public Decimal Score;
-	public com.nawforce.runforce.System.String SecurityEventData;
-	public com.nawforce.runforce.System.String SessionKey;
-	public com.nawforce.runforce.System.String SourceIp;
-	public com.nawforce.runforce.System.String Summary;
+	public String SecurityEventData;
+	public String SessionKey;
+	public String SourceIp;
+	public String Summary;
 	public Id UserId;
 	public User User;
-	public com.nawforce.runforce.System.String Username;
+	public String Username;
 
 	public ReportAnomalyEvent clone$() {throw new java.lang.UnsupportedOperationException();}
-	public ReportAnomalyEvent clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public ReportAnomalyEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public ReportAnomalyEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public ReportAnomalyEvent clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public ReportAnomalyEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public ReportAnomalyEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public ReportAnomalyEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public ReportAnomalyEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

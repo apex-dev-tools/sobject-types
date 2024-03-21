@@ -88,6 +88,7 @@ public class ServiceContract extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ContractLineItem[] ContractLineItems;
+	public ContractLineOutcome[] ContractLineOutcomes;
 	public ServiceContract[] DescendantServiceContracts;
 	public EmailMessage[] Emails;
 	public Entitlement[] Entitlements;

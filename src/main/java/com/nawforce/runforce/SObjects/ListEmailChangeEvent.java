@@ -35,6 +35,8 @@ public class ListEmailChangeEvent extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public User Owner;
+	public Id RelatedToId;
+	public SObject RelatedTo;
 	public String ReplayId;
 	public Datetime ScheduledDate;
 	public String Status;

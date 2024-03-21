@@ -18,6 +18,7 @@ public class AttributeDefinition extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String DataType;
 	public String DefaultValue;
 	public String Description;
@@ -44,6 +45,7 @@ public class AttributeDefinition extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AssetAttribute[] AssetAttributes;
+	public AssetStatePeriodAttribute[] AssetStatePeriodAttributes;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

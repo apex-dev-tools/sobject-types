@@ -20,6 +20,7 @@ public class ContactRequest extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public Id Id;
+	public Boolean IsCallback;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

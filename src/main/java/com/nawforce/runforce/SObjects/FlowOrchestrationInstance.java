@@ -35,6 +35,7 @@ public class FlowOrchestrationInstance extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public FlowOrchestrationLog[] FlowOrchestrationLogs;
 	public FlowOrchestrationStageInstance[] FlowOrchestrationStageInstances;
 	public FlowOrchestrationStepInstance[] FlowOrchestrationStepInstances;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;

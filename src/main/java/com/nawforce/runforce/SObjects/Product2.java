@@ -65,6 +65,7 @@ public class Product2 extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public Product2History[] Histories;
 	public InvoiceLine[] InvoiceLines;
+	public ListEmail[] ListEmails;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

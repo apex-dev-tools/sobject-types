@@ -29,6 +29,9 @@ public class PromptVersion extends SObject {
 	public String DisplayType;
 	public String ElementRelativePosition;
 	public Date EndDate;
+	public String Experience;
+	public Id ExperienceContextId;
+	public Site ExperienceContext;
 	public String Header;
 	public Id Id;
 	public String ImageAltText;

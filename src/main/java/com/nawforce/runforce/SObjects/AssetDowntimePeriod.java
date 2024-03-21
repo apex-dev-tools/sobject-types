@@ -36,19 +36,25 @@ public class AssetDowntimePeriod extends SObject {
 	public Datetime StartTime;
 	public Datetime SystemModstamp;
 
+	public ActivityHistory[] ActivityHistories;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public EmailMessage[] Emails;
+	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AssetDowntimePeriodFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AssetDowntimePeriodHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public AssetDowntimePeriod clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AssetDowntimePeriod clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

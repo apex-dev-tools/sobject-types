@@ -16,6 +16,8 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
@@ -23,53 +25,55 @@ public class LoginEventStream extends SObject {
 	public static SObjectType$<LoginEventStream> SObjectType;
 	public static SObjectFields$<LoginEventStream> Fields;
 
-	public com.nawforce.runforce.System.String AdditionalInfo;
-	public com.nawforce.runforce.System.String ApiType;
-	public com.nawforce.runforce.System.String ApiVersion;
-	public com.nawforce.runforce.System.String Application;
-	public com.nawforce.runforce.System.String AuthMethodReference;
-	public com.nawforce.runforce.System.String AuthServiceId;
-	public com.nawforce.runforce.System.String Browser;
-	public com.nawforce.runforce.System.String CipherSuite;
-	public com.nawforce.runforce.System.String City;
-	public com.nawforce.runforce.System.String ClientVersion;
-	public com.nawforce.runforce.System.String Country;
-	public com.nawforce.runforce.System.String CountryIso;
+	public String AdditionalInfo;
+	public String ApiType;
+	public String ApiVersion;
+	public String Application;
+	public String AuthMethodReference;
+	public String AuthServiceId;
+	public String Browser;
+	public String CipherSuite;
+	public String City;
+	public String ClientVersion;
+	public String Country;
+	public String CountryIso;
 	public Datetime CreatedDate;
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
-	public com.nawforce.runforce.System.String EventIdentifier;
-	public com.nawforce.runforce.System.String EventUuid;
-	public com.nawforce.runforce.System.String HttpMethod;
-	public com.nawforce.runforce.System.String LoginGeoId;
+	public String EventIdentifier;
+	public String EventUuid;
+	public String ForwardedForIp;
+	public String HttpMethod;
+	public String LoginGeoId;
 	public Id LoginHistoryId;
 	public LoginHistory LoginHistory;
-	public com.nawforce.runforce.System.String LoginKey;
+	public String LoginKey;
 	public Decimal LoginLatitude;
 	public Decimal LoginLongitude;
-	public com.nawforce.runforce.System.String LoginType;
-	public com.nawforce.runforce.System.String LoginUrl;
-	public com.nawforce.runforce.System.String Platform;
+	public String LoginSubType;
+	public String LoginType;
+	public String LoginUrl;
+	public String Platform;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
-	public com.nawforce.runforce.System.String PolicyOutcome;
-	public com.nawforce.runforce.System.String PostalCode;
-	public com.nawforce.runforce.System.String RelatedEventIdentifier;
-	public com.nawforce.runforce.System.String ReplayId;
-	public com.nawforce.runforce.System.String SessionKey;
-	public com.nawforce.runforce.System.String SessionLevel;
-	public com.nawforce.runforce.System.String SourceIp;
-	public com.nawforce.runforce.System.String Status;
-	public com.nawforce.runforce.System.String Subdivision;
-	public com.nawforce.runforce.System.String TlsProtocol;
+	public String PolicyOutcome;
+	public String PostalCode;
+	public String RelatedEventIdentifier;
+	public String ReplayId;
+	public String SessionKey;
+	public String SessionLevel;
+	public String SourceIp;
+	public String Status;
+	public String Subdivision;
+	public String TlsProtocol;
 	public Id UserId;
 	public User User;
-	public com.nawforce.runforce.System.String UserType;
-	public com.nawforce.runforce.System.String Username;
+	public String UserType;
+	public String Username;
 
 	public LoginEventStream clone$() {throw new java.lang.UnsupportedOperationException();}
-	public LoginEventStream clone$(com.nawforce.runforce.System.Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public LoginEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public LoginEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public LoginEventStream clone$(com.nawforce.runforce.System.Boolean preserveId, com.nawforce.runforce.System.Boolean isDeepClone, com.nawforce.runforce.System.Boolean preserveReadonlyTimestamps, com.nawforce.runforce.System.Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public LoginEventStream clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public LoginEventStream clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public LoginEventStream clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public LoginEventStream clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

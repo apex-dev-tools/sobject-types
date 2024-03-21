@@ -32,6 +32,7 @@ public class EventRelayConfigChangeEvent extends SObject {
 	public String RelayOption;
 	public String ReplayId;
 	public String State;
+	public String UsageType;
 
 	public EventRelayConfigChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public EventRelayConfigChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -15,11 +15,16 @@ public class FieldServiceOrgSettings extends SObject {
 	public static SObjectType$<FieldServiceOrgSettings> SObjectType;
 	public static SObjectFields$<FieldServiceOrgSettings> Fields;
 
+	public Boolean CanPopulateGoogleAddress;
+	public Boolean CanSendAppCenterCrashReports;
+	public Boolean CanStoreMobileAnalytics;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DeepLinkPublicSecurityKey;
 	public String DeveloperName;
+	public Boolean DoesAvlCalcInclOvertime;
+	public Boolean DoesAvlCalcInclPrimOnly;
 	public Id Id;
 	public Boolean IsDeleted;
 	public String Language;

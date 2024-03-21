@@ -35,6 +35,8 @@ public class FieldServiceMobileSettings extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public Integer DaysAfterCurrentServiceDate;
+	public Integer DaysBeforeCurrentServiceDate;
 	public String DefaultListViewDeveloperName;
 	public String DeveloperName;
 	public String FeedbackPrimaryColor;
@@ -44,11 +46,13 @@ public class FieldServiceMobileSettings extends SObject {
 	public String GeoLocationAccuracy;
 	public Integer GeoLocationMinUpdateFreqMins;
 	public Id Id;
+	public Boolean IsAscTimeLimitEnabled;
 	public Boolean IsAssignmentNotification;
 	public Boolean IsDefault;
 	public Boolean IsDeleted;
 	public Boolean IsDispatchNotification;
 	public Boolean IsLimitedLocTrackingEnabled;
+	public Boolean IsOptimizedImageUploadEnabled;
 	public Boolean IsScheduleViewResourceAbsences;
 	public Boolean IsSendLocationHistory;
 	public Boolean IsShowEditFullRecord;
@@ -60,9 +64,11 @@ public class FieldServiceMobileSettings extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
+	public Integer MaxNumberOfServiceAppointments;
 	public Integer MetadataCacheTimeDays;
 	public String NavbarBackgroundColor;
 	public String NavbarInvertedColor;
+	public String OptimizeImageSizeInMb;
 	public Integer PastDaysInDatePicker;
 	public String PrimaryBrandColor;
 	public String QuickStatusChangeFlowName;

@@ -32,6 +32,7 @@ public class EventRelayConfig extends SObject {
 	public String RelayOption;
 	public String State;
 	public Datetime SystemModstamp;
+	public String UsageType;
 
 	public EventRelayConfig clone$() {throw new java.lang.UnsupportedOperationException();}
 	public EventRelayConfig clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
