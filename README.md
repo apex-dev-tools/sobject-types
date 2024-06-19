@@ -26,12 +26,16 @@ To use the jar in a maven project add the following to your pom.xml
 
 ### Generate Types from Org
 
-SObject type definitions can be generated from an org using the scripts defined in `com.financialforce.tools.SObjectToJava`. `sf.instance` is optional and defaults to `login`.
+First get an org with as many features enabled as possible. Sample config included in `config/org-all.json` for creating scratch orgs.
+
+    sf org create scratch -f config/org-all.json
+
+SObject type definitions can be generated using the scripts defined in `com.financialforce.tools.SObjectToJava`. `sf.instance` defaults to `login`, scratch orgs require `test`.
 
     mvn test-compile
     mvn exec:exec -Dsf.user="[username]" -Dsf.pass="[password + security token]" -Dsf.instance="[login/test]"
 
-The files will print to `generated/`. Files can then be compared and copied into `src`.
+The files will print to `generated/`. Files can then be compared and copied into `src`. For modifications, recommend using a diff tool to move content across, such as Intellij "Compare With..." on the `generated` and `SObjects` dirs.
 
 Some command ideas to save time, run from `generated/`:
 
@@ -39,4 +43,5 @@ Some command ideas to save time, run from `generated/`:
     diff -r ../src/main/java/com/nawforce/runforce/SObjects ./ | sed -n 's/Only in \.\/\{0,1\}: \(.*\)/\1/p' | xargs -I {} cp {} ../src/main/java/com/nawforce/runforce/SObjects
 
     # Print additions, ignoring copyright to a file ./generated/!diff.txt
+    # Use for verifying edits
     diff -rub -I 'Copyright' ../src/main/java/com/nawforce/runforce/SObjects ./ | grep -E "^\+.[^\*]" | grep -v '+++ b/' > '!diff.txt'
