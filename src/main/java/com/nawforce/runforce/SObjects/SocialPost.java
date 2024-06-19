@@ -53,7 +53,6 @@ public class SocialPost extends SObject {
 	public String MediaType;
 	public String MessageType;
 	public String Name;
-	public String Notes;
 	public Id OutboundSocialAccountId;
 	public ExternalSocialAccount OutboundSocialAccount;
 	public Id OwnerId;

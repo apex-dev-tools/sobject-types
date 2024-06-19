@@ -75,7 +75,6 @@ public class HealthcareProvider extends SObject {
 	public CarePerformer[] CarePerfPersonEntities;
 	public CareProviderAdverseAction[] CareProviderAdverseActions;
 	public CareRequestDrug[] CareRequestDrugs;
-	public CareRequestDrug[] CareRequestDrugs;
 	public CareRequestReviewer[] CareRequestReviewers;
 	public CareTask[] CareTaskBeneficiaries;
 	public CareTaskDetail[] CareTaskDetailDetailRecord;

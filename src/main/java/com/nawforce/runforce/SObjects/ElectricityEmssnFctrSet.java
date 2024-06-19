@@ -126,8 +126,6 @@ public class ElectricityEmssnFctrSet extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ElectricityEmssnFctrSetShare[] Shares;
 	public StnryAssetEnvrSrc[] StationaryAssetEmissionSources;
-	public StnryAssetEnvrSrc[] StationaryAssetEmissionSources;
-	public StnryAssetEnrgyUse[] StationaryAssetEnergyUse;
 	public StnryAssetEnrgyUse[] StationaryAssetEnergyUse;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

@@ -44,7 +44,6 @@ public class SecuritiesHolding extends SObject {
 	public Id PrimaryOwnerId;
 	public Account PrimaryOwner;
 	public Decimal PurchasePrice;
-	public Decimal Shares;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public Datetime SystemModstamp;
