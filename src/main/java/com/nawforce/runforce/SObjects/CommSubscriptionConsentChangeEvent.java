@@ -26,6 +26,7 @@ public class CommSubscriptionConsentChangeEvent extends SObject {
 	public SObject ConsentGiver;
 	public Id ContactPointId;
 	public SObject ContactPoint;
+	public String ContactPointValue;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

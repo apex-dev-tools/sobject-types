@@ -16,6 +16,7 @@ public class FlowTestResultShare extends SObject {
 	public static SObjectFields$<FlowTestResultShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

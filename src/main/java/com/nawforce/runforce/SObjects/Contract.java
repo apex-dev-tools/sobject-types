@@ -48,6 +48,7 @@ public class Contract extends SObject {
 	public Contact CustomerSigned;
 	public String CustomerSignedTitle;
 	public String Description;
+	public String Division;
 	public Date EndDate;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -81,22 +82,36 @@ public class Contract extends SObject {
 	public String StatusCode;
 	public Datetime SystemModstamp;
 
+	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AppUsageAssignment[] AppUsageAssignments;
+	public Approval[] Approvals;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ContractContactRole[] ContractContactRoles;
 	public ContractGroupPlan[] ContractGroupPlans;
+	public ContractPaymentAgreement[] ContractPaymentAgreements;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
+	public EngagementTopic[] EngagementInitiatedTopic;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContractFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public AuthFormRequestRecord[] FormRequestRecordRelatedRecords;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ContractHistory[] Histories;
+	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
 	public InsuranceContract[] InsuranceContracts;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
+	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
@@ -106,9 +121,13 @@ public class Contract extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public Quote[] Quotes;
+	public ProviderNetworkContract[] ProviderNetworkContracts;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public RecordAlert[] RecordAlertParent;
+	public RecordAlert[] RecordAlertWhat;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

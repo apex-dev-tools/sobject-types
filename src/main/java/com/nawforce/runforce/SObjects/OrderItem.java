@@ -21,6 +21,7 @@ public class OrderItem extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Date EndDate;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -51,14 +52,24 @@ public class OrderItem extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public CreditMemoLine[] CreditMemoLines;
+	public FulfillmentOrderLineItem[] CurrentFulfillmentOrderLineItems;
+	public ReturnOrderLineItem[] CurrentReturnOrderLineItems;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OrderItemFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public AuthFormRequestRecord[] FormRequestRecordRelatedRecords;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public InvoiceLine[] GroupInvoiceLines;
 	public OrderItemHistory[] Histories;
+	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
 	public InvoiceLine[] InvoiceLines;
 	public NetworkActivityAudit[] ParentEntities;
+	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
+	public TransactionJournal[] OrderItems;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public ProcessException[] ProcessExceptions;
+	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 	public ReturnOrderLineItem[] ReturnOrderLineItems;
 
 	public OrderItem clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -15,6 +15,7 @@ public class ManagedContentSpace extends SObject {
 	public static SObjectType$<ManagedContentSpace> SObjectType;
 	public static SObjectFields$<ManagedContentSpace> Fields;
 
+	public String ApiName;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

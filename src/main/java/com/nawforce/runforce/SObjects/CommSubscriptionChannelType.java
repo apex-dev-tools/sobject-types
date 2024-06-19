@@ -44,9 +44,11 @@ public class CommSubscriptionChannelType extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public CommSubscriptionConsent[] CommSubscriptionConsents;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public CommSubscriptionChannelTypeFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public CommSubscriptionChannelTypeHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

@@ -16,6 +16,7 @@ public class TableauHostMappingShare extends SObject {
 	public static SObjectFields$<TableauHostMappingShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

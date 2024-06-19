@@ -70,8 +70,10 @@ public class Refund extends SObject {
 	public FinanceTransaction[] FinanceTransactions;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public PaymentGatewayLog[] PaymentGatewayLogs;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public ProcessException[] ProcessExceptions;
 	public RefundLinePayment[] RefundLinePayments;
+	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 	public FinanceTransaction[] SourceFinanceTransactions;
 
 	public Refund clone$() {throw new java.lang.UnsupportedOperationException();}

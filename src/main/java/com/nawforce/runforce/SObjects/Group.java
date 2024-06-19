@@ -18,6 +18,7 @@ public class Group extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DefaultDivision;
 	public String DeveloperName;
 	public Boolean DoesIncludeBosses;
 	public Boolean DoesSendEmailToMembers;
@@ -34,7 +35,9 @@ public class Group extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public AssessmentTask[] AssessmentTaskAssignedTo;
 	public User[] DelegatedUsers;
+	public DigitalVerification[] DigitalVerificationDesignatedVerifier;
 	public GroupMember[] GroupMembers;
 	public QueueSobject[] QueueSobjects;
 

@@ -19,6 +19,7 @@ public class EntitlementHistory extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DataType;
+	public String Division;
 	public Id EntitlementId;
 	public Entitlement Entitlement;
 	public String Field;

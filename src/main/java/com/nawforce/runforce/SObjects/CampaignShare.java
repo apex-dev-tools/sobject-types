@@ -18,6 +18,7 @@ public class CampaignShare extends SObject {
 	public String CampaignAccessLevel;
 	public Id CampaignId;
 	public Campaign Campaign;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

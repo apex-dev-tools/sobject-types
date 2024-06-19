@@ -21,6 +21,7 @@ public class CreditMemoInvApplicationHistory extends SObject {
 	public Id CreditMemoInvApplicationId;
 	public CreditMemoInvApplication CreditMemoInvApplication;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

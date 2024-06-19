@@ -23,6 +23,7 @@ public class AssetStatePeriod extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Division;
 	public Datetime EndDate;
 	public Id Id;
 	public Boolean IsDeleted;

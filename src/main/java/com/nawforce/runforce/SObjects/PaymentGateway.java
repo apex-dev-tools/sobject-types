@@ -41,6 +41,7 @@ public class PaymentGateway extends SObject {
 	public PaymentAuthorization[] PaymentAuthorizations;
 	public PaymentGatewayLog[] PaymentGatewayLogs;
 	public Payment[] Payments;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public Refund[] Refunds;
 
 	public PaymentGateway clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -76,16 +76,20 @@ public class Payment extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public FinanceTransaction[] DestinationFinanceTransactions;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public PaymentFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
 	public NetworkActivityAudit[] ParentEntities;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public PaymentGatewayLog[] PaymentGatewayLogs;
 	public PaymentLineInvoice[] PaymentLinesInvoice;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public ProcessException[] ProcessExceptions;
 	public RefundLinePayment[] RefundLinePayments;
+	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 	public FinanceTransaction[] SourceFinanceTransactions;
 
 	public Payment clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -39,6 +39,7 @@ public class ServiceTerritoryMember extends SObject {
 	public Id OperatingHoursId;
 	public OperatingHours OperatingHours;
 	public String PostalCode;
+	public String Role;
 	public Id ServiceResourceId;
 	public ServiceResource ServiceResource;
 	public Id ServiceTerritoryId;
@@ -54,9 +55,11 @@ public class ServiceTerritoryMember extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceTerritoryMemberFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ServiceTerritoryMemberHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;

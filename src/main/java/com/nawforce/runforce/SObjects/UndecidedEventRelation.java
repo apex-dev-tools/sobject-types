@@ -15,6 +15,8 @@ public class UndecidedEventRelation extends SObject {
 	public static SObjectType$<UndecidedEventRelation> SObjectType;
 	public static SObjectFields$<UndecidedEventRelation> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

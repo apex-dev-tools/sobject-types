@@ -32,6 +32,8 @@ public class PricebookEntry extends SObject {
 	public Id Product2Id;
 	public Product2 Product2;
 	public String ProductCode;
+	public Id ProductSellingModelId;
+	public ProductSellingModel ProductSellingModel;
 	public Datetime SystemModstamp;
 	public Decimal UnitPrice;
 	public Boolean UseStandardPrice;

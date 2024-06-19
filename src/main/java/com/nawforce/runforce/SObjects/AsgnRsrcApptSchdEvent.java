@@ -17,6 +17,9 @@ public class AsgnRsrcApptSchdEvent extends SObject {
 
 	public String AssignedResourceId;
 	public Object ChangedFields;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
 	public String EventUuid;
 	public Boolean IsPrimaryResource;
 	public Boolean IsRequiredResource;

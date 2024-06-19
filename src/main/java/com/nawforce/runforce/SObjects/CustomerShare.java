@@ -16,6 +16,7 @@ public class CustomerShare extends SObject {
 	public static SObjectFields$<CustomerShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

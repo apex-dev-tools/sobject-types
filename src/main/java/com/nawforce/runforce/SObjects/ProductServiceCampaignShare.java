@@ -16,6 +16,7 @@ public class ProductServiceCampaignShare extends SObject {
 	public static SObjectFields$<ProductServiceCampaignShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

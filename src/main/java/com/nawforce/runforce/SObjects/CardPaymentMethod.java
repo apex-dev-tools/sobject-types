@@ -83,6 +83,7 @@ public class CardPaymentMethod extends SObject {
 	public PaymentAuthorization[] PaymentAuthorizations;
 	public PaymentGatewayLog[] PaymentGatewayLogs;
 	public Payment[] Payments;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public Refund[] Refunds;
 
 	public CardPaymentMethod clone$() {throw new java.lang.UnsupportedOperationException();}

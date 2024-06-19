@@ -39,9 +39,11 @@ public class Report extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ReportFeed[] Feeds;
 	public NetworkActivityAudit[] ParentEntities;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ScorecardMetric[] ScorecardMetrics;
 
 	public Report clone$() {throw new java.lang.UnsupportedOperationException();}

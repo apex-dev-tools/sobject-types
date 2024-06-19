@@ -15,6 +15,9 @@ public class AIUpdateRecordEvent extends SObject {
 	public static SObjectType$<AIUpdateRecordEvent> SObjectType;
 	public static SObjectFields$<AIUpdateRecordEvent> Fields;
 
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
 	public String ErrorCode;
 	public String ErrorMessage;
 	public String EventUuid;

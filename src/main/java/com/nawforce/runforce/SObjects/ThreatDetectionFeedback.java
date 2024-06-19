@@ -36,9 +36,11 @@ public class ThreatDetectionFeedback extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ThreatDetectionFeedbackFeed[] Feeds;
 	public NetworkActivityAudit[] ParentEntities;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 
 	public ThreatDetectionFeedback clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ThreatDetectionFeedback clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

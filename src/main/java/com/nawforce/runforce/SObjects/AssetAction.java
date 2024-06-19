@@ -28,6 +28,7 @@ public class AssetAction extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Division;
 	public Decimal EstimatedTaxChange;
 	public Id Id;
 	public Boolean IsDeleted;

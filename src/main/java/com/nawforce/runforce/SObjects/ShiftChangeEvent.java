@@ -15,6 +15,8 @@ public class ShiftChangeEvent extends SObject {
 	public static SObjectType$<ShiftChangeEvent> SObjectType;
 	public static SObjectFields$<ShiftChangeEvent> Fields;
 
+	public Id AppointmentCategoryId;
+	public AppointmentCategory AppointmentCategory;
 	public String BackgroundColor;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
@@ -35,6 +37,9 @@ public class ShiftChangeEvent extends SObject {
 	public User Owner;
 	public Id RecordsetFilterCriteriaId;
 	public RecordsetFilterCriteria RecordsetFilterCriteria;
+	public Date RecurrenceEndDate;
+	public String RecurrencePattern;
+	public Date RecurrenceStartDate;
 	public String ReplayId;
 	public Id ServiceResourceId;
 	public ServiceResource ServiceResource;
@@ -47,6 +52,11 @@ public class ShiftChangeEvent extends SObject {
 	public String Status;
 	public String StatusCategory;
 	public String TimeSlotType;
+	public String Type;
+	public Id WorkTypeGroupId;
+	public WorkTypeGroup WorkTypeGroup;
+	public Id WorkTypeId;
+	public WorkType WorkType;
 
 	public ShiftChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ShiftChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -32,6 +32,7 @@ public class Skill extends SObject {
 	public Id TypeId;
 	public SkillType Type;
 
+	public MessagingChannelSkill[] MessagingChannelSkills;
 	public ServiceResourceSkill[] ServiceResources;
 	public SkillRequirement[] SkillRequirements;
 

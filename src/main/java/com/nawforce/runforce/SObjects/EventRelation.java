@@ -15,6 +15,8 @@ public class EventRelation extends SObject {
 	public static SObjectType$<EventRelation> SObjectType;
 	public static SObjectFields$<EventRelation> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -22,6 +24,9 @@ public class EventRelation extends SObject {
 	public Event Event;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsInvitee;
+	public Boolean IsParent;
+	public Boolean IsWhat;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

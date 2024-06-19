@@ -21,6 +21,7 @@ public class DataUsePurposeHistory extends SObject {
 	public String DataType;
 	public Id DataUsePurposeId;
 	public DataUsePurpose DataUsePurpose;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

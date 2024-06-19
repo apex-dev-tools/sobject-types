@@ -33,10 +33,12 @@ public class CaseChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Id Id;
 	public Boolean IsClosed;
 	public Boolean IsClosedOnCreate;
 	public Boolean IsEscalated;
+	public String Language;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -48,6 +50,8 @@ public class CaseChangeEvent extends SObject {
 	public String Priority;
 	public String Reason;
 	public String ReplayId;
+	public Id SourceId;
+	public SObject Source;
 	public String Status;
 	public String Subject;
 	public String SuppliedCompany;

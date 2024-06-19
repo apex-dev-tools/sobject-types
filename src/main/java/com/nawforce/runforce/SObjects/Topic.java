@@ -30,9 +30,11 @@ public class Topic extends SObject {
 
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public CustomBrand[] CustomBrands;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public TopicFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ListEmailRecipientSource[] ListEmailRecipientSources;
 	public TopicLocalization[] Localization;
 	public NetworkActivityAudit[] ParentEntities;

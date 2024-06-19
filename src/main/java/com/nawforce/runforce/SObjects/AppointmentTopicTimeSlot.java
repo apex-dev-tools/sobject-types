@@ -39,8 +39,10 @@ public class AppointmentTopicTimeSlot extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AppointmentTopicTimeSlotFeed[] Feeds;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public AppointmentTopicTimeSlotHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 

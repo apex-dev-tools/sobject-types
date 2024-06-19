@@ -16,6 +16,7 @@ public class FlowInterviewShare extends SObject {
 	public static SObjectFields$<FlowInterviewShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

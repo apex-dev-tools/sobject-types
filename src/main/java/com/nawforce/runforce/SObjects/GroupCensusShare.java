@@ -16,6 +16,7 @@ public class GroupCensusShare extends SObject {
 	public static SObjectFields$<GroupCensusShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

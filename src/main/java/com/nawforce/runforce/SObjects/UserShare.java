@@ -15,6 +15,7 @@ public class UserShare extends SObject {
 	public static SObjectType$<UserShare> SObjectType;
 	public static SObjectFields$<UserShare> Fields;
 
+	public String Division;
 	public Id Id;
 	public Boolean IsActive;
 	public Id LastModifiedById;

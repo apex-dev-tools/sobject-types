@@ -16,6 +16,7 @@ public class StreamingChannelShare extends SObject {
 	public static SObjectFields$<StreamingChannelShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

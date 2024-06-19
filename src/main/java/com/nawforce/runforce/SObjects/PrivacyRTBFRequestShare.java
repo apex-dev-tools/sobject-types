@@ -16,6 +16,7 @@ public class PrivacyRTBFRequestShare extends SObject {
 	public static SObjectFields$<PrivacyRTBFRequestShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

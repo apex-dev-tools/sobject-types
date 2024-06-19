@@ -16,6 +16,7 @@ public class WorkPlanSelectionRuleShare extends SObject {
 	public static SObjectFields$<WorkPlanSelectionRuleShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

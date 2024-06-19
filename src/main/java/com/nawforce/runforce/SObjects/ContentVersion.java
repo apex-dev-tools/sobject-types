@@ -32,6 +32,7 @@ public class ContentVersion extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Id ExternalDataSourceId;
 	public ExternalDataSource ExternalDataSource;
 	public String ExternalDocumentInfo1;
@@ -73,6 +74,7 @@ public class ContentVersion extends SObject {
 
 	public NetworkActivityAudit[] AuditableEntities;
 	public AuthorizationFormConsent[] AuthorizationFormConsents;
+	public GeneratedDocument[] GeneratedDocContentVersions;
 	public ContentVersionHistory[] Histories;
 
 	public ContentVersion clone$() {throw new java.lang.UnsupportedOperationException();}

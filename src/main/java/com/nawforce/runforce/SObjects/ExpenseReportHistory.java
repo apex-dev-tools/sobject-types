@@ -19,6 +19,7 @@ public class ExpenseReportHistory extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DataType;
+	public String Division;
 	public Id ExpenseReportId;
 	public ExpenseReport ExpenseReport;
 	public String Field;

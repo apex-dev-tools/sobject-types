@@ -16,6 +16,7 @@ public class ServiceResourcePreferenceShare extends SObject {
 	public static SObjectFields$<ServiceResourcePreferenceShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

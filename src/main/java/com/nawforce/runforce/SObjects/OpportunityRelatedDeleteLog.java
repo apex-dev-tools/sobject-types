@@ -19,6 +19,7 @@ public class OpportunityRelatedDeleteLog extends SObject {
 	public String CurrencyIsoCode;
 	public String DataType;
 	public String DeleteLog;
+	public String Division;
 	public String FieldName;
 	public Id Id;
 	public Boolean IsDeleted;

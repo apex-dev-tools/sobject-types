@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -26,6 +27,7 @@ public class TimeSlotChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Integer MaxAppointments;
 	public Id OperatingHoursId;
 	public OperatingHours OperatingHours;
 	public Id RecordsetFilterCriteriaId;
@@ -34,6 +36,8 @@ public class TimeSlotChangeEvent extends SObject {
 	public Time StartTime;
 	public String TimeSlotNumber;
 	public String Type;
+	public Id WorkTypeGroupId;
+	public WorkTypeGroup WorkTypeGroup;
 
 	public TimeSlotChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public TimeSlotChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

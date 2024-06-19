@@ -28,6 +28,8 @@ public class AuthorizationFormConsent extends SObject {
 	public Id DocumentVersionId;
 	public ContentVersion DocumentVersion;
 	public Id Id;
+	public Id InfoAuthRequestFormId;
+	public InfoAuthRequestForm InfoAuthRequestForm;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -43,10 +45,12 @@ public class AuthorizationFormConsent extends SObject {
 	public Datetime SystemModstamp;
 
 	public DigitalSignature[] DigitalSignatures;
+	public DigitalVerification[] DigitalVerificationParentReferenceRecord;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AuthorizationFormConsentHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public InfoAuthRequestForm[] RequestFormAuthFormConsents;
 	public AuthorizationFormConsentShare[] Shares;
 
 	public AuthorizationFormConsent clone$() {throw new java.lang.UnsupportedOperationException();}

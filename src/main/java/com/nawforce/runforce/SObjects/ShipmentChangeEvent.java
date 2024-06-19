@@ -27,6 +27,8 @@ public class ShipmentChangeEvent extends SObject {
 	public Id DestinationLocationId;
 	public Location DestinationLocation;
 	public Datetime ExpectedDeliveryDate;
+	public Id FulfillmentOrderId;
+	public FulfillmentOrder FulfillmentOrder;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

@@ -29,6 +29,7 @@ public class ContactCleanInfo extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String DataDotComId;
+	public String Division;
 	public String Email;
 	public String FirstName;
 	public String GeocodeAccuracy;

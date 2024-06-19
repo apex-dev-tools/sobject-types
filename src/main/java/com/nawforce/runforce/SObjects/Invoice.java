@@ -29,8 +29,10 @@ public class Invoice extends SObject {
 	public Date DueDate;
 	public Id Id;
 	public Date InvoiceDate;
+	public Datetime InvoiceLockedDateTime;
 	public String InvoiceNumber;
 	public Boolean IsDeleted;
+	public Boolean IsInvoiceLocked;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -55,20 +57,27 @@ public class Invoice extends SObject {
 	public Decimal TotalTaxAmount;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public CreditMemoInvApplication[] CreditMemoInvsApplication;
 	public CreditMemo[] CreditMemos;
 	public FinanceTransaction[] DestinationFinanceTransactions;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public InvoiceFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public FulfillmentOrder[] FulfillmentOrders;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public InvoiceHistory[] Histories;
 	public InvoiceLine[] InvoiceLines;
 	public Note[] Notes;
@@ -77,11 +86,14 @@ public class Invoice extends SObject {
 	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public PaymentLineInvoice[] PaymentLinesInvoice;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 	public InvoiceShare[] Shares;
 	public FinanceTransaction[] SourceFinanceTransactions;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public Invoice clone$() {throw new java.lang.UnsupportedOperationException();}

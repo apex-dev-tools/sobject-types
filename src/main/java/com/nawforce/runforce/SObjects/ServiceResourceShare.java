@@ -16,6 +16,7 @@ public class ServiceResourceShare extends SObject {
 	public static SObjectFields$<ServiceResourceShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

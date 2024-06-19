@@ -25,9 +25,11 @@ public class GroupCensusMember extends SObject {
 	public Id ContactId;
 	public Contact Contact;
 	public String Country;
+	public String CountryCode;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Integer DependentCount;
 	public String Email;
 	public String FirstName;
@@ -55,7 +57,10 @@ public class GroupCensusMember extends SObject {
 	public String MemberType;
 	public String Name;
 	public String OptOutPlanTypes;
+	public Id OwnerId;
+	public Name Owner;
 	public String PhoneNumber;
+	public Date PolicyStartDate;
 	public String PostalCode;
 	public Id PrimaryGroupCensusMemberId;
 	public GroupCensusMember PrimaryGroupCensusMember;
@@ -65,23 +70,38 @@ public class GroupCensusMember extends SObject {
 	public String SmokerStatus;
 	public String SourceSystemIdentifier;
 	public String State;
+	public String StateCode;
 	public String Status;
 	public String Street;
 	public Datetime SystemModstamp;
 
+	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public GroupCensusMember[] DependentGroupCensusMembers;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
+	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public GroupCensusMemberFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public GroupCensusMemberPlan[] GroupCensusMemberPlans;
 	public GroupCensusMemberHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public GroupCensusMemberShare[] Shares;
+	public TaskRelation[] TaskRelations;
+	public Task[] Tasks;
 
 	public GroupCensusMember clone$() {throw new java.lang.UnsupportedOperationException();}
 	public GroupCensusMember clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

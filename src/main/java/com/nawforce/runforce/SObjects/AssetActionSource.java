@@ -24,6 +24,7 @@ public class AssetActionSource extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Division;
 	public Datetime EndDate;
 	public Decimal EstimatedTax;
 	public String ExternalReference;

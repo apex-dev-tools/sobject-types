@@ -63,17 +63,20 @@ public class InvoiceLine extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public CreditMemoLine[] CreditMemoLines;
 	public FinanceTransaction[] DestinationFinanceTransactions;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public InvoiceLineFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public InvoiceLineHistory[] Histories;
 	public InvoiceLine[] InvoiceLines;
 	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 	public FinanceTransaction[] SourceFinanceTransactions;
 
 	public InvoiceLine clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -15,6 +15,8 @@ public class AcceptedEventRelation extends SObject {
 	public static SObjectType$<AcceptedEventRelation> SObjectType;
 	public static SObjectFields$<AcceptedEventRelation> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

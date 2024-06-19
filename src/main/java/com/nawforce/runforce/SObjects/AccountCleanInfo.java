@@ -35,6 +35,7 @@ public class AccountCleanInfo extends SObject {
 	public String DandBCompanyDunsNumber;
 	public String DataDotComId;
 	public String Description;
+	public String Division;
 	public String DunsNumber;
 	public Integer DunsRightMatchConfidence;
 	public String DunsRightMatchGrade;

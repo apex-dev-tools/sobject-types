@@ -18,6 +18,7 @@ public class AssetShare extends SObject {
 	public String AssetAccessLevel;
 	public Id AssetId;
 	public Asset Asset;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

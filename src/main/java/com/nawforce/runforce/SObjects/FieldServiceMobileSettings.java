@@ -38,6 +38,7 @@ public class FieldServiceMobileSettings extends SObject {
 	public Integer DaysAfterCurrentServiceDate;
 	public Integer DaysBeforeCurrentServiceDate;
 	public String DefaultListViewDeveloperName;
+	public String DestinationType;
 	public String DeveloperName;
 	public String FeedbackPrimaryColor;
 	public String FeedbackSecondaryColor;

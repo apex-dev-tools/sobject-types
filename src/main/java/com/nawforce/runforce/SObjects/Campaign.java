@@ -72,22 +72,37 @@ public class Campaign extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public CareProgramCampaign[] CampaignCareProgramCampaigns;
 	public CampaignMemberStatus[] CampaignMemberStatuses;
 	public CampaignMember[] CampaignMembers;
+	public Promotion[] CampaignPromotions;
 	public Campaign[] ChildCampaigns;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
+	public EngagementTopic[] EngagementInitiatedTopic;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public CampaignFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public FlowRecord[] Flows;
+	public AuthFormRequestRecord[] FormRequestRecordRelatedRecords;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public CampaignHistory[] Histories;
+	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
 	public ListEmailRecipientSource[] ListEmailRecipientSources;
 	public ListEmail[] ListEmails;
+	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
 	public OpenActivity[] OpenActivities;
 	public Opportunity[] Opportunities;
 	public NetworkActivityAudit[] ParentEntities;
@@ -96,12 +111,16 @@ public class Campaign extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public RecordAlert[] RecordAlertParent;
+	public RecordAlert[] RecordAlertWhat;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
 	public WorkFeedbackRequest[] RelatedObjects;
 	public CampaignShare[] Shares;
 	public SurveySubject[] SurveySubjectEntities;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
+	public UserDefinedLabelAssignment[] UserDefinedLabelAssignments;
 
 	public Campaign clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Campaign clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

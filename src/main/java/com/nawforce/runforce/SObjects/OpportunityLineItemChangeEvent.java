@@ -22,6 +22,7 @@ public class OpportunityLineItemChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

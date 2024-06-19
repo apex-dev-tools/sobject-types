@@ -31,6 +31,7 @@ public class OpportunityChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Decimal ExpectedRevenue;
 	public String ForecastCategory;
 	public String ForecastCategoryName;

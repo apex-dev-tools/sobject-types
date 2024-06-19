@@ -23,6 +23,7 @@ public class Attachment extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String Description;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsPrivate;

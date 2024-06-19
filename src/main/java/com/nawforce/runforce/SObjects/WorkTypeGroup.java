@@ -15,6 +15,7 @@ public class WorkTypeGroup extends SObject {
 	public static SObjectType$<WorkTypeGroup> SObjectType;
 	public static SObjectFields$<WorkTypeGroup> Fields;
 
+	public String AdditionalInformation;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -34,13 +35,16 @@ public class WorkTypeGroup extends SObject {
 	public Name Owner;
 	public Datetime SystemModstamp;
 
+	public AppointmentInvitation[] AppointmentInvitations;
 	public AppointmentTopicTimeSlot[] AppointmentTopicTimeSlots;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkTypeGroupFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public WorkTypeGroupHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
@@ -48,7 +52,10 @@ public class WorkTypeGroup extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public WorkTypeGroupShare[] Shares;
+	public Shift[] ShiftWorkTypeGroups;
+	public TimeSlot[] Timeslots;
 	public WorkTypeGroupMember[] WorkTypeGroupMembers;
+	public ShiftWorkTopic[] WorkTypeGroupShifts;
 
 	public WorkTypeGroup clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkTypeGroup clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

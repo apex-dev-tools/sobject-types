@@ -33,11 +33,15 @@ public class RecordAction extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Integer Order;
+	public Id ParticipantRoleId;
+	public ParticipantRole ParticipantRole;
 	public String Pinned;
 	public Id RecordId;
 	public SObject Record;
 	public String Status;
 	public Datetime SystemModstamp;
+
+	public AssessmentTask[] TaskDefinitions;
 
 	public RecordAction clone$() {throw new java.lang.UnsupportedOperationException();}
 	public RecordAction clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

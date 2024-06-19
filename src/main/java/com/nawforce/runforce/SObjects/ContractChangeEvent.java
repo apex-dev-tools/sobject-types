@@ -47,6 +47,7 @@ public class ContractChangeEvent extends SObject {
 	public Contact CustomerSigned;
 	public String CustomerSignedTitle;
 	public String Description;
+	public String Division;
 	public Date EndDate;
 	public Id Id;
 	public Datetime LastApprovedDate;

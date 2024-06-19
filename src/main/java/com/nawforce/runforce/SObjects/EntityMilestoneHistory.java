@@ -19,6 +19,7 @@ public class EntityMilestoneHistory extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DataType;
+	public String Division;
 	public Id EntityMilestoneId;
 	public EntityMilestone EntityMilestone;
 	public String Field;

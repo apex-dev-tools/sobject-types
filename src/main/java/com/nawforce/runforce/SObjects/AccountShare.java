@@ -20,6 +20,7 @@ public class AccountShare extends SObject {
 	public Account Account;
 	public String CaseAccessLevel;
 	public String ContactAccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

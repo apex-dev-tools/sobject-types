@@ -25,6 +25,7 @@ public class EmailMessageChangeEvent extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String Division;
 	public Id EmailTemplateId;
 	public EmailTemplate EmailTemplate;
 	public Datetime FirstOpenedDate;

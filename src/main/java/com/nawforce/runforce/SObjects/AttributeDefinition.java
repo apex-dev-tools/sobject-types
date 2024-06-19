@@ -15,11 +15,13 @@ public class AttributeDefinition extends SObject {
 	public static SObjectType$<AttributeDefinition> SObjectType;
 	public static SObjectFields$<AttributeDefinition> Fields;
 
+	public String Code;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String DataType;
+	public String DefaultHelpText;
 	public String DefaultValue;
 	public String Description;
 	public String DeveloperName;
@@ -42,26 +44,37 @@ public class AttributeDefinition extends SObject {
 	public Datetime SystemModstamp;
 	public Id UnitOfMeasureId;
 	public UnitOfMeasure UnitOfMeasure;
+	public String ValueDescription;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AssetAttribute[] AssetAttributes;
 	public AssetStatePeriodAttribute[] AssetStatePeriodAttributes;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public AttributeCategoryAttribute[] AttributeCategoryAttributes;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AttributeDefinitionFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public AttributeDefinitionHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ProductAttributeDefinition[] ProductAttributeDefinitions;
+	public ProductClassificationAttr[] ProductClassificationAttrs;
 	public AttributeDefinitionShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public AttributeDefinition clone$() {throw new java.lang.UnsupportedOperationException();}

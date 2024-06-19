@@ -18,6 +18,8 @@ public class ReturnOrderLineItemChangeEvent extends SObject {
 	public Id AssetId;
 	public Asset Asset;
 	public Object ChangeEventHeader;
+	public Id ChangeOrderItemId;
+	public OrderItem ChangeOrderItem;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -25,6 +27,7 @@ public class ReturnOrderLineItemChangeEvent extends SObject {
 	public String Description;
 	public Id DestinationLocationId;
 	public Location DestinationLocation;
+	public Decimal GrossUnitPrice;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -57,6 +60,13 @@ public class ReturnOrderLineItemChangeEvent extends SObject {
 	public String ReturnOrderLineItemNumber;
 	public Id SourceLocationId;
 	public Location SourceLocation;
+	public Decimal TotalAdjustmentAmount;
+	public Decimal TotalAdjustmentTaxAmount;
+	public Decimal TotalLineAmount;
+	public Decimal TotalLineTaxAmount;
+	public String Type;
+	public String TypeCode;
+	public Decimal UnitPrice;
 
 	public ReturnOrderLineItemChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ReturnOrderLineItemChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

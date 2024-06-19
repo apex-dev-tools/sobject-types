@@ -16,6 +16,7 @@ public class ProductRequestShare extends SObject {
 	public static SObjectFields$<ProductRequestShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

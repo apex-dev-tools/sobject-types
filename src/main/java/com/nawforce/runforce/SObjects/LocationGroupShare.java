@@ -16,6 +16,7 @@ public class LocationGroupShare extends SObject {
 	public static SObjectFields$<LocationGroupShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

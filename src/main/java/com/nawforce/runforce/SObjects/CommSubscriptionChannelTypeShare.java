@@ -16,6 +16,7 @@ public class CommSubscriptionChannelTypeShare extends SObject {
 	public static SObjectFields$<CommSubscriptionChannelTypeShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

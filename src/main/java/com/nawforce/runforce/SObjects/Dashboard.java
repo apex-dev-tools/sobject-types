@@ -57,9 +57,11 @@ public class Dashboard extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DashboardComponent[] DashboardComponents;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public DashboardFeed[] Feeds;
 	public NetworkActivityAudit[] ParentEntities;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 
 	public Dashboard clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Dashboard clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

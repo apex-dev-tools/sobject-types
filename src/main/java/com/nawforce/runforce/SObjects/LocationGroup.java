@@ -38,15 +38,19 @@ public class LocationGroup extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public LocationGroupFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public LocationGroupHistory[] Histories;
+	public InventoryItemReservation[] InventoryItemReservations;
 	public LocationGroupAssignment[] LocationGroups;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public LocationGroupShare[] Shares;
+	public WebStoreInventorySource[] WebStoreInventorySources;
 
 	public LocationGroup clone$() {throw new java.lang.UnsupportedOperationException();}
 	public LocationGroup clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

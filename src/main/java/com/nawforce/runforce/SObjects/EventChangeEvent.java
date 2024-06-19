@@ -26,6 +26,7 @@ public class EventChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Integer DurationInMinutes;
 	public String GroupEventType;
 	public Id Id;
@@ -57,11 +58,15 @@ public class EventChangeEvent extends SObject {
 	public String RecurrenceType;
 	public Datetime ReminderDateTime;
 	public String ReplayId;
+	public Id ServiceAppointmentId;
+	public ServiceAppointment ServiceAppointment;
 	public String ShowAs;
 	public String Subject;
 	public String Type;
+	public Integer WhatCount;
 	public Id WhatId;
 	public SObject What;
+	public Integer WhoCount;
 	public Id WhoId;
 	public SObject Who;
 

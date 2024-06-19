@@ -29,6 +29,7 @@ public class Task extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Id Id;
 	public Boolean IsArchived;
 	public Boolean IsClosed;
@@ -60,23 +61,35 @@ public class Task extends SObject {
 	public Datetime SystemModstamp;
 	public String TaskSubtype;
 	public String Type;
+	public Integer WhatCount;
 	public Id WhatId;
 	public Name What;
+	public Integer WhoCount;
 	public Id WhoId;
 	public Name Who;
+	public String[] TaskWhoIds;
 
 	public ActivityFieldHistory[] ActivityFieldHistories;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public CareTask[] CareTasks;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public TaskFeed[] Feeds;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public NetworkActivityAudit[] ParentEntities;
+	public AuthFormRequestRecord[] FormRequestRecordRelatedRecords;
+	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
+	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
 	public Task[] RecurringTasks;
 	public SurveySubject[] SurveySubjectEntities;
+	public AssessmentTask[] TaskDefinitions;
+	public TaskRelation[] TaskRelations;
+	public TaskWhoRelation[] TaskWhoRelations;
 	public TopicAssignment[] TopicAssignments;
+	public UserDefinedLabelAssignment[] UserDefinedLabelAssignments;
+	public VoiceCall[] VoiceCallActivities;
 
 	public Task clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Task clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

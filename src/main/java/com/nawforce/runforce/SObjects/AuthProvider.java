@@ -38,6 +38,8 @@ public class AuthProvider extends SObject {
 	public Boolean OptionsIsMuleSoftEU;
 	public Boolean OptionsIsMuleSoftUS;
 	public Boolean OptionsIsPkceEnabled;
+	public Boolean OptionsIsSegmentIntelligence;
+	public Boolean OptionsIsWebDataConnector;
 	public Boolean OptionsRequireMfa;
 	public Boolean OptionsSendAccessTokenInHeader;
 	public Boolean OptionsSendClientCredentialsInHeader;

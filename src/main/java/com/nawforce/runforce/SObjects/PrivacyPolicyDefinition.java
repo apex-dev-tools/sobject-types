@@ -34,6 +34,7 @@ public class PrivacyPolicyDefinition extends SObject {
 	public String Type;
 
 	public PrivacyJobSession[] PrivacyJobSessions;
+	public PrivacyPolicy[] PrivacyPolicies;
 	public PrivacyRTBFRequest[] PrivacyRTBFPolicies;
 
 	public PrivacyPolicyDefinition clone$() {throw new java.lang.UnsupportedOperationException();}

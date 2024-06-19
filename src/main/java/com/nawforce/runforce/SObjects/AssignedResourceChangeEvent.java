@@ -22,11 +22,15 @@ public class AssignedResourceChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Decimal EstimatedTravelTime;
+	public Id EventId;
+	public Event Event;
 	public Id Id;
+	public Boolean IsRequiredResource;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String ReplayId;
+	public String Role;
 	public Id ServiceAppointmentId;
 	public ServiceAppointment ServiceAppointment;
 	public Id ServiceCrewId;

@@ -29,6 +29,9 @@ public class Period extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public AdvAccountForecastFact[] AdvAcctForecastFacts;
+	public EmissionsForecastFact[] EmssnForecastFactYear;
+
 	public Period clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Period clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public Period clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

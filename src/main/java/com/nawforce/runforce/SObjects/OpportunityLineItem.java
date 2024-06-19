@@ -27,6 +27,7 @@ public class OpportunityLineItem extends SObject {
 	public Boolean HasQuantitySchedule;
 	public Boolean HasRevenueSchedule;
 	public Boolean HasSchedule;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -52,6 +53,9 @@ public class OpportunityLineItem extends SObject {
 	public Decimal UnitPrice;
 
 	public OpportunityLineItemSchedule[] OpportunityLineItemSchedules;
+	public AuthFormRequestRecord[] FormRequestRecordRelatedRecords;
+	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
+	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
 
 	public OpportunityLineItem clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OpportunityLineItem clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

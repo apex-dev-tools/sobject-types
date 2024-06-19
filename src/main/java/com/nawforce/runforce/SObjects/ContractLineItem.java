@@ -54,19 +54,26 @@ public class ContractLineItem extends SObject {
 	public Decimal UnitPrice;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public ContractLineItem[] ChildContractLineItems;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ContractLineOutcome[] ContractLineOutcomes;
 	public ContractLineItem[] DescendantContractLineItems;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
 	public Entitlement[] Entitlements;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContractLineItemFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ContractLineItemHistory[] Histories;
 	public MaintenanceAsset[] MaintenanceAssets;
 	public Note[] Notes;
@@ -75,6 +82,7 @@ public class ContractLineItem extends SObject {
 	public NetworkActivityAudit[] ParentEntities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public ContractLineItem clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -16,6 +16,7 @@ public class UnitOfMeasureShare extends SObject {
 	public static SObjectFields$<UnitOfMeasureShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

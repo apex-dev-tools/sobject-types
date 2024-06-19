@@ -38,6 +38,7 @@ public class ServiceTerritoryMemberChangeEvent extends SObject {
 	public OperatingHours OperatingHours;
 	public String PostalCode;
 	public String ReplayId;
+	public String Role;
 	public Id ServiceResourceId;
 	public ServiceResource ServiceResource;
 	public Id ServiceTerritoryId;

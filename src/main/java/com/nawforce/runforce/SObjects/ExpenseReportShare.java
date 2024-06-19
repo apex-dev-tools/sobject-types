@@ -16,6 +16,7 @@ public class ExpenseReportShare extends SObject {
 	public static SObjectFields$<ExpenseReportShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

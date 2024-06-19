@@ -42,13 +42,18 @@ public class ContactRequest extends SObject {
 	public Name Who;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
 	public OpenActivity[] OpenActivities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public ContactRequestShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public ContactRequest clone$() {throw new java.lang.UnsupportedOperationException();}

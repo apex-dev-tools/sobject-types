@@ -16,6 +16,7 @@ public class ContractLineOutcomeShare extends SObject {
 	public static SObjectFields$<ContractLineOutcomeShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

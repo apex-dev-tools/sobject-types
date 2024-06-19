@@ -38,8 +38,10 @@ public class ServiceAppointmentCapacityUsage extends SObject {
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceAppointmentCapacityUsageFeed[] Feeds;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ServiceAppointmentCapacityUsageHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

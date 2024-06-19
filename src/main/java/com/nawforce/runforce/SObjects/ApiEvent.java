@@ -41,6 +41,7 @@ public class ApiEvent extends SObject {
 	public String Query;
 	public String Records;
 	public String RelatedEventIdentifier;
+	public String RequestIdentifier;
 	public Decimal RowsProcessed;
 	public Decimal RowsReturned;
 	public String SessionKey;

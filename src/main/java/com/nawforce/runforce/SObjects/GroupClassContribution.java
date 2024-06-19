@@ -21,6 +21,8 @@ public class GroupClassContribution extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public String Division;
 	public Date EffectiveEndDate;
 	public Date EffectiveStartDate;
 	public String GroupBenefitProductCategory;
@@ -40,12 +42,22 @@ public class GroupClassContribution extends SObject {
 	public String Type;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public Attachment[] Attachments;
+	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
 	public GroupClassContributionHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public GroupClassContribution clone$() {throw new java.lang.UnsupportedOperationException();}

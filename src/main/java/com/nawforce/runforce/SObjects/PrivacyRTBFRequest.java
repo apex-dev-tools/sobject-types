@@ -37,17 +37,24 @@ public class PrivacyRTBFRequest extends SObject {
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public PrivacyRTBFRequestFeed[] Feeds;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public PrivacyRTBFRequestHistory[] Histories;
 	public OpenActivity[] OpenActivities;
 	public PrivacyJobSession[] PrivacyRtbfRequestJobSessions;
 	public PrivacyRTBFRequestShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public PrivacyRTBFRequest clone$() {throw new java.lang.UnsupportedOperationException();}

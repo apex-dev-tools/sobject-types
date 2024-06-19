@@ -38,6 +38,7 @@ public class ApexTestRunResult extends SObject {
 	public Datetime StartTime;
 	public String Status;
 	public Datetime SystemModstamp;
+	public Integer TestSetupTime;
 	public Integer TestTime;
 	public Id UserId;
 	public User User;

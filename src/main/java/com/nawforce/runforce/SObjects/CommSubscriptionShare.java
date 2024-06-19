@@ -16,6 +16,7 @@ public class CommSubscriptionShare extends SObject {
 	public static SObjectFields$<CommSubscriptionShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
