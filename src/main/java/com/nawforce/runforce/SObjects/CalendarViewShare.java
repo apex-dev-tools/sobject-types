@@ -16,6 +16,7 @@ public class CalendarViewShare extends SObject {
 	public static SObjectFields$<CalendarViewShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

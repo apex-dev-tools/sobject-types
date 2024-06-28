@@ -16,10 +16,19 @@ public class WorkType extends SObject {
 	public static SObjectType$<WorkType> SObjectType;
 	public static SObjectFields$<WorkType> Fields;
 
+	public Id AppointmentCategoryId;
+	public AppointmentCategory AppointmentCategory;
+	public Integer ApptStartTimeIntvlInMin;
+	public Integer AttendeeLimit;
+	public Integer BlockTimeAfterAppointment;
+	public String BlockTimeAfterUnit;
+	public Integer BlockTimeBeforeAppointment;
+	public String BlockTimeBeforeUnit;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String DefaultAppointmentType;
 	public String Description;
 	public Decimal DurationInMinutes;
 	public String DurationType;
@@ -33,6 +42,8 @@ public class WorkType extends SObject {
 	public Datetime LastViewedDate;
 	public Integer MinimumCrewSize;
 	public String Name;
+	public Id OperatingHoursId;
+	public OperatingHours OperatingHours;
 	public Id OwnerId;
 	public Name Owner;
 	public Integer RecommendedCrewSize;
@@ -40,14 +51,23 @@ public class WorkType extends SObject {
 	public ServiceReportLayout ServiceReportTemplate;
 	public Boolean ShouldAutoCreateSvcAppt;
 	public Datetime SystemModstamp;
+	public String TimeFrameEndUnit;
+	public String TimeFrameStartUnit;
+	public Integer TimeframeEnd;
+	public Integer TimeframeStart;
 
+	public AppointmentInvitation[] AppointmentInvitations;
 	public AppointmentTopicTimeSlot[] AppointmentTopicTimeSlots;
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public ClinicalServiceRequestDetail[] ClinSvcReqDetail_Detail;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EngagementChannelWorkType[] EngagementChannelWorkTypes;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkTypeFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public WorkTypeHistory[] Histories;
 	public LinkedArticle[] LinkedArticles;
 	public MaintenanceAsset[] MaintenanceAssets;
@@ -61,11 +81,17 @@ public class WorkType extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public WorkTypeShare[] Shares;
+	public Shift[] ShiftWorkTypes;
 	public SkillRequirement[] SkillRequirements;
+	public Visit[] VisitTypes;
+	public WaitlistParticipant[] WaitlistParticipants;
+	public WaitlistWorkType[] WaitlistWorkTypes;
 	public WorkOrderLineItem[] WorkOrderLineItems;
 	public WorkOrder[] WorkOrders;
 	public WorkPlanSelectionRule[] WorkPlanSelectionRules;
 	public WorkTypeGroupMember[] WorkTypeGroupMembers;
+	public ShiftWorkTopic[] WorkTypeShifts;
+	public ServiceTerritoryWorkType[] WorkTypes;
 
 	public WorkType clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkType clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

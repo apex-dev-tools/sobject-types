@@ -48,9 +48,11 @@ public class ContractLineOutcome extends SObject {
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContractLineOutcomeFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ContractLineOutcomeHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

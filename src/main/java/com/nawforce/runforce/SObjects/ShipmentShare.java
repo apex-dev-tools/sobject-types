@@ -16,6 +16,7 @@ public class ShipmentShare extends SObject {
 	public static SObjectFields$<ShipmentShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

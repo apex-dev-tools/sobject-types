@@ -16,6 +16,7 @@ public class ConsumptionScheduleShare extends SObject {
 	public static SObjectFields$<ConsumptionScheduleShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

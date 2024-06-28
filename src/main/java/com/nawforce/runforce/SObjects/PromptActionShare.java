@@ -16,6 +16,7 @@ public class PromptActionShare extends SObject {
 	public static SObjectFields$<PromptActionShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

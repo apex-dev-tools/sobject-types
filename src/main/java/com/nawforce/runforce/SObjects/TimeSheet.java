@@ -41,14 +41,20 @@ public class TimeSheet extends SObject {
 	public Integer TotalDurationInMinutes;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public TimeSheetFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public TimeSheetHistory[] Histories;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
@@ -57,6 +63,7 @@ public class TimeSheet extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public TimeSheetShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TimeSheetEntry[] TimeSheetEntries;
 	public TopicAssignment[] TopicAssignments;

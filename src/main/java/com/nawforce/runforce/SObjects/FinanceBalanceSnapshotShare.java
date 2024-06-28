@@ -16,6 +16,7 @@ public class FinanceBalanceSnapshotShare extends SObject {
 	public static SObjectFields$<FinanceBalanceSnapshotShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

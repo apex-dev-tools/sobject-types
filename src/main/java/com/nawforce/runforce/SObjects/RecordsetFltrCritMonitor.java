@@ -38,9 +38,11 @@ public class RecordsetFltrCritMonitor extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public RecordsetFltrCritMonitorFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public RecordsetFltrCritMonitorHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

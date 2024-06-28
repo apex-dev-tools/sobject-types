@@ -32,6 +32,7 @@ public class EntitlementChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Division;
 	public Date EndDate;
 	public Id Id;
 	public Boolean IsPerIncident;

@@ -16,6 +16,7 @@ public class FlowOrchestrationWorkItemShare extends SObject {
 	public static SObjectFields$<FlowOrchestrationWorkItemShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

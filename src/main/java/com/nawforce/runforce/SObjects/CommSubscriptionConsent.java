@@ -25,6 +25,7 @@ public class CommSubscriptionConsent extends SObject {
 	public Name ConsentGiver;
 	public Id ContactPointId;
 	public Name ContactPoint;
+	public String ContactPointValue;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -53,16 +54,22 @@ public class CommSubscriptionConsent extends SObject {
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public CommSubscriptionTiming[] CommSubscriptionTimings;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public CommSubscriptionConsentFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public CommSubscriptionConsentHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
@@ -71,6 +78,7 @@ public class CommSubscriptionConsent extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public CommSubscriptionConsentShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public CommSubscriptionConsent clone$() {throw new java.lang.UnsupportedOperationException();}

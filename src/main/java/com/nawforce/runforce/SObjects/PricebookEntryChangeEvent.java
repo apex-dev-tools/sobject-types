@@ -30,6 +30,8 @@ public class PricebookEntryChangeEvent extends SObject {
 	public Pricebook2 Pricebook2;
 	public Id Product2Id;
 	public Product2 Product2;
+	public Id ProductSellingModelId;
+	public ProductSellingModel ProductSellingModel;
 	public String ReplayId;
 	public Decimal UnitPrice;
 	public Boolean UseStandardPrice;

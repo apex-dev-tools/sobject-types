@@ -59,13 +59,16 @@ public class ServiceTerritory extends SObject {
 
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public ApptBundlePolicySvcTerr[] BundlePolicySvcTerrs;
+	public CareProgramEnrollee[] CPEServiceTerritory;
 	public ServiceTerritory[] ChildServiceTerritories;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ServiceTerritory[] DescendantTerritories;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceTerritoryFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ServiceTerritoryHistory[] Histories;
 	public ServiceTerritoryLocation[] Locations;
 	public NetworkActivityAudit[] ParentEntities;
@@ -76,6 +79,8 @@ public class ServiceTerritory extends SObject {
 	public SchedulingWorkspaceTerritory[] SchedulingWorkspaceTerritories;
 	public ServiceAppointment[] ServiceAppointments;
 	public ServiceTerritoryMember[] ServiceResources;
+	public ServiceTerritoryWorkType[] ServiceTerritories;
+	public Waitlist[] ServiceTerritoryWaitlist;
 	public ServiceTerritoryShare[] Shares;
 	public Shift[] ShiftServiceTerritories;
 	public TopicAssignment[] TopicAssignments;

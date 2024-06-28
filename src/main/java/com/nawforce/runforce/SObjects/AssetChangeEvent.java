@@ -41,6 +41,7 @@ public class AssetChangeEvent extends SObject {
 	public String Description;
 	public String DigitalAssetStatus;
 	public String ExternalIdentifier;
+	public String Division;
 	public String GeocodeAccuracy;
 	public Boolean HasLifecycleManagement;
 	public Id Id;

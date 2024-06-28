@@ -16,6 +16,7 @@ public class ContactRequestShare extends SObject {
 	public static SObjectFields$<ContactRequestShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

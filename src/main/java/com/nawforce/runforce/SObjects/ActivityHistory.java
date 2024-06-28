@@ -34,6 +34,7 @@ public class ActivityHistory extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Integer DurationInMinutes;
 	public Datetime EndDateTime;
 	public Id Id;
@@ -50,6 +51,10 @@ public class ActivityHistory extends SObject {
 	public String Location;
 	public Id OwnerId;
 	public Name Owner;
+	public Id PrimaryAccountId;
+	public Account PrimaryAccount;
+	public Id PrimaryWhoId;
+	public Name PrimaryWho;
 	public String Priority;
 	public Datetime ReminderDateTime;
 	public Datetime StartDateTime;

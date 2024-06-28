@@ -39,9 +39,11 @@ public class ProductItemTransaction extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ProductItemTransactionFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ProductItemTransactionHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;

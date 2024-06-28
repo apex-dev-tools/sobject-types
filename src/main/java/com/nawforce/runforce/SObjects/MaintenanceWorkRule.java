@@ -48,9 +48,11 @@ public class MaintenanceWorkRule extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public MaintenanceWorkRuleFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MaintenanceWorkRuleHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;

@@ -15,6 +15,8 @@ public class Shift extends SObject {
 	public static SObjectType$<Shift> SObjectType;
 	public static SObjectFields$<Shift> Fields;
 
+	public Id AppointmentCategoryId;
+	public AppointmentCategory AppointmentCategory;
 	public String BackgroundColor;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -37,6 +39,9 @@ public class Shift extends SObject {
 	public Name Owner;
 	public Id RecordsetFilterCriteriaId;
 	public RecordsetFilterCriteria RecordsetFilterCriteria;
+	public Date RecurrenceEndDate;
+	public String RecurrencePattern;
+	public Date RecurrenceStartDate;
 	public Id ServiceResourceId;
 	public ServiceResource ServiceResource;
 	public Id ServiceTerritoryId;
@@ -49,17 +54,28 @@ public class Shift extends SObject {
 	public String StatusCategory;
 	public Datetime SystemModstamp;
 	public String TimeSlotType;
+	public String Type;
+	public Id WorkTypeGroupId;
+	public WorkTypeGroup WorkTypeGroup;
+	public Id WorkTypeId;
+	public WorkType WorkType;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ShiftFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ShiftHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
@@ -68,6 +84,9 @@ public class Shift extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ShiftShare[] Shares;
+	public ShiftEngagementChannel[] ShiftEngagementChannels;
+	public ShiftWorkTopic[] ShiftTopics;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

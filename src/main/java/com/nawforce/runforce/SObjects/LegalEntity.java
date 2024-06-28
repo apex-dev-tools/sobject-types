@@ -46,17 +46,25 @@ public class LegalEntity extends SObject {
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public AuthorizedInsuranceLine[] AuthorizedInsuranceLines;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public LegalEntityFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public LegalEntityHistory[] Histories;
+	public InsurancePolicy[] IPUnderwritingEntity;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
@@ -64,6 +72,7 @@ public class LegalEntity extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public LegalEntityShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public LegalEntity clone$() {throw new java.lang.UnsupportedOperationException();}

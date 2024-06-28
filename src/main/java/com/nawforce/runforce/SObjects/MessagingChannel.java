@@ -46,12 +46,14 @@ public class MessagingChannel extends SObject {
 	public String OfflineAgentsResponse;
 	public String OptInPrompt;
 	public String OutsideBusinessHoursResponse;
+	public String PlatformType;
 	public String RoutingType;
 	public Datetime SystemModstamp;
 	public Id TargetQueueId;
 	public Group TargetQueue;
 
 	public CommSubscriptionChannelType[] MessagingChannels;
+	public MessagingLink[] MessagingLinks;
 	public MsgChannelLanguageKeyword[] MsgChannelLanguageKeywords;
 
 	public MessagingChannel clone$() {throw new java.lang.UnsupportedOperationException();}

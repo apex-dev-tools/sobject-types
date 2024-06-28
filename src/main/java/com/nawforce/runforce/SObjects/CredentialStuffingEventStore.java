@@ -44,10 +44,12 @@ public class CredentialStuffingEventStore extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ThreatDetectionFeedback[] Feedbacks;
 	public CredentialStuffingEventStoreFeed[] Feeds;
 	public NetworkActivityAudit[] ParentEntities;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 
 	public CredentialStuffingEventStore clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CredentialStuffingEventStore clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

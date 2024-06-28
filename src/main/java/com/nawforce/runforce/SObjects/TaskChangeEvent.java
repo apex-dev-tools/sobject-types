@@ -30,6 +30,7 @@ public class TaskChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Id Id;
 	public Boolean IsClosed;
 	public Boolean IsRecurrence;
@@ -57,8 +58,10 @@ public class TaskChangeEvent extends SObject {
 	public String Status;
 	public String Subject;
 	public String Type;
+	public Integer WhatCount;
 	public Id WhatId;
 	public SObject What;
+	public Integer WhoCount;
 	public Id WhoId;
 	public SObject Who;
 

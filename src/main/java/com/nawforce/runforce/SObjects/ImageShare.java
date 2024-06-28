@@ -16,6 +16,7 @@ public class ImageShare extends SObject {
 	public static SObjectFields$<ImageShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

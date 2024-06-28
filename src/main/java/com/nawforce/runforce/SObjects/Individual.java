@@ -32,6 +32,7 @@ public class Individual extends SObject {
 	public Boolean HasOptedOutProfiling;
 	public Boolean HasOptedOutSolicit;
 	public Boolean HasOptedOutTracking;
+	public Boolean HasPrivacyHold;
 	public Id Id;
 	public String IndividualsAge;
 	public Integer InfluencerRating;
@@ -64,11 +65,15 @@ public class Individual extends SObject {
 	public DuplicateRecordItem[] DuplicateRecordItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public IndividualHistory[] Histories;
+	public PersonLanguage[] IndividualDefinitions;
 	public ContactPointTypeConsent[] Individuals;
 	public Lead[] Leads;
 	public PartyConsent[] PartyConsents;
 	public Customer[] PartyRoleCustomers;
 	public Seller[] PartyRoleSellers;
+	public PersonDisability[] PersonDisabilities;
+	public PersonEducation[] PersonEducations;
+	public PrivacyHold[] PrivacyHoldReferences;
 	public IndividualShare[] Shares;
 
 	public Individual clone$() {throw new java.lang.UnsupportedOperationException();}

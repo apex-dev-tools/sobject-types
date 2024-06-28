@@ -25,6 +25,7 @@ public class ApexTestResult extends SObject {
 	public Id AsyncApexJobId;
 	public AsyncApexJob AsyncApexJob;
 	public Id Id;
+	public Boolean IsTestSetup;
 	public String Message;
 	public String MethodName;
 	public String Outcome;

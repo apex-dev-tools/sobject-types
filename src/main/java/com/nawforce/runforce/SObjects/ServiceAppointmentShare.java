@@ -16,6 +16,7 @@ public class ServiceAppointmentShare extends SObject {
 	public static SObjectFields$<ServiceAppointmentShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

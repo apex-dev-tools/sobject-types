@@ -16,6 +16,7 @@ public class FlowOrchestrationInstanceShare extends SObject {
 	public static SObjectFields$<FlowOrchestrationInstanceShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

@@ -15,6 +15,7 @@ public class OrderShare extends SObject {
 	public static SObjectType$<OrderShare> SObjectType;
 	public static SObjectFields$<OrderShare> Fields;
 
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

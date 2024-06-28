@@ -20,6 +20,7 @@ public class UnitOfMeasureChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Description;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

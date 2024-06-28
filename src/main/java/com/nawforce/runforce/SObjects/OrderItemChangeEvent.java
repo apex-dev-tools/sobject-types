@@ -22,6 +22,7 @@ public class OrderItemChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Date EndDate;
 	public Id Id;
 	public Id LastModifiedById;

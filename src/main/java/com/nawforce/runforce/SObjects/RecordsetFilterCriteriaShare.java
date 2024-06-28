@@ -16,6 +16,7 @@ public class RecordsetFilterCriteriaShare extends SObject {
 	public static SObjectFields$<RecordsetFilterCriteriaShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

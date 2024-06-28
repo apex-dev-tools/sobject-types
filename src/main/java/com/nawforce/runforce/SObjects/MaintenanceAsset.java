@@ -39,14 +39,20 @@ public class MaintenanceAsset extends SObject {
 	public WorkType WorkType;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public MaintenanceAssetFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MaintenanceAssetHistory[] Histories;
 	public MaintenanceWorkRule[] MaintenanceWorkRules;
 	public OpenActivity[] OpenActivities;
@@ -55,6 +61,7 @@ public class MaintenanceAsset extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

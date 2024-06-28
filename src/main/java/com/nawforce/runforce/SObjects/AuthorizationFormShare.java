@@ -16,6 +16,7 @@ public class AuthorizationFormShare extends SObject {
 	public static SObjectFields$<AuthorizationFormShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

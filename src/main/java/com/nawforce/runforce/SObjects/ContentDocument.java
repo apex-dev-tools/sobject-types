@@ -27,6 +27,7 @@ public class ContentDocument extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String Description;
+	public String Division;
 	public String FileExtension;
 	public String FileType;
 	public Id Id;
@@ -50,14 +51,22 @@ public class ContentDocument extends SObject {
 	public String Title;
 
 	public NetworkActivityAudit[] AuditableEntities;
+	public AssessmentTaskContentDocument[] AssessmentTaskContentDocuments;
 	public AuthorizationFormText[] AuthorizationFormTexts;
+	public CareRequestReviewer[] CRRContentDocuments;
 	public ContentDistribution[] ContentDistributions;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ContentVersion[] ContentVersions;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DocumentGenerationProcess[] DocGenerationProcessContentDocs;
+	public DocumentTemplateContentDoc[] DocTempContentDocContentDocs;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContentDocumentFeed[] Feeds;
+	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthcareProvider[] HealthcareProvidersPhoto;
 	public ContentDocumentHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
+	public SearchableReferenceDocument[] SearchableReferenceDocumentContentDocs;
 	public TopicAssignment[] TopicAssignments;
 
 	public ContentDocument clone$() {throw new java.lang.UnsupportedOperationException();}

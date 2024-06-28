@@ -22,6 +22,7 @@ public class AccountContactRole extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsPrimary;

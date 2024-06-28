@@ -32,6 +32,7 @@ public class ContentVersionChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Id ExternalDataSourceId;
 	public ExternalDataSource ExternalDataSource;
 	public String ExternalDocumentInfo1;

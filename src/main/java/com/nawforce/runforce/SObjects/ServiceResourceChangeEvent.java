@@ -17,6 +17,8 @@ public class ServiceResourceChangeEvent extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public Id AssetId;
+	public Asset Asset;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -27,6 +29,7 @@ public class ServiceResourceChangeEvent extends SObject {
 	public Boolean IsActive;
 	public Boolean IsCapacityBased;
 	public Boolean IsOptimizationCapable;
+	public Boolean IsPrimary;
 	public Decimal LastKnownLatitude;
 	public Location LastKnownLocation;
 	public Datetime LastKnownLocationDate;

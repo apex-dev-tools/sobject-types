@@ -22,6 +22,7 @@ public class AssetRelationship extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Division;
 	public Datetime FromDate;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -37,14 +38,20 @@ public class AssetRelationship extends SObject {
 	public Datetime ToDate;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AssetRelationshipFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public AssetRelationshipHistory[] Histories;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
@@ -52,6 +59,7 @@ public class AssetRelationship extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public AssetRelationship clone$() {throw new java.lang.UnsupportedOperationException();}

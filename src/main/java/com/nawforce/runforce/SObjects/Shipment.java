@@ -26,6 +26,8 @@ public class Shipment extends SObject {
 	public Id DestinationLocationId;
 	public Location DestinationLocation;
 	public Datetime ExpectedDeliveryDate;
+	public Id FulfillmentOrderId;
+	public FulfillmentOrder FulfillmentOrder;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -71,14 +73,20 @@ public class Shipment extends SObject {
 	public String TrackingUrl;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ShipmentFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ShipmentHistory[] Histories;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
@@ -89,6 +97,7 @@ public class Shipment extends SObject {
 	public RecordAction[] RecordActions;
 	public ShipmentShare[] Shares;
 	public ShipmentItem[] ShipmentItems;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

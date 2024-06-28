@@ -16,6 +16,7 @@ public class EngagementChannelTypeShare extends SObject {
 	public static SObjectFields$<EngagementChannelTypeShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

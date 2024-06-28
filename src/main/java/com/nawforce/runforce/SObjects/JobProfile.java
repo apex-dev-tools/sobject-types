@@ -36,9 +36,11 @@ public class JobProfile extends SObject {
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public JobProfileFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public JobProfileHistory[] Histories;
 	public Shift[] JobProfiles;
 	public Note[] Notes;

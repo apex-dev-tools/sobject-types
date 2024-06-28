@@ -55,9 +55,11 @@ public class CollaborationGroup extends SObject {
 	public CollaborationGroupRecord[] CollaborationGroupRecords;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public CollaborationGroupFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public CollaborationGroupMemberRequest[] GroupMemberRequests;
 	public CollaborationGroupMember[] GroupMembers;
 	public NetworkActivityAudit[] ParentEntities;

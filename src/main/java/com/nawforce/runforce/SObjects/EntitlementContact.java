@@ -21,6 +21,7 @@ public class EntitlementContact extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Division;
 	public Id EntitlementId;
 	public Entitlement Entitlement;
 	public Id Id;

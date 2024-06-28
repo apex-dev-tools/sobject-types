@@ -16,6 +16,7 @@ public class ContactPointTypeConsentShare extends SObject {
 	public static SObjectFields$<ContactPointTypeConsentShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

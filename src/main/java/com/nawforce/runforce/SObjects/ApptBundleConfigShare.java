@@ -16,6 +16,7 @@ public class ApptBundleConfigShare extends SObject {
 	public static SObjectFields$<ApptBundleConfigShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

@@ -27,6 +27,7 @@ public class ExpressionSetView extends SObject {
 	public String Name;
 	public String NamespacePrefix;
 	public String UsageType;
+	public String UsageTypeLabel;
 
 	public ExpressionSetView clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ExpressionSetView clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

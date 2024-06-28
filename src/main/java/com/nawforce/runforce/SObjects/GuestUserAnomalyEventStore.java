@@ -47,9 +47,11 @@ public class GuestUserAnomalyEventStore extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ThreatDetectionFeedback[] Feedbacks;
 	public GuestUserAnomalyEventStoreFeed[] Feeds;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 
 	public GuestUserAnomalyEventStore clone$() {throw new java.lang.UnsupportedOperationException();}
 	public GuestUserAnomalyEventStore clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

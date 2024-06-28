@@ -34,15 +34,21 @@ public class ServiceCrew extends SObject {
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AssignedResource[] AssignedResources;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceCrewFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ServiceCrewHistory[] Histories;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
@@ -53,6 +59,7 @@ public class ServiceCrew extends SObject {
 	public ServiceCrewMember[] ServiceCrewMembers;
 	public ServiceResource[] ServiceResources;
 	public ServiceCrewShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

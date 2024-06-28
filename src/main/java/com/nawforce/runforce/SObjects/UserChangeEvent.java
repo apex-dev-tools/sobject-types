@@ -36,6 +36,7 @@ public class UserChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String DefaultCurrencyIsoCode;
+	public String DefaultDivision;
 	public String DefaultGroupNotificationFrequency;
 	public Id DelegatedApproverId;
 	public SObject DelegatedApprover;

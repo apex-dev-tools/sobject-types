@@ -38,6 +38,8 @@ public class CspTrustedSite extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
+	public Id MobileExtensionId;
+	public FieldServiceMobileExtension MobileExtension;
 	public String NamespacePrefix;
 	public Datetime SystemModstamp;
 

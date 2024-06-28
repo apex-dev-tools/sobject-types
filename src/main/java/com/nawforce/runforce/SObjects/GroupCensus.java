@@ -21,6 +21,7 @@ public class GroupCensus extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Datetime EffectiveEndDate;
 	public Datetime EffectiveStartDate;
 	public String ExternalIdentifier;
@@ -55,20 +56,33 @@ public class GroupCensus extends SObject {
 	public String Type;
 	public String UsageType;
 
+	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
+	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public GroupCensusFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public GroupCensusMember[] GroupCensusMembers;
 	public GroupCensusHistory[] Histories;
 	public InsuranceContract[] InsuranceContracts;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public GroupCensusShare[] Shares;
+	public TaskRelation[] TaskRelations;
+	public Task[] Tasks;
 
 	public GroupCensus clone$() {throw new java.lang.UnsupportedOperationException();}
 	public GroupCensus clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

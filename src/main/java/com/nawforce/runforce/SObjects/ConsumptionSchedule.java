@@ -45,9 +45,11 @@ public class ConsumptionSchedule extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public ConsumptionRate[] ConsumptionRates;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ConsumptionScheduleFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ConsumptionScheduleHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;

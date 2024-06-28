@@ -55,9 +55,11 @@ public class WorkCapacityLimit extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkCapacityLimitFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public WorkCapacityLimitHistory[] Histories;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;

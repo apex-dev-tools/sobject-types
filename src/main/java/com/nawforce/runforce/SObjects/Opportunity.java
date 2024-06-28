@@ -33,6 +33,7 @@ public class Opportunity extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Decimal ExpectedRevenue;
 	public String Fiscal;
 	public Integer FiscalQuarter;
@@ -79,20 +80,33 @@ public class Opportunity extends SObject {
 	public String Type;
 
 	public AccountPartner[] AccountPartners;
+	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContactRequest[] ContactRequests;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
+	public EngagementTopic[] EngagementInitiatedTopic;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OpportunityFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public AuthFormRequestRecord[] FormRequestRecordRelatedRecords;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public OpportunityFieldHistory[] Histories;
+	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
+	public ResidentialLoanApplication[] Lending_Applications;
 	public ListEmail[] ListEmails;
 	public MessagingSession[] MessagingSessions;
+	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
@@ -112,15 +126,22 @@ public class Opportunity extends SObject {
 	public Quote[] Quotes;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public RecordAlert[] RecordAlertParent;
+	public RecordAlert[] RecordAlertWhat;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
 	public WorkFeedbackRequest[] RelatedObjects;
+	public VoiceCall[] RelatedRecords;
 	public ServiceAppointment[] ServiceAppointments;
 	public OpportunityShare[] Shares;
 	public SurveySubject[] SurveySubjectEntities;
+	public InsurancePolicy[] SourceOpportunity;
 	public SwarmMember[] SwarmMembers;
 	public Swarm[] Swarms;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
+	public UserDefinedLabelAssignment[] UserDefinedLabelAssignments;
+	public VideoCall[] VideoRelatedRecords;
 
 	public Opportunity clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Opportunity clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

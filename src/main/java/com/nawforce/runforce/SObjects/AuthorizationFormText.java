@@ -40,13 +40,16 @@ public class AuthorizationFormText extends SObject {
 	public AuthorizationFormConsent[] AuthorizationFormConsents;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AuthorizationFormTextFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public AuthorizationFormTextHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public InfoAuthRequestForm[] RequestFormAuthFormTexts;
 
 	public AuthorizationFormText clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AuthorizationFormText clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

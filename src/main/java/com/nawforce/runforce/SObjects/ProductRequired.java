@@ -41,9 +41,11 @@ public class ProductRequired extends SObject {
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ProductRequiredFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ProductRequiredHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public Note[] Notes;

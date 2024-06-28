@@ -45,13 +45,18 @@ public class ProcessException extends SObject {
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProcessExceptionShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public ProcessException clone$() {throw new java.lang.UnsupportedOperationException();}

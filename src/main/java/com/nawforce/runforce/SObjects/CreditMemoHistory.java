@@ -21,6 +21,7 @@ public class CreditMemoHistory extends SObject {
 	public Id CreditMemoId;
 	public CreditMemo CreditMemo;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

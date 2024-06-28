@@ -15,6 +15,8 @@ public class DeclinedEventRelation extends SObject {
 	public static SObjectType$<DeclinedEventRelation> SObjectType;
 	public static SObjectFields$<DeclinedEventRelation> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

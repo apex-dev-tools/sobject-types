@@ -35,12 +35,27 @@ public class SchedulingWorkspaceTerritory extends SObject {
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
+	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public SchedulingWorkspaceTerritoryFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

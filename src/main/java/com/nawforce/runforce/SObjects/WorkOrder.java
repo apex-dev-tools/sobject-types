@@ -114,21 +114,28 @@ public class WorkOrder extends SObject {
 	public WorkType WorkType;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public WorkOrder[] ChildWorkOrders;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContactRequest[] ContactRequests;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public WorkOrder[] DescendantWorkOrders;
 	public DigitalSignature[] DigitalSignatures;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
 	public EntityMilestone[] EntityMilestones;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public Expense[] Expenses;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkOrderFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public WorkOrderHistory[] Histories;
 	public LinkedArticle[] LinkedArticles;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
@@ -152,6 +159,7 @@ public class WorkOrder extends SObject {
 	public WorkOrderShare[] Shares;
 	public SkillRequirement[] SkillRequirements;
 	public SurveySubject[] SurveySubjectEntities;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TimeSheetEntry[] TimeSheetEntries;
 	public TopicAssignment[] TopicAssignments;

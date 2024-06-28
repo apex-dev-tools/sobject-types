@@ -29,6 +29,8 @@ public class AuthorizationFormConsentChangeEvent extends SObject {
 	public Id DocumentVersionId;
 	public ContentVersion DocumentVersion;
 	public Id Id;
+	public Id InfoAuthRequestFormId;
+	public InfoAuthRequestForm InfoAuthRequestForm;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

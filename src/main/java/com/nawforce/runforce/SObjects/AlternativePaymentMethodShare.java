@@ -16,6 +16,7 @@ public class AlternativePaymentMethodShare extends SObject {
 	public static SObjectFields$<AlternativePaymentMethodShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

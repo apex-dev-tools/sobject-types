@@ -21,6 +21,7 @@ public class DataUseLegalBasisHistory extends SObject {
 	public String DataType;
 	public Id DataUseLegalBasisId;
 	public DataUseLegalBasis DataUseLegalBasis;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

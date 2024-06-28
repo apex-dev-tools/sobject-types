@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -28,6 +29,7 @@ public class TimeSlot extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Integer MaxAppointments;
 	public Id OperatingHoursId;
 	public OperatingHours OperatingHours;
 	public Id RecordsetFilterCriteriaId;
@@ -36,6 +38,8 @@ public class TimeSlot extends SObject {
 	public Datetime SystemModstamp;
 	public String TimeSlotNumber;
 	public String Type;
+	public Id WorkTypeGroupId;
+	public WorkTypeGroup WorkTypeGroup;
 
 	public AppointmentTopicTimeSlot[] AppointmentTopicTimeSlots;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;

@@ -45,11 +45,16 @@ public class Address extends SObject {
 	public Datetime SystemModstamp;
 	public String TimeZone;
 
+	public AuthApplicationPlace[] AuthApplPlace;
+	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public MedicationTherapyReview[] MedTherapyReview_SurrogateLocations;
+	public Visit[] Places;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public Visit[] VisitAddress;
 
 	public Address clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Address clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

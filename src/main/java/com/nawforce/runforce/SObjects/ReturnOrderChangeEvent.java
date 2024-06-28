@@ -35,6 +35,7 @@ public class ReturnOrderChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String LifeCycleType;
 	public Id OrderId;
 	public Order Order;
 	public Id OwnerId;
@@ -63,6 +64,21 @@ public class ReturnOrderChangeEvent extends SObject {
 	public Location SourceLocation;
 	public String Status;
 	public String StatusCategory;
+	public String TaxLocaleType;
+	public Decimal TotalAmount;
+	public Decimal TotalDeliveryAdjustAmount;
+	public Decimal TotalDeliveryAdjustTaxAmount;
+	public Decimal TotalDeliveryAmount;
+	public Decimal TotalDeliveryTaxAmount;
+	public Decimal TotalFeeAdjustAmount;
+	public Decimal TotalFeeAdjustTaxAmount;
+	public Decimal TotalFeeAmount;
+	public Decimal TotalFeeTaxAmount;
+	public Decimal TotalProductAdjustAmount;
+	public Decimal TotalProductAdjustTaxAmount;
+	public Decimal TotalProductAmount;
+	public Decimal TotalProductTaxAmount;
+	public Decimal TotalTaxAmount;
 
 	public ReturnOrderChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ReturnOrderChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

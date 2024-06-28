@@ -44,6 +44,7 @@ public class FlowOrchestrationWorkItem extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public FlowOrchestrationWorkItemShare[] Shares;
+	public UserDefinedLabelAssignment[] UserDefinedLabelAssignments;
 
 	public FlowOrchestrationWorkItem clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FlowOrchestrationWorkItem clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

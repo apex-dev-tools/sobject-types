@@ -39,8 +39,10 @@ public class ServiceResourcePreference extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceResourcePreferenceFeed[] Feeds;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ServiceResourcePreferenceHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public ServiceResourcePreferenceShare[] Shares;

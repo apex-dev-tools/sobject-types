@@ -22,6 +22,7 @@ public class ContactChangeEvent extends SObject {
 	public Date Birthdate;
 	public Object ChangeEventHeader;
 	public String CleanStatus;
+	public String ContactSource;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -29,6 +30,7 @@ public class ContactChangeEvent extends SObject {
 	public String Department;
 	public String Description;
 	public Boolean DoNotCall;
+	public String Division;
 	public String Email;
 	public Datetime EmailBouncedDate;
 	public String EmailBouncedReason;
@@ -40,6 +42,7 @@ public class ContactChangeEvent extends SObject {
 	public Id Id;
 	public Id IndividualId;
 	public Individual Individual;
+	public Boolean IsPersonAccount;
 	public String Jigsaw;
 	public String JigsawContactId;
 	public Datetime LastCURequestDate;

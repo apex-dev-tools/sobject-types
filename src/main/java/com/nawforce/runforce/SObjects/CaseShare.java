@@ -18,6 +18,7 @@ public class CaseShare extends SObject {
 	public String CaseAccessLevel;
 	public Id CaseId;
 	public Case Case;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

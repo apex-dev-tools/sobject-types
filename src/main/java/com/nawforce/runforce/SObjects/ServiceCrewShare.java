@@ -16,6 +16,7 @@ public class ServiceCrewShare extends SObject {
 	public static SObjectFields$<ServiceCrewShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

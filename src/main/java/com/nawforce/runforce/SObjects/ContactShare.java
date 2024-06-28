@@ -18,6 +18,7 @@ public class ContactShare extends SObject {
 	public String ContactAccessLevel;
 	public Id ContactId;
 	public Contact Contact;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

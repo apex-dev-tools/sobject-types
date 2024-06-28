@@ -51,6 +51,7 @@ public class ApiEventStream extends SObject {
 	public String Records;
 	public String RelatedEventIdentifier;
 	public String ReplayId;
+	public String RequestIdentifier;
 	public Decimal RowsProcessed;
 	public Decimal RowsReturned;
 	public String SessionKey;

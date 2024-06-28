@@ -16,6 +16,7 @@ public class WorkThanksShare extends SObject {
 	public static SObjectFields$<WorkThanksShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

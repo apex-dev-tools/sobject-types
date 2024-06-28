@@ -19,6 +19,7 @@ public class EngagementChannelTypeHistory extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DataType;
+	public String Division;
 	public Id EngagementChannelTypeId;
 	public EngagementChannelType EngagementChannelType;
 	public String Field;

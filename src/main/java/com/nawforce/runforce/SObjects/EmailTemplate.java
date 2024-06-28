@@ -56,6 +56,7 @@ public class EmailTemplate extends SObject {
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public UserDefinedLabelAssignment[] UserDefinedLabelAssignments;
 
 	public EmailTemplate clone$() {throw new java.lang.UnsupportedOperationException();}
 	public EmailTemplate clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -16,6 +16,7 @@ public class MessagingEndUserShare extends SObject {
 	public static SObjectFields$<MessagingEndUserShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

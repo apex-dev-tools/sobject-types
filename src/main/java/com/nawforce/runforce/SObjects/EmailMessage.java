@@ -25,6 +25,7 @@ public class EmailMessage extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String Division;
 	public Id EmailTemplateId;
 	public EmailTemplate EmailTemplate;
 	public Datetime FirstOpenedDate;
@@ -70,6 +71,7 @@ public class EmailMessage extends SObject {
 
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public Case[] Cases;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EmailMessageRelation[] EmailMessageRelations;

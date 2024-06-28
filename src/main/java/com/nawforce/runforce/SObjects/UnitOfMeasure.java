@@ -19,6 +19,7 @@ public class UnitOfMeasure extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Description;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -33,11 +34,22 @@ public class UnitOfMeasure extends SObject {
 	public String Type;
 	public String UnitCode;
 
+	public CareMetricTarget[] CareMetricTargets;
+	public CareMetricTarget[] CareMetricTargetsDurationUnit;
+	public CareMetricTarget[] CareMetricTargetsRatioUnit;
+	public ClinicalServiceRequest[] ClinicalServiceRequests;
+	public ClinicalEncounterFacility[] Clinical_Encounter_Facility_Duration;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public MedicationDispense[] MedicationDispense_QuantityUnits;
+	public PatientImmunization[] Patient_Immunization_Dose_Units;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public TransactionJournal[] QuantityUnit;
 	public UnitOfMeasureShare[] Shares;
 	public AttributeDefinition[] UnitOfMeasures;
+	public CareRequestExtension[] UnitofMeasureCareRequestExtensions;
+	public CareObservation[] UnitsOfMeasure;
+	public Benefit[] ValueUnitOfMeasure;
 
 	public UnitOfMeasure clone$() {throw new java.lang.UnsupportedOperationException();}
 	public UnitOfMeasure clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

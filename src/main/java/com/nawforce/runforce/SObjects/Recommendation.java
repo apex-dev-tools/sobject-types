@@ -37,6 +37,8 @@ public class Recommendation extends SObject {
 	public Id NetworkId;
 	public Network Network;
 	public String RecommendationKey;
+	public String RecommendationMode;
+	public Decimal RecommendationScore;
 	public String RejectionLabel;
 	public Datetime SystemModstamp;
 

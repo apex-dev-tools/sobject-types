@@ -38,9 +38,12 @@ public class ProductWarrantyTerm extends SObject {
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ProductWarrantyTermFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ProductWarrantyTermHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

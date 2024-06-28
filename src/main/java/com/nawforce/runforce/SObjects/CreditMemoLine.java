@@ -59,16 +59,19 @@ public class CreditMemoLine extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public CreditMemoLine[] CreditMemoLines;
 	public FinanceTransaction[] DestinationFinanceTransactions;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public CreditMemoLineFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public CreditMemoLineHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 	public FinanceTransaction[] SourceFinanceTransactions;
 
 	public CreditMemoLine clone$() {throw new java.lang.UnsupportedOperationException();}

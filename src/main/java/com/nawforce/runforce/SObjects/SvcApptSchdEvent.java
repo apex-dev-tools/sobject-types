@@ -22,6 +22,9 @@ public class SvcApptSchdEvent extends SObject {
 	public Object ChangedFields;
 	public String Comments;
 	public String ContactId;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
 	public Decimal DurationInMinutes;
 	public String Email;
 	public String EventUuid;

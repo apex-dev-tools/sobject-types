@@ -19,6 +19,7 @@ public class GroupCensusMemberPlanHistory extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id GroupCensusMemberPlanId;
 	public GroupCensusMemberPlan GroupCensusMemberPlan;

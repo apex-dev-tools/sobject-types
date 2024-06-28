@@ -16,6 +16,7 @@ public class ProductItemShare extends SObject {
 	public static SObjectFields$<ProductItemShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

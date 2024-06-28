@@ -18,6 +18,7 @@ public class CaseHistory2ChangeEvent extends SObject {
 	public Id CaseId;
 	public Case Case;
 	public Object ChangeEventHeader;
+	public String Division;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

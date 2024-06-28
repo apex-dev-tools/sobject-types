@@ -16,11 +16,20 @@ public class WorkTypeChangeEvent extends SObject {
 	public static SObjectType$<WorkTypeChangeEvent> SObjectType;
 	public static SObjectFields$<WorkTypeChangeEvent> Fields;
 
+	public Id AppointmentCategoryId;
+	public AppointmentCategory AppointmentCategory;
+	public Integer ApptStartTimeIntvlInMin;
+	public Integer AttendeeLimit;
+	public Integer BlockTimeAfterAppointment;
+	public String BlockTimeAfterUnit;
+	public Integer BlockTimeBeforeAppointment;
+	public String BlockTimeBeforeUnit;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String DefaultAppointmentType;
 	public String Description;
 	public Decimal DurationInMinutes;
 	public String DurationType;
@@ -31,6 +40,8 @@ public class WorkTypeChangeEvent extends SObject {
 	public Datetime LastModifiedDate;
 	public Integer MinimumCrewSize;
 	public String Name;
+	public Id OperatingHoursId;
+	public OperatingHours OperatingHours;
 	public Id OwnerId;
 	public User Owner;
 	public Integer RecommendedCrewSize;
@@ -38,6 +49,10 @@ public class WorkTypeChangeEvent extends SObject {
 	public Id ServiceReportTemplateId;
 	public ServiceReportLayout ServiceReportTemplate;
 	public Boolean ShouldAutoCreateSvcAppt;
+	public String TimeFrameEndUnit;
+	public String TimeFrameStartUnit;
+	public Integer TimeframeEnd;
+	public Integer TimeframeStart;
 
 	public WorkTypeChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkTypeChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -22,6 +22,7 @@ public class RecordType extends SObject {
 	public String DeveloperName;
 	public Id Id;
 	public Boolean IsActive;
+	public Boolean IsPersonType;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -31,6 +32,7 @@ public class RecordType extends SObject {
 	public Datetime SystemModstamp;
 
 	public RecordTypeLocalization[] Localization;
+	public ProductSpecificationRecType[] RecordTypes;
 
 	public RecordType clone$() {throw new java.lang.UnsupportedOperationException();}
 	public RecordType clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

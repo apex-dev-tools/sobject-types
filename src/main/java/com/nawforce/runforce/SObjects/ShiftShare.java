@@ -16,6 +16,7 @@ public class ShiftShare extends SObject {
 	public static SObjectFields$<ShiftShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

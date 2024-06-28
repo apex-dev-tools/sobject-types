@@ -17,6 +17,8 @@ public class ProductRequest extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public Id CareProgramEnrolleeId;
+	public CareProgramEnrollee CareProgramEnrollee;
 	public Id CaseId;
 	public Case Case;
 	public Id CreatedById;
@@ -59,15 +61,21 @@ public class ProductRequest extends SObject {
 	public WorkOrderLineItem WorkOrderLineItem;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ProductRequestFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ProductRequestHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
@@ -81,6 +89,7 @@ public class ProductRequest extends SObject {
 	public RecordAction[] RecordActions;
 	public ReturnOrder[] ReturnOrders;
 	public ProductRequestShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

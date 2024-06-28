@@ -16,6 +16,7 @@ public class PrivacySessionRecordFailureShare extends SObject {
 	public static SObjectFields$<PrivacySessionRecordFailureShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

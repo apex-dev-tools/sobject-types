@@ -32,12 +32,16 @@ public class DataUsePurpose extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id PurposeId;
+	public Name Purpose;
 	public Datetime SystemModstamp;
 
 	public AuthorizationFormDataUse[] AuthorizationFormDataUses;
 	public CommSubscription[] CommSubscriptions;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public DataUsePurposeHistory[] Histories;
+	public InfoAuthorizationRequest[] InfoAuthRequestDataUsePurposes;
+	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestDataUsePurposes;
 	public PartyConsent[] PartyConsents;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

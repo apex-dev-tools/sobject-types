@@ -15,6 +15,7 @@ public class LeadShare extends SObject {
 	public static SObjectType$<LeadShare> SObjectType;
 	public static SObjectFields$<LeadShare> Fields;
 
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

@@ -20,6 +20,8 @@ public class GroupCensusMemberPlan extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public String EnrollmentStatus;
 	public Id GroupCensusMemberId;
 	public GroupCensusMember GroupCensusMember;
 	public Id Id;
@@ -30,21 +32,34 @@ public class GroupCensusMemberPlan extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Id OwnerId;
+	public Name Owner;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public GroupCensusMemberPlanFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public GroupCensusMemberPlanHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public GroupCensusMemberPlanShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public GroupCensusMemberPlan clone$() {throw new java.lang.UnsupportedOperationException();}

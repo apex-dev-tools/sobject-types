@@ -15,6 +15,7 @@ public class OpportunityShare extends SObject {
 	public static SObjectType$<OpportunityShare> SObjectType;
 	public static SObjectFields$<OpportunityShare> Fields;
 
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

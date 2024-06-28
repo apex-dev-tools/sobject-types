@@ -39,7 +39,9 @@ public class MessagingSession extends SObject {
 	public Account EndUserAccount;
 	public Id EndUserContactId;
 	public Contact EndUserContact;
+	public String EndUserLanguage;
 	public Integer EndUserMessageCount;
+	public String EndedByType;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -68,11 +70,16 @@ public class MessagingSession extends SObject {
 	public User TargetUser;
 
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public Case[] Cases;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ConversationEntry[] ConversationEntries;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EngagementAttendee[] EngagementAttendees;
+	public EngagementTopic[] EngagementTopics;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public MessagingSessionFeed[] Feeds;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MessagingSessionHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

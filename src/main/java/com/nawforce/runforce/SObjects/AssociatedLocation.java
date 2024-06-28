@@ -22,6 +22,7 @@ public class AssociatedLocation extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -42,6 +43,7 @@ public class AssociatedLocation extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public WorkerCompCoverageClass[] WorkerCompCoverageClasses;
 
 	public AssociatedLocation clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AssociatedLocation clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

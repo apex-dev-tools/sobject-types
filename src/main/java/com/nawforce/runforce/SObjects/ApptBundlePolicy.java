@@ -45,6 +45,7 @@ public class ApptBundlePolicy extends SObject {
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApptBundleAggrPolicy[] ApptBundleAggrPolicies;
 	public ApptBundlePolicySvcTerr[] ApptBundlePolicySvcTerrs;
 	public ApptBundlePropagatePolicy[] ApptBundlePropagatePolicies;
@@ -53,12 +54,17 @@ public class ApptBundlePolicy extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ApptBundlePolicyFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
@@ -66,6 +72,7 @@ public class ApptBundlePolicy extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ApptBundlePolicyShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

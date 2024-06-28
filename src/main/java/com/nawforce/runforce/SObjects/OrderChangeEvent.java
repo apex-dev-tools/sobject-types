@@ -47,6 +47,7 @@ public class OrderChangeEvent extends SObject {
 	public Contact CustomerAuthorizedBy;
 	public Date CustomerAuthorizedDate;
 	public String Description;
+	public String Division;
 	public Date EffectiveDate;
 	public Date EndDate;
 	public Id Id;

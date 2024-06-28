@@ -18,6 +18,7 @@ public class LeadChangeEvent extends SObject {
 
 	public Address Address;
 	public Decimal AnnualRevenue;
+	public Date BirthDate;
 	public Object ChangeEventHeader;
 	public String City;
 	public String CleanStatus;
@@ -39,12 +40,14 @@ public class LeadChangeEvent extends SObject {
 	public Id DandbCompanyId;
 	public DandBCompany DandbCompany;
 	public String Description;
+	public String Division;
 	public Boolean DoNotCall;
 	public String Email;
 	public Datetime EmailBouncedDate;
 	public String EmailBouncedReason;
 	public String Fax;
 	public String FirstName;
+	public String GenderIdentity;
 	public String GeocodeAccuracy;
 	public Boolean HasOptedOutOfEmail;
 	public Boolean HasOptedOutOfFax;
@@ -71,9 +74,11 @@ public class LeadChangeEvent extends SObject {
 	public User Owner;
 	public String Phone;
 	public String PostalCode;
+	public String Pronouns;
 	public String Rating;
 	public String ReplayId;
 	public String Salutation;
+	public String Specialty;
 	public String State;
 	public String StateCode;
 	public String Status;

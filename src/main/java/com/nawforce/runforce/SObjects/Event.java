@@ -25,6 +25,7 @@ public class Event extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String Division;
 	public Integer DurationInMinutes;
 	public Date EndDate;
 	public Datetime EndDateTime;
@@ -64,27 +65,34 @@ public class Event extends SObject {
 	public String RecurrenceTimeZoneSidKey;
 	public String RecurrenceType;
 	public Datetime ReminderDateTime;
+	public Id ServiceAppointmentId;
+	public ServiceAppointment ServiceAppointment;
 	public String ShowAs;
 	public Datetime StartDateTime;
 	public String Subject;
 	public Datetime SystemModstamp;
 	public String Type;
+	public Integer WhatCount;
 	public Id WhatId;
 	public Name What;
+	public Integer WhoCount;
 	public Id WhoId;
 	public Name Who;
 	public String[] AcceptedEventInviteeIds;
 	public String[] DeclinedEventInviteeIds;
+	public String[] EventWhoIds;
 	public String[] UndecidedEventInviteeIds;
 
 	public AcceptedEventRelation[] AcceptedEventRelations;
 	public ActivityFieldHistory[] ActivityFieldHistories;
+	public AssignedResource[] AssignedResourceEvents;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DeclinedEventRelation[] DeclinedEventRelations;
 	public EventRelation[] EventRelations;
+	public EventWhoRelation[] EventWhoRelations;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public EventFeed[] Feeds;
 	public NetworkActivityAudit[] ParentEntities;
@@ -92,6 +100,7 @@ public class Event extends SObject {
 	public SurveySubject[] SurveySubjectEntities;
 	public TopicAssignment[] TopicAssignments;
 	public UndecidedEventRelation[] UndecidedEventRelations;
+	public VideoCall[] VideoCallActivities;
 
 	public Event clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Event clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -28,6 +28,7 @@ public class OauthCustomScope extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
+	public String NamespacePrefix;
 	public Datetime SystemModstamp;
 
 	public OauthCustomScope clone$() {throw new java.lang.UnsupportedOperationException();}

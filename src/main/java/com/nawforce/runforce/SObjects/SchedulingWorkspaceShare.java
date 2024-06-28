@@ -16,6 +16,7 @@ public class SchedulingWorkspaceShare extends SObject {
 	public static SObjectFields$<SchedulingWorkspaceShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

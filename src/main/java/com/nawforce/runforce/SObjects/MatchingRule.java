@@ -33,6 +33,7 @@ public class MatchingRule extends SObject {
 	public String SobjectType;
 	public Datetime SystemModstamp;
 
+	public DuplicateJobMatchingRuleDefinition[] DuplicateJobMatchingRuleDefinitions;
 	public MatchingRuleItem[] MatchingRuleItems;
 
 	public MatchingRule clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -16,6 +16,7 @@ public class ProcessExceptionShare extends SObject {
 	public static SObjectFields$<ProcessExceptionShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

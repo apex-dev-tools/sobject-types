@@ -15,6 +15,8 @@ public class EventRelationChangeEvent extends SObject {
 	public static SObjectType$<EventRelationChangeEvent> SObjectType;
 	public static SObjectFields$<EventRelationChangeEvent> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -22,6 +24,9 @@ public class EventRelationChangeEvent extends SObject {
 	public Id EventId;
 	public Event Event;
 	public Id Id;
+	public Boolean IsInvitee;
+	public Boolean IsParent;
+	public Boolean IsWhat;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

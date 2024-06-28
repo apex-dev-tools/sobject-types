@@ -30,6 +30,8 @@ public class ServiceSetupProvisioning extends SObject {
 	public String Name;
 	public String Status;
 	public Datetime SystemModstamp;
+	public String TaskAction;
+	public String TaskActionContext;
 	public String TaskContext;
 	public String TaskName;
 

@@ -44,8 +44,10 @@ public class RecordsetFilterCriteria extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ContractLineOutcome[] ContractLineOutcomes;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public RecordsetFilterCriteriaFeed[] Feeds;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public RecordsetFilterCriteriaHistory[] Histories;
 	public MaintenanceWorkRule[] MaintenanceWorkRules;
 	public NetworkActivityAudit[] ParentEntities;

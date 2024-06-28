@@ -48,13 +48,18 @@ public class ListEmail extends SObject {
 	public String[] ContentDocumentIds;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
+	public GenericVisitTaskContext[] GVTaskContexts;
 	public OpenActivity[] OpenActivities;
 	public ListEmailShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public ListEmail clone$() {throw new java.lang.UnsupportedOperationException();}

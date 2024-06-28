@@ -80,9 +80,12 @@ public class Organization extends SObject {
 
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public CustomBrand[] CustomBrands;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public OmniInteractionAccessConfig[] OmniInteractionAccessConfigs;
 
 	public Organization clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Organization clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

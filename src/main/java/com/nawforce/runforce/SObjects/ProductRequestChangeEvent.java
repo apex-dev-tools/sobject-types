@@ -17,6 +17,8 @@ public class ProductRequestChangeEvent extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public Id CareProgramEnrolleeId;
+	public CareProgramEnrollee CareProgramEnrollee;
 	public Id CaseId;
 	public Case Case;
 	public Object ChangeEventHeader;

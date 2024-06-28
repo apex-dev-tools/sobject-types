@@ -16,6 +16,7 @@ public class PartyConsentShare extends SObject {
 	public static SObjectFields$<PartyConsentShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

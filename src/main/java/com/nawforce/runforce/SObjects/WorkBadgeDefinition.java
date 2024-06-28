@@ -49,9 +49,11 @@ public class WorkBadgeDefinition extends SObject {
 	public WorkBadge[] Badges;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkBadgeDefinitionFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public WorkBadgeDefinitionHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;

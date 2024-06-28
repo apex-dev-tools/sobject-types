@@ -39,13 +39,18 @@ public class OperatingHours extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OperatingHoursFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthcarePractitionerFacility[] HealthcarePractitionerFacilityOperatingHours;
+	public WorkType[] OperatingHours;
 	public OperatingHoursHoliday[] OperatingHoursHolidays;
 	public NetworkActivityAudit[] ParentEntities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public CareProviderSearchableField[] SearchDataOperatingHours;
 	public ServiceResourcePreference[] ServiceResourcePreferences;
 	public ServiceTerritory[] ServiceTerritories;
 	public OperatingHoursShare[] Shares;

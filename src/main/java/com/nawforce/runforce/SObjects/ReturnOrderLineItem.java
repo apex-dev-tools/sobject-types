@@ -17,6 +17,8 @@ public class ReturnOrderLineItem extends SObject {
 
 	public Id AssetId;
 	public Asset Asset;
+	public Id ChangeOrderItemId;
+	public OrderItem ChangeOrderItem;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -24,6 +26,7 @@ public class ReturnOrderLineItem extends SObject {
 	public String Description;
 	public Id DestinationLocationId;
 	public Location DestinationLocation;
+	public Decimal GrossUnitPrice;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -59,17 +62,35 @@ public class ReturnOrderLineItem extends SObject {
 	public Id SourceLocationId;
 	public Location SourceLocation;
 	public Datetime SystemModstamp;
+	public Decimal TotalAdjustmentAmount;
+	public Decimal TotalAdjustmentAmountWithTax;
+	public Decimal TotalAdjustmentTaxAmount;
+	public Decimal TotalAmount;
+	public Decimal TotalLineAmount;
+	public Decimal TotalLineAmountWithTax;
+	public Decimal TotalLineTaxAmount;
+	public Decimal TotalPrice;
+	public Decimal TotalTaxAmount;
+	public String Type;
+	public String TypeCode;
+	public Decimal UnitPrice;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ReturnOrderLineItemFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ReturnOrderLineItemHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
@@ -81,6 +102,9 @@ public class ReturnOrderLineItem extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public ShipmentItem[] ReturnOrderLineItemShipmentItems;
+	public ReturnOrderItemAdjustment[] ReturnOrderItemAdjustments;
+	public ReturnOrderItemTax[] ReturnOrderItemTaxes;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 	public WorkOrderLineItem[] WorkOrderLineItems;

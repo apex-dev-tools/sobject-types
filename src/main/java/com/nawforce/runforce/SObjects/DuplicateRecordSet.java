@@ -30,6 +30,8 @@ public class DuplicateRecordSet extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Id ParentId;
+	public DuplicateJob Parent;
 	public Integer RecordCount;
 	public Datetime SystemModstamp;
 

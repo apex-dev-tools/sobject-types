@@ -58,20 +58,26 @@ public class CreditMemo extends SObject {
 	public Decimal TotalTaxAmount;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public CreditMemoInvApplication[] CreditMemoInvsApplication;
 	public CreditMemoLine[] CreditMemoLines;
 	public FinanceTransaction[] DestinationFinanceTransactions;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public CreditMemoFeed[] Feeds;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public CreditMemoHistory[] Histories;
 	public Invoice[] Invoices;
 	public Note[] Notes;
@@ -79,11 +85,16 @@ public class CreditMemo extends SObject {
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public AsyncOperationTracker[] ReferenceEntityAsyncOperationTrackers;
+	public RevenueAsyncOperation[] ReferenceEntityRevenueAsyncOperations;
+	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 	public CreditMemoShare[] Shares;
 	public FinanceTransaction[] SourceFinanceTransactions;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public CreditMemo clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -16,6 +16,7 @@ public class ShiftPatternShare extends SObject {
 	public static SObjectFields$<ShiftPatternShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

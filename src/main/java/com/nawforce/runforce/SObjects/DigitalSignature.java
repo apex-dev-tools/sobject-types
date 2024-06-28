@@ -41,6 +41,7 @@ public class DigitalSignature extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public SignatureTaskLineItem[] SignatureTaskLineItemValue;
 
 	public DigitalSignature clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DigitalSignature clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

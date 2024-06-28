@@ -59,8 +59,10 @@ public class Site extends SObject {
 	public Boolean OptionsHasStoredPathPrefix;
 	public Boolean OptionsIsSiteConsentBannerIntegrationEnabled;
 	public Boolean OptionsIsSiteDataCloudIntegrationEnabled;
+	public Boolean OptionsIsSiteDataCloudIntegrationMigrated;
 	public Boolean OptionsIsSiteGAIntegrationEnabled;
 	public Boolean OptionsIsSiteGAIntegrationMigrated;
+	public Boolean OptionsIsSiteGAIntegrationMigratedV2;
 	public Boolean OptionsIsSiteGRecaptchaIntegrationEnabled;
 	public Boolean OptionsRedirectToCustomDomain;
 	public Boolean OptionsReferrerPolicyOriginWhenCrossOrigin;

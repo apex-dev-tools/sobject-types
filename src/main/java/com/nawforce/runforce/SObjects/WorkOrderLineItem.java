@@ -100,19 +100,26 @@ public class WorkOrderLineItem extends SObject {
 	public WorkType WorkType;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AssetActionSource[] AssetActionSourceReferences;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public WorkOrderLineItem[] ChildWorkOrderLineItems;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public WorkOrderLineItem[] DescendantWorkOrderLineItems;
 	public DigitalSignature[] DigitalSignatures;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkOrderLineItemFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public WorkOrderLineItemHistory[] Histories;
 	public LinkedArticle[] LinkedArticles;
 	public WorkPlan[] NewWorkPlans;
@@ -133,6 +140,7 @@ public class WorkOrderLineItem extends SObject {
 	public ServiceAppointment[] ServiceAppointments;
 	public ServiceReport[] ServiceReports;
 	public SkillRequirement[] SkillRequirements;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TimeSheetEntry[] TimeSheetEntries;
 	public TopicAssignment[] TopicAssignments;

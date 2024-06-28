@@ -42,10 +42,12 @@ public class ReportAnomalyEventStore extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ThreatDetectionFeedback[] Feedbacks;
 	public ReportAnomalyEventStoreFeed[] Feeds;
 	public NetworkActivityAudit[] ParentEntities;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 
 	public ReportAnomalyEventStore clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ReportAnomalyEventStore clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -16,6 +16,7 @@ public class ExternalEventMappingShare extends SObject {
 	public static SObjectFields$<ExternalEventMappingShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

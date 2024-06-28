@@ -16,6 +16,7 @@ public class LegalEntityShare extends SObject {
 	public static SObjectFields$<LegalEntityShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

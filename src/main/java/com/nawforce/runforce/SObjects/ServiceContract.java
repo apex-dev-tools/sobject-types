@@ -82,20 +82,27 @@ public class ServiceContract extends SObject {
 	public Decimal TotalPrice;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public ServiceContract[] ChildServiceContracts;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ContractLineItem[] ContractLineItems;
 	public ContractLineOutcome[] ContractLineOutcomes;
 	public ServiceContract[] DescendantServiceContracts;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
 	public Entitlement[] Entitlements;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ServiceContractFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ServiceContractHistory[] Histories;
 	public MaintenancePlan[] MaintenancePlans;
 	public Note[] Notes;
@@ -107,6 +114,7 @@ public class ServiceContract extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public ServiceContractShare[] Shares;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public WorkOrder[] WorkOrders;
 	public WorkPlanSelectionRule[] WorkPlanSelectionRules;
