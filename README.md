@@ -73,7 +73,7 @@ You can also create an `Application` Run/Debug configuration in Intellij to run 
 
 After generating the types, they need merging into the existing src structure which contains manual edits.
 
-Use a diff tool to move content across. For example Intellij has `Compare With...` which can be run on `generated` and `SObjects` directories.
+Use a diff tool to move content across. For example, Intellij has `Compare With...` which can be run on `generated` and `SObjects` directories.
 
 In `generated` dir, to quickly copy new files across:
 

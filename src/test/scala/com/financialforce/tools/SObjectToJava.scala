@@ -37,7 +37,7 @@ object SObjectToJava {
   def main(args: Array[String]): Unit = {
 
     args.length match {
-      case 3 => ()
+      case 4 => ()
       case _ => println("Usage: SObjectToJava <username> <password> <instance> <api>"); return
     }
 
