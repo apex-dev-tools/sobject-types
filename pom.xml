@@ -4,7 +4,7 @@
 
   <groupId>io.github.apex-dev-tools</groupId>
   <artifactId>sobject-types</artifactId>
-  <version>61.0.0</version>
+  <version>62.0.0</version>
   <packaging>jar</packaging>
 
   <name>sobject-types</name>
@@ -65,7 +65,7 @@
     <dependency>
       <groupId>io.github.apex-dev-tools</groupId>
       <artifactId>standard-types</artifactId>
-      <version>61.0.0</version>
+      <version>62.0.0</version>
     </dependency>
 
     <!-- Test Dependencies -->
@@ -79,28 +79,28 @@
     <dependency>
       <groupId>com.force.api</groupId>
       <artifactId>force-wsc</artifactId>
-      <version>61.1.0</version>
+      <version>62.0.0</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>com.force.api</groupId>
       <artifactId>force-metadata-api</artifactId>
-      <version>61.1.0</version>
+      <version>62.0.0</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>com.force.api</groupId>
       <artifactId>force-partner-api</artifactId>
-      <version>61.1.0</version>
+      <version>62.0.0</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>com.force.api</groupId>
       <artifactId>force-apex-api</artifactId>
-      <version>61.1.0</version>
+      <version>62.0.0</version>
       <scope>test</scope>
     </dependency>
 
