@@ -22,6 +22,7 @@ public class BenefitType extends SObject {
 	public String CurrencyIsoCode;
 	public String Description;
 	public Id Id;
+	public String ImageSource;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -35,7 +36,12 @@ public class BenefitType extends SObject {
 	public Name Owner;
 	public String ProcessType;
 	public Datetime SystemModstamp;
+	public String Type;
+	public Id UnitofMeasureId;
+	public UnitOfMeasure UnitofMeasure;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public Benefit[] Benefits;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;

@@ -28,6 +28,7 @@ public class BriefcaseRule extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Boolean OptionsIsRelatedFilesRule;
 	public String OrderBy;
 	public Id ParentRuleId;
 	public BriefcaseRule ParentRule;

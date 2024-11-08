@@ -32,6 +32,8 @@ public class WebCartAdjustmentBasis extends SObject {
 	public Id WebCartId;
 	public WebCart WebCart;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

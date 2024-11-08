@@ -29,6 +29,8 @@ public class CallCenter extends SObject {
 	public Datetime SystemModstamp;
 	public Decimal Version;
 
+	public ContactCenterChannel[] ContactCenterChannels;
+
 	public CallCenter clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CallCenter clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public CallCenter clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

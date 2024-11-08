@@ -78,6 +78,8 @@ public class Organization extends SObject {
 	public Boolean UsesStartDateAsFiscalYearName;
 	public String WebToCaseDefaultOrigin;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

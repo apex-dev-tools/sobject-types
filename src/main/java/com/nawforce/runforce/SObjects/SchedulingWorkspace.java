@@ -30,6 +30,7 @@ public class SchedulingWorkspace extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Datetime StartDate;
 	public Datetime SystemModstamp;
 	public String TimeHorizon;
 	public String Type;

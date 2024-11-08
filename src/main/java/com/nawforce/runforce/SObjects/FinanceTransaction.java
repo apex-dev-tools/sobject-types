@@ -80,6 +80,8 @@ public class FinanceTransaction extends SObject {
 	public Decimal TotalAmountWithTax;
 	public Datetime TransactionDate;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;

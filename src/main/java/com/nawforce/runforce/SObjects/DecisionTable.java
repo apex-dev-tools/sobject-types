@@ -25,10 +25,14 @@ public class DecisionTable extends SObject {
 	public String Description;
 	public String DeveloperName;
 	public Boolean DoesConsiderNullValue;
+	public String ExecutionType;
 	public String FilterResultBy;
+	public Boolean HasIncrementalSyncFailed;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsIncrementalSyncEnabled;
 	public String Language;
+	public Datetime LastIncrementalSyncDate;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -43,12 +47,15 @@ public class DecisionTable extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 	public String Type;
+	public String UploadStatus;
 	public String UsageType;
 
 	public CalculationProcedureStep[] CalculationProcedureSteps;
 	public CalculationMatrix[] DecisionMatrixDefinition;
 	public DecisionTableParameter[] DecisionTableParameters;
 	public DecisionTableSourceCriteria[] DecisionTableSourceCriterias;
+	public PricingRecipeTableMapping[] PricingElementDecisionTables;
+	public ProcedurePlanOption[] ProcedurePlanOptionDecisionTable;
 
 	public DecisionTable clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DecisionTable clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

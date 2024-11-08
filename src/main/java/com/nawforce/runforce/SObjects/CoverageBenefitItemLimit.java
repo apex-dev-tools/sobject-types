@@ -16,7 +16,13 @@ public class CoverageBenefitItemLimit extends SObject {
 	public static SObjectFields$<CoverageBenefitItemLimit> Fields;
 
 	public String AllowedLimit;
+	public Decimal AllowedQuantity;
+	public Id AllowedQuantityUnitId;
+	public UnitOfMeasure AllowedQuantityUnit;
 	public String AppliedLimit;
+	public Decimal AppliedQuantity;
+	public Id AppliedQuantityUnitId;
+	public UnitOfMeasure AppliedQuantityUnit;
 	public Id CareLimitTypeId;
 	public CareLimitType CareLimitType;
 	public Id CoverageBenefitItemId;
@@ -43,6 +49,8 @@ public class CoverageBenefitItemLimit extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

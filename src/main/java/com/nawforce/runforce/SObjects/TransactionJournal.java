@@ -102,6 +102,8 @@ public class TransactionJournal extends SObject {
 	public String UsageType;
 	public String VoucherCode;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public EngagementTopic[] EngagementInitiatedTopic;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GameParticipantReward[] IssuedRewardReferences;

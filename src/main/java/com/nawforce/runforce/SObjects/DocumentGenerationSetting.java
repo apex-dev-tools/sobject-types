@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -24,8 +25,10 @@ public class DocumentGenerationSetting extends SObject {
 	public String GenerationMechanism;
 	public String GuestAccessNamedCredential;
 	public Id Id;
+	public Integer InProgDocGenRqstTmot;
 	public Boolean IsBatchDocGnrnEnabled;
 	public Boolean IsDeleted;
+	public Boolean IsInProgRqstTmotEnab;
 	public Boolean IsServerSideDocGenEnabled;
 	public String Language;
 	public Id LastModifiedById;

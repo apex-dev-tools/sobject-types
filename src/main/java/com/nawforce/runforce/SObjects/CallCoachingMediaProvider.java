@@ -15,6 +15,8 @@ public class CallCoachingMediaProvider extends SObject {
 	public static SObjectType$<CallCoachingMediaProvider> SObjectType;
 	public static SObjectFields$<CallCoachingMediaProvider> Fields;
 
+	public Id ConversationVendorInfoId;
+	public ConversationVendorInfo ConversationVendorInfo;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

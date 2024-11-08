@@ -16,7 +16,10 @@ public class VideoCallChangeEvent extends SObject {
 	public static SObjectType$<VideoCallChangeEvent> SObjectType;
 	public static SObjectFields$<VideoCallChangeEvent> Fields;
 
+	public Datetime AcceptanceTimeStamp;
 	public Object ChangeEventHeader;
+	public Id ConsentedUserId;
+	public User ConsentedUser;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

@@ -28,6 +28,7 @@ public class ContentDocumentChangeEvent extends SObject {
 	public String Division;
 	public Id Id;
 	public Boolean IsArchived;
+	public Boolean IsInternalOnly;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

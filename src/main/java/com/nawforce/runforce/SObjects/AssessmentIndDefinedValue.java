@@ -34,6 +34,8 @@ public class AssessmentIndDefinedValue extends SObject {
 	public Datetime SystemModstamp;
 	public String Value;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssessmentIndValue[] AssessmentIndDefinedValues;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AssessmentIndDefinedValueHistory[] Histories;

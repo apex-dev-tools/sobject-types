@@ -51,6 +51,8 @@ public class ContactPointPhone extends SObject {
 	public String TelephoneNumber;
 	public String UsageType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public CommSubscriptionConsent[] CommSubscriptionConsents;
 	public ContactPointAddress[] ContactPointAddresses;
 	public ContactPointConsent[] ContactPointConsents;

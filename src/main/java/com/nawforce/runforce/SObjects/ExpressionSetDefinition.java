@@ -30,8 +30,10 @@ public class ExpressionSetDefinition extends SObject {
 	public String NamespacePrefix;
 	public Datetime SystemModstamp;
 
+	public PricingRecipe[] DefaultPricingProcedureForRecipe;
 	public ExpressionSetDefinitionVersion[] ExpressionSetDefinition;
 	public ExpressionSet[] ExpressionSetDefinitions;
+	public ProcedurePlanOption[] ProcedurePlanOptionExpSetDefinition;
 
 	public ExpressionSetDefinition clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ExpressionSetDefinition clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

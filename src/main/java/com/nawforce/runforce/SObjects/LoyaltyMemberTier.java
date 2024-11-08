@@ -40,6 +40,8 @@ public class LoyaltyMemberTier extends SObject {
 	public Datetime SystemModstamp;
 	public Date TierExpirationDate;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public EngagementTopic[] EngagementInitiatedTopic;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyMemberTierHistory[] Histories;

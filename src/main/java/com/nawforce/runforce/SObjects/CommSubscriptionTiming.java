@@ -36,6 +36,8 @@ public class CommSubscriptionTiming extends SObject {
 	public Datetime SystemModstamp;
 	public String Unit;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

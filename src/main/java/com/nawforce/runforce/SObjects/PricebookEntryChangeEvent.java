@@ -23,6 +23,7 @@ public class PricebookEntryChangeEvent extends SObject {
 	public Id Id;
 	public Boolean IsActive;
 	public Boolean IsArchived;
+	public Boolean IsDerived;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

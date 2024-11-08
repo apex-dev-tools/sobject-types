@@ -17,7 +17,7 @@ public class UserAppMenuCustomization extends SObject {
 	public static SObjectFields$<UserAppMenuCustomization> Fields;
 
 	public Id ApplicationId;
-	public ConnectedApplication Application;
+	public Name Application;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

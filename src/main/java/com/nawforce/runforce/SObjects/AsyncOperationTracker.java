@@ -39,6 +39,7 @@ public class AsyncOperationTracker extends SObject {
 	public Id ReferenceEntityId;
 	public Name ReferenceEntity;
 	public String Response;
+	public Integer SequenceNumber;
 	public Datetime StartedAt;
 	public String Status;
 	public String StepName;
@@ -47,6 +48,8 @@ public class AsyncOperationTracker extends SObject {
 	public Datetime SystemModstamp;
 	public Integer TotalJobItems;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AsyncOperationTracker[] AsyncOperationTrackers;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;

@@ -66,7 +66,9 @@ public class WorkOrderChangeEvent extends SObject {
 	public User Owner;
 	public Id ParentWorkOrderId;
 	public WorkOrder ParentWorkOrder;
+	public String PostWorkSummary;
 	public String PostalCode;
+	public String PreWorkBriefPromptTemplate;
 	public Id Pricebook2Id;
 	public Pricebook2 Pricebook2;
 	public String Priority;

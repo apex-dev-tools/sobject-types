@@ -33,6 +33,8 @@ public class RevenueTransactionErrorLog extends SObject {
 	public Name Owner;
 	public Id PrimaryRecordId;
 	public Name PrimaryRecord;
+	public Id RelatedRecord2Id;
+	public Name RelatedRecord2;
 	public Id RelatedRecordId;
 	public Name RelatedRecord;
 	public String RequestIdentifier;

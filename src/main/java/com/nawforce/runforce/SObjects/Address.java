@@ -45,6 +45,8 @@ public class Address extends SObject {
 	public Datetime SystemModstamp;
 	public String TimeZone;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AuthApplicationPlace[] AuthApplPlace;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;

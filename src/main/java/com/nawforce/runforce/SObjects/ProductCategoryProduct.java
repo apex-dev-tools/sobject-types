@@ -35,6 +35,8 @@ public class ProductCategoryProduct extends SObject {
 	public String ProductToCategory;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProductCategoryProductHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

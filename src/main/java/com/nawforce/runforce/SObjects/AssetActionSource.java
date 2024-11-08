@@ -43,6 +43,8 @@ public class AssetActionSource extends SObject {
 	public Datetime SystemModstamp;
 	public Datetime TransactionDate;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

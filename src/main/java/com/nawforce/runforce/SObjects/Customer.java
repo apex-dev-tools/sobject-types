@@ -35,6 +35,8 @@ public class Customer extends SObject {
 	public Datetime SystemModstamp;
 	public Integer TotalLifeTimeValue;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public CommSubscriptionConsent[] CommSubsConsents;
 	public ContactPointConsent[] ContactPointConsents;
 	public ContactPointTypeConsent[] ContactPointTypeConsents;

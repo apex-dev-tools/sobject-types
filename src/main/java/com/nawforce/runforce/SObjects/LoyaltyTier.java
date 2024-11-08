@@ -16,6 +16,7 @@ public class LoyaltyTier extends SObject {
 	public static SObjectType$<LoyaltyTier> SObjectType;
 	public static SObjectFields$<LoyaltyTier> Fields;
 
+	public String Color;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -36,6 +37,8 @@ public class LoyaltyTier extends SObject {
 	public Integer SequenceNumber;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyTierHistory[] Histories;
 	public LoyaltyMemberTier[] LoyaltyTier;

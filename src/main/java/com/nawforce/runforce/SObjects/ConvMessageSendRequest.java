@@ -17,6 +17,8 @@ public class ConvMessageSendRequest extends SObject {
 	public static SObjectFields$<ConvMessageSendRequest> Fields;
 
 	public String AllowExistingSessionStatus;
+	public Id CommSubscriptionId;
+	public CommSubscription CommSubscription;
 	public Datetime CompletedDate;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -31,9 +33,11 @@ public class ConvMessageSendRequest extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String MessageDefinition;
 	public String Name;
 	public Integer PendingMessageCount;
 	public String PendingMessageIdentifiers;
+	public String RequestConsentType;
 	public String RequestStatus;
 	public String RequestType;
 	public Boolean ShouldEnforceChannelConsent;

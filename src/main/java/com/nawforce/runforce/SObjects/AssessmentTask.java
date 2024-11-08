@@ -49,6 +49,8 @@ public class AssessmentTask extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssessmentTaskContentDocument[] AssessmentTaskContentDocuments;
 	public AssessmentTaskOrder[] AssessmentTaskOrders;
 	public AttachedContentDocument[] AttachedContentDocuments;

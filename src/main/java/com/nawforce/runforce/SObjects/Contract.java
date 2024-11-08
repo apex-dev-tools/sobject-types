@@ -76,6 +76,8 @@ public class Contract extends SObject {
 	public String ShippingState;
 	public String ShippingStateCode;
 	public String ShippingStreet;
+	public Id SourceOpportunityId;
+	public Opportunity SourceOpportunity;
 	public String SpecialTerms;
 	public Date StartDate;
 	public String Status;
@@ -86,6 +88,8 @@ public class Contract extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AppUsageAssignment[] AppUsageAssignments;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public Approval[] Approvals;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
@@ -94,6 +98,7 @@ public class Contract extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ContractContactRole[] ContractContactRoles;
 	public ContractGroupPlan[] ContractGroupPlans;
+	public ContractItemPrice[] ContractItemPrices;
 	public ContractPaymentAgreement[] ContractPaymentAgreements;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
@@ -114,10 +119,12 @@ public class Contract extends SObject {
 	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public Obligation[] Obligations;
 	public OpenActivity[] OpenActivities;
 	public Opportunity[] Opportunities;
 	public Order[] Orders;
 	public NetworkActivityAudit[] ParentEntities;
+	public PriceAdjustmentSchedule[] PriceAdjustmentSchedules;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public Quote[] Quotes;

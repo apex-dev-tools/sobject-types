@@ -49,6 +49,8 @@ public class CartItemPriceAdjustment extends SObject {
 	public Id WebCartAdjustmentGroupId;
 	public WebCartAdjustmentGroup WebCartAdjustmentGroup;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public CartTax[] CartItemPriceAdjustments;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;

@@ -44,6 +44,8 @@ public class MemberBenefit extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public MemberBenefitHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

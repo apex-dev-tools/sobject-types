@@ -25,6 +25,8 @@ public class Accreditation extends SObject {
 	public String CurrencyIsoCode;
 	public Date EffectiveFrom;
 	public Date EffectiveTo;
+	public Id HealthcareFacilityId;
+	public HealthcareFacility HealthcareFacility;
 	public Id HealthcareProviderId;
 	public HealthcareProvider HealthcareProvider;
 	public Id Id;
@@ -50,6 +52,8 @@ public class Accreditation extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CareProviderAdverseAction[] CareProviderAdverseActions;

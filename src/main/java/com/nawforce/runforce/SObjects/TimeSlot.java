@@ -42,7 +42,10 @@ public class TimeSlot extends SObject {
 	public WorkTypeGroup WorkTypeGroup;
 
 	public AppointmentTopicTimeSlot[] AppointmentTopicTimeSlots;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public TimeSlotHistory[] Histories;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 

@@ -31,6 +31,8 @@ public class ExpressionFilter extends SObject {
 	public String Name;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 
 	public ExpressionFilter clone$() {throw new java.lang.UnsupportedOperationException();}

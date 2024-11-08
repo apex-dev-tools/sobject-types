@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -30,6 +31,7 @@ public class UserDefinedLabel extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public Datetime SystemModstamp;
+	public Integer TotalAssignments;
 	public String Type;
 
 	public UserDefinedLabelShare[] Shares;

@@ -36,6 +36,8 @@ public class ProductItemTransaction extends SObject {
 	public Datetime SystemModstamp;
 	public String TransactionType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

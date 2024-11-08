@@ -34,11 +34,15 @@ public class CommSubscriptionChannelType extends SObject {
 	public Datetime LastViewedDate;
 	public Id MessagingChannelId;
 	public MessagingChannel MessagingChannel;
+	public Id MessagingChannelUsageId;
+	public MessagingChannelUsage MessagingChannelUsage;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

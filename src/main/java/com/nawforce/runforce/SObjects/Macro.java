@@ -38,6 +38,8 @@ public class Macro extends SObject {
 	public String StartingContext;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public MacroHistory[] Histories;
 	public MacroShare[] Shares;

@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Long;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -19,6 +20,8 @@ public class FlowOrchestrationInstance extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String CurrentStage;
+	public Long Duration;
 	public Id Id;
 	public Id InterviewId;
 	public FlowInterview Interview;
@@ -34,7 +37,10 @@ public class FlowOrchestrationInstance extends SObject {
 	public Name Owner;
 	public String Status;
 	public Datetime SystemModstamp;
+	public String TriggeringRecord;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationLog[] FlowOrchestrationLogs;
 	public FlowOrchestrationStageInstance[] FlowOrchestrationStageInstances;
 	public FlowOrchestrationStepInstance[] FlowOrchestrationStepInstances;

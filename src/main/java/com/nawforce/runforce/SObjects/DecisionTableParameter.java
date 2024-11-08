@@ -19,6 +19,7 @@ public class DecisionTableParameter extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public Id DecisionTableId;
 	public DecisionTable DecisionTable;
 	public String DomainObject;
@@ -36,6 +37,8 @@ public class DecisionTableParameter extends SObject {
 	public String SortType;
 	public Datetime SystemModstamp;
 	public String Usage;
+
+	public PricingProcedureOutputMap[] DecisionOutputColumn;
 
 	public DecisionTableParameter clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DecisionTableParameter clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

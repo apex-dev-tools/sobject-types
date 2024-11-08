@@ -39,6 +39,8 @@ public class ServiceReport extends SObject {
 	public Datetime SystemModstamp;
 	public String Template;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public DocumentRecipient[] DocumentRecipients;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ServiceReportHistory[] Histories;

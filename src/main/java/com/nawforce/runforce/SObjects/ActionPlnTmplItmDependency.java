@@ -34,6 +34,8 @@ public class ActionPlnTmplItmDependency extends SObject {
 	public Id TemplateItemId;
 	public ActionPlanTemplateItem TemplateItem;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

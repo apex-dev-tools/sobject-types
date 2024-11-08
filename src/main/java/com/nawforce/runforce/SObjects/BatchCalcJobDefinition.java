@@ -21,6 +21,7 @@ public class BatchCalcJobDefinition extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DataSpaceApiName;
+	public String DefinitionRunMode;
 	public String DeveloperName;
 	public String ExecutionPlatformType;
 	public Id Id;

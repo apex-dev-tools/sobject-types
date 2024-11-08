@@ -30,6 +30,8 @@ public class UserPrioritizedRecord extends SObject {
 	public Name Target;
 	public String TargetKeyPrefix;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

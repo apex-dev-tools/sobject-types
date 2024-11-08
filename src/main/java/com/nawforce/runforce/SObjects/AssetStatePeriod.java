@@ -35,6 +35,8 @@ public class AssetStatePeriod extends SObject {
 	public Datetime StartDate;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssetStatePeriodAttribute[] AssetStatePeriodAttributes;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;

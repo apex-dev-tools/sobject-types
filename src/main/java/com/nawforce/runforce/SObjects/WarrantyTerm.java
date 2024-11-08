@@ -55,6 +55,8 @@ public class WarrantyTerm extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssetWarranty[] AssetWarrantyTerms;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;

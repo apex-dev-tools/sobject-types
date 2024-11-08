@@ -24,7 +24,7 @@ public class PricingProcedureOutputMap extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
-	public SObject.SObject LookupField;
+	public SObject LookupField;
 	public Id OutputFieldNameId;
 	public SObject OutputFieldName;
 	public String OutputFieldNameString;

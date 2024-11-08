@@ -46,6 +46,8 @@ public class OrderItem extends SObject {
 	public Decimal TotalPrice;
 	public Decimal UnitPrice;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssetActionSource[] AssetActionSourceReferences;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public OrderItem[] ChildOrderItems;

@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -15,6 +16,7 @@ public class UnitOfMeasure extends SObject {
 	public static SObjectType$<UnitOfMeasure> SObjectType;
 	public static SObjectFields$<UnitOfMeasure> Fields;
 
+	public Decimal ConversionFactor;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -30,10 +32,14 @@ public class UnitOfMeasure extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Integer Sequence;
+	public String Status;
 	public Datetime SystemModstamp;
 	public String Type;
 	public String UnitCode;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public CareMetricTarget[] CareMetricTargets;
 	public CareMetricTarget[] CareMetricTargetsDurationUnit;
 	public CareMetricTarget[] CareMetricTargetsRatioUnit;
@@ -46,6 +52,7 @@ public class UnitOfMeasure extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public TransactionJournal[] QuantityUnit;
 	public UnitOfMeasureShare[] Shares;
+	public BenefitType[] UnitOfMeasureType;
 	public AttributeDefinition[] UnitOfMeasures;
 	public CareRequestExtension[] UnitofMeasureCareRequestExtensions;
 	public CareObservation[] UnitsOfMeasure;

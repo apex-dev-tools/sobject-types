@@ -32,6 +32,8 @@ public class EntitlementContact extends SObject {
 	public String Name;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 
 	public EntitlementContact clone$() {throw new java.lang.UnsupportedOperationException();}

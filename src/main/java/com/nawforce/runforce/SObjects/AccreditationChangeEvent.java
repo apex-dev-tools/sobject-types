@@ -26,6 +26,8 @@ public class AccreditationChangeEvent extends SObject {
 	public String CurrencyIsoCode;
 	public Date EffectiveFrom;
 	public Date EffectiveTo;
+	public Id HealthcareFacilityId;
+	public HealthcareFacility HealthcareFacility;
 	public Id HealthcareProviderId;
 	public HealthcareProvider HealthcareProvider;
 	public Id Id;

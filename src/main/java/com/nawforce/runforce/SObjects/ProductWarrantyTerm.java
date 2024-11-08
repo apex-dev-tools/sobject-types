@@ -34,6 +34,8 @@ public class ProductWarrantyTerm extends SObject {
 	public Id WarrantyTermId;
 	public WarrantyTerm WarrantyTerm;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

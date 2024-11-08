@@ -40,7 +40,7 @@ public class EntityMilestone extends SObject {
 	public MilestoneType MilestoneType;
 	public String Name;
 	public Id ParentEntityId;
-	public WorkOrder ParentEntity;
+	public Name ParentEntity;
 	public Id SlaProcessId;
 	public SlaProcess SlaProcess;
 	public Datetime StartDate;
@@ -59,6 +59,8 @@ public class EntityMilestone extends SObject {
 	public String TimeSinceTargetInHrs;
 	public String TimeSinceTargetInMins;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

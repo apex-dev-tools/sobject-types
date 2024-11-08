@@ -32,6 +32,8 @@ public class CommSubscriptionChannelTypeChangeEvent extends SObject {
 	public Datetime LastModifiedDate;
 	public Id MessagingChannelId;
 	public MessagingChannel MessagingChannel;
+	public Id MessagingChannelUsageId;
+	public MessagingChannelUsage MessagingChannelUsage;
 	public String Name;
 	public Id OwnerId;
 	public User Owner;

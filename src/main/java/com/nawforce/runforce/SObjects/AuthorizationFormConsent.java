@@ -40,10 +40,12 @@ public class AuthorizationFormConsent extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public Id RelatedRecordId;
-	public Account RelatedRecord;
+	public Name RelatedRecord;
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public DigitalSignature[] DigitalSignatures;
 	public DigitalVerification[] DigitalVerificationParentReferenceRecord;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;

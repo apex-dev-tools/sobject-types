@@ -42,6 +42,8 @@ public class CodeSet extends SObject {
 	public Datetime SystemModstamp;
 	public String SystemVersion;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public ClinicalDetectedIssueDetail[] CDetectedIssueDetailCodes;
 	public CareBarrierType[] CareBarrierDignosisCodeSet;
@@ -65,6 +67,7 @@ public class CodeSet extends SObject {
 	public CoverageBenefit[] CoverageBenefit_FinalCoverageStatusCode;
 	public CoverageBenefit[] CoverageBenefit_OutcomeStatusCode;
 	public CoverageBenefit[] CoverageBenefit_StatusCode;
+	public CareProgramDetail[] DetailRecords;
 	public CareRegisteredDevice[] DeviceTypes;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;

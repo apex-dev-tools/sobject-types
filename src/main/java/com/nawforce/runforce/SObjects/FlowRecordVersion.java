@@ -21,6 +21,7 @@ public class FlowRecordVersion extends SObject {
 	public Datetime ActivatedDate;
 	public Decimal ApiVersion;
 	public String Builder;
+	public String CapacityCategory;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

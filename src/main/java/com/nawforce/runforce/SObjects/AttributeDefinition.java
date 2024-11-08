@@ -48,10 +48,13 @@ public class AttributeDefinition extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssetAttribute[] AssetAttributes;
 	public AssetStatePeriodAttribute[] AssetStatePeriodAttributes;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public AttributeAdjustmentCondition[] AttributeAdjustmentConditions;
 	public AttributeCategoryAttribute[] AttributeCategoryAttributes;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

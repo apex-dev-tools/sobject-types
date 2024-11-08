@@ -19,6 +19,7 @@ public class EventBusSubscriber extends SObject {
 	public String CurrencyIsoCode;
 	public String ExternalId;
 	public Id Id;
+	public Boolean IsPartitioned;
 	public String LastError;
 	public String Name;
 	public Integer Position;

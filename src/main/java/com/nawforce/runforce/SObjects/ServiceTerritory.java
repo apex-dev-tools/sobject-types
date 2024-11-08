@@ -47,6 +47,8 @@ public class ServiceTerritory extends SObject {
 	public String PostalCode;
 	public Id SchedulingConstraintId;
 	public SchedulingConstraint SchedulingConstraint;
+	public String SelfCheckInUrl;
+	public String ServiceAppointmentLimitType;
 	public String State;
 	public String StateCode;
 	public String Street;
@@ -55,8 +57,11 @@ public class ServiceTerritory extends SObject {
 	public ServiceTerritory TopLevelTerritory;
 	public Id TravelModeId;
 	public TravelMode TravelMode;
+	public Integer TravelTimeBuffer;
 	public Decimal TypicalInTerritoryTravelTime;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public ApptBundlePolicySvcTerr[] BundlePolicySvcTerrs;
 	public CareProgramEnrollee[] CPEServiceTerritory;

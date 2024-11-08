@@ -42,6 +42,8 @@ public class GameReward extends SObject {
 	public Datetime SystemModstamp;
 	public Decimal WinProbability;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

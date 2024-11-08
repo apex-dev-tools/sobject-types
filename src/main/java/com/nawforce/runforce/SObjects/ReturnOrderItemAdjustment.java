@@ -35,6 +35,8 @@ public class ReturnOrderItemAdjustment extends SObject {
 	public Decimal TotalAmtWithTax;
 	public Decimal TotalTaxAmount;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

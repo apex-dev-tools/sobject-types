@@ -37,6 +37,8 @@ public class LoyaltyProgramMemberCase extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public EmailMessage[] Emails;
 	public EventRelation[] EventRelations;

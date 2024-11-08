@@ -62,6 +62,8 @@ public class HealthcareProvider extends SObject {
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AllergyIntolerance[] AllergyIntolAsserterRecorderEntities;
 	public AllergyIntolerance[] AllergyIntol_AssertionSource;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public PatientMedicalProcedure[] AsserterRecEntities;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
@@ -105,6 +107,7 @@ public class HealthcareProvider extends SObject {
 	public HealthCondition[] HealthCondAssertionSrc;
 	public HealthcarePractitionerFacility[] HealthcarePractitionerFacilities;
 	public HealthcareProviderService[] HealthcareProviderGroup;
+	public HealthcareProviderTaxonomy[] HealthcareProviderTaxonomies_HealthcareProvider;
 	public CarePgmProvHealthcareProvider[] HealthcareProviders;
 	public HealthcareFacilityNetwork[] Healthcare_Facility_Networks;
 	public HealthcareProviderHistory[] Histories;

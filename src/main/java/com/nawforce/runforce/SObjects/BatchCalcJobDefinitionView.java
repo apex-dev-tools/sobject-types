@@ -16,6 +16,7 @@ public class BatchCalcJobDefinitionView extends SObject {
 	public static SObjectFields$<BatchCalcJobDefinitionView> Fields;
 
 	public String DataSpaceApiName;
+	public String DefinitionRunMode;
 	public String Description;
 	public String DurableId;
 	public String ExecutionPlatformType;

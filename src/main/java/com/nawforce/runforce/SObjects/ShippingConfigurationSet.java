@@ -34,6 +34,8 @@ public class ShippingConfigurationSet extends SObject {
 	public Id TargetRecordId;
 	public WebStore TargetRecord;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

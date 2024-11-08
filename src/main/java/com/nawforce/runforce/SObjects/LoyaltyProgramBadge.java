@@ -40,6 +40,8 @@ public class LoyaltyProgramBadge extends SObject {
 	public Date ValidityEndDate;
 	public String ValidityType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyProgramBadgeHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

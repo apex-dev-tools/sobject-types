@@ -32,6 +32,8 @@ public class DataUseLegalBasis extends SObject {
 	public String Source;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public DataUsePurpose[] DataUsePurposes;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public DataUseLegalBasisHistory[] Histories;

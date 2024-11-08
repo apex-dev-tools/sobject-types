@@ -35,6 +35,8 @@ public class WaitlistServiceResource extends SObject {
 	public Id WaitlistId;
 	public Waitlist Waitlist;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

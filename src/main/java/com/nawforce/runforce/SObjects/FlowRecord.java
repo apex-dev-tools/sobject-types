@@ -23,6 +23,7 @@ public class FlowRecord extends SObject {
 	public Id AssociatedRecordId;
 	public Campaign AssociatedRecord;
 	public String Builder;
+	public String CapacityCategory;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

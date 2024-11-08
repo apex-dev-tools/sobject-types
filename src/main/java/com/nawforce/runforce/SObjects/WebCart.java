@@ -87,6 +87,9 @@ public class WebCart extends SObject {
 	public WebStore WebStore;
 
 	public AppUsageAssignment[] AppUsageAssignments;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
+	public CartCheckoutSession[] CartCheckoutSessions;
 	public CartDeliveryGroup[] CartDeliveryGroups;
 	public CartItemPriceAdjustment[] CartItemPriceAdjustments;
 	public CartTax[] CartItemTaxes;

@@ -33,6 +33,8 @@ public class WebStoreCatalog extends SObject {
 	public WebStore SalesStore;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public WebStoreCatalogHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -21,6 +22,7 @@ public class CareProgram extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Integer CurrentEnrolleeCount;
 	public String Description;
 	public Date EndDate;
 	public Id Id;
@@ -42,17 +44,22 @@ public class CareProgram extends SObject {
 	public Date StartDate;
 	public String Status;
 	public Datetime SystemModstamp;
+	public Integer TargetEnrolleeCount;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CareProgramEligibilityRule[] CProgram_Eligibility_Rules;
 	public CareProgramCampaign[] CareProgramCampaigns;
+	public CareProgramDetail[] CareProgramDetails;
 	public CareProgramEnrollee[] CareProgramEnrollees;
 	public CareProgramGoal[] CareProgramGoals;
 	public CareProgramProduct[] CareProgramProducts;
 	public CareProgramTeamMember[] CareProgramTeamMembers;
+	public CareBenefitVerifyRequest[] Care_Benefit_Verify_Requests_CareProgram;
 	public CareProgram[] Care_Programs;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

@@ -44,6 +44,8 @@ public class Seller extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public CommSubscriptionConsent[] CommSubsConsents;
 	public ContactPointConsent[] ContactPointConsents;
 	public ContactPointTypeConsent[] ContactPointTypeConsents;

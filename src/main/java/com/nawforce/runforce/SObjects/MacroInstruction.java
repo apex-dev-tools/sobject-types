@@ -35,6 +35,8 @@ public class MacroInstruction extends SObject {
 	public String Value;
 	public String ValueRecord;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 
 	public MacroInstruction clone$() {throw new java.lang.UnsupportedOperationException();}

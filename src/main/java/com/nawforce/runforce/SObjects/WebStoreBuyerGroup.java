@@ -32,6 +32,8 @@ public class WebStoreBuyerGroup extends SObject {
 	public Id WebStoreId;
 	public WebStore WebStore;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

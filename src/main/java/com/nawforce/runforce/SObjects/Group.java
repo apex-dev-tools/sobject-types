@@ -19,6 +19,7 @@ public class Group extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DefaultDivision;
+	public String Description;
 	public String DeveloperName;
 	public Boolean DoesIncludeBosses;
 	public Boolean DoesSendEmailToMembers;
@@ -36,6 +37,8 @@ public class Group extends SObject {
 	public String Type;
 
 	public AssessmentTask[] AssessmentTaskAssignedTo;
+	public ApprovalWorkItem[] AssignedWorkItems;
+	public ComplaintParticipant[] ComplaintParticipants;
 	public User[] DelegatedUsers;
 	public DigitalVerification[] DigitalVerificationDesignatedVerifier;
 	public GroupMember[] GroupMembers;

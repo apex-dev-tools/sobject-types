@@ -40,6 +40,8 @@ public class LoyaltyPartnerProduct extends SObject {
 	public Date StartDate;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyPartnerProductHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

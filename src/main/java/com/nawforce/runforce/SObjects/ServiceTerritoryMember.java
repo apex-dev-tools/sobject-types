@@ -52,6 +52,8 @@ public class ServiceTerritoryMember extends SObject {
 	public Id TravelModeId;
 	public TravelMode TravelMode;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

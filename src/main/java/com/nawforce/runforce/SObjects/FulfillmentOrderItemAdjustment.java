@@ -38,6 +38,8 @@ public class FulfillmentOrderItemAdjustment extends SObject {
 	public Decimal TotalAmtWithTax;
 	public Decimal TotalTaxAmount;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

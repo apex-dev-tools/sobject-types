@@ -104,6 +104,8 @@ public class Contact extends SObject {
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssetContactParticipant[] AssetContactParticipantContact;
 	public Asset[] Assets;
 	public AttachedContentDocument[] AttachedContentDocuments;
@@ -112,6 +114,7 @@ public class Contact extends SObject {
 	public AuthorizationFormConsent[] AuthorizationFormConsents;
 	public Award[] Awards;
 	public BoardCertification[] BoardCertifications;
+	public Applicant[] BusinessContactApplicants;
 	public BusinessLicense[] BusinessLicenses;
 	public ClaimParticipant[] CPContacts;
 	public CampaignMember[] CampaignMembers;
@@ -128,6 +131,7 @@ public class Contact extends SObject {
 	public CommSubscriptionConsent[] CommSubscriptionConsents;
 	public ComplaintParticipant[] ComplaintParticipants;
 	public LoyaltyPgmGroupMbrRlnsp[] Con_LoyaltyPgmGroupMbrRlnsps;
+	public Applicant[] ContactApplicants;
 	public ContactCleanInfo[] ContactCleanInfos;
 	public ContactEncounterParticipant[] ContactEncounterParticipants;
 	public PartyProfile[] ContactPartyProfiles;

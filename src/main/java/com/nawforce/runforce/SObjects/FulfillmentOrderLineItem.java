@@ -15,6 +15,7 @@ public class FulfillmentOrderLineItem extends SObject {
 	public static SObjectType$<FulfillmentOrderLineItem> SObjectType;
 	public static SObjectFields$<FulfillmentOrderLineItem> Fields;
 
+	public String Action;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -54,6 +55,8 @@ public class FulfillmentOrderLineItem extends SObject {
 	public Decimal TotalTaxAmount;
 	public Decimal UnitPrice;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

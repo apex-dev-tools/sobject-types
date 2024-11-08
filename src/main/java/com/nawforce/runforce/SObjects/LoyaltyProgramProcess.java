@@ -43,6 +43,8 @@ public class LoyaltyProgramProcess extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyProgramProcessHistory[] Histories;
 	public LoyaltyProgramProcessParameter[] LoyaltyProgramProcessParameters;

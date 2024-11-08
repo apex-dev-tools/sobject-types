@@ -72,6 +72,8 @@ public class ContractChangeEvent extends SObject {
 	public String ShippingState;
 	public String ShippingStateCode;
 	public String ShippingStreet;
+	public Id SourceOpportunityId;
+	public Opportunity SourceOpportunity;
 	public String SpecialTerms;
 	public Date StartDate;
 	public String Status;

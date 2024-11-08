@@ -35,6 +35,8 @@ public class EngagementChannelType extends SObject {
 	public String UsageType;
 
 	public AppointmentInvitation[] AppointmentInvitations;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

@@ -66,13 +66,20 @@ public class Product2 extends SObject {
 	public Datetime SystemModstamp;
 	public String TransferRecordMode;
 	public String Type;
+	public String UsageModelType;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAccountForecastFact[] AdvAcctForecastFacts;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApplicationFormProduct[] ApplicationFormProducts;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public Asset[] Assets;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public AttributeAdjustmentCondition[] AttributeAdjustmentConditions;
+	public AttributeBasedAdjustment[] AttributeBasedAdjustments;
+	public BundleBasedAdjustment[] BundleBasedAdjustments;
 	public CartDeliveryGroupMethod[] CartDeliveryGroupMethods;
 	public ProductRelatedComponent[] ChildProductRelatedComponents;
 	public CombinedAttachment[] CombinedAttachments;
@@ -99,6 +106,7 @@ public class Product2 extends SObject {
 	public InsurancePolicy[] InsurancePolicies;
 	public InventoryItemReservation[] InventoryProducts;
 	public InvoiceLine[] InvoiceLines;
+	public ContractItemPrice[] Items;
 	public TransactionJournal[] JournalProducts;
 	public ListEmail[] ListEmails;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
@@ -114,6 +122,9 @@ public class Product2 extends SObject {
 	public ProductDisqualification[] ParentProductDisqualifications;
 	public ProductQualification[] ParentProductQualifications;
 	public ProductRelatedComponent[] ParentProductRelatedComponents;
+	public PriceAdjustmentTier[] PriceAdjustmentTiers;
+	public PriceBookEntryDerivedPrice[] PriceBookEntryContributingProducts;
+	public PriceBookEntryDerivedPrice[] PriceBookEntryDerivedProducts;
 	public PricebookEntry[] PricebookEntries;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
@@ -126,6 +137,7 @@ public class Product2 extends SObject {
 	public ProductCategoryProduct[] ProductCategoryProducts;
 	public ProductComponentGroup[] ProductComponentGroups;
 	public ProductConsumptionSchedule[] ProductConsumptionSchedules;
+	public CostBookEntry[] ProductCostBookEntry;
 	public ProductDisqualification[] ProductDisqualifications;
 	public ProductEmissionsFactor[] ProductEmissionsFactors;
 	public ProductFulfillmentLocation[] ProductFulfillmentLocations;

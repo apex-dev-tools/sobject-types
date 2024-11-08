@@ -58,6 +58,8 @@ public class WorkType extends SObject {
 
 	public AppointmentInvitation[] AppointmentInvitations;
 	public AppointmentTopicTimeSlot[] AppointmentTopicTimeSlots;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public ClinicalServiceRequestDetail[] ClinSvcReqDetail_Detail;
 	public CombinedAttachment[] CombinedAttachments;

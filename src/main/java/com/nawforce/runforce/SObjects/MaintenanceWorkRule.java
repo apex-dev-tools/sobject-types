@@ -45,6 +45,8 @@ public class MaintenanceWorkRule extends SObject {
 	public Id WorkTypeId;
 	public WorkType WorkType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

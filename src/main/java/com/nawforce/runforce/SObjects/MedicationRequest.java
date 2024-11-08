@@ -98,6 +98,8 @@ public class MedicationRequest extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CareObservation[] CareObservation_BasedOn;
 	public CareRequestDrug[] CareRequestDrugs;

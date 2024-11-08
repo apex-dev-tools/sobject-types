@@ -21,6 +21,8 @@ public class EnrollmentEligibilityCriteriaChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public Id ExecutionProcedureId;
+	public ExpressionSet ExecutionProcedure;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -28,6 +30,7 @@ public class EnrollmentEligibilityCriteriaChangeEvent extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public User Owner;
+	public String PublishedBy;
 	public String ReplayId;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;

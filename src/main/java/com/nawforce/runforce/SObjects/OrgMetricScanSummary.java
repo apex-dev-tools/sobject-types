@@ -38,6 +38,8 @@ public class OrgMetricScanSummary extends SObject {
 	public Datetime SystemModstamp;
 	public String Unit;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public OrgMetricScanResult[] OrgMetricScanSummary;
 	public ProcessInstance[] ProcessInstances;

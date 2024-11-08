@@ -35,6 +35,8 @@ public class WorkThanks extends SObject {
 	public Name Owner;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public WorkBadge[] Badges;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public WorkThanksShare[] Shares;

@@ -15,6 +15,7 @@ public class ManagedContentVariant extends SObject {
 	public static SObjectType$<ManagedContentVariant> SObjectType;
 	public static SObjectFields$<ManagedContentVariant> Fields;
 
+	public String ContentTypeFullyQualifiedName;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -38,6 +39,8 @@ public class ManagedContentVariant extends SObject {
 	public String UrlName;
 	public String VariantType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 
 	public ManagedContentVariant clone$() {throw new java.lang.UnsupportedOperationException();}

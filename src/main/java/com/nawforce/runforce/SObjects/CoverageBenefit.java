@@ -82,6 +82,7 @@ public class CoverageBenefit extends SObject {
 	public String OutofPocketNotes;
 	public Id OwnerId;
 	public Name Owner;
+	public Decimal PharmaCopayAmount;
 	public Decimal PrimaryCareCopay;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
@@ -95,6 +96,8 @@ public class CoverageBenefit extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CareTaskDetail[] CareTaskDetailDetailRecord;
 	public CareBenefitVerifyRequest[] Care_Benefit_Verify_Requests;

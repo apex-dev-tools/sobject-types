@@ -54,6 +54,8 @@ public class Idea extends SObject {
 	public Decimal VoteScore;
 	public Decimal VoteTotal;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public IdeaComment[] Comments;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public Vote[] Votes;

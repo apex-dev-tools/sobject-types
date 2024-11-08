@@ -45,6 +45,8 @@ public class DocumentGenerationProcess extends SObject {
 	public ContentDocument TokenDataContentDocument;
 	public String Type;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public DocGenerationQueryResult[] DocGenerationQueryResults;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;

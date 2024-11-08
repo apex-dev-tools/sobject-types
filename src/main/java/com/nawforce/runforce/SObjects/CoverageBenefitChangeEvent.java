@@ -80,6 +80,7 @@ public class CoverageBenefitChangeEvent extends SObject {
 	public String OutofPocketNotes;
 	public Id OwnerId;
 	public User Owner;
+	public Decimal PharmaCopayAmount;
 	public Decimal PrimaryCareCopay;
 	public String ReplayId;
 	public String SourceSystem;

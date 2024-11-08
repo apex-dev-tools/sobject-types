@@ -20,6 +20,8 @@ public class EnrollmentEligibilityCriteria extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public Id ExecutionProcedureId;
+	public ExpressionSet ExecutionProcedure;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -30,6 +32,7 @@ public class EnrollmentEligibilityCriteria extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public String PublishedBy;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public String Status;
@@ -37,6 +40,8 @@ public class EnrollmentEligibilityCriteria extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

@@ -37,6 +37,8 @@ public class WorkTypeGroup extends SObject {
 
 	public AppointmentInvitation[] AppointmentInvitations;
 	public AppointmentTopicTimeSlot[] AppointmentTopicTimeSlots;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

@@ -18,6 +18,8 @@ public class MessagingChannel extends SObject {
 	public Id BusinessHoursId;
 	public BusinessHours BusinessHours;
 	public String ChannelAddressIdentifier;
+	public Id ChannelDefinitionId;
+	public ConversationChannelDefinition ChannelDefinition;
 	public String ConsentType;
 	public String ConversationEndResponse;
 	public Id CreatedById;
@@ -27,6 +29,8 @@ public class MessagingChannel extends SObject {
 	public String DeveloperName;
 	public String DoubleOptInPrompt;
 	public String EngagedResponse;
+	public Id FallbackQueueId;
+	public Group FallbackQueue;
 	public Id Id;
 	public String InitialResponse;
 	public Boolean IsActive;
@@ -48,13 +52,16 @@ public class MessagingChannel extends SObject {
 	public String OutsideBusinessHoursResponse;
 	public String PlatformType;
 	public String RoutingType;
+	public String SessionHandler;
 	public Datetime SystemModstamp;
 	public Id TargetQueueId;
 	public Group TargetQueue;
 
+	public ContactCenterChannel[] ContactCenterChannels;
 	public CommSubscriptionChannelType[] MessagingChannels;
 	public MessagingLink[] MessagingLinks;
 	public MsgChannelLanguageKeyword[] MsgChannelLanguageKeywords;
+	public SetupEntityAccess[] SetupEntityAccessItems;
 
 	public MessagingChannel clone$() {throw new java.lang.UnsupportedOperationException();}
 	public MessagingChannel clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

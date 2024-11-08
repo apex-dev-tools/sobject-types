@@ -28,6 +28,8 @@ public class DiagnosticSummaryChangeEvent extends SObject {
 	public ClinicalEncounter ClinicalEncounter;
 	public Id CodeId;
 	public CodeSetBundle Code;
+	public Id ContentDocumentId;
+	public ContentDocument ContentDocument;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

@@ -50,6 +50,8 @@ public class AssetWarranty extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public Entitlement[] AssetWarranties;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;

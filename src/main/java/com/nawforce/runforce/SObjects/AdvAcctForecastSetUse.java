@@ -38,6 +38,8 @@ public class AdvAcctForecastSetUse extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAccountForecastFact[] AdvAcctForecastUseFacts;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

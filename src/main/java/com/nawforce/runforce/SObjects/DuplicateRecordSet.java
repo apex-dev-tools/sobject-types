@@ -35,6 +35,8 @@ public class DuplicateRecordSet extends SObject {
 	public Integer RecordCount;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public DuplicateRecordItem[] DuplicateRecordItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;

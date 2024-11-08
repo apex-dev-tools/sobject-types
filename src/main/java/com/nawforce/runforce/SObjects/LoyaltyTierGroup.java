@@ -45,6 +45,8 @@ public class LoyaltyTierGroup extends SObject {
 	public Integer TierPeriodQuantity;
 	public String TierPeriodUnit;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyProgramProcess[] LoyaltyProcessesTierGroup;
 	public LoyaltyMemberTier[] LoyaltyTierGroup;

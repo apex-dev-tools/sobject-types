@@ -39,6 +39,8 @@ public class AssetTokenEvent extends SObject {
 	public String DeviceKey;
 	public String EventUuid;
 	public Datetime Expiration;
+	public Id ExternalClientApplicationId;
+	public ExternalClientApplication ExternalClientApplication;
 	public String Name;
 	public String ReplayId;
 	public Id UserId;

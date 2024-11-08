@@ -46,6 +46,8 @@ public class ContactPointEmail extends SObject {
 	public Datetime SystemModstamp;
 	public String UsageType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public CommSubscriptionConsent[] CommSubscriptionConsents;
 	public ContactPointConsent[] ContactPointConsents;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;

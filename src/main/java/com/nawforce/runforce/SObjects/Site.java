@@ -58,6 +58,7 @@ public class Site extends SObject {
 	public Boolean OptionsEnableFeeds;
 	public Boolean OptionsHasStoredPathPrefix;
 	public Boolean OptionsIsSiteConsentBannerIntegrationEnabled;
+	public Boolean OptionsIsSiteConsentBannerIntegrationMigrated;
 	public Boolean OptionsIsSiteDataCloudIntegrationEnabled;
 	public Boolean OptionsIsSiteDataCloudIntegrationMigrated;
 	public Boolean OptionsIsSiteGAIntegrationEnabled;
@@ -73,6 +74,8 @@ public class Site extends SObject {
 	public Datetime SystemModstamp;
 	public String UrlPathPrefix;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

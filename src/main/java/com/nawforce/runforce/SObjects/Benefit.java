@@ -18,9 +18,13 @@ public class Benefit extends SObject {
 
 	public Id BenefitActionId;
 	public BenefitAction BenefitAction;
+	public Id BenefitManagerId;
+	public User BenefitManager;
 	public Id BenefitTypeId;
 	public BenefitType BenefitType;
 	public String BnftDisbFieldSetApiName;
+	public Decimal BudgetAmount;
+	public Decimal BudgetAmountUsed;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -29,6 +33,10 @@ public class Benefit extends SObject {
 	public Decimal CurrentYearAssignedQty;
 	public Decimal CurrentYearDisbursedQty;
 	public String Description;
+	public Datetime EndDateTime;
+	public Decimal EnrolleeAmountLimit;
+	public String EnrolleeLimitFrequency;
+	public Decimal EnrolleeTrxnAmountLimit;
 	public Id Id;
 	public String ImageUrl;
 	public Boolean IsActive;
@@ -40,7 +48,11 @@ public class Benefit extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Decimal MaxBenefitAmount;
+	public Decimal MinBenefitAmount;
 	public String Name;
+	public String PayeeType;
+	public String PayoutFrequency;
 	public Decimal PreviousMonthDisbursedQty;
 	public Decimal PreviousYearAssignedQty;
 	public Decimal PreviousYearDisbursedQty;
@@ -49,6 +61,7 @@ public class Benefit extends SObject {
 	public Product2 Product2;
 	public Integer RecertificationFrequency;
 	public String Rule;
+	public Datetime StartDateTime;
 	public Integer StartRecertificationFrom;
 	public Datetime SystemModstamp;
 	public Id UnitId;
@@ -58,6 +71,8 @@ public class Benefit extends SObject {
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public BenefitParameterValue[] BenefitParameterValues;
