@@ -33,7 +33,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sf.user>null</sf.user>
     <sf.pass>null</sf.pass>
-    <sf.instance>login</sf.instance>
+    <sf.instance>test</sf.instance>
+    <sf.apiVersion>62.0</sf.apiVersion>
   </properties>
 
   <repositories>
@@ -285,6 +286,7 @@
             <argument>${sf.user}</argument>
             <argument>${sf.pass}</argument>
             <argument>${sf.instance}</argument>
+            <argument>${sf.apiVersion}</argument>
           </arguments>
         </configuration>
       </plugin>

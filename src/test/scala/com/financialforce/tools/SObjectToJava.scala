@@ -32,16 +32,16 @@ import java.io.{BufferedWriter, FileWriter}
 import java.nio.file.{Files, Paths}
 
 object SObjectToJava {
-  def loginURL(instance: String): String = s"https://$instance.salesforce.com/services/Soap/u/61.0"
+  def loginURL(instance: String, api: String): String = s"https://$instance.salesforce.com/services/Soap/u/$api"
 
   def main(args: Array[String]): Unit = {
 
     args.length match {
       case 3 => ()
-      case _ => println("Usage: SObjectToJava <username> <password> <instance>"); return
+      case _ => println("Usage: SObjectToJava <username> <password> <instance> <api>"); return
     }
 
-    val connectionResult = SFConnection.login(loginURL(args(2)), args(0), args(1))
+    val connectionResult = SFConnection.login(loginURL(args(2), args(3)), args(0), args(1))
     if (connectionResult.isLeft) {
       println(connectionResult.swap.getOrElse("Connection failed"))
       return
@@ -62,8 +62,6 @@ object SObjectToJava {
           .describeSObjects(grp)
           .foreach(sobjectDescribe => {
             val describedSObject = DescribedSObject(sobjectDescribe)
-            // Standard platform event objects do not have Id field
-            //if (describedSObject.fieldsAndTypes.exists(_._1 == "Id")) {
             val output = Paths.get(s"generated/${describedSObject.name}.java")
             Files.createDirectories(output.getParent)
             val writer = new BufferedWriter(new FileWriter(output.toFile))
@@ -71,7 +69,6 @@ object SObjectToJava {
             writer.flush()
             writer.close()
             count += 1
-            //}
           })
       })
     println(s"Generated $count files")
