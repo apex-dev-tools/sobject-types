@@ -36,7 +36,7 @@ Update API version numbers in `pom.xml`:
 
 * `sf.apiVersion` property default.
 
-### Generate Types from Org
+### Generate Types from an Org
 
 To generate types, we need an org with as many features enabled as possible, otherwise certain SObjects will not be available. `config/org-all.json` can be used for a scratch org. This may need changing if/when [the features list](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs_def_file_config_values.htm) has new additions.
 
@@ -60,10 +60,12 @@ To generate types, we need an org with as many features enabled as possible, oth
 
 #### Arguments
 
-* `sf.user` - Must be full username e.g. `test-xx@example.com`.
-* `sf.password` - For scratch org, `sf org generate password -o username`. You may also need to append a [security token](https://help.salesforce.com/s/articleView?id=xcloud.user_security_token.htm).
-* `sf.instance` (Optional) - Defaults to `test` for scratch org (sandbox). Use `login` for other org types.
-* `sf.apiVersion` (Optional) - Override current api version e.g. `62.0`
+| Key | Description |
+| --- | --- |
+| `sf.user` | Must be full username e.g. `test-xx@example.com`. |
+| `sf.password` | For scratch org, `sf org generate password -o username`. You may also need to append a [security token](https://help.salesforce.com/s/articleView?id=xcloud.user_security_token.htm). |
+| `sf.instance` (Optional) | Defaults to `test` for scratch org (sandbox). Use `login` for other org types. |
+| `sf.apiVersion` (Optional) | Override current api version e.g. `62.0` |
 
 #### Debugging
 
@@ -71,17 +73,17 @@ You can also create an `Application` Run/Debug configuration in Intellij to run 
 
 ### Resolving File Differences
 
-After generating the types, they need merging into the existing src structure which contains manual edits.
+After generating the types, they need merging into the existing src structure. It contains manual edits so cannot simply be overwritten.
 
-Use a diff tool to move content across. For example, Intellij has `Compare With...` which can be run on `generated` and `SObjects` directories.
+Use a diff tool to move content across. For example, Intellij has `Compare With...` which can be run on `generated/` and `SObjects/` directories.
 
-In `generated` dir, to quickly copy new files across:
+In the `generated/` dir, to quickly copy newly added files across:
 
 ```sh
 diff -r ../src/main/java/com/nawforce/runforce/SObjects ./ | sed -n 's/Only in \.\/\{0,1\}: \(.*\)/\1/p' | xargs -I {} cp {} ../src/main/java/com/nawforce/runforce/SObjects
 ```
 
-To verify additions were not missed, print them to `!diff.txt` file (ignoring copyright):
+To verify new fields to existing objects were not missed, print them to `!diff.txt` file (ignoring copyright):
 
 ```sh
 diff -rub -I 'Copyright' ../src/main/java/com/nawforce/runforce/SObjects ./ | grep -E "^\+.[^\*]" | grep -v '+++ b/' > '!diff.txt'
