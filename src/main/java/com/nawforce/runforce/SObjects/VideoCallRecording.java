@@ -25,6 +25,7 @@ public class VideoCallRecording extends SObject {
 	public Datetime EndDateTime;
 	public Datetime ExpirationDateTime;
 	public String ExternalRecordingKey;
+	public String ExternalRecordingKeyLong;
 	public Long FileSizeInByte;
 	public String FileType;
 	public Id Id;
@@ -40,6 +41,8 @@ public class VideoCallRecording extends SObject {
 	public Id VideoCallRecordId;
 	public VideoCall VideoCallRecord;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

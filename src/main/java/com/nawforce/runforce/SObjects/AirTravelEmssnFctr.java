@@ -62,6 +62,8 @@ public class AirTravelEmssnFctr extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AirTravelEnrgyUse[] AirTravelEnergyUse;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public Scope3EmssnSrc[] ChildAssetsAirTravelEmssnFctr;

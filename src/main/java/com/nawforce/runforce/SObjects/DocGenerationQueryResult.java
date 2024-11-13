@@ -32,9 +32,13 @@ public class DocGenerationQueryResult extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id ReportFolderId;
+	public Folder ReportFolder;
 	public Datetime RunDateTime;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

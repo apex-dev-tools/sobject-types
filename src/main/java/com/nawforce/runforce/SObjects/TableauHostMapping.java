@@ -32,6 +32,8 @@ public class TableauHostMapping extends SObject {
 	public Datetime SystemModstamp;
 	public String UrlMatch;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

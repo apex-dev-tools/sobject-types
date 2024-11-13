@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -49,6 +50,7 @@ public class MemberPlan extends SObject {
 	public PurchaserPlan Plan;
 	public String PrimaryCarePhysician;
 	public String PrimarySecondaryTertiary;
+	public Integer PriorityOrder;
 	public String RelationshipToSubscriber;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
@@ -61,6 +63,8 @@ public class MemberPlan extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CarePreauth[] CarePreauths;

@@ -50,6 +50,8 @@ public class CollaborationGroup extends SObject {
 	public String SmallPhotoUrl;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public LightningOnboardingConfig[] ChatterGroup;
 	public CollaborationGroupRecord[] CollaborationGroupRecords;

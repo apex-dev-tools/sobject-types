@@ -54,10 +54,13 @@ public class InvoiceLine extends SObject {
 	public String TaxCode;
 	public Date TaxEffectiveDate;
 	public String TaxName;
+	public String TaxProcessingStatus;
 	public Decimal TaxRate;
 	public String Type;
 	public Decimal UnitPrice;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

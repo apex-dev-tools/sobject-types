@@ -37,6 +37,8 @@ public class CareTaskDetail extends SObject {
 	public String Name;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

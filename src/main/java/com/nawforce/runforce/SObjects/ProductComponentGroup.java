@@ -34,6 +34,8 @@ public class ProductComponentGroup extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id ParentGroupId;
+	public ProductComponentGroup ParentGroup;
 	public Id ParentProductId;
 	public Product2 ParentProduct;
 	public Integer Sequence;
@@ -41,6 +43,8 @@ public class ProductComponentGroup extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
@@ -59,6 +63,7 @@ public class ProductComponentGroup extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public ProductComponentGroup[] ParentProductComponentGroups;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductComponentGrpOverride[] ProductComponentGroupOverrides;

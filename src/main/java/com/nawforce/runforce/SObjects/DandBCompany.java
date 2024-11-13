@@ -144,6 +144,8 @@ public class DandBCompany extends SObject {
 	public String YearStarted;
 
 	public Account[] Accounts;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public Lead[] Leads;
 

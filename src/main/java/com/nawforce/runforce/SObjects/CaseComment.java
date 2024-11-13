@@ -30,6 +30,8 @@ public class CaseComment extends SObject {
 	public Case Parent;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 
 	public CaseComment clone$() {throw new java.lang.UnsupportedOperationException();}

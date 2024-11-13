@@ -33,6 +33,8 @@ public class WaitlistWorkType extends SObject {
 	public Id WorkTypeId;
 	public WorkType WorkType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

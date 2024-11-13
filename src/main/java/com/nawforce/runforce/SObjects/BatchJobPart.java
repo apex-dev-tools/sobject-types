@@ -41,6 +41,8 @@ public class BatchJobPart extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public BatchJobPartFailedRecord[] BatchJobPart;
 	public BatchJobPart[] ChildBatchJobParts;

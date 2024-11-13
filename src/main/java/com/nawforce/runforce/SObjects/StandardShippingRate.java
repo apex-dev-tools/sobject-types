@@ -38,7 +38,10 @@ public class StandardShippingRate extends SObject {
 	public Integer TransitTimeMax;
 	public Integer TransitTimeMin;
 	public String TransitTimeUnit;
+	public String WeightUnit;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

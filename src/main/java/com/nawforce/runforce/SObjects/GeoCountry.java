@@ -32,6 +32,8 @@ public class GeoCountry extends SObject {
 	public Name Owner;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public ContactProfile[] BirthCountryName;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;

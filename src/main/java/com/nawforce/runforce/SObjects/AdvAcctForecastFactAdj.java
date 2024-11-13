@@ -38,6 +38,8 @@ public class AdvAcctForecastFactAdj extends SObject {
 	public Datetime SystemModstamp;
 	public Decimal UpdatedValue;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

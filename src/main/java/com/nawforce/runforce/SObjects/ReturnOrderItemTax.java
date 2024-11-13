@@ -38,6 +38,8 @@ public class ReturnOrderItemTax extends SObject {
 	public Date TaxEffectiveDate;
 	public String Type;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

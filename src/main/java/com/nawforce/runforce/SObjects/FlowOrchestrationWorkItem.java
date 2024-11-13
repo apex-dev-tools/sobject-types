@@ -41,6 +41,7 @@ public class FlowOrchestrationWorkItem extends SObject {
 	public FlowOrchestrationStepInstance StepInstance;
 	public Datetime SystemModstamp;
 
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public FlowOrchestrationWorkItemShare[] Shares;

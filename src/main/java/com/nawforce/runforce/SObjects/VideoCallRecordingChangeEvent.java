@@ -26,6 +26,7 @@ public class VideoCallRecordingChangeEvent extends SObject {
 	public Datetime EndDateTime;
 	public Datetime ExpirationDateTime;
 	public String ExternalRecordingKey;
+	public String ExternalRecordingKeyLong;
 	public Long FileSizeInByte;
 	public String FileType;
 	public Id Id;

@@ -81,6 +81,7 @@ public class MessagingSession extends SObject {
 	public MessagingSessionFeed[] Feeds;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MessagingSessionHistory[] Histories;
+	public MessagingSessionMetrics[] MessagingSessionMetricsAgg;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

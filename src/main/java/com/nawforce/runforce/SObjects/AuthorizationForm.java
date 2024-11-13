@@ -36,6 +36,8 @@ public class AuthorizationForm extends SObject {
 	public String RevisionNumber;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AuthorizationFormText[] AuthorizationForms;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AuthorizationFormHistory[] Histories;

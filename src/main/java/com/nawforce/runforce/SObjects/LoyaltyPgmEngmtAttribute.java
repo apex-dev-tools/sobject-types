@@ -42,6 +42,8 @@ public class LoyaltyPgmEngmtAttribute extends SObject {
 	public String TargetValue;
 	public String ValueResetFrequency;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyPgmEngmtAttributeHistory[] Histories;
 	public LoyaltyPgmMbrAttributeVal[] LoyaltyPgmEngagementAttributes;

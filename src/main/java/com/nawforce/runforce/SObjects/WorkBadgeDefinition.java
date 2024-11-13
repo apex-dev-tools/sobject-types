@@ -45,6 +45,8 @@ public class WorkBadgeDefinition extends SObject {
 	public WorkRewardFund RewardFund;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public WorkBadge[] Badges;
 	public CombinedAttachment[] CombinedAttachments;

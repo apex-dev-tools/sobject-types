@@ -74,6 +74,8 @@ public class ClinicalEncounter extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AllergyIntolerance[] Allergy_Intolerance_ClinicalEncounter;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public ClinicalEncounter[] CE_RelatedClinicalEncounter;
 	public CareObservation[] CareObservation_ClinicalEncounter;

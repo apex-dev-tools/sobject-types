@@ -41,6 +41,8 @@ public class RecurrenceSchedule extends SObject {
 	public Datetime SystemModstamp;
 	public Integer TotalRecurrencesCount;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

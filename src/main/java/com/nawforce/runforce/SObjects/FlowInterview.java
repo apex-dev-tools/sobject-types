@@ -19,6 +19,9 @@ public class FlowInterview extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrentElement;
+	public String CurrentFlowVersion;
+	public String EngineType;
+	public String Error;
 	public String FlowVersionViewId;
 	public String Guid;
 	public Id Id;
@@ -28,6 +31,7 @@ public class FlowInterview extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String MasterFlowVersion;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
@@ -35,6 +39,7 @@ public class FlowInterview extends SObject {
 	public Datetime SystemModstamp;
 	public Boolean WasPausedFromScreen;
 
+	public DynamicDataCapture[] DynamicDataCaptures;
 	public RecordAction[] RecordActions;
 	public FlowRecordRelation[] RecordRelations;
 	public FlowInterviewShare[] Shares;

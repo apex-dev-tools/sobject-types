@@ -40,6 +40,8 @@ public class ProductCategory extends SObject {
 	public Datetime SystemModstamp;
 
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public ProductCategory[] ChildCategories;
 	public CombinedAttachment[] CombinedAttachments;
@@ -52,6 +54,7 @@ public class ProductCategory extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ProductCategoryHistory[] Histories;
+	public ContractItemPrice[] Items;
 	public LoyaltyPartnerProduct[] LoyaltyPartnerProductCategory;
 	public LoyaltyPartnerProduct[] LoyaltyPartnerProducts;
 	public PromotionLoyaltyPtnrProdt[] LoyaltyPromotionProductCategory;

@@ -38,7 +38,7 @@ public class AuthorizationFormConsentChangeEvent extends SObject {
 	public Id OwnerId;
 	public User Owner;
 	public Id RelatedRecordId;
-	public Account RelatedRecord;
+	public SObject RelatedRecord;
 	public String ReplayId;
 	public String Status;
 

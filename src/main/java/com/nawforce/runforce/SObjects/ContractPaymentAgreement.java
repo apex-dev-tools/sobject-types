@@ -45,6 +45,8 @@ public class ContractPaymentAgreement extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public BundledCareFeeAgreement[] Bundled_Care_Fee_Agreements;
 	public CapitationCareFeeAgreement[] CapitationCareFeeAgreements;

@@ -33,6 +33,8 @@ public class ProductTransferState extends SObject {
 	public Datetime SystemModstamp;
 	public String TransferState;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProductTransferStateHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

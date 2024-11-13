@@ -43,6 +43,8 @@ public class WebCartAdjustmentGroup extends SObject {
 	public Decimal TotalAmount;
 	public Decimal TotalAmountWithTax;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

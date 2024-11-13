@@ -80,6 +80,7 @@ public class FieldServiceMobileSettings extends SObject {
 	public Integer UpdateScheduleTimeMins;
 
 	public AppExtension[] AppExtensions;
+	public FieldSvcAddlMobSettings[] FieldSvcAddlMobSettingses;
 	public MobileSettingsAssignment[] MobileSettingsAssignments;
 
 	public FieldServiceMobileSettings clone$() {throw new java.lang.UnsupportedOperationException();}

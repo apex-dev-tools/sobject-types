@@ -42,6 +42,7 @@ public class CalculationMatrixColumn extends SObject {
 	public CalcMatrixColumnRange[] CalcMatrixColumnRanges;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public PricingProcedureOutputMap[] DecisionOutputColumn;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public CalculationMatrixColumnFeed[] Feeds;

@@ -34,6 +34,8 @@ public class SetupDataSynchronization extends SObject {
 	public Datetime SystemModstamp;
 	public String TargetRecordType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

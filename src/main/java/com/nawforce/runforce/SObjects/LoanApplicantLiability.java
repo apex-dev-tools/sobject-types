@@ -34,6 +34,8 @@ public class LoanApplicantLiability extends SObject {
 	public String Role;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoanApplicantLiabilityHistory[] Histories;
 

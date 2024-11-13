@@ -40,6 +40,8 @@ public class InventoryReservation extends SObject {
 	public WebCart ReservationSource;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public InventoryItemReservation[] InventoryItemReservations;
 	public ProcessInstance[] ProcessInstances;

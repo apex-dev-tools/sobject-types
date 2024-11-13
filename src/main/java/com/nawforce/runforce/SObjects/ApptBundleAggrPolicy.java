@@ -48,6 +48,8 @@ public class ApptBundleAggrPolicy extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public ApptBundleAggrDurDnscale[] ApptBundleAggrDurDnscales;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;

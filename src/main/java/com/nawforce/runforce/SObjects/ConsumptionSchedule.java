@@ -41,6 +41,8 @@ public class ConsumptionSchedule extends SObject {
 	public String Type;
 	public String UnitOfMeasure;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ConsumptionRate[] ConsumptionRates;

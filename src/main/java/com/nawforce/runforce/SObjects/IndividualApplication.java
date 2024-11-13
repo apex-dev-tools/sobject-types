@@ -75,6 +75,8 @@ public class IndividualApplication extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public PublicApplicationParticipant[] Applications;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public AuthApplicationAsset[] AuthRegApplication;

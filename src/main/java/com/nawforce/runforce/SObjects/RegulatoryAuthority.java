@@ -22,6 +22,7 @@ public class RegulatoryAuthority extends SObject {
 	public String Description;
 	public Id Id;
 	public Boolean IsDeleted;
+	public String JurisdictionRegion;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -34,6 +35,8 @@ public class RegulatoryAuthority extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

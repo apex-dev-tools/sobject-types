@@ -27,11 +27,14 @@ public class VoucherDefinition extends SObject {
 	public String Description;
 	public Integer DiscountPercent;
 	public Date EffectiveDate;
+	public Datetime EffectiveDateTime;
 	public Date ExpirationDate;
+	public Datetime ExpirationDateTime;
 	public Integer ExpirationPeriod;
 	public String ExpirationPeriodUnit;
 	public String ExpirationType;
 	public Decimal FaceValue;
+	public Boolean HasTimeBasedVoucherPeriod;
 	public Id Id;
 	public String ImageUrl;
 	public Boolean IsActive;
@@ -58,6 +61,8 @@ public class VoucherDefinition extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

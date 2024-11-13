@@ -63,6 +63,8 @@ public class CareTask extends SObject {
 	public Id TaskId;
 	public Task Task;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CareTaskDetail[] CareTaskDetailCareTask;

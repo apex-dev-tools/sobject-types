@@ -28,6 +28,8 @@ public class Topic extends SObject {
 	public Datetime SystemModstamp;
 	public Integer TalkingAbout;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public CustomBrand[] CustomBrands;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;

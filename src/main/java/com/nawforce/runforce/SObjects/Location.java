@@ -23,9 +23,14 @@ public class Location extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Time DefaultPickupTime;
+	public Integer DefaultProcessingTime;
+	public String DefaultProcessingTimeUnit;
 	public String Description;
 	public String DrivingDirections;
 	public String ExternalReference;
+	public Id FulfillingBusinessHoursId;
+	public BusinessHours FulfillingBusinessHours;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsInventoryLocation;
@@ -62,6 +67,8 @@ public class Location extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public Address[] Addresses;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public Entitlement[] AssetWarranties;
 	public Asset[] Assets;
 	public AssociatedLocation[] AssociatedLocations;
@@ -97,6 +104,7 @@ public class Location extends SObject {
 	public HealthcareFacility[] HealthcareFacilityLoc;
 	public LocationHistory[] Histories;
 	public InventoryItemReservation[] InventoryItemReservations;
+	public LocationShippingCarrierMethod[] LocationShippingCarrierMethods;
 	public LocationGroupAssignment[] Locations;
 	public MaintenancePlan[] MaintenancePlans;
 	public MedicationTherapyReview[] MedTherapyReview_SurrogateLocations;

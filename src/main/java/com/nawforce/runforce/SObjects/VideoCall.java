@@ -16,6 +16,9 @@ public class VideoCall extends SObject {
 	public static SObjectType$<VideoCall> SObjectType;
 	public static SObjectFields$<VideoCall> Fields;
 
+	public Datetime AcceptanceTimeStamp;
+	public Id ConsentedUserId;
+	public User ConsentedUser;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -52,6 +55,8 @@ public class VideoCall extends SObject {
 	public String VendorMeetingUuid;
 	public String VendorName;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

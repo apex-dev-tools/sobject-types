@@ -21,6 +21,7 @@ public class FlowRecordVersionChangeEvent extends SObject {
 	public Datetime ActivatedDate;
 	public Decimal ApiVersion;
 	public String Builder;
+	public String CapacityCategory;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;

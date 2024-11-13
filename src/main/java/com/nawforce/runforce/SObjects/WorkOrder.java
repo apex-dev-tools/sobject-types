@@ -71,7 +71,9 @@ public class WorkOrder extends SObject {
 	public Name Owner;
 	public Id ParentWorkOrderId;
 	public WorkOrder ParentWorkOrder;
+	public String PostWorkSummary;
 	public String PostalCode;
+	public String PreWorkBriefPromptTemplate;
 	public Id Pricebook2Id;
 	public Pricebook2 Pricebook2;
 	public String Priority;
@@ -115,6 +117,8 @@ public class WorkOrder extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public WorkOrder[] ChildWorkOrders;
@@ -126,6 +130,7 @@ public class WorkOrder extends SObject {
 	public DigitalSignature[] DigitalSignatures;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
+	public DynamicDataCapture[] DynamicDataCaptures;
 	public EmailMessage[] Emails;
 	public EntityMilestone[] EntityMilestones;
 	public EventRelation[] EventRelations;

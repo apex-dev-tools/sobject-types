@@ -64,6 +64,8 @@ public class Visit extends SObject {
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssessmentTask[] AssessmentTasks;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;

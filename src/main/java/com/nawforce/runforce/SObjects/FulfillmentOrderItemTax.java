@@ -38,6 +38,8 @@ public class FulfillmentOrderItemTax extends SObject {
 	public Date TaxEffectiveDate;
 	public String Type;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

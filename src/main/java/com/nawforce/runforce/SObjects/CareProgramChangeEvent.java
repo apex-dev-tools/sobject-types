@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -22,6 +23,7 @@ public class CareProgramChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Integer CurrentEnrolleeCount;
 	public String Description;
 	public Date EndDate;
 	public Id Id;
@@ -40,6 +42,7 @@ public class CareProgramChangeEvent extends SObject {
 	public Account Sponsor;
 	public Date StartDate;
 	public String Status;
+	public Integer TargetEnrolleeCount;
 
 	public CareProgramChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CareProgramChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

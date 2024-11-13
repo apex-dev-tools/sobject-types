@@ -35,6 +35,8 @@ public class LocationGroup extends SObject {
 	public Boolean ShouldSyncWithOci;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -47,6 +49,7 @@ public class LocationGroup extends SObject {
 	public InventoryItemReservation[] InventoryItemReservations;
 	public LocationGroupAssignment[] LocationGroups;
 	public NetworkActivityAudit[] ParentEntities;
+	public LocationShippingCarrierMethod[] LocationShippingCarrierMethods;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public LocationGroupShare[] Shares;

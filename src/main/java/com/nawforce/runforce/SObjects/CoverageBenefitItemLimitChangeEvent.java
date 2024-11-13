@@ -16,7 +16,13 @@ public class CoverageBenefitItemLimitChangeEvent extends SObject {
 	public static SObjectFields$<CoverageBenefitItemLimitChangeEvent> Fields;
 
 	public String AllowedLimit;
+	public Decimal AllowedQuantity;
+	public Id AllowedQuantityUnitId;
+	public UnitOfMeasure AllowedQuantityUnit;
 	public String AppliedLimit;
+	public Decimal AppliedQuantity;
+	public Id AppliedQuantityUnitId;
+	public UnitOfMeasure AppliedQuantityUnit;
 	public Id CareLimitTypeId;
 	public CareLimitType CareLimitType;
 	public Object ChangeEventHeader;

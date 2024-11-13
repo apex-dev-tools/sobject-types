@@ -19,6 +19,8 @@ public class AlternativePaymentMethod extends SObject {
 	public Account Account;
 	public String AlternativePaymentMethodNumber;
 	public String AuditEmail;
+	public String BankAccountHolderType;
+	public String BankAccountType;
 	public String BillingFirstName;
 	public String BillingLastName;
 	public String BillingName;
@@ -61,6 +63,7 @@ public class AlternativePaymentMethod extends SObject {
 	public String PaymentMethodType;
 	public String Phone;
 	public String ProcessingMode;
+	public String StandardEntryClassCode;
 	public String Status;
 	public Datetime SystemModstamp;
 

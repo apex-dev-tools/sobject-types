@@ -24,9 +24,14 @@ public class LocationChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Time DefaultPickupTime;
+	public Integer DefaultProcessingTime;
+	public String DefaultProcessingTimeUnit;
 	public String Description;
 	public String DrivingDirections;
 	public String ExternalReference;
+	public Id FulfillingBusinessHoursId;
+	public BusinessHours FulfillingBusinessHours;
 	public Id Id;
 	public Boolean IsInventoryLocation;
 	public Boolean IsMobile;

@@ -101,6 +101,8 @@ public class WorkOrderLineItem extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssetActionSource[] AssetActionSourceReferences;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
@@ -112,6 +114,7 @@ public class WorkOrderLineItem extends SObject {
 	public DigitalSignature[] DigitalSignatures;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
+	public DynamicDataCapture[] DynamicDataCaptures;
 	public EmailMessage[] Emails;
 	public EventRelation[] EventRelations;
 	public Event[] Events;

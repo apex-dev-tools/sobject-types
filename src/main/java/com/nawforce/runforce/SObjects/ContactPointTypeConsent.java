@@ -48,6 +48,8 @@ public class ContactPointTypeConsent extends SObject {
 	public String PrivacyConsentStatus;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ContactPointTypeConsentHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

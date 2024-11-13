@@ -63,6 +63,8 @@ public class CodeSetBundle extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public ClinicalServiceRequest[] BodySites;
 	public BundledCareFeeAgreement[] Bundled_Care_Fee_Agreement_Procedures;
 	public ClinicalDetectedIssueDetail[] CDetectedIssueDetailCodes;
@@ -75,11 +77,13 @@ public class CodeSetBundle extends SObject {
 	public CareTask[] CareTaskActionCodes;
 	public CareTaskDetail[] CareTaskDetailDetailCode;
 	public CareTask[] CareTaskProcessStatus;
+	public CareBenefitVerifyRequest[] Care_Benefit_Verify_Requests_PrescriptionMedication;
 	public ClinicalServiceRequest[] Categorys;
 	public ClinicalDetectedIssue[] ClinicalDetectedIssue_CategoryCodes;
 	public ClinicalEncounterFacility[] Clinical_Encounter_FacilityType;
 	public ClinicalServiceRequest[] Clinical_Service_Requests1;
 	public HierCondHlthCodeMapping[] ConditionCodes;
+	public CareProgramDetail[] DetailRecords;
 	public ClinicalServiceRequest[] FacilityCodes;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public HealthcareServiceDetail[] HcServiceDetailCodes;

@@ -48,6 +48,8 @@ public class UserProvisioningRequest extends SObject {
 	public Id UserProvConfigId;
 	public UserProvisioningConfig UserProvConfig;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

@@ -37,6 +37,8 @@ public class LoyaltyProgramMemberBadge extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyProgramMemberBadgeHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

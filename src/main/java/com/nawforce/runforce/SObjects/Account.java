@@ -155,6 +155,7 @@ public class Account extends SObject {
 	public AccountAccountRelation[] AARAccounts;
 	public AccountAccountRelation[] AARRelatedAccounts;
 	public LoyaltyPgmGroupMbrRlnsp[] Acc_LoyaltyPgmGroupMbrRlnsps;
+	public Applicant[] AccountApplicants;
 	public CareProgramEnrollee[] AccountCareProgramEnrollees;
 	public CareProgramTeamMember[] AccountCareProgramTeamMembers;
 	public AccountCleanInfo[] AccountCleanInfos;
@@ -176,7 +177,10 @@ public class Account extends SObject {
 	public AllergyIntolerance[] Allergy_Intolerance_Patients;
 	public AlternativePaymentMethod[] AlternativePaymentMethods;
 	public AntiCorruptionInitSum[] AntiCorruptionInitSumSubsidiaryAccount;
+	public ApplicationForm[] ApplicationForms;
 	public CareRequest[] AppointedRepresentativeCareRequests;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public PatientMedicalProcedure[] AsserterRecEntities;
 	public AssetAccountParticipant[] AssetAccountParticipantAccount;
 	public Asset[] Assets;
@@ -376,6 +380,7 @@ public class Account extends SObject {
 	public Asset[] PersonAssets;
 	public Award[] PersonAwards;
 	public BoardCertification[] PersonBoardCertifications;
+	public Applicant[] PersonBusinessContactApplicants;
 	public BusinessLicense[] PersonBusinessLicenses;
 	public ClaimParticipant[] PersonCPContacts;
 	public CampaignMember[] PersonCampaignMembers;
@@ -384,6 +389,7 @@ public class Account extends SObject {
 	public CaseContactRole[] PersonCaseContactRoles;
 	public Case[] PersonCases;
 	public LoyaltyPgmGroupMbrRlnsp[] PersonCon_LoyaltyPgmGroupMbrRlnsps;
+	public Applicant[] PersonContactApplicants;
 	public ContactCleanInfo[] PersonContactCleanInfos;
 	public ContactEncounterParticipant[] PersonContactEncounterParticipants;
 	public PartyProfile[] PersonContactPartyProfiles;
@@ -517,6 +523,7 @@ public class Account extends SObject {
 	public User[] Users;
 	public VideoCall[] VideoRelatedRecords;
 	public Visit[] Visits;
+	public Voucher[] VoucherAccount;
 	public WaitlistParticipant[] WaitlistParticipants;
 	public WorkOrder[] WorkOrders;
 	public WorkPlanSelectionRule[] WorkPlanSelectionRules;

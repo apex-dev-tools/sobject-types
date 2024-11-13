@@ -54,6 +54,8 @@ public class AssetAction extends SObject {
 	public Decimal TotalUpsellsAmount;
 	public String Type;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssetActionSource[] AssetActionSources;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;

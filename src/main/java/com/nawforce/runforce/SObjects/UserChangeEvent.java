@@ -107,8 +107,11 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPermissionsSiteforcePublisherUser;
 	public Boolean UserPermissionsSupportUser;
 	public Boolean UserPermissionsWorkDotComUserFeature;
+	public Boolean UserPreferencesActionLauncherEinsteinGptConsent;
 	public Boolean UserPreferencesActivityRemindersPopup;
 	public Boolean UserPreferencesApexPagesDeveloperMode;
+	public Boolean UserPreferencesAssistiveActionsEnabledInActionLauncher;
+	public Boolean UserPreferencesBRELookupTableWelcomeMat;
 	public Boolean UserPreferencesCacheDiagnostics;
 	public Boolean UserPreferencesContentEmailAsAndWhen;
 	public Boolean UserPreferencesContentNoEmail;

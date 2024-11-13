@@ -57,6 +57,8 @@ public class SocialPersona extends SObject {
 	public Datetime SystemModstamp;
 	public String TopicType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public SocialPersonaHistory[] Histories;
 	public SocialPost[] Posts;

@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -22,6 +23,7 @@ public class CartItemChangeEvent extends SObject {
 	public Id CartId;
 	public WebCart Cart;
 	public Object ChangeEventHeader;
+	public Integer ChildProductCount;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -38,12 +40,20 @@ public class CartItemChangeEvent extends SObject {
 	public Decimal ListPrice;
 	public String Name;
 	public Decimal NetUnitPrice;
+	public Id ParentCartItemId;
+	public CartItem ParentCartItem;
+	public Decimal PerUnitWeight;
 	public Id Product2Id;
 	public Product2 Product2;
+	public String ProductClass;
+	public Id ProductRelatedComponentId;
+	public ProductRelatedComponent ProductRelatedComponent;
+	public String ProductValidationKey;
 	public Decimal Quantity;
 	public String ReplayId;
 	public Decimal SalesPrice;
 	public String Sku;
+	public String StockCheckMethod;
 	public Decimal TotalAdjustmentAmount;
 	public Decimal TotalLineAmount;
 	public Decimal TotalLineTaxAmount;
@@ -51,11 +61,13 @@ public class CartItemChangeEvent extends SObject {
 	public Decimal TotalPrice;
 	public Decimal TotalPriceAfterAllAdjustments;
 	public Decimal TotalPromoAdjustmentAmount;
+	public Decimal TotalWeight;
 	public String Type;
 	public Decimal UnitAdjustedPrice;
 	public Decimal UnitAdjustedPriceWithItemAdj;
 	public Decimal UnitAdjustmentAmount;
 	public Decimal UnitItemAdjustmentAmount;
+	public String WeightUnit;
 
 	public CartItemChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CartItemChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

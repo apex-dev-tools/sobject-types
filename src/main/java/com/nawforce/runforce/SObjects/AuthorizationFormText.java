@@ -36,6 +36,8 @@ public class AuthorizationFormText extends SObject {
 	public String SummaryAuthFormText;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public AuthorizationFormConsent[] AuthorizationFormConsents;
 	public CombinedAttachment[] CombinedAttachments;

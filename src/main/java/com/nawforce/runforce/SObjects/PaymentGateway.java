@@ -19,6 +19,7 @@ public class PaymentGateway extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DefaultTapToPayLocation;
 	public String ExternalReference;
 	public Id Id;
 	public Boolean IsDeleted;

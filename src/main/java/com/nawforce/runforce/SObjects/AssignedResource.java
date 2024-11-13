@@ -37,9 +37,12 @@ public class AssignedResource extends SObject {
 	public Id ServiceResourceId;
 	public ServiceResource ServiceResource;
 	public Datetime SystemModstamp;
+	public String Transaction;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

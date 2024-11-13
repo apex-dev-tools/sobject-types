@@ -53,6 +53,8 @@ public class Scope3EmssnSrc extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AirTravelEnrgyUse[] AirTravelEnergyUses;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public Scope3EmssnSrc[] ChildAssets;

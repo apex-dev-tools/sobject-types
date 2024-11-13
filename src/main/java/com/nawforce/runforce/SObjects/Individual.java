@@ -56,6 +56,8 @@ public class Individual extends SObject {
 	public Datetime SystemModstamp;
 	public String Website;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AuthorizationFormConsent[] AuthorizationFormConsents;
 	public CommSubscriptionConsent[] CommSubscriptionConsents;
 	public ContactPointAddress[] ContactPointAddresses;

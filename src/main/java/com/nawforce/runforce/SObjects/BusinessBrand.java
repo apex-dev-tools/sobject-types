@@ -33,6 +33,8 @@ public class BusinessBrand extends SObject {
 	public BusinessBrand Parent;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public BusinessBrand[] ChildBUs;
 	public CommSubscriptionConsent[] CommSubsConsents;
 	public ContactPointConsent[] ContactPointConsents;

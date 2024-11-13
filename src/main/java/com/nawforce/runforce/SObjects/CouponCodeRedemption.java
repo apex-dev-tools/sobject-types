@@ -32,6 +32,8 @@ public class CouponCodeRedemption extends SObject {
 	public Datetime SystemModstamp;
 	public String Transaction;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

@@ -37,6 +37,7 @@ public class AssignedResourceChangeEvent extends SObject {
 	public ServiceCrew ServiceCrew;
 	public Id ServiceResourceId;
 	public ServiceResource ServiceResource;
+	public String Transaction;
 
 	public AssignedResourceChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AssignedResourceChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

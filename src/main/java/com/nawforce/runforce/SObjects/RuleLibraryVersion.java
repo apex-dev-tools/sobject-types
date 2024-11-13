@@ -16,6 +16,7 @@ public class RuleLibraryVersion extends SObject {
 	public static SObjectType$<RuleLibraryVersion> SObjectType;
 	public static SObjectFields$<RuleLibraryVersion> Fields;
 
+	public String ApiName;
 	public Id CloneSourceRuleLibVerId;
 	public RuleLibraryVersion CloneSourceRuleLibVer;
 	public String ContextDefinitionName;

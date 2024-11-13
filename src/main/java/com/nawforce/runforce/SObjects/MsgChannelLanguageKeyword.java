@@ -31,6 +31,8 @@ public class MsgChannelLanguageKeyword extends SObject {
 	public String MasterLanguage;
 	public Id MessagingChannelId;
 	public MessagingChannel MessagingChannel;
+	public Id MessagingChannelUsageId;
+	public MessagingChannelUsage MessagingChannelUsage;
 	public String OptInConfirmation;
 	public String OptInKeywords;
 	public String OptOutConfirmation;

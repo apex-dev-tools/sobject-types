@@ -24,6 +24,8 @@ public class HealthcareProviderTaxonomyChangeEvent extends SObject {
 	public String CurrencyIsoCode;
 	public Date EffectiveFrom;
 	public Date EffectiveTo;
+	public Id HealthcareProviderId;
+	public HealthcareProvider HealthcareProvider;
 	public Id Id;
 	public Boolean IsActive;
 	public Boolean IsPrimaryTaxonomy;

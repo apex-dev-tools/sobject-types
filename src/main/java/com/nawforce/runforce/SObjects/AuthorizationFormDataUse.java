@@ -34,6 +34,8 @@ public class AuthorizationFormDataUse extends SObject {
 	public Name Owner;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AuthorizationFormDataUseHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

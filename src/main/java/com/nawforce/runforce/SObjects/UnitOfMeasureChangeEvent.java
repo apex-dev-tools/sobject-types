@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -16,6 +17,7 @@ public class UnitOfMeasureChangeEvent extends SObject {
 	public static SObjectFields$<UnitOfMeasureChangeEvent> Fields;
 
 	public Object ChangeEventHeader;
+	public Decimal ConversionFactor;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -29,6 +31,8 @@ public class UnitOfMeasureChangeEvent extends SObject {
 	public Id OwnerId;
 	public User Owner;
 	public String ReplayId;
+	public Integer Sequence;
+	public String Status;
 	public String Type;
 	public String UnitCode;
 

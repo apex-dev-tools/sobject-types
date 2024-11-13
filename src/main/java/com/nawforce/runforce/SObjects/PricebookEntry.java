@@ -23,6 +23,7 @@ public class PricebookEntry extends SObject {
 	public Boolean IsActive;
 	public Boolean IsArchived;
 	public Boolean IsDeleted;
+	public Boolean IsDerived;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -42,6 +43,7 @@ public class PricebookEntry extends SObject {
 	public PricebookEntryHistory[] Histories;
 	public OpportunityLineItem[] OpportunityLineItems;
 	public OrderItem[] OrderItems;
+	public PriceBookEntryDerivedPrice[] PriceBookEntryDerivedPrices;
 	public ProductConsumed[] ProductsConsumed;
 	public QuoteLineItem[] QuoteLineItems;
 	public RecordActionHistory[] RecordActionHistories;

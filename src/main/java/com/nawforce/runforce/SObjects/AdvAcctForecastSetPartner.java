@@ -39,6 +39,8 @@ public class AdvAcctForecastSetPartner extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public AdvAccountForecastFact[] AdvAcctForecastFacts;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

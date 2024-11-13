@@ -33,6 +33,8 @@ public class LoyaltyPgmEngmtAttrProm extends SObject {
 	public Promotion Promotion;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyPgmEngmtAttrPromHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

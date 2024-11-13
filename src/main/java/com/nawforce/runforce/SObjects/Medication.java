@@ -52,8 +52,11 @@ public class Medication extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CareRequestDrug[] CareRequestDrugs;
+	public CareBenefitVerifyRequest[] Care_Benefit_Verify_Requests_PrescriptionMedication;
 	public ClinicalAlert[] ClinicalAlertSubjects;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

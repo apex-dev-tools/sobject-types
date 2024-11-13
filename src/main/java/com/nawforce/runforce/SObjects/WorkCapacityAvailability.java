@@ -40,6 +40,8 @@ public class WorkCapacityAvailability extends SObject {
 	public String WcaUniqueField2;
 	public String WorkCapacityAvailNumber;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

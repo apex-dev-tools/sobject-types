@@ -60,6 +60,8 @@ public class PatientMedicationDosage extends SObject {
 	public Id TimingId;
 	public ActivityTiming Timing;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

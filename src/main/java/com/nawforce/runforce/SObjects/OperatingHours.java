@@ -36,6 +36,8 @@ public class OperatingHours extends SObject {
 
 	public Account[] Accounts;
 	public AppointmentTopicTimeSlot[] AppointmentTopicTimeSlots;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -45,6 +47,7 @@ public class OperatingHours extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public HealthcarePractitionerFacility[] HealthcarePractitionerFacilityOperatingHours;
+	public OperatingHoursHistory[] Histories;
 	public WorkType[] OperatingHours;
 	public OperatingHoursHoliday[] OperatingHoursHolidays;
 	public NetworkActivityAudit[] ParentEntities;

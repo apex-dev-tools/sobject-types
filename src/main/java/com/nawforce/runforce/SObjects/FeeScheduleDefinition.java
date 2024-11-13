@@ -35,6 +35,8 @@ public class FeeScheduleDefinition extends SObject {
 	public Name Owner;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CareFeeScheduleItem[] CareFeeScheduleItems;
 	public CombinedAttachment[] CombinedAttachments;

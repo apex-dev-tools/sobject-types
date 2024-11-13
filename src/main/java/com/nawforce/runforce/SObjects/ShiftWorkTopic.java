@@ -31,6 +31,7 @@ public class ShiftWorkTopic extends SObject {
 	public Datetime LastViewedDate;
 	public Integer MaxAppointments;
 	public String Name;
+	public Integer ServiceAppointmentLimit;
 	public Id ShiftId;
 	public Shift Shift;
 	public Datetime SystemModstamp;
@@ -39,6 +40,8 @@ public class ShiftWorkTopic extends SObject {
 	public Id WorkTypeId;
 	public WorkType WorkType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

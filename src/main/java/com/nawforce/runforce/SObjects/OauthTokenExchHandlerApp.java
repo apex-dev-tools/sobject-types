@@ -23,6 +23,8 @@ public class OauthTokenExchHandlerApp extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public Id ExternalClientApplicationId;
+	public ExternalClientApplication ExternalClientApplication;
 	public Id Id;
 	public Boolean IsDefault;
 	public Boolean IsDeleted;

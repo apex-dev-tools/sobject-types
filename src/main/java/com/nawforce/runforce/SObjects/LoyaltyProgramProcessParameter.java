@@ -41,6 +41,8 @@ public class LoyaltyProgramProcessParameter extends SObject {
 	public String Type;
 	public String Value;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyProgramProcessParameterHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

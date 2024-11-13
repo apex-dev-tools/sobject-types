@@ -46,8 +46,11 @@ public class HealthcareFacility extends SObject {
 	public Datetime SourceSystemModified;
 	public Datetime SystemModstamp;
 
+	public Accreditation[] Accreditations;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public ClinicalEncounter[] CE_DestinationFacility;

@@ -20,6 +20,8 @@ public class CustomPermission extends SObject {
 	public Datetime CreatedDate;
 	public String Description;
 	public String DeveloperName;
+	public Id ExternalClientApplicationId;
+	public ExternalClientApplication ExternalClientApplication;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsLicensed;

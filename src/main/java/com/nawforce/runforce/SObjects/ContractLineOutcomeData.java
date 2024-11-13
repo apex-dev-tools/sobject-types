@@ -35,6 +35,8 @@ public class ContractLineOutcomeData extends SObject {
 	public Datetime SystemModstamp;
 	public Decimal Value;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

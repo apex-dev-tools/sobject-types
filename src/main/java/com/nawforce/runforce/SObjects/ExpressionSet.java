@@ -47,6 +47,7 @@ public class ExpressionSet extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EnrollmentEligibilityCriteria[] EnrollmentCriteria;
 	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public ExpressionSetVersion[] ExpressionSetVersions;

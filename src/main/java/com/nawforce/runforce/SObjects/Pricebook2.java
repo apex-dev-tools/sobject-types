@@ -32,12 +32,16 @@ public class Pricebook2 extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Datetime SystemModstamp;
+	public Datetime ValidFrom;
+	public Datetime ValidTo;
 
 	public AssetWarranty[] AssetWarrantyPricebooks;
+	public PriceAdjustmentSchedule[] AssociatedPricebook;
 	public Contract[] Contracts;
 	public Pricebook2History[] Histories;
 	public Opportunity[] Opportunities;
 	public Order[] Orders;
+	public PriceBookEntryDerivedPrice[] PriceBookEntryDerivedPrices;
 	public WarrantyTerm[] Pricebook2;
 	public PricebookEntry[] PricebookEntries;
 	public Quote[] Quotes;

@@ -76,6 +76,8 @@ public class MedicationDispense extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CarePerformer[] CarePerformerParents;
 	public CombinedAttachment[] CombinedAttachments;

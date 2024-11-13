@@ -36,6 +36,8 @@ public class DataUsePurpose extends SObject {
 	public Name Purpose;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AuthorizationFormDataUse[] AuthorizationFormDataUses;
 	public CommSubscription[] CommSubscriptions;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;

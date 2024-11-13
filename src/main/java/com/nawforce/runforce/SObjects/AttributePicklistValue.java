@@ -40,6 +40,8 @@ public class AttributePicklistValue extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssetAttribute[] AssetAttributes;
 	public AssetStatePeriodAttribute[] AssetStatePeriodAttributes;
 	public AttachedContentDocument[] AttachedContentDocuments;

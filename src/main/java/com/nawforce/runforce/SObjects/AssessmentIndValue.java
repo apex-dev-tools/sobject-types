@@ -35,6 +35,8 @@ public class AssessmentIndValue extends SObject {
 	public InspectionAssessmentInd SourceObject;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AssessmentIndValueHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;

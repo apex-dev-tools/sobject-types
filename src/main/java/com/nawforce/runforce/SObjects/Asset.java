@@ -99,6 +99,8 @@ public class Asset extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AppUsageAssignment[] AppUsageAssignments;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssetAccountParticipant[] AssetAccountParticipantsAsset;
 	public AssetAction[] AssetActions;
 	public AssetAttribute[] AssetAttributes;
@@ -134,6 +136,7 @@ public class Asset extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public AssetHistory[] Histories;
+	public Identifier[] Identifiers;
 	public IncidentRelatedItem[] IncidentRelatedItems;
 	public MaintenanceAsset[] MaintenanceAssets;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;

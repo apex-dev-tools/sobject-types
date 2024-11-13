@@ -17,6 +17,7 @@ public class IntegrationProviderDef extends SObject {
 
 	public Id ApexClassId;
 	public ApexClass ApexClass;
+	public Boolean CanUseInIntegrationOrch;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -29,6 +30,8 @@ public class IntegrationProviderDef extends SObject {
 	public OmniIntegrationProcConfig InputDataProcessor;
 	public Boolean IsActive;
 	public Boolean IsDeleted;
+	public Boolean IsManual;
+	public Boolean IsServiceTypeIntegration;
 	public String JavaClassName;
 	public String Language;
 	public Id LastModifiedById;
@@ -36,12 +39,17 @@ public class IntegrationProviderDef extends SObject {
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
 	public String NamespacePrefix;
+	public Id OmniUiCardConfigId;
+	public OmniUiCardConfig OmniUiCardConfig;
 	public Id OutputDataProcessorId;
 	public OmniIntegrationProcConfig OutputDataProcessor;
+	public String StorePayload;
 	public Datetime SystemModstamp;
 	public String Type;
 
 	public IntegrationProviderAttr[] IntegrationProviderAttrs;
+	public IntegrationProviderDcsnRqmt[] IntegrationProviderDcsnRqmts;
+	public IntegrationProviderExecution[] IntegrationProviderExecutions;
 
 	public IntegrationProviderDef clone$() {throw new java.lang.UnsupportedOperationException();}
 	public IntegrationProviderDef clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

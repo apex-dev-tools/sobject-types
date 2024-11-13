@@ -51,6 +51,8 @@ public class LoyaltyProgramPartner extends SObject {
 	public Decimal RedemptionCostperUnit;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyProgramPartnerHistory[] Histories;
 	public LoyaltyPartnerProduct[] LoyaltyPartnerProducts;

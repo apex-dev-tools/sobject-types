@@ -33,6 +33,8 @@ public class JournalType extends SObject {
 	public String ProcessType;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public JournalTypeHistory[] Histories;
 	public JournalSubType[] JournalSubTypes;

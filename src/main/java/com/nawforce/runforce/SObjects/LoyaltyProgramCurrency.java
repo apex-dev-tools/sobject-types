@@ -43,6 +43,8 @@ public class LoyaltyProgramCurrency extends SObject {
 	public String Name;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public LoyaltyPgmPartnerCurrency[] CurrencyRelationship;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyLedger[] LoyaltyProgramCurrencyLedger;

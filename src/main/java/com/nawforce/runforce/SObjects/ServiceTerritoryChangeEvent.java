@@ -46,6 +46,8 @@ public class ServiceTerritoryChangeEvent extends SObject {
 	public String ReplayId;
 	public Id SchedulingConstraintId;
 	public SchedulingConstraint SchedulingConstraint;
+	public String SelfCheckInUrl;
+	public String ServiceAppointmentLimitType;
 	public String State;
 	public String StateCode;
 	public String Street;
@@ -53,6 +55,7 @@ public class ServiceTerritoryChangeEvent extends SObject {
 	public ServiceTerritory TopLevelTerritory;
 	public Id TravelModeId;
 	public TravelMode TravelMode;
+	public Integer TravelTimeBuffer;
 	public Decimal TypicalInTerritoryTravelTime;
 
 	public ServiceTerritoryChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}

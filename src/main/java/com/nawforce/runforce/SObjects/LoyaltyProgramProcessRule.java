@@ -15,6 +15,8 @@ public class LoyaltyProgramProcessRule extends SObject {
 	public static SObjectType$<LoyaltyProgramProcessRule> SObjectType;
 	public static SObjectFields$<LoyaltyProgramProcessRule> Fields;
 
+	public Id ActiveVersionId;
+	public LoyaltyProgramProcessRuleVersion ActiveVersion;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -28,6 +30,8 @@ public class LoyaltyProgramProcessRule extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Id LatestVersionId;
+	public LoyaltyProgramProcessRuleVersion LatestVersion;
 	public Id LoyaltyProgramProcessId;
 	public LoyaltyProgramProcess LoyaltyProgramProcess;
 	public String Name;
@@ -36,8 +40,11 @@ public class LoyaltyProgramProcessRule extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyProgramProcessRuleHistory[] Histories;
+	public LoyaltyProgramProcessRuleVersion[] LoyaltyProgramProcessRuleVersions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

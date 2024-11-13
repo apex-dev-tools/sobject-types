@@ -22,13 +22,14 @@ public class MLEngagementEvent extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CustomFields;
 	public String Entity;
 	public String EntityType;
 	public String EventIdentifier;
 	public String EventName;
 	public String EventUuid;
 	public String Feature;
-	public Datetime LoggedAt;
+	public String LoggedAt;
 	public String LoggerAppName;
 	public String LoggerName;
 	public String Org;

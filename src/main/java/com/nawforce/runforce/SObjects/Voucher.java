@@ -16,6 +16,8 @@ public class Voucher extends SObject {
 	public static SObjectType$<Voucher> SObjectType;
 	public static SObjectFields$<Voucher> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public Id BenefitId;
 	public Benefit Benefit;
 	public Id ContactId;
@@ -26,7 +28,9 @@ public class Voucher extends SObject {
 	public String CurrencyIsoCode;
 	public Integer DiscountPercent;
 	public Date EffectiveDate;
+	public Datetime EffectiveDateTime;
 	public Date ExpirationDate;
+	public Datetime ExpirationDateTime;
 	public Decimal FaceValue;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -45,6 +49,9 @@ public class Voucher extends SObject {
 	public String Reason;
 	public Decimal RedeemedValue;
 	public Decimal RemainingValue;
+	public String ReservationKey;
+	public Datetime ReservedDateTime;
+	public Decimal ReservedValue;
 	public String Status;
 	public Datetime SystemModstamp;
 	public Id TransactionJournalId;
@@ -54,6 +61,8 @@ public class Voucher extends SObject {
 	public Id VoucherDefinitionId;
 	public VoucherDefinition VoucherDefinition;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public EngagementTopic[] EngagementInitiatedTopic;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public VoucherHistory[] Histories;

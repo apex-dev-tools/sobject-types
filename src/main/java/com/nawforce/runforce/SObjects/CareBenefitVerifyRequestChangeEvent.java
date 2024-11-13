@@ -15,12 +15,18 @@ public class CareBenefitVerifyRequestChangeEvent extends SObject {
 	public static SObjectType$<CareBenefitVerifyRequestChangeEvent> SObjectType;
 	public static SObjectFields$<CareBenefitVerifyRequestChangeEvent> Fields;
 
+	public Id AssignedToId;
+	public User AssignedTo;
 	public Id AuthorizedPrescriptionId;
 	public MedicationRequest AuthorizedPrescription;
 	public Id BenefitCategoryCodeId;
 	public CodeSet BenefitCategoryCode;
 	public Datetime BillablePrdEndDateTime;
 	public Datetime BillablePrdStartDateTime;
+	public Id CareProgramEnrolleeId;
+	public CareProgramEnrollee CareProgramEnrollee;
+	public Id CareProgramId;
+	public CareProgram CareProgram;
 	public Id CaseId;
 	public Case Case;
 	public Object ChangeEventHeader;
@@ -32,6 +38,8 @@ public class CareBenefitVerifyRequestChangeEvent extends SObject {
 	public String CurrencyIsoCode;
 	public String Division;
 	public Id Id;
+	public Decimal InitialFillDuration;
+	public Decimal InitialFillQuantity;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -42,12 +50,18 @@ public class CareBenefitVerifyRequestChangeEvent extends SObject {
 	public MedicationRequest OriginalPrescription;
 	public Id PayerId;
 	public Account Payer;
+	public Id PlanId;
+	public PurchaserPlan Plan;
 	public Id PrescriberId;
 	public HealthcareProvider Prescriber;
+	public Id PrescriptionMedicationId;
+	public SObject PrescriptionMedication;
 	public Id PriorityCodeId;
 	public CodeSet PriorityCode;
 	public Id ProviderId;
 	public SObject Provider;
+	public Id RelatedCareBnftVerifyRequestId;
+	public CareBenefitVerifyRequest RelatedCareBnftVerifyRequest;
 	public String ReplayId;
 	public Datetime RequestDate;
 	public Id RequestedById;

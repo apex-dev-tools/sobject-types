@@ -41,6 +41,8 @@ public class WorkBadge extends SObject {
 	public WorkThanks Source;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 
 	public WorkBadge clone$() {throw new java.lang.UnsupportedOperationException();}

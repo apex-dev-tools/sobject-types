@@ -63,6 +63,7 @@ public class Product2ChangeEvent extends SObject {
 	public String StockKeepingUnit;
 	public String TransferRecordMode;
 	public String Type;
+	public String UsageModelType;
 
 	public Product2ChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Product2ChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

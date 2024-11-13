@@ -16,6 +16,7 @@ public class ManagedContentVariantChangeEvent extends SObject {
 	public static SObjectFields$<ManagedContentVariantChangeEvent> Fields;
 
 	public Object ChangeEventHeader;
+	public String ContentTypeFullyQualifiedName;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

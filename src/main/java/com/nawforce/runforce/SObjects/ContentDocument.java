@@ -33,6 +33,7 @@ public class ContentDocument extends SObject {
 	public Id Id;
 	public Boolean IsArchived;
 	public Boolean IsDeleted;
+	public Boolean IsInternalOnly;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -56,7 +57,9 @@ public class ContentDocument extends SObject {
 	public CareRequestReviewer[] CRRContentDocuments;
 	public ContentDistribution[] ContentDistributions;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContentLink[] ContentLinkReferenceObjectRelation;
 	public ContentVersion[] ContentVersions;
+	public DiagnosticSummary[] DiagnosticSummary_ContentDocument;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentGenerationProcess[] DocGenerationProcessContentDocs;
 	public DocumentTemplateContentDoc[] DocTempContentDocContentDocs;
@@ -66,6 +69,7 @@ public class ContentDocument extends SObject {
 	public HealthcareProvider[] HealthcareProvidersPhoto;
 	public ContentDocumentHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
+	public IntegrationProviderExecution[] IntegrationProviderExecutions;
 	public SearchableReferenceDocument[] SearchableReferenceDocumentContentDocs;
 	public TopicAssignment[] TopicAssignments;
 

@@ -34,6 +34,8 @@ public class SerializedProductTransaction extends SObject {
 	public Datetime SystemModstamp;
 	public String TransactionType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

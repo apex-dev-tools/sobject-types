@@ -34,6 +34,8 @@ public class VideoCallParticipant extends SObject {
 	public Id VideoCallId;
 	public VideoCall VideoCall;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

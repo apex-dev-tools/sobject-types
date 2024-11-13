@@ -32,6 +32,8 @@ public class JournalSubType extends SObject {
 	public String Name;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public JournalSubTypeHistory[] Histories;
 	public TransactionJournal[] JournalSubType;

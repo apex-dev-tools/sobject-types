@@ -28,6 +28,8 @@ public class SecuritiesHolding extends SObject {
 	public Id Id;
 	public Id InsurancePolicyId;
 	public InsurancePolicy InsurancePolicy;
+	public Date InvestmentEndDate;
+	public Date InvestmentStartDate;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -44,12 +46,16 @@ public class SecuritiesHolding extends SObject {
 	public Id PrimaryOwnerId;
 	public Account PrimaryOwner;
 	public Decimal PurchasePrice;
+	public String Sector;
+	public Decimal Shares;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
@@ -70,7 +76,6 @@ public class SecuritiesHolding extends SObject {
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
-	public SecuritiesHoldingShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 

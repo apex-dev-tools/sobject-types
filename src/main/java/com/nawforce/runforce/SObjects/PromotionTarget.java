@@ -43,10 +43,13 @@ public class PromotionTarget extends SObject {
 	public String TargetProductName;
 	public String TargetProductSku;
 	public String TargetRuleCriteriaType;
+	public String TargetStandardShippingRateName;
 	public String TargetType;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

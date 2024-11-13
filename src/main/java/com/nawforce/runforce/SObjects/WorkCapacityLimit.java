@@ -52,6 +52,8 @@ public class WorkCapacityLimit extends SObject {
 	public String TimePeriod;
 	public String WorkCapacityLimitNumber;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

@@ -49,6 +49,8 @@ public class LoyaltyMemberCurrency extends SObject {
 	public Decimal TotalPointsExpired;
 	public Decimal TotalPointsRedeemed;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

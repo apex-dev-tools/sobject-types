@@ -35,6 +35,9 @@ public class AuthProvider extends SObject {
 	public String LogoutUrl;
 	public String OauthKickoffUrl;
 	public Boolean OptionsIncludeOrgIdInId;
+	public Boolean OptionsIsBitbucket;
+	public Boolean OptionsIsEmi;
+	public Boolean OptionsIsEmiSnapchatAds;
 	public Boolean OptionsIsMuleSoftEU;
 	public Boolean OptionsIsMuleSoftUS;
 	public Boolean OptionsIsPkceEnabled;

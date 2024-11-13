@@ -31,6 +31,7 @@ public class DecisionMatrixDefinition extends SObject {
 
 	public DecisionMatrixDefinitionVersion[] DecisionMatrixDef;
 	public CalculationMatrix[] DecisionMatrixDefinition;
+	public PricingRecipeTableMapping[] PricingElementDecisionTables;
 
 	public DecisionMatrixDefinition clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DecisionMatrixDefinition clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

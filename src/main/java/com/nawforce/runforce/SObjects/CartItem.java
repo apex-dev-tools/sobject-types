@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -21,6 +22,7 @@ public class CartItem extends SObject {
 	public CartDeliveryGroup CartDeliveryGroup;
 	public Id CartId;
 	public WebCart Cart;
+	public Integer ChildProductCount;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -40,11 +42,19 @@ public class CartItem extends SObject {
 	public String Name;
 	public Decimal NetAdjustmentAmount;
 	public Decimal NetUnitPrice;
+	public Id ParentCartItemId;
+	public CartItem ParentCartItem;
+	public Decimal PerUnitWeight;
 	public Id Product2Id;
 	public Product2 Product2;
+	public String ProductClass;
+	public Id ProductRelatedComponentId;
+	public ProductRelatedComponent ProductRelatedComponent;
+	public String ProductValidationKey;
 	public Decimal Quantity;
 	public Decimal SalesPrice;
 	public String Sku;
+	public String StockCheckMethod;
 	public Datetime SystemModstamp;
 	public Decimal TotalAdjustmentAmount;
 	public Decimal TotalAmount;
@@ -59,12 +69,16 @@ public class CartItem extends SObject {
 	public Decimal TotalPromoAdjustmentAmount;
 	public Decimal TotalPromoAdjustmentTaxAmount;
 	public Decimal TotalTaxAmount;
+	public Decimal TotalWeight;
 	public String Type;
 	public Decimal UnitAdjustedPrice;
 	public Decimal UnitAdjustedPriceWithItemAdj;
 	public Decimal UnitAdjustmentAmount;
 	public Decimal UnitItemAdjustmentAmount;
+	public String WeightUnit;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public CartItemPriceAdjustment[] CartItemPriceAdjustments;
 	public CartTax[] CartItemTaxes;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;

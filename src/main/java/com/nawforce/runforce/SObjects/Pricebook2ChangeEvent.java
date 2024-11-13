@@ -30,6 +30,8 @@ public class Pricebook2ChangeEvent extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public String ReplayId;
+	public Datetime ValidFrom;
+	public Datetime ValidTo;
 
 	public Pricebook2ChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Pricebook2ChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

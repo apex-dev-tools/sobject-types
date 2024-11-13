@@ -37,6 +37,8 @@ public class ProductSellingModel extends SObject {
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public AttributeBasedAdjustment[] AttributeBasedAdjustments;
+	public BundleBasedAdjustment[] BundleBasedAdjustments;
 	public ProductRelatedComponent[] ChildProductRelatedComponents;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
@@ -54,6 +56,8 @@ public class ProductSellingModel extends SObject {
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public ProductRelatedComponent[] ParentProductRelatedComponents;
+	public PriceAdjustmentTier[] PriceAdjustmentTiers;
+	public PriceBookEntryDerivedPrice[] PriceBookEntryDerivedPrices;
 	public PricebookEntry[] PricebookEntries;
 	public ProductSellingModelOption[] ProductSellingModelOptions;
 	public TaskRelation[] TaskRelations;

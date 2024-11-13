@@ -42,6 +42,8 @@ public class CreditMemoInvApplication extends SObject {
 	public String Type;
 	public Datetime UnappliedDate;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

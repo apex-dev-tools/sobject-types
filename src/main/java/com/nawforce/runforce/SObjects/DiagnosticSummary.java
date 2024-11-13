@@ -27,6 +27,8 @@ public class DiagnosticSummary extends SObject {
 	public ClinicalEncounter ClinicalEncounter;
 	public Id CodeId;
 	public CodeSetBundle Code;
+	public Id ContentDocumentId;
+	public ContentDocument ContentDocument;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -84,6 +86,8 @@ public class DiagnosticSummary extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public ClinicalDetectedIssueDetail[] CDetectedIssueDetailRecords;

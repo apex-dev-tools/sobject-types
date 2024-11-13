@@ -25,12 +25,17 @@ public class PrivacyJobSession extends SObject {
 	public String FailureLog;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsPreview;
+	public String JobManagementType;
+	public String JobPolicyName;
 	public String JobStartType;
 	public String JobStatus;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public Boolean OptionsAcknowledged;
+	public Boolean OptionsPreview;
 	public Boolean OptionsProcessingFailed;
 	public Boolean OptionsTraversalComplete;
 	public Boolean OptionsTraversalFailed;

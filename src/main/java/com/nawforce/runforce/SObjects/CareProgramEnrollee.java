@@ -55,10 +55,14 @@ public class CareProgramEnrollee extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public AuthorizationFormConsent[] AuthorizationFormConsents;
+	public Applicant[] CareProgramEnrolleeApplicants;
 	public CareRegisteredDevice[] CareProgramEnrollees;
+	public CareBenefitVerifyRequest[] Care_Benefit_Verify_Requests_CareProgramEnrollee;
 	public CareProgramEnrolleeProduct[] Care_Program_Enrollee_Products;
 	public CareProgramEnrollmentCard[] Care_Program_Enrollment_Cards;
 	public CombinedAttachment[] CombinedAttachments;

@@ -37,6 +37,8 @@ public class AppointmentScheduleLog extends SObject {
 	public Datetime SystemModstamp;
 	public String UsageType;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

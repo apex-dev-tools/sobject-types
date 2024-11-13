@@ -34,6 +34,7 @@ public class Folder extends SObject {
 
 	public Macro[] MacroFolders;
 	public QuickText[] QuickTextFolders;
+	public DocGenerationQueryResult[] DocGenerationQueryResults;
 	public Folder[] SubFolders;
 
 	public Folder clone$() {throw new java.lang.UnsupportedOperationException();}

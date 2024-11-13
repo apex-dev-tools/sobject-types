@@ -27,6 +27,8 @@ public class BatchJob extends SObject {
 	public String ErrorDescription;
 	public String ExternalReference;
 	public Id Id;
+	public Boolean IsDebugOn;
+	public Boolean IsDebugRecipeDeleted;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -44,6 +46,8 @@ public class BatchJob extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public BatchJobPart[] BatchJobs;
 	public CombinedAttachment[] CombinedAttachments;

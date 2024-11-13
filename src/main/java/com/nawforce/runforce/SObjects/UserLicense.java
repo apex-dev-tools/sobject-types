@@ -30,6 +30,8 @@ public class UserLicense extends SObject {
 	public Integer UsedLicenses;
 	public Datetime UsedLicensesLastUpdated;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 
 	public UserLicense clone$() {throw new java.lang.UnsupportedOperationException();}

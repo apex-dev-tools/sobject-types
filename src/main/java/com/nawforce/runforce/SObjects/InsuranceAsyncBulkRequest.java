@@ -41,6 +41,8 @@ public class InsuranceAsyncBulkRequest extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public InsuranceAsyncBulkRequestHistory[] Histories;
 	public InsuranceAsyncBulkRequestItem[] InsuranceAsyncBulkRequestItems;

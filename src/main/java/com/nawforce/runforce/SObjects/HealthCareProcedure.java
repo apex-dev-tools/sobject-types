@@ -39,6 +39,8 @@ public class HealthCareProcedure extends SObject {
 	public Name Owner;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public CareInterventionType[] CareInterventionHealthCareProcedure;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public HealthCareProcedureHistory[] Histories;

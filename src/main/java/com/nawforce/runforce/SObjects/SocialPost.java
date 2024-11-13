@@ -53,6 +53,7 @@ public class SocialPost extends SObject {
 	public String MediaType;
 	public String MessageType;
 	public String Name;
+	public String Notes;
 	public Id OutboundSocialAccountId;
 	public ExternalSocialAccount OutboundSocialAccount;
 	public Id OwnerId;
@@ -94,6 +95,8 @@ public class SocialPost extends SObject {
 	public Name Who;
 	public String[] ContentDocumentIds;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public Case[] Cases;
@@ -105,7 +108,6 @@ public class SocialPost extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public SocialPostHistory[] Histories;
-	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public SocialPersona[] Personas;
 	public ProcessInstance[] ProcessInstances;

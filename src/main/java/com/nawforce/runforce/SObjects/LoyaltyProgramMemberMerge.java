@@ -42,6 +42,8 @@ public class LoyaltyProgramMemberMerge extends SObject {
 	public Id TargetMemberId;
 	public LoyaltyProgramMember TargetMember;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

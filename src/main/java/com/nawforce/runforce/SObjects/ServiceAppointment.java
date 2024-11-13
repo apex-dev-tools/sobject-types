@@ -96,11 +96,14 @@ public class ServiceAppointment extends SObject {
 	public String Street;
 	public String Subject;
 	public Datetime SystemModstamp;
+	public String Transaction;
 	public Id WorkTypeId;
 	public WorkType WorkType;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public ServiceAppointment[] BundledServiceAppointments;
@@ -111,6 +114,7 @@ public class ServiceAppointment extends SObject {
 	public Visit[] Contexts;
 	public DigitalSignature[] DigitalSignatures;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DynamicDataCapture[] DynamicDataCaptures;
 	public EmailMessage[] Emails;
 	public EngagementInteraction[] EngagementContext;
 	public EngagementTopic[] EngagementInitiatedTopic;

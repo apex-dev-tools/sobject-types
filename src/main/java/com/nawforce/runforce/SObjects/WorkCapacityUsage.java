@@ -51,6 +51,8 @@ public class WorkCapacityUsage extends SObject {
 	public String WcuUniqueField2;
 	public String WorkCapacityUsageNumber;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

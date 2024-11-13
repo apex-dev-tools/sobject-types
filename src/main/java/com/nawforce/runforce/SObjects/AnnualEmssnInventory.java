@@ -140,6 +140,8 @@ public class AnnualEmssnInventory extends SObject {
 	public EmssnReductionTarget[] AnnualEmissionsInventories;
 	public CrbnCreditAlloc[] AnnualEmssnInventories;
 	public WasteFootprint[] AnnualEmssnInventory;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;

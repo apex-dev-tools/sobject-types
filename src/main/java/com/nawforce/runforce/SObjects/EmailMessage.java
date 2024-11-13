@@ -69,6 +69,8 @@ public class EmailMessage extends SObject {
 	public String[] CcIds;
 	public String[] BccIds;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public Case[] Cases;
