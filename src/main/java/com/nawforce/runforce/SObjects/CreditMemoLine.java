@@ -21,6 +21,11 @@ public class CreditMemoLine extends SObject {
 	public Decimal ChargeAmount;
 	public Decimal ChargeAmountWithTax;
 	public Decimal ChargeTaxAmount;
+	public Decimal CorpCurrencyCnvChargeAmt;
+	public Decimal CorpCurrencyCnvTotalTaxAmt;
+	public Date CorporateCurrencyCvsnDate;
+	public Decimal CorporateCurrencyCvsnRate;
+	public String CorporateCurrencyIsoCode;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

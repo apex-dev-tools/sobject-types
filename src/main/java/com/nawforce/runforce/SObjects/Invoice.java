@@ -20,6 +20,10 @@ public class Invoice extends SObject {
 	public Contact BillToContact;
 	public Id BillingAccountId;
 	public Account BillingAccount;
+	public Decimal CorpCrcyCnvTotAmtWithTax;
+	public Date CorporateCurrencyCvsnDate;
+	public Decimal CorporateCurrencyCvsnRate;
+	public String CorporateCurrencyIsoCode;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

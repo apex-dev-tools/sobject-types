@@ -16,6 +16,8 @@ public class LocationChangeEvent extends SObject {
 	public static SObjectType$<LocationChangeEvent> SObjectType;
 	public static SObjectFields$<LocationChangeEvent> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public Object ChangeEventHeader;
 	public Date CloseDate;
 	public Date ConstructionEndDate;

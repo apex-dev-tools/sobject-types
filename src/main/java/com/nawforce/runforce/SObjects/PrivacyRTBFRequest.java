@@ -38,6 +38,8 @@ public class PrivacyRTBFRequest extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
@@ -50,9 +52,12 @@ public class PrivacyRTBFRequest extends SObject {
 	public PrivacyRTBFRequestFeed[] Feeds;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public PrivacyRTBFRequestHistory[] Histories;
 	public OpenActivity[] OpenActivities;
 	public PrivacyJobSession[] PrivacyRtbfRequestJobSessions;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
 	public PrivacyRTBFRequestShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

@@ -20,6 +20,7 @@ public class FlowRecordChangeEvent extends SObject {
 	public FlowRecordVersion ActiveVersion;
 	public String ApiName;
 	public Integer ApiVersion;
+	public Boolean AreMetricsLoggedToDataCloud;
 	public Id AssociatedRecordId;
 	public Campaign AssociatedRecord;
 	public String Builder;
@@ -58,6 +59,8 @@ public class FlowRecordChangeEvent extends SObject {
 	public String ProgressStatus;
 	public String ReplayId;
 	public Datetime ScheduledStartDate;
+	public Id SegmentId;
+	public MarketSegment Segment;
 	public Id SourceTemplateId;
 	public FlowRecord SourceTemplate;
 	public String StartSource;

@@ -15,6 +15,9 @@ public class DataObjectMetadataChgEvent extends SObject {
 	public static SObjectType$<DataObjectMetadataChgEvent> SObjectType;
 	public static SObjectFields$<DataObjectMetadataChgEvent> Fields;
 
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
 	public String CurrentValue;
 	public Datetime EventCreationDate;
 	public Datetime EventPublishDate;

@@ -19,6 +19,7 @@ public class FlowDefinitionView extends SObject {
 	public String ActiveVersionId;
 	public String ApiName;
 	public Integer ApiVersion;
+	public Boolean AreMetricsLoggedToDataCloud;
 	public String Builder;
 	public String CapacityCategory;
 	public String Description;
@@ -43,6 +44,7 @@ public class FlowDefinitionView extends SObject {
 	public String ProcessType;
 	public String RecordTriggerType;
 	public String SourceTemplateId;
+	public String SupportedEnvironments;
 	public String TriggerObjectOrEventId;
 	public String TriggerObjectOrEventLabel;
 	public Integer TriggerOrder;

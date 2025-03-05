@@ -25,6 +25,7 @@ public class FieldServiceOrgSettings extends SObject {
 	public String DeveloperName;
 	public Boolean DoesAvlCalcInclOvertime;
 	public Boolean DoesAvlCalcInclPrimOnly;
+	public String EnrouteStatus;
 	public Id Id;
 	public Boolean IsDeleted;
 	public String Language;

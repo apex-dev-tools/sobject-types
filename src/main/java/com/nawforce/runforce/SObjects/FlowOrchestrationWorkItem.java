@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Long;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -21,6 +22,8 @@ public class FlowOrchestrationWorkItem extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String Description;
+	public Long ElapsedTimeSinceAsgntInSec;
+	public Long ElapsedTimeSinceCreationInSec;
 	public Id Id;
 	public Boolean IsDeleted;
 	public String Label;

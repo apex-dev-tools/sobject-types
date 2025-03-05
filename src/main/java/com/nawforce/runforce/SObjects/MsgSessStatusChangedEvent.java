@@ -23,6 +23,7 @@ public class MsgSessStatusChangedEvent extends SObject {
 	public Datetime EndTime;
 	public String EventUuid;
 	public String MessagingEndUser;
+	public String MessagingSessionStatusEndedBy;
 	public String PreviousSessionStatus;
 	public String ReplayId;
 	public String Session;

@@ -16,6 +16,7 @@ public class CaseComment extends SObject {
 	public static SObjectFields$<CaseComment> Fields;
 
 	public String CommentBody;
+	public String CommentBodyRichtext;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

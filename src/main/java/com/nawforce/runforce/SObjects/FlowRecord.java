@@ -20,6 +20,7 @@ public class FlowRecord extends SObject {
 	public FlowRecordVersion ActiveVersion;
 	public String ApiName;
 	public Integer ApiVersion;
+	public Boolean AreMetricsLoggedToDataCloud;
 	public Id AssociatedRecordId;
 	public Campaign AssociatedRecord;
 	public String Builder;
@@ -59,6 +60,8 @@ public class FlowRecord extends SObject {
 	public Name Owner;
 	public String ProgressStatus;
 	public Datetime ScheduledStartDate;
+	public Id SegmentId;
+	public MarketSegment Segment;
 	public Id SourceTemplateId;
 	public FlowRecord SourceTemplate;
 	public String StartSource;

@@ -50,6 +50,7 @@ public class User extends SObject {
 	public Boolean EmailPreferencesAutoBccStayInTouch;
 	public Boolean EmailPreferencesStayInTouchReminder;
 	public String EmployeeNumber;
+	public String EndDay;
 	public String Extension;
 	public String Fax;
 	public String FederationIdentifier;
@@ -57,6 +58,8 @@ public class User extends SObject {
 	public Boolean ForecastEnabled;
 	public String FullPhotoUrl;
 	public String GeocodeAccuracy;
+	public Boolean HasUserVerifiedEmail;
+	public Boolean HasUserVerifiedPhone;
 	public Id Id;
 	public Id IndividualId;
 	public Individual Individual;
@@ -87,6 +90,7 @@ public class User extends SObject {
 	public Datetime OfflinePdaTrialExpirationDate;
 	public Datetime OfflineTrialExpirationDate;
 	public String OutOfOfficeMessage;
+	public Datetime PasswordExpirationDate;
 	public String Phone;
 	public String PortalRole;
 	public String PostalCode;
@@ -99,12 +103,14 @@ public class User extends SObject {
 	public String Signature;
 	public String SmallBannerPhotoUrl;
 	public String SmallPhotoUrl;
+	public String StartDay;
 	public String State;
 	public String StateCode;
 	public String StayInTouchNote;
 	public String StayInTouchSignature;
 	public String StayInTouchSubject;
 	public String Street;
+	public Date SuAccessExpirationDate;
 	public Datetime SystemModstamp;
 	public String TimeZoneSidKey;
 	public String Title;
@@ -224,6 +230,7 @@ public class User extends SObject {
 	public AdvAcctForecastFactAdj[] AdvAcctForecastFactAdjustments;
 	public ApprovalSubmissionDetail[] ApprovalSubmissionDetails;
 	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssessmentTask[] AssessmentTaskAssignedTo;
 	public ApprovalWorkItem[] AssignedWorkItems;
@@ -303,6 +310,7 @@ public class User extends SObject {
 	public OmniInteractionAccessConfig[] OmniInteractionAccessConfigs;
 	public OmniDataPack[] Omni_DataPacks;
 	public CareRequest[] OriginalDenialMedicalDirectorCareRequests;
+	public MessagingEndUser[] MessagingEndUsers;
 	public OutgoingEmailRelation[] OutgoingEmailRelations;
 	public OwnedContentDocument[] OwnedContentDocuments;
 	public NetworkActivityAudit[] ParentEntities;
@@ -337,6 +345,7 @@ public class User extends SObject {
 	public CareProgramTeamMember[] UserCareProgramTeamMembers;
 	public UserEntityAccess[] UserEntityAccessRights;
 	public UserFieldAccess[] UserFieldAccessRights;
+	public UserLogin[] UserLogins;
 	public UserPreference[] UserPreferences;
 	public ProfileSkillUser[] UserProfileSkillChildren;
 	public ProfileSkillEndorsement[] UserProfileSkillUserEndorsements;

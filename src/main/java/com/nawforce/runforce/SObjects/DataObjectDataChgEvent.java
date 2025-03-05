@@ -30,8 +30,11 @@ public class DataObjectDataChgEvent extends SObject {
 	public String PayloadMetadata;
 	public String PayloadPrevValue;
 	public String PayloadSchema;
+	public String ProfileIdValue;
 	public String ReplayId;
 	public String SourceObjectDeveloperName;
+	public String TraceIdValue;
+	public String TriggerEntity;
 
 	public DataObjectDataChgEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DataObjectDataChgEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -40,7 +40,7 @@ public class EntityMilestone extends SObject {
 	public MilestoneType MilestoneType;
 	public String Name;
 	public Id ParentEntityId;
-	public Name ParentEntity;
+	public SObject ParentEntity;
 	public Id SlaProcessId;
 	public SlaProcess SlaProcess;
 	public Datetime StartDate;

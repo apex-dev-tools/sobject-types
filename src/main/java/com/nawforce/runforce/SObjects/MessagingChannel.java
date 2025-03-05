@@ -60,6 +60,7 @@ public class MessagingChannel extends SObject {
 	public ContactCenterChannel[] ContactCenterChannels;
 	public CommSubscriptionChannelType[] MessagingChannels;
 	public MessagingLink[] MessagingLinks;
+	public MsgChannelAvailability[] MsgChannelAvailabilities;
 	public MsgChannelLanguageKeyword[] MsgChannelLanguageKeywords;
 	public SetupEntityAccess[] SetupEntityAccessItems;
 

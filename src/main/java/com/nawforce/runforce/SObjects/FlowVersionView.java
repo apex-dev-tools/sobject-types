@@ -18,6 +18,7 @@ public class FlowVersionView extends SObject {
 
 	public Decimal ApiVersion;
 	public Decimal ApiVersionRuntime;
+	public Boolean AreMetricsLoggedToDataCloud;
 	public String CapabilityType;
 	public String CapacityCategory;
 	public String Description;

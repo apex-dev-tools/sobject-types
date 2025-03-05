@@ -20,6 +20,7 @@ public class ApprovalSubmission extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Boolean DoesSendApprovalEmail;
 	public Id FlowOrchestrationInstanceId;
 	public FlowOrchestrationInstance FlowOrchestrationInstance;
 	public Id Id;

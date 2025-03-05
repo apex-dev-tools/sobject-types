@@ -33,6 +33,7 @@ public class FlowOrchestrationInstance extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public String OrchestrationDeveloperName;
+	public String OrchestrationLabel;
 	public Id OwnerId;
 	public Name Owner;
 	public String Status;

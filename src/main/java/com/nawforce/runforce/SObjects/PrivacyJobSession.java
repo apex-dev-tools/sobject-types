@@ -35,12 +35,14 @@ public class PrivacyJobSession extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Boolean OptionsAcknowledged;
+	public Boolean OptionsErrorBypassOccurred;
 	public Boolean OptionsPreview;
 	public Boolean OptionsProcessingFailed;
 	public Boolean OptionsTraversalComplete;
 	public Boolean OptionsTraversalFailed;
 	public Id OwnerId;
 	public Name Owner;
+	public String PermissionSet;
 	public String PolicyDescription;
 	public String PolicyName;
 	public String PolicyType;
@@ -53,6 +55,9 @@ public class PrivacyJobSession extends SObject {
 	public Datetime StartTime;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public PrivacyObjectSession[] PrivacyJobSessionObjects;
 	public PrivacyJobSessionShare[] Shares;
 

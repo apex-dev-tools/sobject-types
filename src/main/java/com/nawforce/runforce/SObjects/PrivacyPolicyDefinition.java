@@ -21,6 +21,7 @@ public class PrivacyPolicyDefinition extends SObject {
 	public String Description;
 	public String DeveloperName;
 	public Id Id;
+	public Boolean IsAllocatePermset;
 	public Boolean IsDeleted;
 	public String Language;
 	public Id LastModifiedById;

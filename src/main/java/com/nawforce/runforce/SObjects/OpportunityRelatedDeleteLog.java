@@ -33,6 +33,8 @@ public class OpportunityRelatedDeleteLog extends SObject {
 	public Datetime SystemModstamp;
 	public Object Value;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 
 	public OpportunityRelatedDeleteLog clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -319,6 +319,7 @@ public class Account extends SObject {
 	public Invoice[] Invoices;
 	public LoyaltyProgramPartner[] LoyaltyProgramPartners;
 	public MedicationReconciliation[] MReconciliation_Patients;
+	public Location[] Locations;
 	public MaintenancePlan[] MaintenancePlans;
 	public DelegatedAccount[] ManagedAccount;
 	public ManagedCareProgramPrfm[] ManagedCareProgramPrfm_SubsidiaryAccount;

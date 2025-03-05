@@ -37,7 +37,7 @@ public class GeolocationBasedAction extends SObject {
 	public Name Owner;
 	public Integer Radius;
 	public Id ReferenceRecordId;
-	public ServiceAppointment ReferenceRecord;
+	public SObject ReferenceRecord;
 	public Datetime SystemModstamp;
 	public String TriggerType;
 
