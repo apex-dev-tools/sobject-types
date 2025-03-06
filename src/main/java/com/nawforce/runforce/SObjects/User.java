@@ -230,7 +230,6 @@ public class User extends SObject {
 	public AdvAcctForecastFactAdj[] AdvAcctForecastFactAdjustments;
 	public ApprovalSubmissionDetail[] ApprovalSubmissionDetails;
 	public ApprovalSubmission[] ApprovalSubmissions;
-	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssessmentTask[] AssessmentTaskAssignedTo;
 	public ApprovalWorkItem[] AssignedWorkItems;

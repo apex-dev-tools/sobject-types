@@ -53,7 +53,6 @@ public class ActivationTarget extends SObject {
 	public String TargetType;
 
 	public ActivationTargetSecureFTP[] ActivationTargets;
-	public MarketSegmentActivation[] ActivationTargets;
 	public ActivationTrgtIntOrgAccess[] ActivationTargetsIntOrgAccess;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
