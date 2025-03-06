@@ -32,6 +32,8 @@ public class Address extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
 	public Decimal Latitude;
 	public String LocationType;
 	public Decimal Longitude;
@@ -49,9 +51,11 @@ public class Address extends SObject {
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AuthApplicationPlace[] AuthApplPlace;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
+	public DuplicateRecordItem[] DuplicateRecordItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public MedicationTherapyReview[] MedTherapyReview_SurrogateLocations;
 	public Visit[] Places;
+	public AddressHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

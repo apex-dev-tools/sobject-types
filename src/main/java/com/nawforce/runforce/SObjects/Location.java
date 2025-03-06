@@ -16,6 +16,8 @@ public class Location extends SObject {
 	public static SObjectType$<Location> SObjectType;
 	public static SObjectFields$<Location> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public Date CloseDate;
 	public Date ConstructionEndDate;
 	public Date ConstructionStartDate;

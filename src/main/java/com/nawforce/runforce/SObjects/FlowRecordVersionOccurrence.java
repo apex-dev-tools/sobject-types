@@ -19,6 +19,7 @@ public class FlowRecordVersionOccurrence extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String ErrorDetail;
 	public Id FlowRecordId;
 	public FlowRecord FlowRecord;
 	public Id FlowRecordVersionId;
@@ -31,6 +32,7 @@ public class FlowRecordVersionOccurrence extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public String ProgressStatus;
 	public Datetime ScheduledDate;
 	public Datetime SystemModstamp;
 

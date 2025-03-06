@@ -17,6 +17,8 @@ public class MessagingEndUserChangeEvent extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public Id AuthenticatedEndUserId;
+	public User AuthenticatedEndUser;
 	public Object ChangeEventHeader;
 	public Id ContactId;
 	public Contact Contact;
@@ -28,6 +30,7 @@ public class MessagingEndUserChangeEvent extends SObject {
 	public Id Id;
 	public Boolean IsFullyOptedIn;
 	public String IsoCountryCode;
+	public String Language;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

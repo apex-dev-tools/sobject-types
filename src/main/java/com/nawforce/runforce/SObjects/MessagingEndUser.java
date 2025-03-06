@@ -17,6 +17,8 @@ public class MessagingEndUser extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public Id AuthenticatedEndUserId;
+	public User AuthenticatedEndUser;
 	public Id ContactId;
 	public Contact Contact;
 	public Id CreatedById;
@@ -28,6 +30,7 @@ public class MessagingEndUser extends SObject {
 	public Boolean IsDeleted;
 	public Boolean IsFullyOptedIn;
 	public String IsoCountryCode;
+	public String Language;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

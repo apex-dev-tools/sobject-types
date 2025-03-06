@@ -19,6 +19,7 @@ public class FlowOrchestrationStepInstance extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Description;
 	public Id Id;
 	public Boolean IsDeleted;
 	public String Label;

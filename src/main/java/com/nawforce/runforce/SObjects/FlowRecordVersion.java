@@ -20,6 +20,7 @@ public class FlowRecordVersion extends SObject {
 	public User ActivatedBy;
 	public Datetime ActivatedDate;
 	public Decimal ApiVersion;
+	public Boolean AreMetricsLoggedToDataCloud;
 	public String Builder;
 	public String CapacityCategory;
 	public Id CreatedById;

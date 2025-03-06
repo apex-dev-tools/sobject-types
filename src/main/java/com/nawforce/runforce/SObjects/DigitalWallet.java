@@ -18,6 +18,7 @@ public class DigitalWallet extends SObject {
 	public Id AccountId;
 	public Account Account;
 	public String AuditEmail;
+	public String BillingName;
 	public String Comments;
 	public String CompanyName;
 	public Id CreatedById;

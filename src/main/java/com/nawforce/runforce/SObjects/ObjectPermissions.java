@@ -27,6 +27,7 @@ public class ObjectPermissions extends SObject {
 	public Boolean PermissionsEdit;
 	public Boolean PermissionsModifyAllRecords;
 	public Boolean PermissionsRead;
+	public Boolean PermissionsViewAllFields;
 	public Boolean PermissionsViewAllRecords;
 	public String SobjectType;
 	public Datetime SystemModstamp;

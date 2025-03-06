@@ -40,7 +40,7 @@ public class AuthorizationFormConsent extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public Id RelatedRecordId;
-	public Name RelatedRecord;
+	public SObject RelatedRecord;
 	public String Status;
 	public Datetime SystemModstamp;
 

@@ -1,0 +1,36 @@
+{
+	"orgName": "Dev_Scratch_Org_Tooling",
+	"edition": "Developer",
+	"features": [
+		"AnalyticsAdminPerms",
+		"AnalyticsAppEmbedded",
+		"CustomerDataPlatform",
+		"CustomerDataPlatformLite",
+		"CustomerExperienceAnalytics",
+		"DebugApex",
+		"DevelopmentWave",
+		"Einstein1AIPlatform",
+		"EinsteinAnalyticsPlus",
+		"EinsteinBuilderFree",
+		"EinsteinRecommendationBuilder",
+		"EinsteinSearch",
+		"ERMAnalytics",
+		"WavePlatform"
+	],
+	"settings": {
+		"apexSettings": {
+			"enableCompileOnDeploy": false
+		},
+		"currencySettings": {
+			"enableMultiCurrency": true
+		},
+		"lightningExperienceSettings": {
+			"enableS1DesktopEnabled": true
+		},
+		"securitySettings": {
+			"sessionSettings": {
+				"forceRelogin": false
+			}
+		}
+	}
+}

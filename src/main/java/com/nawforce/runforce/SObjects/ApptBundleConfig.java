@@ -24,6 +24,8 @@ public class ApptBundleConfig extends SObject {
 	public RecordsetFilterCriteria CriteriaForAutoUnbundling;
 	public String CurrencyIsoCode;
 	public Boolean DoesAddTravelTime;
+	public Boolean DoesDeleteEmptyBundles;
+	public String EmptyBundleStatus;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
