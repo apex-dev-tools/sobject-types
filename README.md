@@ -38,7 +38,7 @@ Update API version numbers in `pom.xml`:
 
 ### Generate Types from an Org
 
-To generate types, we need an org with as many features enabled as possible, otherwise certain SObjects will not be available. `config/org-all.json` can be used for a scratch org. This may need changing if/when [the features list](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs_def_file_config_values.htm) has new additions.
+To generate types, we need an org with as many features enabled as possible, otherwise certain SObjects will not be available. `config/org-all.json` can be used for a scratch org. This may need changing if/when [the features list](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs_def_file_config_values.htm) has new additions. There is also a `config/org-lite.json`, which can be used to add new features in isolation (diff of the previous feature list) for the purpose of collecting only new objects with most important fields. The all config is error prone and difficult to troubleshoot.
 
 1. Create org
 

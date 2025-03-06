@@ -220,9 +220,6 @@
 		"currencySettings": {
 			"enableMultiCurrency": true
 		},
-		"customerDataPlatformSettings": {
-			"enableCustomerDataPlatform": true
-		},
 		"lightningExperienceSettings": {
 			"enableS1DesktopEnabled": true
 		},
