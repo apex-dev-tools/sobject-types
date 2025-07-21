@@ -232,7 +232,6 @@ public class User extends SObject {
 	public AdvAcctForecastFactAdj[] AdvAcctForecastFactAdjustments;
 	public ApprovalSubmissionDetail[] ApprovalSubmissionDetails;
 	public ApprovalSubmission[] ApprovalSubmissions;
-	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssessmentTask[] AssessmentTaskAssignedTo;
 	public ApprovalWorkItem[] AssignedWorkItems;
@@ -313,7 +312,6 @@ public class User extends SObject {
 	public OmniInteractionAccessConfig[] OmniInteractionAccessConfigs;
 	public OmniDataPack[] Omni_DataPacks;
 	public CareRequest[] OriginalDenialMedicalDirectorCareRequests;
-	public MessagingEndUser[] MessagingEndUsers;
 	public OutgoingEmailRelation[] OutgoingEmailRelations;
 	public OwnedContentDocument[] OwnedContentDocuments;
 	public NetworkActivityAudit[] ParentEntities;
