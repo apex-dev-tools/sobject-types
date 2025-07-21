@@ -29,7 +29,10 @@ public class ExtlClntAppPlcyCnfg extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
+	public String MobilePluginStatus;
+	public String NotifPluginStatus;
 	public String OauthPluginStatus;
+	public String PushPluginStatus;
 	public String SamlPluginStatus;
 	public String StartPage;
 	public String StartUrl;

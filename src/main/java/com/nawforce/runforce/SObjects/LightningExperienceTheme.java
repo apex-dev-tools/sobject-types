@@ -21,6 +21,7 @@ public class LightningExperienceTheme extends SObject {
 	public Id DefaultBrandingSetId;
 	public BrandingSet DefaultBrandingSet;
 	public String Description;
+	public String DesignSystemVersion;
 	public String DeveloperName;
 	public Id Id;
 	public Boolean IsDeleted;

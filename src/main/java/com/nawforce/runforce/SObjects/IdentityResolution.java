@@ -43,6 +43,8 @@ public class IdentityResolution extends SObject {
 	public String RootEntityLabel;
 	public String SecondaryEntityLabel;
 	public Long SourceCount;
+	public Id SourceIrId;
+	public IdentityResolution SourceIr;
 	public String Status;
 	public String StatusDetails;
 	public String Suffix;
@@ -56,12 +58,15 @@ public class IdentityResolution extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public IdentityResolutionFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public IdentityResolutionHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public IdentityResolution[] SourceIrs;
 
 	public IdentityResolution clone$() {throw new java.lang.UnsupportedOperationException();}
 	public IdentityResolution clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

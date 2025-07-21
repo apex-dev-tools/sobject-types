@@ -156,6 +156,8 @@ public class Product2 extends SObject {
 	public PromotionLineItemRule[] PromotionLineItemRules;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public AsyncOperationTracker[] ReferenceEntityAsyncOperationTrackers;
+	public RevenueAsyncOperation[] ReferenceEntityRevenueAsyncOperations;
 	public ReturnOrderLineItem[] ReturnOrderLineItems;
 	public ProductDisqualification[] RootProductDisqualifications;
 	public ProductQualification[] RootProductQualifications;

@@ -26,9 +26,13 @@ public class OmniProcess extends SObject {
 	public String DiscoveryFrameworkUsageType;
 	public String ElementTypeComponentMapping;
 	public Id Id;
+	public String IntegrationProcedureInput;
+	public String IntegrationProcedureOutput;
 	public Boolean IsActive;
 	public Boolean IsDeleted;
+	public Boolean IsIntegProcdSignatureAvl;
 	public Boolean IsIntegrationProcedure;
+	public Boolean IsManagedUsingStdDesigner;
 	public Boolean IsMetadataCacheDisabled;
 	public Boolean IsOmniScriptEmbeddable;
 	public Boolean IsTestProcedure;

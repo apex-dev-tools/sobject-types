@@ -45,6 +45,7 @@ public class AssetAccountParticipant extends SObject {
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -58,6 +59,8 @@ public class AssetAccountParticipant extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public AssetAccountParticipantHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

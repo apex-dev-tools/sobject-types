@@ -25,6 +25,8 @@ public class ExtDataShare extends SObject {
 	public Id DataSpaceId;
 	public DataSpace DataSpace;
 	public Id Id;
+	public String InboundDataShareName;
+	public String InboundDataShareOrgIdentifier;
 	public Boolean IsDeleted;
 	public Datetime LastDataChangeStatusDateTime;
 	public String LastDataChangeStatusErrorCode;
@@ -42,9 +44,11 @@ public class ExtDataShare extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ExtDataShareFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ExtDataShareHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

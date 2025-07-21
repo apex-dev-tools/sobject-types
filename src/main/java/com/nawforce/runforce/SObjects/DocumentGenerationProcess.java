@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -20,10 +21,13 @@ public class DocumentGenerationProcess extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String DataRaptorInput;
+	public String DocGenAdditionalInput;
+	public String DocGenAdditionalInputType;
 	public String DocGenApiVersionType;
 	public String DocumentInputType;
 	public Id DocumentTemplateId;
 	public DocumentTemplate DocumentTemplate;
+	public Integer EstimatedDocumentSize;
 	public Boolean HasDocGenFontSource;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -35,6 +39,7 @@ public class DocumentGenerationProcess extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public String PdfDocIdentifiersList;
 	public String ReferenceObject;
 	public String RequestText;
 	public String ResponseText;

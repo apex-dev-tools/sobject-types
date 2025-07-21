@@ -62,6 +62,7 @@ public class ServiceTerritoryMember extends SObject {
 	public ServiceTerritoryMemberFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public GeolocationBasedAction[] GeolocationBasedActions;
 	public ServiceTerritoryMemberHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;

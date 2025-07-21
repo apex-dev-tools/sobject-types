@@ -59,6 +59,8 @@ public class DigitalWallet extends SObject {
 	public String PaymentMethodType;
 	public String Phone;
 	public String ProcessingMode;
+	public Id SavedPaymentMethodId;
+	public SavedPaymentMethod SavedPaymentMethod;
 	public String Status;
 	public Datetime SystemModstamp;
 

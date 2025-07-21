@@ -18,6 +18,7 @@ public class RevenueTransactionErrorLog extends SObject {
 	public Id AsyncOperationTrackerId;
 	public AsyncOperationTracker AsyncOperationTracker;
 	public String Category;
+	public String ConfiguratorErrorMessage;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -31,13 +32,18 @@ public class RevenueTransactionErrorLog extends SObject {
 	public Datetime LastModifiedDate;
 	public Id OwnerId;
 	public Name Owner;
+	public Id PrimaryRecord2Id;
+	public Name PrimaryRecord2;
 	public Id PrimaryRecordId;
 	public Name PrimaryRecord;
+	public String PrimaryTextRecord;
 	public Id RelatedRecord2Id;
 	public Name RelatedRecord2;
 	public Id RelatedRecordId;
 	public Name RelatedRecord;
+	public String Request;
 	public String RequestIdentifier;
+	public String Severity;
 	public Datetime SystemModstamp;
 
 	public RevenueTransactionErrorLogShare[] Shares;

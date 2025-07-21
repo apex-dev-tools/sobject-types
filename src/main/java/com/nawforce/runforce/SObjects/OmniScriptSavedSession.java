@@ -51,17 +51,23 @@ public class OmniScriptSavedSession extends SObject {
 	public String StatusCategory;
 	public Datetime SystemModstamp;
 
+	public ActivityHistory[] ActivityHistories;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EmailMessage[] Emails;
+	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OmniScriptSavedSessionFeed[] Feeds;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public OpenActivity[] OpenActivities;
+	public RecordAlert[] RecordAlertWhat;
 	public OmniScriptSavedSessionShare[] Shares;
+	public Task[] Tasks;
 
 	public OmniScriptSavedSession clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OmniScriptSavedSession clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

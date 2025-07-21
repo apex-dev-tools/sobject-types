@@ -76,6 +76,7 @@ public class CreditMemoLine extends SObject {
 	public CreditMemoLineHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;

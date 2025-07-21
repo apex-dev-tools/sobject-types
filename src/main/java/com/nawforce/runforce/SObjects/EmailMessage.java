@@ -57,6 +57,7 @@ public class EmailMessage extends SObject {
 	public Name RelatedTo;
 	public Id ReplyToEmailMessageId;
 	public EmailMessage ReplyToEmailMessage;
+	public String Source;
 	public String Status;
 	public String Subject;
 	public Datetime SystemModstamp;

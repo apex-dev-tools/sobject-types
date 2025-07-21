@@ -25,6 +25,9 @@ public class IntegrationProviderDef extends SObject {
 	public String DeveloperName;
 	public String ExternalServiceOperationName;
 	public String FileBasedApexClass;
+	public String FileBasedExternalService;
+	public String FileBasedInputDataProcessor;
+	public String FileBasedOutputDataProcessor;
 	public Id Id;
 	public Id InputDataProcessorId;
 	public OmniIntegrationProcConfig InputDataProcessor;

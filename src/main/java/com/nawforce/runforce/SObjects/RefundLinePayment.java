@@ -52,6 +52,7 @@ public class RefundLinePayment extends SObject {
 	public FinanceTransaction[] FinanceTransactions;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public RefundLinePayment[] RefundLinePayments;
+	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 	public FinanceTransaction[] SourceFinanceTransactions;
 
 	public RefundLinePayment clone$() {throw new java.lang.UnsupportedOperationException();}

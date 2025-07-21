@@ -58,6 +58,8 @@ public class AssetChangeEvent extends SObject {
 	public Location Location;
 	public Decimal Longitude;
 	public Date ManufactureDate;
+	public Decimal MeanTimeBetweenFailures;
+	public Decimal MeanTimeToRepair;
 	public String Name;
 	public Id OwnerId;
 	public User Owner;

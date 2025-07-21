@@ -27,6 +27,10 @@ public class AuthProvider extends SObject {
 	public String ErrorUrl;
 	public Id ExecutionUserId;
 	public User ExecutionUser;
+	public Id FlowDefaultAccountId;
+	public Account FlowDefaultAccount;
+	public Id FlowDefaultProfileId;
+	public Profile FlowDefaultProfile;
 	public String FriendlyName;
 	public String IconUrl;
 	public Id Id;
@@ -38,6 +42,7 @@ public class AuthProvider extends SObject {
 	public Boolean OptionsIsBitbucket;
 	public Boolean OptionsIsEmi;
 	public Boolean OptionsIsEmiSnapchatAds;
+	public Boolean OptionsIsEmiTikTokAds;
 	public Boolean OptionsIsMuleSoftEU;
 	public Boolean OptionsIsMuleSoftUS;
 	public Boolean OptionsIsPkceEnabled;

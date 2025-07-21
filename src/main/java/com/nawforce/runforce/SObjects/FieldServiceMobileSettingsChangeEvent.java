@@ -60,6 +60,7 @@ public class FieldServiceMobileSettingsChangeEvent extends SObject {
 	public Boolean IsTimeSheetEnabled;
 	public Boolean IsTimeZoneEnabled;
 	public Boolean IsUseSalesforceMobileActions;
+	public Boolean IsVirtualMeasurement;
 	public String Language;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

@@ -151,6 +151,7 @@ public class User extends SObject {
 	public Boolean UserPreferencesDisableProfilePostEmail;
 	public Boolean UserPreferencesDisableSharePostEmail;
 	public Boolean UserPreferencesDisableWorkEmail;
+	public Boolean UserPreferencesDismissPersonalSpaceLegalMessage;
 	public Boolean UserPreferencesEnableAutoSubForFeeds;
 	public Boolean UserPreferencesEventRemindersCheckboxDefault;
 	public Boolean UserPreferencesExcludeMailAppAttachments;
@@ -169,6 +170,7 @@ public class User extends SObject {
 	public Boolean UserPreferencesHideEndUserOnboardingAssistantModal;
 	public Boolean UserPreferencesHideLegacyRetirementModal;
 	public Boolean UserPreferencesHideLightningMigrationModal;
+	public Boolean UserPreferencesHideManagedEcaMobilePubModal;
 	public Boolean UserPreferencesHideS1BrowserUI;
 	public Boolean UserPreferencesHideSecondChatterOnboardingSplash;
 	public Boolean UserPreferencesHideSfxWelcomeMat;
@@ -229,6 +231,7 @@ public class User extends SObject {
 	public AccountUserTerritory2View[] AccountUserTerritory2Views;
 	public AdvAcctForecastFactAdj[] AdvAcctForecastFactAdjustments;
 	public ApprovalSubmissionDetail[] ApprovalSubmissionDetails;
+	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssessmentTask[] AssessmentTaskAssignedTo;
@@ -306,6 +309,7 @@ public class User extends SObject {
 	public MedicationTherapyReview[] MedTherapyReview_Users;
 	public CareRequest[] MedicalDirectorCareRequests;
 	public MedicationDispense[] MedicationDispense_SubstitutedBy;
+	public MessagingEndUser[] MessagingEndUsers;
 	public OmniInteractionAccessConfig[] OmniInteractionAccessConfigs;
 	public OmniDataPack[] Omni_DataPacks;
 	public CareRequest[] OriginalDenialMedicalDirectorCareRequests;

@@ -49,12 +49,15 @@ public class UserChangeEvent extends SObject {
 	public Boolean EmailPreferencesAutoBccStayInTouch;
 	public Boolean EmailPreferencesStayInTouchReminder;
 	public String EmployeeNumber;
+	public String EndDay;
 	public String Extension;
 	public String Fax;
 	public String FederationIdentifier;
 	public String FirstName;
 	public Boolean ForecastEnabled;
 	public String GeocodeAccuracy;
+	public Boolean HasUserVerifiedEmail;
+	public Boolean HasUserVerifiedPhone;
 	public Id Id;
 	public Id IndividualId;
 	public Individual Individual;
@@ -88,12 +91,14 @@ public class UserChangeEvent extends SObject {
 	public String SenderEmail;
 	public String SenderName;
 	public String Signature;
+	public String StartDay;
 	public String State;
 	public String StateCode;
 	public String StayInTouchNote;
 	public String StayInTouchSignature;
 	public String StayInTouchSubject;
 	public String Street;
+	public Date SuAccessExpirationDate;
 	public String TimeZoneSidKey;
 	public String Title;
 	public Boolean UserPermissionsCallCenterAutoLogin;
@@ -133,6 +138,7 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPreferencesDisableProfilePostEmail;
 	public Boolean UserPreferencesDisableSharePostEmail;
 	public Boolean UserPreferencesDisableWorkEmail;
+	public Boolean UserPreferencesDismissPersonalSpaceLegalMessage;
 	public Boolean UserPreferencesEnableAutoSubForFeeds;
 	public Boolean UserPreferencesEventRemindersCheckboxDefault;
 	public Boolean UserPreferencesExcludeMailAppAttachments;
@@ -151,6 +157,7 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPreferencesHideEndUserOnboardingAssistantModal;
 	public Boolean UserPreferencesHideLegacyRetirementModal;
 	public Boolean UserPreferencesHideLightningMigrationModal;
+	public Boolean UserPreferencesHideManagedEcaMobilePubModal;
 	public Boolean UserPreferencesHideS1BrowserUI;
 	public Boolean UserPreferencesHideSecondChatterOnboardingSplash;
 	public Boolean UserPreferencesHideSfxWelcomeMat;

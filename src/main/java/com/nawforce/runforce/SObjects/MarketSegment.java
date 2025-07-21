@@ -27,6 +27,7 @@ public class MarketSegment extends SObject {
 	public DataSpace DataSpace;
 	public String Description;
 	public String ExcludeCriteria;
+	public String GroupSortLimitFilterCriteria;
 	public Id Id;
 	public String IncludeCriteria;
 	public Boolean IsCurrentSaveApproxCount;
@@ -63,6 +64,7 @@ public class MarketSegment extends SObject {
 	public String OwnedBy;
 	public Date PublishScheduleEndDate;
 	public Datetime PublishScheduleEndDateTime;
+	public String PublishScheduleInfo;
 	public String PublishScheduleInterval;
 	public Datetime PublishScheduleStartDateTime;
 	public String PublishStatus;
@@ -82,9 +84,11 @@ public class MarketSegment extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public MarketSegmentFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MarketSegmentHistory[] Histories;
 	public MarketSegmentActivation[] MarketSegmentActivationTargets;
 	public ProcessInstance[] ProcessInstances;

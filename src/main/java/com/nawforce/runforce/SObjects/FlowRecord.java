@@ -16,6 +16,8 @@ public class FlowRecord extends SObject {
 	public static SObjectType$<FlowRecord> SObjectType;
 	public static SObjectFields$<FlowRecord> Fields;
 
+	public Id ActivationId;
+	public MarketSegmentActivation Activation;
 	public Id ActiveVersionId;
 	public FlowRecordVersion ActiveVersion;
 	public String ApiName;
@@ -69,8 +71,10 @@ public class FlowRecord extends SObject {
 	public String TriggerObjectOrEventLabel;
 	public String Type;
 
+	public FlowRecordElementOccurrence[] FlowRecordVersionElementOccurrences;
 	public FlowRecordVersionOccurrence[] FlowRecordVersionOccurrences;
 	public FlowRecordVersion[] FlowRecordVersions;
+	public FlowRecord[] Flows;
 	public FlowRecordShare[] Shares;
 
 	public FlowRecord clone$() {throw new java.lang.UnsupportedOperationException();}

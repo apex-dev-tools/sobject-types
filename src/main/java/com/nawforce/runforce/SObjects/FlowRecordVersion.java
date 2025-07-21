@@ -63,6 +63,8 @@ public class FlowRecordVersion extends SObject {
 	public String TriggerObjectOrEventLabel;
 	public Integer VersionNumber;
 
+	public FlowRecordElementOccurrence[] FlowRecordVersionElementOccurrences;
+
 	public FlowRecordVersion clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FlowRecordVersion clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public FlowRecordVersion clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

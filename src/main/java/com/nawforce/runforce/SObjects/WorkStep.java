@@ -38,6 +38,7 @@ public class WorkStep extends SObject {
 	public String ParentRecordType;
 	public Id PausedFlowInterviewId;
 	public FlowInterview PausedFlowInterview;
+	public String ProcessType;
 	public Datetime StartTime;
 	public String Status;
 	public String StatusCategory;

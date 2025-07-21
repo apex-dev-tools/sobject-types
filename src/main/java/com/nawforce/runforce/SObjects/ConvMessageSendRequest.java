@@ -40,6 +40,7 @@ public class ConvMessageSendRequest extends SObject {
 	public String RequestConsentType;
 	public String RequestStatus;
 	public String RequestType;
+	public String SessionLongevityPreference;
 	public Boolean ShouldEnforceChannelConsent;
 	public Integer SuccessMessageCount;
 	public String SuccessMessageIdentifiers;

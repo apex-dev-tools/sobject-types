@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -38,6 +39,7 @@ public class AssignedResource extends SObject {
 	public ServiceResource ServiceResource;
 	public Datetime SystemModstamp;
 	public String Transaction;
+	public Integer TravelTimeBuffer;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

@@ -21,6 +21,8 @@ public class AttributePicklistChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String DataType;
+	public String Description;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -29,6 +31,7 @@ public class AttributePicklistChangeEvent extends SObject {
 	public Id OwnerId;
 	public User Owner;
 	public String ReplayId;
+	public String Status;
 
 	public AttributePicklistChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AttributePicklistChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

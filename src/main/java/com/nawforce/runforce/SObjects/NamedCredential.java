@@ -25,6 +25,7 @@ public class NamedCredential extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String Description;
 	public String DeveloperName;
 	public String Endpoint;
 	public Id Id;

@@ -32,6 +32,8 @@ public class FlowRecordElement extends SObject {
 	public String Name;
 	public Datetime SystemModstamp;
 
+	public FlowRecordElementOccurrence[] FlowRecordVersionElementOccurrences;
+
 	public FlowRecordElement clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FlowRecordElement clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public FlowRecordElement clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

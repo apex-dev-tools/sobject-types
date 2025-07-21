@@ -53,6 +53,7 @@ public class EmailMessageChangeEvent extends SObject {
 	public String ReplayId;
 	public Id ReplyToEmailMessageId;
 	public EmailMessage ReplyToEmailMessage;
+	public String Source;
 	public String Status;
 	public String Subject;
 	public String TextBody;

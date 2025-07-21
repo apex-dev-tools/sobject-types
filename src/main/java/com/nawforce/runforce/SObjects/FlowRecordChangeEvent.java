@@ -16,6 +16,8 @@ public class FlowRecordChangeEvent extends SObject {
 	public static SObjectType$<FlowRecordChangeEvent> SObjectType;
 	public static SObjectFields$<FlowRecordChangeEvent> Fields;
 
+	public Id ActivationId;
+	public MarketSegmentActivation Activation;
 	public Id ActiveVersionId;
 	public FlowRecordVersion ActiveVersion;
 	public String ApiName;

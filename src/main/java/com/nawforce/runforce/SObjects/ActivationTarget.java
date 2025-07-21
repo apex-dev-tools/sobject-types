@@ -32,6 +32,7 @@ public class ActivationTarget extends SObject {
 	public Id Id;
 	public Boolean IsCommunicationCappingEnabled;
 	public Boolean IsDeleted;
+	public Boolean IsRemote;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -43,6 +44,7 @@ public class ActivationTarget extends SObject {
 	public Datetime LastViewedDate;
 	public String MasterLabel;
 	public String OutputFormat;
+	public String OwnedByOrg;
 	public Id OwnerId;
 	public Name Owner;
 	public String PlatformName;
@@ -53,15 +55,18 @@ public class ActivationTarget extends SObject {
 	public String TargetType;
 
 	public ActivationTargetSecureFTP[] ActivationTargets;
+	public MarketSegmentActivation[] ActivationTargets;
 	public ActivationTrgtIntOrgAccess[] ActivationTargetsIntOrgAccess;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ActivationTargetFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ActivationTargetHistory[] Histories;
 	public ActivationTargetPlatform[] PlatformActivationTargets;
 	public ProcessInstance[] ProcessInstances;

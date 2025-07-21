@@ -18,6 +18,7 @@ public class AuthSession extends SObject {
 
 	public Datetime CreatedDate;
 	public Id Id;
+	public Boolean IsAssociatedWithJwtAccessToken;
 	public Boolean IsCurrent;
 	public Datetime LastModifiedDate;
 	public Id LoginGeoId;

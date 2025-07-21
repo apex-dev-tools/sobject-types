@@ -52,7 +52,8 @@ public class MessagingChannel extends SObject {
 	public String OutsideBusinessHoursResponse;
 	public String PlatformType;
 	public String RoutingType;
-	public String SessionHandler;
+	public Id SessionHandlerId;
+	public Name SessionHandler;
 	public Datetime SystemModstamp;
 	public Id TargetQueueId;
 	public Group TargetQueue;

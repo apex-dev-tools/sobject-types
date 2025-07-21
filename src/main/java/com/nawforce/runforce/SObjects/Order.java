@@ -138,6 +138,7 @@ public class Order extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public RecordAlert[] RecordAlertWhat;
 	public AsyncOperationTracker[] ReferenceEntityAsyncOperationTrackers;
 	public RevenueAsyncOperation[] ReferenceEntityRevenueAsyncOperations;
 	public ReturnOrder[] ReturnOrders;

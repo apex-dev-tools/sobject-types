@@ -39,8 +39,10 @@ public class ActivationTrgtIntOrgAccess extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ActivationTrgtIntOrgAccessFeed[] Feeds;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ActivationTrgtIntOrgAccessHistory[] Histories;
 	public ActivationTrgtIntOrgAccessShare[] Shares;
 

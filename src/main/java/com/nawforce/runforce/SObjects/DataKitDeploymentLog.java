@@ -29,6 +29,7 @@ public class DataKitDeploymentLog extends SObject {
 	public String DataPackageKitDefinition;
 	public String DataSpaceName;
 	public String DeployJob;
+	public String DeploymentAction;
 	public String DeploymentError;
 	public String DeploymentStatus;
 	public String FileBasedComponentTemplate;

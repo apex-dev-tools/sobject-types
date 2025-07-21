@@ -26,12 +26,20 @@ public class MktDataLakeMapping extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
+	public String SourceFieldDeveloperName;
+	public String SourceFieldNamespacePrefix;
 	public String SourceFieldRef;
+	public String SourceObjectDeveloperName;
+	public String SourceObjectNamespacePrefix;
 	public String SourceObjectRef;
 	public Datetime SystemModstamp;
+	public String TargetFieldDeveloperName;
+	public String TargetFieldNamespacePrefix;
 	public String TargetFieldRef;
+	public String TargetObjectDeveloperName;
 	public Id TargetObjectId;
 	public MktDataLakeMapping TargetObject;
+	public String TargetObjectNamespacePrefix;
 	public String TargetObjectRef;
 
 	public MktDataLakeMapping clone$() {throw new java.lang.UnsupportedOperationException();}

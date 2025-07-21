@@ -74,6 +74,8 @@ public class CardPaymentMethod extends SObject {
 	public String PaymentMethodType;
 	public String Phone;
 	public String ProcessingMode;
+	public Id SavedPaymentMethodId;
+	public SavedPaymentMethod SavedPaymentMethod;
 	public String SfResultCode;
 	public Integer StartMonth;
 	public Integer StartYear;
