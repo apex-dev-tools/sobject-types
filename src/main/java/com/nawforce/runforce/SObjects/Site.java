@@ -65,6 +65,7 @@ public class Site extends SObject {
 	public Boolean OptionsIsSiteGAIntegrationMigrated;
 	public Boolean OptionsIsSiteGAIntegrationMigratedV2;
 	public Boolean OptionsIsSiteGRecaptchaIntegrationEnabled;
+	public Boolean OptionsIsSlashSRemovedSite;
 	public Boolean OptionsRedirectToCustomDomain;
 	public Boolean OptionsReferrerPolicyOriginWhenCrossOrigin;
 	public Boolean OptionsUseGuestUserLanguage;

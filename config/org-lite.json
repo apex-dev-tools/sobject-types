@@ -4,6 +4,7 @@
 	"features": [
 		"AnalyticsAdminPerms",
 		"AnalyticsAppEmbedded",
+		"BillingAdvanced",
 		"CustomerDataPlatform",
 		"CustomerDataPlatformLite",
 		"CustomerExperienceAnalytics",
@@ -15,6 +16,8 @@
 		"EinsteinRecommendationBuilder",
 		"EinsteinSearch",
 		"ERMAnalytics",
+		"Explainability",
+		"InvoiceManagement",
 		"WavePlatform"
 	],
 	"settings": {

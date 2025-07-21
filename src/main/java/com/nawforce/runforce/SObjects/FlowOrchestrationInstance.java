@@ -39,6 +39,7 @@ public class FlowOrchestrationInstance extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 	public String TriggeringRecord;
+	public String TriggeringRecordType;
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;

@@ -20,6 +20,7 @@ public class CreditMemo extends SObject {
 	public Contact BillToContact;
 	public Id BillingAccountId;
 	public Account BillingAccount;
+	public String Category;
 	public Decimal CorpCrcyCnvTotAmtWithTax;
 	public Date CorporateCurrencyCvsnDate;
 	public Decimal CorporateCurrencyCvsnRate;
@@ -45,6 +46,7 @@ public class CreditMemo extends SObject {
 	public Decimal NetCreditsApplied;
 	public Id OwnerId;
 	public Name Owner;
+	public String ReasonCode;
 	public Id ReferenceEntityId;
 	public Name ReferenceEntity;
 	public String Status;

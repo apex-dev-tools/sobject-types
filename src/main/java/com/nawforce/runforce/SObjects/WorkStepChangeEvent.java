@@ -35,6 +35,7 @@ public class WorkStepChangeEvent extends SObject {
 	public SObject ParentRecord;
 	public Id PausedFlowInterviewId;
 	public FlowInterview PausedFlowInterview;
+	public String ProcessType;
 	public String ReplayId;
 	public Datetime StartTime;
 	public String Status;

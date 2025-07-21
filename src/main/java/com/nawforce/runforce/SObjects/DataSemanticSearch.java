@@ -43,8 +43,10 @@ public class DataSemanticSearch extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public DataSemanticSearchFeed[] Feeds;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public DataSemanticSearchHistory[] Histories;
 
 	public DataSemanticSearch clone$() {throw new java.lang.UnsupportedOperationException();}

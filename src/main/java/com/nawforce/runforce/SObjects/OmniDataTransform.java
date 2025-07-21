@@ -37,6 +37,7 @@ public class OmniDataTransform extends SObject {
 	public Boolean IsDeletedOnSuccess;
 	public Boolean IsErrorIgnored;
 	public Boolean IsFieldLevelSecurityEnabled;
+	public Boolean IsManagedUsingStdDesigner;
 	public Boolean IsNullInputsIncludedInOutput;
 	public Boolean IsProcessSuperBulk;
 	public Boolean IsRollbackOnError;

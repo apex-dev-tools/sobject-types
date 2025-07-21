@@ -25,6 +25,8 @@ public class ProcessExceptionEvent extends SObject {
 	public static SObjectType$<ProcessExceptionEvent> SObjectType;
 	public static SObjectFields$<ProcessExceptionEvent> Fields;
 
+	public Id AssetId;
+	public Asset Asset;
 	public Id AttachedToId;
 	public Name AttachedTo;
 	public Id BackgroundOperationId;
@@ -36,6 +38,8 @@ public class ProcessExceptionEvent extends SObject {
 	public String EventUuid;
 	public String ExceptionType;
 	public String ExternalReference;
+	public Id GroupById;
+	public AsyncOperationTracker GroupBy;
 	public String Message;
 	public String ReplayId;
 	public String Severity;

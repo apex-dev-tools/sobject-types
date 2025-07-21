@@ -92,7 +92,9 @@ public class ServiceAppointmentChangeEvent extends SObject {
 	public String StatusCategory;
 	public String Street;
 	public String Subject;
+	public String TimeZone;
 	public String Transaction;
+	public Integer TravelTimeBuffer;
 	public Id WorkTypeId;
 	public WorkType WorkType;
 

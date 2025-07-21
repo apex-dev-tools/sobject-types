@@ -27,6 +27,7 @@ public class MarketSegmentChangeEvent extends SObject {
 	public DataSpace DataSpace;
 	public String Description;
 	public String ExcludeCriteria;
+	public String GroupSortLimitFilterCriteria;
 	public Id Id;
 	public String IncludeCriteria;
 	public Boolean IsCurrentSaveApproxCount;

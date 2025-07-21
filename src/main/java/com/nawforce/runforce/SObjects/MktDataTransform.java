@@ -18,12 +18,14 @@ public class MktDataTransform extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CreationSource;
 	public String CreationType;
 	public String CurrencyCode;
 	public Id DataSpaceId;
 	public DataSpace DataSpace;
 	public String DataTransformStatus;
 	public String DataTransformStatusDetails;
+	public String FullRunFrequency;
 	public Id Id;
 	public Boolean IsCreatedAsMultiDefinition;
 	public Boolean IsDeleted;
@@ -49,9 +51,11 @@ public class MktDataTransform extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public MktDataTransformFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MktDataTransformHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

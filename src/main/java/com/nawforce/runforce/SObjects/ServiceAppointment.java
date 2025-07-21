@@ -96,7 +96,9 @@ public class ServiceAppointment extends SObject {
 	public String Street;
 	public String Subject;
 	public Datetime SystemModstamp;
+	public String TimeZone;
 	public String Transaction;
+	public Integer TravelTimeBuffer;
 	public Id WorkTypeId;
 	public WorkType WorkType;
 

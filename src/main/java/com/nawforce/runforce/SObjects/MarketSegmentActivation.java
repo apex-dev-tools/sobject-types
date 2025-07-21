@@ -19,6 +19,7 @@ public class MarketSegmentActivation extends SObject {
 
 	public String ActivationEventMetadata;
 	public String ActivationFlowType;
+	public String ActivationMappingSchema;
 	public String ActivationObjectFilter;
 	public String ActivationObjectName;
 	public String ActivationObjectPath;
@@ -46,6 +47,7 @@ public class MarketSegmentActivation extends SObject {
 	public Datetime EndDate;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsRemote;
 	public Datetime LastActivationStatusDateTime;
 	public String LastActivationStatusErrorCode;
 	public Id LastModifiedById;
@@ -61,6 +63,7 @@ public class MarketSegmentActivation extends SObject {
 	public Id MarketSegmentId;
 	public MarketSegment MarketSegment;
 	public String Name;
+	public String OwnedByOrg;
 	public Long RecordCount;
 	public Datetime StartDate;
 	public String StaticAttributes;
@@ -72,9 +75,11 @@ public class MarketSegmentActivation extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public MarketSegmentActivationFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MarketSegmentActivationHistory[] Histories;
 	public MktSgmntActvtnAudAttribute[] MarketSegmentActivationAudAttribute;
 	public MktSgmntActvtnContactPoint[] MarketSegmentActivationContactPoint;

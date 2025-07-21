@@ -15,6 +15,8 @@ public class ProcessExceptionChangeEvent extends SObject {
 	public static SObjectType$<ProcessExceptionChangeEvent> SObjectType;
 	public static SObjectFields$<ProcessExceptionChangeEvent> Fields;
 
+	public Id AssetId;
+	public Asset Asset;
 	public Id AttachedToId;
 	public SObject AttachedTo;
 	public Id CaseId;
@@ -27,6 +29,8 @@ public class ProcessExceptionChangeEvent extends SObject {
 	public String CurrencyIsoCode;
 	public String Description;
 	public String ExternalReference;
+	public Id GroupById;
+	public AsyncOperationTracker GroupBy;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

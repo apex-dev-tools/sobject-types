@@ -24,6 +24,10 @@ public class BatchJobPart extends SObject {
 	public String CurrencyIsoCode;
 	public Datetime EndTime;
 	public String ErrorDescription;
+	public Blob FailedRecFileBody;
+	public String FailedRecFileContentType;
+	public Integer FailedRecFileLength;
+	public String FailedRecFileName;
 	public Integer FailedRecordCount;
 	public Id Id;
 	public Integer InputRecordCount;

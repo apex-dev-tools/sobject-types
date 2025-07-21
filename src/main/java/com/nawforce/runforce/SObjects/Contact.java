@@ -240,6 +240,7 @@ public class Contact extends SObject {
 	public VoiceCall[] RelatedRecords;
 	public CareRequest[] RequestingPractitionerCareRequests;
 	public ReturnOrder[] ReturnOrders;
+	public SavedPaymentMethod[] SavedPaymentMethods;
 	public ServiceAppointment[] ServiceAppointments;
 	public ServiceContract[] ServiceContracts;
 	public CareRequest[] ServicingPractitionerCareRequests;

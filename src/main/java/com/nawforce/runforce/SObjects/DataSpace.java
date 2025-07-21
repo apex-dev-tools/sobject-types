@@ -35,8 +35,10 @@ public class DataSpace extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public DataSpaceFeed[] Feeds;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public DataSpaceHistory[] Histories;
 
 	public DataSpace clone$() {throw new java.lang.UnsupportedOperationException();}

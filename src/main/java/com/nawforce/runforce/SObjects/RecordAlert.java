@@ -66,6 +66,7 @@ public class RecordAlert extends SObject {
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RecordAlertActionableTarget[] RecordAlertParent;
 	public RecordAlertShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

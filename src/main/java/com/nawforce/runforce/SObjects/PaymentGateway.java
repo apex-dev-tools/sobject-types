@@ -28,6 +28,8 @@ public class PaymentGateway extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Id MerchantAccountId;
+	public MerchantAccount MerchantAccount;
 	public Id MerchantCredentialId;
 	public NamedCredential MerchantCredential;
 	public String PaymentGatewayName;
@@ -44,6 +46,7 @@ public class PaymentGateway extends SObject {
 	public Payment[] Payments;
 	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public Refund[] Refunds;
+	public SavedPaymentMethod[] SavedPaymentMethods;
 
 	public PaymentGateway clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PaymentGateway clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

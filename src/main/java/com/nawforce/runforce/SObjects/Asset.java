@@ -63,6 +63,8 @@ public class Asset extends SObject {
 	public Location Location;
 	public Decimal Longitude;
 	public Date ManufactureDate;
+	public Decimal MeanTimeBetweenFailures;
+	public Decimal MeanTimeToRepair;
 	public String Name;
 	public Id OwnerId;
 	public User Owner;
@@ -106,6 +108,7 @@ public class Asset extends SObject {
 	public AssetAttribute[] AssetAttributes;
 	public AssetContactParticipant[] AssetContactParticipantAsset;
 	public AssetDowntimePeriod[] AssetDowntimePeriods;
+	public ProcessException[] AssetProcessExceptions;
 	public AssetStatePeriod[] AssetStatePeriods;
 	public CustomerProperty[] Assets;
 	public AttachedContentDocument[] AttachedContentDocuments;

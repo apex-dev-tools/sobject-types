@@ -74,6 +74,7 @@ public class ServiceTerritory extends SObject {
 	public ServiceTerritoryFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public GeolocationBasedAction[] GeolocationBasedActions;
 	public ServiceTerritoryHistory[] Histories;
 	public ServiceTerritoryLocation[] Locations;
 	public NetworkActivityAudit[] ParentEntities;

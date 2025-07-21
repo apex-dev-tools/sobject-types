@@ -63,6 +63,8 @@ public class AlternativePaymentMethod extends SObject {
 	public String PaymentMethodType;
 	public String Phone;
 	public String ProcessingMode;
+	public Id SavedPaymentMethodId;
+	public SavedPaymentMethod SavedPaymentMethod;
 	public String StandardEntryClassCode;
 	public String Status;
 	public Datetime SystemModstamp;

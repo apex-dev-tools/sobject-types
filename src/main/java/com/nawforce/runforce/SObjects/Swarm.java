@@ -15,6 +15,7 @@ public class Swarm extends SObject {
 	public static SObjectType$<Swarm> SObjectType;
 	public static SObjectFields$<Swarm> Fields;
 
+	public String ChannelType;
 	public Id CollaborationRoomId;
 	public CollaborationRoom CollaborationRoom;
 	public String CollaborationTool;

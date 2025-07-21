@@ -53,6 +53,8 @@ public class PaymentLineInvoice extends SObject {
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
 	public FinanceTransaction[] ParentFinanceTransactions;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
+	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 	public FinanceTransaction[] SourceFinanceTransactions;
 
 	public PaymentLineInvoice clone$() {throw new java.lang.UnsupportedOperationException();}

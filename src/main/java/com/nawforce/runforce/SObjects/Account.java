@@ -466,6 +466,7 @@ public class Account extends SObject {
 	public CustomerProperty[] PrimaryOwners;
 	public InsurancePolicyParticipant[] PrimaryParticipants;
 	public PrivacyHold[] PrivacyHoldReferences;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProducerCommission[] ProducerCommissions;
@@ -495,6 +496,7 @@ public class Account extends SObject {
 	public ResidentialLoanApplication[] ResidentialLoanApplicationAccount;
 	public ResourcePreference[] ResourcePreferences;
 	public ReturnOrder[] ReturnOrders;
+	public SavedPaymentMethod[] SavedPaymentMethods;
 	public ScorecardAssociation[] ScorecardAssociations;
 	public SecuritiesHolding[] SecurityHoldings;
 	public ServiceAppointment[] ServiceAppointmentAccount;

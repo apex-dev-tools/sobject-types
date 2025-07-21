@@ -45,6 +45,8 @@ public class PaymentMethod extends SObject {
 	public String PaymentMethodStreet;
 	public String PaymentMethodSubType;
 	public String PaymentMethodType;
+	public Id SavedPaymentMethodId;
+	public SavedPaymentMethod SavedPaymentMethod;
 	public String Status;
 	public Datetime SystemModstamp;
 

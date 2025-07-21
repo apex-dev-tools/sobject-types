@@ -15,6 +15,8 @@ public class ProcessException extends SObject {
 	public static SObjectType$<ProcessException> SObjectType;
 	public static SObjectFields$<ProcessException> Fields;
 
+	public Id AssetId;
+	public Asset Asset;
 	public Id AttachedToId;
 	public Name AttachedTo;
 	public Id CaseId;
@@ -26,6 +28,8 @@ public class ProcessException extends SObject {
 	public String CurrencyIsoCode;
 	public String Description;
 	public String ExternalReference;
+	public Id GroupById;
+	public AsyncOperationTracker GroupBy;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

@@ -33,6 +33,8 @@ public class DynamicDataCapture extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Id OwnerId;
+	public Name Owner;
 	public Id ParentRecordId;
 	public Name ParentRecord;
 	public String ParentRecordType;
@@ -58,6 +60,8 @@ public class DynamicDataCapture extends SObject {
 	public NoteAndAttachment[] NotesAndAttachments;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ServiceReport[] ServiceReports;
+	public DynamicDataCaptureShare[] Shares;
 	public TopicAssignment[] TopicAssignments;
 
 	public DynamicDataCapture clone$() {throw new java.lang.UnsupportedOperationException();}

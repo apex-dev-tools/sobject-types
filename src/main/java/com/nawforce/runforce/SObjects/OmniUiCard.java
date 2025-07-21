@@ -26,6 +26,7 @@ public class OmniUiCard extends SObject {
 	public Id Id;
 	public Boolean IsActive;
 	public Boolean IsDeleted;
+	public Boolean IsManagedUsingStdDesigner;
 	public Boolean IsTrackingEnabled;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

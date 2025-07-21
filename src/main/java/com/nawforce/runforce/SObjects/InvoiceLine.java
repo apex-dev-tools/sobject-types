@@ -62,6 +62,8 @@ public class InvoiceLine extends SObject {
 	public String TaxProcessingStatus;
 	public Decimal TaxRate;
 	public String Type;
+	public Id UnitOfMeasureId;
+	public UnitOfMeasure UnitOfMeasure;
 	public Decimal UnitPrice;
 
 	public ApprovalSubmission[] ApprovalSubmissions;
@@ -82,6 +84,7 @@ public class InvoiceLine extends SObject {
 	public InvoiceLine[] InvoiceLines;
 	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;

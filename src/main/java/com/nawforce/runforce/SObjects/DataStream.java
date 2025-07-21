@@ -22,6 +22,7 @@ public class DataStream extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String DataStreamStatus;
+	public String DeletionRecordsDataLakeObject;
 	public String Description;
 	public String ExternalRecordIdentifier;
 	public String ExternalStreamErrorCode;
@@ -56,9 +57,11 @@ public class DataStream extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public DataStreamFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
 	public DataStreamHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

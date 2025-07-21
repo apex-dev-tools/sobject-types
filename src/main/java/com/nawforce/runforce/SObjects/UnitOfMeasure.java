@@ -48,6 +48,7 @@ public class UnitOfMeasure extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public MedicationDispense[] MedicationDispense_QuantityUnits;
 	public PatientImmunization[] Patient_Immunization_Dose_Units;
+	public InvoiceLine[] InvoiceLines;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public TransactionJournal[] QuantityUnit;
