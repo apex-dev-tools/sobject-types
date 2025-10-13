@@ -4,7 +4,7 @@ Stub declarations for Salesforce SObject types encoded as compilable Java, built
 
 These stub declarations help support static analysis of Apex code in [apex-ls](https://github.com/apex-dev-tools/apex-ls) but you may also find them useful for other purposes. They have been encoded in Java to get the benefit of type checking by javac so it easier to spot when something is amiss. In apex-ls JVM reflection is used to 'read' the stubs as part of the static analysis.
 
-The library is versioned to reflect Salesforce API numbers, so currently v64.X.X matches the Salesforce Summer '25 API.
+The library is versioned to reflect Salesforce API numbers, so currently v65.X.X matches the Salesforce Winter '26 API.
 
 ## Installation
 
@@ -14,7 +14,7 @@ To use the jar in a maven project add the following to your pom.xml
 <dependency>
     <groupId>io.github.apex-dev-tools</groupId>
     <artifactId>sobject-types</artifactId>
-    <version>64.0.0</version>
+    <version>65.0.0</version>
 </dependency>
 ```
 
@@ -38,7 +38,7 @@ Update API version numbers in `pom.xml`:
 
 ### Generate Types from an Org
 
-To generate types, we need an org with as many features enabled as possible, otherwise certain SObjects will not be available. `config/org-all.json` can be used for a scratch org. This may need changing if/when [the features list](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs_def_file_config_values.htm) has new additions. There is also a `config/org-lite.json`, which can be used to add new features in isolation (diff of the previous feature list) for the purpose of collecting only new objects with most important fields. The all config is error prone and difficult to troubleshoot.
+To generate types, we need an org with as many features enabled as possible, otherwise certain SObjects will not be available. `config/org-all.json` can be used for a scratch org. This may need changing if/when [the features list](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs_def_file_config_values.htm) has new additions. There is also a `config/org-lite.json`, which can be used to add new features in isolation (diff of the previous feature list) for the purpose of collecting only new objects with most important fields.
 
 1. Create org
 
