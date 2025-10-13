@@ -33,11 +33,11 @@ import com.sforce.soap.partner.PartnerConnection
 import com.sforce.ws.{ConnectionException, ConnectorConfig}
 
 case class SFConnection(
-  url: String,
-  username: String,
   connection: PartnerConnection,
+  serverURL: String,
   metadataURL: String,
-  serverURL: String
+  loginURL: String,
+  username: String
 ) {
   def metadataConnection(): MetadataConnection = {
     val config = new ConnectorConfig
@@ -50,33 +50,43 @@ case class SFConnection(
 object SFConnection {
 
   def login(
-    url: String,
     username: String,
-    passwordAndToken: String
+    passwordAndToken: String,
+    instance: String,
+    api: String,
   ): Either[String, SFConnection] = {
+    // [Oct 2025] Per https://help.salesforce.com/s/articleView?id=005132110&type=1
+    // SOAP login() is being retired - last supported version is 64
+    // use 64 to get session ID and then modify the API service URL to the desired version
+
+    val loginUrl = s"https://$instance.salesforce.com/services/Soap/u/64.0"
     val config = new ConnectorConfig
-    config.setAuthEndpoint(url)
-    config.setServiceEndpoint(url)
+    config.setAuthEndpoint(loginUrl)
+    config.setServiceEndpoint(loginUrl)
     config.setManualLogin(true)
 
     try {
       val connection = new PartnerConnection(config)
       val result     = connection.login(username, passwordAndToken)
 
+      val url = setApiVersion(result.getServerUrl, api)
+      val metaUrl = setApiVersion(result.getMetadataServerUrl, api)
       val newConfig = new ConnectorConfig
-      newConfig.setServiceEndpoint(result.getServerUrl)
+      newConfig.setServiceEndpoint(url)
       newConfig.setSessionId(result.getSessionId)
       Right(
         SFConnection(
-          url,
-          username,
           new PartnerConnection(newConfig),
-          result.getMetadataServerUrl,
-          result.getServerUrl
+          url,
+          metaUrl,
+          loginUrl,
+          username
         )
       )
     } catch {
       case e: ConnectionException => Left(e.toString)
     }
   }
+
+  private def setApiVersion(url: String, api: String): String = url.replace("64.0", api)
 }
