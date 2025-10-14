@@ -16,7 +16,11 @@ public class ContactEncounterParticipant extends SObject {
 	public static SObjectType$<ContactEncounterParticipant> SObjectType;
 	public static SObjectFields$<ContactEncounterParticipant> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public Integer Age;
+	public Id CaseId;
+	public Case Case;
 	public Id ContactEncounterId;
 	public ContactEncounter ContactEncounter;
 	public Id ContactId;
@@ -36,8 +40,10 @@ public class ContactEncounterParticipant extends SObject {
 	public Id LeadId;
 	public Lead Lead;
 	public String Name;
+	public String RiskLevel;
 	public Datetime StartTime;
 	public Datetime SystemModstamp;
+	public String TransmissionMode;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

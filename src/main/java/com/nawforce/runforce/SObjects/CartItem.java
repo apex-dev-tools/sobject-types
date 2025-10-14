@@ -33,6 +33,7 @@ public class CartItem extends SObject {
 	public Decimal GrossUnitPrice;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsShippingChargeNotApplicable;
 	public Decimal ItemizedAdjustmentAmount;
 	public Decimal ItemizedAdjustmentTaxAmount;
 	public Id LastModifiedById;
@@ -55,6 +56,7 @@ public class CartItem extends SObject {
 	public Decimal SalesPrice;
 	public String Sku;
 	public String StockCheckMethod;
+	public String SubType;
 	public Datetime SystemModstamp;
 	public Decimal TotalAdjustmentAmount;
 	public Decimal TotalAmount;

@@ -66,6 +66,7 @@ public class BusinessType extends SObject {
 	public BusinessTypeShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public BusinessType clone$() {throw new java.lang.UnsupportedOperationException();}
 	public BusinessType clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

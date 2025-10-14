@@ -45,6 +45,7 @@ public class DeliveryEstimationSetup extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public String ServiceRegion;
 	public String SyncStatus;
 	public Datetime SystemModstamp;
 

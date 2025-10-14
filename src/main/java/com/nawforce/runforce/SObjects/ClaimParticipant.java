@@ -17,6 +17,7 @@ public class ClaimParticipant extends SObject {
 
 	public Id ClaimId;
 	public Claim Claim;
+	public String ClaimInstanceIdentifier;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

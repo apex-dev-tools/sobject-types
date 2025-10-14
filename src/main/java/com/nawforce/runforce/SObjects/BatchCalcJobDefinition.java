@@ -23,6 +23,8 @@ public class BatchCalcJobDefinition extends SObject {
 	public String DataSpaceApiName;
 	public String DefinitionRunMode;
 	public String DeveloperName;
+	public Boolean DoesGenAllFailedRecords;
+	public String ExecutionPlatformObjectType;
 	public String ExecutionPlatformType;
 	public Id Id;
 	public Boolean IsDeleted;

@@ -72,6 +72,7 @@ public class Visit extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DigitalSignature[] DigitalSignatures;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
@@ -96,6 +97,7 @@ public class Visit extends SObject {
 	public ProductRequired[] ProductsRequired;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public RecordAlert[] RecordAlertWhat;
 	public RegulatoryCodeViolation[] RegCodeInspection;
 	public RegulatoryCodeViolation[] RegCodeResponseContext;
 	public RegulatoryTrxnFee[] RegulatoryTrxnFees;

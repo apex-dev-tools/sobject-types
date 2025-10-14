@@ -20,6 +20,7 @@ public class GroupCensusMember extends SObject {
 	public Account Account;
 	public Address Address;
 	public Decimal AnnualEligibleSalary;
+	public String AssociationWithPrimaryMbr;
 	public Date Birthdate;
 	public String City;
 	public Id ContactId;
@@ -96,6 +97,7 @@ public class GroupCensusMember extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public GroupCensusMemberPlan[] GroupCensusMemberPlans;
 	public GroupCensusMemberHistory[] Histories;
+	public InsuranceAsyncBulkRecordDetail[] InsuranceAsyncBulkRecordDetails;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

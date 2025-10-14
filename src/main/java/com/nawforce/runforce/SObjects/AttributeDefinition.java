@@ -56,9 +56,13 @@ public class AttributeDefinition extends SObject {
 	public Attachment[] Attachments;
 	public AttributeAdjustmentCondition[] AttributeAdjustmentConditions;
 	public AttributeCategoryAttribute[] AttributeCategoryAttributes;
+	public ClaimAttribute[] ClaimAttributes;
+	public ClaimItemAttribute[] ClaimItemAttributes;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContractGroupPlanAttribute[] ContractGroupPlanAttributes;
+	public ContractGrpPlanGrpClsAttr[] ContractGrpPlanGrpClsAttrs;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
 	public EventRelation[] EventRelations;
@@ -69,6 +73,10 @@ public class AttributeDefinition extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public AttributeDefinitionHistory[] Histories;
+	public InsPolicyParticipantAttr[] InsPolicyParticipantAttributes;
+	public InsPolicyAssetAttribute[] InsurancePolicyAssetAttributes;
+	public InsurancePolicyAttribute[] InsurancePolicyAttributes;
+	public InsPolicyCoverageAttribute[] InsurancePolicyCoverageAttributes;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

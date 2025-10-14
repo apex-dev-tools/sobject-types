@@ -30,6 +30,7 @@ public class PurchaserPlan extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public String LineOfBusiness;
 	public String Name;
 	public String Notes;
 	public Id OwnerId;
@@ -43,6 +44,7 @@ public class PurchaserPlan extends SObject {
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public Datetime SourceSystemModified;
+	public String SponsorType;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;

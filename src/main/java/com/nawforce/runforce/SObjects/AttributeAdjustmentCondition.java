@@ -41,6 +41,7 @@ public class AttributeAdjustmentCondition extends SObject {
 	public Product2 Product;
 	public String StringValue;
 	public Datetime SystemModstamp;
+	public String UsageType;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

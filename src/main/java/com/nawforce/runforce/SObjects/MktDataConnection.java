@@ -25,6 +25,7 @@ public class MktDataConnection extends SObject {
 	public String ExternalRecordIdentifier;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsSentosEnabled;
 	public String Language;
 	public String LastDataChangeStatusErrorCode;
 	public Id LastModifiedById;
@@ -36,6 +37,7 @@ public class MktDataConnection extends SObject {
 	public String SyncStatus;
 	public Datetime SystemModstamp;
 
+	public AnalyticsWorkspaceAsset[] AnalyticsWorkspaces;
 	public ActivationTarget[] DataConConfigs;
 	public MktDataConnectionCred[] MktDataConnectionCreds;
 	public MktDataConnectionParam[] MktDataConnectionParams;

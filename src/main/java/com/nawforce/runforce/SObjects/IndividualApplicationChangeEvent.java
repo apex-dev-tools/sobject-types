@@ -25,6 +25,8 @@ public class IndividualApplicationChangeEvent extends SObject {
 	public String ApplicationType;
 	public Datetime AppliedDate;
 	public Datetime ApprovedDate;
+	public Id BudgetId;
+	public Budget Budget;
 	public Id BusinessTypeId;
 	public BusinessType BusinessType;
 	public String Category;

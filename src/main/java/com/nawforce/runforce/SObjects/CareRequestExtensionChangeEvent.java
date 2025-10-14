@@ -25,6 +25,9 @@ public class CareRequestExtensionChangeEvent extends SObject {
 	public CareRequest CareRequest;
 	public String CaseSubStatus;
 	public Object ChangeEventHeader;
+	public String ClientSourceSysIdentifier;
+	public Id CoveragePlanTypeId;
+	public CodeSetBundle CoveragePlanType;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -72,6 +75,7 @@ public class CareRequestExtensionChangeEvent extends SObject {
 	public Id SubscriberId;
 	public Account Subscriber;
 	public String SubscriberMemberIdentifier;
+	public String SupportingDocUrl;
 	public Decimal TotalAmbulanceTransportDistance;
 	public Id UnitofMeasureId;
 	public UnitOfMeasure UnitofMeasure;

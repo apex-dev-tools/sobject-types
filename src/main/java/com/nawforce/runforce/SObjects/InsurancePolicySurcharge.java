@@ -33,6 +33,8 @@ public class InsurancePolicySurcharge extends SObject {
 	public Id InsurancePolicyTransactionId;
 	public InsurancePolicyTransaction InsurancePolicyTransaction;
 	public Boolean IsDeleted;
+	public Boolean IsProrationAllowed;
+	public Boolean IsRefundAllowed;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -43,6 +45,8 @@ public class InsurancePolicySurcharge extends SObject {
 	public String SourceSystemIdentifier;
 	public Decimal SurchargeAmount;
 	public Datetime SystemModstamp;
+	public Decimal TermSurchargeAmount;
+	public String Type;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
@@ -63,6 +67,7 @@ public class InsurancePolicySurcharge extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public InsurancePolicySurchargeHistory[] Histories;
+	public InsPolicyTransactionDetail[] InsPolicyTransactionDetails;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

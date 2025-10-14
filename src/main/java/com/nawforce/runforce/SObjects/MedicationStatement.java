@@ -18,6 +18,8 @@ public class MedicationStatement extends SObject {
 	public Datetime AssertionDateTime;
 	public Id CareObservationId;
 	public CareObservation CareObservation;
+	public Id CaseId;
+	public Case Case;
 	public Id ClinicalEncounterId;
 	public ClinicalEncounter ClinicalEncounter;
 	public Id CreatedById;
@@ -88,6 +90,7 @@ public class MedicationStatement extends SObject {
 	public MedicationStatementHistory[] Histories;
 	public Identifier[] Identifiers;
 	public MedReconStmtRecommendation[] MRSRecommendation_Statements;
+	public MedicationAdministrationDtl[] MedAdminDtl_DetailRecord;
 	public MedicationStatement[] MedStat_ParentMedStatement;
 	public MedicationStatementDetail[] MedicationStatementDetailRecords;
 	public MedicationStatementDetail[] MedicationStatementDetails;

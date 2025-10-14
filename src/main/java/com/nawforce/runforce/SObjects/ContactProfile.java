@@ -15,9 +15,11 @@ public class ContactProfile extends SObject {
 	public static SObjectType$<ContactProfile> SObjectType;
 	public static SObjectFields$<ContactProfile> Fields;
 
+	public Date AdvancementGraduationDate;
 	public Id BirthCountryId;
 	public GeoCountry BirthCountry;
 	public String BirthPlace;
+	public String BirthSex;
 	public Id ContactId;
 	public Contact Contact;
 	public Id CreatedById;
@@ -26,7 +28,9 @@ public class ContactProfile extends SObject {
 	public String CurrencyIsoCode;
 	public String Division;
 	public String Ethnicity;
+	public String GenerationalCohort;
 	public String HighestEducationLevel;
+	public String HousingStatus;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsFirstGenerationStudent;
@@ -35,6 +39,7 @@ public class ContactProfile extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public String LivingArrangementType;
 	public String Location;
 	public String MilitaryBranch;
 	public String MilitaryService;
@@ -43,10 +48,13 @@ public class ContactProfile extends SObject {
 	public GeoCountry PrimaryCitizenship;
 	public String PrimaryCitizenshipType;
 	public String Race;
+	public String ResidenceSubType;
+	public String ResidenceType;
 	public Id SecondaryCitizenshipId;
 	public GeoCountry SecondaryCitizenship;
 	public String SecondaryCitizenshipType;
 	public Datetime SystemModstamp;
+	public String TribalAffiliationType;
 	public String Website;
 
 	public ActivityHistory[] ActivityHistories;
@@ -76,6 +84,7 @@ public class ContactProfile extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public ContactProfile clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactProfile clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

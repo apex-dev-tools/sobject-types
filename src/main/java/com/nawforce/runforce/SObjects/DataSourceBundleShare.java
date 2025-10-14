@@ -16,6 +16,7 @@ public class DataSourceBundleShare extends SObject {
 	public static SObjectFields$<DataSourceBundleShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

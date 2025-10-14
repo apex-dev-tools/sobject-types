@@ -50,6 +50,7 @@ public class Payment extends SObject {
 	public Datetime LastViewedDate;
 	public String MacAddress;
 	public Decimal NetApplied;
+	public Decimal NetPaymentCreditApplied;
 	public Decimal NetRefundApplied;
 	public Id PaymentAuthorizationId;
 	public PaymentAuthorization PaymentAuthorization;
@@ -67,6 +68,8 @@ public class Payment extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 	public Decimal TotalApplied;
+	public Decimal TotalPaymentCreditApplied;
+	public Decimal TotalPaymentCreditUnapplied;
 	public Decimal TotalRefundApplied;
 	public Decimal TotalRefundUnapplied;
 	public Decimal TotalUnapplied;
@@ -84,6 +87,8 @@ public class Payment extends SObject {
 	public NetworkActivityAudit[] ParentEntities;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public FinanceTransaction[] ParentFinanceTransactions;
+	public PaymentCreditLinePayment[] PaymentCreditLinePayments;
+	public PaymentCredit[] PaymentCredits;
 	public PaymentGatewayLog[] PaymentGatewayLogs;
 	public PaymentLineInvoice[] PaymentLinesInvoice;
 	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;

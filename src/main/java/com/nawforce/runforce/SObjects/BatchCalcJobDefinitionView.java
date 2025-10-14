@@ -19,6 +19,7 @@ public class BatchCalcJobDefinitionView extends SObject {
 	public String DefinitionRunMode;
 	public String Description;
 	public String DurableId;
+	public String ExecutionPlatformObjectType;
 	public String ExecutionPlatformType;
 	public Id Id;
 	public String InstalledPackageName;

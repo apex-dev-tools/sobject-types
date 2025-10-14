@@ -17,7 +17,7 @@ public class WebCartChangeEvent extends SObject {
 	public static SObjectFields$<WebCartChangeEvent> Fields;
 
 	public Id AccountId;
-	public Account Account;
+	public SObject Account;
 	public Address BillingAddress;
 	public String BillingCity;
 	public String BillingCountry;

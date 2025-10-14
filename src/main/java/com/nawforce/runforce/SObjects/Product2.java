@@ -85,6 +85,7 @@ public class Product2 extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContractGroupPlan[] ContractGroupPlans;
 	public ContractLineItem[] ContractLineItems;
 	public CreditMemoLine[] CreditMemoLines;
 	public DataUsePurpose[] DataUsePurposes;
@@ -100,10 +101,14 @@ public class Product2 extends SObject {
 	public FulfillmentOrderLineItem[] FulfillmentOrderLineItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public GroupClassContribution[] GroupClassContributions;
 	public ProductComponentGrpOverride[] GroupOverrides;
 	public Product2History[] Histories;
 	public IncidentRelatedItem[] IncidentRelatedItems;
 	public InsurancePolicy[] InsurancePolicies;
+	public InsurancePolicyAsset[] InsurancePolicyAssets;
+	public InsurancePolicyCoverage[] InsurancePolicyCoverages;
+	public InsurancePolicyParticipant[] InsurancePolicyParticipants;
 	public InventoryItemReservation[] InventoryProducts;
 	public InvoiceLine[] InvoiceLines;
 	public ContractItemPrice[] Items;
@@ -148,12 +153,20 @@ public class Product2 extends SObject {
 	public ProductServiceCampaignItem[] ProductServiceCampaignItems;
 	public ProductServiceCampaign[] ProductServiceCampaignProducts;
 	public ProductTransfer[] ProductTransfers;
+	public ProductUsageGrant[] ProductUsageGrants;
+	public ProductUsageResource[] ProductUsageResources;
 	public ProductAttribute[] ProductVariantAttributes;
 	public ProductWarrantyTerm[] ProductWarrantyTermProducts;
 	public ProductAvailabilityProjection[] Product_Availability_Projections;
+	public TransactionUsageEntitlement[] Product_TransactionUsageEntitlements;
+	public UsageEntitlementAccount[] Product_UsageEntitlementAccounts;
 	public ProductConsumed[] ProductsConsumed;
 	public ProductRequired[] ProductsRequired;
 	public PromotionLineItemRule[] PromotionLineItemRules;
+	public RateAdjustmentByAttribute[] RateAdjustmentByAttributes;
+	public RateAdjustmentByTier[] RateAdjustmentByTiers;
+	public RateCardEntry[] RateCardEntries;
+	public RatingFrequencyPolicy[] RatingFrequencyPolicies;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public AsyncOperationTracker[] ReferenceEntityAsyncOperationTrackers;
@@ -167,10 +180,14 @@ public class Product2 extends SObject {
 	public SupplierProduct[] SupplierProducts;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public UsagePrdGrantBindingPolicy[] UsageGrantBindingProduct;
+	public UsageResource[] UsageResources;
 	public VoucherDefinition[] VoucherProduct2;
 	public VoucherDefinition[] VoucherProducts;
 	public WorkOrderLineItem[] WorkOrderLineItems;
 	public WorkPlanSelectionRule[] WorkPlanSelectionRules;
+	public WorkType[] WorkTypes;
+	public Claim[] products;
 
 	public Product2 clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Product2 clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

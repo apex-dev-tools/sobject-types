@@ -35,6 +35,8 @@ public class UnitOfMeasureChangeEvent extends SObject {
 	public String Status;
 	public String Type;
 	public String UnitCode;
+	public Id UnitOfMeasureClassId;
+	public UnitOfMeasureClass UnitOfMeasureClass;
 
 	public UnitOfMeasureChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public UnitOfMeasureChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

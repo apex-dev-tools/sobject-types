@@ -27,6 +27,8 @@ public class HealthcareFacilityChangeEvent extends SObject {
 	public String Division;
 	public Id FacilityTypeId;
 	public CodeSetBundle FacilityType;
+	public Id HealthcareProviderId;
+	public HealthcareProvider HealthcareProvider;
 	public Id Id;
 	public Boolean IsAlwaysOpen;
 	public Id LastModifiedById;

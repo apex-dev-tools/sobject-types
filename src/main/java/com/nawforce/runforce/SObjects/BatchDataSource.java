@@ -22,6 +22,7 @@ public class BatchDataSource extends SObject {
 	public Datetime CreatedDate;
 	public String CriteriaJoinCondition;
 	public String CriteriaJoinType;
+	public String DataSourceType;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

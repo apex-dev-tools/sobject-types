@@ -16,6 +16,7 @@ public class ActivationTargetShare extends SObject {
 	public static SObjectFields$<ActivationTargetShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

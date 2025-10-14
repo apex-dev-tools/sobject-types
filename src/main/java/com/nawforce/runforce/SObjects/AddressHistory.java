@@ -21,6 +21,7 @@ public class AddressHistory extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

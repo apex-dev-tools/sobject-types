@@ -42,6 +42,7 @@ public class CareProgramGoal extends SObject {
 	public Date StartDate;
 	public String Status;
 	public Datetime SystemModstamp;
+	public String Type;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

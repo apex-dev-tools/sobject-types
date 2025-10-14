@@ -94,6 +94,7 @@ public class MedicationDispense extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MedicationDispenseHistory[] Histories;
 	public Identifier[] Identifiers;
+	public MedicationAdministrationDtl[] MedAdminDtl_DetailRecord;
 	public MedicationStatementDetail[] MedicationStatementDetailRecords;
 	public OpenActivity[] OpenActivities;
 	public PatientMedicationDosage[] PMDParents;

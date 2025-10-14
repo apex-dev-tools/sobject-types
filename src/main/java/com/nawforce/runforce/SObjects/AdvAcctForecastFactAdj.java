@@ -44,6 +44,7 @@ public class AdvAcctForecastFactAdj extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public AdvAcctForecastFactAdjShare[] Shares;
+	public TopicAssignment[] TopicAssignments;
 
 	public AdvAcctForecastFactAdj clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AdvAcctForecastFactAdj clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

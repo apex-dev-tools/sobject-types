@@ -21,6 +21,7 @@ public class DataObjSecondaryIndexHistory extends SObject {
 	public Id DataObjSecondaryIndexId;
 	public DataObjSecondaryIndex DataObjSecondaryIndex;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

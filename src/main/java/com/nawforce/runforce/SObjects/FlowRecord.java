@@ -24,13 +24,15 @@ public class FlowRecord extends SObject {
 	public Integer ApiVersion;
 	public Boolean AreMetricsLoggedToDataCloud;
 	public Id AssociatedRecordId;
-	public Campaign AssociatedRecord;
+	public Name AssociatedRecord;
 	public String Builder;
 	public String CapacityCategory;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataSpaceId;
+	public DataSpace DataSpace;
 	public String Description;
 	public String ErrorCode;
 	public String ErrorDetails;

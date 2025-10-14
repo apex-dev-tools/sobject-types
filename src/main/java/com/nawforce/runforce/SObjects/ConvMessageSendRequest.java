@@ -26,17 +26,24 @@ public class ConvMessageSendRequest extends SObject {
 	public Integer FailedMessageCount;
 	public String FailedMessageErrorReasons;
 	public String FailedMessageIdentifiers;
+	public String FailedMeuPlatformKeys;
 	public Id Id;
 	public Integer InProgressMessageCount;
 	public String InProgressMessageIdentifiers;
+	public String InProgressMessagingEndUserIds;
+	public String InProgressMessagingSessionIds;
+	public String InProgressMeuPlatformKeys;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String MessageDefinition;
+	public String MessageDefinitionParameters;
 	public String Name;
 	public Integer PendingMessageCount;
 	public String PendingMessageIdentifiers;
+	public String PendingMessagingEndUserIds;
+	public String PendingMeuPlatformKeys;
 	public String RequestConsentType;
 	public String RequestStatus;
 	public String RequestType;
@@ -44,6 +51,7 @@ public class ConvMessageSendRequest extends SObject {
 	public Boolean ShouldEnforceChannelConsent;
 	public Integer SuccessMessageCount;
 	public String SuccessMessageIdentifiers;
+	public String SuccessMeuPlatformKeys;
 	public Datetime SystemModstamp;
 	public Integer TotalMessageCount;
 

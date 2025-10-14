@@ -70,6 +70,7 @@ public class ViolationEnforcementAction extends SObject {
 	public RegulatoryTrxnFee[] RegulatoryTrxnFees;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public ViolationEnforcementAction clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ViolationEnforcementAction clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

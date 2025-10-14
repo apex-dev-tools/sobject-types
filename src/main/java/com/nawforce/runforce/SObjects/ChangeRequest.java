@@ -50,6 +50,7 @@ public class ChangeRequest extends SObject {
 	public String Subject;
 	public Datetime SystemModstamp;
 
+	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApprovalSubmission[] ApprovalSubmissions;
@@ -63,6 +64,7 @@ public class ChangeRequest extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EntityMilestone[] EntityMilestones;
 	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;

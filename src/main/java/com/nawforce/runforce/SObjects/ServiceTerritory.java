@@ -45,6 +45,8 @@ public class ServiceTerritory extends SObject {
 	public Id ParentTerritoryId;
 	public ServiceTerritory ParentTerritory;
 	public String PostalCode;
+	public Id PricebookId;
+	public Pricebook2 Pricebook;
 	public Id SchedulingConstraintId;
 	public SchedulingConstraint SchedulingConstraint;
 	public String SelfCheckInUrl;
@@ -64,6 +66,7 @@ public class ServiceTerritory extends SObject {
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public ApptBundlePolicySvcTerr[] BundlePolicySvcTerrs;
+	public BusinessProfile[] BusinessProfilesST;
 	public CareProgramEnrollee[] CPEServiceTerritory;
 	public ServiceTerritory[] ChildServiceTerritories;
 	public CombinedAttachment[] CombinedAttachments;

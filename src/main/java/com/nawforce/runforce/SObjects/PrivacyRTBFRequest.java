@@ -50,9 +50,9 @@ public class PrivacyRTBFRequest extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public PrivacyRTBFRequestFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
-	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public PrivacyRTBFRequestHistory[] Histories;
 	public OpenActivity[] OpenActivities;
 	public PrivacyJobSession[] PrivacyRtbfRequestJobSessions;

@@ -19,6 +19,7 @@ public class CareProgramTeamMemberChangeEvent extends SObject {
 	public Account Account;
 	public Id CareProgramId;
 	public CareProgram CareProgram;
+	public String Category;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -28,6 +29,8 @@ public class CareProgramTeamMemberChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id MemberId;
+	public SObject Member;
 	public String Name;
 	public String ReplayId;
 	public String Role;

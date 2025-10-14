@@ -16,15 +16,19 @@ public class FlowOrchestrationInstance extends SObject {
 	public static SObjectType$<FlowOrchestrationInstance> SObjectType;
 	public static SObjectFields$<FlowOrchestrationInstance> Fields;
 
+	public String AuxiliaryTriggeringRecord;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String CurrentStage;
 	public Long Duration;
+	public String FlowDefinitionVersionName;
+	public String FlowType;
 	public Id Id;
 	public Id InterviewId;
 	public FlowInterview Interview;
+	public Boolean IsDebugRun;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -34,6 +38,7 @@ public class FlowOrchestrationInstance extends SObject {
 	public String Name;
 	public String OrchestrationDeveloperName;
 	public String OrchestrationLabel;
+	public String OrchestrationName;
 	public Id OwnerId;
 	public Name Owner;
 	public String Status;
@@ -43,6 +48,7 @@ public class FlowOrchestrationInstance extends SObject {
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public CareProgramEnrollee[] FlowOrchestrationInstanceCPEnrollee;
 	public FlowOrchestrationLog[] FlowOrchestrationLogs;
 	public FlowOrchestrationStageInstance[] FlowOrchestrationStageInstances;
 	public FlowOrchestrationStepInstance[] FlowOrchestrationStepInstances;

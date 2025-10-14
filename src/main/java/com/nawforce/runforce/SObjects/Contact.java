@@ -113,6 +113,7 @@ public class Contact extends SObject {
 	public AuthorNote[] AuthorNotes;
 	public AuthorizationFormConsent[] AuthorizationFormConsents;
 	public Award[] Awards;
+	public BenefitDisbursement[] BenefitDisbursementBenefitAssignments;
 	public BoardCertification[] BoardCertifications;
 	public Applicant[] BusinessContactApplicants;
 	public BusinessLicense[] BusinessLicenses;
@@ -136,6 +137,7 @@ public class Contact extends SObject {
 	public ContactEncounterParticipant[] ContactEncounterParticipants;
 	public PartyProfile[] ContactPartyProfiles;
 	public ContactRequest[] ContactRequests;
+	public SustainabilityStakeholder[] ContactorUser;
 	public ContactProfile[] Contacts;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -170,6 +172,7 @@ public class Contact extends SObject {
 	public CareRequest[] GeneralPractitionerCareRequests;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public GroupCensusMember[] GroupCensusMembers;
+	public HealthRiskEvaluation[] HRE_Evaluator;
 	public HealthcarePractitionerFacility[] HealthcarePractitionerFacilities;
 	public HealthcareProviderNpi[] HealthcareProviderNpis;
 	public HealthcareProviderSpecialty[] HealthcareProviderSpecialties;
@@ -192,6 +195,7 @@ public class Contact extends SObject {
 	public ListEmailIndividualRecipient[] ListEmailIndividualRecipients;
 	public ListEmail[] ListEmails;
 	public LoanApplicant[] LoanApplicants;
+	public LoyaltyProgramMember[] LoyaltyProgramMemberContact;
 	public MaintenancePlan[] MaintenancePlans;
 	public MedicationTherapyReview[] MedTherapyReview_Surrogates;
 	public MedicationDispense[] MedicationDispense_CollectedBy;
@@ -228,6 +232,7 @@ public class Contact extends SObject {
 	public Quote[] Quotes;
 	public ProducerCommission[] ProducerCommissions;
 	public Producer[] ProducersContact;
+	public PromotionPartyUsage[] PromotionPartyUsages;
 	public PublicApplicationParticipant[] PublicApplicationParticipants;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;

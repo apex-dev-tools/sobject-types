@@ -61,6 +61,7 @@ public class BusRegAuthorizationType extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public BusRegAuthorizationType clone$() {throw new java.lang.UnsupportedOperationException();}
 	public BusRegAuthorizationType clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

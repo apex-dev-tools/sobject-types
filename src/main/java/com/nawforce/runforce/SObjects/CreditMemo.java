@@ -93,6 +93,7 @@ public class CreditMemo extends SObject {
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
 	public FinanceTransaction[] ParentFinanceTransactions;
+	public PaymentCredit[] PaymentCredits;
 	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;

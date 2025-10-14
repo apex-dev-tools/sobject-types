@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -38,6 +39,7 @@ public class OrgIncidentSummary extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Integer LostHours;
 	public Decimal MonetaryLoss;
 	public String Name;
 	public Id OwnerId;
@@ -46,6 +48,8 @@ public class OrgIncidentSummary extends SObject {
 	public Id SubsidiaryAccountId;
 	public Account SubsidiaryAccount;
 	public Datetime SystemModstamp;
+	public Integer WorkingDaysReportingPeriod;
+	public Integer WorkingHoursDay;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

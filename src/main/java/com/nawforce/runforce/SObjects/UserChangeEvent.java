@@ -139,7 +139,9 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPreferencesDisableSharePostEmail;
 	public Boolean UserPreferencesDisableWorkEmail;
 	public Boolean UserPreferencesDismissPersonalSpaceLegalMessage;
+	public Boolean UserPreferencesDismissRecordChannelsSuggestedObjects;
 	public Boolean UserPreferencesEnableAutoSubForFeeds;
+	public Boolean UserPreferencesEnableLwrLexPilot;
 	public Boolean UserPreferencesEventRemindersCheckboxDefault;
 	public Boolean UserPreferencesExcludeMailAppAttachments;
 	public Boolean UserPreferencesFavoritesShowTopFavorites;

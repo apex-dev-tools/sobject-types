@@ -67,6 +67,7 @@ public class PartyRoleRelation extends SObject {
 	public PartyRoleRelationShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public PartyRoleRelation clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PartyRoleRelation clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

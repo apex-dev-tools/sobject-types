@@ -34,6 +34,8 @@ public class ApexTestResult extends SObject {
 	public Integer RunTime;
 	public String StackTrace;
 	public Datetime SystemModstamp;
+	public String TestName;
+	public String TestNamespace;
 	public Datetime TestTimestamp;
 
 	public ApexTestResultLimits[] ApexTestResults;

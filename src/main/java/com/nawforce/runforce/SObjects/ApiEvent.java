@@ -16,10 +16,12 @@ public class ApiEvent extends SObject {
 	public static SObjectType$<ApiEvent> SObjectType;
 	public static SObjectFields$<ApiEvent> Fields;
 
+	public String ActionName;
 	public String AdditionalInfo;
 	public String ApiType;
 	public Decimal ApiVersion;
 	public String Application;
+	public String BotSessionIdentifier;
 	public String Client;
 	public Id ConnectedAppId;
 	public ConnectedApplication ConnectedApp;

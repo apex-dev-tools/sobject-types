@@ -25,6 +25,8 @@ public class ApprovalSubmission extends SObject {
 	public FlowOrchestrationInstance FlowOrchestrationInstance;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsEligibleForSmartApproval;
+	public Boolean IsSmartApprovalRun;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -34,6 +36,8 @@ public class ApprovalSubmission extends SObject {
 	public Id RelatedRecordId;
 	public Name RelatedRecord;
 	public String RelatedRecordObjectName;
+	public Id SmartApprvlBasisSubmissionId;
+	public ApprovalSubmission SmartApprvlBasisSubmission;
 	public String Status;
 	public Id SubmittedById;
 	public User SubmittedBy;
@@ -42,6 +46,7 @@ public class ApprovalSubmission extends SObject {
 	public ApprovalSubmissionDetail[] ApprovalSubmissionDetails;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public ApprovalSubmission[] BasisApprovalSubmissions;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

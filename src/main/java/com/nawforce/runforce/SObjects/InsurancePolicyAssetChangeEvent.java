@@ -25,6 +25,8 @@ public class InsurancePolicyAssetChangeEvent extends SObject {
 	public Id CustomerPropertyId;
 	public CustomerProperty CustomerProperty;
 	public String Division;
+	public Date EffectiveFromDate;
+	public Date EffectiveToDate;
 	public Id Id;
 	public Id InsurancePolicyId;
 	public InsurancePolicy InsurancePolicy;
@@ -37,6 +39,8 @@ public class InsurancePolicyAssetChangeEvent extends SObject {
 	public User Owner;
 	public Id PrimaryPolicyParticipantId;
 	public InsurancePolicyParticipant PrimaryPolicyParticipant;
+	public Id ProductId;
+	public Product2 Product;
 	public Id RelatedInsurancePolicyAssetId;
 	public InsurancePolicyAsset RelatedInsurancePolicyAsset;
 	public String ReplayId;

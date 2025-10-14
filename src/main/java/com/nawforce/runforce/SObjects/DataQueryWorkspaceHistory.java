@@ -21,6 +21,7 @@ public class DataQueryWorkspaceHistory extends SObject {
 	public Id DataQueryWorkspaceId;
 	public DataQueryWorkspace DataQueryWorkspace;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

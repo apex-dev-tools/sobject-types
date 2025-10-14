@@ -29,6 +29,10 @@ public class CareProgramEnrollee extends SObject {
 	public String EnrolleeType;
 	public Id EnrollmentLocationId;
 	public ServiceTerritory EnrollmentLocation;
+	public Id FlowInterviewId;
+	public FlowInterview FlowInterview;
+	public Id FlowOrchestrationInstanceId;
+	public FlowOrchestrationInstance FlowOrchestrationInstance;
 	public Id Id;
 	public Boolean IsActive;
 	public Boolean IsDeleted;

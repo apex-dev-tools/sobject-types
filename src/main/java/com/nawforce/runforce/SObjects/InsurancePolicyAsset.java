@@ -24,6 +24,8 @@ public class InsurancePolicyAsset extends SObject {
 	public Id CustomerPropertyId;
 	public CustomerProperty CustomerProperty;
 	public String Division;
+	public Date EffectiveFromDate;
+	public Date EffectiveToDate;
 	public Id Id;
 	public Id InsurancePolicyId;
 	public InsurancePolicy InsurancePolicy;
@@ -39,6 +41,8 @@ public class InsurancePolicyAsset extends SObject {
 	public Name Owner;
 	public Id PrimaryPolicyParticipantId;
 	public InsurancePolicyParticipant PrimaryPolicyParticipant;
+	public Id ProductId;
+	public Product2 Product;
 	public Id RelatedInsurancePolicyAssetId;
 	public InsurancePolicyAsset RelatedInsurancePolicyAsset;
 	public String SourceSystem;
@@ -75,8 +79,10 @@ public class InsurancePolicyAsset extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public InsurancePolicyAssetHistory[] Histories;
+	public InsPolicyAssetRelatedObj[] IPAROInsurancePolicyAsset;
 	public InsPolicyTransactionDetail[] InsPolicyTransactionDetails;
-	public InsurancePolicyCoverage[] InsurancePolicyAssets;
+	public InsPolicyAssetAttribute[] InsurancePolicyAssetAttributes;
+	public SObject[] InsurancePolicyAssets;
 	public InsurancePolicySurcharge[] InsurancePolicySurcharges;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

@@ -65,6 +65,7 @@ public class AuthApplicationPlace extends SObject {
 	public AuthApplicationPlaceShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public AuthApplicationPlace clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AuthApplicationPlace clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

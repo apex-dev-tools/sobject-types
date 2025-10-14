@@ -19,6 +19,8 @@ public class FlowRecordElement extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataSpaceId;
+	public DataSpace DataSpace;
 	public String ElementName;
 	public Id FlowRecordVersionId;
 	public FlowRecordVersion FlowRecordVersion;
@@ -32,7 +34,9 @@ public class FlowRecordElement extends SObject {
 	public String Name;
 	public Datetime SystemModstamp;
 
+	public AbnExperiment[] AbnExperiments;
 	public FlowRecordElementOccurrence[] FlowRecordVersionElementOccurrences;
+	public PersonalizationPoint[] PersonalizationPoints;
 
 	public FlowRecordElement clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FlowRecordElement clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

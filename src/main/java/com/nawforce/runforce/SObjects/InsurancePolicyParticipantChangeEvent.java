@@ -23,6 +23,10 @@ public class InsurancePolicyParticipantChangeEvent extends SObject {
 	public String CurrencyIsoCode;
 	public String Division;
 	public Datetime EffectiveDate;
+	public Date EffectiveFromDate;
+	public Date EffectiveToDate;
+	public Decimal EmployeeContribution;
+	public Decimal EmployerContribution;
 	public Datetime ExpirationDate;
 	public Id Id;
 	public Id InsurancePolicyId;
@@ -37,10 +41,15 @@ public class InsurancePolicyParticipantChangeEvent extends SObject {
 	public Account LegalGuardian;
 	public String Name;
 	public String ParticipantCode;
+	public String ParticipantName;
 	public Id PrimaryParticipantAccountId;
 	public Account PrimaryParticipantAccount;
 	public Id PrimaryParticipantContactId;
 	public Contact PrimaryParticipantContact;
+	public Id ProductId;
+	public Product2 Product;
+	public Id RelatedInsPolicyParticipantId;
+	public InsurancePolicyParticipant RelatedInsPolicyParticipant;
 	public Id RelatedParticipantAccountId;
 	public Account RelatedParticipantAccount;
 	public Id RelatedParticipantContactId;

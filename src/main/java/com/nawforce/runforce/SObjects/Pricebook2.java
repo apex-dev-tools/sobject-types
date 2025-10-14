@@ -15,6 +15,8 @@ public class Pricebook2 extends SObject {
 	public static SObjectType$<Pricebook2> SObjectType;
 	public static SObjectFields$<Pricebook2> Fields;
 
+	public Id CostBookId;
+	public CostBook CostBook;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -42,12 +44,14 @@ public class Pricebook2 extends SObject {
 	public Opportunity[] Opportunities;
 	public Order[] Orders;
 	public PriceBookEntryDerivedPrice[] PriceBookEntryDerivedPrices;
+	public PriceBookRateCard[] PriceBookRateCards;
 	public WarrantyTerm[] Pricebook2;
 	public PricebookEntry[] PricebookEntries;
 	public Quote[] Quotes;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public ServiceContract[] ServiceContracts;
+	public ServiceTerritory[] ServiceTerritories;
 	public WorkOrder[] WorkOrders;
 
 	public Pricebook2 clone$() {throw new java.lang.UnsupportedOperationException();}

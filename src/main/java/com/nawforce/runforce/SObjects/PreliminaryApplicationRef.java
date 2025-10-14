@@ -76,6 +76,7 @@ public class PreliminaryApplicationRef extends SObject {
 	public PreliminaryApplicationRefShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public PreliminaryApplicationRef clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PreliminaryApplicationRef clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -65,10 +65,7 @@ public class UsageResource extends SObject {
 	public RatingFrequencyPolicy[] RatingFrequencyPolicies;
 	public UsageResourceShare[] Shares;
 	public UsageRatableSummary[] SourceUR_RatableSummaries;
-	public OrderItemUsageRsrcGrant[] TokenResources;
-	public ProductUsageResource[] TokenResources;
-	public TransactionUsageEntitlement[] TokenResources;
-	public UsageResource[] TokenResources;
+	public SObject[] TokenResources;
 	public TransactionUsageEntitlement[] UR_TransactionUsageEntitlements;
 	public UsageSummary[] UR_UsageSummaries;
 	public UsageResourcePolicy[] UsageResourcePolicies;

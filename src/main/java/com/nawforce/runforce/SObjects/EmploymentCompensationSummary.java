@@ -16,6 +16,7 @@ public class EmploymentCompensationSummary extends SObject {
 	public static SObjectFields$<EmploymentCompensationSummary> Fields;
 
 	public Decimal AverageHourlyWage;
+	public String Country;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -36,6 +37,11 @@ public class EmploymentCompensationSummary extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public String Region;
+	public Decimal S1AdequateWagePercent;
+	public Decimal S1AnnlTotRemunHpdIndv;
+	public Decimal S1AvgGrHrlyPayFmlEmp;
+	public Decimal S1AvgGrHrlyPayMaleEmp;
+	public Decimal S1MdnAnnlTotRemunEmp;
 	public Id SubsidiaryAccountId;
 	public Account SubsidiaryAccount;
 	public Datetime SystemModstamp;

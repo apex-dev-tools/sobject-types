@@ -46,6 +46,10 @@ public class ContractGroupPlanChangeEvent extends SObject {
 	public ContractGroupPlan OriginalContractPlan;
 	public String PlanType;
 	public String PricingStructure;
+	public Id Product2Id;
+	public Product2 Product2;
+	public Id ProductCategoryId;
+	public ProductCategory ProductCategory;
 	public Integer ProductNumber;
 	public String ReplayId;
 	public String Status;

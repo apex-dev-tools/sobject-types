@@ -15,11 +15,13 @@ public class InsurancePolicyTransaction extends SObject {
 	public static SObjectType$<InsurancePolicyTransaction> SObjectType;
 	public static SObjectFields$<InsurancePolicyTransaction> Fields;
 
+	public String Category;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Division;
+	public Date EffectiveFromDate;
 	public Id Id;
 	public Id InsurancePolicyId;
 	public InsurancePolicy InsurancePolicy;
@@ -34,6 +36,7 @@ public class InsurancePolicyTransaction extends SObject {
 	public String Name;
 	public Id ParentTransactionId;
 	public InsurancePolicyTransaction ParentTransaction;
+	public Date PostedDate;
 	public String Status;
 	public Datetime SystemModstamp;
 	public Decimal TotalTransactionAmount;
@@ -64,15 +67,20 @@ public class InsurancePolicyTransaction extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public InvoiceLine[] GroupInvoiceLines;
 	public InsurancePolicyTransactionHistory[] Histories;
 	public InsurancePolicySurcharge[] InsurancePolicySurcharges;
 	public InsPolicyTransactionDetail[] InsurancePolicyTransactionDetails;
+	public InvoiceLine[] InvoiceLines;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProducerCommission[] ProducerCommissions;
+	public AsyncOperationTracker[] ReferenceEntityAsyncOperationTrackers;
+	public RevenueAsyncOperation[] ReferenceEntityRevenueAsyncOperations;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 

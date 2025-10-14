@@ -52,7 +52,6 @@ public class UnitOfMeasureClass extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductUsageGrant[] ProductUsageGrants;
 	public RateCardEntry[] RateCardEntries;
-	public RateCardEntry[] RateCardEntries;
 	public UnitOfMeasure[] UnitOfMeasures;
 	public UsageResource[] UsageResources;
 

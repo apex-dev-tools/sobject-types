@@ -16,6 +16,7 @@ public class ExtDataShareTargetShare extends SObject {
 	public static SObjectFields$<ExtDataShareTargetShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

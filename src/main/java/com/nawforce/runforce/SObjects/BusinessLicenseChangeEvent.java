@@ -20,8 +20,11 @@ public class BusinessLicenseChangeEvent extends SObject {
 	public Id BusinessTypeId;
 	public BusinessType BusinessType;
 	public Object ChangeEventHeader;
+	public String ComplianceScope;
 	public Id ContactId;
 	public Contact Contact;
+	public Id ContactPointAddressId;
+	public ContactPointAddress ContactPointAddress;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

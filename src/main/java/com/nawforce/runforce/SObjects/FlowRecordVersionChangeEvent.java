@@ -28,7 +28,12 @@ public class FlowRecordVersionChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataSpaceId;
+	public DataSpace DataSpace;
 	public String Description;
+	public Integer Entries;
+	public Integer Errors;
+	public Integer Exits;
 	public Id FlowRecordId;
 	public FlowRecord FlowRecord;
 	public String FlowType;

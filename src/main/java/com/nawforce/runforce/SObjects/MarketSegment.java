@@ -91,8 +91,10 @@ public class MarketSegment extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MarketSegmentHistory[] Histories;
 	public MarketSegmentActivation[] MarketSegmentActivationTargets;
+	public PersnlBatchDecision[] PersnlBatchDecisions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public PromotionMarketSegment[] PromotionMarketSegments;
 
 	public MarketSegment clone$() {throw new java.lang.UnsupportedOperationException();}
 	public MarketSegment clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

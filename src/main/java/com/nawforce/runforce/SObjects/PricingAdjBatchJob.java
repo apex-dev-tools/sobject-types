@@ -35,6 +35,7 @@ public class PricingAdjBatchJob extends SObject {
 	public Long ProcessedRecordsCount;
 	public Long RecordCount;
 	public String RecordList;
+	public String ShouldSkipBulkRetry;
 	public String Status;
 	public Datetime SystemModstamp;
 	public String TargetObject;

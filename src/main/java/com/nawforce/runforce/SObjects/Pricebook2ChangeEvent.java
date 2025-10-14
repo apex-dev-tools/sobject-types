@@ -16,6 +16,8 @@ public class Pricebook2ChangeEvent extends SObject {
 	public static SObjectFields$<Pricebook2ChangeEvent> Fields;
 
 	public Object ChangeEventHeader;
+	public Id CostBookId;
+	public CostBook CostBook;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

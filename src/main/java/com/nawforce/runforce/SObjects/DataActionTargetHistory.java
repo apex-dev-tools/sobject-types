@@ -21,6 +21,7 @@ public class DataActionTargetHistory extends SObject {
 	public Id DataActionTargetId;
 	public DataActionTarget DataActionTarget;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

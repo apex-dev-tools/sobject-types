@@ -21,6 +21,7 @@ public class DataLineageNodeDefSyncLogHistory extends SObject {
 	public Id DataLineageNodeDefSyncLogId;
 	public DataLineageNodeDefSyncLog DataLineageNodeDefSyncLog;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

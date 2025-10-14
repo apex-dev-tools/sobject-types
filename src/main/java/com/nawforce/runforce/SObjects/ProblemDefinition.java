@@ -38,6 +38,7 @@ public class ProblemDefinition extends SObject {
 	public Name Owner;
 	public String Priority;
 	public Datetime SystemModstamp;
+	public String Type;
 	public String UsageType;
 
 	public ActivityHistory[] ActivityHistories;
@@ -63,6 +64,8 @@ public class ProblemDefinition extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public ProblemDefRelationship[] PDR_ProblemDefRelationship;
+	public ProblemDefRelationship[] PDR_ProblemDefinition;
 	public CareBarrier[] ProblemDefinitions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

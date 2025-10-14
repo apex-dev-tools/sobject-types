@@ -60,6 +60,11 @@ public class ProductSellingModel extends SObject {
 	public PriceBookEntryDerivedPrice[] PriceBookEntryDerivedPrices;
 	public PricebookEntry[] PricebookEntries;
 	public ProductSellingModelOption[] ProductSellingModelOptions;
+	public ProductUsageGrant[] ProductUsageGrants;
+	public ProductUsageResourcePolicy[] ProductUsageResourcePolicies;
+	public RateAdjustmentByAttribute[] RateAdjustmentByAttributes;
+	public RateAdjustmentByTier[] RateAdjustmentByTiers;
+	public RateCardEntry[] RateCardEntries;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 

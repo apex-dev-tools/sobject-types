@@ -27,8 +27,10 @@ public class ContextAttribute extends SObject {
 	public String FieldType;
 	public Id Id;
 	public String InheritedFrom;
+	public Boolean IsCustomMappingAllowed;
 	public Boolean IsDeleted;
 	public Boolean IsKey;
+	public Boolean IsTransient;
 	public Boolean IsValue;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

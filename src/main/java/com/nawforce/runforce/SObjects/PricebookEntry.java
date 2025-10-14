@@ -43,7 +43,9 @@ public class PricebookEntry extends SObject {
 	public PricebookEntryHistory[] Histories;
 	public OpportunityLineItem[] OpportunityLineItems;
 	public OrderItem[] OrderItems;
+	public TransactionUsageEntitlement[] PBE_TransactionUsageEntitlements;
 	public PriceBookEntryDerivedPrice[] PriceBookEntryDerivedPrices;
+	public UsageEntitlementAccount[] PricebookEntry_UsageEntitlementAccounts;
 	public ProductConsumed[] ProductsConsumed;
 	public QuoteLineItem[] QuoteLineItems;
 	public RecordActionHistory[] RecordActionHistories;

@@ -16,6 +16,7 @@ public class BatchJob extends SObject {
 	public static SObjectType$<BatchJob> SObjectType;
 	public static SObjectFields$<BatchJob> Fields;
 
+	public String AdditionalInformation;
 	public Id BatchJobDefinitionId;
 	public BatchJobDefinition BatchJobDefinition;
 	public String BatchJobDefinitionName;
@@ -61,6 +62,7 @@ public class BatchJob extends SObject {
 	public InsuranceAsyncBulkRequestItem[] InsuranceAsyncBulkRequestItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RatingRequestBatchJob[] RatingRequestBatchJobs;
 	public BatchJobShare[] Shares;
 
 	public BatchJob clone$() {throw new java.lang.UnsupportedOperationException();}

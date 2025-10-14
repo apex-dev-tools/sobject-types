@@ -18,12 +18,16 @@ public class GroupCensus extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public Id ContractId;
+	public Contract Contract;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Date EffectiveDate;
 	public Datetime EffectiveEndDate;
 	public Datetime EffectiveStartDate;
+	public Date ExpirationDate;
 	public String ExternalIdentifier;
 	public Integer FullTimeMemberCount;
 	public Id Id;
@@ -75,7 +79,10 @@ public class GroupCensus extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public GroupCensusMember[] GroupCensusMembers;
+	public GrpCensusGrpClassSummary[] GrpCensusGrpClassSummaries;
 	public GroupCensusHistory[] Histories;
+	public InsuranceAsyncBulkRecordDetail[] InsuranceAsyncBulkRecordDetails;
+	public InsuranceAsyncBulkRequest[] InsuranceAsyncBulkRequests;
 	public InsuranceContract[] InsuranceContracts;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

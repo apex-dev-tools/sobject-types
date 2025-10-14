@@ -21,6 +21,7 @@ public class DataSemanticSearchHistory extends SObject {
 	public Id DataSemanticSearchId;
 	public DataSemanticSearch DataSemanticSearch;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

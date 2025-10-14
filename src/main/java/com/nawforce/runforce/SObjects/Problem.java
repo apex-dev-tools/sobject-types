@@ -48,6 +48,7 @@ public class Problem extends SObject {
 	public Datetime SystemModstamp;
 	public String Urgency;
 
+	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApprovalSubmission[] ApprovalSubmissions;
@@ -61,6 +62,7 @@ public class Problem extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EntityMilestone[] EntityMilestones;
 	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;

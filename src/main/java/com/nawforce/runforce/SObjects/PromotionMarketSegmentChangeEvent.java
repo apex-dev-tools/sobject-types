@@ -24,6 +24,8 @@ public class PromotionMarketSegmentChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id MarketSegmentId;
+	public MarketSegment MarketSegment;
 	public String Name;
 	public Id PromotionId;
 	public Promotion Promotion;

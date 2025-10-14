@@ -24,6 +24,8 @@ public class CareProviderFacilitySpecialtyChangeEvent extends SObject {
 	public String CurrencyIsoCode;
 	public Date EffectiveFrom;
 	public Date EffectiveTo;
+	public Id HealthcareFacilityId;
+	public HealthcareFacility HealthcareFacility;
 	public Id Id;
 	public Boolean IsActive;
 	public Boolean IsPrimarySpecialty;

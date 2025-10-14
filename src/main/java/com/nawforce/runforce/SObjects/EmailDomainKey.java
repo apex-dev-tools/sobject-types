@@ -43,6 +43,8 @@ public class EmailDomainKey extends SObject {
 	public String TxtRecordName;
 	public String TxtRecordsPublishState;
 
+	public SenderEmailAddress[] SenderEmailAddresses;
+
 	public EmailDomainKey clone$() {throw new java.lang.UnsupportedOperationException();}
 	public EmailDomainKey clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public EmailDomainKey clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

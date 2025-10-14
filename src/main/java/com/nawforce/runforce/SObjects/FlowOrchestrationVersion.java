@@ -50,6 +50,12 @@ public class FlowOrchestrationVersion extends SObject {
 	public String TriggerObjectOrEventLabel;
 	public Integer VersionNumber;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+
 	public FlowOrchestrationVersion clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FlowOrchestrationVersion clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public FlowOrchestrationVersion clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

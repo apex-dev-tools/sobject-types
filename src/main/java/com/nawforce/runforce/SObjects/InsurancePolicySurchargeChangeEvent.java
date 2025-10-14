@@ -33,6 +33,8 @@ public class InsurancePolicySurchargeChangeEvent extends SObject {
 	public InsurancePolicyParticipant InsurancePolicyParticipant;
 	public Id InsurancePolicyTransactionId;
 	public InsurancePolicyTransaction InsurancePolicyTransaction;
+	public Boolean IsProrationAllowed;
+	public Boolean IsRefundAllowed;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -41,6 +43,8 @@ public class InsurancePolicySurchargeChangeEvent extends SObject {
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public Decimal SurchargeAmount;
+	public Decimal TermSurchargeAmount;
+	public String Type;
 
 	public InsurancePolicySurchargeChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public InsurancePolicySurchargeChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

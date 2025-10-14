@@ -26,6 +26,7 @@ public class ContextNode extends SObject {
 	public String DisplayName;
 	public Id Id;
 	public String InheritedFrom;
+	public Boolean IsCustomMappingAllowed;
 	public Boolean IsDeleted;
 	public Boolean IsTransposable;
 	public Id LastModifiedById;

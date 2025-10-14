@@ -88,6 +88,7 @@ public class ProductAttributeDefinition extends SObject {
 	public ProductAttributeDefinition[] OverriddenProductAttributeDefinitions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ProdtAttrMappedScope[] ProdtAttrMappedScopes;
 	public ProductAttributeDefinitionShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

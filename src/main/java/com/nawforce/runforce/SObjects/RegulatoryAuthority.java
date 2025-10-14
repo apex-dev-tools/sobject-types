@@ -62,6 +62,7 @@ public class RegulatoryAuthority extends SObject {
 	public RegulatoryAuthorityShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public RegulatoryAuthority clone$() {throw new java.lang.UnsupportedOperationException();}
 	public RegulatoryAuthority clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

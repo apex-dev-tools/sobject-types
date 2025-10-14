@@ -56,6 +56,7 @@ public class CostBook extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public Pricebook2[] Pricebook2s;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public CostBookShare[] Shares;

@@ -43,6 +43,8 @@ public class LoyaltyLedger extends SObject {
 	public Id TransactionJournalId;
 	public TransactionJournal TransactionJournal;
 
+	public LoyaltyLedgerTraceability[] CreditLoyaltyLedgers;
+	public LoyaltyLedgerTraceability[] DebitLoyaltyLedgers;
 	public LoyaltyProgramPartnerLedger[] PartnerLedgerToLoyaltyLedger;
 
 	public LoyaltyLedger clone$() {throw new java.lang.UnsupportedOperationException();}

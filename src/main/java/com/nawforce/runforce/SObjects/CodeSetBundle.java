@@ -68,6 +68,9 @@ public class CodeSetBundle extends SObject {
 	public ClinicalServiceRequest[] BodySites;
 	public BundledCareFeeAgreement[] Bundled_Care_Fee_Agreement_Procedures;
 	public ClinicalDetectedIssueDetail[] CDetectedIssueDetailCodes;
+	public CareRequestSupportingCntnt[] CRSContent_CategoryCodes;
+	public CareRequestSupportingCntnt[] CRSContent_InformationTypeCodes;
+	public CareRequestSupportingCntnt[] CRSContent_ReasonCodes;
 	public CareBarrierType[] CareBarrierDignosisCodeSet;
 	public CareFeeScheduleItem[] CareFeeScheduleItems;
 	public CareInterventionType[] CareInterventionDignosisCodeSet;
@@ -86,8 +89,17 @@ public class CodeSetBundle extends SObject {
 	public CareProgramDetail[] DetailRecords;
 	public ClinicalServiceRequest[] FacilityCodes;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public HealthRiskEvalOutcome[] HREO_RiskCodeSetValue;
+	public HealthRiskEvalOutcome[] HREO_RiskOutcomeCode;
+	public HealthRiskEvaluation[] HRE_MethodCode;
+	public HealthRiskEvaluation[] HRE_TypeCode;
 	public HealthcareServiceDetail[] HcServiceDetailCodes;
 	public CodeSetBundleHistory[] Histories;
+	public PlanBenefitItem[] ItemCodes;
+	public MedicationAdministration[] MA_DeviceCode;
+	public MedicationAdministration[] MA_StatusReasonCode;
+	public MedicationAdministration[] MA_SubPotentReason;
+	public MedicationAdministration[] MA_Type;
 	public MedicationStatementDetail[] MedicationStatementDetailCodes;
 	public PatientImmunizationProtocol[] PatientImmunizationProtocolDetail1;
 	public PatientImmunizationProtocol[] PatientImmunizationProtocolDetail2;
@@ -110,6 +122,9 @@ public class CodeSetBundle extends SObject {
 	public ClinicalServiceRequest[] ReasonCodes;
 	public ClinicalServiceRequest[] RequestCodes;
 	public CodeSetBundleShare[] Shares;
+	public Specimen[] SpecimenConditionCode;
+	public Specimen[] SpecimenFeatureCode;
+	public Specimen[] SpecimenUsageCode;
 	public StandardCareFeeAgreement[] StandardCareFeeAgreements;
 
 	public CodeSetBundle clone$() {throw new java.lang.UnsupportedOperationException();}

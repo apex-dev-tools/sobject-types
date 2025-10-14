@@ -71,7 +71,6 @@ public class DevopsEnvironment extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public DevopsEnvironment[] RefreshSources;
-	public DevopsEnvironment[] Replaces;
 	public DevopsEnvironmentShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

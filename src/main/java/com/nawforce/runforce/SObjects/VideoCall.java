@@ -51,6 +51,7 @@ public class VideoCall extends SObject {
 	public Datetime StartDateTime;
 	public Datetime SystemModstamp;
 	public String TranscribedLanguage;
+	public String UsageType;
 	public String VendorMeetingKey;
 	public String VendorMeetingUuid;
 	public String VendorName;

@@ -25,6 +25,8 @@ public class PlanBenefitItemChangeEvent extends SObject {
 	public Id Id;
 	public Decimal InNetworkCoverage;
 	public Boolean IsInPlanNetwork;
+	public Id ItemCodeId;
+	public SObject ItemCode;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -33,8 +35,12 @@ public class PlanBenefitItemChangeEvent extends SObject {
 	public Decimal OutofNetworkCoverage;
 	public Id OwnerId;
 	public User Owner;
+	public Datetime PauthRequirementEndDate;
+	public Datetime PauthRequirementStartDate;
 	public Id PlanBenefitId;
 	public PlanBenefit PlanBenefit;
+	public Id PreauthorizationTypeCodeId;
+	public CodeSet PreauthorizationTypeCode;
 	public String ReplayId;
 	public String ServiceType;
 	public String ServiceTypeCode;

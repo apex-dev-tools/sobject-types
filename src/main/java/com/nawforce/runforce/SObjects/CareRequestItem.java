@@ -24,6 +24,7 @@ public class CareRequestItem extends SObject {
 	public Integer ApprovedQuantity;
 	public Date ApprovedServiceEndDate;
 	public Date ApprovedServiceStartDate;
+	public String AssertionIdentifier;
 	public String AuthApprovalIdentifier;
 	public String AuthorizationRefIdentifier;
 	public Id CareRequestCaseId;
@@ -98,6 +99,8 @@ public class CareRequestItem extends SObject {
 	public String RequestedLevelOfCare;
 	public Date RequestedServiceEndDate;
 	public Date RequestedServiceStartDate;
+	public Integer RequiredResponseCount;
+	public Datetime ResponseDateTime;
 	public String ServiceCategory;
 	public String ServiceCategoryCode;
 	public Id ServicingFacilityId;
@@ -108,8 +111,12 @@ public class CareRequestItem extends SObject {
 	public String SourceSystemIdentifier;
 	public Datetime SourceSystemModified;
 	public String Status;
+	public Id StatusCodeId;
+	public CodeSetBundle StatusCode;
 	public String StatusReason;
+	public Datetime SubmittedDateTime;
 	public Datetime SystemModstamp;
+	public Integer TransactionNumber;
 	public Id TransportLocationId;
 	public Account TransportLocation;
 

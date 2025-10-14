@@ -16,11 +16,13 @@ public class AttributeDefinitionChangeEvent extends SObject {
 	public static SObjectFields$<AttributeDefinitionChangeEvent> Fields;
 
 	public Object ChangeEventHeader;
+	public String Code;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String DataType;
+	public String DefaultHelpText;
 	public String DefaultValue;
 	public String Description;
 	public String DeveloperName;
@@ -40,6 +42,7 @@ public class AttributeDefinitionChangeEvent extends SObject {
 	public String SourceSystemIdentifier;
 	public Id UnitOfMeasureId;
 	public UnitOfMeasure UnitOfMeasure;
+	public String ValueDescription;
 
 	public AttributeDefinitionChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AttributeDefinitionChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

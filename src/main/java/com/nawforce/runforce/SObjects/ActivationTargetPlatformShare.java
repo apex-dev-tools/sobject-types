@@ -16,6 +16,7 @@ public class ActivationTargetPlatformShare extends SObject {
 	public static SObjectFields$<ActivationTargetPlatformShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

@@ -31,6 +31,7 @@ public class DataGraph extends SObject {
 	public Id Id;
 	public String IncrementalRefreshConfig;
 	public Boolean IsDeleted;
+	public Boolean IsRemote;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -40,6 +41,7 @@ public class DataGraph extends SObject {
 	public Datetime LastViewedDate;
 	public Integer Levels;
 	public String Name;
+	public String OwnedBy;
 	public String PrimaryDmo;
 	public Long RecordCount;
 	public String RolloutVersion;
@@ -48,9 +50,13 @@ public class DataGraph extends SObject {
 	public Datetime SystemModstamp;
 	public String Version;
 
+	public AbnExperiment[] AbnExperiments;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public AttribModel[] AttribModels;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public PersonalizationPoint[] PersonalizationPoints;
+	public PersonalizationRecommender[] PersonalizationRecommenders;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

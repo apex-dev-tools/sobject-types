@@ -61,6 +61,7 @@ public class ComplaintParticipant extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public ComplaintParticipant clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ComplaintParticipant clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

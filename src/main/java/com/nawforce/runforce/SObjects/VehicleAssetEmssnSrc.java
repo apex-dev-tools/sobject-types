@@ -62,6 +62,7 @@ public class VehicleAssetEmssnSrc extends SObject {
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public SustainabilityStakeholder[] ESGReferenceObjects;
 	public EmailMessage[] Emails;
 	public EventRelation[] EventRelations;
 	public Event[] Events;
@@ -77,6 +78,7 @@ public class VehicleAssetEmssnSrc extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public VehicleAssetEmssnSrcShare[] Shares;
+	public YearlyUsageTrkgDataGap[] SourceObjectRelation;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public VehicleAssetEnrgyUse[] VehicleAssetEnergyUses;

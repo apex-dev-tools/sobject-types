@@ -71,6 +71,7 @@ public class RegulatoryAuthorizationType extends SObject {
 	public RegulatoryAuthorizationTypeShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public RegulatoryAuthorizationType clone$() {throw new java.lang.UnsupportedOperationException();}
 	public RegulatoryAuthorizationType clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

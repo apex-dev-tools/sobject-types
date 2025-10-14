@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Long;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -22,6 +23,7 @@ public class ContentDocumentChangeEvent extends SObject {
 	public Id ContentAssetId;
 	public ContentAsset ContentAsset;
 	public Datetime ContentModifiedDate;
+	public Long ContentSizeLong;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

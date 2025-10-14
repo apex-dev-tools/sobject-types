@@ -82,6 +82,8 @@ public class ServiceAppointment extends SObject {
 	public String ParentRecordType;
 	public String Phone;
 	public String PostalCode;
+	public Id ReceiptOrderId;
+	public Order ReceiptOrder;
 	public Id RelatedBundleId;
 	public ServiceAppointment RelatedBundle;
 	public Datetime SchedEndTime;

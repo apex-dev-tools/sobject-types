@@ -38,6 +38,10 @@ public class GroupClassContribution extends SObject {
 	public String MemberType;
 	public String Name;
 	public Decimal Percentage;
+	public Id ProductCategoryId;
+	public ProductCategory ProductCategory;
+	public Id ProductId;
+	public Product2 Product;
 	public Datetime SystemModstamp;
 	public String Type;
 

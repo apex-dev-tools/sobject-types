@@ -65,6 +65,7 @@ public class AuthLocationAccessSchedule extends SObject {
 	public AuthLocationAccessScheduleShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public AuthLocationAccessSchedule clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AuthLocationAccessSchedule clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

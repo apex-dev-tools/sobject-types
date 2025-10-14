@@ -54,6 +54,7 @@ public class ContactRequest extends SObject {
 	public OpenActivity[] OpenActivities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public VoiceCall[] RelatedRecords;
 	public ContactRequestShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

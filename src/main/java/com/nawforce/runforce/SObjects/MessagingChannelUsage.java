@@ -22,6 +22,7 @@ public class MessagingChannelUsage extends SObject {
 	public String DeploymentStatus;
 	public String DeploymentType;
 	public Datetime DisabledTime;
+	public String ErrorDetails;
 	public String ErrorReason;
 	public Id Id;
 	public Boolean IsDeleted;

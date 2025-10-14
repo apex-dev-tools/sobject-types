@@ -78,6 +78,8 @@ public class ServiceAppointmentChangeEvent extends SObject {
 	public SObject ParentRecord;
 	public String Phone;
 	public String PostalCode;
+	public Id ReceiptOrderId;
+	public Order ReceiptOrder;
 	public Id RelatedBundleId;
 	public ServiceAppointment RelatedBundle;
 	public String ReplayId;

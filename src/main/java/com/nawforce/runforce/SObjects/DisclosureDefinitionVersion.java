@@ -21,8 +21,7 @@ public class DisclosureDefinitionVersion extends SObject {
 	public Datetime CreatedDate;
 	public String Description;
 	public String DeveloperName;
-	public Id DisclosureDefinitionId;
-	public DisclosureDefinition DisclosureDefinition;
+	public String DisclosureDefinition;
 	public String DocumentTemplateGlobalKey;
 	public Id Id;
 	public Boolean IsActive;

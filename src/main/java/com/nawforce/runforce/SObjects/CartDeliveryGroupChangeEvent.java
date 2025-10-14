@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -38,8 +39,11 @@ public class CartDeliveryGroupChangeEvent extends SObject {
 	public String DeliverToStateCode;
 	public String DeliverToStreet;
 	public Datetime DesiredDeliveryDate;
+	public String GiftMessage;
+	public String GiftToName;
 	public Id Id;
 	public Boolean IsDefault;
+	public Boolean IsGift;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -49,6 +53,7 @@ public class CartDeliveryGroupChangeEvent extends SObject {
 	public CartDeliveryGroupMethod SelectedDeliveryMethod;
 	public String ShipToPhoneNumber;
 	public String ShippingInstructions;
+	public Integer TotalCartItemCount;
 
 	public CartDeliveryGroupChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CartDeliveryGroupChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

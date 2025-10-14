@@ -21,6 +21,7 @@ public class DataSpaceHistory extends SObject {
 	public Id DataSpaceId;
 	public DataSpace DataSpace;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

@@ -29,6 +29,7 @@ public class ExtlClntAppOauthPlcyCnfg extends SObject {
 	public ExternalClientApplication ExternalClientApplication;
 	public Id ExtlClntAppOauthSettingsId;
 	public ExtlClntAppOauthSettings ExtlClntAppOauthSettings;
+	public String GuestJwtSessionTimeoutType;
 	public String GuestJwtTimeout;
 	public Id Id;
 	public String IpRelaxationPolicyType;
@@ -42,6 +43,7 @@ public class ExtlClntAppOauthPlcyCnfg extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
+	public String NamedUserJwtSessionTimeoutType;
 	public String NamedUserJwtTimeout;
 	public String PermittedUsersPolicyType;
 	public String PolicyAction;

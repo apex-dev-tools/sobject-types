@@ -26,6 +26,8 @@ public class HealthcareFacility extends SObject {
 	public String Division;
 	public Id FacilityTypeId;
 	public CodeSetBundle FacilityType;
+	public Id HealthcareProviderId;
+	public HealthcareProvider HealthcareProvider;
 	public Id Id;
 	public Boolean IsAlwaysOpen;
 	public Boolean IsDeleted;
@@ -73,6 +75,7 @@ public class HealthcareFacility extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public CareProviderFacilitySpecialty[] HealthcareFacilities;
 	public HealthcareFacility[] HealthcareFacilityParent;
 	public HealthcarePractitionerFacility[] HealthcarePractitionerFacilities;
 	public HealthcareProviderService[] HealthcareProviderGroup;
@@ -92,6 +95,7 @@ public class HealthcareFacility extends SObject {
 	public CareRequestItem[] ServicingFacilityCareRequestItems;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public HealthcareFacility clone$() {throw new java.lang.UnsupportedOperationException();}
 	public HealthcareFacility clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

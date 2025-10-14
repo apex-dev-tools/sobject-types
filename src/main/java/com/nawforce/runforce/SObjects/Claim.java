@@ -67,6 +67,8 @@ public class Claim extends SObject {
 	public Name Owner;
 	public Id PolicyNumberId;
 	public InsurancePolicy PolicyNumber;
+	public Id ProductId;
+	public Product2 Product;
 	public String RenewalChannel;
 	public String RepairShop;
 	public String RepairShopLocation;
@@ -92,6 +94,7 @@ public class Claim extends SObject {
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public ClaimAttribute[] ClaimAttributes;
 	public ClaimCoverage[] ClaimCoverages;
 	public ClaimItem[] ClaimItems;
 	public ClaimParticipant[] ClaimParticipants;

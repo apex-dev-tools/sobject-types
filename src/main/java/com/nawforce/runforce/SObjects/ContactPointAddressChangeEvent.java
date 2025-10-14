@@ -34,6 +34,7 @@ public class ContactPointAddressChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String GeocodeAccuracy;
 	public Id Id;
+	public Boolean IsActive;
 	public Boolean IsDefault;
 	public Boolean IsPrimary;
 	public Boolean IsThirdPartyAddress;
@@ -50,6 +51,7 @@ public class ContactPointAddressChangeEvent extends SObject {
 	public String PostalCode;
 	public Integer PreferenceRank;
 	public String ReplayId;
+	public String SourceSystemIdentifier;
 	public String State;
 	public String StateCode;
 	public String Street;

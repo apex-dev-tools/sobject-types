@@ -39,6 +39,7 @@ public class AssetAction extends SObject {
 	public Decimal ProductAmountChange;
 	public Decimal QuantityChange;
 	public Decimal SubtotalChange;
+	public String Subtype;
 	public Datetime SystemModstamp;
 	public Decimal TotalAmount;
 	public Decimal TotalCancellationsAmount;

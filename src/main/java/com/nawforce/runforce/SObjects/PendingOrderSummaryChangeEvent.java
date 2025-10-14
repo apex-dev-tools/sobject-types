@@ -38,6 +38,7 @@ public class PendingOrderSummaryChangeEvent extends SObject {
 	public Datetime OrderedDate;
 	public String Payload;
 	public String PayloadType;
+	public String ProcessingInstructions;
 	public String ReplayId;
 	public Id SalesStoreId;
 	public WebStore SalesStore;

@@ -72,6 +72,7 @@ public class BusinessLicenseApplication extends SObject {
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApplicationReview[] ApplicationReviews;
 	public PublicApplicationParticipant[] Applications;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
@@ -105,6 +106,7 @@ public class BusinessLicenseApplication extends SObject {
 	public BusinessLicenseApplicationShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public BusinessLicenseApplication clone$() {throw new java.lang.UnsupportedOperationException();}
 	public BusinessLicenseApplication clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

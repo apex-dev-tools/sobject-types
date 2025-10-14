@@ -74,15 +74,26 @@ public class CodeSet extends SObject {
 	public CodeSetFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthRiskEvalOutcome[] HREO_RiskCodeSetValue;
+	public HealthRiskEvalOutcome[] HREO_RiskOutcomeCode;
+	public HealthRiskEvaluation[] HRE_MethodCode;
+	public HealthRiskEvaluation[] HRE_TypeCode;
 	public HealthcareServiceDetail[] HcServiceDetailCodes;
 	public HierCondHlthRskAdjFctr[] HierCondHlthRskAdjFctrs;
 	public HierCondHlthCodeMapping[] HierarchicalCondCategoryCodes;
 	public CodeSetHistory[] Histories;
+	public PlanBenefitItem[] ItemCodes;
 	public MedicationStatementDetail[] MedicationStatementDetailCodes;
+	public PlanBenefitItem[] PreauthorizationTypeCodes;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public CareRequestItem[] ReasonCodeCareRequestItems;
 	public CodeSetShare[] Shares;
+	public Specimen[] SpecimenBodySite;
+	public Specimen[] SpecimenCollectionDeviceCode;
+	public Specimen[] SpecimenCollectionMethodCode;
+	public Specimen[] SpecimenFastingStatusCode;
+	public Specimen[] SpecimenType;
 
 	public CodeSet clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CodeSet clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

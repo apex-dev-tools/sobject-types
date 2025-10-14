@@ -67,6 +67,7 @@ public class Medication extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MedicationHistory[] Histories;
 	public Identifier[] Identifiers;
+	public MedicationAdministration[] MA_Medication;
 	public MedicationRequest[] MedReq_Medication;
 	public MedicationStatement[] MedStat_Medication;
 	public MedicationDispense[] MedicationDispense_Medications;

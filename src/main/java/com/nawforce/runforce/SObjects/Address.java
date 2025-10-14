@@ -53,9 +53,9 @@ public class Address extends SObject {
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public DuplicateRecordItem[] DuplicateRecordItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public AddressHistory[] Histories;
 	public MedicationTherapyReview[] MedTherapyReview_SurrogateLocations;
 	public Visit[] Places;
-	public AddressHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

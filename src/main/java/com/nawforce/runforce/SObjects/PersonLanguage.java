@@ -34,6 +34,8 @@ public class PersonLanguage extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public Integer Rank;
+	public String SourceSystemIdentifier;
+	public String SourceSystemName;
 	public String SpeakingProficiencyLevel;
 	public Datetime SystemModstamp;
 	public String WritingProficiencyLevel;

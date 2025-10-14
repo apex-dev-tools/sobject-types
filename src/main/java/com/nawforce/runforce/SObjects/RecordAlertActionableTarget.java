@@ -34,18 +34,22 @@ public class RecordAlertActionableTarget extends SObject {
 	public String Type;
 
 	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public RecordAlertActionableTargetFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public RecordAlertActionableTargetHistory[] Histories;
 	public Note[] Notes;
@@ -53,6 +57,7 @@ public class RecordAlertActionableTarget extends SObject {
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 
 	public RecordAlertActionableTarget clone$() {throw new java.lang.UnsupportedOperationException();}

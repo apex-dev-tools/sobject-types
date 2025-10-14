@@ -36,10 +36,12 @@ public class FlowInterview extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public String PauseLabel;
+	public String SerializedView;
 	public Datetime SystemModstamp;
 	public Boolean WasPausedFromScreen;
 
 	public DynamicDataCapture[] DynamicDataCaptures;
+	public CareProgramEnrollee[] FlowInterviewCPEnrollee;
 	public RecordAction[] RecordActions;
 	public FlowRecordRelation[] RecordRelations;
 	public FlowInterviewShare[] Shares;

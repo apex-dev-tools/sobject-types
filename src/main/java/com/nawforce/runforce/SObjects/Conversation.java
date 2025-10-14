@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -22,6 +23,7 @@ public class Conversation extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Datetime EndTime;
+	public Integer EndTimeMilliSecs;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -29,6 +31,7 @@ public class Conversation extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Datetime StartTime;
+	public Integer StartTimeMilliSecs;
 
 	public ContextParamMap[] ContextParamMaps;
 	public ConversationEntry[] ConvEntries;

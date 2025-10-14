@@ -16,6 +16,8 @@ public class ClinicalEncounter extends SObject {
 	public static SObjectFields$<ClinicalEncounter> Fields;
 
 	public String AdmissionSource;
+	public Id CaseId;
+	public Case Case;
 	public String Category;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -102,9 +104,11 @@ public class ClinicalEncounter extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthRiskEvaluation[] HRE_ClinicalEncounter;
 	public HealthCondition[] Health_Condition_ClinicalEncounter;
 	public ClinicalEncounterHistory[] Histories;
 	public Identifier[] Identifiers;
+	public MedicationAdministration[] MA_ClinicalEncounter;
 	public MedicationDispense[] MedicationDispense_Contexts;
 	public MedicationRequest[] MedicationRequest_ClinicalEncounter;
 	public MedicationStatement[] MedicationStatement_ClinicalEncounter;

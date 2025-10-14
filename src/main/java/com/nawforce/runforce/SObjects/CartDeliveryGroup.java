@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -37,10 +38,13 @@ public class CartDeliveryGroup extends SObject {
 	public String DeliverToStateCode;
 	public String DeliverToStreet;
 	public Datetime DesiredDeliveryDate;
+	public String GiftMessage;
+	public String GiftToName;
 	public Decimal GrandTotalAmount;
 	public Id Id;
 	public Boolean IsDefault;
 	public Boolean IsDeleted;
+	public Boolean IsGift;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -53,6 +57,7 @@ public class CartDeliveryGroup extends SObject {
 	public Decimal TotalAdjustmentAmount;
 	public Decimal TotalAdjustmentTaxAmount;
 	public Decimal TotalAmount;
+	public Integer TotalCartItemCount;
 	public Decimal TotalChargeAmount;
 	public Decimal TotalChargeTaxAmount;
 	public Decimal TotalProductAmount;

@@ -24,6 +24,9 @@ public class ContactEncounter extends SObject {
 	public String Description;
 	public Integer EncounterDuration;
 	public Integer EstimatedParticipantCount;
+	public String ExposureSource;
+	public String ExposureSourceDescription;
+	public String ExposureType;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

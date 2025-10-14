@@ -26,6 +26,7 @@ public class DataStream extends SObject {
 	public String Description;
 	public String ExternalRecordIdentifier;
 	public String ExternalStreamErrorCode;
+	public String FullRefreshIntervalDays;
 	public Id Id;
 	public String ImportRunStatus;
 	public Boolean IsDeleted;

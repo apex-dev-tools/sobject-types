@@ -34,6 +34,7 @@ public class Waitlist extends SObject {
 	public Id ServiceTerritoryId;
 	public ServiceTerritory ServiceTerritory;
 	public Datetime SystemModstamp;
+	public String Type;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

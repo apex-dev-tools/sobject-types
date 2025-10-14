@@ -22,6 +22,8 @@ public class DiagnosticSummary extends SObject {
 	public Name BasedOn;
 	public Id CareObservationId;
 	public CareObservation CareObservation;
+	public Id CaseId;
+	public Case Case;
 	public String Category;
 	public Id ClinicalEncounterId;
 	public ClinicalEncounter ClinicalEncounter;
@@ -107,8 +109,10 @@ public class DiagnosticSummary extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthRiskEvalDetail[] HRED_DetailRecord;
 	public DiagnosticSummaryHistory[] Histories;
 	public Identifier[] Identifiers;
+	public MedicationAdministrationDtl[] MedAdminDtl_DetailRecord;
 	public MedicationStatementDetail[] MedicationStatementDetailRecords;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

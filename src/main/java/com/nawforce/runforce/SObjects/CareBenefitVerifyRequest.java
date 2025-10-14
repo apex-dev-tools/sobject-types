@@ -65,6 +65,7 @@ public class CareBenefitVerifyRequest extends SObject {
 	public Name Provider;
 	public Id RelatedCareBnftVerifyRequestId;
 	public CareBenefitVerifyRequest RelatedCareBnftVerifyRequest;
+	public String Request;
 	public Datetime RequestDate;
 	public Id RequestedById;
 	public User RequestedBy;
@@ -77,6 +78,7 @@ public class CareBenefitVerifyRequest extends SObject {
 	public String Status;
 	public String StatusReason;
 	public Datetime SystemModstamp;
+	public String VerificationMode;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

@@ -15,13 +15,16 @@ public class AttributePicklistValueChangeEvent extends SObject {
 	public static SObjectType$<AttributePicklistValueChangeEvent> SObjectType;
 	public static SObjectFields$<AttributePicklistValueChangeEvent> Fields;
 
+	public String Abbreviation;
 	public Object ChangeEventHeader;
 	public String Code;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String DisplayValue;
 	public Id Id;
+	public Boolean IsDefault;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -29,6 +32,8 @@ public class AttributePicklistValueChangeEvent extends SObject {
 	public Id PicklistId;
 	public AttributePicklist Picklist;
 	public String ReplayId;
+	public Decimal Sequence;
+	public String Status;
 	public String Value;
 
 	public AttributePicklistValueChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -26,10 +26,13 @@ public class ApiEventStream extends SObject {
 	public static SObjectType$<ApiEventStream> SObjectType;
 	public static SObjectFields$<ApiEventStream> Fields;
 
+	public String ActionName;
 	public String AdditionalInfo;
 	public String ApiType;
 	public Decimal ApiVersion;
 	public String Application;
+	public String BotId;
+	public String BotSessionIdentifier;
 	public String Client;
 	public String ConnectedAppId;
 	public Datetime CreatedDate;
@@ -42,6 +45,7 @@ public class ApiEventStream extends SObject {
 	public LoginHistory LoginHistory;
 	public String LoginKey;
 	public String Operation;
+	public String PlannerId;
 	public String Platform;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;

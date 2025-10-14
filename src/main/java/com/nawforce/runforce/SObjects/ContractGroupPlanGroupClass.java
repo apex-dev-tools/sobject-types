@@ -44,6 +44,7 @@ public class ContractGroupPlanGroupClass extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContractGrpPlanGrpClsAttr[] ContractGrpPlanGrpClsAttrs;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
 	public EventRelation[] EventRelations;

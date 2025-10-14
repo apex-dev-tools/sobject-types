@@ -62,6 +62,7 @@ public class CaseParticipant extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public CaseParticipant clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CaseParticipant clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

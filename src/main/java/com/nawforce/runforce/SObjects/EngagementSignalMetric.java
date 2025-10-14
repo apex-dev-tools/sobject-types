@@ -34,7 +34,6 @@ public class EngagementSignalMetric extends SObject {
 
 	public AttribModelStageMetric[] AttribModelStageMetrics;
 	public EngagementSignalCmpndMetric[] EngagementSignalCmpndMtrcs;
-	public EngagementSignalCmpndMetric[] EngagementSignalCmpndMtrcs;
 	public AbnExperiment[] PrimaryMetrics;
 
 	public EngagementSignalMetric clone$() {throw new java.lang.UnsupportedOperationException();}

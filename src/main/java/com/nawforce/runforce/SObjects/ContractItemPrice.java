@@ -15,6 +15,7 @@ public class ContractItemPrice extends SObject {
 	public static SObjectType$<ContractItemPrice> SObjectType;
 	public static SObjectFields$<ContractItemPrice> Fields;
 
+	public String AdjustmentMethod;
 	public Id ContractId;
 	public Contract Contract;
 	public Id CreatedById;
@@ -34,6 +35,7 @@ public class ContractItemPrice extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Decimal ListPrice;
 	public String Name;
 	public Decimal Price;
 	public Id ProductSellingModelId;
@@ -47,6 +49,7 @@ public class ContractItemPrice extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContractItemPriceAdjTier[] ContractItemPriceAdjTiers;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ContractItemPriceFeed[] Feeds;

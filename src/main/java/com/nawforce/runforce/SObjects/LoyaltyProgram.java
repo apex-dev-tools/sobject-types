@@ -61,6 +61,8 @@ public class LoyaltyProgram extends SObject {
 	public LoyaltyProgramMember[] LoyaltyProgramMembers;
 	public LoyaltyProgramPartner[] LoyaltyProgramPartners;
 	public LoyaltyProgramProcess[] LoyaltyProgramProcesses;
+	public LoyaltyTier[] LoyaltyProgramTiers;
+	public LoyaltyProgramWidget[] LoyaltyProgramWidgets;
 	public VoucherDefinition[] LoyaltyPrograms;
 	public Promotion[] LoyaltyPromotions;
 	public LoyaltyTierGroup[] LoyaltyTierGroups;

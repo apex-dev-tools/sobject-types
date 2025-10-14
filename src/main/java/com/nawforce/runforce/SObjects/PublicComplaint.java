@@ -85,6 +85,7 @@ public class PublicComplaint extends SObject {
 	public PublicComplaintShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public PublicComplaint clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PublicComplaint clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

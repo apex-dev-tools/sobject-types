@@ -55,10 +55,13 @@ public class InsPolicyTransactionDetail extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public InvoiceLine[] GroupInvoiceLines;
 	public InsPolicyTransactionDetailHistory[] Histories;
+	public InvoiceLine[] InvoiceLines;
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 

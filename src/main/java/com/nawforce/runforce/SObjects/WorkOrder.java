@@ -115,6 +115,7 @@ public class WorkOrder extends SObject {
 	public Id WorkTypeId;
 	public WorkType WorkType;
 
+	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApprovalSubmission[] ApprovalSubmissions;

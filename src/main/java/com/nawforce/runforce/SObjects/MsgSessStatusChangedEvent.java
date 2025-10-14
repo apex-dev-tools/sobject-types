@@ -16,7 +16,9 @@ public class MsgSessStatusChangedEvent extends SObject {
 	public static SObjectFields$<MsgSessStatusChangedEvent> Fields;
 
 	public String Channel;
+	public String ChannelAddressIdentifier;
 	public String Conversation;
+	public String ConversationIdentifier;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

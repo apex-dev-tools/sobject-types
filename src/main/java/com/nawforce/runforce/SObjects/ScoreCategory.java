@@ -35,6 +35,8 @@ public class ScoreCategory extends SObject {
 	public Datetime SystemModstamp;
 
 	public ScoreCategory[] ChildScoreCategories;
+	public ScoreCategoryCalcInsight[] ScoreCalcInsightConfigs;
+	public ScoreRangeClassification[] ScoreRangeClassification_Category;
 
 	public ScoreCategory clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ScoreCategory clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -19,6 +19,8 @@ public class MedicationRequestChangeEvent extends SObject {
 	public Id AllowedSubstitutionTypeCodeId;
 	public CodeSetBundle AllowedSubstitutionTypeCode;
 	public Boolean CanSubstitute;
+	public Id CaseId;
+	public Case Case;
 	public Object ChangeEventHeader;
 	public Id ClinicalEncounterId;
 	public ClinicalEncounter ClinicalEncounter;

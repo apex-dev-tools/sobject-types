@@ -46,6 +46,8 @@ public class ProductClassificationAttr extends SObject {
 	public Integer MinimumCharacterCount;
 	public String MinimumValue;
 	public String Name;
+	public Id OverriddenInheritedAttributeId;
+	public ProductClassificationAttr OverriddenInheritedAttribute;
 	public Id OwnerId;
 	public Name Owner;
 	public Id ProductClassificationId;
@@ -79,8 +81,10 @@ public class ProductClassificationAttr extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public ProductClassificationAttr[] OverriddenInheritedProdClassAttrs;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ProdtAttrMappedScope[] ProdtAttrMappedScopes;
 	public ProductAttributeDefinition[] ProductClassificationAttributes;
 	public ProductClassificationAttrShare[] Shares;
 	public TaskRelation[] TaskRelations;

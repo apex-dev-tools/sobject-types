@@ -34,7 +34,9 @@ public class ManagedContent extends SObject {
 	public String PrimaryLanguage;
 	public Datetime SystemModstamp;
 
+	public AbnExperiment[] AbnExperiments;
 	public ManagedContentVariant[] ManagedContentVariants;
+	public PersonalizationPoint[] PersonalizationPoints;
 
 	public ManagedContent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ManagedContent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

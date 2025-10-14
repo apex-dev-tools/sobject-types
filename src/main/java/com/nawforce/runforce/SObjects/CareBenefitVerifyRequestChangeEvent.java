@@ -63,6 +63,7 @@ public class CareBenefitVerifyRequestChangeEvent extends SObject {
 	public Id RelatedCareBnftVerifyRequestId;
 	public CareBenefitVerifyRequest RelatedCareBnftVerifyRequest;
 	public String ReplayId;
+	public String Request;
 	public Datetime RequestDate;
 	public Id RequestedById;
 	public User RequestedBy;
@@ -71,6 +72,7 @@ public class CareBenefitVerifyRequestChangeEvent extends SObject {
 	public String Response;
 	public String Status;
 	public String StatusReason;
+	public String VerificationMode;
 
 	public CareBenefitVerifyRequestChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CareBenefitVerifyRequestChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

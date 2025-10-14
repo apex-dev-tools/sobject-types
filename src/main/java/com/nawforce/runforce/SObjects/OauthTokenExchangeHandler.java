@@ -21,6 +21,7 @@ public class OauthTokenExchangeHandler extends SObject {
 	public String Description;
 	public String DeveloperName;
 	public Id Id;
+	public Boolean IsContactCreationAllowed;
 	public Boolean IsDeleted;
 	public Boolean IsEnabled;
 	public Boolean IsUserCreationAllowed;

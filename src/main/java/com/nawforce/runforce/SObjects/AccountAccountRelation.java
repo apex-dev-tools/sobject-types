@@ -72,6 +72,7 @@ public class AccountAccountRelation extends SObject {
 	public AccountAccountRelationShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public AccountAccountRelation clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AccountAccountRelation clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

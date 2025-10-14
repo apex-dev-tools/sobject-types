@@ -43,6 +43,7 @@ public class FieldServiceMobileSettings extends SObject {
 	public String FeedbackPrimaryColor;
 	public String FeedbackSecondaryColor;
 	public String FeedbackSelectedColor;
+	public String FeedbackTertiaryColor;
 	public Integer FutureDaysInDatePicker;
 	public String GeoLocationAccuracy;
 	public Integer GeoLocationMinUpdateFreqMins;

@@ -19,6 +19,7 @@ public class CareProgramTeamMember extends SObject {
 	public Account Account;
 	public Id CareProgramId;
 	public CareProgram CareProgram;
+	public String Category;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -30,6 +31,8 @@ public class CareProgramTeamMember extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Id MemberId;
+	public Name Member;
 	public String Name;
 	public String Role;
 	public String SourceSystem;

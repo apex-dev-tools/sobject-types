@@ -64,6 +64,7 @@ public class AuthApplicationAsset extends SObject {
 	public AuthApplicationAssetShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public AuthApplicationAsset clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AuthApplicationAsset clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

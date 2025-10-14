@@ -26,6 +26,7 @@ public class PrivacyObjectSession extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Integer LastPosition;
 	public String Name;
 	public String ObjectFailureLog;
 	public String ObjectStatus;
