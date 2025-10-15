@@ -21,6 +21,7 @@ public class DataActionJobSummaryHistory extends SObject {
 	public Id DataActionJobSummaryId;
 	public DataActionJobSummary DataActionJobSummary;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

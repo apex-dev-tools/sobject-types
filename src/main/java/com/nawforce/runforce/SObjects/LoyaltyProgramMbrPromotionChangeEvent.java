@@ -25,6 +25,7 @@ public class LoyaltyProgramMbrPromotionChangeEvent extends SObject {
 	public Integer CumulativeUsageTarget;
 	public String CurrencyIsoCode;
 	public Id Id;
+	public Boolean IsAutoEnrolled;
 	public Boolean IsEnrollmentActive;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

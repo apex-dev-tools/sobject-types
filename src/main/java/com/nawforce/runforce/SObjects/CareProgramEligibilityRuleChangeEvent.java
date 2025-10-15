@@ -25,6 +25,7 @@ public class CareProgramEligibilityRuleChangeEvent extends SObject {
 	public Id EligibilityCriteriaId;
 	public EnrollmentEligibilityCriteria EligibilityCriteria;
 	public Id Id;
+	public Boolean IsInclusionRule;
 	public Boolean IsRequired;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -36,6 +37,7 @@ public class CareProgramEligibilityRuleChangeEvent extends SObject {
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public String Status;
+	public String Type;
 
 	public CareProgramEligibilityRuleChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CareProgramEligibilityRuleChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

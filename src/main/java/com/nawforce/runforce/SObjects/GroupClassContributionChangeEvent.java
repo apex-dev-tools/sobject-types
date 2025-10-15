@@ -36,6 +36,10 @@ public class GroupClassContributionChangeEvent extends SObject {
 	public String MemberType;
 	public String Name;
 	public Decimal Percentage;
+	public Id ProductCategoryId;
+	public ProductCategory ProductCategory;
+	public Id ProductId;
+	public Product2 Product;
 	public String ReplayId;
 	public String Type;
 

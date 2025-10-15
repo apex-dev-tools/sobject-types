@@ -34,6 +34,7 @@ public class MarketSgmtActvStatusEvent extends SObject {
 	public String LastPublishStatusErrorMessage;
 	public Long RecordCount;
 	public String ReplayId;
+	public Boolean ShouldReSync;
 
 	public MarketSgmtActvStatusEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public MarketSgmtActvStatusEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

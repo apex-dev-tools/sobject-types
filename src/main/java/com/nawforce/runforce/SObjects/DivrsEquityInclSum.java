@@ -25,6 +25,7 @@ public class DivrsEquityInclSum extends SObject {
 	public DisclsReportingPeriod DisclsReportingPeriod;
 	public String DiversityCategory;
 	public String DiversityType;
+	public Decimal EmployeeCount;
 	public Decimal EmployeePercentage;
 	public String EmployeeType;
 	public String EmploymentType;
@@ -37,6 +38,7 @@ public class DivrsEquityInclSum extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Location;
+	public String ManagementLevel;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;

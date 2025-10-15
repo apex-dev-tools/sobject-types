@@ -60,6 +60,7 @@ public class Polygon extends SObject {
 	public PolygonShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public Polygon clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Polygon clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

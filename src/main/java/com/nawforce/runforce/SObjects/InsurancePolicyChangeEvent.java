@@ -15,10 +15,12 @@ public class InsurancePolicyChangeEvent extends SObject {
 	public static SObjectType$<InsurancePolicyChangeEvent> SObjectType;
 	public static SObjectFields$<InsurancePolicyChangeEvent> Fields;
 
+	public Date ActualRenewalDate;
 	public String AuditTerm;
 	public Id BillingCarrierAccountId;
 	public Account BillingCarrierAccount;
 	public Datetime CancellationDate;
+	public Date CancellationEffectiveDate;
 	public String CancellationReason;
 	public String CancellationReasonType;
 	public Decimal CashSurrenderValue;
@@ -36,6 +38,8 @@ public class InsurancePolicyChangeEvent extends SObject {
 	public Decimal Discount;
 	public String Division;
 	public Datetime EffectiveDate;
+	public Date EffectiveFromDate;
+	public Date EffectiveToDate;
 	public Decimal EmployeeContribution;
 	public Decimal EmployerContribution;
 	public Datetime ExpirationDate;
@@ -58,6 +62,8 @@ public class InsurancePolicyChangeEvent extends SObject {
 	public Id NameInsuredId;
 	public Account NameInsured;
 	public Datetime OriginalEffectiveDate;
+	public Date OriginalEffectiveFromDate;
+	public Date OriginalEffectiveToDate;
 	public Datetime OriginalExpirationDate;
 	public Id OriginalPolicyId;
 	public InsurancePolicy OriginalPolicy;
@@ -70,6 +76,8 @@ public class InsurancePolicyChangeEvent extends SObject {
 	public Datetime PaymentDueDate;
 	public String PlanTier;
 	public String PlanType;
+	public Date PlannedRenewalDate;
+	public String PolicyCode;
 	public String PolicyDescription;
 	public String PolicyName;
 	public String PolicyTerm;

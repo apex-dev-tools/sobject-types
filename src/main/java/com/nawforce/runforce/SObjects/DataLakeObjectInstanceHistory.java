@@ -21,6 +21,7 @@ public class DataLakeObjectInstanceHistory extends SObject {
 	public Id DataLakeObjectInstanceId;
 	public DataLakeObjectInstance DataLakeObjectInstance;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

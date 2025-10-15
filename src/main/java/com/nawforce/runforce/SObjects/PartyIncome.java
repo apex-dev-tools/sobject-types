@@ -81,6 +81,7 @@ public class PartyIncome extends SObject {
 	public PartyIncomeShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public PartyIncome clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PartyIncome clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

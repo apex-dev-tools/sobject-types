@@ -20,6 +20,8 @@ public class FlowRecordElementChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataSpaceId;
+	public DataSpace DataSpace;
 	public String ElementName;
 	public Id FlowRecordVersionId;
 	public FlowRecordVersion FlowRecordVersion;

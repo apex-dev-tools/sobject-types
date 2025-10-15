@@ -16,6 +16,9 @@ public class ProcedurePlanOption extends SObject {
 	public static SObjectType$<ProcedurePlanOption> SObjectType;
 	public static SObjectFields$<ProcedurePlanOption> Fields;
 
+	public Id ApexClassId;
+	public ApexClass ApexClass;
+	public String ApexClassName;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

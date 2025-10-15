@@ -27,6 +27,8 @@ public class LoyaltyTierChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id LoyaltyProgramId;
+	public LoyaltyProgram LoyaltyProgram;
 	public Id LoyaltyTierGroupId;
 	public LoyaltyTierGroup LoyaltyTierGroup;
 	public Decimal MaximumEligibleBalance;

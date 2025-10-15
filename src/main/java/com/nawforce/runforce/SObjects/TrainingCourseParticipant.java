@@ -66,6 +66,7 @@ public class TrainingCourseParticipant extends SObject {
 	public TrainingCourseParticipantShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public TrainingCourseParticipant clone$() {throw new java.lang.UnsupportedOperationException();}
 	public TrainingCourseParticipant clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

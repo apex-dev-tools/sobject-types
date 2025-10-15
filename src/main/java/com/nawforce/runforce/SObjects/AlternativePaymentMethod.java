@@ -21,6 +21,7 @@ public class AlternativePaymentMethod extends SObject {
 	public String AuditEmail;
 	public String BankAccountHolderType;
 	public String BankAccountType;
+	public String BankCode;
 	public String BillingFirstName;
 	public String BillingLastName;
 	public String BillingName;
@@ -42,6 +43,7 @@ public class AlternativePaymentMethod extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String MacAddress;
+	public String Mandate;
 	public String NickName;
 	public Id OwnerId;
 	public Name Owner;
@@ -70,6 +72,7 @@ public class AlternativePaymentMethod extends SObject {
 	public Datetime SystemModstamp;
 
 	public PaymentAuthorization[] PaymentAuthorizations;
+	public PaymentGatewayLog[] PaymentGatewayLogs;
 	public Payment[] Payments;
 	public Refund[] Refunds;
 	public AlternativePaymentMethodShare[] Shares;

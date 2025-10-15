@@ -44,6 +44,9 @@ public class DisclsReportingPeriod extends SObject {
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public BiodiversitySummary[] BiodiversitySummaries;
+	public ClimateChgEmssnFincSummary[] ClimateChgEmssnFincSummaries;
+	public ClimateChgRiskOppSummary[] ClimateChgRiskOppSummaries;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -68,11 +71,14 @@ public class DisclsReportingPeriod extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public OrgPaymentPracSummary[] OrgPaymentPracSummaries;
 	public OrgIncidentSummary[] OrganizationIncidentSummaries;
+	public PltnImpactRiskOppSummary[] PltnImpactRiskOppSummaries;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public DisclsReportingPeriodShare[] Shares;
 	public SocialContributionSum[] SocialContributionSummaries;
+	public SustnMaterialUseSummary[] SustnMaterialUseSummaries;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TaxDisclosureSummary[] TaxDisclosureSummaries;

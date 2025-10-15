@@ -19,6 +19,8 @@ public class HealthConditionChangeEvent extends SObject {
 	public Datetime AbatementStartDateTime;
 	public Id AssertionSourceId;
 	public SObject AssertionSource;
+	public Id CaseId;
+	public Case Case;
 	public Object ChangeEventHeader;
 	public Id ClinicalEncounterId;
 	public ClinicalEncounter ClinicalEncounter;
@@ -30,6 +32,7 @@ public class HealthConditionChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String DiagnosticStatus;
+	public String DiagnosticStatusCategory;
 	public String Division;
 	public String ExtlProblemDefIdentifier;
 	public Id Id;
@@ -50,7 +53,11 @@ public class HealthConditionChangeEvent extends SObject {
 	public Datetime RecordCreationDateTime;
 	public Id RecordCreatorId;
 	public SObject RecordCreator;
+	public Id RelatedHealthConditionId;
+	public HealthCondition RelatedHealthCondition;
+	public String RelatedHealthConditionType;
 	public String ReplayId;
+	public Datetime ReportDate;
 	public String Severity;
 	public Id SiteId;
 	public CodeSetBundle Site;

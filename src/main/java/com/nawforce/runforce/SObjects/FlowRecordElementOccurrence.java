@@ -7,6 +7,8 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
+import com.nawforce.runforce.System.Long;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -19,6 +21,11 @@ public class FlowRecordElementOccurrence extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataSpaceId;
+	public DataSpace DataSpace;
+	public Integer Entries;
+	public Integer Errors;
+	public Integer Exits;
 	public Id FlowRecordElementId;
 	public FlowRecordElement FlowRecordElement;
 	public Id FlowRecordId;
@@ -33,7 +40,12 @@ public class FlowRecordElementOccurrence extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public Integer Paused;
+	public Integer Retrying;
+	public Integer Stopped;
 	public Datetime SystemModstamp;
+	public Long TotalDuration;
+	public Integer Waiting;
 
 	public FlowRecordElementOccurrence clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FlowRecordElementOccurrence clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

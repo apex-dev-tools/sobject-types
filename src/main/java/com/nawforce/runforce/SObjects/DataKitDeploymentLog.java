@@ -7,7 +7,6 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
-import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -36,6 +35,7 @@ public class DataKitDeploymentLog extends SObject {
 	public String FlowInterviewIdentifier;
 	public Id Id;
 	public Boolean IsDeleted;
+	public String JobIdentifier;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -49,7 +49,7 @@ public class DataKitDeploymentLog extends SObject {
 	public Id SubscriberOrgComponentId;
 	public Name SubscriberOrgComponent;
 	public Datetime SystemModstamp;
-	public Integer TemplateVersion;
+	public Decimal TemplateVersion;
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;

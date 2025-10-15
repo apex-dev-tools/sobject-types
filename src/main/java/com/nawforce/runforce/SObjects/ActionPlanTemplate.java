@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -16,11 +17,14 @@ public class ActionPlanTemplate extends SObject {
 	public static SObjectFields$<ActionPlanTemplate> Fields;
 
 	public String ActionPlanType;
+	public String Category;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public Integer EstimatedCompletionDays;
+	public String FileBasedTemplatePath;
 	public Id Id;
 	public Boolean IsAdHocItemCreationEnabled;
 	public Boolean IsDeleted;
@@ -32,7 +36,9 @@ public class ActionPlanTemplate extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public String SourceType;
 	public String Status;
+	public String Subcategory;
 	public Datetime SystemModstamp;
 	public String TargetEntityType;
 	public String UniqueName;

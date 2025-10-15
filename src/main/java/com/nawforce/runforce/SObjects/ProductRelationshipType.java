@@ -30,6 +30,7 @@ public class ProductRelationshipType extends SObject {
 	public String Name;
 	public Datetime SystemModstamp;
 
+	public FulfillmentLineRel[] FulfillmentLineRelationships;
 	public ProductRelatedComponent[] ProductRelatedComponents;
 
 	public ProductRelationshipType clone$() {throw new java.lang.UnsupportedOperationException();}

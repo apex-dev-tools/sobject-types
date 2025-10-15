@@ -25,6 +25,7 @@ public class CareProgramEligibilityRule extends SObject {
 	public EnrollmentEligibilityCriteria EligibilityCriteria;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsInclusionRule;
 	public Boolean IsRequired;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -38,6 +39,7 @@ public class CareProgramEligibilityRule extends SObject {
 	public String SourceSystemIdentifier;
 	public String Status;
 	public Datetime SystemModstamp;
+	public String Type;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

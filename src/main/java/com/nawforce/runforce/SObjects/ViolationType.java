@@ -62,6 +62,7 @@ public class ViolationType extends SObject {
 	public ViolationTypeShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 	public ViolationTypeAssessmentInd[] ViolationTypeAssessmentIndDef;
 
 	public ViolationType clone$() {throw new java.lang.UnsupportedOperationException();}

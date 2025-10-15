@@ -17,7 +17,7 @@ public class WebCart extends SObject {
 	public static SObjectFields$<WebCart> Fields;
 
 	public Id AccountId;
-	public Account Account;
+	public Name Account;
 	public Address BillingAddress;
 	public String BillingCity;
 	public String BillingCountry;
@@ -90,6 +90,7 @@ public class WebCart extends SObject {
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public CartCheckoutSession[] CartCheckoutSessions;
+	public WebCartCredit[] CartCredits;
 	public CartDeliveryGroup[] CartDeliveryGroups;
 	public CartItemPriceAdjustment[] CartItemPriceAdjustments;
 	public CartTax[] CartItemTaxes;

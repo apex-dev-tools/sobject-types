@@ -65,6 +65,7 @@ public class StnryAssetWaterFtprnt extends SObject {
 	public Decimal TotalDischargeInMl;
 	public Decimal TotalFloorArea;
 	public String TotalFloorAreaUnit;
+	public Decimal TotalStorageDuringPreviousYear;
 	public Decimal TotalStorageInMl;
 	public Decimal TotalUnitsManufactured;
 	public Decimal TotalWithdrawalInMl;

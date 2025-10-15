@@ -49,6 +49,7 @@ public class VideoCallChangeEvent extends SObject {
 	public String ReplayId;
 	public Datetime StartDateTime;
 	public String TranscribedLanguage;
+	public String UsageType;
 	public String VendorMeetingKey;
 	public String VendorMeetingUuid;
 	public String VendorName;

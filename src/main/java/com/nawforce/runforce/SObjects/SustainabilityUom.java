@@ -25,6 +25,7 @@ public class SustainabilityUom extends SObject {
 	public Boolean IsProductUom;
 	public Boolean IsStationaryAssetUom;
 	public Boolean IsVehicleAssetUom;
+	public Boolean IsWasteUom;
 	public String Language;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -35,6 +36,7 @@ public class SustainabilityUom extends SObject {
 	public String UnitType;
 
 	public StnryAssetEnrgyUse[] FuelConsumptionUnitRef;
+	public GeneratedWaste[] SustainabilityUomRef;
 	public VehicleAssetEnrgyUse[] VehicleAssetEnrgyUseFuelConsumptionUnitRef;
 
 	public SustainabilityUom clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -37,6 +37,7 @@ public class PendingOrderSummary extends SObject {
 	public Datetime OrderedDate;
 	public String Payload;
 	public String PayloadType;
+	public String ProcessingInstructions;
 	public Id SalesStoreId;
 	public WebStore SalesStore;
 	public String ShopperName;

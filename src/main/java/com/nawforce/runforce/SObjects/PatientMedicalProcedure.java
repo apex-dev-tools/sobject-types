@@ -93,6 +93,7 @@ public class PatientMedicalProcedure extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public PatientMedicalProcedureHistory[] Histories;
 	public Identifier[] Identifiers;
+	public MedicationAdministrationDtl[] MedAdminDtl_DetailRecord;
 	public MedicationStatement[] MedStatement_Procedure;
 	public PatientMedicalProcedureDetail[] Medical_Procedure_Detail;
 	public MedicationStatementDetail[] MedicationStatementDetailRecords;

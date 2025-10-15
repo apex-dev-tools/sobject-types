@@ -70,6 +70,7 @@ public class Applicant extends SObject {
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public DocumentChecklistItem[] DocumentChecklistWho;
+	public DuplicateRecordItem[] DuplicateRecordItems;
 	public EmailMessage[] Emails;
 	public EventRelation[] EventRelations;
 	public Event[] Events;

@@ -24,6 +24,9 @@ public class CareRequestExtension extends SObject {
 	public Id CareRequestId;
 	public CareRequest CareRequest;
 	public String CaseSubStatus;
+	public String ClientSourceSysIdentifier;
+	public Id CoveragePlanTypeId;
+	public CodeSetBundle CoveragePlanType;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -73,6 +76,7 @@ public class CareRequestExtension extends SObject {
 	public Id SubscriberId;
 	public Account Subscriber;
 	public String SubscriberMemberIdentifier;
+	public String SupportingDocUrl;
 	public Datetime SystemModstamp;
 	public Decimal TotalAmbulanceTransportDistance;
 	public Id UnitofMeasureId;

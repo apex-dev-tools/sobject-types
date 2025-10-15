@@ -60,6 +60,7 @@ public class RegAuthorizationTypeProduct extends SObject {
 	public RegAuthorizationTypeProductShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public RegAuthorizationTypeProduct clone$() {throw new java.lang.UnsupportedOperationException();}
 	public RegAuthorizationTypeProduct clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

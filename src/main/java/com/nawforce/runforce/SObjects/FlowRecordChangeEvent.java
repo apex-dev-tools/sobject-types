@@ -24,7 +24,7 @@ public class FlowRecordChangeEvent extends SObject {
 	public Integer ApiVersion;
 	public Boolean AreMetricsLoggedToDataCloud;
 	public Id AssociatedRecordId;
-	public Campaign AssociatedRecord;
+	public SObject AssociatedRecord;
 	public String Builder;
 	public String CapacityCategory;
 	public Object ChangeEventHeader;
@@ -32,6 +32,8 @@ public class FlowRecordChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataSpaceId;
+	public DataSpace DataSpace;
 	public String Description;
 	public String ErrorCode;
 	public String ErrorDetails;

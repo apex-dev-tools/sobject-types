@@ -80,6 +80,7 @@ public class CareRegisteredDevice extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthRiskEvaluation[] HRE_Evaluator;
 	public CareRegisteredDeviceHistory[] Histories;
 	public Identifier[] Identifiers;
 	public MedicationRequest[] MedRequestsPerformer;

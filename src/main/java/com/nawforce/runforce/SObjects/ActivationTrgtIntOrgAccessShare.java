@@ -16,6 +16,7 @@ public class ActivationTrgtIntOrgAccessShare extends SObject {
 	public static SObjectFields$<ActivationTrgtIntOrgAccessShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

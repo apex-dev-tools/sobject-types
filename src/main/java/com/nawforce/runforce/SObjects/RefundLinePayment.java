@@ -51,6 +51,7 @@ public class RefundLinePayment extends SObject {
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
 	public FinanceTransaction[] ParentFinanceTransactions;
+	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public RefundLinePayment[] RefundLinePayments;
 	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 	public FinanceTransaction[] SourceFinanceTransactions;

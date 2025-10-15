@@ -16,6 +16,7 @@ public class EmployeeDevelopmentSum extends SObject {
 	public static SObjectFields$<EmployeeDevelopmentSum> Fields;
 
 	public Decimal AverageTrainingTime;
+	public String BusinessFunction;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -28,15 +29,18 @@ public class EmployeeDevelopmentSum extends SObject {
 	public String EmployeeType;
 	public String Gender;
 	public Id Id;
+	public Boolean IsBusinessFunctionAtRisk;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public String ManagementLevel;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Decimal PercentBusinessFunctionAtRisk;
 	public String ProgramCategory;
 	public Id SubsidiaryAccountId;
 	public Account SubsidiaryAccount;

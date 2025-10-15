@@ -93,6 +93,7 @@ public class Contract extends SObject {
 	public Approval[] Approvals;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public BindingObjUsageRsrcPlcy[] BindingObjUsageRsrcPlcies;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -110,10 +111,17 @@ public class Contract extends SObject {
 	public ContractFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public AuthFormRequestRecord[] FormRequestRecordRelatedRecords;
+	public UsageBillingPeriodItem[] GBR_UsageBillingPeriodItems;
+	public UsageRatableSummary[] GBT_RatableSummaries;
+	public TransactionUsageEntitlement[] GBT_TransactionUsageEntitlements;
+	public UsageSummary[] GBT_UsageSummaries;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public UsageEntitlementAccount[] GrantBindingTarget_UsageEntitlementAccounts;
+	public GroupCensus[] GroupCensuses;
 	public ContractHistory[] Histories;
 	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
+	public InsuranceAsyncBulkRequest[] InsuranceAsyncBulkRequests;
 	public InsuranceContract[] InsuranceContracts;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;

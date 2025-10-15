@@ -162,10 +162,12 @@ public class CareRequest extends SObject {
 	public Attachment[] Attachments;
 	public CareDiagnosis[] CareDiagnoses;
 	public CareProcessingError[] CareProcessingErrorReferenceObject;
+	public CareRequestExchangeInfo[] CareRequest;
 	public CareRequestDrug[] CareRequestDrugs;
 	public CareRequestExtension[] CareRequestExtensions;
 	public CareRequestItem[] CareRequestItems;
 	public CareRequestReviewer[] CareRequestReviewers;
+	public CareRequestSupportingCntnt[] CareRequestSupportingCntnts;
 	public CareTaskDetail[] CareTaskDetailDetailRecord;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

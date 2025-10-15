@@ -24,6 +24,7 @@ public class FlowOrchestrationWorkItem extends SObject {
 	public String Description;
 	public Long ElapsedTimeSinceAsgntInSec;
 	public Long ElapsedTimeSinceCreationInSec;
+	public String FlowType;
 	public Id Id;
 	public Boolean IsDeleted;
 	public String Label;
@@ -33,6 +34,7 @@ public class FlowOrchestrationWorkItem extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public String OrchestrationName;
 	public Id OwnerId;
 	public Name Owner;
 	public Id RelatedRecordId;

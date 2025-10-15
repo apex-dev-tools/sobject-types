@@ -79,6 +79,7 @@ public class StnryAssetEnvrSrc extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
+	public SustainabilityStakeholder[] ESGReferenceObjects;
 	public EmailMessage[] Emails;
 	public EventRelation[] EventRelations;
 	public Event[] Events;
@@ -97,6 +98,7 @@ public class StnryAssetEnvrSrc extends SObject {
 	public Scope3CrbnFtprnt[] Scope3CrbnFtprntStnryAssetEnvrSrc;
 	public Scope3PcmtSummary[] Scope3PcmtSummaryStnryAssetEnvrSrc;
 	public StnryAssetEnvrSrcShare[] Shares;
+	public YearlyUsageTrkgDataGap[] SourceObjectRelation;
 	public StnryAssetEnrgyUse[] StationaryAssetEnergyUses;
 	public StnryAssetWaterActvty[] StationaryAssetWaterActivities;
 	public StnryAssetAnnualFact[] StnryAssetAnnualFacts;
@@ -104,6 +106,7 @@ public class StnryAssetEnvrSrc extends SObject {
 	public Task[] Tasks;
 	public WasteFootprint[] WasteFootprints;
 	public StnryAssetWaterFtprnt[] WaterFootprints;
+	public YearlyUsageTrkgDataGap[] YearlyUsageTrkgDataGaps;
 
 	public StnryAssetEnvrSrc clone$() {throw new java.lang.UnsupportedOperationException();}
 	public StnryAssetEnvrSrc clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

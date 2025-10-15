@@ -15,6 +15,7 @@ public class PricingRecipe extends SObject {
 	public static SObjectType$<PricingRecipe> SObjectType;
 	public static SObjectFields$<PricingRecipe> Fields;
 
+	public String BusinessVertical;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

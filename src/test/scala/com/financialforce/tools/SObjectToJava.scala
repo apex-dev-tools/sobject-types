@@ -32,7 +32,6 @@ import java.io.{BufferedWriter, FileWriter}
 import java.nio.file.{Files, Paths}
 
 object SObjectToJava {
-  def loginURL(instance: String, api: String): String = s"https://$instance.salesforce.com/services/Soap/u/$api"
 
   def main(args: Array[String]): Unit = {
 
@@ -41,7 +40,7 @@ object SObjectToJava {
       case _ => println("Usage: SObjectToJava <username> <password> <instance> <api>"); return
     }
 
-    val connectionResult = SFConnection.login(loginURL(args(2), args(3)), args(0), args(1))
+    val connectionResult = SFConnection.login(args(0), args(1), args(2), args(3))
     if (connectionResult.isLeft) {
       println(connectionResult.swap.getOrElse("Connection failed"))
       return

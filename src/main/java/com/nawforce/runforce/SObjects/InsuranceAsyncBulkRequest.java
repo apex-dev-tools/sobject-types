@@ -29,6 +29,7 @@ public class InsuranceAsyncBulkRequest extends SObject {
 	public Id Id;
 	public Boolean IsDeleted;
 	public Integer JobCount;
+	public String JobIdentifier;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -36,6 +37,8 @@ public class InsuranceAsyncBulkRequest extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public Integer PendingJobCount;
+	public Id ReferenceRecordId;
+	public Name ReferenceRecord;
 	public String Status;
 	public Integer SuccessfulJobCount;
 	public Datetime SystemModstamp;

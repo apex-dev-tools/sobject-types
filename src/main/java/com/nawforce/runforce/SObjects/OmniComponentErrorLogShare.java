@@ -16,6 +16,7 @@ public class OmniComponentErrorLogShare extends SObject {
 	public static SObjectFields$<OmniComponentErrorLogShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

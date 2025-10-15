@@ -33,7 +33,7 @@ public class DataCommCapDim extends SObject {
 	public String NamespacePrefix;
 	public Datetime SystemModstamp;
 
-	public DataCommCapDimValue[] DataCommCapDims;
+	public SObject[] DataCommCapDims;
 
 	public DataCommCapDim clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DataCommCapDim clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

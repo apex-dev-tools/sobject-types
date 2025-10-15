@@ -35,7 +35,9 @@ public class ExpressionSet extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public String ResourceInitializationType;
 	public Datetime SystemModstamp;
+	public String UsageSubtype;
 	public String UsageType;
 
 	public ActivityHistory[] ActivityHistories;

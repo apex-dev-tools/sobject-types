@@ -55,6 +55,7 @@ public class StnryAssetWaterActvty extends SObject {
 	public Datetime SystemModstamp;
 	public Decimal TotalCost;
 	public String TreatmentType;
+	public String WaterDataMeasurement;
 	public Date WaterFtprntReportDate;
 
 	public ActivityHistory[] ActivityHistories;

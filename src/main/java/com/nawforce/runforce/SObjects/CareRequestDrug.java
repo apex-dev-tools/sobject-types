@@ -17,6 +17,7 @@ public class CareRequestDrug extends SObject {
 	public static SObjectFields$<CareRequestDrug> Fields;
 
 	public Integer ApprovedUnits;
+	public String AssertionIdentifier;
 	public String AuthApprovalIdentifier;
 	public String AuthorizationRefIdentifier;
 	public Id CareRequestCaseId;
@@ -90,6 +91,8 @@ public class CareRequestDrug extends SObject {
 	public String PrescriptionNumber;
 	public String Priority;
 	public String RequestType;
+	public Integer RequiredResponseCount;
+	public Datetime ResponseDateTime;
 	public String ServiceCategory;
 	public String ServiceCategoryCode;
 	public Id ServicingFacilityId;
@@ -101,10 +104,14 @@ public class CareRequestDrug extends SObject {
 	public String SourceSystemIdentifier;
 	public Datetime SourceSystemModified;
 	public String Status;
+	public Id StatusCodeId;
+	public CodeSetBundle StatusCode;
 	public String StatusReason;
 	public String Strength;
+	public Datetime SubmittedDateTime;
 	public Datetime SystemModstamp;
 	public Integer TherapyDuration;
+	public Integer TransactionNumber;
 	public Integer Units;
 
 	public ActivityHistory[] ActivityHistories;

@@ -99,6 +99,7 @@ public class WorkOrderLineItem extends SObject {
 	public Id WorkTypeId;
 	public WorkType WorkType;
 
+	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApprovalSubmission[] ApprovalSubmissions;
@@ -129,6 +130,7 @@ public class WorkOrderLineItem extends SObject {
 	public WorkStep[] NewWorkSteps;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public TransactionUsageEntitlement[] OI_TransactionUsageEntitlements;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;

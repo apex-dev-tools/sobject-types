@@ -32,6 +32,8 @@ public class FulfillmentOrderLineItem extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id MainFulfillmentOrderLineItemId;
+	public FulfillmentOrderLineItem MainFulfillmentOrderLineItem;
 	public Id OrderItemId;
 	public OrderItem OrderItem;
 	public Decimal OriginalQuantity;
@@ -42,6 +44,7 @@ public class FulfillmentOrderLineItem extends SObject {
 	public String RejectReason;
 	public Decimal RejectedQuantity;
 	public String ReshipReason;
+	public String ScopeIdentifierText;
 	public Datetime ServiceDate;
 	public Datetime SystemModstamp;
 	public Decimal TotalAdjustmentAmount;
@@ -57,6 +60,7 @@ public class FulfillmentOrderLineItem extends SObject {
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public FulfillmentLineRel[] AssociatedFulfillmentlineRelationships;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -66,7 +70,9 @@ public class FulfillmentOrderLineItem extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public FulfillmentOrderItemAdjustment[] FulfillmentOrderItemAdjustments;
 	public FulfillmentOrderItemTax[] FulfillmentOrderItemTaxes;
+	public FulfillmentOrderLineItem[] FulfillmentOrderLineItems;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public FulfillmentLineRel[] MainFulfillmentLineRelationships;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

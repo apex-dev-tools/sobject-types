@@ -20,8 +20,10 @@ public class ProductAttributeSetItem extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String Field;
+	public String FieldApiName;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsGroupedBy;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

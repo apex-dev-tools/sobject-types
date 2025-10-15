@@ -20,6 +20,7 @@ public class StnryAssetEnrgyUse extends SObject {
 	public Date CarbonFootprintReportDate;
 	public Decimal Ch4EmissionsInKg;
 	public Decimal Co2EmissionsInKg;
+	public String CrbnEmssnScopeAlloc;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

@@ -19,6 +19,8 @@ public class MedicationRequest extends SObject {
 	public Id AllowedSubstitutionTypeCodeId;
 	public CodeSetBundle AllowedSubstitutionTypeCode;
 	public Boolean CanSubstitute;
+	public Id CaseId;
+	public Case Case;
 	public Id ClinicalEncounterId;
 	public ClinicalEncounter ClinicalEncounter;
 	public Id ClinicalServiceRequestId;
@@ -122,6 +124,8 @@ public class MedicationRequest extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MedicationRequestHistory[] Histories;
 	public Identifier[] Identifiers;
+	public MedicationAdministration[] MA_MedicationRequest;
+	public MedicationAdministrationDtl[] MedAdminDtl_DetailRecord;
 	public MedicationRequest[] MedReq_PrevPrescription;
 	public MedicationRequest[] MedReq_RelatedReq;
 	public MedicationStatement[] MedStatement_MedReq;

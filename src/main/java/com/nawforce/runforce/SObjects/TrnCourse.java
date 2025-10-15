@@ -63,6 +63,7 @@ public class TrnCourse extends SObject {
 	public TrnCourseShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public TrnCourse clone$() {throw new java.lang.UnsupportedOperationException();}
 	public TrnCourse clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

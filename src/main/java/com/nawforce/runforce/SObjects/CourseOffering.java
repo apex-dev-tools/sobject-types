@@ -67,6 +67,7 @@ public class CourseOffering extends SObject {
 	public TrainingCourseParticipant[] TCPCourseOffering;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public CourseOffering clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CourseOffering clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -17,6 +17,7 @@ public class ActivationTarget extends SObject {
 
 	public String AudienceHistoryDmoName;
 	public String AudienceLatestDmoName;
+	public String AuditDmoName;
 	public String ConnectionType;
 	public Id CreatedById;
 	public User CreatedBy;

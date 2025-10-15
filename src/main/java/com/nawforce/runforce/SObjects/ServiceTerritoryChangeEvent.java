@@ -43,6 +43,8 @@ public class ServiceTerritoryChangeEvent extends SObject {
 	public Id ParentTerritoryId;
 	public ServiceTerritory ParentTerritory;
 	public String PostalCode;
+	public Id PricebookId;
+	public Pricebook2 Pricebook;
 	public String ReplayId;
 	public Id SchedulingConstraintId;
 	public SchedulingConstraint SchedulingConstraint;

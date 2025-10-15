@@ -20,6 +20,7 @@ public class GroupCensusMemberChangeEvent extends SObject {
 	public Account Account;
 	public Address Address;
 	public Decimal AnnualEligibleSalary;
+	public String AssociationWithPrimaryMbr;
 	public Date Birthdate;
 	public Object ChangeEventHeader;
 	public String City;

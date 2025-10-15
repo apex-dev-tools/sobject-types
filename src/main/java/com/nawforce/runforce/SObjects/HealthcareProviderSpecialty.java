@@ -7,6 +7,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -37,6 +38,7 @@ public class HealthcareProviderSpecialty extends SObject {
 	public Name Owner;
 	public Id PractitionerId;
 	public Contact Practitioner;
+	public Integer Rank;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public Id SpecialtyId;

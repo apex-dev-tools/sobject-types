@@ -56,6 +56,7 @@ public class GroupClass extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GroupCensusMember[] GroupCensusMembers;
 	public GroupClassContribution[] GroupClassContributions;
+	public GrpCensusGrpClassSummary[] GrpCensusGrpClassSummaries;
 	public GroupClassHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

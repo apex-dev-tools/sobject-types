@@ -160,6 +160,7 @@ public class AnnualEmssnInventory extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public AnnualEmssnInventoryExtension[] ParentAnnualEmissionInventories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public Scope3CrbnFtprnt[] Scope3CrbnFtprnts;

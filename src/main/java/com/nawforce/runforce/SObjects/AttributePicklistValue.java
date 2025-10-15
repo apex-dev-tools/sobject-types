@@ -47,9 +47,13 @@ public class AttributePicklistValue extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public AttrPicklistExcludedValue[] AttrPicklistExcludedValues;
+	public ClaimAttribute[] ClaimAttributes;
+	public ClaimItemAttribute[] ClaimItemAttributes;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContractGroupPlanAttribute[] ContractGroupPlanAttributes;
+	public ContractGrpPlanGrpClsAttr[] ContractGrpPlanGrpClsAttrs;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
 	public EventRelation[] EventRelations;
@@ -60,6 +64,10 @@ public class AttributePicklistValue extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public AttributePicklistValueHistory[] Histories;
+	public InsPolicyParticipantAttr[] InsPolicyParticipantAttributes;
+	public InsPolicyAssetAttribute[] InsurancePolicyAssetAttributes;
+	public InsurancePolicyAttribute[] InsurancePolicyAttributes;
+	public InsPolicyCoverageAttribute[] InsurancePolicyCoverageAttributes;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

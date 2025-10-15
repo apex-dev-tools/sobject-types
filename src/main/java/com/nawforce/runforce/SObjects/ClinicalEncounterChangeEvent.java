@@ -16,6 +16,8 @@ public class ClinicalEncounterChangeEvent extends SObject {
 	public static SObjectFields$<ClinicalEncounterChangeEvent> Fields;
 
 	public String AdmissionSource;
+	public Id CaseId;
+	public Case Case;
 	public String Category;
 	public Object ChangeEventHeader;
 	public Id CreatedById;

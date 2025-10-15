@@ -32,6 +32,8 @@ public class DataCommCapDimValue extends SObject {
 	public Datetime SystemModstamp;
 	public String Value;
 
+	public DataCommCapRuleDim[] DataCommCapDimValues;
+
 	public DataCommCapDimValue clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DataCommCapDimValue clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public DataCommCapDimValue clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

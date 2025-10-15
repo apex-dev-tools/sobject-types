@@ -44,6 +44,7 @@ public class ReturnOrderChangeEvent extends SObject {
 	public ProductRequest ProductRequest;
 	public Id ProductServiceCampaignId;
 	public ProductServiceCampaign ProductServiceCampaign;
+	public String RefundInstructionsHint;
 	public String ReplayId;
 	public String ReturnOrderNumber;
 	public Id ReturnedById;

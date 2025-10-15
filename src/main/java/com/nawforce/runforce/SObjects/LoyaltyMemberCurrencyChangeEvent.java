@@ -30,6 +30,7 @@ public class LoyaltyMemberCurrencyChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LastPointsAggregationDate;
 	public Date LastResetDate;
 	public Id LoyaltyMemberId;
 	public LoyaltyProgramMember LoyaltyMember;

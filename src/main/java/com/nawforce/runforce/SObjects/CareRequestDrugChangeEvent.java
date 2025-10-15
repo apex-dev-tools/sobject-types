@@ -17,6 +17,7 @@ public class CareRequestDrugChangeEvent extends SObject {
 	public static SObjectFields$<CareRequestDrugChangeEvent> Fields;
 
 	public Integer ApprovedUnits;
+	public String AssertionIdentifier;
 	public String AuthApprovalIdentifier;
 	public String AuthorizationRefIdentifier;
 	public Id CareRequestCaseId;
@@ -89,6 +90,8 @@ public class CareRequestDrugChangeEvent extends SObject {
 	public String Priority;
 	public String ReplayId;
 	public String RequestType;
+	public Integer RequiredResponseCount;
+	public Datetime ResponseDateTime;
 	public String ServiceCategory;
 	public String ServiceCategoryCode;
 	public Id ServicingFacilityId;
@@ -100,9 +103,13 @@ public class CareRequestDrugChangeEvent extends SObject {
 	public String SourceSystemIdentifier;
 	public Datetime SourceSystemModified;
 	public String Status;
+	public Id StatusCodeId;
+	public CodeSetBundle StatusCode;
 	public String StatusReason;
 	public String Strength;
+	public Datetime SubmittedDateTime;
 	public Integer TherapyDuration;
+	public Integer TransactionNumber;
 	public Integer Units;
 
 	public CareRequestDrugChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}

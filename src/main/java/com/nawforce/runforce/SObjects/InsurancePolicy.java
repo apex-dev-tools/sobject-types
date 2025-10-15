@@ -15,10 +15,12 @@ public class InsurancePolicy extends SObject {
 	public static SObjectType$<InsurancePolicy> SObjectType;
 	public static SObjectFields$<InsurancePolicy> Fields;
 
+	public Date ActualRenewalDate;
 	public String AuditTerm;
 	public Id BillingCarrierAccountId;
 	public Account BillingCarrierAccount;
 	public Datetime CancellationDate;
+	public Date CancellationEffectiveDate;
 	public String CancellationReason;
 	public String CancellationReasonType;
 	public Decimal CashSurrenderValue;
@@ -35,6 +37,8 @@ public class InsurancePolicy extends SObject {
 	public Decimal Discount;
 	public String Division;
 	public Datetime EffectiveDate;
+	public Date EffectiveFromDate;
+	public Date EffectiveToDate;
 	public Decimal EmployeeContribution;
 	public Decimal EmployerContribution;
 	public Datetime ExpirationDate;
@@ -60,6 +64,8 @@ public class InsurancePolicy extends SObject {
 	public Id NameInsuredId;
 	public Account NameInsured;
 	public Datetime OriginalEffectiveDate;
+	public Date OriginalEffectiveFromDate;
+	public Date OriginalEffectiveToDate;
 	public Datetime OriginalExpirationDate;
 	public Id OriginalPolicyId;
 	public InsurancePolicy OriginalPolicy;
@@ -72,6 +78,8 @@ public class InsurancePolicy extends SObject {
 	public Datetime PaymentDueDate;
 	public String PlanTier;
 	public String PlanType;
+	public Date PlannedRenewalDate;
+	public String PolicyCode;
 	public String PolicyDescription;
 	public String PolicyName;
 	public String PolicyTerm;
@@ -158,11 +166,17 @@ public class InsurancePolicy extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public InsurancePolicyHistory[] Histories;
+	public InsPolicyRelatedObject[] IPROInsurancePolicy;
+	public InsuranceAsyncBulkRecordDetail[] InsuranceAsyncBulkRecordDetails;
+	public InsuranceAsyncBulkRequestItem[] InsuranceAsyncBulkRequestItems;
+	public InsurancePolicyProductClause[] InsurancePolicy;
 	public InsurancePolicyAsset[] InsurancePolicyAssets;
+	public InsurancePolicyAttribute[] InsurancePolicyAttributes;
 	public InsurancePolicyCoverage[] InsurancePolicyCoverages;
 	public InsurancePolicyParticipant[] InsurancePolicyParticipants;
 	public InsurancePolicySurcharge[] InsurancePolicySurcharges;
 	public InsurancePolicyTransaction[] InsurancePolicyTransactions;
+	public InsPlcyLimit[] InsurancePolicyVersions;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

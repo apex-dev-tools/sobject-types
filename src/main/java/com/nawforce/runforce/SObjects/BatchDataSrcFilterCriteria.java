@@ -21,8 +21,10 @@ public class BatchDataSrcFilterCriteria extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DomainObjectName;
 	public String DynamicValueType;
 	public String FieldName;
+	public String FieldPath;
 	public String FieldValue;
 	public Integer FilterCriteriaSequence;
 	public Id Id;

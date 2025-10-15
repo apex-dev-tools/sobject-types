@@ -16,6 +16,7 @@ public class DataActionTargetShare extends SObject {
 	public static SObjectFields$<DataActionTargetShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

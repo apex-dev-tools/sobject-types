@@ -25,6 +25,8 @@ public class IndividualApplication extends SObject {
 	public String ApplicationType;
 	public Datetime AppliedDate;
 	public Datetime ApprovedDate;
+	public Id BudgetId;
+	public Budget Budget;
 	public Id BusinessTypeId;
 	public BusinessType BusinessType;
 	public String Category;
@@ -74,6 +76,7 @@ public class IndividualApplication extends SObject {
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApplicationReview[] ApplicationReviews;
 	public PublicApplicationParticipant[] Applications;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
@@ -84,6 +87,7 @@ public class IndividualApplication extends SObject {
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public Visit[] Contexts;
+	public DigitalSignature[] DigitalSignatures;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
@@ -109,6 +113,7 @@ public class IndividualApplication extends SObject {
 	public IndividualApplicationShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public IndividualApplication clone$() {throw new java.lang.UnsupportedOperationException();}
 	public IndividualApplication clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -21,6 +21,7 @@ public class ExpressionSetVersion extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Integer DecimalScale;
 	public String Description;
 	public Datetime EndDateTime;
 	public Id ExpressionSetDefinitionVerId;

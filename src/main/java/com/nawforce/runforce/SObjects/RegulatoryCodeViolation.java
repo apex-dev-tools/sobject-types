@@ -86,6 +86,7 @@ public class RegulatoryCodeViolation extends SObject {
 	public RegulatoryCodeViolationShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public RegulatoryCodeViolation clone$() {throw new java.lang.UnsupportedOperationException();}
 	public RegulatoryCodeViolation clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

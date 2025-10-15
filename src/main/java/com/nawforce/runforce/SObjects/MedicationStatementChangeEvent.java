@@ -18,6 +18,8 @@ public class MedicationStatementChangeEvent extends SObject {
 	public Datetime AssertionDateTime;
 	public Id CareObservationId;
 	public CareObservation CareObservation;
+	public Id CaseId;
+	public Case Case;
 	public Object ChangeEventHeader;
 	public Id ClinicalEncounterId;
 	public ClinicalEncounter ClinicalEncounter;

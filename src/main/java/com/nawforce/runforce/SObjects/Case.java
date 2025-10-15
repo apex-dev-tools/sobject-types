@@ -83,6 +83,7 @@ public class Case extends SObject {
 	public BusinessLicenseApplication[] BusinessLicenseApplicationCase;
 	public CareBarrier[] CareBarriers;
 	public CareDiagnosis[] CareDiagnoses;
+	public CareObservation[] CareObservationCases;
 	public CareRequestItem[] CareRequestItems;
 	public CareRequestReviewer[] CareRequestReviewers;
 	public CareRequest[] CareRequests;
@@ -100,12 +101,15 @@ public class Case extends SObject {
 	public Case[] Cases;
 	public ChangeRequestRelatedIssue[] ChangeRequestRelatedIssues;
 	public Claim[] Claims;
+	public ClinicalEncounter[] ClinicalEncounterCases;
 	public CombinedAttachment[] CombinedAttachments;
 	public ComplaintCase[] ComplaintCaseCase;
+	public ContactEncounterParticipant[] ContactEncounterParticipantCases;
 	public ContactRequest[] ContactRequests;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public Visit[] Contexts;
+	public DiagnosticSummary[] DiagnosticSummaryCases;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] EmailMessages;
@@ -119,10 +123,14 @@ public class Case extends SObject {
 	public AuthFormRequestRecord[] FormRequestRecordRelatedRecords;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthCondition[] Health_Condition_Case;
 	public CaseHistory[] Histories;
 	public IndividualApplication[] IndividualApplicationCase;
 	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
 	public ListEmail[] ListEmails;
+	public MedicationAdministration[] MA_Case;
+	public MedicationRequest[] MedReq_Case;
+	public MedicationStatement[] MedStatement_Case;
 	public MessagingSession[] MessagingSessions;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
@@ -146,6 +154,7 @@ public class Case extends SObject {
 	public ServiceAppointment[] ServiceAppointments;
 	public CaseShare[] Shares;
 	public SurveySubject[] SurveySubjectEntities;
+	public Specimen[] SpecimenCases;
 	public SwarmMember[] SwarmMembers;
 	public Swarm[] Swarms;
 	public TrackedCommunicationDetail[] TCDetail_Detail;

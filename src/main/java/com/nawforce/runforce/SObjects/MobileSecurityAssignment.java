@@ -15,6 +15,8 @@ public class MobileSecurityAssignment extends SObject {
 	public static SObjectType$<MobileSecurityAssignment> SObjectType;
 	public static SObjectFields$<MobileSecurityAssignment> Fields;
 
+	public Id ConnectedApplicationId;
+	public ExternalClientApplication ConnectedApplication;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

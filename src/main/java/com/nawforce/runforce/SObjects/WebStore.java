@@ -50,6 +50,8 @@ public class WebStore extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public PromotionSegmentSalesStore[] PromotionSegmentSalesStores;
+	public AsyncOperationTracker[] ReferenceEntityAsyncOperationTrackers;
+	public RevenueAsyncOperation[] ReferenceEntityRevenueAsyncOperations;
 	public WebStoreShare[] Shares;
 	public WebStoreBuyerGroup[] WebStoreBuyerGroups;
 	public WebStoreCatalog[] WebStoreCatalogs;

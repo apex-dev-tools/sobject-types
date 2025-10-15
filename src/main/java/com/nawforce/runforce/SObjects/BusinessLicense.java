@@ -19,8 +19,11 @@ public class BusinessLicense extends SObject {
 	public Account Account;
 	public Id BusinessTypeId;
 	public BusinessType BusinessType;
+	public String ComplianceScope;
 	public Id ContactId;
 	public Contact Contact;
+	public Id ContactPointAddressId;
+	public ContactPointAddress ContactPointAddress;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

@@ -16,6 +16,8 @@ public class ReportEvent extends SObject {
 	public static SObjectType$<ReportEvent> SObjectType;
 	public static SObjectFields$<ReportEvent> Fields;
 
+	public String ActionName;
+	public String BotSessionIdentifier;
 	public String ColumnHeaders;
 	public Datetime CreatedDate;
 	public Id DashboardId;

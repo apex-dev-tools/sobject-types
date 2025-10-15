@@ -33,6 +33,7 @@ public class ContactPointAddress extends SObject {
 	public Datetime CreatedDate;
 	public String GeocodeAccuracy;
 	public Id Id;
+	public Boolean IsActive;
 	public Boolean IsDefault;
 	public Boolean IsDeleted;
 	public Boolean IsPrimary;
@@ -51,6 +52,7 @@ public class ContactPointAddress extends SObject {
 	public Name Parent;
 	public String PostalCode;
 	public Integer PreferenceRank;
+	public String SourceSystemIdentifier;
 	public String State;
 	public String StateCode;
 	public String Street;
@@ -59,10 +61,12 @@ public class ContactPointAddress extends SObject {
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public BusinessLicense[] BL_ContactPointAddresses;
 	public CommSubscriptionConsent[] CommSubscriptionConsents;
 	public ContactPointConsent[] ContactPointConsents;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ContactPointAddressHistory[] Histories;
+	public Visit[] Places;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ContactPointAddressShare[] Shares;

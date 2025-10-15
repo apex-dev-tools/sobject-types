@@ -28,6 +28,7 @@ public class PurchaserPlanChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String LineOfBusiness;
 	public String Name;
 	public String Notes;
 	public Id OwnerId;
@@ -42,6 +43,7 @@ public class PurchaserPlanChangeEvent extends SObject {
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public Datetime SourceSystemModified;
+	public String SponsorType;
 
 	public PurchaserPlanChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PurchaserPlanChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

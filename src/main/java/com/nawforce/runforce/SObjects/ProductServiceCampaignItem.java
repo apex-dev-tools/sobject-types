@@ -65,6 +65,7 @@ public class ProductServiceCampaignItem extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ReturnOrderLineItem[] ReturnOrderLineItems;
+	public ServiceAppointment[] ServiceAppointments;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;

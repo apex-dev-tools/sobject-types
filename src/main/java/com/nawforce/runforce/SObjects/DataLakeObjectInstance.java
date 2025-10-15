@@ -25,6 +25,7 @@ public class DataLakeObjectInstance extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String DataLakeObjectNamespacePrefix;
 	public String DataLakeObjectRef;
 	public String DataLakeObjectStatus;
 	public String DeletionRecordsDataLakeObject;
@@ -44,6 +45,7 @@ public class DataLakeObjectInstance extends SObject {
 	public Datetime LastRefreshDate;
 	public String LastSyncedFingerprint;
 	public Datetime LastViewedDate;
+	public String MktDataLakeObjectDeveloperName;
 	public String Name;
 	public String ProblemRecordsDataLakeObject;
 	public String Storage;

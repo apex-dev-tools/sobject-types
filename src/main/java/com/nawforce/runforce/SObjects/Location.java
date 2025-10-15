@@ -134,6 +134,7 @@ public class Location extends SObject {
 	public ProductTransfer[] SourceProductTransfers;
 	public ReturnOrderLineItem[] SourceReturnOrderLineItems;
 	public ReturnOrder[] SourceReturnOrders;
+	public Specimen[] SpecimenSourceReferenceRecord;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public Visit[] VisitLocation;

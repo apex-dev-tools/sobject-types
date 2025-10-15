@@ -19,12 +19,16 @@ public class GroupCensusChangeEvent extends SObject {
 	public Id AccountId;
 	public Account Account;
 	public Object ChangeEventHeader;
+	public Id ContractId;
+	public Contract Contract;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Date EffectiveDate;
 	public Datetime EffectiveEndDate;
 	public Datetime EffectiveStartDate;
+	public Date ExpirationDate;
 	public String ExternalIdentifier;
 	public Integer FullTimeMemberCount;
 	public Id Id;

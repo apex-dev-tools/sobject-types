@@ -19,10 +19,13 @@ public class AssetStatePeriod extends SObject {
 	public Id AssetId;
 	public Asset Asset;
 	public String AssetStatePeriodNumber;
+	public String BillingFrequency;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Decimal Discount;
+	public Decimal DiscountAmount;
 	public String Division;
 	public Datetime EndDate;
 	public Id Id;
@@ -30,10 +33,14 @@ public class AssetStatePeriod extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id LegalEntityId;
+	public LegalEntity LegalEntity;
 	public Decimal Mrr;
 	public Decimal Quantity;
 	public Datetime StartDate;
 	public Datetime SystemModstamp;
+	public Decimal UnitPrice;
+	public Decimal UnitPriceUplift;
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;

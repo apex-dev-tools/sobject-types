@@ -29,7 +29,9 @@ public class ApprovalWorkItem extends SObject {
 	public Id FlowOrchestrationWorkItemId;
 	public FlowOrchestrationWorkItem FlowOrchestrationWorkItem;
 	public Id Id;
+	public Boolean IsAutoReviewed;
 	public Boolean IsDeleted;
+	public Boolean IsEligibleForSmartApproval;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -40,12 +42,16 @@ public class ApprovalWorkItem extends SObject {
 	public Id ReviewedById;
 	public User ReviewedBy;
 	public Datetime ReviewedDate;
+	public Id SmartApprovalBasisWorkItemId;
+	public ApprovalWorkItem SmartApprovalBasisWorkItem;
 	public String Status;
 	public Datetime SystemModstamp;
 
 	public ApprovalSubmissionDetail[] ApprovalSubmissionDetails;
 	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItemCriteria[] ApprovalWorkItemMultiCriteria;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public ApprovalWorkItem[] BasisApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

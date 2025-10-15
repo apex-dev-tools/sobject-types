@@ -16,6 +16,7 @@ public class DataActionJobSummaryShare extends SObject {
 	public static SObjectFields$<DataActionJobSummaryShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

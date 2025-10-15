@@ -29,6 +29,8 @@ public class LoyaltyTier extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Id LoyaltyProgramId;
+	public LoyaltyProgram LoyaltyProgram;
 	public Id LoyaltyTierGroupId;
 	public LoyaltyTierGroup LoyaltyTierGroup;
 	public Decimal MaximumEligibleBalance;
@@ -42,6 +44,8 @@ public class LoyaltyTier extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyTierHistory[] Histories;
 	public LoyaltyMemberTier[] LoyaltyTier;
+	public LoyaltyTierMshpFeeOption[] LoyaltyTierMshpOptions;
+	public LoyaltyTierPromotion[] LoyaltyTierPromotions;
 	public LoyaltyTierBenefit[] LoyaltyTiers;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

@@ -52,6 +52,7 @@ public class PublicApplicationParticipant extends SObject {
 	public NoteAndAttachment[] NotesAndAttachments;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public TopicAssignment[] TopicAssignments;
 
 	public PublicApplicationParticipant clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PublicApplicationParticipant clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -25,6 +25,7 @@ public class DataKitDeployEvent extends SObject {
 	public String ErrorDetails;
 	public Datetime EventCreationDate;
 	public Datetime EventPublishDate;
+	public String EventType;
 	public String EventUuid;
 	public String IsDataKitDeployStatusSuccess;
 	public String JobIdentifier;

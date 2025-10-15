@@ -46,6 +46,8 @@ public class WorkType extends SObject {
 	public OperatingHours OperatingHours;
 	public Id OwnerId;
 	public Name Owner;
+	public Id ProductId;
+	public Product2 Product;
 	public Integer RecommendedCrewSize;
 	public Id ServiceReportTemplateId;
 	public ServiceReportLayout ServiceReportTemplate;

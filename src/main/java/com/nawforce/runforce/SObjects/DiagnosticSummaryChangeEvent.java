@@ -22,6 +22,8 @@ public class DiagnosticSummaryChangeEvent extends SObject {
 	public SObject BasedOn;
 	public Id CareObservationId;
 	public CareObservation CareObservation;
+	public Id CaseId;
+	public Case Case;
 	public String Category;
 	public Object ChangeEventHeader;
 	public Id ClinicalEncounterId;

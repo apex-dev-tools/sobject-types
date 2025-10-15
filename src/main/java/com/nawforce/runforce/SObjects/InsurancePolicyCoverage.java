@@ -34,6 +34,10 @@ public class InsurancePolicyCoverage extends SObject {
 	public Decimal Discount;
 	public String Division;
 	public Datetime EffectiveDate;
+	public Date EffectiveFromDate;
+	public Date EffectiveToDate;
+	public Decimal EmployeeContribution;
+	public Decimal EmployerContribution;
 	public Datetime ExpirationDate;
 	public Id Id;
 	public String IncomeOptionType;
@@ -55,6 +59,8 @@ public class InsurancePolicyCoverage extends SObject {
 	public String LimitRange;
 	public String Name;
 	public Decimal PremiumAmount;
+	public Id ProductId;
+	public Product2 Product;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public Decimal StandardFeeAmount;
@@ -65,6 +71,7 @@ public class InsurancePolicyCoverage extends SObject {
 	public Decimal TermPremiumAmount;
 	public Decimal TermTaxAmount;
 	public Decimal TotalStandardAmount;
+	public Decimal TotalTermAmount;
 
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
@@ -90,8 +97,11 @@ public class InsurancePolicyCoverage extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public InsurancePolicyCoverageHistory[] Histories;
+	public InsPolicyCvrRelatedObj[] IPCROInsurancePolicyCoverage;
 	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
 	public InsPolicyTransactionDetail[] InsPolicyTransactionDetails;
+	public InsPolicyCoverageAttribute[] InsurancePolicyCoverageAttributes;
+	public InsurancePolicyProductClause[] InsurancePolicyCoverages;
 	public InsurancePolicySurcharge[] InsurancePolicySurcharges;
 	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
 	public Note[] Notes;

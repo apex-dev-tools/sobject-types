@@ -16,6 +16,7 @@ public class EmployeeDemographicSum extends SObject {
 	public static SObjectFields$<EmployeeDemographicSum> Fields;
 
 	public String AgeGroup;
+	public String Country;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -33,6 +34,7 @@ public class EmployeeDemographicSum extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public String Month;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;

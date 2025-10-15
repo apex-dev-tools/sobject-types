@@ -17,11 +17,14 @@ public class ApplicationFormChangeEvent extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public String ApplicationSummary;
 	public Object ChangeEventHeader;
+	public Date CompletionDate;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Date DueDate;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -34,8 +37,13 @@ public class ApplicationFormChangeEvent extends SObject {
 	public Id OwnerId;
 	public User Owner;
 	public String ReplayId;
+	public Decimal Score;
+	public String ScoreReason;
+	public String ScoreType;
 	public String Stage;
+	public String SubType;
 	public Date SubmissionDate;
+	public String Type;
 	public String UsageType;
 
 	public ApplicationFormChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}

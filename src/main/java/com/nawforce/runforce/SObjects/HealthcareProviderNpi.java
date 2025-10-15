@@ -17,6 +17,7 @@ public class HealthcareProviderNpi extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public String AccountNpiType;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

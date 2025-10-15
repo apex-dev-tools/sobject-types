@@ -30,6 +30,8 @@ public class ProductClassification extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id ParentProductClassificationId;
+	public ProductClassification ParentProductClassification;
 	public String Status;
 	public Datetime SystemModstamp;
 
@@ -39,6 +41,7 @@ public class ProductClassification extends SObject {
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public ProductClassification[] ChildProductClassifications;
 	public ProductRelatedComponent[] ClassParentProductRelatedComponents;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

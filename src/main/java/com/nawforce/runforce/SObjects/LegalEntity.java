@@ -47,6 +47,7 @@ public class LegalEntity extends SObject {
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public AssetStatePeriod[] AssetStatePeriods;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public AuthorizedInsuranceLine[] AuthorizedInsuranceLines;

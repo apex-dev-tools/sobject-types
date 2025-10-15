@@ -32,6 +32,7 @@ public class CartItemChangeEvent extends SObject {
 	public Decimal DistributedAdjustmentTaxAmount;
 	public Decimal GrossUnitPrice;
 	public Id Id;
+	public Boolean IsShippingChargeNotApplicable;
 	public Decimal ItemizedAdjustmentAmount;
 	public Decimal ItemizedAdjustmentTaxAmount;
 	public Id LastModifiedById;
@@ -54,6 +55,7 @@ public class CartItemChangeEvent extends SObject {
 	public Decimal SalesPrice;
 	public String Sku;
 	public String StockCheckMethod;
+	public String SubType;
 	public Decimal TotalAdjustmentAmount;
 	public Decimal TotalLineAmount;
 	public Decimal TotalLineTaxAmount;

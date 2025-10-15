@@ -101,6 +101,7 @@ public class FulfillmentOrder extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public FulfillmentOrderFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public FulfillmentLineRel[] FulfillmentLineRelationships;
 	public FulfillmentOrderItemAdjustment[] FulfillmentOrderItemAdjustments;
 	public FulfillmentOrderItemTax[] FulfillmentOrderItemTaxes;
 	public FulfillmentOrderLineItem[] FulfillmentOrderLineItems;

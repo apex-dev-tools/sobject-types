@@ -21,6 +21,7 @@ public class DataStreamHistory extends SObject {
 	public Id DataStreamId;
 	public DataStream DataStream;
 	public String DataType;
+	public String Division;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

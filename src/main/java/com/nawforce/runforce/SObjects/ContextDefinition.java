@@ -16,6 +16,7 @@ public class ContextDefinition extends SObject {
 	public static SObjectType$<ContextDefinition> SObjectType;
 	public static SObjectFields$<ContextDefinition> Fields;
 
+	public Boolean CanBeReferenceDefinition;
 	public String ClonedFrom;
 	public Integer ContextTtl;
 	public Id CreatedById;
@@ -24,10 +25,12 @@ public class ContextDefinition extends SObject {
 	public String Description;
 	public String DeveloperName;
 	public String DisplayName;
+	public Boolean HasSystemTags;
 	public Id Id;
 	public String InheritedFrom;
 	public String InheritedFromVersion;
 	public Boolean IsDeleted;
+	public Boolean IsExtensionV2Used;
 	public String Language;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -38,6 +41,7 @@ public class ContextDefinition extends SObject {
 	public String Title;
 
 	public ExpressionSetDefinitionContextDefinition[] ContextDefinition;
+	public ContextDefinitionReference[] ContextDefinitionReferences;
 	public ContextDefinitionVersion[] ContextDefinitionVersions;
 
 	public ContextDefinition clone$() {throw new java.lang.UnsupportedOperationException();}

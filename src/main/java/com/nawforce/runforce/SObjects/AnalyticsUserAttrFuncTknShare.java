@@ -16,6 +16,7 @@ public class AnalyticsUserAttrFuncTknShare extends SObject {
 	public static SObjectFields$<AnalyticsUserAttrFuncTknShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

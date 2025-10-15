@@ -29,6 +29,7 @@ public class ProcedurePlanDefinition extends SObject {
 	public String MasterLabel;
 	public String NamespacePrefix;
 	public String PrimaryObject;
+	public String ProcessType;
 	public Datetime SystemModstamp;
 
 	public ProcedurePlanDefinitionVersion[] ProcedurePlanVersionCanonicalMappings;

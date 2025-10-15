@@ -16,6 +16,7 @@ public class DataLineageNodeDefSyncLogShare extends SObject {
 	public static SObjectFields$<DataLineageNodeDefSyncLogShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

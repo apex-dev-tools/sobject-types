@@ -20,6 +20,7 @@ public class ExtDataShare extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String DataShareConsentFormStatus;
 	public String DataShareStatus;
 	public String DataShareType;
 	public Id DataSpaceId;

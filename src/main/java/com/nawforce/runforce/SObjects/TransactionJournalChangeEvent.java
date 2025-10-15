@@ -15,6 +15,8 @@ public class TransactionJournalChangeEvent extends SObject {
 	public static SObjectType$<TransactionJournalChangeEvent> SObjectType;
 	public static SObjectFields$<TransactionJournalChangeEvent> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public String AccountingModelConfigName;
 	public Datetime ActivityDate;
 	public String BookedFareClass;
@@ -82,6 +84,8 @@ public class TransactionJournalChangeEvent extends SObject {
 	public Id QuantityUnitOfMeasureId;
 	public UnitOfMeasure QuantityUnitOfMeasure;
 	public String RedeemedPointsExpirationInformation;
+	public Id ReferenceRecordId;
+	public Asset ReferenceRecord;
 	public Id ReferredMemberId;
 	public LoyaltyProgramMember ReferredMember;
 	public Id RelatedCorporateMembershipId;
@@ -95,6 +99,11 @@ public class TransactionJournalChangeEvent extends SObject {
 	public Decimal TransactionAmount;
 	public String TransactionLocation;
 	public String TraveledFareClass;
+	public String UniqueIdentifier;
+	public Id UsageResourceId;
+	public UsageResource UsageResource;
+	public Id UsageSummaryId;
+	public UsageSummary UsageSummary;
 	public String UsageType;
 	public String VoucherCode;
 

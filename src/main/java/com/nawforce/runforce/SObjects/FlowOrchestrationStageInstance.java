@@ -29,6 +29,7 @@ public class FlowOrchestrationStageInstance extends SObject {
 	public String Name;
 	public Id OrchestrationInstanceId;
 	public FlowOrchestrationInstance OrchestrationInstance;
+	public String OrchestrationName;
 	public Id OwnerId;
 	public Name Owner;
 	public Integer Position;

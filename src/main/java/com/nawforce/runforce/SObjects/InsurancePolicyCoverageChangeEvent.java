@@ -35,6 +35,10 @@ public class InsurancePolicyCoverageChangeEvent extends SObject {
 	public Decimal Discount;
 	public String Division;
 	public Datetime EffectiveDate;
+	public Date EffectiveFromDate;
+	public Date EffectiveToDate;
+	public Decimal EmployeeContribution;
+	public Decimal EmployerContribution;
 	public Datetime ExpirationDate;
 	public Id Id;
 	public String IncomeOptionType;
@@ -53,6 +57,8 @@ public class InsurancePolicyCoverageChangeEvent extends SObject {
 	public String LimitRange;
 	public String Name;
 	public Decimal PremiumAmount;
+	public Id ProductId;
+	public Product2 Product;
 	public String ReplayId;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
@@ -63,6 +69,7 @@ public class InsurancePolicyCoverageChangeEvent extends SObject {
 	public Decimal TermPremiumAmount;
 	public Decimal TermTaxAmount;
 	public Decimal TotalStandardAmount;
+	public Decimal TotalTermAmount;
 
 	public InsurancePolicyCoverageChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public InsurancePolicyCoverageChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

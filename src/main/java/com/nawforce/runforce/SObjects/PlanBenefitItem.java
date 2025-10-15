@@ -25,6 +25,8 @@ public class PlanBenefitItem extends SObject {
 	public Decimal InNetworkCoverage;
 	public Boolean IsDeleted;
 	public Boolean IsInPlanNetwork;
+	public Id ItemCodeId;
+	public Name ItemCode;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -35,8 +37,12 @@ public class PlanBenefitItem extends SObject {
 	public Decimal OutofNetworkCoverage;
 	public Id OwnerId;
 	public Name Owner;
+	public Datetime PauthRequirementEndDate;
+	public Datetime PauthRequirementStartDate;
 	public Id PlanBenefitId;
 	public PlanBenefit PlanBenefit;
+	public Id PreauthorizationTypeCodeId;
+	public CodeSet PreauthorizationTypeCode;
 	public String ServiceType;
 	public String ServiceTypeCode;
 	public String SourceSystem;

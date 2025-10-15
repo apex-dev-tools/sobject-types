@@ -63,6 +63,7 @@ public class Incident extends SObject {
 	public String Type;
 	public String Urgency;
 
+	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApprovalSubmission[] ApprovalSubmissions;

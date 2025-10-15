@@ -70,6 +70,7 @@ public class ApplicationFormProduct extends SObject {
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RecordAlert[] RecordAlertWhat;
 	public ApplicationFormProductShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

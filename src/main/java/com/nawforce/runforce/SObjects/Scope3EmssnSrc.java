@@ -84,6 +84,7 @@ public class Scope3EmssnSrc extends SObject {
 	public RentalCarEnrgyUse[] RentalCarEnergyUses;
 	public Scope3CrbnFtprnt[] Scope3CarbonFootprints;
 	public Scope3EmssnSrcShare[] Shares;
+	public YearlyUsageTrkgDataGap[] SourceObjectRelation;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public WasteFootprint[] WasteFootprints;

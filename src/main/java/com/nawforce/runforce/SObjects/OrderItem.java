@@ -68,6 +68,9 @@ public class OrderItem extends SObject {
 	public InvoiceLine[] InvoiceLines;
 	public NetworkActivityAudit[] ParentEntities;
 	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
+	public TransactionUsageEntitlement[] OI_TransactionUsageEntitlements;
+	public OrderItemUsageRsrcGrant[] OrderItemUsageRsrcGrants;
+	public OrderItemUsageRsrcPlcy[] OrderItemUsageRsrcPlcies;
 	public TransactionJournal[] OrderItems;
 	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public ProcessException[] ProcessExceptions;

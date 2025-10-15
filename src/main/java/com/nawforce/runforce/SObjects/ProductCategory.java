@@ -47,12 +47,14 @@ public class ProductCategory extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContractGroupPlan[] ContractGroupPlans;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ProductCategoryFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public GroupClassContribution[] GroupClassContributions;
 	public ProductCategoryHistory[] Histories;
 	public ContractItemPrice[] Items;
 	public LoyaltyPartnerProduct[] LoyaltyPartnerProductCategory;

@@ -32,14 +32,22 @@ public class DataSpace extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public AbnExperiment[] AbnExperiments;
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public AttribModel[] AttribModels;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EngagementSignal[] EngagementSignals;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public DataSpaceFeed[] Feeds;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public DataSpaceHistory[] Histories;
+	public PersnlBatchDecision[] PersnlBatchDecisions;
+	public PersonalizationObjective[] PersonalizationObjectives;
+	public PersonalizationPoint[] PersonalizationPoints;
+	public PersonalizationRecommender[] PersonalizationRecommenders;
+	public PersonalizationSchema[] PersonalizationSchemas;
 
 	public DataSpace clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DataSpace clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

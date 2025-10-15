@@ -62,6 +62,7 @@ public class BusRegAuthTypeDependency extends SObject {
 	public BusRegAuthTypeDependencyShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public BusRegAuthTypeDependency clone$() {throw new java.lang.UnsupportedOperationException();}
 	public BusRegAuthTypeDependency clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

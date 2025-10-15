@@ -152,7 +152,9 @@ public class User extends SObject {
 	public Boolean UserPreferencesDisableSharePostEmail;
 	public Boolean UserPreferencesDisableWorkEmail;
 	public Boolean UserPreferencesDismissPersonalSpaceLegalMessage;
+	public Boolean UserPreferencesDismissRecordChannelsSuggestedObjects;
 	public Boolean UserPreferencesEnableAutoSubForFeeds;
+	public Boolean UserPreferencesEnableLwrLexPilot;
 	public Boolean UserPreferencesEventRemindersCheckboxDefault;
 	public Boolean UserPreferencesExcludeMailAppAttachments;
 	public Boolean UserPreferencesFavoritesShowTopFavorites;
@@ -230,6 +232,7 @@ public class User extends SObject {
 	public AccountCleanInfo[] AccountCleanInfoReviewers;
 	public AccountUserTerritory2View[] AccountUserTerritory2Views;
 	public AdvAcctForecastFactAdj[] AdvAcctForecastFactAdjustments;
+	public ApplicationReview[] ApplicationReviews;
 	public ApprovalSubmissionDetail[] ApprovalSubmissionDetails;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
@@ -259,6 +262,7 @@ public class User extends SObject {
 	public VideoCall[] ConsentedUser;
 	public ContactCleanInfo[] ContactCleanInfoReviewers;
 	public ContactRequest[] ContactRequests;
+	public SustainabilityStakeholder[] ContactorUser;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public Contract[] ContractsSigned;
 	public ConversationEntry[] ConversationEntries;
@@ -288,6 +292,7 @@ public class User extends SObject {
 	public CollaborationGroupMember[] GroupMemberships;
 	public HealthcarePractitionerFacility[] HealthcarePractitionerFacilities;
 	public HealthcareProvider[] HealthcareProvidersUser;
+	public UserHistory[] Histories;
 	public VideoCall[] Host;
 	public InfoAuthorizationRequest[] InfoAuthRequestConsenters;
 	public InfoAuthorizationRequest[] InfoAuthRequestPertainsTo;

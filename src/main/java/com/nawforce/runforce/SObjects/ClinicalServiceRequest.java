@@ -84,6 +84,7 @@ public class ClinicalServiceRequest extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 
+	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApprovalSubmission[] ApprovalSubmissions;

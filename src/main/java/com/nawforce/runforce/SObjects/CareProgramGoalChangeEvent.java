@@ -40,6 +40,7 @@ public class CareProgramGoalChangeEvent extends SObject {
 	public String SourceSystemIdentifier;
 	public Date StartDate;
 	public String Status;
+	public String Type;
 
 	public CareProgramGoalChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CareProgramGoalChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -42,8 +42,8 @@ public class Asset extends SObject {
 	public Decimal CurrentQuantity;
 	public String Description;
 	public String DigitalAssetStatus;
-	public String ExternalIdentifier;
 	public String Division;
+	public String ExternalIdentifier;
 	public String GeocodeAccuracy;
 	public Boolean HasLifecycleManagement;
 	public Id Id;
@@ -98,6 +98,7 @@ public class Asset extends SObject {
 	public Date UsageEndDate;
 	public String Uuid;
 
+	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AppUsageAssignment[] AppUsageAssignments;
@@ -110,10 +111,15 @@ public class Asset extends SObject {
 	public AssetDowntimePeriod[] AssetDowntimePeriods;
 	public ProcessException[] AssetProcessExceptions;
 	public AssetStatePeriod[] AssetStatePeriods;
+	public UsageRatableSummary[] Asset_RatableSummaries;
+	public TransactionUsageEntitlement[] Asset_TransactionUsageEntitlements;
+	public UsageBillingPeriodItem[] Asset_UsageBillingPeriodItems;
+	public UsageSummary[] Asset_UsageSummaries;
 	public CustomerProperty[] Assets;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public AuthApplicationAsset[] AuthRegApplicationAsset;
+	public BindingObjUsageRsrcPlcy[] BindingObjUsageRsrcPlcies;
 	public CareObservation[] CareObservations;
 	public CareRegisteredDevice[] Care_Registered_Devices;
 	public Case[] Cases;
@@ -124,6 +130,7 @@ public class Asset extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public Visit[] Contexts;
 	public ContractLineItem[] ContractLineItems;
 	public DataUsePurpose[] DataUsePurposes;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
@@ -136,11 +143,17 @@ public class Asset extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AssetFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public UsageBillingPeriodItem[] GBR_UsageBillingPeriodItems;
+	public UsageRatableSummary[] GBT_RatableSummaries;
+	public TransactionUsageEntitlement[] GBT_TransactionUsageEntitlements;
+	public UsageSummary[] GBT_UsageSummaries;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public UsageEntitlementAccount[] GrantBindingTarget_UsageEntitlementAccounts;
 	public AssetHistory[] Histories;
 	public Identifier[] Identifiers;
 	public IncidentRelatedItem[] IncidentRelatedItems;
+	public TransactionJournal[] JournalReferenceRecord;
 	public MaintenanceAsset[] MaintenanceAssets;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public Note[] Notes;
@@ -171,6 +184,8 @@ public class Asset extends SObject {
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
+	public UsageCmtAssetRelatedObj[] UsageCommitmentAssets;
+	public UsageRatableSumCmtAssetRt[] UsageRatableSumCmtAssetRates;
 	public AssetWarranty[] WarrantyAssets;
 	public WorkOrderLineItem[] WorkOrderLineItems;
 	public WorkOrder[] WorkOrders;

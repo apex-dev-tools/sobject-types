@@ -39,6 +39,8 @@ public class AssessmentTask extends SObject {
 	public Name Owner;
 	public Id ParentId;
 	public Visit Parent;
+	public Id ReferenceRecordId;
+	public ActionPlan ReferenceRecord;
 	public Integer SequenceNumber;
 	public Datetime StartTime;
 	public String Status;
@@ -75,6 +77,7 @@ public class AssessmentTask extends SObject {
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RecordAlert[] RecordAlertWhat;
 	public AssessmentTaskShare[] Shares;
 	public SignatureTask[] SignatureTaskAssessmentTasks;
 	public SignatureTaskLineItem[] SignatureTaskLineItemParentValue;

@@ -31,6 +31,8 @@ public class InsuranceAsyncBulkRequestItem extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public Id ReferenceRecordId;
+	public Name ReferenceRecord;
 	public Integer SequenceNumber;
 	public String Status;
 	public Datetime SystemModstamp;
@@ -39,6 +41,7 @@ public class InsuranceAsyncBulkRequestItem extends SObject {
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public InsuranceAsyncBulkRequestItemHistory[] Histories;
+	public InsuranceAsyncBulkRecordDetail[] InsuranceAsyncBulkRecordDetails;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

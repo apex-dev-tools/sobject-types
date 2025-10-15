@@ -63,6 +63,7 @@ public class VoiceCall extends SObject {
 
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
+	public ContactRequest[] ContactRequests;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ConversationEntry[] ConversationEntries;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;

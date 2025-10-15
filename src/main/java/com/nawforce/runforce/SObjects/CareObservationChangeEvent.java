@@ -26,6 +26,8 @@ public class CareObservationChangeEvent extends SObject {
 	public String BaselineValueText;
 	public Id BodySiteId;
 	public CodeSetBundle BodySite;
+	public Id CaseId;
+	public Case Case;
 	public String Category;
 	public Object ChangeEventHeader;
 	public Id CodeId;

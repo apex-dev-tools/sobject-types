@@ -19,10 +19,12 @@ public class WebStoreInventorySource extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public Boolean DoesAllowGuestInventoryLevel;
 	public Id Id;
 	public Integer InventoryCacheTtl;
 	public String InventoryDimension;
 	public Boolean IsBopisEnabled;
+	public Boolean IsChkInvOnActiveCartEnabled;
 	public Boolean IsDefault;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

@@ -17,6 +17,7 @@ public class HealthcareProviderNpiChangeEvent extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public String AccountNpiType;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;

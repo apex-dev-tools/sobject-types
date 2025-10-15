@@ -26,6 +26,8 @@ public class PromotionMarketSegment extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Id MarketSegmentId;
+	public MarketSegment MarketSegment;
 	public String Name;
 	public Id PromotionId;
 	public Promotion Promotion;

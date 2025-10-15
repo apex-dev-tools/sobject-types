@@ -16,6 +16,7 @@ public class EmpBenefitSummary extends SObject {
 	public static SObjectFields$<EmpBenefitSummary> Fields;
 
 	public String BenefitUsage;
+	public String Country;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -27,6 +28,7 @@ public class EmpBenefitSummary extends SObject {
 	public Decimal EmployeeCount;
 	public Decimal EmployeePercentage;
 	public String EmploymentType;
+	public String Gender;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsEmployeeEligible;

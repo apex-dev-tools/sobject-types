@@ -17,10 +17,13 @@ public class ApplicationForm extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public String ApplicationSummary;
+	public Date CompletionDate;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Date DueDate;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -35,9 +38,14 @@ public class ApplicationForm extends SObject {
 	public Opportunity Opportunity;
 	public Id OwnerId;
 	public Name Owner;
+	public Decimal Score;
+	public String ScoreReason;
+	public String ScoreType;
 	public String Stage;
+	public String SubType;
 	public Date SubmissionDate;
 	public Datetime SystemModstamp;
+	public String Type;
 	public String UsageType;
 
 	public ActionPlan[] ActionPlans;
@@ -49,6 +57,7 @@ public class ApplicationForm extends SObject {
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public AuthApplicationAsset[] AuthRegApplication;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -72,6 +81,11 @@ public class ApplicationForm extends SObject {
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RecordAlert[] RecordAlertParent;
+	public RecordAlert[] RecordAlertWhat;
+	public AuthApplicationPlace[] RegAuthApplication;
+	public RegulatoryCodeViolation[] RegCodeResponseContext;
+	public RegulatoryTrxnFee[] RegulatoryTrxnFees;
 	public ApplicationFormShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

@@ -59,6 +59,7 @@ public class InspectionType extends SObject {
 	public InspectionTypeShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 	public Visit[] VisitTypes;
 
 	public InspectionType clone$() {throw new java.lang.UnsupportedOperationException();}

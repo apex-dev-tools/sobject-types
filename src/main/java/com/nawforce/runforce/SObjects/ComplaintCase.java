@@ -62,6 +62,7 @@ public class ComplaintCase extends SObject {
 	public ComplaintCaseShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public ComplaintCase clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ComplaintCase clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

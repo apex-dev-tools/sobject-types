@@ -29,18 +29,22 @@ public class HealthcareProvider extends SObject {
 	public Boolean HasCarrierContract;
 	public Id Id;
 	public Date InitialStartDate;
+	public Boolean IsActive;
 	public Boolean IsDeleted;
 	public Boolean IsNotSearchable;
+	public Boolean IsPrivacyLawEnabled;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public String OperatingCountryCode;
 	public Id OwnerId;
 	public Name Owner;
 	public Id PractitionerId;
 	public Contact Practitioner;
+	public String ProfessionalTitle;
 	public String ProviderClass;
 	public Id ProviderPhotoId;
 	public ContentDocument ProviderPhoto;
@@ -51,6 +55,7 @@ public class HealthcareProvider extends SObject {
 	public User RelatedUser;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
+	public Date SourceSystemModifiedDate;
 	public String Status;
 	public Datetime SystemModstamp;
 	public Date TerminationDate;
@@ -75,6 +80,7 @@ public class HealthcareProvider extends SObject {
 	public ClinicalEncounterProvider[] CEP_Practitioners;
 	public CareObservation[] CareObservers;
 	public CarePerformer[] CarePerfPersonEntities;
+	public CareProgramTeamMember[] CareProgramTeamMembers;
 	public CareProviderAdverseAction[] CareProviderAdverseActions;
 	public CareRequestDrug[] CareRequestDrugs;
 	public CareRequestReviewer[] CareRequestReviewers;
@@ -103,8 +109,10 @@ public class HealthcareProvider extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthRiskEvaluation[] HRE_Evaluator;
 	public HealthCondition[] HealthCondAsserterRecorderEntities;
 	public HealthCondition[] HealthCondAssertionSrc;
+	public HealthcareFacility[] HealthcareFacilityProviders;
 	public HealthcarePractitionerFacility[] HealthcarePractitionerFacilities;
 	public HealthcareProviderService[] HealthcareProviderGroup;
 	public HealthcareProviderTaxonomy[] HealthcareProviderTaxonomies_HealthcareProvider;
@@ -114,6 +122,7 @@ public class HealthcareProvider extends SObject {
 	public HlthCareProvTreatedCondition[] HlthCareProvTreatedCondition_HealthcareProviders;
 	public InsurancePolicy[] IPInsurancePolicy;
 	public Identifier[] Identifiers;
+	public MedicationAdministrationDtl[] MedAdminDtl_DetailRecord;
 	public MedicationRequest[] MedReqSecondarySourceEntities;
 	public MedicationRequest[] MedRequestsPerformer;
 	public MedicationRequest[] MedRequestsRequester;
@@ -136,9 +145,11 @@ public class HealthcareProvider extends SObject {
 	public CareRequestExtension[] ServicingProviderCareRequestExtensions;
 	public CareRequestItem[] ServicingProviderCareRequestItems;
 	public HealthcareProviderShare[] Shares;
+	public Specimen[] SpecimenCollector;
 	public TrackedCommunicationDetail[] TCDetail_Detail;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public HealthcareProvider clone$() {throw new java.lang.UnsupportedOperationException();}
 	public HealthcareProvider clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

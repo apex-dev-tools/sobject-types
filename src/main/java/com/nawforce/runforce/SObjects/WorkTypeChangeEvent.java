@@ -44,6 +44,8 @@ public class WorkTypeChangeEvent extends SObject {
 	public OperatingHours OperatingHours;
 	public Id OwnerId;
 	public User Owner;
+	public Id ProductId;
+	public Product2 Product;
 	public Integer RecommendedCrewSize;
 	public String ReplayId;
 	public Id ServiceReportTemplateId;

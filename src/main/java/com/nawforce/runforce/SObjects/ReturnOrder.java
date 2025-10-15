@@ -47,6 +47,7 @@ public class ReturnOrder extends SObject {
 	public ProductRequest ProductRequest;
 	public Id ProductServiceCampaignId;
 	public ProductServiceCampaign ProductServiceCampaign;
+	public String RefundInstructionsHint;
 	public String ReturnOrderNumber;
 	public Id ReturnedById;
 	public User ReturnedBy;
@@ -112,6 +113,7 @@ public class ReturnOrder extends SObject {
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
+	public PaymentCredit[] PaymentCredits;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

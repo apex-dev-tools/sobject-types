@@ -45,8 +45,11 @@ public class LoyaltyProgramCurrency extends SObject {
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public LoyaltyAggrPointExprLedger[] CurrencyAggrExprLedger;
 	public LoyaltyPgmPartnerCurrency[] CurrencyRelationship;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public LoyaltyLedgerTraceability[] LedgerTraceabilityCurrency;
+	public LoyaltyTierMshpFeeOption[] LoyaltyProgramCurrency;
 	public LoyaltyLedger[] LoyaltyProgramCurrencyLedger;
 	public LoyaltyMemberCurrency[] Loyalty_Member_Currency;
 	public ProcessInstance[] ProcessInstances;

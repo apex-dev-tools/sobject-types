@@ -24,6 +24,8 @@ public class MarketSegmentStatusEvent extends SObject {
 	public Datetime CreatedDate;
 	public Datetime EventCreationDate;
 	public String EventUuid;
+	public Boolean IsActive;
+	public Boolean IsSyncRequired;
 	public Datetime LastPublishedEndDateTime;
 	public Datetime LastSeedModelStatusDateTime;
 	public String LastSeedModelStatusErrorCode;
@@ -48,6 +50,7 @@ public class MarketSegmentStatusEvent extends SObject {
 	public String SegmentJobStatus;
 	public String SegmentJobType;
 	public String SegmentMembershipTable;
+	public String SyncField;
 	public String WaterfallSegmentStats;
 
 	public MarketSegmentStatusEvent clone$() {throw new java.lang.UnsupportedOperationException();}

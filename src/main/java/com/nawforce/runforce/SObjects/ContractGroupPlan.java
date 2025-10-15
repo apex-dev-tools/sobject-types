@@ -48,6 +48,10 @@ public class ContractGroupPlan extends SObject {
 	public ContractGroupPlan OriginalContractPlan;
 	public String PlanType;
 	public String PricingStructure;
+	public Id Product2Id;
+	public Product2 Product2;
+	public Id ProductCategoryId;
+	public ProductCategory ProductCategory;
 	public Integer ProductNumber;
 	public String Status;
 	public Datetime SystemModstamp;
@@ -64,6 +68,7 @@ public class ContractGroupPlan extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ContractGroupPlanAttribute[] ContractGroupPlanAttributes;
 	public ContractGroupPlanGroupClass[] ContractGroupPlanGroupClasses;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
@@ -77,6 +82,7 @@ public class ContractGroupPlan extends SObject {
 	public GroupCensusMemberPlan[] GroupCensusMemberPlans;
 	public GroupClassContribution[] GroupClassContributions;
 	public ContractGroupPlanHistory[] Histories;
+	public InsuranceAsyncBulkRequestItem[] InsuranceAsyncBulkRequestItems;
 	public InsurancePolicy[] InsurancePolicies;
 	public InsurancePolicyCoverage[] InsurancePolicyCoverages;
 	public Note[] Notes;

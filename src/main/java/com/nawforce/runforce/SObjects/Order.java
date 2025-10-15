@@ -142,6 +142,7 @@ public class Order extends SObject {
 	public AsyncOperationTracker[] ReferenceEntityAsyncOperationTrackers;
 	public RevenueAsyncOperation[] ReferenceEntityRevenueAsyncOperations;
 	public ReturnOrder[] ReturnOrders;
+	public ServiceAppointment[] ServiceAppointments;
 	public OrderShare[] Shares;
 	public SurveySubject[] SurveySubjectEntities;
 	public TaskRelation[] TaskRelations;

@@ -19,6 +19,8 @@ public class HealthCondition extends SObject {
 	public Datetime AbatementStartDateTime;
 	public Id AssertionSourceId;
 	public Name AssertionSource;
+	public Id CaseId;
+	public Case Case;
 	public Id ClinicalEncounterId;
 	public ClinicalEncounter ClinicalEncounter;
 	public Id ConditionCodeId;
@@ -29,6 +31,7 @@ public class HealthCondition extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String DiagnosticStatus;
+	public String DiagnosticStatusCategory;
 	public String Division;
 	public String ExtlProblemDefIdentifier;
 	public Id Id;
@@ -52,6 +55,10 @@ public class HealthCondition extends SObject {
 	public Datetime RecordCreationDateTime;
 	public Id RecordCreatorId;
 	public Name RecordCreator;
+	public Id RelatedHealthConditionId;
+	public HealthCondition RelatedHealthCondition;
+	public String RelatedHealthConditionType;
+	public Datetime ReportDate;
 	public String Severity;
 	public Id SiteId;
 	public CodeSetBundle Site;
@@ -88,9 +95,13 @@ public class HealthCondition extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthRiskEvalDetail[] HRED_DetailRecord;
+	public HealthRiskEvaluation[] HRE_PrimaryHealthCondition;
 	public HealthConditionDetail[] HealthConditionDetails;
+	public HealthCondition[] Health_Condition_RelatedHealthCondition;
 	public HealthConditionHistory[] Histories;
 	public Identifier[] Identifiers;
+	public MedicationAdministrationDtl[] MedAdminDtl_DetailRecord;
 	public MedicationRequest[] MedReq_ReasonReference;
 	public MedicationStatement[] MedStatement_MedicationReason;
 	public MedicationStatementDetail[] MedicationStatementDetailRecords;

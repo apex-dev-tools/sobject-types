@@ -51,6 +51,7 @@ public class ActionPlan extends SObject {
 	public ActionPlanItem[] ActionPlanItems;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public AssessmentTask[] AssessmentTaskReferenceRecord;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -61,6 +62,7 @@ public class ActionPlan extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RecordAlert[] RecordAlertWhat;
 	public RecurrenceSchedule[] ReferenceRecord;
 	public ActionPlanShare[] Shares;
 

@@ -26,6 +26,8 @@ public class CareObservation extends SObject {
 	public String BaselineValueText;
 	public Id BodySiteId;
 	public CodeSetBundle BodySite;
+	public Id CaseId;
+	public Case Case;
 	public String Category;
 	public Id CodeId;
 	public CodeSet Code;
@@ -121,8 +123,10 @@ public class CareObservation extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthRiskEvalDetail[] HRED_DetailRecord;
 	public CareObservationHistory[] Histories;
 	public Identifier[] Identifiers;
+	public MedicationAdministrationDtl[] MedAdminDtl_DetailRecord;
 	public MedicationRequest[] MedReq_ReasonReference;
 	public MedicationStatement[] MedStatement_MedicationReason;
 	public MedicationStatementDetail[] MedicationStatementDetailRecords;

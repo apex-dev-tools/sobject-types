@@ -16,6 +16,7 @@ public class ContentBody extends SObject {
 	public static SObjectFields$<ContentBody> Fields;
 
 	public Id Id;
+	public Boolean IsDeleted;
 
 	public ContentBody clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContentBody clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

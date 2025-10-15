@@ -34,6 +34,8 @@ public class RecordAggregationDefinition extends SObject {
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
 	public String NamespacePrefix;
+	public Id OnDemandProcDefinitionId;
+	public BatchCalcJobDefinition OnDemandProcDefinition;
 	public String Status;
 	public Datetime SystemModstamp;
 

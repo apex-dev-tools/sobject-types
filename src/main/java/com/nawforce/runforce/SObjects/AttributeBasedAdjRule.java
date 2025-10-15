@@ -31,6 +31,7 @@ public class AttributeBasedAdjRule extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public Datetime SystemModstamp;
+	public String UsageType;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
@@ -58,6 +59,7 @@ public class AttributeBasedAdjRule extends SObject {
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RateAdjustmentByAttribute[] RateAdjustmentByAttributes;
 	public AttributeBasedAdjRuleShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

@@ -16,6 +16,7 @@ public class DataQueryWorkspaceShare extends SObject {
 	public static SObjectFields$<DataQueryWorkspaceShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

@@ -23,6 +23,7 @@ public class MarketSegmentActivation extends SObject {
 	public String ActivationObjectFilter;
 	public String ActivationObjectName;
 	public String ActivationObjectPath;
+	public String ActivationProcessingType;
 	public String ActivationRecordSchema;
 	public String ActivationRefreshType;
 	public String ActivationStatus;
@@ -65,6 +66,7 @@ public class MarketSegmentActivation extends SObject {
 	public String Name;
 	public String OwnedByOrg;
 	public Long RecordCount;
+	public String SourceDmoApiName;
 	public Datetime StartDate;
 	public String StaticAttributes;
 	public Datetime SystemModstamp;

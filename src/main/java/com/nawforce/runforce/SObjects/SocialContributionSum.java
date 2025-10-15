@@ -40,6 +40,7 @@ public class SocialContributionSum extends SObject {
 	public String RecipientName;
 	public Id SubsidiaryAccountId;
 	public Account SubsidiaryAccount;
+	public String Subtype;
 	public Datetime SystemModstamp;
 	public Decimal TotalAmount;
 	public String Type;

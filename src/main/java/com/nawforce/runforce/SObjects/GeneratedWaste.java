@@ -16,6 +16,7 @@ public class GeneratedWaste extends SObject {
 	public static SObjectFields$<GeneratedWaste> Fields;
 
 	public String CalculationDetail;
+	public String CrbnEmssnScopeAlloc;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -23,6 +24,8 @@ public class GeneratedWaste extends SObject {
 	public String Description;
 	public String DisposalSiteType;
 	public String DisposalType;
+	public Id DisposedWasteQtyUnitRefId;
+	public SustainabilityUom DisposedWasteQtyUnitRef;
 	public Decimal DisposedWasteQuantity;
 	public String DisposedWasteQuantityUnit;
 	public Decimal DisposedWasteQuantityinTonnes;
@@ -30,6 +33,7 @@ public class GeneratedWaste extends SObject {
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsHazardous;
+	public Boolean IsRadioactive;
 	public Boolean IsRecordLocked;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

@@ -16,6 +16,7 @@ public class DataHarmonizedModelObjRefShare extends SObject {
 	public static SObjectFields$<DataHarmonizedModelObjRefShare> Fields;
 
 	public String AccessLevel;
+	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

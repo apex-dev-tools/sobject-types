@@ -19,6 +19,7 @@ public class ExtDataShareTargetHistory extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DataType;
+	public String Division;
 	public Id ExtDataShareTargetId;
 	public ExtDataShareTarget ExtDataShareTarget;
 	public String Field;

@@ -19,6 +19,9 @@ public class BusinessProfileChangeEvent extends SObject {
 	public Id AccountId;
 	public Account Account;
 	public String BusinessOperatingName;
+	public String BusinessPartnerCode;
+	public String BusinessPartnerRegisteredName;
+	public String BusinessPartnerType;
 	public String BusinessStructure;
 	public String BusinessTaxIdentifier;
 	public Object ChangeEventHeader;
@@ -29,6 +32,7 @@ public class BusinessProfileChangeEvent extends SObject {
 	public Integer CreditTypesUsed;
 	public String CurrencyIsoCode;
 	public String Division;
+	public String ExternalReferenceNumber;
 	public Boolean HasDishonoredPolicies;
 	public Boolean HasSufferedBankruptcy;
 	public Boolean HasUncorrectedSafetyViolations;
@@ -37,7 +41,11 @@ public class BusinessProfileChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public String RegionName;
 	public String ReplayId;
+	public Id ServiceTerritoryId;
+	public ServiceTerritory ServiceTerritory;
+	public String ServiceType;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public Integer WorkersCompClaims;

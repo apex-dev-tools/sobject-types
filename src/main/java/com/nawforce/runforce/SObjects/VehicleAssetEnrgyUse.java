@@ -24,6 +24,7 @@ public class VehicleAssetEnrgyUse extends SObject {
 	public Decimal Ch4EmissionsInKg;
 	public Decimal Co2EmissionsInKg;
 	public String CostCenter;
+	public String CrbnEmssnScopeAlloc;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

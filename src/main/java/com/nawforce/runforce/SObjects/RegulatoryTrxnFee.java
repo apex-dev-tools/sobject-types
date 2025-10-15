@@ -67,6 +67,7 @@ public class RegulatoryTrxnFee extends SObject {
 	public RegulatoryTrxnFeeShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public RegulatoryTrxnFee clone$() {throw new java.lang.UnsupportedOperationException();}
 	public RegulatoryTrxnFee clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

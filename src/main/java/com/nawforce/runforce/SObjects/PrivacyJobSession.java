@@ -38,6 +38,7 @@ public class PrivacyJobSession extends SObject {
 	public Boolean OptionsErrorBypassOccurred;
 	public Boolean OptionsPreview;
 	public Boolean OptionsProcessingFailed;
+	public Boolean OptionsTopLevelErrorBypass;
 	public Boolean OptionsTraversalComplete;
 	public Boolean OptionsTraversalFailed;
 	public Id OwnerId;

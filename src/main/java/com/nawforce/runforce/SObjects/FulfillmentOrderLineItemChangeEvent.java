@@ -32,6 +32,8 @@ public class FulfillmentOrderLineItemChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id MainFulfillmentOrderLineItemId;
+	public FulfillmentOrderLineItem MainFulfillmentOrderLineItem;
 	public Id OrderItemId;
 	public OrderItem OrderItem;
 	public Decimal OriginalQuantity;
@@ -43,6 +45,7 @@ public class FulfillmentOrderLineItemChangeEvent extends SObject {
 	public Decimal RejectedQuantity;
 	public String ReplayId;
 	public String ReshipReason;
+	public String ScopeIdentifierText;
 	public Datetime ServiceDate;
 	public Decimal TotalAdjustmentAmount;
 	public Decimal TotalAdjustmentAmountWithTax;

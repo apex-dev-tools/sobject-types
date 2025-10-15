@@ -15,12 +15,14 @@ public class InsurancePolicyTransactionChangeEvent extends SObject {
 	public static SObjectType$<InsurancePolicyTransactionChangeEvent> SObjectType;
 	public static SObjectFields$<InsurancePolicyTransactionChangeEvent> Fields;
 
+	public String Category;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Division;
+	public Date EffectiveFromDate;
 	public Id Id;
 	public Id InsurancePolicyId;
 	public InsurancePolicy InsurancePolicy;
@@ -32,6 +34,7 @@ public class InsurancePolicyTransactionChangeEvent extends SObject {
 	public String Name;
 	public Id ParentTransactionId;
 	public InsurancePolicyTransaction ParentTransaction;
+	public Date PostedDate;
 	public String ReplayId;
 	public String Status;
 	public Decimal TotalTransactionAmount;

@@ -68,6 +68,7 @@ public class RegulatoryCode extends SObject {
 	public RegulatoryCodeViolation[] RegCodeViolationRegCode;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public RegulatoryCode clone$() {throw new java.lang.UnsupportedOperationException();}
 	public RegulatoryCode clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

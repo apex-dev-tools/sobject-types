@@ -26,6 +26,7 @@ public class ProcedurePlanSection extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String Phase;
 	public Id ProcedurePlanVersionId;
 	public ProcedurePlanDefinitionVersion ProcedurePlanVersion;
 	public String ResolutionType;

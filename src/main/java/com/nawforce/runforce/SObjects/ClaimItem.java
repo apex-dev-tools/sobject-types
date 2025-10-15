@@ -18,6 +18,7 @@ public class ClaimItem extends SObject {
 	public String Category;
 	public Id ClaimId;
 	public Claim Claim;
+	public String ClaimInstanceIdentifier;
 	public Id ClaimParticipantId;
 	public ClaimParticipant ClaimParticipant;
 	public Id CreatedById;
@@ -48,6 +49,8 @@ public class ClaimItem extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Id ProductId;
+	public Product2 Product;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
@@ -57,6 +60,8 @@ public class ClaimItem extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public ClaimCoverage[] ClaimCoverages;
+	public ClaimItemAttribute[] ClaimItemAttributes;
+	public ClaimItemRelatedObject[] ClaimItems;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;

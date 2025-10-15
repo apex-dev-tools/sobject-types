@@ -68,6 +68,7 @@ public class HealthcarePractitionerFacility extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public ClinicalDetectedIssueDetail[] CDetectedIssueMitigationAuthor;
+	public CareProgramTeamMember[] CareProgramTeamMembers;
 	public CareProviderFacilitySpecialty[] CareProviderFacility_Specialties;
 	public CareRequestDrug[] CareRequestDrugs;
 	public ClinicalAlert[] ClinicalAlert_RaisedBy;
@@ -83,6 +84,7 @@ public class HealthcarePractitionerFacility extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthRiskEvaluation[] HRE_Evaluator;
 	public HealthcareProviderService[] HealthcareProviderGroup;
 	public HealthcareFacilityNetwork[] Healthcare_Facility_Networks;
 	public HealthcarePractitionerFacilityHistory[] Histories;

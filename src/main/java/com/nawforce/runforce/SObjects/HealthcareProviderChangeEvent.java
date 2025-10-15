@@ -30,15 +30,19 @@ public class HealthcareProviderChangeEvent extends SObject {
 	public Boolean HasCarrierContract;
 	public Id Id;
 	public Date InitialStartDate;
+	public Boolean IsActive;
 	public Boolean IsNotSearchable;
+	public Boolean IsPrivacyLawEnabled;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public String OperatingCountryCode;
 	public Id OwnerId;
 	public User Owner;
 	public Id PractitionerId;
 	public Contact Practitioner;
+	public String ProfessionalTitle;
 	public String ProviderClass;
 	public Id ProviderPhotoId;
 	public ContentDocument ProviderPhoto;
@@ -50,6 +54,7 @@ public class HealthcareProviderChangeEvent extends SObject {
 	public String ReplayId;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
+	public Date SourceSystemModifiedDate;
 	public String Status;
 	public Date TerminationDate;
 	public String TerminationReason;

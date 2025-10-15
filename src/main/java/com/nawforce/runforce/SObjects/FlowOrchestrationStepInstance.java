@@ -21,6 +21,7 @@ public class FlowOrchestrationStepInstance extends SObject {
 	public String CurrencyIsoCode;
 	public String Description;
 	public Id Id;
+	public String InProgressStepOutputs;
 	public Boolean IsDeleted;
 	public String Label;
 	public Id LastModifiedById;
@@ -29,8 +30,11 @@ public class FlowOrchestrationStepInstance extends SObject {
 	public String Name;
 	public Id OrchestrationInstanceId;
 	public FlowOrchestrationInstance OrchestrationInstance;
+	public String OrchestrationName;
+	public String OrchestrationStageName;
 	public Id OwnerId;
 	public Name Owner;
+	public String RelatedRecord;
 	public Id StageInstanceId;
 	public FlowOrchestrationStageInstance StageInstance;
 	public String Status;

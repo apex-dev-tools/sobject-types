@@ -29,6 +29,7 @@ public class IdentityResolution extends SObject {
 	public Id Id;
 	public Boolean IsCaseSensitive;
 	public Boolean IsDeleted;
+	public Boolean IsLimitedToSingleHousehold;
 	public Boolean IsScheduled;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

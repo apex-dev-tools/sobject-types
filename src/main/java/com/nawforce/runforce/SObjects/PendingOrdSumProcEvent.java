@@ -23,6 +23,8 @@ public class PendingOrdSumProcEvent extends SObject {
 	public String EventUuid;
 	public String ExternalReferenceIdentifier;
 	public Boolean IsSuccess;
+	public Id OrderId;
+	public Order Order;
 	public String ReplayId;
 
 	public PendingOrdSumProcEvent clone$() {throw new java.lang.UnsupportedOperationException();}

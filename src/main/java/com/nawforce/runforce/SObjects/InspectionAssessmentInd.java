@@ -70,6 +70,7 @@ public class InspectionAssessmentInd extends SObject {
 	public AssessmentIndValue[] SourceObjects;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public InspectionAssessmentInd clone$() {throw new java.lang.UnsupportedOperationException();}
 	public InspectionAssessmentInd clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

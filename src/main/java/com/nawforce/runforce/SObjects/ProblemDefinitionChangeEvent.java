@@ -36,6 +36,7 @@ public class ProblemDefinitionChangeEvent extends SObject {
 	public User Owner;
 	public String Priority;
 	public String ReplayId;
+	public String Type;
 	public String UsageType;
 
 	public ProblemDefinitionChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}

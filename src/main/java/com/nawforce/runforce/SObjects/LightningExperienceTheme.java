@@ -24,6 +24,7 @@ public class LightningExperienceTheme extends SObject {
 	public String DesignSystemVersion;
 	public String DeveloperName;
 	public Id Id;
+	public Boolean IsDarkModeEnabled;
 	public Boolean IsDeleted;
 	public String Language;
 	public Id LastModifiedById;

@@ -26,6 +26,9 @@ public class ReportEventStream extends SObject {
 	public static SObjectType$<ReportEventStream> SObjectType;
 	public static SObjectFields$<ReportEventStream> Fields;
 
+	public String ActionName;
+	public String BotId;
+	public String BotSessionIdentifier;
 	public String ColumnHeaders;
 	public Datetime CreatedDate;
 	public String DashboardId;
@@ -49,6 +52,7 @@ public class ReportEventStream extends SObject {
 	public Integer NumberOfColumns;
 	public String Operation;
 	public String OwnerId;
+	public String PlannerId;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
 	public String PolicyOutcome;

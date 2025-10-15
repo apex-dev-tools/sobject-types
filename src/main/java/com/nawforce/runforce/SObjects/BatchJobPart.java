@@ -39,6 +39,10 @@ public class BatchJobPart extends SObject {
 	public Integer OutputRecordCount;
 	public Id ParentBatchJobPartId;
 	public BatchJobPart ParentBatchJobPart;
+	public Blob RecordFileBody;
+	public String RecordFileContentType;
+	public Integer RecordFileLength;
+	public String RecordFileName;
 	public Integer RetryCount;
 	public Datetime StartTime;
 	public String Status;

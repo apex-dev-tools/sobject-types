@@ -33,6 +33,8 @@ public class PersonLanguageChangeEvent extends SObject {
 	public User Owner;
 	public Integer Rank;
 	public String ReplayId;
+	public String SourceSystemIdentifier;
+	public String SourceSystemName;
 	public String SpeakingProficiencyLevel;
 	public String WritingProficiencyLevel;
 

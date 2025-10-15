@@ -56,11 +56,13 @@ public class Examination extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public PersonExamination[] PersonExaminations;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ExaminationShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public Examination clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Examination clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

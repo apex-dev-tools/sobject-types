@@ -32,7 +32,7 @@ public class InvoiceLine extends SObject {
 	public String CurrencyIsoCode;
 	public String Description;
 	public Id GroupReferenceEntityItemId;
-	public OrderItem GroupReferenceEntityItem;
+	public Name GroupReferenceEntityItem;
 	public Id Id;
 	public Id InvoiceId;
 	public Invoice Invoice;
@@ -40,6 +40,7 @@ public class InvoiceLine extends SObject {
 	public Date InvoiceLineStartDate;
 	public String InvoiceStatus;
 	public Boolean IsDeleted;
+	public Boolean IsUsageBasedInvoiceLine;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -49,7 +50,7 @@ public class InvoiceLine extends SObject {
 	public Product2 Product2;
 	public Decimal Quantity;
 	public Id ReferenceEntityItemId;
-	public OrderItem ReferenceEntityItem;
+	public Name ReferenceEntityItem;
 	public String ReferenceEntityItemType;
 	public String ReferenceEntityItemTypeCode;
 	public Id RelatedLineId;
@@ -65,6 +66,9 @@ public class InvoiceLine extends SObject {
 	public Id UnitOfMeasureId;
 	public UnitOfMeasure UnitOfMeasure;
 	public Decimal UnitPrice;
+	public Decimal UsageOverageQuantity;
+	public Id UsageProductId;
+	public Product2 UsageProduct;
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;

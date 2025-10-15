@@ -25,6 +25,7 @@ public class DecisionTable extends SObject {
 	public String Description;
 	public String DeveloperName;
 	public Boolean DoesConsiderNullValue;
+	public String DownloadStatus;
 	public String ExecutionType;
 	public String FilterResultBy;
 	public Boolean HasIncrementalSyncFailed;
@@ -41,6 +42,7 @@ public class DecisionTable extends SObject {
 	public String NamespacePrefix;
 	public String RefreshFailureReason;
 	public String RefreshStatus;
+	public String RowLevelOverrideType;
 	public String SetupName;
 	public String SourceConditionLogic;
 	public String SourceObject;
