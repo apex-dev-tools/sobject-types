@@ -1,0 +1,103 @@
+/*
+ * Copyright (c) 2024 Certinia Inc. All rights reserved.
+ */
+
+package io.github.apexdevtools.sobjecttypes;
+
+import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
+import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.String;
+import io.github.apexdevtools.standardtypes.System.*;
+
+@SuppressWarnings("unused")
+public class CodeSet extends SObject {
+	public static SObjectType$<CodeSet> SObjectType;
+	public static SObjectFields$<CodeSet> Fields;
+
+	public String Code;
+	public String CodeDescription;
+	public String CodeSetKey;
+	public String CodeSetType;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public Date EndDate;
+	public Id Id;
+	public Boolean IsActive;
+	public Boolean IsCustomCode;
+	public Boolean IsDeleted;
+	public Boolean IsPrimary;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
+	public String Name;
+	public Id OwnerId;
+	public Name Owner;
+	public String SourceSystem;
+	public Date StartDate;
+	public Datetime SystemModstamp;
+	public String SystemVersion;
+
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public ClinicalDetectedIssueDetail[] CDetectedIssueDetailCodes;
+	public CareBarrierType[] CareBarrierDignosisCodeSet;
+	public CareInterventionType[] CareInterventionDignosisCodeSet;
+	public CareMetricTarget[] CareMetricTargets;
+	public CareMetricTarget[] CarePlanDetailCodeMeasureCode;
+	public CareProcessingError[] CareProcessingErrorActionCode;
+	public CareProcessingError[] CareProcessingErrorErrorCode;
+	public CareRequestDrug[] CareRequestDrugs;
+	public CareTask[] CareTaskActionCodes;
+	public CareTaskDetail[] CareTaskDetailDetailCode;
+	public CareTask[] CareTaskProcessStatus;
+	public CareBenefitVerifyRequest[] Care_Benefit_Verify_Requests_BenefitCategoryCode;
+	public CareBenefitVerifyRequest[] Care_Benefit_Verify_Requests_PriorityCode;
+	public ClinicalDetectedIssue[] ClinicalDetectedIssue_CategoryCodes;
+	public CoverageBenefitItem[] CodeSetServiceTypes;
+	public CareObservation[] CodeSets;
+	public CombinedAttachment[] CombinedAttachments;
+	public HierCondHlthCodeMapping[] ConditionCodes;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public CoverageBenefit[] CoverageBenefit_FinalCoverageStatusCode;
+	public CoverageBenefit[] CoverageBenefit_OutcomeStatusCode;
+	public CoverageBenefit[] CoverageBenefit_StatusCode;
+	public CareProgramDetail[] DetailRecords;
+	public CareRegisteredDevice[] DeviceTypes;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public CodeSetFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
+	public HealthRiskEvalOutcome[] HREO_RiskCodeSetValue;
+	public HealthRiskEvalOutcome[] HREO_RiskOutcomeCode;
+	public HealthRiskEvaluation[] HRE_MethodCode;
+	public HealthRiskEvaluation[] HRE_TypeCode;
+	public HealthcareServiceDetail[] HcServiceDetailCodes;
+	public HierCondHlthRskAdjFctr[] HierCondHlthRskAdjFctrs;
+	public HierCondHlthCodeMapping[] HierarchicalCondCategoryCodes;
+	public CodeSetHistory[] Histories;
+	public PlanBenefitItem[] ItemCodes;
+	public MedicationStatementDetail[] MedicationStatementDetailCodes;
+	public PlanBenefitItem[] PreauthorizationTypeCodes;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public CareRequestItem[] ReasonCodeCareRequestItems;
+	public CodeSetShare[] Shares;
+	public Specimen[] SpecimenBodySite;
+	public Specimen[] SpecimenCollectionDeviceCode;
+	public Specimen[] SpecimenCollectionMethodCode;
+	public Specimen[] SpecimenFastingStatusCode;
+	public Specimen[] SpecimenType;
+
+	public CodeSet clone$() {throw new java.lang.UnsupportedOperationException();}
+	public CodeSet clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public CodeSet clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public CodeSet clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public CodeSet clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+}

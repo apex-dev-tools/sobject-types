@@ -1,0 +1,77 @@
+/*
+ * Copyright (c) 2024 Certinia Inc. All rights reserved.
+ */
+
+package io.github.apexdevtools.sobjecttypes;
+
+import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
+import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.Long;
+import io.github.apexdevtools.standardtypes.System.String;
+import io.github.apexdevtools.standardtypes.System.*;
+
+@SuppressWarnings("unused")
+public class IdentityResolution extends SObject {
+	public static SObjectType$<IdentityResolution> SObjectType;
+	public static SObjectFields$<IdentityResolution> Fields;
+
+	public Decimal ConsolidationRate;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public Id DataSpaceId;
+	public DataSpace DataSpace;
+	public String Description;
+	public String ErrorCode;
+	public String ErrorMessage;
+	public Id Id;
+	public Boolean IsCaseSensitive;
+	public Boolean IsDeleted;
+	public Boolean IsLimitedToSingleHousehold;
+	public Boolean IsScheduled;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public String LastRunStatus;
+	public Datetime LastRunStatusDateTime;
+	public Datetime LastSuccessfulRunDateTime;
+	public Datetime LastViewedDate;
+	public Long MatchedCount;
+	public String Name;
+	public String RootEntityLabel;
+	public String SecondaryEntityLabel;
+	public Long SourceCount;
+	public Id SourceIrId;
+	public IdentityResolution SourceIr;
+	public String Status;
+	public String StatusDetails;
+	public String Suffix;
+	public Datetime SystemModstamp;
+	public Long TotalAnonymousRecords;
+	public Long TotalNonAnonymousRecords;
+	public Long UnifiedCount;
+
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public CombinedAttachment[] CombinedAttachments;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public IdentityResolutionFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
+	public IdentityResolutionHistory[] Histories;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public IdentityResolution[] SourceIrs;
+
+	public IdentityResolution clone$() {throw new java.lang.UnsupportedOperationException();}
+	public IdentityResolution clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public IdentityResolution clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public IdentityResolution clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public IdentityResolution clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+}

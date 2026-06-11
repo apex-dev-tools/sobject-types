@@ -1,0 +1,68 @@
+/*
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
+ */
+
+package io.github.apexdevtools.sobjecttypes;
+
+import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
+import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.Integer;
+import io.github.apexdevtools.standardtypes.System.String;
+import io.github.apexdevtools.standardtypes.System.*;
+
+@SuppressWarnings("unused")
+public class ServiceTerritoryChangeEvent extends SObject {
+	public static SObjectType$<ServiceTerritoryChangeEvent> SObjectType;
+	public static SObjectFields$<ServiceTerritoryChangeEvent> Fields;
+
+	public Address Address;
+	public Integer AvgTravelTime;
+	public Object ChangeEventHeader;
+	public String City;
+	public String Country;
+	public String CountryCode;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public String Description;
+	public String GeocodeAccuracy;
+	public Id Id;
+	public Boolean IsActive;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Decimal Latitude;
+	public Decimal Longitude;
+	public String Name;
+	public Id OperatingHoursId;
+	public OperatingHours OperatingHours;
+	public Id OwnerId;
+	public User Owner;
+	public Id ParentTerritoryId;
+	public ServiceTerritory ParentTerritory;
+	public String PostalCode;
+	public Id PricebookId;
+	public Pricebook2 Pricebook;
+	public String ReplayId;
+	public Id SchedulingConstraintId;
+	public SchedulingConstraint SchedulingConstraint;
+	public String SelfCheckInUrl;
+	public String ServiceAppointmentLimitType;
+	public String State;
+	public String StateCode;
+	public String Street;
+	public Id TopLevelTerritoryId;
+	public ServiceTerritory TopLevelTerritory;
+	public Id TravelModeId;
+	public TravelMode TravelMode;
+	public Integer TravelTimeBuffer;
+	public Decimal TypicalInTerritoryTravelTime;
+
+	public ServiceTerritoryChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
+	public ServiceTerritoryChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public ServiceTerritoryChangeEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public ServiceTerritoryChangeEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public ServiceTerritoryChangeEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+}

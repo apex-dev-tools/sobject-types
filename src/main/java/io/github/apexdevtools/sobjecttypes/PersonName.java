@@ -1,0 +1,68 @@
+/*
+ * Copyright (c) 2024 Certinia Inc. All rights reserved.
+ */
+
+package io.github.apexdevtools.sobjecttypes;
+
+import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
+import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.String;
+import io.github.apexdevtools.standardtypes.System.*;
+
+@SuppressWarnings("unused")
+public class PersonName extends SObject {
+	public static SObjectType$<PersonName> SObjectType;
+	public static SObjectFields$<PersonName> Fields;
+
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public Date EffectiveDate;
+	public Date EndDate;
+	public String FirstName;
+	public String FullName;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Boolean IsPrimary;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public String LastName;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
+	public String Name;
+	public String NameUsageType;
+	public Id OwnerId;
+	public Name Owner;
+	public Id ParentRecordId;
+	public Name ParentRecord;
+	public String Prefix;
+	public String SourceSystem;
+	public String SourceSystemIdentifier;
+	public Datetime SourceSystemModified;
+	public String Suffix;
+	public Datetime SystemModstamp;
+
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public CombinedAttachment[] CombinedAttachments;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public PersonNameFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GeneratedDocument[] GeneratedDocRefObjects;
+	public PersonNameHistory[] Histories;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public PersonNameShare[] Shares;
+
+	public PersonName clone$() {throw new java.lang.UnsupportedOperationException();}
+	public PersonName clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public PersonName clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public PersonName clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public PersonName clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+}

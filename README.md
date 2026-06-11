@@ -30,7 +30,7 @@ mvn install -Dgpg.skip=true
 
 Update API version numbers in `pom.xml`:
 
-* `standard-types` version. Also update jar version in `src/META_INF/MANIFEST.MF`.
+* `standard-types` version. Also update jar version in `src/META-INF/MANIFEST.MF`.
 
 * `com.force.api` versions. See [package list](https://mvnrepository.com/search?q=com.force.api) to check latest patch numbers.
 
@@ -80,13 +80,13 @@ Use a diff tool to move content across. For example, Intellij has `Compare With.
 In the `generated/` dir, to quickly copy newly added files across:
 
 ```sh
-diff -r ../src/main/java/com/nawforce/runforce/SObjects ./ | sed -n 's/Only in \.\/\{0,1\}: \(.*\)/\1/p' | xargs -I {} cp {} ../src/main/java/com/nawforce/runforce/SObjects
+diff -r ../src/main/java/io/github/apexdevtools/sobjecttypes ./ | sed -n 's/Only in \.\/\{0,1\}: \(.*\)/\1/p' | xargs -I {} cp {} ../src/main/java/io/github/apexdevtools/sobjecttypes
 ```
 
 To verify new fields to existing objects were not missed, print them to `!diff.txt` file (ignoring copyright):
 
 ```sh
-diff -rub -I 'Copyright' ../src/main/java/com/nawforce/runforce/SObjects ./ | grep -E "^\+.[^\*]" | grep -v '+++ b/' > '!diff.txt'
+diff -rub -I 'Copyright' ../src/main/java/io/github/apexdevtools/sobjecttypes ./ | grep -E "^\+.[^\*]" | grep -v '+++ b/' > '!diff.txt'
 ```
 
 The file should be only `+++` lines if there are no missing additions.

@@ -1,0 +1,66 @@
+/*
+ * Copyright (c) 2024 Certinia Inc. All rights reserved.
+ */
+
+package io.github.apexdevtools.sobjecttypes;
+
+import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
+import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.String;
+import io.github.apexdevtools.standardtypes.System.*;
+
+@SuppressWarnings("unused")
+public class DataKitDeploymentLog extends SObject {
+	public static SObjectType$<DataKitDeploymentLog> SObjectType;
+	public static SObjectFields$<DataKitDeploymentLog> Fields;
+
+	public String BundleName;
+	public String ComponentName;
+	public Id ComponentTemplateId;
+	public DataSourceBundle ComponentTemplate;
+	public String ComponentType;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public String DataKitName;
+	public String DataPackageKitDefinition;
+	public String DataSpaceName;
+	public String DeployJob;
+	public String DeploymentAction;
+	public String DeploymentError;
+	public String DeploymentStatus;
+	public String FileBasedComponentTemplate;
+	public String FlowInterviewIdentifier;
+	public Id Id;
+	public Boolean IsDeleted;
+	public String JobIdentifier;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
+	public String Name;
+	public Id OwnerId;
+	public Name Owner;
+	public Id PublisherOrgComponentId;
+	public Name PublisherOrgComponent;
+	public Id SubscriberOrgComponentId;
+	public Name SubscriberOrgComponent;
+	public Datetime SystemModstamp;
+	public Decimal TemplateVersion;
+
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public DataKitDeploymentLogShare[] Shares;
+
+	public DataKitDeploymentLog clone$() {throw new java.lang.UnsupportedOperationException();}
+	public DataKitDeploymentLog clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public DataKitDeploymentLog clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public DataKitDeploymentLog clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public DataKitDeploymentLog clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+}

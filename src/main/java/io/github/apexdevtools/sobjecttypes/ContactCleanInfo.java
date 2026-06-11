@@ -1,0 +1,85 @@
+/*
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
+ */
+
+package io.github.apexdevtools.sobjecttypes;
+
+import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
+import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.String;
+import io.github.apexdevtools.standardtypes.System.*;
+
+@SuppressWarnings("unused")
+public class ContactCleanInfo extends SObject {
+	public static SObjectType$<ContactCleanInfo> SObjectType;
+	public static SObjectFields$<ContactCleanInfo> Fields;
+
+	public Address Address;
+	public String City;
+	public Boolean CleanedByJob;
+	public Boolean CleanedByUser;
+	public Id ContactId;
+	public Contact Contact;
+	public String ContactStatusDataDotCom;
+	public String Country;
+	public String CountryCode;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public String DataDotComId;
+	public String Division;
+	public String Email;
+	public String FirstName;
+	public String GeocodeAccuracy;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Boolean IsDifferentCity;
+	public Boolean IsDifferentCountry;
+	public Boolean IsDifferentCountryCode;
+	public Boolean IsDifferentEmail;
+	public Boolean IsDifferentFirstName;
+	public Boolean IsDifferentLastName;
+	public Boolean IsDifferentPhone;
+	public Boolean IsDifferentPostalCode;
+	public Boolean IsDifferentState;
+	public Boolean IsDifferentStateCode;
+	public Boolean IsDifferentStreet;
+	public Boolean IsDifferentTitle;
+	public Boolean IsFlaggedWrongAddress;
+	public Boolean IsFlaggedWrongEmail;
+	public Boolean IsFlaggedWrongName;
+	public Boolean IsFlaggedWrongPhone;
+	public Boolean IsFlaggedWrongTitle;
+	public Boolean IsInactive;
+	public Boolean IsReviewedAddress;
+	public Boolean IsReviewedEmail;
+	public Boolean IsReviewedName;
+	public Boolean IsReviewedPhone;
+	public Boolean IsReviewedTitle;
+	public Datetime LastMatchedDate;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public String LastName;
+	public Id LastStatusChangedById;
+	public User LastStatusChangedBy;
+	public Datetime LastStatusChangedDate;
+	public Decimal Latitude;
+	public Decimal Longitude;
+	public String Name;
+	public String Phone;
+	public String PostalCode;
+	public String State;
+	public String StateCode;
+	public String Street;
+	public Datetime SystemModstamp;
+	public String Title;
+
+	public ContactCleanInfo clone$() {throw new java.lang.UnsupportedOperationException();}
+	public ContactCleanInfo clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public ContactCleanInfo clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public ContactCleanInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public ContactCleanInfo clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+}

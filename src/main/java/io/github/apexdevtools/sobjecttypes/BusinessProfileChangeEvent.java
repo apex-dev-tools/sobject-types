@@ -1,0 +1,59 @@
+/*
+ * Copyright (c) 2024 Certinia Inc. All rights reserved.
+ */
+
+package io.github.apexdevtools.sobjecttypes;
+
+import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
+import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.Integer;
+import io.github.apexdevtools.standardtypes.System.String;
+import io.github.apexdevtools.standardtypes.System.*;
+
+@SuppressWarnings("unused")
+public class BusinessProfileChangeEvent extends SObject {
+	public static SObjectType$<BusinessProfileChangeEvent> SObjectType;
+	public static SObjectFields$<BusinessProfileChangeEvent> Fields;
+
+	public Id AccountId;
+	public Account Account;
+	public String BusinessOperatingName;
+	public String BusinessPartnerCode;
+	public String BusinessPartnerRegisteredName;
+	public String BusinessPartnerType;
+	public String BusinessStructure;
+	public String BusinessTaxIdentifier;
+	public Object ChangeEventHeader;
+	public Integer ConsecWorkersCompCoverage;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public Integer CreditTypesUsed;
+	public String CurrencyIsoCode;
+	public String Division;
+	public String ExternalReferenceNumber;
+	public Boolean HasDishonoredPolicies;
+	public Boolean HasSufferedBankruptcy;
+	public Boolean HasUncorrectedSafetyViolations;
+	public Id Id;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public String Name;
+	public String RegionName;
+	public String ReplayId;
+	public Id ServiceTerritoryId;
+	public ServiceTerritory ServiceTerritory;
+	public String ServiceType;
+	public String SourceSystem;
+	public String SourceSystemIdentifier;
+	public Integer WorkersCompClaims;
+	public Integer WorkersCompMedicalClaims;
+
+	public BusinessProfileChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
+	public BusinessProfileChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public BusinessProfileChangeEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public BusinessProfileChangeEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public BusinessProfileChangeEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+}
