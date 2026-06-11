@@ -15,6 +15,7 @@ public class BatchCalcJobDefinitionView extends SObject {
 	public static SObjectType$<BatchCalcJobDefinitionView> SObjectType;
 	public static SObjectFields$<BatchCalcJobDefinitionView> Fields;
 
+	public String CurrencyConversion;
 	public String DataSpaceApiName;
 	public String DefinitionRunMode;
 	public String Description;
@@ -32,6 +33,7 @@ public class BatchCalcJobDefinitionView extends SObject {
 	public String Name;
 	public String NamespacePrefix;
 	public String ProcessType;
+	public String TargetCurrencyIsoCode;
 
 	public BatchCalcJobDefinitionView clone$() {throw new java.lang.UnsupportedOperationException();}
 	public BatchCalcJobDefinitionView clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

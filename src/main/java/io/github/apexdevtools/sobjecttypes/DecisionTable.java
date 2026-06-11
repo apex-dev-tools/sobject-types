@@ -22,6 +22,7 @@ public class DecisionTable extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DataSourceType;
+	public String DataSpaceName;
 	public String Description;
 	public String DeveloperName;
 	public Boolean DoesConsiderNullValue;
@@ -32,6 +33,7 @@ public class DecisionTable extends SObject {
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsIncrementalSyncEnabled;
+	public Boolean IsVersioned;
 	public String Language;
 	public Datetime LastIncrementalSyncDate;
 	public Id LastModifiedById;

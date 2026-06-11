@@ -94,6 +94,7 @@ public class DiagnosticSummary extends SObject {
 	public Attachment[] Attachments;
 	public ClinicalDetectedIssueDetail[] CDetectedIssueDetailRecords;
 	public CareObservation[] CareObs_DerivationSource;
+	public CarePerformer[] CarePerformerParents;
 	public ClinicalServiceRequestDetail[] ClinSvcReqDetail_Detail;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

@@ -26,6 +26,7 @@ public class BatchJob extends SObject {
 	public String CurrencyIsoCode;
 	public Datetime EndTime;
 	public String ErrorDescription;
+	public String ExecutionStage;
 	public String ExternalReference;
 	public Id Id;
 	public Boolean IsDebugOn;
@@ -45,7 +46,11 @@ public class BatchJob extends SObject {
 	public Datetime StartTime;
 	public String Status;
 	public Datetime SystemModstamp;
+	public Integer TotalInputRecordCount;
+	public Integer TotalProcessedRecordCount;
 	public String Type;
+	public String UtilisedExecutionLimit;
+	public String UtilisedWritebackLimit;
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;

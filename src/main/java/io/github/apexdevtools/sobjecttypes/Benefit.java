@@ -71,6 +71,7 @@ public class Benefit extends SObject {
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApplicationFormRelation[] ApplicationFormRelations;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
@@ -97,6 +98,7 @@ public class Benefit extends SObject {
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ApplicationForm[] ReferenceApplicationForms;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
 	public Voucher[] VoucherBenefit;

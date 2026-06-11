@@ -63,6 +63,7 @@ public class ProductClassification extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public Product2[] Product2s;
 	public ProductClassificationAttr[] ProductClassificationAttrs;
+	public PriceAdjustmentProductRule[] ProductClassificationPriceAdjustmentProductRule;
 	public ProductClassificationShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

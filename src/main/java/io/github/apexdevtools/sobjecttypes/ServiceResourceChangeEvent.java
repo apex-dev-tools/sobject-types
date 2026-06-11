@@ -42,6 +42,8 @@ public class ServiceResourceChangeEvent extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public User Owner;
+	public Id PayGroupId;
+	public PayGroup PayGroup;
 	public Id RelatedRecordId;
 	public User RelatedRecord;
 	public String ReplayId;

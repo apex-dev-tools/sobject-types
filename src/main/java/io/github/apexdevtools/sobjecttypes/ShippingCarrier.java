@@ -27,9 +27,11 @@ public class ShippingCarrier extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public String ManagedShippingCarrier;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public String ShipFromCountry;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;

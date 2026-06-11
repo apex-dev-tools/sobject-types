@@ -37,6 +37,7 @@ public class CareBenefitVerifyRequestChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Division;
+	public String ExternalUniqueIdentifier;
 	public Id Id;
 	public Decimal InitialFillDuration;
 	public Decimal InitialFillQuantity;
@@ -70,6 +71,7 @@ public class CareBenefitVerifyRequestChangeEvent extends SObject {
 	public Id RequesterId;
 	public SObject Requester;
 	public String Response;
+	public String SourceSystem;
 	public String Status;
 	public String StatusReason;
 	public String VerificationMode;

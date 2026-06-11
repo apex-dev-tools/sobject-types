@@ -16,12 +16,14 @@ public class FlowRecordVersionOccurrence extends SObject {
 	public static SObjectType$<FlowRecordVersionOccurrence> SObjectType;
 	public static SObjectFields$<FlowRecordVersionOccurrence> Fields;
 
+	public Datetime CompletedDate;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public Id DataSpaceId;
 	public DataSpace DataSpace;
+	public Integer Enqueued;
 	public Integer Entries;
 	public String ErrorDetail;
 	public Integer Errors;

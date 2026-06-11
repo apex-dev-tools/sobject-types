@@ -79,6 +79,7 @@ public class BusinessLicenseApplication extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public AuthApplicationAsset[] AuthRegApplication;
+	public CaseProceeding[] CaseProceedingApplication;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;

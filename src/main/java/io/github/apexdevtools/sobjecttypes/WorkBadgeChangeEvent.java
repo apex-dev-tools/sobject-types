@@ -31,6 +31,8 @@ public class WorkBadgeChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Message;
+	public Id NetworkId;
+	public Network Network;
 	public Id RecipientId;
 	public User Recipient;
 	public String ReplayId;

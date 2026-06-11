@@ -79,6 +79,7 @@ public class Entitlement extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public EntitlementHistory[] Histories;
 	public Incident[] Incidents;
+	public IndividualApplication[] IndividualApplications;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

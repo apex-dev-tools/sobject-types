@@ -87,6 +87,7 @@ public class Campaign extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DataUsePurpose[] DataUsePurposes;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
@@ -104,6 +105,7 @@ public class Campaign extends SObject {
 	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
 	public ListEmailRecipientSource[] ListEmailRecipientSources;
 	public ListEmail[] ListEmails;
+	public MessagingSession[] MessagingSessions;
 	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
 	public OpenActivity[] OpenActivities;
 	public Opportunity[] Opportunities;

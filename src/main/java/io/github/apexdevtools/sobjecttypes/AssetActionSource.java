@@ -45,6 +45,7 @@ public class AssetActionSource extends SObject {
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public AssetActionSrcPriceAdjustment[] AssetActionSrcPriceAdjustments;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

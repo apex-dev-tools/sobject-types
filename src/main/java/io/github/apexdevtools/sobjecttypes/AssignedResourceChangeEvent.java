@@ -27,6 +27,7 @@ public class AssignedResourceChangeEvent extends SObject {
 	public Event Event;
 	public Id Id;
 	public Boolean IsRequiredResource;
+	public Boolean IsTravelFromHomeBase;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

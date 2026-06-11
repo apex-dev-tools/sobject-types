@@ -27,6 +27,8 @@ public class IndividualApplication extends SObject {
 	public Datetime ApprovedDate;
 	public Id BudgetId;
 	public Budget Budget;
+	public Id BusinessHoursId;
+	public BusinessHours BusinessHours;
 	public Id BusinessTypeId;
 	public BusinessType BusinessType;
 	public String Category;
@@ -37,6 +39,8 @@ public class IndividualApplication extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public Id EntitlementId;
+	public Entitlement Entitlement;
 	public String ExternalProject;
 	public Id HealthcareProviderId;
 	public HealthcareProvider HealthcareProvider;
@@ -44,6 +48,7 @@ public class IndividualApplication extends SObject {
 	public Boolean IsApprovalRequired;
 	public Boolean IsDeleted;
 	public Boolean IsOwnerEditable;
+	public Boolean IsSlaPaused;
 	public Boolean IsSubmittedByThirdParty;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -54,6 +59,7 @@ public class IndividualApplication extends SObject {
 	public BusinessLicense LicensePermitName;
 	public Id LicenseTypeId;
 	public RegulatoryAuthorizationType LicenseType;
+	public String MilestoneStatus;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
@@ -65,6 +71,9 @@ public class IndividualApplication extends SObject {
 	public Id SavedApplicationRefId;
 	public PreliminaryApplicationRef SavedApplicationRef;
 	public String ServiceType;
+	public Datetime SlaExitDate;
+	public Datetime SlaPauseDate;
+	public Datetime SlaStartDate;
 	public String Status;
 	public Id SubmittedByAccountId;
 	public Account SubmittedByAccount;
@@ -83,6 +92,7 @@ public class IndividualApplication extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public AuthApplicationAsset[] AuthRegApplication;
+	public CaseProceeding[] CaseProceedingApplication;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -91,6 +101,7 @@ public class IndividualApplication extends SObject {
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
+	public EntityMilestone[] EntityMilestones;
 	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;

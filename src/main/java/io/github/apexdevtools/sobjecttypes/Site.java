@@ -46,6 +46,7 @@ public class Site extends SObject {
 	public Boolean OptionsAllowGuestPaymentsApi;
 	public Boolean OptionsAllowGuestSupportApi;
 	public Boolean OptionsAllowHomePage;
+	public Boolean OptionsAllowInvitationsAPI;
 	public Boolean OptionsAllowStandardAnswersPages;
 	public Boolean OptionsAllowStandardIdeasPages;
 	public Boolean OptionsAllowStandardLookups;
@@ -68,6 +69,7 @@ public class Site extends SObject {
 	public Boolean OptionsIsSlashSRemovedSite;
 	public Boolean OptionsRedirectToCustomDomain;
 	public Boolean OptionsReferrerPolicyOriginWhenCrossOrigin;
+	public Boolean OptionsRtlEnabled;
 	public Boolean OptionsUseGuestUserLanguage;
 	public String SiteType;
 	public String Status;

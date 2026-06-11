@@ -77,6 +77,7 @@ public class MedicationStatement extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DiagnosticSummaryDetail[] DiagSummaryDetailDomain;
 	public DiagnosticSummary[] DiagnosticSummary_BasedOn;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;

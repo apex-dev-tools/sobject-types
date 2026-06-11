@@ -19,6 +19,8 @@ public class MessagingSession extends SObject {
 	public Datetime AcceptTime;
 	public Integer AgentMessageCount;
 	public String AgentType;
+	public Id CampaignId;
+	public Campaign Campaign;
 	public Id CaseId;
 	public Case Case;
 	public String ChannelEndUserFormula;
@@ -65,6 +67,7 @@ public class MessagingSession extends SObject {
 	public String SessionKey;
 	public Datetime StartTime;
 	public String Status;
+	public String SuspendedByType;
 	public Datetime SystemModstamp;
 	public Id TargetUserId;
 	public User TargetUser;
@@ -73,6 +76,7 @@ public class MessagingSession extends SObject {
 	public Case[] Cases;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ConvEntryRelatedRecordCopy[] ConvEntryRelatedRecordCopies;
 	public ConversationEntry[] ConversationEntries;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EngagementAttendee[] EngagementAttendees;
@@ -81,12 +85,15 @@ public class MessagingSession extends SObject {
 	public MessagingSessionFeed[] Feeds;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public MessagingSessionHistory[] Histories;
+	public LinkedArticle[] LinkedArticles;
 	public MessagingSessionMetrics[] MessagingSessionMetricsAgg;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public MessagingSessionShare[] Shares;
+	public SurveySubject[] SurveySubjectEntities;
 
 	public MessagingSession clone$() {throw new java.lang.UnsupportedOperationException();}
 	public MessagingSession clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

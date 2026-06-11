@@ -16,6 +16,8 @@ public class DocumentGenerationProcess extends SObject {
 	public static SObjectType$<DocumentGenerationProcess> SObjectType;
 	public static SObjectFields$<DocumentGenerationProcess> Fields;
 
+	public String AdditionalMetadata;
+	public String ContextTokenProcessingType;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -31,6 +33,9 @@ public class DocumentGenerationProcess extends SObject {
 	public Boolean HasDocGenFontSource;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsLocalizationEnabled;
+	public Boolean IsSharedExternally;
+	public Boolean IsTocUpdateRequired;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -43,6 +48,7 @@ public class DocumentGenerationProcess extends SObject {
 	public String ReferenceObject;
 	public String RequestText;
 	public String ResponseText;
+	public Boolean ShouldUseLargeFileSizeProc;
 	public String Status;
 	public Datetime SystemModstamp;
 	public String TokenData;

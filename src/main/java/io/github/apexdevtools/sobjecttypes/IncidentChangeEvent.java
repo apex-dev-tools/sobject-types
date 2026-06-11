@@ -37,6 +37,7 @@ public class IncidentChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String MilestoneTimer;
 	public Id OwnerId;
 	public User Owner;
 	public Id ParentIncidentId;

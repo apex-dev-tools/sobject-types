@@ -26,6 +26,8 @@ public class StnryAssetEnvrSrcChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public Id ElectrLifecyclEmssnFctrSetId;
+	public ElectrLifecyclEmssnFctrSet ElectrLifecyclEmssnFctrSet;
 	public Id ElectricityEmssnFctrId;
 	public ElectricityEmssnFctrSet ElectricityEmssnFctr;
 	public Id EnvironmentalRiskId;
@@ -45,6 +47,8 @@ public class StnryAssetEnvrSrcChangeEvent extends SObject {
 	public String OccupiedFloorAreaUnit;
 	public Id OtherEmssnFctrId;
 	public OtherEmssnFctrSet OtherEmssnFctr;
+	public Id OthrLifecyclEmssnFctrSetId;
+	public OthrLifecyclEmssnFctrSet OthrLifecyclEmssnFctrSet;
 	public Id OwnerId;
 	public User Owner;
 	public Id ParentEnvironmentalSourceId;

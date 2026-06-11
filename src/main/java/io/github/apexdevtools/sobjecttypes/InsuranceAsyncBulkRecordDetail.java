@@ -7,6 +7,7 @@ package io.github.apexdevtools.sobjecttypes;
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
@@ -31,6 +32,7 @@ public class InsuranceAsyncBulkRecordDetail extends SObject {
 	public String Name;
 	public Id ReferenceRecordId;
 	public Name ReferenceRecord;
+	public Integer SequenceNumber;
 	public String SourceSystemIdentifier;
 	public String Status;
 	public Datetime SystemModstamp;

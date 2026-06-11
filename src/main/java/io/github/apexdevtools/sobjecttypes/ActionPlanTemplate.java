@@ -36,12 +36,14 @@ public class ActionPlanTemplate extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public String ProcessType;
 	public String SourceType;
 	public String Status;
 	public String Subcategory;
 	public Datetime SystemModstamp;
 	public String TargetEntityType;
 	public String UniqueName;
+	public String Version;
 
 	public ActionPlanTemplateVersion[] ActionPlanTemplateVersions;
 	public ActionPlanTemplateShare[] Shares;

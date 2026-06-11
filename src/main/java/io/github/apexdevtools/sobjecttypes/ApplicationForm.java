@@ -17,6 +17,7 @@ public class ApplicationForm extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public String ApplicationStatus;
 	public String ApplicationSummary;
 	public Date CompletionDate;
 	public Id CreatedById;
@@ -38,13 +39,19 @@ public class ApplicationForm extends SObject {
 	public Opportunity Opportunity;
 	public Id OwnerId;
 	public Name Owner;
+	public String Purpose;
+	public Id ReferenceRecordId;
+	public Benefit ReferenceRecord;
 	public Decimal Score;
 	public String ScoreReason;
 	public String ScoreType;
 	public String Stage;
 	public String SubType;
 	public Date SubmissionDate;
+	public Id SubmittedById;
+	public Name SubmittedBy;
 	public Datetime SystemModstamp;
+	public String Title;
 	public String Type;
 	public String UsageType;
 
@@ -53,11 +60,13 @@ public class ApplicationForm extends SObject {
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public Applicant[] Applicants;
 	public ApplicationFormProduct[] ApplicationFormProducts;
+	public ApplicationFormRelation[] ApplicationFormRelations;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public AuthApplicationAsset[] AuthRegApplication;
+	public CaseProceeding[] CaseProceedingApplication;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;

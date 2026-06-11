@@ -30,6 +30,7 @@ public class ContextAttribute extends SObject {
 	public Boolean IsCustomMappingAllowed;
 	public Boolean IsDeleted;
 	public Boolean IsKey;
+	public Boolean IsLocalizationDisabled;
 	public Boolean IsTransient;
 	public Boolean IsValue;
 	public Id LastModifiedById;

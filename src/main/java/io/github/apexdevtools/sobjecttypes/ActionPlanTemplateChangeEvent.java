@@ -34,12 +34,14 @@ public class ActionPlanTemplateChangeEvent extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public User Owner;
+	public String ProcessType;
 	public String ReplayId;
 	public String SourceType;
 	public String Status;
 	public String Subcategory;
 	public String TargetEntityType;
 	public String UniqueName;
+	public String Version;
 
 	public ActionPlanTemplateChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ActionPlanTemplateChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

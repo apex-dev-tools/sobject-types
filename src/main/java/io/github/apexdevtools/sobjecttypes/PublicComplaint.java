@@ -47,6 +47,7 @@ public class PublicComplaint extends SObject {
 	public String ReporterAddress;
 	public String ReporterCategory;
 	public String ReporterOrganization;
+	public String ResolutionSummary;
 	public String Status;
 	public String Subject;
 	public Datetime SystemModstamp;
@@ -82,6 +83,7 @@ public class PublicComplaint extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ComplaintParticipant[] PublicComplaintParticipants;
 	public RegulatoryCodeViolation[] RegCodeResponseContext;
+	public RegulatoryTrxnFee[] RegulatoryTrxnFees;
 	public PublicComplaintShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

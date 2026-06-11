@@ -36,6 +36,8 @@ public class VehicleAssetEmssnSrcChangeEvent extends SObject {
 	public String Name;
 	public Id OtherEmssnFctrId;
 	public OtherEmssnFctrSet OtherEmssnFctr;
+	public Id OthrLifecyclEmssnFctrSetId;
+	public OthrLifecyclEmssnFctrSet OthrLifecyclEmssnFctrSet;
 	public Id OwnerId;
 	public User Owner;
 	public Id ParentEmissionSourceId;

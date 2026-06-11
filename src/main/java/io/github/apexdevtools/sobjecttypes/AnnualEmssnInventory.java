@@ -63,6 +63,7 @@ public class AnnualEmssnInventory extends SObject {
 	public Decimal Scope3EmissionsPctInvestments;
 	public Decimal Scope3EmissionsPercentage;
 	public Decimal Scope3EmissionsPrivateJets;
+	public String Scope3EmissionsType;
 	public Decimal Scope3EmissionsWasteGenInOper;
 	public Decimal Scope3EmssnCapitalGoodsOvride;
 	public Decimal Scope3EmssnCmclBldOverride;
@@ -116,6 +117,8 @@ public class AnnualEmssnInventory extends SObject {
 	public Decimal Scp3EmssnUpstrmTrnspDstrOvride;
 	public Decimal Scp3EmssnUseOfSoldPrdctOvride;
 	public Decimal Scp3EmssnWasteGenInOperOvride;
+	public Decimal Scp3MktEmssnFuelEnrgy;
+	public Decimal Scp3MktFuelEnrgyOverride;
 	public Decimal Scp3UncategorizedEmssnOverride;
 	public Decimal Scp3UncatgEmssnPct;
 	public Decimal SupplementalScope3EmissionsPct;

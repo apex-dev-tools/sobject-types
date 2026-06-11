@@ -37,6 +37,7 @@ public class CareBenefitVerifyRequest extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Division;
+	public String ExternalUniqueIdentifier;
 	public Id Id;
 	public Decimal InitialFillDuration;
 	public Decimal InitialFillQuantity;
@@ -75,6 +76,7 @@ public class CareBenefitVerifyRequest extends SObject {
 	public String ResponseContentType;
 	public Integer ResponseLength;
 	public String ResponseName;
+	public String SourceSystem;
 	public String Status;
 	public String StatusReason;
 	public Datetime SystemModstamp;

@@ -40,6 +40,7 @@ public class Incident extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String MilestoneStatus;
+	public String MilestoneTimer;
 	public Id OwnerId;
 	public Name Owner;
 	public Id ParentIncidentId;

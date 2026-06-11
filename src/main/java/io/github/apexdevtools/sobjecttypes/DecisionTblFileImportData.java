@@ -7,6 +7,7 @@ package io.github.apexdevtools.sobjecttypes;
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
@@ -24,6 +25,7 @@ public class DecisionTblFileImportData extends SObject {
 	public Id Id;
 	public String InputData;
 	public Boolean IsDeleted;
+	public Boolean IsMarkedForDelete;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -39,6 +41,7 @@ public class DecisionTblFileImportData extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public DecisionTblFileImportDataShare[] Shares;
+	public Integer VersionNumber;
 
 	public DecisionTblFileImportData clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DecisionTblFileImportData clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

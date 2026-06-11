@@ -20,6 +20,7 @@ public class PersonEmployment extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Description;
 	public Address EmployerAddress;
 	public String EmployerCity;
 	public String EmployerCountry;
@@ -33,7 +34,10 @@ public class PersonEmployment extends SObject {
 	public String EmployerStateCode;
 	public String EmployerStreet;
 	public String EmploymentStatus;
+	public String EmploymentType;
 	public Date EndDate;
+	public Id HealthcareProviderId;
+	public HealthcareProvider HealthcareProvider;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -50,6 +54,8 @@ public class PersonEmployment extends SObject {
 	public Name RelatedPerson;
 	public Date StartDate;
 	public Datetime SystemModstamp;
+	public Date VerificationDate;
+	public String VerificationStatus;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

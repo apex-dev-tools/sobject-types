@@ -63,6 +63,7 @@ public class WorkCapacityLimit extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public WorkCapacityLimitHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public WorkCapacityLimitShare[] Shares;

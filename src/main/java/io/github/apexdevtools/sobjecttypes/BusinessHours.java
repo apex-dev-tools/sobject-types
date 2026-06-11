@@ -46,6 +46,7 @@ public class BusinessHours extends SObject {
 	public Case[] Cases;
 	public Entitlement[] Entitlements;
 	public Incident[] Incidents;
+	public IndividualApplication[] IndividualApplications;
 	public MessagingChannel[] MessagingChannels;
 	public WorkOrder[] WorkOrders;
 

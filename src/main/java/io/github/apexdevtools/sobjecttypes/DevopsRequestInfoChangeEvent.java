@@ -30,6 +30,8 @@ public class DevopsRequestInfoChangeEvent extends SObject {
 	public String OperationType;
 	public Id OwnerId;
 	public User Owner;
+	public Id ParentRequestInfoId;
+	public DevopsRequestInfo ParentRequestInfo;
 	public String ReplayId;
 	public Datetime RequestCompletionDate;
 	public String RequestToken;

@@ -28,6 +28,7 @@ public class BatchDataSource extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String RelatedSobjects;
 	public String SourceFieldName;
 	public String SourceTableName;
 	public Datetime SystemModstamp;

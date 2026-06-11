@@ -46,6 +46,7 @@ public class LoyaltyProgramMember extends SObject {
 	public String MembershipNumber;
 	public Id OwnerId;
 	public Name Owner;
+	public Date PreviousActivityDate;
 	public Id ProgramId;
 	public LoyaltyProgram Program;
 	public String ReferralCode;
@@ -67,6 +68,7 @@ public class LoyaltyProgramMember extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DigitalPass[] DigitalPasses;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EmailMessage[] Emails;
 	public EngagementTopic[] EngagementInitiatedTopic;
@@ -87,6 +89,7 @@ public class LoyaltyProgramMember extends SObject {
 	public LoyaltyPgmGroupMbrRlnsp[] LoyaltyPgmGroupMbrRlnsps;
 	public LoyaltyProgramMemberBadge[] LoyaltyProgramMemberBadges;
 	public LoyaltyLedger[] LoyaltyProgramMemberLedger;
+	public LoyaltyPgmMbrLinkedPtnr[] LoyaltyProgramMemberLinkages;
 	public LoyaltyMembershipLifecycle[] LoyaltyProgramMemberMembershipLifecycle;
 	public LoyaltyProgramMemberCase[] LoyaltyProgramMemberRelatedCases;
 	public LoyaltyMemberCurrency[] Loyalty_Member_Currency;

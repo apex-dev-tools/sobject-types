@@ -33,6 +33,7 @@ public class TravelMode extends SObject {
 	public Name Owner;
 	public Datetime SystemModstamp;
 	public String TransportType;
+	public Decimal TravelTimeScalingFactor;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

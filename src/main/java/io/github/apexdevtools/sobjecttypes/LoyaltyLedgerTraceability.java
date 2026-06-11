@@ -39,6 +39,8 @@ public class LoyaltyLedgerTraceability extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public Decimal Points;
+	public String ProcessingSequenceInfo;
+	public String ProcessingStatus;
 	public Datetime SystemModstamp;
 
 	public ApprovalSubmission[] ApprovalSubmissions;

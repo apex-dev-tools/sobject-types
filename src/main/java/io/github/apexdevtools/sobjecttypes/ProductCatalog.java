@@ -61,6 +61,7 @@ public class ProductCatalog extends SObject {
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public SvcProcProdCatgProdExtrc[] ProductCatalog;
 	public ProductCatalogShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;

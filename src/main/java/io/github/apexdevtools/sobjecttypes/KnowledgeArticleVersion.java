@@ -52,11 +52,13 @@ public class KnowledgeArticleVersion extends SObject {
 	public Id KnowledgeArticleId;
 	public KnowledgeArticle KnowledgeArticle;
 	public String Language;
+	public String LargeLanguageModel;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastPublishedDate;
 	public String MigratedToFromArticleVersion;
+	public Datetime NextReviewDate;
 	public Id OwnerId;
 	public Name Owner;
 	public String PublishStatus;
@@ -68,10 +70,13 @@ public class KnowledgeArticleVersion extends SObject {
 	public String UrlName;
 	public Integer VersionNumber;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CaseArticle[] CaseArticles;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LinkedArticle[] LinkedArticles;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public ProcessInstance[] ProcessInstances;

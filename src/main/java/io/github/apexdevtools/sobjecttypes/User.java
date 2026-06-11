@@ -65,6 +65,7 @@ public class User extends SObject {
 	public Individual Individual;
 	public Boolean IsActive;
 	public Boolean IsExtIndicatorVisible;
+	public Boolean IsPartner;
 	public Boolean IsPortalEnabled;
 	public Boolean IsProfilePhotoActive;
 	public Integer JigsawImportLimitOverride;
@@ -153,6 +154,7 @@ public class User extends SObject {
 	public Boolean UserPreferencesDisableWorkEmail;
 	public Boolean UserPreferencesDismissPersonalSpaceLegalMessage;
 	public Boolean UserPreferencesDismissRecordChannelsSuggestedObjects;
+	public Boolean UserPreferencesDismissReuseUpdateReminderModal;
 	public Boolean UserPreferencesEnableAutoSubForFeeds;
 	public Boolean UserPreferencesEnableLwrLexPilot;
 	public Boolean UserPreferencesEventRemindersCheckboxDefault;
@@ -233,6 +235,7 @@ public class User extends SObject {
 	public AccountUserTerritory2View[] AccountUserTerritory2Views;
 	public AdvAcctForecastFactAdj[] AdvAcctForecastFactAdjustments;
 	public ApplicationReview[] ApplicationReviews;
+	public ApplicationForm[] ApplicationForms;
 	public ApprovalSubmissionDetail[] ApprovalSubmissionDetails;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
@@ -246,6 +249,7 @@ public class User extends SObject {
 	public Benefit[] BenefitUser;
 	public BusinessLicense[] BusinessLicenses;
 	public ClinicalDetectedIssueDetail[] CDetectedIssueMitigationAuthor;
+	public CaseProceedingParticipant[] CPPParticipant;
 	public CarePerformer[] CarePerfPersonEntities;
 	public CareRequestReviewer[] CareRequestReviewers;
 	public CareTaskDetail[] CareTaskDetailDetailRecord;
@@ -271,6 +275,7 @@ public class User extends SObject {
 	public DeclinedEventRelation[] DeclinedEventRelations;
 	public User[] DelegatedUsers;
 	public Shipment[] DeliveredToShipments;
+	public DevopsActivityLog[] DevopsActivityLogs;
 	public DigitalVerification[] DigitalVerificationDesignatedVerifier;
 	public DigitalVerification[] DigitalVerificationVerifiedBy;
 	public DocumentChecklistItem[] DocumentChecklistItemUploadedBy;
@@ -307,6 +312,8 @@ public class User extends SObject {
 	public User[] ManagedUsers;
 	public NetworkMember[] NetworkMemberUsers;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToUser;
+	public ObjectUserTerritory2View[] ObjectUserTerritory2Views;
+	public OpportunityLineItemSplit[] OpportunityLineItemSplits;
 	public OpportunitySplit[] OpportunitySplits;
 	public OpportunityTeamMember[] OpportunityTeams;
 	public MedicationTherapyReview[] MedTherapyReview_Surrogates;
@@ -314,6 +321,7 @@ public class User extends SObject {
 	public CareRequest[] MedicalDirectorCareRequests;
 	public MedicationDispense[] MedicationDispense_SubstitutedBy;
 	public MessagingEndUser[] MessagingEndUsers;
+	public SfdcPartnerSbscrOffer[] OffersRespondedByUser;
 	public OmniInteractionAccessConfig[] OmniInteractionAccessConfigs;
 	public OmniDataPack[] Omni_DataPacks;
 	public CareRequest[] OriginalDenialMedicalDirectorCareRequests;

@@ -92,6 +92,7 @@ public class Event extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DeclinedEventRelation[] DeclinedEventRelations;
 	public EventRelation[] EventRelations;
+	public EventStagedInviteeEmail[] EventStagedInviteeEmails;
 	public EventWhoRelation[] EventWhoRelations;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public EventFeed[] Feeds;

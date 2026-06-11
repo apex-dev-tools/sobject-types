@@ -43,6 +43,8 @@ public class ServiceResource extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id PayGroupId;
+	public PayGroup PayGroup;
 	public Id RelatedRecordId;
 	public User RelatedRecord;
 	public String ResourceType;
@@ -63,6 +65,7 @@ public class ServiceResource extends SObject {
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DynamicDataCapture[] DynamicDataCaptures;
 	public EmailMessage[] Emails;
 	public EventRelation[] EventRelations;
 	public Event[] Events;

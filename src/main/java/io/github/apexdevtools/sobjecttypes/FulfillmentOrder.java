@@ -7,6 +7,7 @@ package io.github.apexdevtools.sobjecttypes;
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
@@ -25,6 +26,7 @@ public class FulfillmentOrder extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Datetime DeliveryDate;
 	public Id FulfilledFromLocationId;
 	public Location FulfilledFromLocation;
 	public Address FulfilledToAddress;
@@ -59,6 +61,8 @@ public class FulfillmentOrder extends SObject {
 	public Order Order;
 	public Id OwnerId;
 	public Name Owner;
+	public Integer ProcessingTimeInMinutes;
+	public Datetime StartFulfillmentDate;
 	public String Status;
 	public String StatusCategory;
 	public Datetime SystemModstamp;
@@ -108,6 +112,7 @@ public class FulfillmentOrder extends SObject {
 	public Shipment[] FulfillmentOrderShipments;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public InventoryReservation[] InventoryReservations;
 	public OpenActivity[] OpenActivities;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;

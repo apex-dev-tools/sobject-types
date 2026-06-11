@@ -28,13 +28,17 @@ public class ShippingCarrierMethod extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public String ManagedShippingCarrierMethod;
 	public Integer MaxTransitTime;
 	public Integer MinTransitTime;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Integer ProcessingTime;
+	public String ProcessingTimeUnit;
 	public Id ShippingCarrierId;
 	public ShippingCarrier ShippingCarrier;
+	public String ShippingScope;
 	public Datetime SystemModstamp;
 	public String TransitTimeUnit;
 

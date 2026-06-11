@@ -23,6 +23,7 @@ public class PrivacyRTBFRequest extends SObject {
 	public Id Id;
 	public Boolean IsDeleted;
 	public String JobRecord;
+	public String JobRecordType;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -33,6 +34,8 @@ public class PrivacyRTBFRequest extends SObject {
 	public Name Owner;
 	public Id PolicyNameId;
 	public PrivacyPolicyDefinition PolicyName;
+	public Id PrivacyRequestId;
+	public PrivacyRequest PrivacyRequest;
 	public String Status;
 	public Datetime SystemModstamp;
 
@@ -55,6 +58,7 @@ public class PrivacyRTBFRequest extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public PrivacyRTBFRequestHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public PrivacyJobSession[] PrivacyRtbfRequestJobSessions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

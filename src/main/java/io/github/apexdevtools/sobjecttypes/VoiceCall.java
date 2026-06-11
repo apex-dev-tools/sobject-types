@@ -65,6 +65,7 @@ public class VoiceCall extends SObject {
 	public CombinedAttachment[] CombinedAttachments;
 	public ContactRequest[] ContactRequests;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ConvEntryRelatedRecordCopy[] ConvEntryRelatedRecordCopies;
 	public ConversationEntry[] ConversationEntries;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EngagementAttendee[] EngagementAttendees;
@@ -72,6 +73,7 @@ public class VoiceCall extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public VoiceCallFeed[] Feeds;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public VoiceCallHistory[] Histories;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public VoiceCallShare[] Shares;

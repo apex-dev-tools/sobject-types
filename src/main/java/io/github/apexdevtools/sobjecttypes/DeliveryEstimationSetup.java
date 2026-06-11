@@ -28,6 +28,7 @@ public class DeliveryEstimationSetup extends SObject {
 	public Integer DefaultProcessingTime;
 	public String DefaultProcessingTimeUnit;
 	public String ExternalReference;
+	public Time FridayPickUpTime;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsEnabled;
@@ -42,12 +43,19 @@ public class DeliveryEstimationSetup extends SObject {
 	public Datetime LastViewedDate;
 	public Id LocationGroupId;
 	public LocationGroup LocationGroup;
+	public Time MondayPickUpTime;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public String RoutingType;
+	public Time SaturdayPickUpTime;
 	public String ServiceRegion;
+	public Time SundayPickUpTime;
 	public String SyncStatus;
 	public Datetime SystemModstamp;
+	public Time ThursdayPickUpTime;
+	public Time TuesdayPickUpTime;
+	public Time WednesdayPickUpTime;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

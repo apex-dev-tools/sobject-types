@@ -16,6 +16,7 @@ public class SurveyQuestion extends SObject {
 	public static SObjectType$<SurveyQuestion> SObjectType;
 	public static SObjectFields$<SurveyQuestion> Fields;
 
+	public String AdditionalInfo;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -30,6 +31,7 @@ public class SurveyQuestion extends SObject {
 	public String Name;
 	public Integer PageDisplayOrder;
 	public String PageName;
+	public Integer QuestionChoiceCount;
 	public String QuestionName;
 	public Integer QuestionOrder;
 	public String QuestionType;

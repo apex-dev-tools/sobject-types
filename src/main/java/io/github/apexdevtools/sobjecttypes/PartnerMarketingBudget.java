@@ -44,6 +44,8 @@ public class PartnerMarketingBudget extends SObject {
 	public String Type;
 
 	public ActivityHistory[] ActivityHistories;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
@@ -52,6 +54,7 @@ public class PartnerMarketingBudget extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public PartnerMarketingBudgetFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public PartnerMarketingBudgetHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

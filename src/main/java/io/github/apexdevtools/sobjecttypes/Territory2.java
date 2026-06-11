@@ -40,7 +40,9 @@ public class Territory2 extends SObject {
 	public AccountUserTerritory2View[] AccountUserTerritory2Views;
 	public Territory2ObjSharingConfig[] ObjectTerritory2Access;
 	public ObjectTerritory2Association[] ObjectTerritory2Associations;
+	public ObjectUserTerritory2View[] ObjectUserTerritory2Views;
 	public RuleTerritory2Association[] RuleTerritory2Associations;
+	public SurveySubject[] SurveySubjectEntities;
 	public Territory2ObjectExclusion[] Territory2ObjectExclusions;
 	public UserTerritory2Association[] UserTerritory2Associations;
 

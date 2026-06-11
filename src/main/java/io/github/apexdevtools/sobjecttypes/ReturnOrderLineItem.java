@@ -94,12 +94,14 @@ public class ReturnOrderLineItem extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ReturnOrderLineItemHistory[] Histories;
+	public InventoryItemReservation[] InventoryReservationSources;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ProductItemTransaction[] ProductItemTransactions;
 	public ProductTransfer[] ProductTransfers;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;

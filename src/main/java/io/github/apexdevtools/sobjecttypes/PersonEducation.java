@@ -15,6 +15,8 @@ public class PersonEducation extends SObject {
 	public static SObjectType$<PersonEducation> SObjectType;
 	public static SObjectFields$<PersonEducation> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public String CertificateIdentifier;
 	public Datetime CompletionDate;
 	public Id ContactId;

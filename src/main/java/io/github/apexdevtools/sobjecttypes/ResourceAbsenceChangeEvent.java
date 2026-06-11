@@ -17,6 +17,7 @@ public class ResourceAbsenceChangeEvent extends SObject {
 
 	public String AbsenceNumber;
 	public Address Address;
+	public String ApprovalStatus;
 	public Object ChangeEventHeader;
 	public String City;
 	public String Country;
@@ -29,6 +30,7 @@ public class ResourceAbsenceChangeEvent extends SObject {
 	public Datetime End;
 	public String GeocodeAccuracy;
 	public Id Id;
+	public Boolean IsAbsenceTravelFromHomeBase;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

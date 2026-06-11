@@ -38,6 +38,8 @@ public class VehicleAssetEmssnSrc extends SObject {
 	public String Name;
 	public Id OtherEmssnFctrId;
 	public OtherEmssnFctrSet OtherEmssnFctr;
+	public Id OthrLifecyclEmssnFctrSetId;
+	public OthrLifecyclEmssnFctrSet OthrLifecyclEmssnFctrSet;
 	public Id OwnerId;
 	public Name Owner;
 	public Id ParentEmissionSourceId;

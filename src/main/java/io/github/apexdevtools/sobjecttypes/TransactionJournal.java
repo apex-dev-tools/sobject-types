@@ -25,9 +25,12 @@ public class TransactionJournal extends SObject {
 	public String Brand;
 	public String Channel;
 	public String Comment;
+	public Id CouponId;
+	public Coupon Coupon;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CreationSourceType;
 	public Decimal CreditAmount;
 	public String CurrencyIsoCode;
 	public Decimal DebitAmount;
@@ -50,6 +53,7 @@ public class TransactionJournal extends SObject {
 	public Boolean IsAdjustmentJournalEntry;
 	public Boolean IsDeleted;
 	public Boolean IsHistoricalJournalEntry;
+	public Boolean IsParentTransaction;
 	public Boolean IsRelatedJournalEntry;
 	public Boolean IsWriteOffJournalEntry;
 	public Datetime JournalDate;

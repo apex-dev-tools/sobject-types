@@ -66,6 +66,7 @@ public class Coupon extends SObject {
 	public CouponShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TransactionJournal[] TransactionalJournalCoupons;
 
 	public Coupon clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Coupon clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

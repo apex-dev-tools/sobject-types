@@ -29,6 +29,7 @@ public class ForecastingColumnDefinition extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
+	public String ReferenceField;
 	public String ResultField;
 	public Datetime SystemModstamp;
 

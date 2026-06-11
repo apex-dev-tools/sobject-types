@@ -90,6 +90,7 @@ public class MemberPlan extends SObject {
 	public Note[] MemberPlanNotes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public CareProgramEnrollee[] PrimaryMemberCareProgramEnrollees;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;

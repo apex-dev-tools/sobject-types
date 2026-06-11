@@ -26,9 +26,12 @@ public class TransactionJournalChangeEvent extends SObject {
 	public Object ChangeEventHeader;
 	public String Channel;
 	public String Comment;
+	public Id CouponId;
+	public Coupon Coupon;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CreationSourceType;
 	public String CurrencyIsoCode;
 	public String Destination;
 	public Decimal Distance;
@@ -48,6 +51,7 @@ public class TransactionJournalChangeEvent extends SObject {
 	public Boolean IsAccrualJournalEntry;
 	public Boolean IsAdjustmentJournalEntry;
 	public Boolean IsHistoricalJournalEntry;
+	public Boolean IsParentTransaction;
 	public Boolean IsRelatedJournalEntry;
 	public Boolean IsWriteOffJournalEntry;
 	public Datetime JournalDate;

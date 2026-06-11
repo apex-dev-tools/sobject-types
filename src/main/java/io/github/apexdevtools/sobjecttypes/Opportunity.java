@@ -83,6 +83,7 @@ public class Opportunity extends SObject {
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApplicationForm[] ApplicationForms;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
@@ -91,6 +92,7 @@ public class Opportunity extends SObject {
 	public ContactRequest[] ContactRequests;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public Contract[] Contracts;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public EmailMessage[] Emails;
@@ -105,6 +107,7 @@ public class Opportunity extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public OpportunityFieldHistory[] Histories;
 	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
+	public Invoice[] Invoices;
 	public ResidentialLoanApplication[] Lending_Applications;
 	public ListEmail[] ListEmails;
 	public MessagingSession[] MessagingSessions;
@@ -122,6 +125,7 @@ public class Opportunity extends SObject {
 	public OpportunityTeamMember[] OpportunityTeamMembers;
 	public Order[] Orders;
 	public NetworkActivityAudit[] ParentEntities;
+	public ExtlRecShrStagedRecord[] ParentRecords;
 	public Partner[] Partners;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

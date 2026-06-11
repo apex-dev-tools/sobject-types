@@ -36,6 +36,8 @@ public class ContentDocumentChangeEvent extends SObject {
 	public Datetime LastModifiedDate;
 	public Id LatestPublishedVersionId;
 	public ContentVersion LatestPublishedVersion;
+	public Datetime MalwareScanDate;
+	public String MalwareScanStatus;
 	public Id OwnerId;
 	public User Owner;
 	public Id ParentId;

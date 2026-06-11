@@ -48,6 +48,8 @@ public class CareProgramEnrolleeChangeEvent extends SObject {
 	public String OptOutReasonType;
 	public Id OwnerId;
 	public User Owner;
+	public Id PrimaryMemberPlanId;
+	public MemberPlan PrimaryMemberPlan;
 	public String ReplayId;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;

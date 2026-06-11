@@ -49,6 +49,7 @@ public class TransactionUsageEntitlement extends SObject {
 	public Decimal NetQuantity;
 	public Id OrderItemId;
 	public Name OrderItem;
+	public Datetime OriginalEndDate;
 	public Id OwnerId;
 	public Name Owner;
 	public Id PricebookEntryId;

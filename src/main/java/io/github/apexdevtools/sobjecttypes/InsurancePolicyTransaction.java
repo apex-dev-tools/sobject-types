@@ -15,7 +15,9 @@ public class InsurancePolicyTransaction extends SObject {
 	public static SObjectType$<InsurancePolicyTransaction> SObjectType;
 	public static SObjectFields$<InsurancePolicyTransaction> Fields;
 
+	public String BillingStatus;
 	public String Category;
+	public Decimal CommissionAmount;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -37,6 +39,8 @@ public class InsurancePolicyTransaction extends SObject {
 	public Id ParentTransactionId;
 	public InsurancePolicyTransaction ParentTransaction;
 	public Date PostedDate;
+	public Id PriorTransactionId;
+	public InsurancePolicyTransaction PriorTransaction;
 	public String Status;
 	public Datetime SystemModstamp;
 	public Decimal TotalTransactionAmount;
@@ -76,6 +80,7 @@ public class InsurancePolicyTransaction extends SObject {
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
+	public InsurancePolicyTransaction[] PriorTransactions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProducerCommission[] ProducerCommissions;

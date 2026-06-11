@@ -25,6 +25,7 @@ public class ApprovalWorkItemCondition extends SObject {
 	public String CurrencyIsoCode;
 	public Boolean HasEvaluationSucceeded;
 	public Id Id;
+	public Boolean IsConditionExcluded;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -37,11 +38,32 @@ public class ApprovalWorkItemCondition extends SObject {
 	public String RightValueDataType;
 	public Datetime SystemModstamp;
 
+	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
+	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
+	public Event[] Events;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public ApprovalWorkItemConditionFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
+	public ApprovalWorkItemConditionHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
+	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public TaskRelation[] TaskRelations;
+	public Task[] Tasks;
 
 	public ApprovalWorkItemCondition clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ApprovalWorkItemCondition clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

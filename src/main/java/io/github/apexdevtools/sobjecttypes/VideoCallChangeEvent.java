@@ -36,6 +36,7 @@ public class VideoCallChangeEvent extends SObject {
 	public Integer IntelligenceScore;
 	public Boolean IsCallCoachingIncluded;
 	public Boolean IsDiarizationOptIn;
+	public Boolean IsLegacyProcessingSkipped;
 	public Boolean IsRecorded;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

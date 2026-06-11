@@ -21,6 +21,8 @@ public class EventBusSubscriber extends SObject {
 	public Id Id;
 	public Boolean IsPartitioned;
 	public String LastError;
+	public String LastProcessed;
+	public String LastPublished;
 	public String Name;
 	public Integer Position;
 	public Integer Retries;

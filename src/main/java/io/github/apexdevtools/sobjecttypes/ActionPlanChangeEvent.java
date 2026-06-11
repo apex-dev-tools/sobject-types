@@ -35,6 +35,7 @@ public class ActionPlanChangeEvent extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public User Owner;
+	public String ProcessType;
 	public String RecordCreationType;
 	public Id RecurringScheduleId;
 	public RecurrenceSchedule RecurringSchedule;
@@ -45,6 +46,7 @@ public class ActionPlanChangeEvent extends SObject {
 	public String StatusCode;
 	public Id TargetId;
 	public SObject Target;
+	public String Version;
 
 	public ActionPlanChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ActionPlanChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

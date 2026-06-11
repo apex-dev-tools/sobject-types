@@ -20,6 +20,10 @@ public class LogoutEvent extends SObject {
 	public String EventIdentifier;
 	public Id Id;
 	public String LoginKey;
+	public Id ProfileId;
+	public Profile Profile;
+	public Id RoleId;
+	public UserRole Role;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

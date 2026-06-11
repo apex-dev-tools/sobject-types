@@ -54,6 +54,7 @@ public class CartDeliveryGroupChangeEvent extends SObject {
 	public String ShipToPhoneNumber;
 	public String ShippingInstructions;
 	public Integer TotalCartItemCount;
+	public Decimal TotalCartItemQuantity;
 
 	public CartDeliveryGroupChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CartDeliveryGroupChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

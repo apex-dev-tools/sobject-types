@@ -125,6 +125,7 @@ public class PartyProfile extends SObject {
 	public PartyExpense[] PartyExpenseParty;
 	public PartyFinancialAsset[] PartyFinAssetParty;
 	public PartyIncome[] PartyIncomes;
+	public PartyProfileAddress[] PartyProfileAddresses;
 	public PersonEmployment[] PersonEmploymentDetails;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;

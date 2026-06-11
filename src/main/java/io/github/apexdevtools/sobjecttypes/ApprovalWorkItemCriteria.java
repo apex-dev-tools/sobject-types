@@ -32,12 +32,33 @@ public class ApprovalWorkItemCriteria extends SObject {
 	public String RequirementLogic;
 	public Datetime SystemModstamp;
 
+	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItemCondition[] ApprovalWorkItemConditions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
+	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
+	public Event[] Events;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public ApprovalWorkItemCriteriaFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
+	public ApprovalWorkItemCriteriaHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
+	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public TaskRelation[] TaskRelations;
+	public Task[] Tasks;
 
 	public ApprovalWorkItemCriteria clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ApprovalWorkItemCriteria clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

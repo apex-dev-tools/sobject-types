@@ -104,6 +104,7 @@ public class Contact extends SObject {
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public ApplicationForm[] ApplicationForms;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AssetContactParticipant[] AssetContactParticipantContact;
@@ -118,6 +119,7 @@ public class Contact extends SObject {
 	public Applicant[] BusinessContactApplicants;
 	public BusinessLicense[] BusinessLicenses;
 	public ClaimParticipant[] CPContacts;
+	public CaseProceedingParticipant[] CPPParticipant;
 	public CampaignMember[] CampaignMembers;
 	public CarePerformer[] CarePerfPersonEntities;
 	public CareProviderAdverseAction[] CareProviderAdverseActions;
@@ -147,6 +149,7 @@ public class Contact extends SObject {
 	public CreditMemo[] CreditMemos;
 	public DiagnosticSummary[] DSumAuthenticatorDomain;
 	public DeclinedEventRelation[] DeclinedEventRelations;
+	public DigitalPass[] DigitalPasses;
 	public DistributorAuthorization[] DistributorAuthorizations;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
@@ -189,10 +192,12 @@ public class Contact extends SObject {
 	public InfoAuthorizationRequest[] InfoAuthRequestPertainsTo;
 	public InfoAuthorizationRequest[] InfoAuthRequestRequesters;
 	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
+	public InsPolicyBillingInfo[] InsPolicyBillingInfos;
 	public InsuranceProfile[] InsuranceProfiles;
 	public Invoice[] Invoices;
 	public SurveyInvitation[] LeadSurveyInvitations;
 	public ListEmailIndividualRecipient[] ListEmailIndividualRecipients;
+	public ListEmailSentResult[] ListEmailRecipients;
 	public ListEmail[] ListEmails;
 	public LoanApplicant[] LoanApplicants;
 	public LoyaltyProgramMember[] LoyaltyProgramMemberContact;
@@ -209,7 +214,9 @@ public class Contact extends SObject {
 	public OpportunityContactRole[] OpportunityContactRoles;
 	public OutgoingEmailRelation[] OutgoingEmailRelations;
 	public NetworkActivityAudit[] ParentEntities;
+	public ExtlRecShrStagedRecord[] ParentRecords;
 	public GameParticipant[] Participants;
+	public PartyCategory[] PartyCategories;
 	public PartyExpense[] PartyExpenseParty;
 	public PartyExpense[] PartyExpensePayee;
 	public PartyExpense[] PartyExpensePayer;

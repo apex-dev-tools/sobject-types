@@ -44,11 +44,13 @@ public class LoyaltyTier extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LoyaltyTierHistory[] Histories;
 	public LoyaltyMemberTier[] LoyaltyTier;
+	public LoyaltyPgmCurrencyExtPrd[] LoyaltyTierLoyaltyPgmCurrencyExtPrds;
 	public LoyaltyTierMshpFeeOption[] LoyaltyTierMshpOptions;
 	public LoyaltyTierPromotion[] LoyaltyTierPromotions;
 	public LoyaltyTierBenefit[] LoyaltyTiers;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public LoyaltyPgmCurrencyExtPrd[] TargetAudienceLoyaltyPgmCurrencyExtPrds;
 
 	public LoyaltyTier clone$() {throw new java.lang.UnsupportedOperationException();}
 	public LoyaltyTier clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

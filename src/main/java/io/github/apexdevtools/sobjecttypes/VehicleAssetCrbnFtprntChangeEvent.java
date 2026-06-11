@@ -44,6 +44,7 @@ public class VehicleAssetCrbnFtprntChangeEvent extends SObject {
 	public Decimal Scp3EmssnDnstrmLsdAst;
 	public Decimal Scp3EmssnDnstrmTrnspDstr;
 	public Decimal Scp3EmssnEmpComut;
+	public Decimal Scp3EmssnFuelEnrgy;
 	public Decimal Scp3EmssnUpstrmTrnspDstr;
 	public Decimal Scp3UncategorizedEmssn;
 	public Date StartDate;

@@ -135,6 +135,7 @@ public class HealthcareProvider extends SObject {
 	public OpenActivity[] OpenActivities;
 	public PatientMedicalProcedure[] PMP_AssertionSource;
 	public PersonEducation[] PersonEducations;
+	public PersonEmployment[] PersonEmployments;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public CareProviderSearchableField[] ProviderCareProviderSearchableField;

@@ -75,6 +75,7 @@ public class Case extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApplicationCase[] ApplicationCases;
+	public ApplicationFormRelation[] ApplicationFormRelations;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
@@ -95,6 +96,7 @@ public class Case extends SObject {
 	public CaseGatewayRequest[] CaseGatewayRequests;
 	public CaseMilestone[] CaseMilestones;
 	public CaseParticipant[] CaseParticipantCase;
+	public CaseProceeding[] CaseProceedingCase;
 	public CaseRelatedIssue[] CaseRelatedIssues;
 	public LoyaltyProgramMemberCase[] CaseRelatedLoyaltyProgramMembers;
 	public CaseSolution[] CaseSolutions;
@@ -102,6 +104,7 @@ public class Case extends SObject {
 	public ChangeRequestRelatedIssue[] ChangeRequestRelatedIssues;
 	public Claim[] Claims;
 	public ClinicalEncounter[] ClinicalEncounterCases;
+	public ClinicalServiceRequest[] ClinicalServiceRequests;
 	public CombinedAttachment[] CombinedAttachments;
 	public ComplaintCase[] ComplaintCaseCase;
 	public ContactEncounterParticipant[] ContactEncounterParticipantCases;
@@ -112,6 +115,7 @@ public class Case extends SObject {
 	public DiagnosticSummary[] DiagnosticSummaryCases;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
+	public DuplicateRecordItem[] DuplicateRecordItems;
 	public EmailMessage[] EmailMessages;
 	public EmailMessage[] Emails;
 	public EngagementTopic[] EngagementInitiatedTopic;
@@ -136,6 +140,7 @@ public class Case extends SObject {
 	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
+	public ExtlRecShrStagedRecord[] ParentRecords;
 	public SocialPost[] Posts;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;
@@ -149,6 +154,7 @@ public class Case extends SObject {
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
 	public AuthorNote[] RecordAuthorNotes;
 	public RegulatoryCodeViolation[] RegCodeResponseContext;
+	public RegulatoryTrxnFee[] RegulatoryTrxnFees;
 	public VoiceCall[] RelatedRecords;
 	public ReturnOrder[] ReturnOrders;
 	public ServiceAppointment[] ServiceAppointments;

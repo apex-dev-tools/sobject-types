@@ -20,11 +20,16 @@ public class PrivacyRequest extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String DataSubjectEmail;
+	public Datetime DueDate;
+	public String ExecutionStatus;
+	public String FirstName;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String LastName;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
@@ -59,6 +64,7 @@ public class PrivacyRequest extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public PrivacyRTBFRequest[] PrivacyRTBFRequests;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public PrivacyRequestShare[] Shares;

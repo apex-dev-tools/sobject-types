@@ -36,6 +36,7 @@ public class VideoCall extends SObject {
 	public Boolean IsCallCoachingIncluded;
 	public Boolean IsDeleted;
 	public Boolean IsDiarizationOptIn;
+	public Boolean IsLegacyProcessingSkipped;
 	public Boolean IsRecorded;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

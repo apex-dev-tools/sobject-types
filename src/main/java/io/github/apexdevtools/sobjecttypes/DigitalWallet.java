@@ -27,6 +27,7 @@ public class DigitalWallet extends SObject {
 	public String Customer;
 	public String DigitalWalletNumber;
 	public String Email;
+	public String ExtendedPaymentMethodType;
 	public String GatewayToken;
 	public String GatewayTokenDetails;
 	public Blob GatewayTokenEncrypted;

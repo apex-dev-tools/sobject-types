@@ -75,6 +75,7 @@ public class Visit extends SObject {
 	public DigitalSignature[] DigitalSignatures;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
+	public DynamicDataCapture[] DynamicDataCaptures;
 	public EmailMessage[] Emails;
 	public EngagementInteraction[] EngagementContext;
 	public EventRelation[] EventRelations;

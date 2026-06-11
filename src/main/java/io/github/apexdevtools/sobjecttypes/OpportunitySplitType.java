@@ -35,6 +35,8 @@ public class OpportunitySplitType extends SObject {
 	public String SplitField;
 	public Datetime SystemModstamp;
 
+	public OpptyLineItemSplitType[] OpptyLineItemSplitTypes;
+
 	public OpportunitySplitType clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OpportunitySplitType clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public OpportunitySplitType clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

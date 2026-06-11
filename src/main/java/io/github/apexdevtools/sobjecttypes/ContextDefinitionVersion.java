@@ -8,6 +8,7 @@ import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
+import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
 @SuppressWarnings("unused")
@@ -22,6 +23,7 @@ public class ContextDefinitionVersion extends SObject {
 	public Datetime CreatedDate;
 	public Datetime EndDate;
 	public Id Id;
+	public String InheritedApexVersion;
 	public Boolean IsActive;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

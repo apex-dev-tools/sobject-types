@@ -26,6 +26,7 @@ public class BenefitDisbursement extends SObject {
 	public String CurrencyIsoCode;
 	public String Description;
 	public Decimal DisbursedQuantity;
+	public String DisbursementMethod;
 	public String DisbursementStatus;
 	public Datetime EndDate;
 	public Decimal EntitlementAmount;

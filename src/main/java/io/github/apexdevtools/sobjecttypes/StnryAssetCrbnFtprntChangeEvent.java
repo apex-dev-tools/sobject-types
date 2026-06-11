@@ -103,6 +103,7 @@ public class StnryAssetCrbnFtprntChangeEvent extends SObject {
 	public Decimal Scp3EmssnWstGenInOper;
 	public Decimal Scp3EndLifeTreatSoldPrdct;
 	public Decimal Scp3FuelEnrgyRelaActv;
+	public Decimal Scp3MktEmssnFuelEnrgy;
 	public Decimal Scp3UncategorizedEmssn;
 	public Date StartDate;
 	public Id StnryAssetEnvrSrcId;

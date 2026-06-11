@@ -16,6 +16,7 @@ public class InsPolicyTransactionDetailChangeEvent extends SObject {
 	public static SObjectFields$<InsPolicyTransactionDetailChangeEvent> Fields;
 
 	public Object ChangeEventHeader;
+	public String ChargeType;
 	public Decimal Commission;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -30,9 +31,13 @@ public class InsPolicyTransactionDetailChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public Id ParentTransactionDetailId;
+	public InsPolicyTransactionDetail ParentTransactionDetail;
 	public Decimal Premium;
 	public Id ReferenceObjectId;
 	public SObject ReferenceObject;
+	public Id ReferenceObjectVersionId;
+	public SObject ReferenceObjectVersion;
 	public String ReplayId;
 	public Decimal Tax;
 

@@ -58,6 +58,7 @@ public class RegulatoryTrxnFee extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public RegulatoryTrxnFeeHistory[] Histories;
+	public Invoice[] Invoices;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

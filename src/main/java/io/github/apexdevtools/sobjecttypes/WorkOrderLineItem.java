@@ -126,6 +126,7 @@ public class WorkOrderLineItem extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public WorkOrderLineItemHistory[] Histories;
 	public LinkedArticle[] LinkedArticles;
+	public InventoryItemReservation[] InventoryReservationSources;
 	public WorkPlan[] NewWorkPlans;
 	public WorkStep[] NewWorkSteps;
 	public Note[] Notes;

@@ -84,9 +84,11 @@ public class Task extends SObject {
 	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
 	public Task[] RecurringTasks;
 	public SurveySubject[] SurveySubjectEntities;
+	public ListEmailSentResult[] SentResultActivities;
 	public AssessmentTask[] TaskDefinitions;
 	public TaskRelation[] TaskRelations;
 	public TaskWhoRelation[] TaskWhoRelations;
+	public SustainabilityTask[] Tasktracker;
 	public TopicAssignment[] TopicAssignments;
 	public UserDefinedLabelAssignment[] UserDefinedLabelAssignments;
 	public VoiceCall[] VoiceCallActivities;

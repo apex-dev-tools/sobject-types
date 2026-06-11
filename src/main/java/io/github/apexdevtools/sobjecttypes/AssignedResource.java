@@ -27,6 +27,7 @@ public class AssignedResource extends SObject {
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsRequiredResource;
+	public Boolean IsTravelFromHomeBase;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

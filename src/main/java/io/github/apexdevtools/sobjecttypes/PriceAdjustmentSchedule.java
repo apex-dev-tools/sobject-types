@@ -62,6 +62,7 @@ public class PriceAdjustmentSchedule extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public PriceAdjustmentProductRule[] PasPriceAdjustmentProductRule;
 	public PriceAdjustmentTier[] PriceAdjustmentTiers;
 	public PriceAdjustmentScheduleShare[] Shares;
 	public TaskRelation[] TaskRelations;

@@ -35,6 +35,8 @@ public class SurveyVersion extends SObject {
 	public Id SurveyId;
 	public Survey Survey;
 	public String SurveyStatus;
+	public Id SurveyStyleSetId;
+	public SurveyStyleSet SurveyStyleSet;
 	public Datetime SystemModstamp;
 	public Integer VersionNumber;
 

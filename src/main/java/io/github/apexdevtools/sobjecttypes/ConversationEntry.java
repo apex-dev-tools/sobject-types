@@ -53,6 +53,7 @@ public class ConversationEntry extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public ConvEntryRelatedRecordCopy[] ConvEntryRelatedRecordCopies;
 
 	public ConversationEntry clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ConversationEntry clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

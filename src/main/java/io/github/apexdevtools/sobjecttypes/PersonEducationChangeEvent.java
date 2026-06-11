@@ -15,6 +15,8 @@ public class PersonEducationChangeEvent extends SObject {
 	public static SObjectType$<PersonEducationChangeEvent> SObjectType;
 	public static SObjectFields$<PersonEducationChangeEvent> Fields;
 
+	public Id AccountId;
+	public Account Account;
 	public String CertificateIdentifier;
 	public Object ChangeEventHeader;
 	public Datetime CompletionDate;

@@ -17,6 +17,7 @@ public class ApplicationFormChangeEvent extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public String ApplicationStatus;
 	public String ApplicationSummary;
 	public Object ChangeEventHeader;
 	public Date CompletionDate;
@@ -36,6 +37,9 @@ public class ApplicationFormChangeEvent extends SObject {
 	public Opportunity Opportunity;
 	public Id OwnerId;
 	public User Owner;
+	public String Purpose;
+	public Id ReferenceRecordId;
+	public Benefit ReferenceRecord;
 	public String ReplayId;
 	public Decimal Score;
 	public String ScoreReason;
@@ -43,6 +47,9 @@ public class ApplicationFormChangeEvent extends SObject {
 	public String Stage;
 	public String SubType;
 	public Date SubmissionDate;
+	public Id SubmittedById;
+	public SObject SubmittedBy;
+	public String Title;
 	public String Type;
 	public String UsageType;
 

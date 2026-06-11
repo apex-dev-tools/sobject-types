@@ -43,6 +43,7 @@ public class Promotion extends SObject {
 	public Id Id;
 	public String ImageUrl;
 	public Boolean IsActive;
+	public Boolean IsApproachingDiscountApplicable;
 	public Boolean IsAutomatic;
 	public Boolean IsCloned;
 	public Boolean IsCommercePromotion;
@@ -73,7 +74,9 @@ public class Promotion extends SObject {
 	public Name Owner;
 	public Decimal PointFactor;
 	public Integer PriorityNumber;
+	public String PromotionCode;
 	public String PromotionConfiguration;
+	public String PromotionPageUrl;
 	public String QualifierCriteria;
 	public Id RelatedPromotionId;
 	public Promotion RelatedPromotion;
@@ -90,6 +93,7 @@ public class Promotion extends SObject {
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public AssetActionSrcPriceAdjustment[] AssetActionSrcPriceAdjustments;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
@@ -110,6 +114,7 @@ public class Promotion extends SObject {
 	public LoyaltyLedger[] LedgerPromotion;
 	public LoyaltyProgramMbrPromotion[] LoyaltyProgramMbrPromotions;
 	public PromotionLoyaltyPtnrProdt[] LoyaltyPromotion;
+	public LoyaltyTierPromotion[] LoyaltyPromotionTiers;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
@@ -120,6 +125,7 @@ public class Promotion extends SObject {
 	public CartItemPriceAdjustment[] PriceAdjustmentItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public LoyaltyProgramWidget[] Promotion;
 	public Coupon[] PromotionCoupons;
 	public LoyaltyPgmEngmtAttrProm[] PromotionEngagementAttributes;
 	public PromotionMarketSegment[] PromotionMarketSegments;
@@ -128,6 +134,7 @@ public class Promotion extends SObject {
 	public LoyaltyProgramProcessRule[] PromotionRules;
 	public PromotionTarget[] PromotionTargets;
 	public PromotionTier[] PromotionTiers;
+	public PromotionPartyUsage[] PromotionUsages;
 	public LoyaltyPgmMbrPromEligView[] PromotionsEligibility;
 	public Promotion[] RelatedPromotions;
 	public PromotionShare[] Shares;

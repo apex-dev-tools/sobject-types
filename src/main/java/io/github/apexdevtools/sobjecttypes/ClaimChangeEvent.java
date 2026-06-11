@@ -23,6 +23,7 @@ public class ClaimChangeEvent extends SObject {
 	public Id CaseId;
 	public Case Case;
 	public Object ChangeEventHeader;
+	public Date ClaimLossDate;
 	public String ClaimReason;
 	public String ClaimReasonType;
 	public String ClaimType;
@@ -67,6 +68,7 @@ public class ClaimChangeEvent extends SObject {
 	public InsurancePolicy PolicyNumber;
 	public Id ProductId;
 	public Product2 Product;
+	public String RecordSource;
 	public String RenewalChannel;
 	public String RepairShop;
 	public String RepairShopLocation;

@@ -26,6 +26,7 @@ public class LoyaltyProgramPartner extends SObject {
 	public Decimal DebitedPoints;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsMemberLinkingAllowed;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -36,6 +37,8 @@ public class LoyaltyProgramPartner extends SObject {
 	public Account LoyaltyPartner;
 	public Id LoyaltyProgramId;
 	public LoyaltyProgram LoyaltyProgram;
+	public Datetime MemberLinkingEffEndDate;
+	public Datetime MemberLinkingEffStartDate;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
@@ -58,6 +61,7 @@ public class LoyaltyProgramPartner extends SObject {
 	public LoyaltyPartnerProduct[] LoyaltyPartnerProducts;
 	public LoyaltyPgmPartnerPromotion[] LoyaltyPgmPartnerPromotions;
 	public LoyaltyPgmPartnerCurrency[] LoyaltyProgramPartnerCurrencies;
+	public LoyaltyPgmMbrLinkedPtnr[] LoyaltyProgramPartnerLinkages;
 	public LoyaltyPgmPtnrPrepaidPack[] LoyaltyProgramPartnerPrepaidPacks;
 	public PromotionLoyaltyPtnrProdt[] LoyaltyPromotionPartner;
 	public LoyaltyPgmPtnrLdgrSummary[] PartnerLedgerSummaryPartners;
