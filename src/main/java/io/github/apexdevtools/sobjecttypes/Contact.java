@@ -37,6 +37,7 @@ public class Contact extends SObject {
 	public String EmailBouncedReason;
 	public String Fax;
 	public String FirstName;
+	public String GenderIdentity;
 	public Boolean HasOptedOutOfEmail;
 	public Boolean HasOptedOutOfFax;
 	public Boolean HasPrivacyHold;
@@ -91,6 +92,7 @@ public class Contact extends SObject {
 	public User Owner;
 	public String Phone;
 	public String PhotoUrl;
+	public String Pronouns;
 	public Id ReportsToId;
 	public Contact ReportsTo;
 	public String Salutation;

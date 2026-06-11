@@ -91,6 +91,7 @@ public class Account extends SObject {
 	public Datetime PersonEmailBouncedDate;
 	public String PersonEmailBouncedReason;
 	public String PersonGender;
+	public String PersonGenderIdentity;
 	public String PersonHomePhone;
 	public Id PersonIndividualId;
 	public Individual PersonIndividual;
@@ -122,6 +123,7 @@ public class Account extends SObject {
 	public String PersonOtherState;
 	public String PersonOtherStateCode;
 	public String PersonOtherStreet;
+	public String PersonPronouns;
 	public Integer PersonSequenceInMultipleBirth;
 	public String PersonTitle;
 	public String Phone;

@@ -36,6 +36,7 @@ public class ContactChangeEvent extends SObject {
 	public String EmailBouncedReason;
 	public String Fax;
 	public String FirstName;
+	public String GenderIdentity;
 	public Boolean HasOptedOutOfEmail;
 	public Boolean HasOptedOutOfFax;
 	public String HomePhone;
@@ -80,6 +81,7 @@ public class ContactChangeEvent extends SObject {
 	public Id OwnerId;
 	public User Owner;
 	public String Phone;
+	public String Pronouns;
 	public String ReplayId;
 	public Id ReportsToId;
 	public Contact ReportsTo;
