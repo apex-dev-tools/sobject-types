@@ -28,6 +28,9 @@
 
 package com.financialforce.tools
 
+import com.sforce.soap.partner.DescribeSObjectResult
+import com.sforce.ws.ConnectionException
+
 import java.io.{BufferedWriter, FileWriter}
 import java.nio.file.{Files, Paths}
 
@@ -40,7 +43,12 @@ object SObjectToJava {
       case _ => println("Usage: SObjectToJava <username> <password> <instance> <api>"); return
     }
 
-    val connectionResult = SFConnection.login(args(0), args(1), args(2), args(3))
+    // An https:// instance means args(1) is a session ID/access token rather than a password
+    val connectionResult =
+      if (args(2).startsWith("https://"))
+        SFConnection.fromSession(args(0), args(1), args(2), args(3))
+      else
+        SFConnection.login(args(0), args(1), args(2), args(3))
     if (connectionResult.isLeft) {
       println(connectionResult.swap.getOrElse("Connection failed"))
       return
@@ -53,12 +61,31 @@ object SObjectToJava {
       .filterNot(dfr => dfr.getCustom || dfr.getCustomSetting)
       .map(_.getName)
 
+    // Describes can fail when an org returns metadata the WSC client version does not
+    // understand, e.g. a field type added after the client release. Retry failing
+    // batches per-object so one bad SObject does not lose the other 99.
+    def describeBatch(grp: Array[String]): Array[DescribeSObjectResult] = {
+      try {
+        partnerConnection.describeSObjects(grp)
+      } catch {
+        case _: ConnectionException =>
+          grp.flatMap(name => {
+            try {
+              partnerConnection.describeSObjects(Array(name)).toSeq
+            } catch {
+              case e: ConnectionException =>
+                println(s"Skipped $name: ${e.getMessage.linesIterator.next()}")
+                Seq.empty
+            }
+          })
+      }
+    }
+
     var count = 0;
     sObjectNames
       .grouped(100)
       .foreach(grp => {
-        partnerConnection
-          .describeSObjects(grp)
+        describeBatch(grp)
           .foreach(sobjectDescribe => {
             val describedSObject = DescribedSObject(sobjectDescribe)
             val output = Paths.get(s"generated/${describedSObject.name}.java")
