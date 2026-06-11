@@ -43,6 +43,8 @@ public class PaymentGatewayLog extends SObject {
 	public Name ReferencedEntity;
 	public String Request;
 	public String Response;
+	public String RetryCategory;
+	public String RetryDecision;
 	public String SfRefNumber;
 	public String SfResultCode;
 	public Datetime SystemModstamp;

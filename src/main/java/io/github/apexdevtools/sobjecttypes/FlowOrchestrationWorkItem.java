@@ -37,6 +37,8 @@ public class FlowOrchestrationWorkItem extends SObject {
 	public String OrchestrationName;
 	public Id OwnerId;
 	public Name Owner;
+	public Id ParentWorkItemId;
+	public FlowOrchestrationWorkItem ParentWorkItem;
 	public Id RelatedRecordId;
 	public Name RelatedRecord;
 	public String ScreenFlow;

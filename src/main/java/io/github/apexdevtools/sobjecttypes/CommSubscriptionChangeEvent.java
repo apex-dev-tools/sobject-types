@@ -20,7 +20,10 @@ public class CommSubscriptionChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataUsePurposeId;
+	public DataUsePurpose DataUsePurpose;
 	public Id Id;
+	public Boolean IsDefault;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

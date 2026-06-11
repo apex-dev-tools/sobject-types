@@ -37,6 +37,7 @@ public class CustomPermission extends SObject {
 	public CustomPermissionDependency[] CustomPermissionDependencyItem;
 	public CustomPermissionDependency[] CustomPermissionItem;
 	public GrantedByLicense[] GrantedByLicenses;
+	public LicenseDefinitionCustomPermission[] LicenseAllowsCustomPermissions;
 	public SetupEntityAccess[] SetupEntityAccessItems;
 
 	public CustomPermission clone$() {throw new java.lang.UnsupportedOperationException();}

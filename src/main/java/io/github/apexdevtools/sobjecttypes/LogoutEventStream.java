@@ -32,8 +32,12 @@ public class LogoutEventStream extends SObject {
 	public String EventIdentifier;
 	public String EventUuid;
 	public String LoginKey;
+	public Id ProfileId;
+	public Profile Profile;
 	public String RelatedEventIdentifier;
 	public String ReplayId;
+	public Id RoleId;
+	public UserRole Role;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

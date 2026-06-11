@@ -34,10 +34,14 @@ public class UriEventStream extends SObject {
 	public String Name;
 	public String Operation;
 	public String OperationStatus;
+	public Id ProfileId;
+	public Profile Profile;
 	public String QueriedEntities;
 	public String RecordId;
 	public String RelatedEventIdentifier;
 	public String ReplayId;
+	public Id RoleId;
+	public UserRole Role;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

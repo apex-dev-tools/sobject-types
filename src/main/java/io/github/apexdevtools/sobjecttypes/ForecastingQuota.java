@@ -19,6 +19,8 @@ public class ForecastingQuota extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id ForecastingGroupItemId;
+	public ForecastingGroupItem ForecastingGroupItem;
 	public Id ForecastingTypeId;
 	public ForecastingType ForecastingType;
 	public Id Id;

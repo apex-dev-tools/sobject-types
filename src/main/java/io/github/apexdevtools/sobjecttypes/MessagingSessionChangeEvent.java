@@ -64,6 +64,7 @@ public class MessagingSessionChangeEvent extends SObject {
 	public String SessionKey;
 	public Datetime StartTime;
 	public String Status;
+	public String SuspendedByType;
 	public Id TargetUserId;
 	public User TargetUser;
 

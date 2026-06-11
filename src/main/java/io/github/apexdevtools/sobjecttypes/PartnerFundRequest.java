@@ -48,6 +48,8 @@ public class PartnerFundRequest extends SObject {
 	public Decimal TotalReimbursedFcs;
 
 	public ActivityHistory[] ActivityHistories;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
@@ -56,6 +58,7 @@ public class PartnerFundRequest extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public PartnerFundRequestFeed[] Feeds;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public PartnerFundRequestHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

@@ -27,6 +27,10 @@ public class IdentityProviderEventStore extends SObject {
 	public Id Id;
 	public String IdentityUsed;
 	public String InitiatedBy;
+	public Id ProfileId;
+	public Profile Profile;
+	public Id RoleId;
+	public UserRole Role;
 	public String SamlEntityUrl;
 	public String SsoType;
 	public Id UserId;

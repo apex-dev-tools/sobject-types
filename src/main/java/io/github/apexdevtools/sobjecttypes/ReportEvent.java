@@ -46,11 +46,15 @@ public class ReportEvent extends SObject {
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
 	public String PolicyOutcome;
+	public Id ProfileId;
+	public Profile Profile;
 	public String QueriedEntities;
 	public String Records;
 	public String RelatedEventIdentifier;
 	public Id ReportId;
 	public Report Report;
+	public Id RoleId;
+	public UserRole Role;
 	public Decimal RowsProcessed;
 	public String Scope;
 	public Integer Sequence;

@@ -26,6 +26,7 @@ public class SetupAuditTrail extends SObject {
 	public Id Id;
 	public String ResponsibleNamespacePrefix;
 	public String Section;
+	public Datetime SystemModstamp;
 
 	public SetupAuditTrail clone$() {throw new java.lang.UnsupportedOperationException();}
 	public SetupAuditTrail clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

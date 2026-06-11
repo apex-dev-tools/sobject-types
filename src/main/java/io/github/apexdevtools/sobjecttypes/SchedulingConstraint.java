@@ -16,6 +16,8 @@ public class SchedulingConstraint extends SObject {
 	public static SObjectType$<SchedulingConstraint> SObjectType;
 	public static SObjectFields$<SchedulingConstraint> Fields;
 
+	public Time BreakEarliestStartTime;
+	public Time BreakLatestStartTime;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -30,6 +32,7 @@ public class SchedulingConstraint extends SObject {
 	public Integer MaxShiftsPerDay;
 	public Integer MaxShiftsPerMonth;
 	public Integer MaxShiftsPerWeek;
+	public Decimal MaxWorkHrPerShftPerWk;
 	public Decimal MaxWorkingHoursPerDay;
 	public Decimal MaxWorkingHoursPerMonth;
 	public Decimal MaxWorkingHoursPerWeek;

@@ -29,6 +29,7 @@ public class LoginEventStream extends SObject {
 	public String ApiType;
 	public String ApiVersion;
 	public String Application;
+	public String AuthContextClassRef;
 	public String AuthMethodReference;
 	public String AuthServiceId;
 	public String Browser;
@@ -53,13 +54,18 @@ public class LoginEventStream extends SObject {
 	public String LoginSubType;
 	public String LoginType;
 	public String LoginUrl;
+	public String NetworkId;
 	public String Platform;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
 	public String PolicyOutcome;
 	public String PostalCode;
+	public Id ProfileId;
+	public Profile Profile;
 	public String RelatedEventIdentifier;
 	public String ReplayId;
+	public Id RoleId;
+	public UserRole Role;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

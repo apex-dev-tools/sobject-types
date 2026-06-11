@@ -29,6 +29,8 @@ public class WorkThanksChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Message;
+	public Id NetworkId;
+	public Network Network;
 	public Id OwnerId;
 	public User Owner;
 	public String ReplayId;

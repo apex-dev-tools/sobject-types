@@ -30,6 +30,8 @@ public class ApprovalSubmission extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
@@ -43,14 +45,29 @@ public class ApprovalSubmission extends SObject {
 	public User SubmittedBy;
 	public Datetime SystemModstamp;
 
+	public ActivityHistory[] ActivityHistories;
 	public ApprovalSubmissionDetail[] ApprovalSubmissionDetails;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public ApprovalSubmission[] BasisApprovalSubmissions;
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
+	public CombinedAttachment[] CombinedAttachments;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public EmailMessage[] Emails;
+	public Event[] Events;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public ApprovalSubmissionFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public ApprovalSubmissionHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
+	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ApprovalSubmissionShare[] Shares;
+	public Task[] Tasks;
 
 	public ApprovalSubmission clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ApprovalSubmission clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

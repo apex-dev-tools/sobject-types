@@ -32,6 +32,8 @@ public class DevopsRequestInfo extends SObject {
 	public String OperationType;
 	public Id OwnerId;
 	public Name Owner;
+	public Id ParentRequestInfoId;
+	public DevopsRequestInfo ParentRequestInfo;
 	public Datetime RequestCompletionDate;
 	public String RequestToken;
 	public String Status;
@@ -43,10 +45,12 @@ public class DevopsRequestInfo extends SObject {
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public DevopsRequestInfo[] ChildDevopsRequestInfos;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public DevopsActivityLog[] DevopsRequestInfos;
 	public EmailMessage[] Emails;
 	public EventRelation[] EventRelations;
 	public Event[] Events;
@@ -59,6 +63,7 @@ public class DevopsRequestInfo extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public DevopsRequestInfoShare[] Shares;

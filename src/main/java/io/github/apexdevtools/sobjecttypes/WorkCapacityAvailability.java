@@ -50,6 +50,7 @@ public class WorkCapacityAvailability extends SObject {
 	public WorkCapacityAvailabilityFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public NetworkActivityAudit[] ParentEntities;
 	public WorkCapacityAvailabilityShare[] Shares;
 	public TopicAssignment[] TopicAssignments;
 

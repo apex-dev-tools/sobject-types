@@ -20,6 +20,8 @@ public class DigitalSignature extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String DeviceOs;
+	public String DeviceType;
 	public String DigitalSignatureNumber;
 	public Blob DocumentBody;
 	public String DocumentContentType;
@@ -37,6 +39,7 @@ public class DigitalSignature extends SObject {
 	public String SignedBy;
 	public Datetime SignedDate;
 	public Datetime SystemModstamp;
+	public String WebBrowser;
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;

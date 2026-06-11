@@ -35,6 +35,8 @@ public class ApprovalWorkItem extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
 	public String Name;
 	public Id RelatedRecordId;
 	public Name RelatedRecord;
@@ -47,14 +49,29 @@ public class ApprovalWorkItem extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public ActivityHistory[] ActivityHistories;
 	public ApprovalSubmissionDetail[] ApprovalSubmissionDetails;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItemCriteria[] ApprovalWorkItemMultiCriteria;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public ApprovalWorkItem[] BasisApprovalWorkItems;
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
+	public CombinedAttachment[] CombinedAttachments;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public EmailMessage[] Emails;
+	public Event[] Events;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public ApprovalWorkItemFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public ApprovalWorkItemHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
+	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public Task[] Tasks;
 
 	public ApprovalWorkItem clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ApprovalWorkItem clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

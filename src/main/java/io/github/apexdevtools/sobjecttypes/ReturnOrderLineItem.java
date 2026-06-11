@@ -100,6 +100,7 @@ public class ReturnOrderLineItem extends SObject {
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ProductItemTransaction[] ProductItemTransactions;
 	public ProductTransfer[] ProductTransfers;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;

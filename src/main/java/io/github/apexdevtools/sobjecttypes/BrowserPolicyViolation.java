@@ -29,6 +29,7 @@ public class BrowserPolicyViolation extends SObject {
 	public Datetime SystemModstamp;
 	public String UntrustedUrl;
 	public String ViolationContext;
+	public String ViolationImpact;
 	public String ViolationType;
 
 	public BrowserPolicyViolation clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -157,6 +157,7 @@ public class WorkOrder extends SObject {
 	public ProductRequest[] ProductRequests;
 	public ProductConsumed[] ProductsConsumed;
 	public ProductRequired[] ProductsRequired;
+	public Quote[] Quotes;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public ResourcePreference[] ResourcePreferences;

@@ -35,6 +35,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsADSEnabledOnFSMobile;
 	public Boolean MaximumPermissionsAICreateInsightObjects;
 	public Boolean MaximumPermissionsAIViewInsightObjects;
+	public Boolean MaximumPermissionsAcceptInboundBundling;
 	public Boolean MaximumPermissionsAcceptRiskForProblems;
 	public Boolean MaximumPermissionsAccessActivation;
 	public Boolean MaximumPermissionsAccessApplicationFormObjects;
@@ -47,6 +48,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsAccessCdpProfileExplorer;
 	public Boolean MaximumPermissionsAccessContentBuilder;
 	public Boolean MaximumPermissionsAccessCustomerDataCloudSetup;
+	public Boolean MaximumPermissionsAccessDispatchConsoleMap;
 	public Boolean MaximumPermissionsAccessDisputePrompts;
 	public Boolean MaximumPermissionsAccessEinsteinAutofill;
 	public Boolean MaximumPermissionsAccessFinancialAccounts;
@@ -60,6 +62,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsAccessSegment;
 	public Boolean MaximumPermissionsAccessServiceEinstein;
 	public Boolean MaximumPermissionsAccessSfDrive;
+	public Boolean MaximumPermissionsAccessToComplaintAgent;
 	public Boolean MaximumPermissionsAccessToComplaintMgmt;
 	public Boolean MaximumPermissionsAccessToDisputeManagement;
 	public Boolean MaximumPermissionsAccessToServiceProcess;
@@ -190,6 +193,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsCanUseNewDashboardBuilder;
 	public Boolean MaximumPermissionsCanVerifyComment;
 	public Boolean MaximumPermissionsCanViewDataPrepRecipe;
+	public Boolean MaximumPermissionsCanWriteWithAiScrt2Conversation;
 	public Boolean MaximumPermissionsCaptureAndReversePayments;
 	public Boolean MaximumPermissionsCdcReportingCreateReports;
 	public Boolean MaximumPermissionsCdcReportingManageFolders;
@@ -285,6 +289,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsDeleteIncident;
 	public Boolean MaximumPermissionsDeleteNonSetupFlow;
 	public Boolean MaximumPermissionsDeleteProblem;
+	public Boolean MaximumPermissionsDeleteSalesforceFiles;
 	public Boolean MaximumPermissionsDeleteTopics;
 	public Boolean MaximumPermissionsDerivedPricing;
 	public Boolean MaximumPermissionsDesignContextRule;
@@ -306,6 +311,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsDocumentChecklistUserAccess;
 	public Boolean MaximumPermissionsDocumentWorkspaceCmtyAccess;
 	public Boolean MaximumPermissionsDocumentWorkspaceUserAccess;
+	public Boolean MaximumPermissionsDownloadMaliciousFiles;
 	public Boolean MaximumPermissionsDownloadPackageVersionZips;
 	public Boolean MaximumPermissionsEditAccountScoreFields;
 	public Boolean MaximumPermissionsEditActivatedOrders;
@@ -388,10 +394,12 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsFundraisingUser;
 	public Boolean MaximumPermissionsGetSmartDataDiscovery;
 	public Boolean MaximumPermissionsGetSmartDataDiscoveryExternal;
+	public Boolean MaximumPermissionsGISMapsEnabled;
 	public Boolean MaximumPermissionsGiveRecognitionBadge;
 	public Boolean MaximumPermissionsGovernNetworks;
 	public Boolean MaximumPermissionsHCMedTherapyMgmtUser;
 	public Boolean MaximumPermissionsHasUnlimitedErbScoringRequests;
+	public Boolean MaximumPermissionsGrantOutboundBundling;
 	public Boolean MaximumPermissionsHasUnlimitedNBAExecutions;
 	public Boolean MaximumPermissionsHcAdvancedTherapyUser;
 	public Boolean MaximumPermissionsHcMedReconciliationUser;
@@ -427,6 +435,8 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsInteractionCalcUserPerm;
 	public Boolean MaximumPermissionsInteractionObjStateDefUserPerm;
 	public Boolean MaximumPermissionsInterestTaggingUserAccess;
+	public Boolean MaximumPermissionsIntegrationIntelligenceUser;
+	public Boolean MaximumPermissionsIntelligentDocumentProcessing;
 	public Boolean MaximumPermissionsIotUser;
 	public Boolean MaximumPermissionsIsSsoEnabled;
 	public Boolean MaximumPermissionsIsotopeAccess;
@@ -458,6 +468,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsManageAgentforceServiceAgent;
 	public Boolean MaximumPermissionsManageAnalyticSnapshots;
 	public Boolean MaximumPermissionsManageAppraisalsAndValuations;
+	public Boolean MaximumPermissionsManageApiNamedQueries;
 	public Boolean MaximumPermissionsManageAuthProviders;
 	public Boolean MaximumPermissionsManageBriefs;
 	public Boolean MaximumPermissionsManageBusinessHourHolidays;
@@ -513,6 +524,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsManageHcProviderNtwkMgmt;
 	public Boolean MaximumPermissionsManageHcProviderRelMgmt;
 	public Boolean MaximumPermissionsManageHealthCareAnalytics;
+	public Boolean MaximumPermissionsManageForecastingCustomData;
 	public Boolean MaximumPermissionsManageHealthCheck;
 	public Boolean MaximumPermissionsManageHealthCloud;
 	public Boolean MaximumPermissionsManageHealthCloudFinancialData;
@@ -521,6 +533,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsManageIndustriesVisit;
 	public Boolean MaximumPermissionsManageInformationLibrary;
 	public Boolean MaximumPermissionsManageIntegrationConnections;
+	public Boolean MaximumPermissionsManageIntegrationPortals;
 	public Boolean MaximumPermissionsManageInteraction;
 	public Boolean MaximumPermissionsManageInternalUsers;
 	public Boolean MaximumPermissionsManageIpAddresses;
@@ -535,8 +548,10 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsManageLoyaltyPrograms;
 	public Boolean MaximumPermissionsManageLoyaltyPromotionsGPM;
 	public Boolean MaximumPermissionsManageManufacturingAnalytics;
+	public Boolean MaximumPermissionsManageMaliciousFiles;
 	public Boolean MaximumPermissionsManageMobile;
 	public Boolean MaximumPermissionsManageMobileAppSecurity;
+	public Boolean MaximumPermissionsManageMyExternalUsers;
 	public Boolean MaximumPermissionsManageNamedCredentials;
 	public Boolean MaximumPermissionsManageNetZeroCloudSettings;
 	public Boolean MaximumPermissionsManageNetworks;
@@ -577,6 +592,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsManageSearchPromotionRules;
 	public Boolean MaximumPermissionsManageSecurityCommandCenter;
 	public Boolean MaximumPermissionsManageSessionPermissionSets;
+	public Boolean MaximumPermissionsManageSharedListViews;
 	public Boolean MaximumPermissionsManageSharing;
 	public Boolean MaximumPermissionsManageSiteManagement;
 	public Boolean MaximumPermissionsManageSiteProfile;
@@ -597,9 +613,11 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsManageUnlistedGroups;
 	public Boolean MaximumPermissionsManageUsers;
 	public Boolean MaximumPermissionsManageVehicleAssetRecordTypes;
+	public Boolean MaximumPermissionsMarketingExpertSystem;
 	public Boolean MaximumPermissionsMassInlineEdit;
 	public Boolean MaximumPermissionsMcScoringRulesConfig;
 	public Boolean MaximumPermissionsMedMgmtExperienceCloudUser;
+	public Boolean MaximumPermissionsMeetingEngagementUser;
 	public Boolean MaximumPermissionsMergeTopics;
 	public Boolean MaximumPermissionsMicrobatching;
 	public Boolean MaximumPermissionsMetadataStudioUser;
@@ -629,6 +647,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsModifyAllPolicyCenterPolicies;
 	public Boolean MaximumPermissionsModifyDataClassification;
 	public Boolean MaximumPermissionsModifyMetadata;
+	public Boolean MaximumPermissionsModifyTransactionSecurityPolicies;
 	public Boolean MaximumPermissionsMonitorLoginHistory;
 	public Boolean MaximumPermissionsMortgageUserAccess;
 	public Boolean MaximumPermissionsMultiStepSchedulingUser;
@@ -656,6 +675,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsOptOutGeoLocationTracking;
 	public Boolean MaximumPermissionsOverrideForecasts;
 	public Boolean MaximumPermissionsOrderSubmitUser;
+	public Boolean MaximumPermissionsPRMChannelMgmtConsoleUser;
 	public Boolean MaximumPermissionsPackaging2;
 	public Boolean MaximumPermissionsPackaging2Delete;
 	public Boolean MaximumPermissionsPackaging2PromoteVersion;
@@ -674,6 +694,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsPrismBackofficeUser;
 	public Boolean MaximumPermissionsPrismPlaygroundUser;
 	public Boolean MaximumPermissionsPrivacyDataAccess;
+	public Boolean MaximumPermissionsPrmEnhancedPortalUser;
 	public Boolean MaximumPermissionsPrmExtIntPrtnrAdminUser;
 	public Boolean MaximumPermissionsProductAdmin;
 	public Boolean MaximumPermissionsPublishPackaging;
@@ -704,6 +725,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsRecordAggregationAccess;
 	public Boolean MaximumPermissionsRecordVisibilityAPI;
 	public Boolean MaximumPermissionsRefundPayments;
+	public Boolean MaximumPermissionsRegrelloUser;
 	public Boolean MaximumPermissionsRemoveDirectMessageMembers;
 	public Boolean MaximumPermissionsReopenProblems;
 	public Boolean MaximumPermissionsResetPasswords;
@@ -720,9 +742,12 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsRunFlow;
 	public Boolean MaximumPermissionsRunNetZeroAnalyticsRecipe;
 	public Boolean MaximumPermissionsRunRegisterProcessingServices;
+	public Boolean MaximumPermissionsRunGlobalOptimization;
+	public Boolean MaximumPermissionsRunInDayOptimization;
 	public Boolean MaximumPermissionsRunReports;
 	public Boolean MaximumPermissionsRunRetailExecution;
 	public Boolean MaximumPermissionsSDCommunityAccess;
+	public Boolean MaximumPermissionsRunResourceScheduleOptimization;
 	public Boolean MaximumPermissionsSalesAnalyticsUser;
 	public Boolean MaximumPermissionsSalesConsole;
 	public Boolean MaximumPermissionsSalesInsightsUser;
@@ -744,6 +769,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsSendSitRequests;
 	public Boolean MaximumPermissionsSequenceNumberingSetUp;
 	public Boolean MaximumPermissionsServiceAnalyticsUser;
+	public Boolean MaximumPermissionsSetAdvancedOptimizationFilters;
 	public Boolean MaximumPermissionsShareFilesWithNetworks;
 	public Boolean MaximumPermissionsServiceExcellencePlatformUser;
 	public Boolean MaximumPermissionsSessionScopeContext;
@@ -752,6 +778,8 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsShareInternalArticles;
 	public Boolean MaximumPermissionsShareSmartDataDiscoveryStory;
 	public Boolean MaximumPermissionsShowCompanyNameAsUserBadge;
+	public Boolean MaximumPermissionsShowExplanationsForCandidateResults;
+	public Boolean MaximumPermissionsShowPlannedRoute;
 	public Boolean MaximumPermissionsShowPreWorkBriefGA;
 	public Boolean MaximumPermissionsSimpleCsvDataImportUser;
 	public Boolean MaximumPermissionsSkipIdentityConfirmation;
@@ -809,6 +837,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsUseAddOrderItemSummary;
 	public Boolean MaximumPermissionsUseAddOrderItemSummaryAPIs;
 	public Boolean MaximumPermissionsUseAdvancedDeliveryEstimationAPI;
+	public Boolean MaximumPermissionsUseAnyApiAuth;
 	public Boolean MaximumPermissionsUseAssistantDialog;
 	public Boolean MaximumPermissionsUseBulkUpdtSalesAgrExprcCloud;
 	public Boolean MaximumPermissionsUseCGAnalytics;
@@ -848,11 +877,14 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsUseReturnOrderAPIs;
 	public Boolean MaximumPermissionsUseRouting;
 	public Boolean MaximumPermissionsUseServiceIntelligence;
+	public Boolean MaximumPermissionsUseRestrictedTheme;
 	public Boolean MaximumPermissionsUseServicePartReturn;
 	public Boolean MaximumPermissionsUseSmartDataDiscovery;
+	public Boolean MaximumPermissionsUseSetupWithAgentforce;
 	public Boolean MaximumPermissionsUseSubscriptionEmails;
 	public Boolean MaximumPermissionsUseTCRMforSustainability;
 	public Boolean MaximumPermissionsUseTeamReassignWizards;
+	public Boolean MaximumPermissionsUseTeamsForEmployee;
 	public Boolean MaximumPermissionsUseTeamsForItSrvcs;
 	public Boolean MaximumPermissionsUseTemplatedApp;
 	public Boolean MaximumPermissionsUseTemplatedIntelApp;
@@ -890,6 +922,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsViewAllUsers;
 	public Boolean MaximumPermissionsViewAnomalyEvents;
 	public Boolean MaximumPermissionsViewBusinessUnit;
+	public Boolean MaximumPermissionsViewApiNamedQueries;
 	public Boolean MaximumPermissionsViewCaseAnlytDshbrd;
 	public Boolean MaximumPermissionsViewChangeRequestAnlytDshbrd;
 	public Boolean MaximumPermissionsViewChangeRequestDshbrd;
@@ -931,6 +964,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsViewProblemMgrDshbrd;
 	public Boolean MaximumPermissionsViewProductCatalogObjects;
 	public Boolean MaximumPermissionsViewPromotions;
+	public Boolean MaximumPermissionsViewPublicCapstoneFolders;
 	public Boolean MaximumPermissionsViewPublicDashboards;
 	public Boolean MaximumPermissionsViewPublicReports;
 	public Boolean MaximumPermissionsViewRecommendations;

@@ -43,6 +43,8 @@ public class ContentDocument extends SObject {
 	public Datetime LastViewedDate;
 	public Id LatestPublishedVersionId;
 	public ContentVersion LatestPublishedVersion;
+	public Datetime MalwareScanDate;
+	public String MalwareScanStatus;
 	public Id OwnerId;
 	public User Owner;
 	public Id ParentId;
@@ -53,6 +55,8 @@ public class ContentDocument extends SObject {
 	public Datetime SystemModstamp;
 	public String Title;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public NetworkActivityAudit[] AuditableEntities;
 	public AssessmentTaskContentDocument[] AssessmentTaskContentDocuments;
 	public AuthorizationFormText[] AuthorizationFormTexts;
@@ -70,6 +74,7 @@ public class ContentDocument extends SObject {
 	public ContentDocumentFeed[] Feeds;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public HealthcareProvider[] HealthcareProvidersPhoto;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ContentDocumentHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public IntegrationProviderExecution[] IntegrationProviderExecutions;

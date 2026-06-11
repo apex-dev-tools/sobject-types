@@ -35,6 +35,8 @@ public class OpportunityTeamMember extends SObject {
 	public Id UserId;
 	public User User;
 
+	public OpportunityTeamMemberHistory[] Histories;
+
 	public OpportunityTeamMember clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OpportunityTeamMember clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public OpportunityTeamMember clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

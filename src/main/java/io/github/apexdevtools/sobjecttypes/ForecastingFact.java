@@ -18,6 +18,8 @@ public class ForecastingFact extends SObject {
 	public String ForecastCategoryName;
 	public Id ForecastedObjectId;
 	public SObject ForecastedObject;
+	public Id ForecastedSubObjectId;
+	public SObject ForecastedSubObject;
 	public Id ForecastingItemId;
 	public ForecastingItem ForecastingItem;
 	public Id ForecastingTypeId;
@@ -30,6 +32,7 @@ public class ForecastingFact extends SObject {
 	public Id PeriodId;
 	public Period Period;
 	public Datetime SystemModstamp;
+	public Decimal TargetValue;
 	public Id Territory2Id;
 	public Territory2 Territory2;
 

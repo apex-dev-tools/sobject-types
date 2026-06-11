@@ -15,10 +15,12 @@ public class OpportunitySplit extends SObject {
 	public static SObjectType$<OpportunitySplit> SObjectType;
 	public static SObjectFields$<OpportunitySplit> Fields;
 
+	public String ArchivedTerritoryName;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Boolean HasOpportunityLineItemSplit;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -35,6 +37,13 @@ public class OpportunitySplit extends SObject {
 	public Id SplitTypeId;
 	public OpportunitySplitType SplitType;
 	public Datetime SystemModstamp;
+	public Id Territory2Id;
+	public Territory2 Territory2;
+
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public OpportunitySplitHistory[] Histories;
 
 	public OpportunitySplit clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OpportunitySplit clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

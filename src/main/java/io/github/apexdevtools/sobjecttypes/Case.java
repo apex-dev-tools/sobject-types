@@ -112,6 +112,7 @@ public class Case extends SObject {
 	public DiagnosticSummary[] DiagnosticSummaryCases;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
+	public DuplicateRecordItem[] DuplicateRecordItems;
 	public EmailMessage[] EmailMessages;
 	public EmailMessage[] Emails;
 	public EngagementTopic[] EngagementInitiatedTopic;
@@ -137,6 +138,7 @@ public class Case extends SObject {
 	public OpenActivity[] OpenActivities;
 	public NetworkActivityAudit[] ParentEntities;
 	public SocialPost[] Posts;
+	public ExtlRecShrStagedRecord[] ParentRecords;
 	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

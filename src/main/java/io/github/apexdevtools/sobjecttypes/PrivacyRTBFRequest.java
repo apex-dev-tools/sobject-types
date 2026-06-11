@@ -55,6 +55,7 @@ public class PrivacyRTBFRequest extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public PrivacyRTBFRequestHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public PrivacyJobSession[] PrivacyRtbfRequestJobSessions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

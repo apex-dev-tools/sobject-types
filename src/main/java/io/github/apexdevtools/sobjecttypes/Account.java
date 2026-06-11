@@ -173,6 +173,7 @@ public class Account extends SObject {
 	public UsageSummary[] Account_UsageSummaries;
 	public Accreditation[] Accreditations;
 	public ActionPlan[] ActionPlans;
+	public ExtlRecShrStagedRecord[] Accounts;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAccountForecastFact[] AdvAcctForecastFacts;
 	public AdvAcctForecastSetPartner[] AdvAcctForecastSetPartners;
@@ -366,11 +367,13 @@ public class Account extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public ObjectTerritory2Association[] ObjectTerritory2Associations;
+	public ObjectUserTerritory2View[] ObjectUserTerritory2Views;
 	public OpenActivity[] OpenActivities;
 	public Opportunity[] Opportunities;
 	public OpportunityPartner[] OpportunityPartnersTo;
 	public Order[] Orders;
 	public NetworkActivityAudit[] ParentEntities;
+	public ExtlRecShrStagedRecord[] ParentRecords;
 	public PartnerFundAllocation[] PartnerFundAllocations;
 	public PartnerFundClaim[] PartnerFundClaims;
 	public PartnerFundRequest[] PartnerFundRequests;

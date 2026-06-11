@@ -31,9 +31,11 @@ public class LocationChangeEvent extends SObject {
 	public String DefaultProcessingTimeUnit;
 	public String Description;
 	public String DrivingDirections;
+	public String Email;
 	public String ExternalReference;
 	public Id FulfillingBusinessHoursId;
 	public BusinessHours FulfillingBusinessHours;
+	public String Fax;
 	public Id Id;
 	public Boolean IsInventoryLocation;
 	public Boolean IsMobile;
@@ -47,12 +49,14 @@ public class LocationChangeEvent extends SObject {
 	public Id LogoId;
 	public ContentAsset Logo;
 	public Decimal Longitude;
+	public String Mobile;
 	public String Name;
 	public Date OpenDate;
 	public Id OwnerId;
 	public User Owner;
 	public Id ParentLocationId;
 	public Location ParentLocation;
+	public String Phone;
 	public Date PossessionDate;
 	public Date RemodelEndDate;
 	public Date RemodelStartDate;

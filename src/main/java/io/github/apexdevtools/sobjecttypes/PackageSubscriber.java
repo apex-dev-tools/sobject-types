@@ -15,9 +15,12 @@ public class PackageSubscriber extends SObject {
 	public static SObjectType$<PackageSubscriber> SObjectType;
 	public static SObjectFields$<PackageSubscriber> Fields;
 
+	public String CustomUpgradeType;
+	public Boolean HasRestrictionEnabled;
 	public Id Id;
 	public String InstalledStatus;
 	public String InstanceName;
+	public Boolean IsCustomUpgradeAllowed;
 	public Id MetadataPackageId;
 	public MetadataPackage MetadataPackage;
 	public Id MetadataPackageVersionId;
