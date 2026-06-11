@@ -64,16 +64,16 @@ case class DescribedSObject(describe: DescribeSObjectResult) {
 
     CopyrightWriter.write(writer)
     writer.write(s"""|
-         |package com.nawforce.runforce.SObjects;
+         |package io.github.apexdevtools.sobjecttypes;
           |
           |""".stripMargin)
 
     if (hasStandardFieldsType) {
-      writer.write("import com.nawforce.runforce.Internal.SObjectFields$;\n")
+      writer.write("import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;\n")
     }
 
     if (hasStandardSObjectType) {
-      writer.write("import com.nawforce.runforce.Internal.SObjectType$;\n")
+      writer.write("import io.github.apexdevtools.standardtypes.Internal.SObjectType$;\n")
     }
 
     val hasRecordTypeId = recordTypeIdObjects.contains(name)
@@ -86,33 +86,33 @@ case class DescribedSObject(describe: DescribeSObjectResult) {
     val starImport = extendedFieldType.intersect(DescribedSObject.optionalImportable).size >= 3
 
     if (!starImport && fieldTypes.contains("Address"))
-      writer.write("import com.nawforce.runforce.System.Address;\n")
+      writer.write("import io.github.apexdevtools.standardtypes.System.Address;\n")
 
-    writer.write("import com.nawforce.runforce.System.Boolean;\n")
+    writer.write("import io.github.apexdevtools.standardtypes.System.Boolean;\n")
 
     if (!starImport && fieldTypes.contains("Datetime"))
-      writer.write("import com.nawforce.runforce.System.Datetime;\n")
+      writer.write("import io.github.apexdevtools.standardtypes.System.Datetime;\n")
 
     if (!starImport && fieldTypes.contains("Decimal"))
-      writer.write("import com.nawforce.runforce.System.Decimal;\n")
+      writer.write("import io.github.apexdevtools.standardtypes.System.Decimal;\n")
 
     if (!starImport && fieldTypes.contains("Id"))
-      writer.write("import com.nawforce.runforce.System.Id;\n")
+      writer.write("import io.github.apexdevtools.standardtypes.System.Id;\n")
 
     if (fieldTypes.contains("Integer"))
-      writer.write("import com.nawforce.runforce.System.Integer;\n")
+      writer.write("import io.github.apexdevtools.standardtypes.System.Integer;\n")
 
     if (fieldTypes.contains("Long"))
-      writer.write("import com.nawforce.runforce.System.Long;\n")
+      writer.write("import io.github.apexdevtools.standardtypes.System.Long;\n")
 
     if (!starImport)
-      writer.write("import com.nawforce.runforce.System.SObject;\n")
+      writer.write("import io.github.apexdevtools.standardtypes.System.SObject;\n")
 
     if (fieldTypes.contains("String"))
-      writer.write("import com.nawforce.runforce.System.String;\n")
+      writer.write("import io.github.apexdevtools.standardtypes.System.String;\n")
 
     if (starImport)
-      writer.write("import com.nawforce.runforce.System.*;\n")
+      writer.write("import io.github.apexdevtools.standardtypes.System.*;\n")
 
     writer.write(s"""\n@SuppressWarnings("unused")\npublic class $name extends SObject {\n""")
 

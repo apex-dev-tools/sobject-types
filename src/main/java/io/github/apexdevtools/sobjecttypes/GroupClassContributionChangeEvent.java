@@ -1,0 +1,51 @@
+/*
+ * Copyright (c) 2024 Certinia Inc. All rights reserved.
+ */
+
+package io.github.apexdevtools.sobjecttypes;
+
+import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
+import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.String;
+import io.github.apexdevtools.standardtypes.System.*;
+
+@SuppressWarnings("unused")
+public class GroupClassContributionChangeEvent extends SObject {
+	public static SObjectType$<GroupClassContributionChangeEvent> SObjectType;
+	public static SObjectFields$<GroupClassContributionChangeEvent> Fields;
+
+	public Decimal Amount;
+	public Object ChangeEventHeader;
+	public Id ContractGroupPlanId;
+	public ContractGroupPlan ContractGroupPlan;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public String Division;
+	public Date EffectiveEndDate;
+	public Date EffectiveStartDate;
+	public String GroupBenefitProductCategory;
+	public Id GroupClassId;
+	public GroupClass GroupClass;
+	public Id Id;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public String MemberType;
+	public String Name;
+	public Decimal Percentage;
+	public Id ProductCategoryId;
+	public ProductCategory ProductCategory;
+	public Id ProductId;
+	public Product2 Product;
+	public String ReplayId;
+	public String Type;
+
+	public GroupClassContributionChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
+	public GroupClassContributionChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public GroupClassContributionChangeEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public GroupClassContributionChangeEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public GroupClassContributionChangeEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+}

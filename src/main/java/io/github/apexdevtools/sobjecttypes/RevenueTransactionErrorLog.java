@@ -1,0 +1,56 @@
+/*
+ * Copyright (c) 2024 Certinia Inc. All rights reserved.
+ */
+
+package io.github.apexdevtools.sobjecttypes;
+
+import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
+import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.String;
+import io.github.apexdevtools.standardtypes.System.*;
+
+@SuppressWarnings("unused")
+public class RevenueTransactionErrorLog extends SObject {
+	public static SObjectType$<RevenueTransactionErrorLog> SObjectType;
+	public static SObjectFields$<RevenueTransactionErrorLog> Fields;
+
+	public Id AsyncOperationTrackerId;
+	public AsyncOperationTracker AsyncOperationTracker;
+	public String Category;
+	public String ConfiguratorErrorMessage;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String ErrorCode;
+	public String ErrorLogNumber;
+	public String ErrorMessage;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Id OwnerId;
+	public Name Owner;
+	public Id PrimaryRecord2Id;
+	public Name PrimaryRecord2;
+	public Id PrimaryRecordId;
+	public Name PrimaryRecord;
+	public String PrimaryTextRecord;
+	public Id RelatedRecord2Id;
+	public Name RelatedRecord2;
+	public Id RelatedRecordId;
+	public Name RelatedRecord;
+	public String Request;
+	public String RequestIdentifier;
+	public String Severity;
+	public Datetime SystemModstamp;
+
+	public RevenueTransactionErrorLogShare[] Shares;
+
+	public RevenueTransactionErrorLog clone$() {throw new java.lang.UnsupportedOperationException();}
+	public RevenueTransactionErrorLog clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public RevenueTransactionErrorLog clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public RevenueTransactionErrorLog clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public RevenueTransactionErrorLog clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+}

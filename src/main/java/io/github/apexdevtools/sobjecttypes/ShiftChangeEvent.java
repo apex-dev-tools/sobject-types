@@ -1,0 +1,66 @@
+/*
+ * Copyright (c) 2022 FinancialForce.com, inc. All rights reserved.
+ */
+
+package io.github.apexdevtools.sobjecttypes;
+
+import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
+import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.String;
+import io.github.apexdevtools.standardtypes.System.*;
+
+@SuppressWarnings("unused")
+public class ShiftChangeEvent extends SObject {
+	public static SObjectType$<ShiftChangeEvent> SObjectType;
+	public static SObjectFields$<ShiftChangeEvent> Fields;
+
+	public Id AppointmentCategoryId;
+	public AppointmentCategory AppointmentCategory;
+	public String BackgroundColor;
+	public Object ChangeEventHeader;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public Datetime EndTime;
+	public Id Id;
+	public Boolean IsHolidayShift;
+	public Boolean IsNonStandard;
+	public Id JobProfileId;
+	public JobProfile JobProfile;
+	public String Label;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Id OwnerId;
+	public User Owner;
+	public Id RecordsetFilterCriteriaId;
+	public RecordsetFilterCriteria RecordsetFilterCriteria;
+	public Date RecurrenceEndDate;
+	public String RecurrencePattern;
+	public Date RecurrenceStartDate;
+	public String ReplayId;
+	public Id ServiceResourceId;
+	public ServiceResource ServiceResource;
+	public Id ServiceTerritoryId;
+	public ServiceTerritory ServiceTerritory;
+	public String ShiftNumber;
+	public Id ShiftTemplateId;
+	public ShiftTemplate ShiftTemplate;
+	public Datetime StartTime;
+	public String Status;
+	public String StatusCategory;
+	public String TimeSlotType;
+	public String Type;
+	public Id WorkTypeGroupId;
+	public WorkTypeGroup WorkTypeGroup;
+	public Id WorkTypeId;
+	public WorkType WorkType;
+
+	public ShiftChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
+	public ShiftChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public ShiftChangeEvent clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public ShiftChangeEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public ShiftChangeEvent clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+}
