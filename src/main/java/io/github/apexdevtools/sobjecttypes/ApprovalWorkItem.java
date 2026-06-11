@@ -31,11 +31,16 @@ public class ApprovalWorkItem extends SObject {
 	public Id Id;
 	public Boolean IsAutoReviewed;
 	public Boolean IsDeleted;
+	public Boolean IsEligibleForAutoApproval;
 	public Boolean IsEligibleForSmartApproval;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
 	public String Name;
+	public Id ParentWorkItemId;
+	public ApprovalWorkItem ParentWorkItem;
 	public Id RelatedRecordId;
 	public Name RelatedRecord;
 	public String RelatedRecordObjectName;
@@ -47,14 +52,37 @@ public class ApprovalWorkItem extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public ActivityHistory[] ActivityHistories;
+	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public ApprovalSubmissionDetail[] ApprovalSubmissionDetails;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItemCriteria[] ApprovalWorkItemMultiCriteria;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
 	public ApprovalWorkItem[] BasisApprovalWorkItems;
+	public ApprovalWorkItem[] ChildApprovalWorkItems;
+	public CombinedAttachment[] CombinedAttachments;
+	public AssessmentTaskContentDocument[] ContentDocumentContext;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public DocumentEnvelope[] DocEnvelopeRefObjects;
+	public EmailMessage[] Emails;
+	public EventRelation[] EventRelations;
+	public Event[] Events;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public ApprovalWorkItemFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public GenericVisitTaskContext[] GVTaskContexts;
+	public GeneratedDocument[] GeneratedDocRefObjects;
+	public ApprovalWorkItemHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
+	public OpenActivity[] OpenActivities;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public TaskRelation[] TaskRelations;
+	public Task[] Tasks;
 
 	public ApprovalWorkItem clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ApprovalWorkItem clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

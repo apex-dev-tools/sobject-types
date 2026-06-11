@@ -48,6 +48,7 @@ public class AssessmentTaskIndDefinition extends SObject {
 	public AssessmentTaskIndDefinitionHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public AssessmentIndValue[] SourceObjects;
 
 	public AssessmentTaskIndDefinition clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AssessmentTaskIndDefinition clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

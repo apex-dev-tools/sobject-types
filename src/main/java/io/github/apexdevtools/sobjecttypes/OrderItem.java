@@ -65,6 +65,7 @@ public class OrderItem extends SObject {
 	public InvoiceLine[] GroupInvoiceLines;
 	public OrderItemHistory[] Histories;
 	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
+	public InventoryItemReservation[] InventoryReservationSources;
 	public InvoiceLine[] InvoiceLines;
 	public NetworkActivityAudit[] ParentEntities;
 	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;

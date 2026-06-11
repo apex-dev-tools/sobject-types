@@ -140,6 +140,7 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPreferencesDisableWorkEmail;
 	public Boolean UserPreferencesDismissPersonalSpaceLegalMessage;
 	public Boolean UserPreferencesDismissRecordChannelsSuggestedObjects;
+	public Boolean UserPreferencesDismissReuseUpdateReminderModal;
 	public Boolean UserPreferencesEnableAutoSubForFeeds;
 	public Boolean UserPreferencesEnableLwrLexPilot;
 	public Boolean UserPreferencesEventRemindersCheckboxDefault;

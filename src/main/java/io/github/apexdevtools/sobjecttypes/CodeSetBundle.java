@@ -116,6 +116,7 @@ public class CodeSetBundle extends SObject {
 	public PatientImmunization[] Patient_Immunizations_Vaccine_Codes;
 	public PercentileBsdCareFeeAgreement[] PercentileBasedCareFeeAgreements;
 	public ClinicalServiceRequest[] PerformerTypes;
+	public PlanBenefitItem[] PlanBenefitItemCodes;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public CareRequestItem[] ReasonCodeCareRequestItems;

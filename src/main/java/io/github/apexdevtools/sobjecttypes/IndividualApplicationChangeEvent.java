@@ -27,6 +27,8 @@ public class IndividualApplicationChangeEvent extends SObject {
 	public Datetime ApprovedDate;
 	public Id BudgetId;
 	public Budget Budget;
+	public Id BusinessHoursId;
+	public BusinessHours BusinessHours;
 	public Id BusinessTypeId;
 	public BusinessType BusinessType;
 	public String Category;
@@ -38,12 +40,15 @@ public class IndividualApplicationChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public Id EntitlementId;
+	public Entitlement Entitlement;
 	public String ExternalProject;
 	public Id HealthcareProviderId;
 	public HealthcareProvider HealthcareProvider;
 	public Id Id;
 	public Boolean IsApprovalRequired;
 	public Boolean IsOwnerEditable;
+	public Boolean IsSlaPaused;
 	public Boolean IsSubmittedByThirdParty;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -52,6 +57,7 @@ public class IndividualApplicationChangeEvent extends SObject {
 	public BusinessLicense LicensePermitName;
 	public Id LicenseTypeId;
 	public RegulatoryAuthorizationType LicenseType;
+	public String MilestoneStatus;
 	public String Name;
 	public Id OwnerId;
 	public User Owner;
@@ -64,6 +70,9 @@ public class IndividualApplicationChangeEvent extends SObject {
 	public Id SavedApplicationRefId;
 	public PreliminaryApplicationRef SavedApplicationRef;
 	public String ServiceType;
+	public Datetime SlaExitDate;
+	public Datetime SlaPauseDate;
+	public Datetime SlaStartDate;
 	public String Status;
 	public Id SubmittedByAccountId;
 	public Account SubmittedByAccount;

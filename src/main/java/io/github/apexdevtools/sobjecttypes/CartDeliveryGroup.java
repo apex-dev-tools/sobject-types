@@ -58,6 +58,7 @@ public class CartDeliveryGroup extends SObject {
 	public Decimal TotalAdjustmentTaxAmount;
 	public Decimal TotalAmount;
 	public Integer TotalCartItemCount;
+	public Decimal TotalCartItemQuantity;
 	public Decimal TotalChargeAmount;
 	public Decimal TotalChargeTaxAmount;
 	public Decimal TotalProductAmount;

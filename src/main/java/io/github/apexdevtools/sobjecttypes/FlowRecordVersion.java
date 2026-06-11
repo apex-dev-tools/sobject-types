@@ -16,6 +16,7 @@ public class FlowRecordVersion extends SObject {
 	public static SObjectType$<FlowRecordVersion> SObjectType;
 	public static SObjectFields$<FlowRecordVersion> Fields;
 
+	public String AccessType;
 	public Id ActivatedById;
 	public User ActivatedBy;
 	public Datetime ActivatedDate;

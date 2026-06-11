@@ -19,6 +19,7 @@ public class ExpressionSetDefinition extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DeveloperName;
+	public String ExecutionMode;
 	public String ExecutionScale;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -29,6 +30,7 @@ public class ExpressionSetDefinition extends SObject {
 	public String MasterLabel;
 	public String NamespacePrefix;
 	public Datetime SystemModstamp;
+	public String Type;
 
 	public PricingRecipe[] DefaultPricingProcedureForRecipe;
 	public ExpressionSetDefinitionVersion[] ExpressionSetDefinition;

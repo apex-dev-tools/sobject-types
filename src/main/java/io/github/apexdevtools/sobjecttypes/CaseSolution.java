@@ -9,6 +9,9 @@ import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
+import io.github.apexdevtools.standardtypes.System.Datetime;
+import io.github.apexdevtools.standardtypes.System.Id;
+import io.github.apexdevtools.standardtypes.System.SObject;
 
 @SuppressWarnings("unused")
 public class CaseSolution extends SObject {

@@ -19,6 +19,7 @@ public class ApiPrtcPolicyChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String EventUuid;
+	public String RadioKey;
 	public String ReplayId;
 	public String Source;
 	public String Target;

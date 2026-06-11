@@ -19,6 +19,8 @@ public class MessagingSessionChangeEvent extends SObject {
 	public Datetime AcceptTime;
 	public Integer AgentMessageCount;
 	public String AgentType;
+	public Id CampaignId;
+	public Campaign Campaign;
 	public Id CaseId;
 	public Case Case;
 	public Object ChangeEventHeader;
@@ -64,6 +66,7 @@ public class MessagingSessionChangeEvent extends SObject {
 	public String SessionKey;
 	public Datetime StartTime;
 	public String Status;
+	public String SuspendedByType;
 	public Id TargetUserId;
 	public User TargetUser;
 

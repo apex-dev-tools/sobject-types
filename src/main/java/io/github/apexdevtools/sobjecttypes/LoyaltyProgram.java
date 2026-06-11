@@ -55,9 +55,11 @@ public class LoyaltyProgram extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public LoyaltyProgramHistory[] Histories;
 	public TransactionJournal[] JournalProgram;
+	public LoyaltyPgmCurrencyExtPrd[] LoyaltyPgmCurrencyExtPrds;
 	public LoyaltyProgramBadge[] LoyaltyProgramBadges;
 	public LoyaltyProgramCurrency[] LoyaltyProgramCurrencies;
 	public LoyaltyPgmEngmtAttribute[] LoyaltyProgramEngagementAttributes;
+	public LoyaltyProgramJournalType[] LoyaltyProgramJournalTypes;
 	public LoyaltyProgramMember[] LoyaltyProgramMembers;
 	public LoyaltyProgramPartner[] LoyaltyProgramPartners;
 	public LoyaltyProgramProcess[] LoyaltyProgramProcesses;

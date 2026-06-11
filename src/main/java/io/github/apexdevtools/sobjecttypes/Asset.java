@@ -104,7 +104,9 @@ public class Asset extends SObject {
 	public AppUsageAssignment[] AppUsageAssignments;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
+	public AssessmentTask[] AssessmentTaskReferenceRecord;
 	public AssetAccountParticipant[] AssetAccountParticipantsAsset;
+	public AssetActionSrcPriceAdjustment[] AssetActionSrcPriceAdjustmentsAsset;
 	public AssetAction[] AssetActions;
 	public AssetAttribute[] AssetAttributes;
 	public AssetContactParticipant[] AssetContactParticipantAsset;

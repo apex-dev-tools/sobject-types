@@ -21,6 +21,7 @@ public class ExpressionSet extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String ExecutionMode;
 	public String ExecutionScale;
 	public Id ExpressionSetDefinitionId;
 	public ExpressionSetDefinition ExpressionSetDefinition;
@@ -37,6 +38,7 @@ public class ExpressionSet extends SObject {
 	public Name Owner;
 	public String ResourceInitializationType;
 	public Datetime SystemModstamp;
+	public String Type;
 	public String UsageSubtype;
 	public String UsageType;
 

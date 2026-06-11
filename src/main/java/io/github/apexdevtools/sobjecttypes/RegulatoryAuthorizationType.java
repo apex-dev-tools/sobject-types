@@ -15,6 +15,7 @@ public class RegulatoryAuthorizationType extends SObject {
 	public static SObjectType$<RegulatoryAuthorizationType> SObjectType;
 	public static SObjectFields$<RegulatoryAuthorizationType> Fields;
 
+	public String ApplicationUrl;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

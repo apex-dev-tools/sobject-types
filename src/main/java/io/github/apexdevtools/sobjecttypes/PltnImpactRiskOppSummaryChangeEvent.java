@@ -49,6 +49,7 @@ public class PltnImpactRiskOppSummaryChangeEvent extends SObject {
 	public Decimal E2PrvsnEnvrPrtcRemediationCost;
 	public Decimal E2TotSbstncHighCncrnGenHzrdCls;
 	public Decimal E2TotSbstncHighCncrnPrdctHzrd;
+	public Decimal E3AntcpFinclEffMtrlRiskOppWtr;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

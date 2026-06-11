@@ -52,6 +52,10 @@ public class ProductSellingModel extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ProductSellingModelHistory[] Histories;
+	public InsurancePolicyAsset[] InsurancePolicyAssets;
+	public InsurancePolicyCoverage[] InsurancePolicyCoverages;
+	public InsurancePolicyParticipant[] InsurancePolicyParticipants;
+	public InsurancePolicySurcharge[] InsurancePolicySurcharges;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

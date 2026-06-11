@@ -109,6 +109,7 @@ public class ReturnOrder extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public ReturnOrderHistory[] Histories;
+	public InventoryReservation[] InventoryReservations;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

@@ -20,6 +20,8 @@ public class ContentFolderChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id FeaturedMediaId;
+	public ContentAsset FeaturedMedia;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

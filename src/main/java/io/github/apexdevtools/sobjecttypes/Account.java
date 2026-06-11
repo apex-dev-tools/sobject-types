@@ -171,6 +171,7 @@ public class Account extends SObject {
 	public UsageBillingPeriodItem[] Account_UsageBillingPeriodItems;
 	public UsageEntitlementAccount[] Account_UsageEntitlementAccounts;
 	public UsageSummary[] Account_UsageSummaries;
+	public ExtlRecShrStagedRecord[] Accounts;
 	public Accreditation[] Accreditations;
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
@@ -207,6 +208,7 @@ public class Account extends SObject {
 	public BusinessProfile[] BusinessProfiles;
 	public ClinicalDetectedIssueDetail[] CDetectedIssueDetailRecords;
 	public ClaimParticipant[] CPAccounts;
+	public CaseProceedingParticipant[] CPPParticipant;
 	public CardPaymentMethod[] CardPaymentMethods;
 	public CareBarrier[] CareBarriers;
 	public CareMetricTarget[] CareMetricTargets;
@@ -264,6 +266,7 @@ public class Account extends SObject {
 	public DiagnosticSummary[] DSumAuthenticatorDomain;
 	public DiagnosticSummaryDetail[] DiagSummaryDetailDomain;
 	public DiagnosticSummary[] DiagnosticSummaryPatients;
+	public DigitalPass[] DigitalPasses;
 	public DigitalWallet[] DigitalWallets;
 	public DisclsReportingPeriod[] DisclsReportingPeriodAccount;
 	public DistributorAuthorization[] DistributorAuthorizations;
@@ -366,6 +369,7 @@ public class Account extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public ObjectTerritory2Association[] ObjectTerritory2Associations;
+	public ObjectUserTerritory2View[] ObjectUserTerritory2Views;
 	public OpenActivity[] OpenActivities;
 	public Opportunity[] Opportunities;
 	public OpportunityPartner[] OpportunityPartnersTo;
@@ -378,10 +382,12 @@ public class Account extends SObject {
 	public OrgIncidentSummary[] OrgIncidentSummarySubsidiaryAccount;
 	public OrgPaymentPracSummary[] OrgPaymentPracSummarySubsidiaryAccount;
 	public PatientMedicalProcedure[] PMP_AssertionSource;
+	public ExtlRecShrStagedRecord[] ParentRecords;
 	public GameParticipant[] Participants;
 	public VoucherDefinition[] PartnerAccount;
 	public Partner[] PartnersFrom;
 	public Partner[] PartnersTo;
+	public PartyCategory[] PartyCategories;
 	public PartyExpense[] PartyExpenseParty;
 	public PartyExpense[] PartyExpensePayee;
 	public PartyExpense[] PartyExpensePayer;
@@ -404,6 +410,7 @@ public class Account extends SObject {
 	public AccountContactRole[] PersonAccountContactRoles;
 	public Accreditation[] PersonAccreditations;
 	public ActivityHistory[] PersonActivityHistories;
+	public ApplicationForm[] PersonApplicationForms;
 	public AssetContactParticipant[] PersonAssetContactParticipantContact;
 	public Asset[] PersonAssets;
 	public Award[] PersonAwards;
@@ -429,10 +436,12 @@ public class Account extends SObject {
 	public ConversationParticipant[] PersonConversationParticipants;
 	public CreditMemo[] PersonCreditMemos;
 	public DeclinedEventRelation[] PersonDeclinedEventRelations;
+	public DigitalPass[] PersonDigitalPasses;
 	public PersonDisability[] PersonDisabilities;
 	public DistributorAuthorization[] PersonDistributorAuthorizations;
 	public DocumentChecklistItem[] PersonDocumentChecklistWho;
 	public DocumentRecipient[] PersonDocumentRecipients;
+	public PersonEducation[] PersonEducationAccounts;
 	public EmailMessageRelation[] PersonEmailMessageRelations;
 	public EmailStatus[] PersonEmailStatuses;
 	public EmssnRdctnCommitment[] PersonEmissionsReductionCommitments;
@@ -451,9 +460,11 @@ public class Account extends SObject {
 	public HealthcareProvider[] PersonHealthcareProvidersReferredBy;
 	public HealthcareFacilityNetwork[] PersonHealthcare_Facility_Networks;
 	public IndividualApplication[] PersonIndividualApplicationContact;
+	public InsPolicyBillingInfo[] PersonInsPolicyBillingInfos;
 	public InsuranceProfile[] PersonInsuranceProfiles;
 	public Invoice[] PersonInvoices;
 	public ListEmailIndividualRecipient[] PersonListEmailIndividualRecipients;
+	public ListEmailSentResult[] PersonListEmailRecipients;
 	public ListEmail[] PersonListEmails;
 	public LoanApplicant[] PersonLoanApplicants;
 	public LoyaltyProgramMember[] PersonLoyaltyProgramMemberContact;
@@ -465,6 +476,7 @@ public class Account extends SObject {
 	public Opportunity[] PersonOpportunities;
 	public OpportunityContactRole[] PersonOpportunityContactRoles;
 	public OutgoingEmailRelation[] PersonOutgoingEmailRelations;
+	public PartyCategory[] PersonPartyCategories;
 	public PendingOrderSummary[] PersonPendingOrderSummaries;
 	public PersonEducation[] PersonPersonEducations;
 	public PersonExamination[] PersonPersonExamContact;

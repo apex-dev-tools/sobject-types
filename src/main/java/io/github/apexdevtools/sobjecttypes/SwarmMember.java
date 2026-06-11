@@ -50,6 +50,7 @@ public class SwarmMember extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public SwarmMemberHistory[] Histories;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public SwarmMemberShare[] Shares;

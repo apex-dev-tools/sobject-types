@@ -87,6 +87,7 @@ public class CartItem extends SObject {
 	public InventoryItemReservation[] InventoryReservationSources;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;
 
 	public CartItem clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CartItem clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

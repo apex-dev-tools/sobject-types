@@ -17,7 +17,9 @@ public class DocumentTemplate extends SObject {
 	public static SObjectFields$<DocumentTemplate> Fields;
 
 	public String ContextDefinitionName;
+	public String ContextFilterName;
 	public String ContextMappingName;
+	public String ContextTransformationName;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

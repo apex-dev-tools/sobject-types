@@ -19,6 +19,7 @@ public class PackagePushJob extends SObject {
 	public Integer DurationSeconds;
 	public Datetime EndTime;
 	public Id Id;
+	public Boolean IsMigration;
 	public Id PackagePushRequestId;
 	public PackagePushRequest PackagePushRequest;
 	public Datetime StartTime;

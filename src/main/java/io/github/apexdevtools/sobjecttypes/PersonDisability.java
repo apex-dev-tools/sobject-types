@@ -71,6 +71,7 @@ public class PersonDisability extends SObject {
 	public PersonDisabilityShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TopicAssignment[] TopicAssignments;
 
 	public PersonDisability clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PersonDisability clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

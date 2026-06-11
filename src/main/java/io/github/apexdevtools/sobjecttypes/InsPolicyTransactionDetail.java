@@ -15,6 +15,7 @@ public class InsPolicyTransactionDetail extends SObject {
 	public static SObjectType$<InsPolicyTransactionDetail> SObjectType;
 	public static SObjectFields$<InsPolicyTransactionDetail> Fields;
 
+	public String ChargeType;
 	public Decimal Commission;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -32,9 +33,13 @@ public class InsPolicyTransactionDetail extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Id ParentTransactionDetailId;
+	public InsPolicyTransactionDetail ParentTransactionDetail;
 	public Decimal Premium;
 	public Id ReferenceObjectId;
 	public Name ReferenceObject;
+	public Id ReferenceObjectVersionId;
+	public Name ReferenceObjectVersion;
 	public Datetime SystemModstamp;
 	public Decimal Tax;
 
@@ -59,6 +64,7 @@ public class InsPolicyTransactionDetail extends SObject {
 	public InsPolicyTransactionDetailHistory[] Histories;
 	public InvoiceLine[] InvoiceLines;
 	public OpenActivity[] OpenActivities;
+	public InsPolicyTransactionDetail[] ParentTransactionDetails;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;

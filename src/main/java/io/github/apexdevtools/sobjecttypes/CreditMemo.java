@@ -36,6 +36,10 @@ public class CreditMemo extends SObject {
 	public String DocumentNumber;
 	public String ExternalReference;
 	public String ExternalReferenceDataSource;
+	public Decimal FuncCrcyCnvTotAmtWithTax;
+	public Date FunctionalCurrencyCvsnDate;
+	public Decimal FunctionalCurrencyCvsnRate;
+	public String FunctionalCurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -62,6 +66,7 @@ public class CreditMemo extends SObject {
 	public Decimal TotalCreditAmountApplied;
 	public Decimal TotalCreditAmountUnapplied;
 	public Decimal TotalTaxAmount;
+	public Decimal TotalTaxesCapturedAtHeader;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

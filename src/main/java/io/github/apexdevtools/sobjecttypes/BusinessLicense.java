@@ -76,6 +76,7 @@ public class BusinessLicense extends SObject {
 	public Attachment[] Attachments;
 	public AuthApplicationAsset[] AuthApplicationAssetLicense;
 	public BusinessLicenseApplication[] BusinessLicenseApplicationPermit;
+	public BusinessLicenseCodeSet[] BusinessLicenses;
 	public CareProviderAdverseAction[] CareProviderAdverseActions;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;

@@ -25,6 +25,8 @@ public class CollaborationGroupRecordChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id NetworkId;
+	public Network Network;
 	public Id RecordId;
 	public SObject Record;
 	public String ReplayId;

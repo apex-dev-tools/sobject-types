@@ -31,9 +31,13 @@ public class IdentityVerificationEvent extends SObject {
 	public Decimal Longitude;
 	public String Policy;
 	public String PostalCode;
+	public Id ProfileId;
+	public Profile Profile;
 	public String Remarks;
 	public Id ResourceId;
 	public ConnectedApplication Resource;
+	public Id RoleId;
+	public UserRole Role;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

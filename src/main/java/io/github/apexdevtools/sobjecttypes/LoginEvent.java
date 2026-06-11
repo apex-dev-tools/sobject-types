@@ -19,6 +19,7 @@ public class LoginEvent extends SObject {
 	public String ApiType;
 	public String ApiVersion;
 	public String Application;
+	public String AuthContextClassRef;
 	public String AuthMethodReference;
 	public Id AuthServiceId;
 	public SObject AuthService;
@@ -52,7 +53,11 @@ public class LoginEvent extends SObject {
 	public TransactionSecurityPolicy Policy;
 	public String PolicyOutcome;
 	public String PostalCode;
+	public Id ProfileId;
+	public Profile Profile;
 	public String RelatedEventIdentifier;
+	public Id RoleId;
+	public UserRole Role;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

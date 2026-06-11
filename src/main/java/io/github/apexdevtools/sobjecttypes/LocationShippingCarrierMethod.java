@@ -7,6 +7,7 @@ package io.github.apexdevtools.sobjecttypes;
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
@@ -19,6 +20,7 @@ public class LocationShippingCarrierMethod extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Time FridayPickUpTime;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -28,12 +30,21 @@ public class LocationShippingCarrierMethod extends SObject {
 	public Datetime LastViewedDate;
 	public Id LocationSourceId;
 	public Name LocationSource;
+	public Time MondayPickUpTime;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Time PickupTime;
+	public Integer ProcessingTime;
+	public String ProcessingTimeUnit;
+	public Time SaturdayPickUpTime;
 	public Id ShippingCarrierMethodId;
 	public ShippingCarrierMethod ShippingCarrierMethod;
+	public Time SundayPickUpTime;
 	public Datetime SystemModstamp;
+	public Time ThursdayPickUpTime;
+	public Time TuesdayPickUpTime;
+	public Time WednesdayPickUpTime;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

@@ -15,6 +15,7 @@ public class ExtlClntAppPlcyCnfg extends SObject {
 	public static SObjectType$<ExtlClntAppPlcyCnfg> SObjectType;
 	public static SObjectFields$<ExtlClntAppPlcyCnfg> Fields;
 
+	public String CanvasPluginStatus;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

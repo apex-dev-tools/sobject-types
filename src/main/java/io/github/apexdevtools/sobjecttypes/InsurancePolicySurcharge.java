@@ -41,6 +41,14 @@ public class InsurancePolicySurcharge extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Id OriginalSurchargeId;
+	public InsurancePolicySurcharge OriginalSurcharge;
+	public Id ParentSurchargeId;
+	public InsurancePolicySurcharge ParentSurcharge;
+	public Id PriorSurchargeId;
+	public InsurancePolicySurcharge PriorSurcharge;
+	public Id ProductSellingModelId;
+	public ProductSellingModel ProductSellingModel;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public Decimal SurchargeAmount;
@@ -54,6 +62,7 @@ public class InsurancePolicySurcharge extends SObject {
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public InsurancePolicySurcharge[] ChildSurcharges;
 	public CombinedAttachment[] CombinedAttachments;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
 	public ContentDocumentLink[] ContentDocumentLinks;
@@ -67,10 +76,13 @@ public class InsurancePolicySurcharge extends SObject {
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public InsurancePolicySurchargeHistory[] Histories;
+	public InsPolicyTransactionDetail[] InsPolicyTransactionDetailVersions;
 	public InsPolicyTransactionDetail[] InsPolicyTransactionDetails;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
+	public InsurancePolicySurcharge[] OriginalSurcharges;
+	public InsurancePolicySurcharge[] PriorSurcharges;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public TaskRelation[] TaskRelations;

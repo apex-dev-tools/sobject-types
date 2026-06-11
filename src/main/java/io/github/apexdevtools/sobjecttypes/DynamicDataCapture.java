@@ -58,6 +58,7 @@ public class DynamicDataCapture extends SObject {
 	public DynamicDataCaptureHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
+	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ServiceReport[] ServiceReports;

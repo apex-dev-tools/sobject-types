@@ -72,9 +72,11 @@ public class FulfillmentOrderLineItem extends SObject {
 	public FulfillmentOrderItemTax[] FulfillmentOrderItemTaxes;
 	public FulfillmentOrderLineItem[] FulfillmentOrderLineItems;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public InventoryItemReservation[] InventoryReservationSources;
 	public FulfillmentLineRel[] MainFulfillmentLineRelationships;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ProductItemTransaction[] ProductItemTransactions;
 
 	public FulfillmentOrderLineItem clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FulfillmentOrderLineItem clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -50,6 +50,8 @@ public class CareProgramEnrollee extends SObject {
 	public String OptOutReasonType;
 	public Id OwnerId;
 	public Name Owner;
+	public Id PrimaryMemberPlanId;
+	public MemberPlan PrimaryMemberPlan;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public String Status;

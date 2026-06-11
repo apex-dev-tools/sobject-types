@@ -75,6 +75,7 @@ public class LegalEntity extends SObject {
 	public LegalEntityShare[] Shares;
 	public TaskRelation[] TaskRelations;
 	public Task[] Tasks;
+	public TaxRate[] TaxRateLegalEntity;
 
 	public LegalEntity clone$() {throw new java.lang.UnsupportedOperationException();}
 	public LegalEntity clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

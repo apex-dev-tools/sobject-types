@@ -123,6 +123,7 @@ public class WorkOrder extends SObject {
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public WorkOrder[] ChildWorkOrders;
+	public Claim[] Claims;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContactRequest[] ContactRequests;
 	public AssessmentTaskContentDocument[] ContentDocumentContext;
@@ -145,6 +146,7 @@ public class WorkOrder extends SObject {
 	public WorkOrderHistory[] Histories;
 	public LinkedArticle[] LinkedArticles;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
+	public InventoryReservation[] InventoryReservations;
 	public WorkPlan[] NewWorkPlans;
 	public WorkStep[] NewWorkSteps;
 	public Note[] Notes;
@@ -157,8 +159,10 @@ public class WorkOrder extends SObject {
 	public ProductRequest[] ProductRequests;
 	public ProductConsumed[] ProductsConsumed;
 	public ProductRequired[] ProductsRequired;
+	public Quote[] Quotes;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public VoiceCall[] RelatedRecords;
 	public ResourcePreference[] ResourcePreferences;
 	public ServiceAppointment[] ServiceAppointments;
 	public ServiceReport[] ServiceReports;

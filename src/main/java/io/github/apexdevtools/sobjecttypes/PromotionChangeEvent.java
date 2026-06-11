@@ -44,6 +44,7 @@ public class PromotionChangeEvent extends SObject {
 	public Id Id;
 	public String ImageUrl;
 	public Boolean IsActive;
+	public Boolean IsApproachingDiscountApplicable;
 	public Boolean IsAutomatic;
 	public Boolean IsCloned;
 	public Boolean IsCommercePromotion;
@@ -71,7 +72,9 @@ public class PromotionChangeEvent extends SObject {
 	public User Owner;
 	public Decimal PointFactor;
 	public Integer PriorityNumber;
+	public String PromotionCode;
 	public String PromotionConfiguration;
+	public String PromotionPageUrl;
 	public String QualifierCriteria;
 	public Id RelatedPromotionId;
 	public Promotion RelatedPromotion;

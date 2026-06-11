@@ -17,6 +17,8 @@ public class ClinicalServiceRequestChangeEvent extends SObject {
 
 	public Id BodySiteId;
 	public CodeSetBundle BodySite;
+	public Id CaseId;
+	public Case Case;
 	public Id CategoryId;
 	public CodeSetBundle Category;
 	public Object ChangeEventHeader;
@@ -47,6 +49,8 @@ public class ClinicalServiceRequestChangeEvent extends SObject {
 	public String Name;
 	public Id ObservationId;
 	public CareObservation Observation;
+	public Id OrchestrationInstanceId;
+	public FlowOrchestrationInstance OrchestrationInstance;
 	public Id OriginalRequestId;
 	public ClinicalServiceRequest OriginalRequest;
 	public Id OwnerId;
@@ -68,6 +72,7 @@ public class ClinicalServiceRequestChangeEvent extends SObject {
 	public String QuantityType;
 	public Id ReasonCodeId;
 	public CodeSetBundle ReasonCode;
+	public Decimal ReferralScore;
 	public String ReplayId;
 	public Id RequestCodeId;
 	public CodeSetBundle RequestCode;
@@ -75,11 +80,13 @@ public class ClinicalServiceRequestChangeEvent extends SObject {
 	public SObject Requester;
 	public Id ServiceRequestGroupIdentifierId;
 	public Identifier ServiceRequestGroupIdentifier;
+	public String SourceChannel;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public Datetime SourceSystemModified;
 	public Datetime StartDate;
 	public String Status;
+	public String StatusReason;
 	public String Type;
 
 	public ClinicalServiceRequestChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -46,6 +46,7 @@ public class CalculationMatrix extends SObject {
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public CalculationMatrixActionLog[] CalculationMatrixActionLogs;
 	public CalculationMatrixColumn[] CalculationMatrixColumns;
 	public CalculationMatrixVersion[] CalculationMatrixVersions;
 	public CalculationProcedureStep[] CalculationProcedureSteps;

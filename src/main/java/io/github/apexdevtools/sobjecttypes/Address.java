@@ -50,6 +50,7 @@ public class Address extends SObject {
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AuthApplicationPlace[] AuthApplPlace;
+	public CaseProceeding[] CaseProceedingAddress;
 	public DocumentChecklistItem[] DocumentChecklistItemPR;
 	public DuplicateRecordItem[] DuplicateRecordItems;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;

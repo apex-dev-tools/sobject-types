@@ -44,6 +44,7 @@ public class LoyaltyProgramMemberChangeEvent extends SObject {
 	public String MembershipNumber;
 	public Id OwnerId;
 	public User Owner;
+	public Date PreviousActivityDate;
 	public Id ProgramId;
 	public LoyaltyProgram Program;
 	public String ReferralCode;

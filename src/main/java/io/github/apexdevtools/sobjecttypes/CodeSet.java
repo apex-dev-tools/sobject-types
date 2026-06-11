@@ -83,7 +83,9 @@ public class CodeSet extends SObject {
 	public HierCondHlthCodeMapping[] HierarchicalCondCategoryCodes;
 	public CodeSetHistory[] Histories;
 	public PlanBenefitItem[] ItemCodes;
+	public BusinessLicenseCodeSet[] LicenseCodeSets;
 	public MedicationStatementDetail[] MedicationStatementDetailCodes;
+	public PlanBenefitItem[] PlanBenefitItemCodes;
 	public PlanBenefitItem[] PreauthorizationTypeCodes;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

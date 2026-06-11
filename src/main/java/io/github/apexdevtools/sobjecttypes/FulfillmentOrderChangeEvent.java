@@ -7,6 +7,7 @@ package io.github.apexdevtools.sobjecttypes;
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
@@ -26,6 +27,7 @@ public class FulfillmentOrderChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Datetime DeliveryDate;
 	public Id FulfilledFromLocationId;
 	public Location FulfilledFromLocation;
 	public Address FulfilledToAddress;
@@ -57,7 +59,9 @@ public class FulfillmentOrderChangeEvent extends SObject {
 	public Order Order;
 	public Id OwnerId;
 	public User Owner;
+	public Integer ProcessingTimeInMinutes;
 	public String ReplayId;
+	public Datetime StartFulfillmentDate;
 	public String Status;
 	public String StatusCategory;
 	public String TaxLocaleType;

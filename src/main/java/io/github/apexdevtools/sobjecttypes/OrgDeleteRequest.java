@@ -30,6 +30,9 @@ public class OrgDeleteRequest extends SObject {
 	public String RequestType;
 	public Datetime SystemModstamp;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public OrgDeleteRequestShare[] Shares;

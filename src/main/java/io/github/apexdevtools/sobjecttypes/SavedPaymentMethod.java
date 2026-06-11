@@ -18,6 +18,7 @@ public class SavedPaymentMethod extends SObject {
 
 	public String AccountHolderEmail;
 	public String AccountHolderName;
+	public String AsyncGatewayRefNumber;
 	public String BankAccountHolderType;
 	public String BankAccountType;
 	public String BankCode;
@@ -33,11 +34,13 @@ public class SavedPaymentMethod extends SObject {
 	public String BillingState;
 	public String BillingStateCode;
 	public String BillingStreet;
+	public String Checksum;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Integer ExpiryMonth;
 	public Integer ExpiryYear;
+	public String ExtendedPaymentMethodType;
 	public String GatewayReference;
 	public Blob GatewayToken;
 	public Id Id;
@@ -59,6 +62,8 @@ public class SavedPaymentMethod extends SObject {
 	public String NickName;
 	public Id PaymentGatewayId;
 	public PaymentGateway PaymentGateway;
+	public String PaymentMethodSubType;
+	public String ProcessingMode;
 	public Id ReferenceOwnerId;
 	public Name ReferenceOwner;
 	public String StandardEntryClassCode;
@@ -73,6 +78,7 @@ public class SavedPaymentMethod extends SObject {
 	public CardPaymentMethod[] CardPaymentMethods;
 	public DigitalWallet[] DigitalWallets;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public PaymentGatewayLog[] PaymentGatewayLogs;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 

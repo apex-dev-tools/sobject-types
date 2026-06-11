@@ -55,6 +55,8 @@ public class VehicleAssetEnrgyUseChangeEvent extends SObject {
 	public String Name;
 	public Id OtherEmssnFctrId;
 	public OtherEmssnFctrSet OtherEmssnFctr;
+	public Id OthrLifecyclEmssnFctrSetId;
+	public OthrLifecyclEmssnFctrSet OthrLifecyclEmssnFctrSet;
 	public Id OwnerId;
 	public User Owner;
 	public String ReplayId;
@@ -64,6 +66,10 @@ public class VehicleAssetEnrgyUseChangeEvent extends SObject {
 	public Decimal Scope3DnstrmEmissionsInTco2e;
 	public String Scope3GhgCategory;
 	public Decimal Scope3UpstrmEmissionsInTco2e;
+	public Decimal Scp3Ch4EmssnFuelEnrgy;
+	public Decimal Scp3Co2EmssnFuelEnrgy;
+	public Decimal Scp3EmssnFuelEnrgy;
+	public Decimal Scp3N2oEmssnFuelEnrgy;
 	public Date StartDate;
 	public Decimal SuplScope1Emissions;
 	public Decimal SuplScope2LocationBasedEmssn;

@@ -8,6 +8,7 @@ import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
+import io.github.apexdevtools.standardtypes.System.Long;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
@@ -26,6 +27,7 @@ public class ContentVersion extends SObject {
 	public User ContentModifiedBy;
 	public Datetime ContentModifiedDate;
 	public Integer ContentSize;
+	public Long ContentSizeLong;
 	public String ContentUrl;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -51,6 +53,8 @@ public class ContentVersion extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime MalwareScanDate;
+	public String MalwareScanStatus;
 	public Integer NegativeRatingCount;
 	public Id NetworkId;
 	public Network Network;
@@ -73,7 +77,10 @@ public class ContentVersion extends SObject {
 	public String VersionNumber;
 
 	public NetworkActivityAudit[] AuditableEntities;
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AuthorizationFormConsent[] AuthorizationFormConsents;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GeneratedDocument[] GeneratedDocContentVersions;
 	public ContentVersionHistory[] Histories;
 

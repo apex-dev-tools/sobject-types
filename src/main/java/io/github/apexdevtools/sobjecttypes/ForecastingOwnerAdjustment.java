@@ -22,6 +22,8 @@ public class ForecastingOwnerAdjustment extends SObject {
 	public String ForecastCategoryName;
 	public Id ForecastOwnerId;
 	public User ForecastOwner;
+	public Id ForecastingGroupItemId;
+	public ForecastingGroupItem ForecastingGroupItem;
 	public String ForecastingItemCategory;
 	public Id ForecastingItemId;
 	public ForecastingItem ForecastingItem;

@@ -41,6 +41,7 @@ public class ProductCategoryProduct extends SObject {
 	public ProductCategoryProductHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public SvcProcProdCatgProdExtrc[] ProductCategoryProducts;
 
 	public ProductCategoryProduct clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ProductCategoryProduct clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

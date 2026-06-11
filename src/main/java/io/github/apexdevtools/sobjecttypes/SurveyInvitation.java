@@ -53,9 +53,13 @@ public class SurveyInvitation extends SObject {
 	public Id UserId;
 	public User User;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
+	public LinkedArticle[] LinkedArticles;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public SurveyInvitationShare[] Shares;

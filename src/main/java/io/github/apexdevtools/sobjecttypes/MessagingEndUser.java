@@ -43,6 +43,7 @@ public class MessagingEndUser extends SObject {
 	public Id MessagingChannelId;
 	public MessagingChannel MessagingChannel;
 	public String MessagingConsentStatus;
+	public String MessagingExternalUserKey;
 	public String MessagingPlatformKey;
 	public String Name;
 	public Id OwnerId;

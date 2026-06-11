@@ -22,6 +22,7 @@ public class DocGenProcStsChgEvent extends SObject {
 	public String Error;
 	public String EventUuid;
 	public String PdfDocumentIdentifier;
+	public String ReferenceObject;
 	public String ReplayId;
 	public String Status;
 	public String WordDocumentIdentifier;

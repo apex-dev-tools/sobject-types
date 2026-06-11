@@ -19,6 +19,7 @@ public class InsurancePolicy extends SObject {
 	public String AuditTerm;
 	public Id BillingCarrierAccountId;
 	public Account BillingCarrierAccount;
+	public String BillingType;
 	public Datetime CancellationDate;
 	public Date CancellationEffectiveDate;
 	public String CancellationReason;
@@ -118,6 +119,7 @@ public class InsurancePolicy extends SObject {
 	public Opportunity SourceOpportunity;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
+	public Decimal StandardCommissionAmount;
 	public Decimal StandardFeeAmount;
 	public Decimal StandardPremiumAmount;
 	public Decimal StandardTaxAmount;
@@ -125,6 +127,7 @@ public class InsurancePolicy extends SObject {
 	public String Substatus;
 	public Datetime SystemModstamp;
 	public Decimal TaxesSurcharges;
+	public Decimal TermCommissionAmount;
 	public Decimal TermFeeAmount;
 	public Decimal TermPremiumAmount;
 	public Decimal TermTaxAmount;
@@ -143,6 +146,7 @@ public class InsurancePolicy extends SObject {
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public AppUsageAssignment[] AppUsageAssignments;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
@@ -167,6 +171,9 @@ public class InsurancePolicy extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public InsurancePolicyHistory[] Histories;
 	public InsPolicyRelatedObject[] IPROInsurancePolicy;
+	public InsPolicyBillingInfo[] InsPolicyBillingInfos;
+	public InsPolicyTransactionDetail[] InsPolicyTransactionDetailVersions;
+	public InsPolicyTransactionDetail[] InsPolicyTransactionDetails;
 	public InsuranceAsyncBulkRecordDetail[] InsuranceAsyncBulkRecordDetails;
 	public InsuranceAsyncBulkRequestItem[] InsuranceAsyncBulkRequestItems;
 	public InsurancePolicyProductClause[] InsurancePolicy;
@@ -174,6 +181,7 @@ public class InsurancePolicy extends SObject {
 	public InsurancePolicyAttribute[] InsurancePolicyAttributes;
 	public InsurancePolicyCoverage[] InsurancePolicyCoverages;
 	public InsurancePolicyParticipant[] InsurancePolicyParticipants;
+	public InsurancePolicyProductClause[] InsurancePolicyProductClauses;
 	public InsurancePolicySurcharge[] InsurancePolicySurcharges;
 	public InsurancePolicyTransaction[] InsurancePolicyTransactions;
 	public InsPlcyLimit[] InsurancePolicyVersions;

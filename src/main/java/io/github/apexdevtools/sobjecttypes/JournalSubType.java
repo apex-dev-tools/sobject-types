@@ -37,6 +37,7 @@ public class JournalSubType extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public JournalSubTypeHistory[] Histories;
 	public TransactionJournal[] JournalSubType;
+	public LoyaltyProgramJournalType[] JournalSubTypes;
 	public LoyaltyProgramProcess[] LoyaltyProcessesJournalSubType;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

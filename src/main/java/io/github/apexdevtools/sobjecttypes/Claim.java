@@ -22,6 +22,7 @@ public class Claim extends SObject {
 	public Datetime AssessmentDate;
 	public Id CaseId;
 	public Case Case;
+	public Date ClaimLossDate;
 	public String ClaimReason;
 	public String ClaimReasonType;
 	public String ClaimType;
@@ -69,6 +70,7 @@ public class Claim extends SObject {
 	public InsurancePolicy PolicyNumber;
 	public Id ProductId;
 	public Product2 Product;
+	public String RecordSource;
 	public String RenewalChannel;
 	public String RepairShop;
 	public String RepairShopLocation;
@@ -90,6 +92,7 @@ public class Claim extends SObject {
 	public ActionPlan[] ActionPlans;
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;
+	public AppUsageAssignment[] AppUsageAssignments;
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;

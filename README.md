@@ -4,7 +4,7 @@ Stub declarations for Salesforce SObject types encoded as compilable Java, built
 
 These stub declarations help support static analysis of Apex code in [apex-ls](https://github.com/apex-dev-tools/apex-ls) but you may also find them useful for other purposes. They have been encoded in Java to get the benefit of type checking by javac so it easier to spot when something is amiss. In apex-ls JVM reflection is used to 'read' the stubs as part of the static analysis.
 
-The library is versioned to reflect Salesforce API numbers, so currently v65.X.X matches the Salesforce Winter '26 API.
+The library is versioned to reflect Salesforce API numbers, so currently v67.X.X matches the Salesforce Summer '26 API.
 
 ## Installation
 
@@ -14,7 +14,7 @@ To use the jar in a maven project add the following to your pom.xml
 <dependency>
     <groupId>io.github.apex-dev-tools</groupId>
     <artifactId>sobject-types</artifactId>
-    <version>65.0.0</version>
+    <version>67.0.0</version>
 </dependency>
 ```
 
@@ -66,6 +66,12 @@ To generate types, we need an org with as many features enabled as possible, oth
 | `sf.password` | For scratch org, `sf org generate password -o username`. You may also need to append a [security token](https://help.salesforce.com/s/articleView?id=xcloud.user_security_token.htm). |
 | `sf.instance` (Optional) | Defaults to `test` for scratch org (sandbox). Use `login` for other org types. |
 | `sf.apiVersion` (Optional) | Override current api version e.g. `62.0` |
+
+Alternatively an existing `sf` CLI session can be used instead of a password, avoiding the retired SOAP `login()` call. Pass the org's access token and full instance URL (both shown by `sf org display -o <org> --verbose`):
+
+```sh
+mvn exec:exec -Dsf.user="[username]" -Dsf.pass="[access token]" -Dsf.instance="https://[my-domain].my.salesforce.com"
+```
 
 #### Debugging
 

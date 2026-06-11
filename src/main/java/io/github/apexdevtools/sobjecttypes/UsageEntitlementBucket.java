@@ -38,9 +38,11 @@ public class UsageEntitlementBucket extends SObject {
 	public Name Owner;
 	public Id ParentId;
 	public Name Parent;
+	public Decimal ProvisionalBucketBalance;
 	public Datetime SystemModstamp;
 	public Decimal TotalAsOfBalance;
 	public Decimal TotalConsumedEntitlement;
+	public Decimal TotalProvisionalBalance;
 	public Id TransactionUsageEntitlementId;
 	public TransactionUsageEntitlement TransactionUsageEntitlement;
 	public Id UsageResourceId;

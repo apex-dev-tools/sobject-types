@@ -43,6 +43,7 @@ public class GeoCountry extends SObject {
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ContactProfile[] SecondaryCitizenships;
 	public GeoCountryShare[] Shares;
+	public TaxRate[] TaxRateGeoCountry;
 
 	public GeoCountry clone$() {throw new java.lang.UnsupportedOperationException();}
 	public GeoCountry clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

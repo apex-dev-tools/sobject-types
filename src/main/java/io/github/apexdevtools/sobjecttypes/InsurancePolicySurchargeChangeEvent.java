@@ -39,6 +39,14 @@ public class InsurancePolicySurchargeChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public Id OriginalSurchargeId;
+	public InsurancePolicySurcharge OriginalSurcharge;
+	public Id ParentSurchargeId;
+	public InsurancePolicySurcharge ParentSurcharge;
+	public Id PriorSurchargeId;
+	public InsurancePolicySurcharge PriorSurcharge;
+	public Id ProductSellingModelId;
+	public ProductSellingModel ProductSellingModel;
 	public String ReplayId;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;

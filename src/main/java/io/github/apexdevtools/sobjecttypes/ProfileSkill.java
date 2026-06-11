@@ -34,6 +34,8 @@ public class ProfileSkill extends SObject {
 	public Datetime SystemModstamp;
 	public Integer UserCount;
 
+	public ApprovalSubmission[] ApprovalSubmissions;
+	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

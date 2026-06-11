@@ -113,6 +113,7 @@ public class Product2 extends SObject {
 	public InvoiceLine[] InvoiceLines;
 	public ContractItemPrice[] Items;
 	public TransactionJournal[] JournalProducts;
+	public LinkedArticle[] LinkedArticles;
 	public ListEmail[] ListEmails;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public LoyaltyPartnerProduct[] LoyaltyPartnerProduct2;
@@ -127,6 +128,7 @@ public class Product2 extends SObject {
 	public ProductDisqualification[] ParentProductDisqualifications;
 	public ProductQualification[] ParentProductQualifications;
 	public ProductRelatedComponent[] ParentProductRelatedComponents;
+	public ExtlRecShrStagedRecord[] ParentRecords;
 	public PriceAdjustmentTier[] PriceAdjustmentTiers;
 	public PriceBookEntryDerivedPrice[] PriceBookEntryContributingProducts;
 	public PriceBookEntryDerivedPrice[] PriceBookEntryDerivedProducts;
@@ -147,6 +149,7 @@ public class Product2 extends SObject {
 	public ProductEmissionsFactor[] ProductEmissionsFactors;
 	public ProductFulfillmentLocation[] ProductFulfillmentLocations;
 	public ProductItem[] ProductItems;
+	public PriceAdjustmentProductRule[] ProductPriceAdjustmentProductRule;
 	public ProductQualification[] ProductQualifications;
 	public ProductRequestLineItem[] ProductRequestLineItems;
 	public ProductSellingModelOption[] ProductSellingModelOptions;
@@ -175,6 +178,7 @@ public class Product2 extends SObject {
 	public ProductDisqualification[] RootProductDisqualifications;
 	public ProductQualification[] RootProductQualifications;
 	public SerializedProduct[] SerializedProducts;
+	public SvcProcProdCatgProdExtrc[] ServiceProcessDefinition;
 	public ShipmentItem[] ShipmentItems;
 	public SurveySubject[] SurveySubjectEntities;
 	public SupplierProduct[] SupplierProducts;

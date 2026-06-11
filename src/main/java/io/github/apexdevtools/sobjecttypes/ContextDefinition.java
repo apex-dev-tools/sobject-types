@@ -31,6 +31,7 @@ public class ContextDefinition extends SObject {
 	public String InheritedFromVersion;
 	public Boolean IsDeleted;
 	public Boolean IsExtensionV2Used;
+	public Boolean IsTransformationEnabled;
 	public String Language;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

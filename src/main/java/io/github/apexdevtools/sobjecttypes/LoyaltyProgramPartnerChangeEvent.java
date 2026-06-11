@@ -26,6 +26,7 @@ public class LoyaltyProgramPartnerChangeEvent extends SObject {
 	public String CurrencyIsoCode;
 	public Decimal DebitedPoints;
 	public Id Id;
+	public Boolean IsMemberLinkingAllowed;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -34,6 +35,8 @@ public class LoyaltyProgramPartnerChangeEvent extends SObject {
 	public Account LoyaltyPartner;
 	public Id LoyaltyProgramId;
 	public LoyaltyProgram LoyaltyProgram;
+	public Datetime MemberLinkingEffEndDate;
+	public Datetime MemberLinkingEffStartDate;
 	public String Name;
 	public Id OwnerId;
 	public User Owner;

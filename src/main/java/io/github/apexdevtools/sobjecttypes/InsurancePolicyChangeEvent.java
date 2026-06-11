@@ -19,6 +19,7 @@ public class InsurancePolicyChangeEvent extends SObject {
 	public String AuditTerm;
 	public Id BillingCarrierAccountId;
 	public Account BillingCarrierAccount;
+	public String BillingType;
 	public Datetime CancellationDate;
 	public Date CancellationEffectiveDate;
 	public String CancellationReason;
@@ -117,12 +118,14 @@ public class InsurancePolicyChangeEvent extends SObject {
 	public Opportunity SourceOpportunity;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
+	public Decimal StandardCommissionAmount;
 	public Decimal StandardFeeAmount;
 	public Decimal StandardPremiumAmount;
 	public Decimal StandardTaxAmount;
 	public String Status;
 	public String Substatus;
 	public Decimal TaxesSurcharges;
+	public Decimal TermCommissionAmount;
 	public Decimal TermFeeAmount;
 	public Decimal TermPremiumAmount;
 	public Decimal TermTaxAmount;

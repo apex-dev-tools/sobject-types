@@ -31,6 +31,7 @@ public class AlternativePaymentMethod extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String Email;
+	public String ExtendedPaymentMethodType;
 	public Blob GatewayToken;
 	public String GatewayTokenDetails;
 	public Id Id;

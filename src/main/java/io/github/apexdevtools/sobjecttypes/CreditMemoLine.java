@@ -34,6 +34,11 @@ public class CreditMemoLine extends SObject {
 	public String CurrencyIsoCode;
 	public String Description;
 	public Date EndDate;
+	public Decimal FuncCrcyCnvTotalTaxAmt;
+	public Decimal FuncCurrencyCnvChargeAmt;
+	public Date FunctionalCurrencyCvsnDate;
+	public Decimal FunctionalCurrencyCvsnRate;
+	public String FunctionalCurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

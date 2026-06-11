@@ -22,6 +22,7 @@ public class PendingOrdSumProcEvent extends SObject {
 	public String ErrorMessage;
 	public String EventUuid;
 	public String ExternalReferenceIdentifier;
+	public Boolean IsRetry;
 	public Boolean IsSuccess;
 	public Id OrderId;
 	public Order Order;

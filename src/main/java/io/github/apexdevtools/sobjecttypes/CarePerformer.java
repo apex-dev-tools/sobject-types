@@ -46,6 +46,7 @@ public class CarePerformer extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DiagnosticSummary[] DiagSum_InterpretedBy;
 	public DiagnosticSummary[] DiagSum_IssuedBy;
+	public DiagnosticSummaryDetail[] DiagSummaryDetailDomain;
 	public DocumentEnvelope[] DocEnvelopeRefObjects;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public CarePerformerFeed[] Feeds;

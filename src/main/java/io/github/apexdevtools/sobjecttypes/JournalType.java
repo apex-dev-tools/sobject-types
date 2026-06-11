@@ -40,6 +40,7 @@ public class JournalType extends SObject {
 	public JournalSubType[] JournalSubTypes;
 	public TransactionJournal[] JournalType;
 	public PromotionRuleTemplate[] JournalTypeTemplates;
+	public LoyaltyProgramJournalType[] JournalTypes;
 	public LoyaltyProgramProcess[] LoyaltyProcessesJournalType;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

@@ -20,6 +20,7 @@ public class BatchCalcJobDefinition extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyConversion;
 	public String DataSpaceApiName;
 	public String DefinitionRunMode;
 	public String DeveloperName;
@@ -37,6 +38,7 @@ public class BatchCalcJobDefinition extends SObject {
 	public String NamespacePrefix;
 	public String ProcessType;
 	public Datetime SystemModstamp;
+	public String TargetCurrencyIsoCode;
 
 	public BatchCalcJobDefinition clone$() {throw new java.lang.UnsupportedOperationException();}
 	public BatchCalcJobDefinition clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -31,6 +31,10 @@ public class Invoice extends SObject {
 	public String Description;
 	public String DocumentNumber;
 	public Date DueDate;
+	public Decimal FuncCrcyCnvTotAmtWithTax;
+	public Date FunctionalCurrencyCvsnDate;
+	public Decimal FunctionalCurrencyCvsnRate;
+	public String FunctionalCurrencyIsoCode;
 	public Id Id;
 	public Date InvoiceDate;
 	public Datetime InvoiceLockedDateTime;
@@ -59,6 +63,7 @@ public class Invoice extends SObject {
 	public Decimal TotalChargeAmountWithTax;
 	public Decimal TotalChargeTaxAmount;
 	public Decimal TotalTaxAmount;
+	public Decimal TotalTaxesCapturedAtHeader;
 	public String WriteOffStatus;
 	public Decimal WriteOffTotalChargeAmount;
 	public Decimal WriteOffTotalTaxAmount;

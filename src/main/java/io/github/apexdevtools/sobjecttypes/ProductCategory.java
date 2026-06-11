@@ -63,6 +63,7 @@ public class ProductCategory extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public TransactionJournal[] ProductCategories;
+	public SvcProcProdCatgProdExtrc[] ProductCategory;
 	public ProductCategoryDisqual[] ProductCategoryDisqualifications;
 	public ProductCategoryProduct[] ProductCategoryProducts;
 	public ProductCategoryQualification[] ProductCategoryQualifications;

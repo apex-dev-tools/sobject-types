@@ -20,6 +20,8 @@ public class FlowTestResult extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String Error;
+	public String FailedAssertions;
 	public String FlowDefinitionViewId;
 	public String FlowTestViewId;
 	public Integer FlowVersionNumber;

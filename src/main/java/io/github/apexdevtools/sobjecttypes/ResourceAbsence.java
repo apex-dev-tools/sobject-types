@@ -17,6 +17,7 @@ public class ResourceAbsence extends SObject {
 
 	public String AbsenceNumber;
 	public Address Address;
+	public String ApprovalStatus;
 	public String City;
 	public String Country;
 	public String CountryCode;
@@ -28,6 +29,7 @@ public class ResourceAbsence extends SObject {
 	public Datetime End;
 	public String GeocodeAccuracy;
 	public Id Id;
+	public Boolean IsAbsenceTravelFromHomeBase;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

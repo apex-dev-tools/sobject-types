@@ -38,6 +38,7 @@ public class Group extends SObject {
 
 	public AssessmentTask[] AssessmentTaskAssignedTo;
 	public ApprovalWorkItem[] AssignedWorkItems;
+	public CaseProceedingParticipant[] CPPParticipant;
 	public ComplaintParticipant[] ComplaintParticipants;
 	public User[] DelegatedUsers;
 	public DigitalVerification[] DigitalVerificationDesignatedVerifier;

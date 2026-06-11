@@ -41,6 +41,7 @@ public class AnnualEmssnInventoryExtension extends SObject {
 	public Decimal AllocScp3EmssnUseOfSoldPrdct;
 	public Decimal AllocScp3EmssnWstGenInOper;
 	public Decimal AllocScp3EndLifeTreatSoldPrdct;
+	public Decimal AllocScp3MktEmssnFuelEnrgy;
 	public Decimal AllocScp3UncategorizedEmssn;
 	public Decimal AllocSuplScope3DnstrmEmissions;
 	public Decimal AllocSuplScope3Emission;

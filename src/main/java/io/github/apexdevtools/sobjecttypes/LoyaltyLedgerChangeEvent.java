@@ -34,6 +34,7 @@ public class LoyaltyLedgerChangeEvent extends SObject {
 	public LoyaltyProgramCurrency LoyaltyProgramCurrency;
 	public Id LoyaltyProgramMemberId;
 	public LoyaltyProgramMember LoyaltyProgramMember;
+	public String Name;
 	public Decimal Points;
 	public Id PromotionId;
 	public Promotion Promotion;

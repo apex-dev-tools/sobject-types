@@ -20,6 +20,7 @@ public class EmailServicesAddress extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DeveloperName;
+	public String DkimRequiredDomains;
 	public String EmailDomainName;
 	public Id FunctionId;
 	public EmailServicesFunction Function;

@@ -52,7 +52,9 @@ public class RegulatoryTrxnFeeItem extends SObject {
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GenericVisitTaskContext[] GVTaskContexts;
 	public GeneratedDocument[] GeneratedDocRefObjects;
+	public InvoiceLine[] GroupInvoiceLines;
 	public RegulatoryTrxnFeeItemHistory[] Histories;
+	public InvoiceLine[] InvoiceLines;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

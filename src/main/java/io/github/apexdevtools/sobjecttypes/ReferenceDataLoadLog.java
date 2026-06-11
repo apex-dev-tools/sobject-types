@@ -76,6 +76,7 @@ public class ReferenceDataLoadLog extends SObject {
 	public AirTravelEmssnFctr[] ReferenceAirTravelEmssnFctr;
 	public BldgEnrgyIntensity[] ReferenceBldgEnrgyIntensity;
 	public BldgEnrgyIntensityVal[] ReferenceBldgEnrgyIntensityVal;
+	public ElectrLifecyclEmssnFctrSet[] ReferenceElectrLifecyclEmssnFctrSet;
 	public ElectricityEmssnFctrSet[] ReferenceElectricityEmssnFctrSet;
 	public FrgtHaulingEmssnFctr[] ReferenceFrgtHaulingEmssnFctr;
 	public GroundTravelEmssnFctr[] ReferenceGroundTravelEmssnFctr;
@@ -83,6 +84,8 @@ public class ReferenceDataLoadLog extends SObject {
 	public InflationRate[] ReferenceInflationRate;
 	public OtherEmssnFctrSet[] ReferenceOtherEmssnFctrSet;
 	public OtherEmssnFctrSetItem[] ReferenceOtherEmssnFctrSetItem;
+	public OthrLifecyclEmssnFctrSet[] ReferenceOthrLifecyclEmssnFctrSet;
+	public OthrLifecyclEmssnFctrSetItem[] ReferenceOthrLifecyclEmssnFctrSetItem;
 	public PcmtEmssnFctrSet[] ReferencePcmtEmssnFctrSet;
 	public PcmtEmssnFctrSetItem[] ReferencePcmtEmssnFctrSetItem;
 	public ProductEmissionsFactor[] ReferenceProductEmissionsFactor;

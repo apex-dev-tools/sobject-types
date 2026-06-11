@@ -25,7 +25,11 @@ public class LockoutEventStream extends SObject {
 	public Integer FailedLogins;
 	public Datetime LockoutDate;
 	public String LoginKey;
+	public Id ProfileId;
+	public Profile Profile;
 	public String ReplayId;
+	public Id RoleId;
+	public UserRole Role;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

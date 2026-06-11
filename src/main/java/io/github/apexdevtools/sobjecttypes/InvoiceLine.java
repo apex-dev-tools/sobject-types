@@ -31,6 +31,11 @@ public class InvoiceLine extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public Decimal FuncCrcyCnvTotalTaxAmt;
+	public Decimal FuncCurrencyCnvChargeAmt;
+	public Date FunctionalCurrencyCvsnDate;
+	public Decimal FunctionalCurrencyCvsnRate;
+	public String FunctionalCurrencyIsoCode;
 	public Id GroupReferenceEntityItemId;
 	public Name GroupReferenceEntityItem;
 	public Id Id;

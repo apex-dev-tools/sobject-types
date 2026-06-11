@@ -120,6 +120,7 @@ public class Order extends SObject {
 	public GeneratedDocument[] GeneratedDocRefObjects;
 	public OrderHistory[] Histories;
 	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
+	public InventoryReservation[] InventoryReservations;
 	public Invoice[] Invoices;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public TransactionJournal[] JournalOrders;

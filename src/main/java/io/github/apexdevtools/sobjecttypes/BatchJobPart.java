@@ -8,6 +8,7 @@ import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
+import io.github.apexdevtools.standardtypes.System.Long;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
@@ -16,6 +17,7 @@ public class BatchJobPart extends SObject {
 	public static SObjectType$<BatchJobPart> SObjectType;
 	public static SObjectFields$<BatchJobPart> Fields;
 
+	public String AdditionalInformation;
 	public Id BatchJobId;
 	public BatchJob BatchJob;
 	public Id CreatedById;
@@ -29,14 +31,17 @@ public class BatchJobPart extends SObject {
 	public Integer FailedRecFileLength;
 	public String FailedRecFileName;
 	public Integer FailedRecordCount;
+	public Long FailedRowCount;
 	public Id Id;
 	public Integer InputRecordCount;
+	public Long InputRowCount;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Integer OutputRecordCount;
+	public Long OutputRowCount;
 	public Id ParentBatchJobPartId;
 	public BatchJobPart ParentBatchJobPart;
 	public Blob RecordFileBody;
@@ -48,6 +53,7 @@ public class BatchJobPart extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 	public String Type;
+	public String UserReference;
 
 	public ApprovalSubmission[] ApprovalSubmissions;
 	public ApprovalWorkItem[] ApprovalWorkItems;

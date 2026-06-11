@@ -7,6 +7,7 @@ package io.github.apexdevtools.sobjecttypes;
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
+import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
@@ -27,6 +28,8 @@ public class ProdtAttrScope extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Integer OverrideDate;
+	public String OverrideMonth;
 	public Id OwnerId;
 	public Name Owner;
 	public String Scope;

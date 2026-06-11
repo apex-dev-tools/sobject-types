@@ -88,5 +88,28 @@ object SFConnection {
     }
   }
 
+  // Connect with an existing session, e.g. an access token from `sf org display --verbose`,
+  // avoiding the retired SOAP login(). The instance is the full org URL, e.g.
+  // https://my-domain.my.salesforce.com
+  def fromSession(
+    username: String,
+    sessionId: String,
+    instanceUrl: String,
+    api: String,
+  ): Either[String, SFConnection] = {
+    val base    = instanceUrl.stripSuffix("/")
+    val url     = s"$base/services/Soap/u/$api"
+    val metaUrl = s"$base/services/Soap/m/$api"
+    val config  = new ConnectorConfig
+    config.setServiceEndpoint(url)
+    config.setSessionId(sessionId)
+
+    try {
+      Right(SFConnection(new PartnerConnection(config), url, metaUrl, base, username))
+    } catch {
+      case e: ConnectionException => Left(e.toString)
+    }
+  }
+
   private def setApiVersion(url: String, api: String): String = url.replace("64.0", api)
 }

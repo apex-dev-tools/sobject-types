@@ -37,6 +37,7 @@ public class ActionPlan extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public String ProcessType;
 	public String RecordCreationType;
 	public Id RecurringScheduleId;
 	public RecurrenceSchedule RecurringSchedule;
@@ -47,6 +48,7 @@ public class ActionPlan extends SObject {
 	public Datetime SystemModstamp;
 	public Id TargetId;
 	public Name Target;
+	public String Version;
 
 	public ActionPlanItem[] ActionPlanItems;
 	public ApprovalSubmission[] ApprovalSubmissions;
