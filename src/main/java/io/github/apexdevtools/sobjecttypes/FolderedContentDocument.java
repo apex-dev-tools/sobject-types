@@ -8,7 +8,6 @@ import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
-import io.github.apexdevtools.standardtypes.System.Long;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
@@ -20,7 +19,6 @@ public class FolderedContentDocument extends SObject {
 	public Id ContentDocumentId;
 	public ContentDocument ContentDocument;
 	public Integer ContentSize;
-	public Long ContentSizeLong;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

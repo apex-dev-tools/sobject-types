@@ -15,13 +15,11 @@ public class OpportunitySplitChangeEvent extends SObject {
 	public static SObjectType$<OpportunitySplitChangeEvent> SObjectType;
 	public static SObjectFields$<OpportunitySplitChangeEvent> Fields;
 
-	public String ArchivedTerritoryName;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
-	public Boolean HasOpportunityLineItemSplit;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -36,8 +34,6 @@ public class OpportunitySplitChangeEvent extends SObject {
 	public Decimal SplitPercentage;
 	public Id SplitTypeId;
 	public OpportunitySplitType SplitType;
-	public Id Territory2Id;
-	public Territory2 Territory2;
 
 	public OpportunitySplitChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OpportunitySplitChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

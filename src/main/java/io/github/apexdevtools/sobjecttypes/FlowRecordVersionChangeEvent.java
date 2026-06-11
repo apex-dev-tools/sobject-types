@@ -16,7 +16,6 @@ public class FlowRecordVersionChangeEvent extends SObject {
 	public static SObjectType$<FlowRecordVersionChangeEvent> SObjectType;
 	public static SObjectFields$<FlowRecordVersionChangeEvent> Fields;
 
-	public String AccessType;
 	public Id ActivatedById;
 	public User ActivatedBy;
 	public Datetime ActivatedDate;

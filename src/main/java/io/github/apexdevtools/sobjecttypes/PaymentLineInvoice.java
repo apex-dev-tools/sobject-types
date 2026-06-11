@@ -52,7 +52,6 @@ public class PaymentLineInvoice extends SObject {
 	public FinanceTransaction[] DestinationFinanceTransactions;
 	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
 	public FinanceTransaction[] FinanceTransactions;
-	public PaymentLineInvoiceHistory[] Histories;
 	public FinanceTransaction[] ParentFinanceTransactions;
 	public RevenueTransactionErrorLog[] PrimaryRevenueTransactionErrorLogs;
 	public RevenueTransactionErrorLog[] RelatedRevenueTransactionErrorLogs;

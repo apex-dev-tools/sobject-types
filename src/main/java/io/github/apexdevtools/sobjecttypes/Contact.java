@@ -193,7 +193,6 @@ public class Contact extends SObject {
 	public Invoice[] Invoices;
 	public SurveyInvitation[] LeadSurveyInvitations;
 	public ListEmailIndividualRecipient[] ListEmailIndividualRecipients;
-	public ListEmailSentResult[] ListEmailRecipients;
 	public ListEmail[] ListEmails;
 	public LoanApplicant[] LoanApplicants;
 	public LoyaltyProgramMember[] LoyaltyProgramMemberContact;
@@ -223,7 +222,6 @@ public class Contact extends SObject {
 	public PersonExamination[] PersonExamContact;
 	public PersonLifeEvent[] PersonLifeEvents;
 	public PersonName[] PersonNamesParents;
-	public ExtlRecShrStagedRecord[] ParentRecords;
 	public UserEmailPreferredPerson[] PersonRecord;
 	public SocialPersona[] Personas;
 	public SocialPost[] Posts;

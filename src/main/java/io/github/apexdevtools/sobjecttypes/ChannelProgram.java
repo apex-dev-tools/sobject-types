@@ -35,8 +35,6 @@ public class ChannelProgram extends SObject {
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
-	public ApprovalSubmission[] ApprovalSubmissions;
-	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public ChannelProgramLevel[] ChannelProgramLevels;
@@ -47,7 +45,6 @@ public class ChannelProgram extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ChannelProgramFeed[] Feeds;
-	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ChannelProgramHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

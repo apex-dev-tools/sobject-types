@@ -49,7 +49,6 @@ public class LoginAnomalyEventStore extends SObject {
 	public ThreatDetectionFeedback[] Feedbacks;
 	public LoginAnomalyEventStoreFeed[] Feeds;
 	public GeneratedDocument[] GeneratedDocRefObjects;
-	public NetworkActivityAudit[] ParentEntities;
 
 	public LoginAnomalyEventStore clone$() {throw new java.lang.UnsupportedOperationException();}
 	public LoginAnomalyEventStore clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

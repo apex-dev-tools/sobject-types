@@ -61,7 +61,6 @@ public class WorkCapacityUsage extends SObject {
 	public WorkCapacityUsageFeed[] Feeds;
 	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public GeneratedDocument[] GeneratedDocRefObjects;
-	public NetworkActivityAudit[] ParentEntities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public WorkCapacityUsageShare[] Shares;

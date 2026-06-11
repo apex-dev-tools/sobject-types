@@ -53,8 +53,6 @@ public class FieldServiceMobileSettings extends SObject {
 	public Boolean IsDefault;
 	public Boolean IsDeleted;
 	public Boolean IsDispatchNotification;
-	public Boolean IsFeedDisabled;
-	public Boolean IsFeedPrimingDisabled;
 	public Boolean IsLimitedLocTrackingEnabled;
 	public Boolean IsOptimizedImageUploadEnabled;
 	public Boolean IsScheduleViewResourceAbsences;

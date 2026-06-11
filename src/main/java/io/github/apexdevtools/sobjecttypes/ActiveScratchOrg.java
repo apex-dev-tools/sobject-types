@@ -45,7 +45,6 @@ public class ActiveScratchOrg extends SObject {
 	public String SignupInstance;
 	public Integer SignupTrialDays;
 	public String SignupUsername;
-	public String Snapshot;
 	public Datetime SystemModstamp;
 
 	public AttachedContentDocument[] AttachedContentDocuments;

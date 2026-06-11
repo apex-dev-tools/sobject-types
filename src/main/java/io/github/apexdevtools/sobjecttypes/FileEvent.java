@@ -36,12 +36,8 @@ public class FileEvent extends SObject {
 	public TransactionSecurityPolicy Policy;
 	public String PolicyOutcome;
 	public Decimal ProcessDuration;
-	public Id ProfileId;
-	public Profile Profile;
 	public String RelatedEventIdentifier;
 	public String ReplayId;
-	public Id RoleId;
-	public UserRole Role;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

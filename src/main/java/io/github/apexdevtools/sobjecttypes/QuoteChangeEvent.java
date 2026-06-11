@@ -80,8 +80,6 @@ public class QuoteChangeEvent extends SObject {
 	public String QuoteToState;
 	public String QuoteToStateCode;
 	public String QuoteToStreet;
-	public Id RelatedWorkId;
-	public WorkOrder RelatedWork;
 	public String ReplayId;
 	public Address ShippingAddress;
 	public String ShippingCity;

@@ -43,8 +43,6 @@ public class PartnerFundClaim extends SObject {
 	public String Title;
 
 	public ActivityHistory[] ActivityHistories;
-	public ApprovalSubmission[] ApprovalSubmissions;
-	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
@@ -53,7 +51,6 @@ public class PartnerFundClaim extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public PartnerFundClaimFeed[] Feeds;
-	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public PartnerFundClaimHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

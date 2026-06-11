@@ -8,7 +8,6 @@ import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
-import io.github.apexdevtools.standardtypes.System.Long;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
@@ -27,7 +26,6 @@ public class ContentVersionChangeEvent extends SObject {
 	public User ContentModifiedBy;
 	public Datetime ContentModifiedDate;
 	public Integer ContentSize;
-	public Long ContentSizeLong;
 	public String ContentUrl;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -50,8 +48,6 @@ public class ContentVersionChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
-	public Datetime MalwareScanDate;
-	public String MalwareScanStatus;
 	public Integer NegativeRatingCount;
 	public Id NetworkId;
 	public Network Network;

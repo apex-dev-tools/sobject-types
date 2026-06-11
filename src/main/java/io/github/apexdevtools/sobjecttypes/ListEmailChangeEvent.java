@@ -18,7 +18,6 @@ public class ListEmailChangeEvent extends SObject {
 
 	public Id CampaignId;
 	public Campaign Campaign;
-	public String CcAddress;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -29,8 +28,6 @@ public class ListEmailChangeEvent extends SObject {
 	public Boolean HasAttachment;
 	public String HtmlBody;
 	public Id Id;
-	public Boolean IsEmailArchiveRequired;
-	public Boolean IsSyntheticCcEnabled;
 	public Boolean IsTracked;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -41,7 +38,6 @@ public class ListEmailChangeEvent extends SObject {
 	public Id RelatedToId;
 	public SObject RelatedTo;
 	public String ReplayId;
-	public String ReplyToName;
 	public Datetime ScheduledDate;
 	public String Status;
 	public String Subject;

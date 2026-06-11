@@ -23,8 +23,6 @@ public class ForecastingAdjustment extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String ForecastCategoryName;
-	public Id ForecastingGroupItemId;
-	public ForecastingGroupItem ForecastingGroupItem;
 	public String ForecastingItemCategory;
 	public Id ForecastingItemId;
 	public ForecastingItem ForecastingItem;

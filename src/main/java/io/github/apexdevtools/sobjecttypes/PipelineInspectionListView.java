@@ -38,8 +38,6 @@ public class PipelineInspectionListView extends SObject {
 	public User User;
 	public String ViewType;
 
-	public PplnInspListViewCalcClmn[] PplnInspListViewCalcClmns;
-
 	public PipelineInspectionListView clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PipelineInspectionListView clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public PipelineInspectionListView clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

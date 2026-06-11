@@ -45,7 +45,6 @@ public class ServiceAppointmentCapacityUsage extends SObject {
 	public ServiceAppointmentCapacityUsageHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
-	public NetworkActivityAudit[] ParentEntities;
 
 	public ServiceAppointmentCapacityUsage clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ServiceAppointmentCapacityUsage clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -37,14 +37,11 @@ public class ChannelProgramMember extends SObject {
 	public ChannelProgram Program;
 	public Datetime SystemModstamp;
 
-	public ApprovalSubmission[] ApprovalSubmissions;
-	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ChannelProgramMemberFeed[] Feeds;
-	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ChannelProgramMemberHistory[] Histories;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;

@@ -43,7 +43,6 @@ public class AuthProvider extends SObject {
 	public Boolean OptionsIsEmi;
 	public Boolean OptionsIsEmiSnapchatAds;
 	public Boolean OptionsIsEmiTikTokAds;
-	public Boolean OptionsIsLinkedInV2;
 	public Boolean OptionsIsMuleSoftEU;
 	public Boolean OptionsIsMuleSoftUS;
 	public Boolean OptionsIsPkceEnabled;

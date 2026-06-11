@@ -27,7 +27,6 @@ public class KnowledgeArticle extends SObject {
 	public Datetime FirstPublishedDate;
 	public Id Id;
 	public Boolean IsDeleted;
-	public Boolean IsGeneratedByLlm;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -38,14 +37,11 @@ public class KnowledgeArticle extends SObject {
 	public Datetime SystemModstamp;
 	public Integer TotalViewCount;
 
-	public ApprovalSubmission[] ApprovalSubmissions;
-	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CaseArticle[] CaseArticles;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
-	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public LinkedArticle[] LinkedArticles;
 	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;

@@ -32,7 +32,6 @@ public class NetworkSelfRegistration extends SObject {
 	public Datetime LastModifiedDate;
 	public Id NetworkId;
 	public Network Network;
-	public Boolean OptionsDisableStandardRgstrComponent;
 	public Boolean OptionsIncludePassword;
 	public Boolean OptionsShowEmail;
 	public Boolean OptionsShowFirstName;

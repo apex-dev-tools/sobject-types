@@ -62,7 +62,6 @@ public class CreditMemo extends SObject {
 	public Decimal TotalCreditAmountApplied;
 	public Decimal TotalCreditAmountUnapplied;
 	public Decimal TotalTaxAmount;
-	public Decimal TotalTaxesCapturedAtHeader;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

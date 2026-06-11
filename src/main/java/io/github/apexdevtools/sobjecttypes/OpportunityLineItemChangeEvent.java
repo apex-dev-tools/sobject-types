@@ -16,8 +16,6 @@ public class OpportunityLineItemChangeEvent extends SObject {
 	public static SObjectType$<OpportunityLineItemChangeEvent> SObjectType;
 	public static SObjectFields$<OpportunityLineItemChangeEvent> Fields;
 
-	public Boolean CanUseQuantitySchedule;
-	public Boolean CanUseRevenueSchedule;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -25,10 +23,6 @@ public class OpportunityLineItemChangeEvent extends SObject {
 	public String CurrencyIsoCode;
 	public String Description;
 	public String Division;
-	public Decimal Discount;
-	public Boolean HasQuantitySchedule;
-	public Boolean HasRevenueSchedule;
-	public Boolean HasSchedule;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -46,7 +40,6 @@ public class OpportunityLineItemChangeEvent extends SObject {
 	public String ReplayId;
 	public Date ServiceDate;
 	public Integer SortOrder;
-	public Decimal Subtotal;
 	public Decimal TotalPrice;
 	public Decimal UnitPrice;
 

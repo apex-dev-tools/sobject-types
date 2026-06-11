@@ -31,7 +31,6 @@ public class AssetAccountParticipantFeed extends SObject {
 	public Datetime LastModifiedDate;
 	public Integer LikeCount;
 	public String LinkUrl;
-	public String NetworkScope;
 	public Id ParentId;
 	public AssetAccountParticipant Parent;
 	public Id RelatedRecordId;
@@ -39,7 +38,6 @@ public class AssetAccountParticipantFeed extends SObject {
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;
-	public String Visibility;
 
 	public FeedAttachment[] FeedAttachments;
 	public FeedComment[] FeedComments;

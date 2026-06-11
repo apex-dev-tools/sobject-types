@@ -24,14 +24,10 @@ public class UriEvent extends SObject {
 	public String Name;
 	public String Operation;
 	public String OperationStatus;
-	public Id ProfileId;
-	public Profile Profile;
 	public String QueriedEntities;
 	public Id RecordId;
 	public SObject Record;
 	public String RelatedEventIdentifier;
-	public Id RoleId;
-	public UserRole Role;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

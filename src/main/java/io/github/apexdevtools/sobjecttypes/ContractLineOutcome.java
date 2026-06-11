@@ -59,7 +59,6 @@ public class ContractLineOutcome extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public ContractLineOutcomeData[] OutcomeCaptures;
-	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ContractLineOutcomeShare[] Shares;

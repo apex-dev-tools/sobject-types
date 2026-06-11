@@ -50,12 +50,6 @@ public class QuoteLineItem extends SObject {
 	public Decimal TotalPrice;
 	public Decimal UnitPrice;
 
-	public ApprovalSubmission[] ApprovalSubmissions;
-	public ApprovalWorkItem[] ApprovalWorkItems;
-	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
-	public InvoiceLine[] GroupInvoiceLines;
-	public QuoteLineItemHistory[] Histories;
-	public InvoiceLine[] InvoiceLines;
 	public OrderItem[] OrderItems;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;

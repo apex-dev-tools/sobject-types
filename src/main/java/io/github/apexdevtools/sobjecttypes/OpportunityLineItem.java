@@ -56,7 +56,6 @@ public class OpportunityLineItem extends SObject {
 	public AuthFormRequestRecord[] FormRequestRecordRelatedRecords;
 	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
 	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
-	public OpportunityLineItemSplit[] OpportunityLineItemSplits;
 
 	public OpportunityLineItem clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OpportunityLineItem clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

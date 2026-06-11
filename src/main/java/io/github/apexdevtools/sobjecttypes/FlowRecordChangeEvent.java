@@ -35,8 +35,6 @@ public class FlowRecordChangeEvent extends SObject {
 	public Id DataSpaceId;
 	public DataSpace DataSpace;
 	public String Description;
-	public Integer ElementEntries;
-	public Integer ElementErrors;
 	public String ErrorCode;
 	public String ErrorDetails;
 	public String FlowCategory;
@@ -44,7 +42,6 @@ public class FlowRecordChangeEvent extends SObject {
 	public String FlowLabel;
 	public String FlowSubcategory;
 	public String FlowType;
-	public Integer Health;
 	public Id Id;
 	public String InstalledPackageName;
 	public Boolean IsCitizenEnabled;
@@ -54,9 +51,6 @@ public class FlowRecordChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
-	public Id ListId;
-	public Campaign List;
-	public Integer LogsEnabledFlowVersion;
 	public String ManageableState;
 	public String Name;
 	public String NamespacePrefix;

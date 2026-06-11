@@ -21,16 +21,10 @@ public class ForecastingType extends SObject {
 	public Datetime CreatedDate;
 	public String DateType;
 	public String DeveloperName;
-	public Id ForecastingGroupId;
-	public ForecastingGroup ForecastingGroup;
-	public Boolean HasAdjustments;
-	public Boolean HasOwnerAdjustments;
 	public Boolean HasProductFamily;
 	public Id Id;
 	public Boolean IsActive;
-	public Boolean IsAdvCurrencyMgmt;
 	public Boolean IsAmount;
-	public Boolean IsCdp;
 	public Boolean IsDeleted;
 	public Boolean IsPlatformType;
 	public Boolean IsQuantity;
@@ -42,8 +36,6 @@ public class ForecastingType extends SObject {
 	public String MasterLabel;
 	public Id OpportunitySplitTypeId;
 	public OpportunitySplitType OpportunitySplitType;
-	public Id OpptyLineItemSplitTypeId;
-	public OpptyLineItemSplitType OpptyLineItemSplitType;
 	public String RoleType;
 	public Datetime SystemModstamp;
 	public Id Territory2ModelId;

@@ -50,14 +50,10 @@ public class LightningUriEventStream extends SObject {
 	public String PreviousPageEntityId;
 	public String PreviousPageEntityType;
 	public String PreviousPageUrl;
-	public Id ProfileId;
-	public Profile Profile;
 	public String QueriedEntities;
 	public String RecordId;
 	public String RelatedEventIdentifier;
 	public String ReplayId;
-	public Id RoleId;
-	public UserRole Role;
 	public String SdkAppType;
 	public String SdkAppVersion;
 	public String SdkVersion;

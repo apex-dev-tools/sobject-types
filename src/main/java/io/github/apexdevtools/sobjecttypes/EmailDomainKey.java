@@ -28,8 +28,6 @@ public class EmailDomainKey extends SObject {
 	public Id Id;
 	public Boolean IsActive;
 	public Boolean IsDeleted;
-	public Boolean IsDnsDelegated;
-	public Boolean IsMceShared;
 	public Integer KeySize;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

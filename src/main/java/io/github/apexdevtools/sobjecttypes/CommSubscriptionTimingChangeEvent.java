@@ -27,10 +27,6 @@ public class CommSubscriptionTimingChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
-	public Decimal Offset;
-	public Time PreferredTimeEnd;
-	public Time PreferredTimeStart;
-	public String PreferredTimeZone;
 	public String ReplayId;
 	public String Unit;
 

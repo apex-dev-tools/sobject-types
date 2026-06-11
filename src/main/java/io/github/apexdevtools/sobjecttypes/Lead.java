@@ -139,7 +139,6 @@ public class Lead extends SObject {
 	public LeadCleanInfo[] LeadCleanInfos;
 	public PartyProfile[] LeadPartyProfiles;
 	public ListEmailIndividualRecipient[] ListEmailIndividualRecipients;
-	public ListEmailSentResult[] ListEmailRecipients;
 	public ListEmail[] ListEmails;
 	public MessagingEndUser[] MessagingEndUsers;
 	public MessagingSession[] MessagingSessions;
@@ -147,11 +146,9 @@ public class Lead extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public ObjectTerritory2Association[] ObjectTerritory2Associations;
-	public ObjectUserTerritory2View[] ObjectUserTerritory2Views;
 	public OpenActivity[] OpenActivities;
 	public OutgoingEmailRelation[] OutgoingEmailRelations;
 	public NetworkActivityAudit[] ParentEntities;
-	public ExtlRecShrStagedRecord[] ParentRecords;
 	public UserEmailPreferredPerson[] PersonRecord;
 	public SocialPersona[] Personas;
 	public SocialPost[] Posts;

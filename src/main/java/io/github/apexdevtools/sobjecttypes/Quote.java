@@ -87,8 +87,6 @@ public class Quote extends SObject {
 	public String QuoteToState;
 	public String QuoteToStateCode;
 	public String QuoteToStreet;
-	public Id RelatedWorkId;
-	public WorkOrder RelatedWork;
 	public Address ShippingAddress;
 	public String ShippingCity;
 	public String ShippingCountry;
@@ -109,21 +107,14 @@ public class Quote extends SObject {
 	public Decimal TotalPrice;
 
 	public ActivityHistory[] ActivityHistories;
-	public AppUsageAssignment[] AppUsageAssignments;
-	public ApprovalSubmission[] ApprovalSubmissions;
-	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
-	public DigitalSignature[] DigitalSignatures;
 	public EmailMessage[] Emails;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public QuoteFeed[] Feeds;
-	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
-	public QuoteHistory[] Histories;
-	public Invoice[] Invoices;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

@@ -41,8 +41,6 @@ public class PartnerFundAllocation extends SObject {
 	public Decimal TotalReimbursedFcs;
 
 	public ActivityHistory[] ActivityHistories;
-	public ApprovalSubmission[] ApprovalSubmissions;
-	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
@@ -51,7 +49,6 @@ public class PartnerFundAllocation extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public PartnerFundAllocationFeed[] Feeds;
-	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public PartnerFundAllocationHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

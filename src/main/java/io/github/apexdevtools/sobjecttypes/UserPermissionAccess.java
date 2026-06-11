@@ -22,7 +22,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsADSEnabledOnFSMobile;
 	public Boolean PermissionsAICreateInsightObjects;
 	public Boolean PermissionsAIViewInsightObjects;
-	public Boolean PermissionsAcceptInboundBundling;
 	public Boolean PermissionsAcceptRiskForProblems;
 	public Boolean PermissionsAccessActivation;
 	public Boolean PermissionsAccessApplicationFormObjects;
@@ -35,7 +34,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsAccessCdpProfileExplorer;
 	public Boolean PermissionsAccessContentBuilder;
 	public Boolean PermissionsAccessCustomerDataCloudSetup;
-	public Boolean PermissionsAccessDispatchConsoleMap;
 	public Boolean PermissionsAccessDisputePrompts;
 	public Boolean PermissionsAccessEinsteinAutofill;
 	public Boolean PermissionsAccessFinancialAccounts;
@@ -49,7 +47,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsAccessSegment;
 	public Boolean PermissionsAccessServiceEinstein;
 	public Boolean PermissionsAccessSfDrive;
-	public Boolean PermissionsAccessToComplaintAgent;
 	public Boolean PermissionsAccessToComplaintMgmt;
 	public Boolean PermissionsAccessToDisputeManagement;
 	public Boolean PermissionsAccessToServiceProcess;
@@ -180,7 +177,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsCanUseNewDashboardBuilder;
 	public Boolean PermissionsCanVerifyComment;
 	public Boolean PermissionsCanViewDataPrepRecipe;
-	public Boolean PermissionsCanWriteWithAiScrt2Conversation;
 	public Boolean PermissionsCaptureAndReversePayments;
 	public Boolean PermissionsCdcReportingCreateReports;
 	public Boolean PermissionsCdcReportingManageFolders;
@@ -276,7 +272,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsDeleteIncident;
 	public Boolean PermissionsDeleteNonSetupFlow;
 	public Boolean PermissionsDeleteProblem;
-	public Boolean PermissionsDeleteSalesforceFiles;
 	public Boolean PermissionsDeleteTopics;
 	public Boolean PermissionsDerivedPricing;
 	public Boolean PermissionsDesignContextRule;
@@ -298,7 +293,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsDocumentChecklistUserAccess;
 	public Boolean PermissionsDocumentWorkspaceCmtyAccess;
 	public Boolean PermissionsDocumentWorkspaceUserAccess;
-	public Boolean PermissionsDownloadMaliciousFiles;
 	public Boolean PermissionsDownloadPackageVersionZips;
 	public Boolean PermissionsEditAccountScoreFields;
 	public Boolean PermissionsEditActivatedOrders;
@@ -381,12 +375,10 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsFundraisingUser;
 	public Boolean PermissionsGetSmartDataDiscovery;
 	public Boolean PermissionsGetSmartDataDiscoveryExternal;
-	public Boolean PermissionsGISMapsEnabled;
 	public Boolean PermissionsGiveRecognitionBadge;
 	public Boolean PermissionsGovernNetworks;
 	public Boolean PermissionsHCMedTherapyMgmtUser;
 	public Boolean PermissionsHasUnlimitedErbScoringRequests;
-	public Boolean PermissionsGrantOutboundBundling;
 	public Boolean PermissionsHasUnlimitedNBAExecutions;
 	public Boolean PermissionsHcAdvancedTherapyUser;
 	public Boolean PermissionsHcMedReconciliationUser;
@@ -422,8 +414,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsInteractionCalcUserPerm;
 	public Boolean PermissionsInteractionObjStateDefUserPerm;
 	public Boolean PermissionsInterestTaggingUserAccess;
-	public Boolean PermissionsIntegrationIntelligenceUser;
-	public Boolean PermissionsIntelligentDocumentProcessing;
 	public Boolean PermissionsIotUser;
 	public Boolean PermissionsIsSsoEnabled;
 	public Boolean PermissionsIsotopeAccess;
@@ -455,7 +445,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsManageAgentforceServiceAgent;
 	public Boolean PermissionsManageAnalyticSnapshots;
 	public Boolean PermissionsManageAppraisalsAndValuations;
-	public Boolean PermissionsManageApiNamedQueries;
 	public Boolean PermissionsManageAuthProviders;
 	public Boolean PermissionsManageBriefs;
 	public Boolean PermissionsManageBusinessHourHolidays;
@@ -511,7 +500,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsManageHcProviderNtwkMgmt;
 	public Boolean PermissionsManageHcProviderRelMgmt;
 	public Boolean PermissionsManageHealthCareAnalytics;
-	public Boolean PermissionsManageForecastingCustomData;
 	public Boolean PermissionsManageHealthCheck;
 	public Boolean PermissionsManageHealthCloud;
 	public Boolean PermissionsManageHealthCloudFinancialData;
@@ -520,7 +508,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsManageIndustriesVisit;
 	public Boolean PermissionsManageInformationLibrary;
 	public Boolean PermissionsManageIntegrationConnections;
-	public Boolean PermissionsManageIntegrationPortals;
 	public Boolean PermissionsManageInteraction;
 	public Boolean PermissionsManageInternalUsers;
 	public Boolean PermissionsManageIpAddresses;
@@ -535,10 +522,8 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsManageLoyaltyPrograms;
 	public Boolean PermissionsManageLoyaltyPromotionsGPM;
 	public Boolean PermissionsManageManufacturingAnalytics;
-	public Boolean PermissionsManageMaliciousFiles;
 	public Boolean PermissionsManageMobile;
 	public Boolean PermissionsManageMobileAppSecurity;
-	public Boolean PermissionsManageMyExternalUsers;
 	public Boolean PermissionsManageNamedCredentials;
 	public Boolean PermissionsManageNetZeroCloudSettings;
 	public Boolean PermissionsManageNetworks;
@@ -579,7 +564,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsManageSearchPromotionRules;
 	public Boolean PermissionsManageSecurityCommandCenter;
 	public Boolean PermissionsManageSessionPermissionSets;
-	public Boolean PermissionsManageSharedListViews;
 	public Boolean PermissionsManageSharing;
 	public Boolean PermissionsManageSiteManagement;
 	public Boolean PermissionsManageSiteProfile;
@@ -600,11 +584,9 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsManageUnlistedGroups;
 	public Boolean PermissionsManageUsers;
 	public Boolean PermissionsManageVehicleAssetRecordTypes;
-	public Boolean PermissionsMarketingExpertSystem;
 	public Boolean PermissionsMassInlineEdit;
 	public Boolean PermissionsMcScoringRulesConfig;
 	public Boolean PermissionsMedMgmtExperienceCloudUser;
-	public Boolean PermissionsMeetingEngagementUser;
 	public Boolean PermissionsMergeTopics;
 	public Boolean PermissionsMicrobatching;
 	public Boolean PermissionsMetadataStudioUser;
@@ -634,7 +616,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsModifyAllPolicyCenterPolicies;
 	public Boolean PermissionsModifyDataClassification;
 	public Boolean PermissionsModifyMetadata;
-	public Boolean PermissionsModifyTransactionSecurityPolicies;
 	public Boolean PermissionsMonitorLoginHistory;
 	public Boolean PermissionsMortgageUserAccess;
 	public Boolean PermissionsMultiStepSchedulingUser;
@@ -662,7 +643,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsOptOutGeoLocationTracking;
 	public Boolean PermissionsOverrideForecasts;
 	public Boolean PermissionsOrderSubmitUser;
-	public Boolean PermissionsPRMChannelMgmtConsoleUser;
 	public Boolean PermissionsPackaging2;
 	public Boolean PermissionsPackaging2Delete;
 	public Boolean PermissionsPackaging2PromoteVersion;
@@ -681,7 +661,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsPrismBackofficeUser;
 	public Boolean PermissionsPrismPlaygroundUser;
 	public Boolean PermissionsPrivacyDataAccess;
-	public Boolean PermissionsPrmEnhancedPortalUser;
 	public Boolean PermissionsPrmExtIntPrtnrAdminUser;
 	public Boolean PermissionsProductAdmin;
 	public Boolean PermissionsPublishPackaging;
@@ -712,7 +691,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsRecordAggregationAccess;
 	public Boolean PermissionsRecordVisibilityAPI;
 	public Boolean PermissionsRefundPayments;
-	public Boolean PermissionsRegrelloUser;
 	public Boolean PermissionsRemoveDirectMessageMembers;
 	public Boolean PermissionsReopenProblems;
 	public Boolean PermissionsResetPasswords;
@@ -729,12 +707,9 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsRunFlow;
 	public Boolean PermissionsRunNetZeroAnalyticsRecipe;
 	public Boolean PermissionsRunRegisterProcessingServices;
-	public Boolean PermissionsRunGlobalOptimization;
-	public Boolean PermissionsRunInDayOptimization;
 	public Boolean PermissionsRunReports;
 	public Boolean PermissionsRunRetailExecution;
 	public Boolean PermissionsSDCommunityAccess;
-	public Boolean PermissionsRunResourceScheduleOptimization;
 	public Boolean PermissionsSalesAnalyticsUser;
 	public Boolean PermissionsSalesConsole;
 	public Boolean PermissionsSalesInsightsUser;
@@ -756,7 +731,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsSendSitRequests;
 	public Boolean PermissionsSequenceNumberingSetUp;
 	public Boolean PermissionsServiceAnalyticsUser;
-	public Boolean PermissionsSetAdvancedOptimizationFilters;
 	public Boolean PermissionsShareFilesWithNetworks;
 	public Boolean PermissionsServiceExcellencePlatformUser;
 	public Boolean PermissionsSessionScopeContext;
@@ -765,8 +739,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsShareInternalArticles;
 	public Boolean PermissionsShareSmartDataDiscoveryStory;
 	public Boolean PermissionsShowCompanyNameAsUserBadge;
-	public Boolean PermissionsShowExplanationsForCandidateResults;
-	public Boolean PermissionsShowPlannedRoute;
 	public Boolean PermissionsShowPreWorkBriefGA;
 	public Boolean PermissionsSimpleCsvDataImportUser;
 	public Boolean PermissionsSkipIdentityConfirmation;
@@ -824,7 +796,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsUseAddOrderItemSummary;
 	public Boolean PermissionsUseAddOrderItemSummaryAPIs;
 	public Boolean PermissionsUseAdvancedDeliveryEstimationAPI;
-	public Boolean PermissionsUseAnyApiAuth;
 	public Boolean PermissionsUseAssistantDialog;
 	public Boolean PermissionsUseBulkUpdtSalesAgrExprcCloud;
 	public Boolean PermissionsUseCGAnalytics;
@@ -864,14 +835,11 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsUseReturnOrderAPIs;
 	public Boolean PermissionsUseRouting;
 	public Boolean PermissionsUseServiceIntelligence;
-	public Boolean PermissionsUseRestrictedTheme;
 	public Boolean PermissionsUseServicePartReturn;
 	public Boolean PermissionsUseSmartDataDiscovery;
-	public Boolean PermissionsUseSetupWithAgentforce;
 	public Boolean PermissionsUseSubscriptionEmails;
 	public Boolean PermissionsUseTCRMforSustainability;
 	public Boolean PermissionsUseTeamReassignWizards;
-	public Boolean PermissionsUseTeamsForEmployee;
 	public Boolean PermissionsUseTeamsForItSrvcs;
 	public Boolean PermissionsUseTemplatedApp;
 	public Boolean PermissionsUseTemplatedIntelApp;
@@ -909,7 +877,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsViewAllUsers;
 	public Boolean PermissionsViewAnomalyEvents;
 	public Boolean PermissionsViewBusinessUnit;
-	public Boolean PermissionsViewApiNamedQueries;
 	public Boolean PermissionsViewCaseAnlytDshbrd;
 	public Boolean PermissionsViewChangeRequestAnlytDshbrd;
 	public Boolean PermissionsViewChangeRequestDshbrd;
@@ -951,7 +918,6 @@ public class UserPermissionAccess extends SObject {
 	public Boolean PermissionsViewProblemMgrDshbrd;
 	public Boolean PermissionsViewProductCatalogObjects;
 	public Boolean PermissionsViewPromotions;
-	public Boolean PermissionsViewPublicCapstoneFolders;
 	public Boolean PermissionsViewPublicDashboards;
 	public Boolean PermissionsViewPublicReports;
 	public Boolean PermissionsViewRecommendations;

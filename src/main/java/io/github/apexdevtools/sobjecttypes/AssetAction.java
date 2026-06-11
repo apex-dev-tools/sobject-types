@@ -44,17 +44,14 @@ public class AssetAction extends SObject {
 	public Decimal TotalAmount;
 	public Decimal TotalCancellationsAmount;
 	public Decimal TotalCrossSellsAmount;
-	public Decimal TotalDowngradesAmount;
 	public Decimal TotalDownsellsAmount;
 	public Decimal TotalInitialSaleAmount;
 	public Decimal TotalMrr;
 	public Decimal TotalOtherAmount;
 	public Decimal TotalQuantity;
 	public Decimal TotalRenewalsAmount;
-	public Decimal TotalSwapsAmount;
 	public Decimal TotalTermsAndConditionsAmount;
 	public Decimal TotalTransfersAmount;
-	public Decimal TotalUpgradesAmount;
 	public Decimal TotalUpsellsAmount;
 	public String Type;
 

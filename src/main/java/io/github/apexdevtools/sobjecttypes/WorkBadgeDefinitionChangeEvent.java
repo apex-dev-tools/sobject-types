@@ -35,8 +35,6 @@ public class WorkBadgeDefinitionChangeEvent extends SObject {
 	public Integer LimitNumber;
 	public Date LimitStartDate;
 	public String Name;
-	public Id NetworkId;
-	public Network Network;
 	public Id OwnerId;
 	public User Owner;
 	public String ReplayId;

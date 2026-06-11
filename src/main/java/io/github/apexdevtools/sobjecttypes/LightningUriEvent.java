@@ -41,14 +41,10 @@ public class LightningUriEvent extends SObject {
 	public SObject PreviousPageEntity;
 	public String PreviousPageEntityType;
 	public String PreviousPageUrl;
-	public Id ProfileId;
-	public Profile Profile;
 	public String QueriedEntities;
 	public Id RecordId;
 	public SObject Record;
 	public String RelatedEventIdentifier;
-	public Id RoleId;
-	public UserRole Role;
 	public String SdkAppType;
 	public String SdkAppVersion;
 	public String SdkVersion;

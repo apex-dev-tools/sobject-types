@@ -31,7 +31,6 @@ public class SwarmMemberFeed extends SObject {
 	public Datetime LastModifiedDate;
 	public Integer LikeCount;
 	public String LinkUrl;
-	public String NetworkScope;
 	public Id ParentId;
 	public SwarmMember Parent;
 	public Id RelatedRecordId;
@@ -39,7 +38,6 @@ public class SwarmMemberFeed extends SObject {
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;
-	public String Visibility;
 
 	public FeedAttachment[] FeedAttachments;
 	public FeedComment[] FeedComments;

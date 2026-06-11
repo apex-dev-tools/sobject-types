@@ -19,7 +19,6 @@ public class PackagePushRequest extends SObject {
 	public Integer DurationSeconds;
 	public Datetime EndTime;
 	public Id Id;
-	public Boolean IsMigration;
 	public Id PackageVersionId;
 	public MetadataPackageVersion PackageVersion;
 	public Datetime ScheduledStartTime;

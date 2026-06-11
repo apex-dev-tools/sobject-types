@@ -23,8 +23,6 @@ public class ForecastingItem extends SObject {
 	public Decimal ForecastAmount;
 	public String ForecastCategoryName;
 	public Decimal ForecastQuantity;
-	public Id ForecastingGroupItemId;
-	public ForecastingGroupItem ForecastingGroupItem;
 	public String ForecastingItemCategory;
 	public Id ForecastingTypeId;
 	public ForecastingType ForecastingType;

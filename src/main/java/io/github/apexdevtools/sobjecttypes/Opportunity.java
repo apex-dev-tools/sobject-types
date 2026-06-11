@@ -106,7 +106,6 @@ public class Opportunity extends SObject {
 	public OpportunityFieldHistory[] Histories;
 	public InfoAuthorizationRequest[] InfoAuthRequestSourceRecords;
 	public ResidentialLoanApplication[] Lending_Applications;
-	public Invoice[] Invoices;
 	public ListEmail[] ListEmails;
 	public MessagingSession[] MessagingSessions;
 	public MultipartyInfoAuthRequest[] MultipartyInfoAuthRequestSourceRecords;
@@ -123,7 +122,6 @@ public class Opportunity extends SObject {
 	public OpportunityTeamMember[] OpportunityTeamMembers;
 	public Order[] Orders;
 	public NetworkActivityAudit[] ParentEntities;
-	public ExtlRecShrStagedRecord[] ParentRecords;
 	public Partner[] Partners;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

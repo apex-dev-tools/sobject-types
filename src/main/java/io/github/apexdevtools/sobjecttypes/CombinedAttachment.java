@@ -8,7 +8,6 @@ import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
-import io.github.apexdevtools.standardtypes.System.Long;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
 
@@ -18,7 +17,6 @@ public class CombinedAttachment extends SObject {
 	public static SObjectFields$<CombinedAttachment> Fields;
 
 	public Integer ContentSize;
-	public Long ContentSizeLong;
 	public String ContentUrl;
 	public Id CreatedById;
 	public User CreatedBy;

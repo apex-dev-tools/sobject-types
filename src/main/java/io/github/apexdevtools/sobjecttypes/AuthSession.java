@@ -25,7 +25,6 @@ public class AuthSession extends SObject {
 	public LoginGeo LoginGeo;
 	public Id LoginHistoryId;
 	public LoginHistory LoginHistory;
-	public String LoginSubType;
 	public String LoginType;
 	public String LogoutUrl;
 	public Integer NumSecondsValid;

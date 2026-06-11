@@ -65,7 +65,6 @@ public class User extends SObject {
 	public Individual Individual;
 	public Boolean IsActive;
 	public Boolean IsExtIndicatorVisible;
-	public Boolean IsPartner;
 	public Boolean IsPortalEnabled;
 	public Boolean IsProfilePhotoActive;
 	public Integer JigsawImportLimitOverride;
@@ -154,7 +153,6 @@ public class User extends SObject {
 	public Boolean UserPreferencesDisableWorkEmail;
 	public Boolean UserPreferencesDismissPersonalSpaceLegalMessage;
 	public Boolean UserPreferencesDismissRecordChannelsSuggestedObjects;
-	public Boolean UserPreferencesDismissReuseUpdateReminderModal;
 	public Boolean UserPreferencesEnableAutoSubForFeeds;
 	public Boolean UserPreferencesEnableLwrLexPilot;
 	public Boolean UserPreferencesEventRemindersCheckboxDefault;
@@ -278,7 +276,6 @@ public class User extends SObject {
 	public DocumentChecklistItem[] DocumentChecklistItemUploadedBy;
 	public DocumentChecklistItem[] DocumentChecklistWho;
 	public DocumentRecipient[] DocumentRecipients;
-	public DevopsActivityLog[] DevopsActivityLogs;
 	public EmailMessageRelation[] EmailMessageRelations;
 	public NetworkActivityAudit[] EntityCreators;
 	public UserEsignVendorIdentifier[] EsignUser;
@@ -310,9 +307,6 @@ public class User extends SObject {
 	public User[] ManagedUsers;
 	public NetworkMember[] NetworkMemberUsers;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToUser;
-	public ObjectUserTerritory2View[] ObjectUserTerritory2Views;
-	public SfdcPartnerSbscrOffer[] OffersRespondedByUser;
-	public OpportunityLineItemSplit[] OpportunityLineItemSplits;
 	public OpportunitySplit[] OpportunitySplits;
 	public OpportunityTeamMember[] OpportunityTeams;
 	public MedicationTherapyReview[] MedTherapyReview_Surrogates;

@@ -45,7 +45,6 @@ public class ExtlClntAppOauthSettings extends SObject {
 	public Boolean OauthScopesCHATTER_REST_API;
 	public Boolean OauthScopesCONTENT;
 	public Boolean OauthScopesCUSTOM_PERMISSIONS;
-	public Boolean OauthScopesDATA_CLOUD_USER_CLAIMS;
 	public Boolean OauthScopesECLAIR_REST_API;
 	public Boolean OauthScopesEINSTEIN_GPT_API;
 	public Boolean OauthScopesEMAIL;
@@ -54,7 +53,6 @@ public class ExtlClntAppOauthSettings extends SObject {
 	public Boolean OauthScopesHUB_API;
 	public Boolean OauthScopesINTERACTION_API;
 	public Boolean OauthScopesLIGHTNING;
-	public Boolean OauthScopesMCP_API;
 	public Boolean OauthScopesOFFLINE_ACCESS;
 	public Boolean OauthScopesOPENID;
 	public Boolean OauthScopesPARDOT_API;
@@ -62,7 +60,6 @@ public class ExtlClntAppOauthSettings extends SObject {
 	public Boolean OauthScopesPROFILE;
 	public Boolean OauthScopesPWDLESS_LOGIN_API;
 	public Boolean OauthScopesREFRESH_TOKEN;
-	public Boolean OauthScopesSCRT_API;
 	public Boolean OauthScopesSFAP_API;
 	public Boolean OauthScopesSSO;
 	public Boolean OauthScopesUSER_REGISTRATION_API;

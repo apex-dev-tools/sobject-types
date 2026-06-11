@@ -30,7 +30,6 @@ public class ForecastingUserPreference extends SObject {
 	public Boolean IsHideForecastingQuotaColumn;
 	public Boolean IsShowForecastingChangeSignals;
 	public Boolean IsShowForecastingQuotaAttainment;
-	public Boolean IsShowForecastingRoundedAmounts;
 
 	public ForecastingUserPreference clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ForecastingUserPreference clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

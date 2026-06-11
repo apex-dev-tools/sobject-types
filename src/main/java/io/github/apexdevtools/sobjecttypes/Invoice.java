@@ -59,7 +59,6 @@ public class Invoice extends SObject {
 	public Decimal TotalChargeAmountWithTax;
 	public Decimal TotalChargeTaxAmount;
 	public Decimal TotalTaxAmount;
-	public Decimal TotalTaxesCapturedAtHeader;
 	public String WriteOffStatus;
 	public Decimal WriteOffTotalChargeAmount;
 	public Decimal WriteOffTotalTaxAmount;

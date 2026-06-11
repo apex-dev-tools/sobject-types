@@ -113,7 +113,6 @@ public class Product2 extends SObject {
 	public InvoiceLine[] InvoiceLines;
 	public ContractItemPrice[] Items;
 	public TransactionJournal[] JournalProducts;
-	public LinkedArticle[] LinkedArticles;
 	public ListEmail[] ListEmails;
 	public NetworkUserHistoryRecent[] NetworkUserHistoryRecentToRecord;
 	public LoyaltyPartnerProduct[] LoyaltyPartnerProduct2;
@@ -131,7 +130,6 @@ public class Product2 extends SObject {
 	public PriceAdjustmentTier[] PriceAdjustmentTiers;
 	public PriceBookEntryDerivedPrice[] PriceBookEntryContributingProducts;
 	public PriceBookEntryDerivedPrice[] PriceBookEntryDerivedProducts;
-	public ExtlRecShrStagedRecord[] ParentRecords;
 	public PricebookEntry[] PricebookEntries;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

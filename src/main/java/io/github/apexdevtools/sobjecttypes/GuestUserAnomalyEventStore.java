@@ -52,7 +52,6 @@ public class GuestUserAnomalyEventStore extends SObject {
 	public ThreatDetectionFeedback[] Feedbacks;
 	public GuestUserAnomalyEventStoreFeed[] Feeds;
 	public GeneratedDocument[] GeneratedDocRefObjects;
-	public NetworkActivityAudit[] ParentEntities;
 
 	public GuestUserAnomalyEventStore clone$() {throw new java.lang.UnsupportedOperationException();}
 	public GuestUserAnomalyEventStore clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

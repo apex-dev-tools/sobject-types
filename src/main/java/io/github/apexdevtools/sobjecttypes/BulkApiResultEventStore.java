@@ -26,12 +26,8 @@ public class BulkApiResultEventStore extends SObject {
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
 	public String PolicyOutcome;
-	public Id ProfileId;
-	public Profile Profile;
 	public String Query;
 	public String RelatedEventIdentifier;
-	public Id RoleId;
-	public UserRole Role;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

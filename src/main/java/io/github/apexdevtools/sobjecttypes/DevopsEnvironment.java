@@ -21,14 +21,11 @@ public class DevopsEnvironment extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
-	public String DoceHubType;
-	public String ExternalId;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsDevEnvironment;
 	public Boolean IsExpired;
 	public Boolean IsTestEnvironment;
-	public Boolean IsVibeEnvironment;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -71,7 +68,6 @@ public class DevopsEnvironment extends SObject {
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
-	public NetworkActivityAudit[] ParentEntities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public DevopsEnvironment[] RefreshSources;

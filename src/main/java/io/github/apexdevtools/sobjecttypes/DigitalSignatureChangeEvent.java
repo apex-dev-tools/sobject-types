@@ -20,8 +20,6 @@ public class DigitalSignatureChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
-	public String DeviceOs;
-	public String DeviceType;
 	public String DigitalSignatureNumber;
 	public String Document;
 	public Id Id;
@@ -35,7 +33,6 @@ public class DigitalSignatureChangeEvent extends SObject {
 	public String SignatureType;
 	public String SignedBy;
 	public Datetime SignedDate;
-	public String WebBrowser;
 
 	public DigitalSignatureChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DigitalSignatureChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -16,7 +16,6 @@ public class ChannelProgramLevel extends SObject {
 	public static SObjectType$<ChannelProgramLevel> SObjectType;
 	public static SObjectFields$<ChannelProgramLevel> Fields;
 
-	public String BenefitsInformation;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -38,8 +37,6 @@ public class ChannelProgramLevel extends SObject {
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;
-	public ApprovalSubmission[] ApprovalSubmissions;
-	public ApprovalWorkItem[] ApprovalWorkItems;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public ChannelProgramMember[] ChannelProgramMembers;
@@ -49,7 +46,6 @@ public class ChannelProgramLevel extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ChannelProgramLevelFeed[] Feeds;
-	public FlowOrchestrationWorkItem[] FlowOrchestrationWorkItems;
 	public ChannelProgramLevelHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

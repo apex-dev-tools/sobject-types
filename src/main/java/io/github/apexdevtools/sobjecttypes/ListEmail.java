@@ -18,7 +18,6 @@ public class ListEmail extends SObject {
 
 	public Id CampaignId;
 	public Campaign Campaign;
-	public String CcAddress;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -29,8 +28,6 @@ public class ListEmail extends SObject {
 	public String HtmlBody;
 	public Id Id;
 	public Boolean IsDeleted;
-	public Boolean IsEmailArchiveRequired;
-	public Boolean IsSyntheticCcEnabled;
 	public Boolean IsTracked;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -42,7 +39,6 @@ public class ListEmail extends SObject {
 	public Name Owner;
 	public Id RelatedToId;
 	public Name RelatedTo;
-	public String ReplyToName;
 	public Datetime ScheduledDate;
 	public String Status;
 	public String Subject;
@@ -61,7 +57,6 @@ public class ListEmail extends SObject {
 	public EventRelation[] EventRelations;
 	public Event[] Events;
 	public GenericVisitTaskContext[] GVTaskContexts;
-	public ListEmailSentResult[] ListEmailSentResults;
 	public OpenActivity[] OpenActivities;
 	public ListEmailShare[] Shares;
 	public TaskRelation[] TaskRelations;
