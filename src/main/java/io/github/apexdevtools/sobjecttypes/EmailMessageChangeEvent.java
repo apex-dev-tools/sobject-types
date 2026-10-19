@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
@@ -20,7 +21,7 @@ public class EmailMessageChangeEvent extends SObject {
 	public String AutomationType;
 	public String BccAddress;
 	public String CcAddress;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public String ClientThreadIdentifier;
 	public Id CreatedById;
 	public User CreatedBy;

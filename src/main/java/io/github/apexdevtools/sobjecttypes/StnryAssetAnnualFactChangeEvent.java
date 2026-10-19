@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
@@ -17,7 +18,7 @@ public class StnryAssetAnnualFactChangeEvent extends SObject {
 	public static SObjectFields$<StnryAssetAnnualFactChangeEvent> Fields;
 
 	public String ApplicableYear;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

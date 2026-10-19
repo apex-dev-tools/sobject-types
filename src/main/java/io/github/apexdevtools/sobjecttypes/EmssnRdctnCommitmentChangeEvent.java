@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
@@ -17,7 +18,7 @@ public class EmssnRdctnCommitmentChangeEvent extends SObject {
 	public static SObjectFields$<EmssnRdctnCommitmentChangeEvent> Fields;
 
 	public Date ApprovalDate;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Id CommitmentLetterId;
 	public ContentDocument CommitmentLetter;
 	public String CommitmentProgram;

@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
@@ -21,7 +22,7 @@ public class BusinessLicenseChangeEvent extends SObject {
 	public ApplicationForm ApplicationForm;
 	public Id BusinessTypeId;
 	public BusinessType BusinessType;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public String ComplianceScope;
 	public Id ContactId;
 	public Contact Contact;

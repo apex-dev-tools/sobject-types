@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
@@ -22,7 +23,7 @@ public class ActivityTimingChangeEvent extends SObject {
 	public UnitOfMeasure ActivityDurationUnit;
 	public String ActivityTime;
 	public Integer ActivityTimeOffset;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Integer CountInPeriod;
 	public Id CreatedById;
 	public User CreatedBy;

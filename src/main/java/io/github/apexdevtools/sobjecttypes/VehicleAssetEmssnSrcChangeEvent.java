@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
@@ -16,7 +17,7 @@ public class VehicleAssetEmssnSrcChangeEvent extends SObject {
 	public static SObjectFields$<VehicleAssetEmssnSrcChangeEvent> Fields;
 
 	public String BusinessRegion;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public String City;
 	public String Country;
 	public String CrbnEmssnScopeAlloc;

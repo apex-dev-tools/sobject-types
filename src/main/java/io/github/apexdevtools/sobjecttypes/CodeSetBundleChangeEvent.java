@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
@@ -15,7 +16,7 @@ public class CodeSetBundleChangeEvent extends SObject {
 	public static SObjectType$<CodeSetBundleChangeEvent> SObjectType;
 	public static SObjectFields$<CodeSetBundleChangeEvent> Fields;
 
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Id CodeSet10Id;
 	public CodeSet CodeSet10;
 	public Id CodeSet11Id;

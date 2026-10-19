@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Id;
 import io.github.apexdevtools.standardtypes.System.SObject;
@@ -16,7 +17,7 @@ public class ContentDocumentLinkChangeEvent extends SObject {
 	public static SObjectType$<ContentDocumentLinkChangeEvent> SObjectType;
 	public static SObjectFields$<ContentDocumentLinkChangeEvent> Fields;
 
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Id ContentDocumentId;
 	public ContentDocument ContentDocument;
 	public Id Id;

@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
@@ -18,7 +19,7 @@ public class RentalCarEnrgyUseChangeEvent extends SObject {
 	public String CalculationDetail;
 	public Date CarbonFootprintReportDate;
 	public Decimal Ch4EmissionsInKg;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Decimal Co2EmissionsInKg;
 	public String CostCenter;
 	public Id CreatedById;

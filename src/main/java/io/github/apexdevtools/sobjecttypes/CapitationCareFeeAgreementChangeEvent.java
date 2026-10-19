@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
@@ -16,7 +17,7 @@ public class CapitationCareFeeAgreementChangeEvent extends SObject {
 	public static SObjectType$<CapitationCareFeeAgreementChangeEvent> SObjectType;
 	public static SObjectFields$<CapitationCareFeeAgreementChangeEvent> Fields;
 
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Id ContractPaymentAgreementId;
 	public ContractPaymentAgreement ContractPaymentAgreement;
 	public Id CreatedById;

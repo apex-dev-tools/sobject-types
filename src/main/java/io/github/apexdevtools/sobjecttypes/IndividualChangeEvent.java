@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
@@ -18,7 +19,7 @@ public class IndividualChangeEvent extends SObject {
 
 	public Date BirthDate;
 	public Boolean CanStorePiiElsewhere;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Integer ChildrenCount;
 	public Integer ConsumerCreditScore;
 	public String ConsumerCreditScoreProviderName;

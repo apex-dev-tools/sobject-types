@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Long;
 import io.github.apexdevtools.standardtypes.System.String;
@@ -19,7 +20,7 @@ public class ContentDocumentChangeEvent extends SObject {
 	public Id ArchivedById;
 	public User ArchivedBy;
 	public Date ArchivedDate;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Id ContentAssetId;
 	public ContentAsset ContentAsset;
 	public Datetime ContentModifiedDate;

@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
@@ -16,7 +17,7 @@ public class CoverageBenefitItemChangeEvent extends SObject {
 	public static SObjectFields$<CoverageBenefitItemChangeEvent> Fields;
 
 	public String BenefitCategory;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Id CodeSetServiceTypeId;
 	public CodeSet CodeSetServiceType;
 	public Id CoverageBenefitId;

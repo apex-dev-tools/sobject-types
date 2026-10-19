@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
@@ -24,7 +25,7 @@ public class BusinessProfileChangeEvent extends SObject {
 	public String BusinessPartnerType;
 	public String BusinessStructure;
 	public String BusinessTaxIdentifier;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Integer ConsecWorkersCompCoverage;
 	public Id CreatedById;
 	public User CreatedBy;

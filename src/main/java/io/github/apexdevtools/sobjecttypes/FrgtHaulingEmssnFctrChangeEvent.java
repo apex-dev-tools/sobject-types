@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
@@ -17,7 +18,7 @@ public class FrgtHaulingEmssnFctrChangeEvent extends SObject {
 
 	public Decimal Ch4EmissionsFactor;
 	public String Ch4EmissionsFactorUnit;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Decimal Co2EmissionsFactor;
 	public String Co2EmissionsFactorUnit;
 	public Id CreatedById;

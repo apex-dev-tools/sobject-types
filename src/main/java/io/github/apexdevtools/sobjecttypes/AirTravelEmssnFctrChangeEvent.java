@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
@@ -21,7 +22,7 @@ public class AirTravelEmssnFctrChangeEvent extends SObject {
 	public Decimal Ch4PsgrMileLongHaulInKgCo2e;
 	public Decimal Ch4PsgrMileMediumHaulInKgCo2e;
 	public Decimal Ch4PsgrMileShortHaulInKgCo2e;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Decimal Co2PsgrKmLongHaulInKg;
 	public Decimal Co2PsgrKmMediumHaulInKg;
 	public Decimal Co2PsgrKmShortHaulInKg;
