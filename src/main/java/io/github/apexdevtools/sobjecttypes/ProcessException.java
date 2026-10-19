@@ -28,6 +28,8 @@ public class ProcessException extends SObject {
 	public String CurrencyIsoCode;
 	public String Description;
 	public String ExternalReference;
+	public Id FlowOrchInstRelaObjId;
+	public FlowOrchestrationInstRelaObj FlowOrchInstRelaObj;
 	public Id GroupById;
 	public AsyncOperationTracker GroupBy;
 	public Id Id;

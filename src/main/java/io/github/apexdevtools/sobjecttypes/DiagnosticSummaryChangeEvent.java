@@ -72,6 +72,8 @@ public class DiagnosticSummaryChangeEvent extends SObject {
 	public User Owner;
 	public Id PatientId;
 	public Account Patient;
+	public Id PrimaryProviderId;
+	public SObject PrimaryProvider;
 	public String ReplayId;
 	public Id ReportAttachmentId;
 	public Attachment ReportAttachment;

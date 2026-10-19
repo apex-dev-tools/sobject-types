@@ -17,12 +17,16 @@ public class InsPolicyTransactionDetail extends SObject {
 
 	public String ChargeType;
 	public Decimal Commission;
+	public Id ContractGroupPlanId;
+	public ContractGroupPlan ContractGroupPlan;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Division;
 	public Decimal Fee;
+	public Id GroupClassId;
+	public GroupClass GroupClass;
 	public Id Id;
 	public Id InsurancePolicyTransactionId;
 	public InsurancePolicyTransaction InsurancePolicyTransaction;

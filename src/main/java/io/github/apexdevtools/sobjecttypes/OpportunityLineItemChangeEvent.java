@@ -33,6 +33,7 @@ public class OpportunityLineItemChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LastSyncTime;
 	public Decimal ListPrice;
 	public String Name;
 	public Id OpportunityId;

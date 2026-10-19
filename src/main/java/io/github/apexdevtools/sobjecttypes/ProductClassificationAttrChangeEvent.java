@@ -21,6 +21,7 @@ public class ProductClassificationAttrChangeEvent extends SObject {
 	public Id AttributeDefinitionId;
 	public AttributeDefinition AttributeDefinition;
 	public String AttributeNameOverride;
+	public Integer CategorySequence;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;

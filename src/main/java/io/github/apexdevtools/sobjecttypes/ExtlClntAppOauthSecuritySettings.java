@@ -29,6 +29,8 @@ public class ExtlClntAppOauthSecuritySettings extends SObject {
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
 	public Datetime SystemModstamp;
+	public String TlsClientAuthCertParamType;
+	public String TlsClientAuthCertParamValue;
 
 	public ExtlClntAppOauthSecurityTokenIpRange[] ExtlClntAppOauthSecurityTokenIpRanges;
 

@@ -39,6 +39,10 @@ public class PromotionPartyUsage extends SObject {
 	public Integer OrderCount;
 	public Id PartyId;
 	public Name Party;
+	public Decimal PersonalizedEasyTarget;
+	public Decimal PersonalizedHardTarget;
+	public Decimal PersonalizedModerateTarget;
+	public String PersonalizedTargetInformation;
 	public Decimal PointsCredited;
 	public Id PromotionId;
 	public Promotion Promotion;

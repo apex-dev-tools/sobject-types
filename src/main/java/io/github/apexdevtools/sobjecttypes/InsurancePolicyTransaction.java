@@ -25,6 +25,8 @@ public class InsurancePolicyTransaction extends SObject {
 	public String Division;
 	public Date EffectiveFromDate;
 	public Id Id;
+	public Id InsuranceContractTrxnId;
+	public InsuranceContractTrxn InsuranceContractTrxn;
 	public Id InsurancePolicyId;
 	public InsurancePolicy InsurancePolicy;
 	public Id InsurancePolicyVersionId;
@@ -36,6 +38,7 @@ public class InsurancePolicyTransaction extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public String OriginatingProcess;
 	public Id ParentTransactionId;
 	public InsurancePolicyTransaction ParentTransaction;
 	public Date PostedDate;

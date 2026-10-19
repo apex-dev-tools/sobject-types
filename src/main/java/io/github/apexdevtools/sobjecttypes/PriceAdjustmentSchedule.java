@@ -25,6 +25,7 @@ public class PriceAdjustmentSchedule extends SObject {
 	public String Description;
 	public Datetime EffectiveFrom;
 	public Datetime EffectiveTo;
+	public String GlobalKey;
 	public Id Id;
 	public Boolean IsActive;
 	public Boolean IsDeleted;

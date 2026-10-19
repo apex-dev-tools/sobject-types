@@ -26,6 +26,7 @@ public class SurveyChangeEvent extends SObject {
 	public String Description;
 	public String DeveloperName;
 	public Id Id;
+	public Boolean IsPartialSaveEnabled;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

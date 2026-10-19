@@ -30,6 +30,7 @@ public class BatchJobPartFailedRecord extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public String ProcessingGroupKey;
 	public String Record;
 	public String RecordName;
 	public Id ResubmittedBatchJobId;

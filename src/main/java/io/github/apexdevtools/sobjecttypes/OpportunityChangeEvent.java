@@ -50,6 +50,7 @@ public class OpportunityChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastStageChangeDate;
+	public Datetime LastSyncTime;
 	public String LeadSource;
 	public String Name;
 	public String NextStep;

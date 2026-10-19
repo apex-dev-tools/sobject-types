@@ -29,6 +29,10 @@ public class WebCart extends SObject {
 	public String BillingState;
 	public String BillingStateCode;
 	public String BillingStreet;
+	public Datetime CollaborationLockedAt;
+	public Id CollaborationLockedById;
+	public User CollaborationLockedBy;
+	public String CollaborationStatus;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -49,6 +53,8 @@ public class WebCart extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id LastOperationJobId;
+	public BackgroundOperation LastOperationJob;
 	public Datetime LastRepricingDate;
 	public String Name;
 	public Id OrderOwnerId;
@@ -60,7 +66,9 @@ public class WebCart extends SObject {
 	public Id PaymentMethodId;
 	public Name PaymentMethod;
 	public String PoNumber;
+	public Integer QuoteLineItemCount;
 	public String Status;
+	public String SubStatus;
 	public Datetime SystemModstamp;
 	public String TaxType;
 	public Decimal TotalAdjustmentAmount;
@@ -75,6 +83,7 @@ public class WebCart extends SObject {
 	public Decimal TotalProductAmount;
 	public Decimal TotalProductCount;
 	public Decimal TotalProductItemAdjAmount;
+	public Decimal TotalProductItemAdjTaxAmount;
 	public Integer TotalProductLineItemCount;
 	public Decimal TotalProductListAmount;
 	public Decimal TotalProductTaxAmount;

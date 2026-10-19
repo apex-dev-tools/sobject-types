@@ -35,7 +35,10 @@ public class SurveyQuestionChangeEvent extends SObject {
 	public String QuestionName;
 	public Integer QuestionOrder;
 	public String QuestionType;
+	public Id RelatedQuestionId;
+	public SurveyQuestion RelatedQuestion;
 	public String ReplayId;
+	public Integer SubQuestionDisplayOrder;
 	public Id SurveyPageId;
 	public SurveyPage SurveyPage;
 	public Id SurveyVersionId;

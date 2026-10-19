@@ -59,6 +59,8 @@ public class Benefit extends SObject {
 	public Integer PrioritySequence;
 	public Id Product2Id;
 	public Product2 Product2;
+	public Id ProgramId;
+	public Program Program;
 	public Integer RecertificationFrequency;
 	public String Rule;
 	public Datetime StartDateTime;

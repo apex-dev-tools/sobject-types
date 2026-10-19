@@ -16,11 +16,12 @@ public class AsgnRsrcApptSchdEvent extends SObject {
 	public static SObjectFields$<AsgnRsrcApptSchdEvent> Fields;
 
 	public String AssignedResourceId;
-	public Object ChangedFields;
+	public String[] ChangedFields;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String EventUuid;
+	public String ExtlCalendarEventIdentifier;
 	public Boolean IsPrimaryResource;
 	public Boolean IsRequiredResource;
 	public String ServiceResourceId;

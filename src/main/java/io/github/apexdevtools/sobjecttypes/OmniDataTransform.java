@@ -15,12 +15,14 @@ public class OmniDataTransform extends SObject {
 	public static SObjectType$<OmniDataTransform> SObjectType;
 	public static SObjectFields$<OmniDataTransform> Fields;
 
+	public String AiGeneratedDescription;
 	public Decimal BatchSize;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String EmbeddingPayload;
 	public String ExpectedInputJson;
 	public String ExpectedInputOtherData;
 	public String ExpectedInputXml;
@@ -38,6 +40,7 @@ public class OmniDataTransform extends SObject {
 	public Boolean IsErrorIgnored;
 	public Boolean IsFieldLevelSecurityEnabled;
 	public Boolean IsManagedUsingStdDesigner;
+	public Boolean IsMigrated;
 	public Boolean IsNullInputsIncludedInOutput;
 	public Boolean IsProcessSuperBulk;
 	public Boolean IsRollbackOnError;

@@ -19,6 +19,8 @@ public class Contact extends SObject {
 	public RecordType RecordType;
 	public Id AccountId;
 	public Account Account;
+	public Id ActionVisibilityId;
+	public ActionVisibility ActionVisibility;
 	public String AssistantName;
 	public String AssistantPhone;
 	public Date Birthdate;

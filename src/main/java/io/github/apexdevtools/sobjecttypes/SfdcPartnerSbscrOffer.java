@@ -60,6 +60,8 @@ public class SfdcPartnerSbscrOffer extends SObject {
 	public String Name;
 	public String OfferType;
 	public Integer OrderPrebillDays;
+	public Id ParentOfferId;
+	public SfdcPartnerSbscrOffer ParentOffer;
 	public String PartnerCompanyName;
 	public String PartnerOffer;
 	public String PartnerOrg;

@@ -25,10 +25,13 @@ public class LoyaltyAggrPointExprLedgerChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id LoyaltyPgmCrcySubtypeId;
+	public LoyaltyPgmCurrencySubtype LoyaltyPgmCrcySubtype;
 	public Id LoyaltyProgramCurrencyId;
 	public LoyaltyProgramCurrency LoyaltyProgramCurrency;
 	public Id LoyaltyProgramMemberId;
 	public LoyaltyProgramMember LoyaltyProgramMember;
+	public String Name;
 	public String PointsStatus;
 	public Decimal RedeemedPoints;
 	public String ReplayId;

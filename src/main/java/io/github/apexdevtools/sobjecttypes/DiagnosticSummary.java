@@ -74,6 +74,8 @@ public class DiagnosticSummary extends SObject {
 	public Name Owner;
 	public Id PatientId;
 	public Account Patient;
+	public Id PrimaryProviderId;
+	public Name PrimaryProvider;
 	public Id ReportAttachmentId;
 	public Attachment ReportAttachment;
 	public String SourceSystem;

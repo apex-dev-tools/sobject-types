@@ -70,6 +70,7 @@ public class PromotionChangeEvent extends SObject {
 	public String Objective;
 	public Id OwnerId;
 	public User Owner;
+	public String PersonalizationType;
 	public Decimal PointFactor;
 	public Integer PriorityNumber;
 	public String PromotionCode;

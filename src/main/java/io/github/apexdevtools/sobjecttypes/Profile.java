@@ -20,6 +20,7 @@ public class Profile extends SObject {
 	public Datetime CreatedDate;
 	public String Description;
 	public Id Id;
+	public Boolean IsMustUseSso;
 	public Boolean IsSsoEnabled;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -33,6 +34,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsAITestingUser;
 	public Boolean PermissionsAIViewInsightObjects;
 	public Boolean PermissionsAIWorkbenchUser;
+	public Boolean PermissionsAIWorkbenchViewer;
 	public Boolean PermissionsAcceptInboundBundling;
 	public Boolean PermissionsAcceptRiskForProblems;
 	public Boolean PermissionsAccessActivation;
@@ -40,11 +42,14 @@ public class Profile extends SObject {
 	public Boolean PermissionsAccessBankingRelationshipAssistance;
 	public Boolean PermissionsAccessBankingServiceAgent;
 	public Boolean PermissionsAccessBudgetManagement;
+	public Boolean PermissionsAccessBuilderCentral;
 	public Boolean PermissionsAccessCMC;
+	public Boolean PermissionsAccessCommandCenter;
 	public Boolean PermissionsAccessCdpApp;
 	public Boolean PermissionsAccessCdpDataExplorer;
 	public Boolean PermissionsAccessCdpProfileExplorer;
 	public Boolean PermissionsAccessContentBuilder;
+	public Boolean PermissionsAccessDataMaskAndSeed;
 	public Boolean PermissionsAccessCustomerDataCloudSetup;
 	public Boolean PermissionsAccessDispatchConsoleMap;
 	public Boolean PermissionsAccessDisputePrompts;
@@ -62,6 +67,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsAccessProgramManagementAsGuest;
 	public Boolean PermissionsAccessServiceEinstein;
 	public Boolean PermissionsAccessSfDrive;
+	public Boolean PermissionsAccessSubscriber;
 	public Boolean PermissionsAccessToComplaintAgent;
 	public Boolean PermissionsAccessToComplaintMgmt;
 	public Boolean PermissionsAccessToDisputeManagement;
@@ -118,6 +124,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsAllowNZCENScope3ProcHub;
 	public Boolean PermissionsAllowNZCMngEsgPgm;
 	public Boolean PermissionsAllowOCIAvailabilityAPIs;
+	public Boolean PermissionsAllowSurveyAdvancedFeatures;
 	public Boolean PermissionsAllowSCBEI;
 	public Boolean PermissionsAllowSCCalcAndLock;
 	public Boolean PermissionsAllowSCCarbonAccounting;
@@ -150,6 +157,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsApprovalAdmin;
 	public Boolean PermissionsApprovalDesigner;
 	public Boolean PermissionsAssessmentPlatformUser;
+	public Boolean PermissionsAssessmentSummaryGenAiUserAccess;
 	public Boolean PermissionsAssignPermissionSets;
 	public Boolean PermissionsAssignTopics;
 	public Boolean PermissionsAssocChgRqstAndProb;
@@ -163,20 +171,24 @@ public class Profile extends SObject {
 	public Boolean PermissionsAuthorApex;
 	public Boolean PermissionsAuthorizePayments;
 	public Boolean PermissionsAutomaticActivityCapture;
+	public Boolean PermissionsAutonomousAnalyticsPrivacy;
 	public Boolean PermissionsB2BMarketingAnalyticsUser;
 	public Boolean PermissionsBREAlertsUserAccess;
 	public Boolean PermissionsBVCommunityAccess;
 	public Boolean PermissionsBatchManagementUser;
 	public Boolean PermissionsBehavioralHealthAppUserAccess;
 	public Boolean PermissionsBillingBatchFilterCriteriaAccess;
+	public Boolean PermissionsBillingInvoiceSuperUser;
 	public Boolean PermissionsBillingSetupAccess;
 	public Boolean PermissionsBotManageBots;
 	public Boolean PermissionsBotManageBotsTrainingData;
 	public Boolean PermissionsBranchManagementUserAccess;
+	public Boolean PermissionsBreakGlassLoginAllowed;
 	public Boolean PermissionsBulkApiHardDelete;
 	public Boolean PermissionsBulkMacrosAllowed;
 	public Boolean PermissionsBypassMFAForUiLogins;
 	public Boolean PermissionsCCUserHasEAndUProgramAccess;
+	public Boolean PermissionsCCUserHasMilestoneWorkAccess;
 	public Boolean PermissionsCMSECEAuthoringAccess;
 	public Boolean PermissionsCallCoachingUser;
 	public Boolean PermissionsCampaignInfluence2;
@@ -189,6 +201,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsCanInitiateMessagingSessions;
 	public Boolean PermissionsCanInsertFeedSystemFields;
 	public Boolean PermissionsCanManageMaps;
+	public Boolean PermissionsCanQueryForeignTables;
 	public Boolean PermissionsCanMarketingUserDebugFlow;
 	public Boolean PermissionsCanRunAnalysis;
 	public Boolean PermissionsCanSendInitialSMSToIndividual;
@@ -259,6 +272,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsCreateModDGTrigNonSetupFlow;
 	public Boolean PermissionsCreateReportFolders;
 	public Boolean PermissionsCreateReportInLightning;
+	public Boolean PermissionsCreateSalesforcePages;
 	public Boolean PermissionsCreateTopics;
 	public Boolean PermissionsCreateUpdateSDDDataset;
 	public Boolean PermissionsCreateUpdateSDDStory;
@@ -287,6 +301,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsDecimalQuantityDesigntime;
 	public Boolean PermissionsDecimalQuantityRuntime;
 	public Boolean PermissionsDecisionTableExecUserAccess;
+	public Boolean PermissionsDecodePreferenceCenterToken;
 	public Boolean PermissionsDeferSharingCalculations;
 	public Boolean PermissionsDelegatedTwoFactor;
 	public Boolean PermissionsDeleteActivatedContract;
@@ -297,11 +312,14 @@ public class Profile extends SObject {
 	public Boolean PermissionsDeleteProblem;
 	public Boolean PermissionsDeleteSalesforceFiles;
 	public Boolean PermissionsDeleteTopics;
+	public Boolean PermissionsDeploySalesforcePages;
 	public Boolean PermissionsDerivedPricing;
 	public Boolean PermissionsDesignContextRule;
 	public Boolean PermissionsDesignNotifications;
 	public Boolean PermissionsDfoAdminUser;
 	public Boolean PermissionsDigitalAgentUser;
+	public Boolean PermissionsDigitalHealthInsMedicareUser;
+	public Boolean PermissionsDigitalHealthInsPCMedicareUser;
 	public Boolean PermissionsDigitalHealthInsUser;
 	public Boolean PermissionsDigitalLendingAdminUser;
 	public Boolean PermissionsDigitalLendingEditReadOnly;
@@ -387,6 +405,8 @@ public class Profile extends SObject {
 	public Boolean PermissionsFSCInsuranceCmpCmtyAccess;
 	public Boolean PermissionsFSCInsuranceCmpLexOnlyAccess;
 	public Boolean PermissionsFSCInsurancePlatformUser;
+	public Boolean PermissionsFSCIntegrationUser;
+	public Boolean PermissionsFSCReferralAdminPerm;
 	public Boolean PermissionsFSCReferralUserPerm;
 	public Boolean PermissionsFeedPinning;
 	public Boolean PermissionsFieldServiceAccess;
@@ -416,6 +436,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsHcMedReconciliationUser;
 	public Boolean PermissionsHcPnmSiteUser;
 	public Boolean PermissionsHeadlessCMSAccess;
+	public Boolean PermissionsHeadlessPlatformInteractions;
 	public Boolean PermissionsHeadlessPublishNudges;
 	public Boolean PermissionsHealthAgent;
 	public Boolean PermissionsHealthCloudCmtyAccess;
@@ -430,6 +451,8 @@ public class Profile extends SObject {
 	public Boolean PermissionsImportCustomObjects;
 	public Boolean PermissionsImportLeads;
 	public Boolean PermissionsImportPersonal;
+	public Boolean PermissionsIndustriesCausalAnalysisAdmin;
+	public Boolean PermissionsIndustriesCausalAnalysisUser;
 	public Boolean PermissionsIndustriesEpcNextPilot;
 	public Boolean PermissionsIndustryMilestonePlatformUser;
 	public Boolean PermissionsInsightsAppAdmin;
@@ -497,6 +520,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsManageCdpMlModels;
 	public Boolean PermissionsManageCertificates;
 	public Boolean PermissionsManageCertificatesExpiration;
+	public Boolean PermissionsManageChannelMarketingEligibility;
 	public Boolean PermissionsManageChatterMessages;
 	public Boolean PermissionsManageClinicalDecisionSupt;
 	public Boolean PermissionsManageContentLinks;
@@ -504,6 +528,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsManageContentProperties;
 	public Boolean PermissionsManageContentTaxonomy;
 	public Boolean PermissionsManageContentTypes;
+	public Boolean PermissionsManageCoreGovernance;
 	public Boolean PermissionsManageConvMiningReports;
 	public Boolean PermissionsManageCssUsers;
 	public Boolean PermissionsManageCustomDomains;
@@ -534,10 +559,13 @@ public class Profile extends SObject {
 	public Boolean PermissionsManageFhirSubscription;
 	public Boolean PermissionsManageFilesAndAttachments;
 	public Boolean PermissionsManageFuelTypes;
+	public Boolean PermissionsManageGeneratePolicies;
+	public Boolean PermissionsManageGlobalConsent;
 	public Boolean PermissionsManageGlobalPrivacyCenterVO;
 	public Boolean PermissionsManageGoodsReceivedNotes;
 	public Boolean PermissionsManageHcProviderNtwkMgmt;
 	public Boolean PermissionsManageHcProviderRelMgmt;
+	public Boolean PermissionsManageHealthAssessments;
 	public Boolean PermissionsManageHealthCareAnalytics;
 	public Boolean PermissionsManageForecastingCustomData;
 	public Boolean PermissionsManageHealthCheck;
@@ -576,6 +604,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsManageOrchestrationRuns;
 	public Boolean PermissionsManagePartners;
 	public Boolean PermissionsManageOutcomeManagement;
+	public Boolean PermissionsManagePackageLicenses;
 	public Boolean PermissionsManagePasswordPolicies;
 	public Boolean PermissionsManagePatientProgramOutcomes;
 	public Boolean PermissionsManagePharmacyBenefitsVerf;
@@ -617,6 +646,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsManageSmartDataDiscoveryModel;
 	public Boolean PermissionsManageSolutions;
 	public Boolean PermissionsManageStores;
+	public Boolean PermissionsManageSubscriber;
 	public Boolean PermissionsManageSubscriptions;
 	public Boolean PermissionsManageSurveys;
 	public Boolean PermissionsManageSustainabilityUOM;
@@ -670,6 +700,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsMonitorLoginHistory;
 	public Boolean PermissionsMortgageUserAccess;
 	public Boolean PermissionsMultiStepSchedulingUser;
+	public Boolean PermissionsMustUseSso;
 	public Boolean PermissionsMyTrailheadBranding;
 	public Boolean PermissionsMyTrailheadContentAccess;
 	public Boolean PermissionsMyTrailheadContentCreation;
@@ -699,6 +730,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsPRMChannelMgmtConsoleUser;
 	public Boolean PermissionsPackaging2;
 	public Boolean PermissionsPackaging2Delete;
+	public Boolean PermissionsPartnerEACUser;
 	public Boolean PermissionsPackaging2PromoteVersion;
 	public Boolean PermissionsPasswordNeverExpires;
 	public Boolean PermissionsPaymentsAPIUser;
@@ -706,6 +738,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsPersonalizationIntelUser;
 	public Boolean PermissionsPersonalizationPlatform;
 	public Boolean PermissionsPersonalizedFinanceUserAccess;
+	public Boolean PermissionsPlatformWebIdeUser;
 	public Boolean PermissionsPortalSuperUser;
 	public Boolean PermissionsPreventClassicExperience;
 	public Boolean PermissionsPreviewExperienceUser;
@@ -747,6 +780,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsRebookWithAgentforceFromDispatchConsole;
 	public Boolean PermissionsRecordAggregationAccess;
 	public Boolean PermissionsRecordVisibilityAPI;
+	public Boolean PermissionsRecoverForecastBillingSchedules;
 	public Boolean PermissionsRecoveryAPIUser;
 	public Boolean PermissionsRefundPayments;
 	public Boolean PermissionsRegrelloUser;
@@ -767,6 +801,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsRunFlow;
 	public Boolean PermissionsRunGlobalOptimization;
 	public Boolean PermissionsRunInDayOptimization;
+	public Boolean PermissionsRunMyDayUser;
 	public Boolean PermissionsRunNetZeroAnalyticsRecipe;
 	public Boolean PermissionsRunRegisterProcessingServices;
 	public Boolean PermissionsRunReports;
@@ -809,6 +844,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsSimpleCsvDataImportUser;
 	public Boolean PermissionsSkipIdentityConfirmation;
 	public Boolean PermissionsSlackCibUser;
+	public Boolean PermissionsSlackbotUi;
 	public Boolean PermissionsSlackFromTableau;
 	public Boolean PermissionsSmartDataDiscoveryForCommunity;
 	public Boolean PermissionsSolutionImport;
@@ -826,6 +862,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsSubscribeToLightningReports;
 	public Boolean PermissionsSuggestedAssessmentGenAIUserAccess;
 	public Boolean PermissionsSuggestedAssessmentRespGenAIUserAccess;
+	public Boolean PermissionsSuitesAgentEscalationPerm;
 	public Boolean PermissionsSustainabilityUserPermission;
 	public Boolean PermissionsTableauCreateDashboard;
 	public Boolean PermissionsTableauCreateVisualization;
@@ -894,10 +931,12 @@ public class Profile extends SObject {
 	public Boolean PermissionsUseMySearch;
 	public Boolean PermissionsUseNonProfitIntelligence;
 	public Boolean PermissionsUseOMAnalytics;
+	public Boolean PermissionsUseOMSDROInteropAPIs;
 	public Boolean PermissionsUseOmnichannelInventoryAPIs;
 	public Boolean PermissionsUseOrderEntry;
 	public Boolean PermissionsUseOrderItemSummaryCancel;
 	public Boolean PermissionsUseOrderItemSummaryReturn;
+	public Boolean PermissionsUseOrderManagementSetupAPIs;
 	public Boolean PermissionsUsePartnerMessagingChannels;
 	public Boolean PermissionsUseOrderSummaryChangeAPIs;
 	public Boolean PermissionsUsePaymentCreditAPIs;
@@ -925,6 +964,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsUserCanDeployStore;
 	public Boolean PermissionsUserCanPerformNLPOperation;
 	public Boolean PermissionsUserHasALMSimpleDeployAccess;
+	public Boolean PermissionsUserHasDevOpsCore;
 	public Boolean PermissionsUserHasEAndUProgramAccess;
 	public Boolean PermissionsUserHasSendToListFilterAccess;
 	public Boolean PermissionsUserHasMilestoneWorkAccess;
@@ -955,13 +995,16 @@ public class Profile extends SObject {
 	public Boolean PermissionsViewAnomalyEvents;
 	public Boolean PermissionsViewBusinessUnit;
 	public Boolean PermissionsViewApiNamedQueries;
+	public Boolean PermissionsViewArchivedFiles;
 	public Boolean PermissionsViewCaseAnlytDshbrd;
 	public Boolean PermissionsViewChangeRequestAnlytDshbrd;
 	public Boolean PermissionsViewChangeRequestDshbrd;
+	public Boolean PermissionsViewChannelMarketingEligibility;
 	public Boolean PermissionsViewClientSecret;
 	public Boolean PermissionsViewContent;
 	public Boolean PermissionsViewCustomerSentiment;
 	public Boolean PermissionsViewContentTaxonomy;
+	public Boolean PermissionsViewCoreGovernance;
 	public Boolean PermissionsViewDataAssessment;
 	public Boolean PermissionsViewDataCategories;
 	public Boolean PermissionsViewDataGovTab;
@@ -972,6 +1015,7 @@ public class Profile extends SObject {
 	public Boolean PermissionsViewEnablementAnalytics;
 	public Boolean PermissionsViewEncryptedData;
 	public Boolean PermissionsViewEventLogFiles;
+	public Boolean PermissionsViewHealthAssessments;
 	public Boolean PermissionsViewGlobalHeader;
 	public Boolean PermissionsViewHealthCheck;
 	public Boolean PermissionsViewHelpLink;
@@ -1003,8 +1047,11 @@ public class Profile extends SObject {
 	public Boolean PermissionsViewRestrictionAndScopingRules;
 	public Boolean PermissionsViewRoles;
 	public Boolean PermissionsViewSALifecycle;
+	public Boolean PermissionsViewSalesforcePages;
 	public Boolean PermissionsViewSecurityCommandCenter;
+	public Boolean PermissionsViewServiceGroundingConfig;
 	public Boolean PermissionsViewSetup;
+	public Boolean PermissionsViewSetupAuditTrail;
 	public Boolean PermissionsViewShieldApp;
 	public Boolean PermissionsViewUMACalendar;
 	public Boolean PermissionsViewUserPII;

@@ -17,6 +17,7 @@ public class BatchJob extends SObject {
 	public static SObjectFields$<BatchJob> Fields;
 
 	public String AdditionalInformation;
+	public String ApiVersion;
 	public Id BatchJobDefinitionId;
 	public BatchJobDefinition BatchJobDefinition;
 	public String BatchJobDefinitionName;
@@ -24,6 +25,7 @@ public class BatchJob extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String DefinitionType;
 	public Datetime EndTime;
 	public String ErrorDescription;
 	public String ExecutionStage;
@@ -41,13 +43,16 @@ public class BatchJob extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public String ProcessGroup;
+	public Integer QueuingRetryCount;
 	public Integer RetryCount;
+	public String RunByUser;
 	public String RuntimeParameter;
 	public Datetime StartTime;
 	public String Status;
 	public Datetime SystemModstamp;
 	public Integer TotalInputRecordCount;
 	public Integer TotalProcessedRecordCount;
+	public String TriggerType;
 	public String Type;
 	public String UtilisedExecutionLimit;
 	public String UtilisedWritebackLimit;

@@ -31,6 +31,7 @@ public class ExtlClntAppOauthSettings extends SObject {
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
 	public String NamespacePrefix;
+	public Boolean OauthScopesA2A_API;
 	public String OauthLink;
 	public Boolean OauthScopesADDRESS;
 	public Boolean OauthScopesAPI;
@@ -43,6 +44,7 @@ public class ExtlClntAppOauthSettings extends SObject {
 	public Boolean OauthScopesCDP_SEGMENT_API;
 	public Boolean OauthScopesCHATBOT_API;
 	public Boolean OauthScopesCHATTER_REST_API;
+	public Boolean OauthScopesCMDB_DISCOVERY_API;
 	public Boolean OauthScopesCONTENT;
 	public Boolean OauthScopesCUSTOM_PERMISSIONS;
 	public Boolean OauthScopesDATA_CLOUD_USER_CLAIMS;
@@ -63,6 +65,7 @@ public class ExtlClntAppOauthSettings extends SObject {
 	public Boolean OauthScopesPWDLESS_LOGIN_API;
 	public Boolean OauthScopesREFRESH_TOKEN;
 	public Boolean OauthScopesSCRT_API;
+	public Boolean OauthScopesSEMANTIC_LAYER_API;
 	public Boolean OauthScopesSFAP_API;
 	public Boolean OauthScopesSSO;
 	public Boolean OauthScopesUSER_REGISTRATION_API;

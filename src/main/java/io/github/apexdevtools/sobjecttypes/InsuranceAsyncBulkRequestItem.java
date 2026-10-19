@@ -27,9 +27,12 @@ public class InsuranceAsyncBulkRequestItem extends SObject {
 	public Id InsuranceAsyncBulkRequestId;
 	public InsuranceAsyncBulkRequest InsuranceAsyncBulkRequest;
 	public Boolean IsDeleted;
+	public String ItemType;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
 	public String Name;
 	public Id ReferenceRecordId;
 	public Name ReferenceRecord;

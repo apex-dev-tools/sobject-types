@@ -16,6 +16,7 @@ public class Conversation extends SObject {
 	public static SObjectType$<Conversation> SObjectType;
 	public static SObjectFields$<Conversation> Fields;
 
+	public String ActiveModalities;
 	public Id ConversationChannelId;
 	public SObject ConversationChannel;
 	public String ConversationIdentifier;
@@ -26,6 +27,7 @@ public class Conversation extends SObject {
 	public Integer EndTimeMilliSecs;
 	public Id Id;
 	public Boolean IsDeleted;
+	public String Label;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

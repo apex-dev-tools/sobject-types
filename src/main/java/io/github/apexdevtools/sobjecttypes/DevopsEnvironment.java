@@ -47,6 +47,7 @@ public class DevopsEnvironment extends SObject {
 	public DevopsEnvironment RefreshSource;
 	public Id ReplacesId;
 	public DevopsEnvironment Replaces;
+	public String Status;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;

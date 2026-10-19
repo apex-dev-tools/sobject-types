@@ -32,6 +32,7 @@ public class PromotionTier extends SObject {
 	public Promotion Promotion;
 	public Integer Rank;
 	public Datetime SystemModstamp;
+	public String TierLabel;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

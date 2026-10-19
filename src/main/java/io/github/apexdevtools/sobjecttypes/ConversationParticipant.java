@@ -40,6 +40,7 @@ public class ConversationParticipant extends SObject {
 	public Name ParticipantEntity;
 	public String ParticipantKey;
 	public String ParticipantRole;
+	public String SupportedModalities;
 
 	public ContextParamMap[] ContextParamMaps;
 	public ConversationEntry[] ConversationEntries;

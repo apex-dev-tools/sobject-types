@@ -29,6 +29,8 @@ public class InsuranceAsyncBulkRecordDetail extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
 	public String Name;
 	public Id ReferenceRecordId;
 	public Name ReferenceRecord;

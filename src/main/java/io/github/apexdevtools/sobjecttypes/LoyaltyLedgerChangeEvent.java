@@ -30,6 +30,8 @@ public class LoyaltyLedgerChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id LoyaltyPgmCrcySubtypeId;
+	public LoyaltyPgmCurrencySubtype LoyaltyPgmCrcySubtype;
 	public Id LoyaltyProgramCurrencyId;
 	public LoyaltyProgramCurrency LoyaltyProgramCurrency;
 	public Id LoyaltyProgramMemberId;
@@ -39,6 +41,7 @@ public class LoyaltyLedgerChangeEvent extends SObject {
 	public Id PromotionId;
 	public Promotion Promotion;
 	public String ReplayId;
+	public String SourceIdentifier;
 	public Id TransactionJournalId;
 	public TransactionJournal TransactionJournal;
 

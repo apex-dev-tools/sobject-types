@@ -15,6 +15,7 @@ public class OmniProcess extends SObject {
 	public static SObjectType$<OmniProcess> SObjectType;
 	public static SObjectFields$<OmniProcess> Fields;
 
+	public String AiGeneratedDescription;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -25,6 +26,7 @@ public class OmniProcess extends SObject {
 	public String DesignerCustomizationType;
 	public String DiscoveryFrameworkUsageType;
 	public String ElementTypeComponentMapping;
+	public String EmbeddingPayload;
 	public Id Id;
 	public String IntegrationProcedureInput;
 	public String IntegrationProcedureOutput;

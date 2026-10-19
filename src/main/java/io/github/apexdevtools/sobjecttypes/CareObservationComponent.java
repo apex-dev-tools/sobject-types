@@ -26,6 +26,8 @@ public class CareObservationComponent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataAbsentReasonId;
+	public CodeSetBundle DataAbsentReason;
 	public String Division;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -50,7 +52,10 @@ public class CareObservationComponent extends SObject {
 	public UnitOfMeasure ObservedValueUnit;
 	public Datetime SystemModstamp;
 	public Decimal UpperBaselineValue;
+	public Id ValueDenominatorUnitId;
+	public UnitOfMeasure ValueDenominatorUnit;
 	public String ValueInterpretation;
+	public Time ValueTime;
 	public String ValueType;
 
 	public ActivityHistory[] ActivityHistories;

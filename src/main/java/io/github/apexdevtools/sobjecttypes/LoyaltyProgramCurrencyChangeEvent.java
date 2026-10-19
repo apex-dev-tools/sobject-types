@@ -23,6 +23,7 @@ public class LoyaltyProgramCurrencyChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String CurrencyType;
+	public Boolean DoesAllowLedgerTracing;
 	public String ExpiryModel;
 	public Integer ExpiryPeriodFrequency;
 	public String ExpiryPeriodUnit;

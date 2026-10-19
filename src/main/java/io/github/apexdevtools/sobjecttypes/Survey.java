@@ -26,6 +26,7 @@ public class Survey extends SObject {
 	public String DeveloperName;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsPartialSaveEnabled;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

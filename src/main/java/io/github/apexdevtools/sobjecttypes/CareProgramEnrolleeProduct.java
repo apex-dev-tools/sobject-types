@@ -35,6 +35,8 @@ public class CareProgramEnrolleeProduct extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id ProgramId;
+	public Program Program;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;
 	public String Status;

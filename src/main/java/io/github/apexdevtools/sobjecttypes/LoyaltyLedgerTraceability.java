@@ -31,6 +31,10 @@ public class LoyaltyLedgerTraceability extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Id LoyaltyAggrPointExprLedgerId;
+	public LoyaltyAggrPointExprLedger LoyaltyAggrPointExprLedger;
+	public Id LoyaltyPgmCurrencySubtypeId;
+	public LoyaltyPgmCurrencySubtype LoyaltyPgmCurrencySubtype;
 	public Id LoyaltyProgramCurrencyId;
 	public LoyaltyProgramCurrency LoyaltyProgramCurrency;
 	public Id LoyaltyProgramMemberId;

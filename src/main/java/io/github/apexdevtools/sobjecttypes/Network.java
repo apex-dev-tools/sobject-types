@@ -64,6 +64,7 @@ public class Network extends SObject {
 	public Boolean OptionsEinsteinAnswersKAEnabled;
 	public Boolean OptionsEinsteinAnswersQAEnabled;
 	public Boolean OptionsEinsteinAnswersSnippetEnabled;
+	public Boolean OptionsEmailDomainSubstitutionEnabled;
 	public Boolean OptionsEmbeddedLoginEnabled;
 	public Boolean OptionsEnableTalkingAboutStats;
 	public Boolean OptionsEnableTopicAssignmentRules;
@@ -90,6 +91,7 @@ public class Network extends SObject {
 	public Boolean OptionsRecognitionBadgingEnabled;
 	public Boolean OptionsReputationEnabled;
 	public Boolean OptionsReputationRecordConversationsDisabled;
+	public Boolean OptionsSecondaryEmailSenderEnabled;
 	public Boolean OptionsSelfRegistrationEnabled;
 	public Boolean OptionsSendWelcomeEmail;
 	public Boolean OptionsShowAllNetworkSettings;
@@ -99,6 +101,7 @@ public class Network extends SObject {
 	public Boolean OptionsTopicSuggestionsEnabled;
 	public Boolean OptionsTwilioCallbackApiEnabled;
 	public Boolean OptionsUpDownVoteEnabled;
+	public String PendingSecondaryEmailAddress;
 	public Id PwdlessRegEmailTemplateId;
 	public EmailTemplate PwdlessRegEmailTemplate;
 	public Id SelfRegMicroBatchSubErrorEmailTemplateId;
@@ -110,6 +113,7 @@ public class Network extends SObject {
 	public String UrlPathPrefix;
 	public Id VerificationEmailTemplateId;
 	public EmailTemplate VerificationEmailTemplate;
+	public String VerifiedSecondaryEmailAddress;
 	public Id WelcomeEmailTemplateId;
 	public EmailTemplate WelcomeEmailTemplate;
 

@@ -20,14 +20,17 @@ public class OutboundEngagementTmplView extends SObject {
 	public String ExternalId;
 	public String IconUrl;
 	public Id Id;
+	public Boolean IsCustomTemplate;
 	public String Purpose;
 	public String SourcePath;
+	public String Status;
 	public String TargetName;
 	public String TargetType;
 	public String TemplateCategory;
 	public String TemplateDescription;
 	public String TemplateDeveloperName;
 	public String TemplateName;
+	public String TemplateSubcategory;
 	public String TemplateType;
 	public String UsageType;
 

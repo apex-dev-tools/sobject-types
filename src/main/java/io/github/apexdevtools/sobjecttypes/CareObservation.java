@@ -35,6 +35,8 @@ public class CareObservation extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataAbsentReasonId;
+	public CodeSetBundle DataAbsentReason;
 	public Id DerivationSourceId;
 	public Name DerivationSource;
 	public Id DeviceId;
@@ -96,7 +98,10 @@ public class CareObservation extends SObject {
 	public Id UnitOfMeasureId;
 	public UnitOfMeasure UnitOfMeasure;
 	public Decimal UpperBaselineValue;
+	public Id ValueDenominatorUnitId;
+	public UnitOfMeasure ValueDenominatorUnit;
 	public String ValueInterpretation;
+	public Time ValueTime;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

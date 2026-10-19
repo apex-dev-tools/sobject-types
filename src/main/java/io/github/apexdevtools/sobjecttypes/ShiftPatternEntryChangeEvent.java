@@ -27,6 +27,7 @@ public class ShiftPatternEntryChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public Integer Occurrence;
 	public String ReplayId;
 	public Id ShiftPatternId;
 	public ShiftPattern ShiftPattern;

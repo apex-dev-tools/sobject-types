@@ -34,6 +34,8 @@ public class OutboundEngmtContentRsrc extends SObject {
 	public Name Owner;
 	public Id ResourceReferenceRecordId;
 	public Campaign ResourceReferenceRecord;
+	public String Status;
+	public String StatusReason;
 	public Datetime SystemModstamp;
 	public Id TargetReferenceRecordId;
 	public Promotion TargetReferenceRecord;

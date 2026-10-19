@@ -28,6 +28,8 @@ public class FulfillmentOrderLineItemChangeEvent extends SObject {
 	public String FulfillmentOrderLineItemNumber;
 	public Decimal GrossUnitPrice;
 	public Id Id;
+	public Id InvoiceId;
+	public Invoice Invoice;
 	public Boolean IsReship;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

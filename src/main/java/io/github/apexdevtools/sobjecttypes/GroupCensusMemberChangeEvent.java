@@ -34,6 +34,9 @@ public class GroupCensusMemberChangeEvent extends SObject {
 	public String CurrencyIsoCode;
 	public Integer DependentCount;
 	public String Email;
+	public String EventAction;
+	public Date EventEffectiveDate;
+	public String EventType;
 	public String FirstName;
 	public Decimal FullTimeEquivalent;
 	public String Gender;
@@ -56,6 +59,7 @@ public class GroupCensusMemberChangeEvent extends SObject {
 	public String MemberType;
 	public String Name;
 	public String OptOutPlanTypes;
+	public String OverrideTypeConfiguration;
 	public Id OwnerId;
 	public User Owner;
 	public String PhoneNumber;

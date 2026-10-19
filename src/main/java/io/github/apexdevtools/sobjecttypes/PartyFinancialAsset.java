@@ -21,6 +21,8 @@ public class PartyFinancialAsset extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Datetime DeclarationDateTime;
+	public String Description;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -31,14 +33,18 @@ public class PartyFinancialAsset extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Datetime OwnershipEndDateTime;
+	public Decimal OwnershipPercent;
 	public Datetime OwnershipStartDateTime;
 	public Id PartyId;
 	public Name Party;
 	public String SourceSystemIdentifier;
+	public String Status;
 	public Datetime SystemModstamp;
 	public String Type;
 	public String UsageType;
 	public Decimal ValuationAmount;
+	public Datetime ValuationDateTime;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

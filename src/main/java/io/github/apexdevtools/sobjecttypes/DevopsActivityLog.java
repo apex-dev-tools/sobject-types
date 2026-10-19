@@ -39,9 +39,19 @@ public class DevopsActivityLog extends SObject {
 	public DevopsActivityLog ParentActivity;
 	public Id PerformedById;
 	public User PerformedBy;
+	public Id PipelineId;
+	public DevopsPipeline Pipeline;
+	public Id PipelineStageId;
+	public DevopsPipelineStage PipelineStage;
+	public Id ProjectId;
+	public DevopsProject Project;
 	public String RequestInfoErrorDetails;
 	public String Status;
 	public Datetime SystemModstamp;
+	public Id TestSuiteGroupExecId;
+	public DevopsTestSuiteGroupExec TestSuiteGroupExec;
+	public Id WorkItemId;
+	public WorkItem WorkItem;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

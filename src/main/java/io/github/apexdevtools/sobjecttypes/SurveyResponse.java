@@ -19,6 +19,7 @@ public class SurveyResponse extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataMapperExecutionStatus;
 	public String CurrencyIsoCode;
 	public Id Id;
 	public String InterviewGuid;

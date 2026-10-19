@@ -20,6 +20,8 @@ public class WebCartAdjustmentGroupChangeEvent extends SObject {
 	public Coupon AdjustmentBasisReference;
 	public String AdjustmentSource;
 	public String AdjustmentTargetType;
+	public Id AdjustmentTierId;
+	public PromotionTier AdjustmentTier;
 	public String AdjustmentType;
 	public Decimal AdjustmentValue;
 	public Id CartId;

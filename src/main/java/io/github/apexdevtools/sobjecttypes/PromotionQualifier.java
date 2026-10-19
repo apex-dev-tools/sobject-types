@@ -16,6 +16,7 @@ public class PromotionQualifier extends SObject {
 	public static SObjectFields$<PromotionQualifier> Fields;
 
 	public Decimal ApproachingDiscountThreshold;
+	public Boolean AreSubcategoriesIncluded;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

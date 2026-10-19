@@ -21,6 +21,7 @@ public class ShippingCarrierMethod extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String ExternalReference;
+	public Time FridayPickUpTime;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -31,16 +32,22 @@ public class ShippingCarrierMethod extends SObject {
 	public String ManagedShippingCarrierMethod;
 	public Integer MaxTransitTime;
 	public Integer MinTransitTime;
+	public Time MondayPickUpTime;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
 	public Integer ProcessingTime;
 	public String ProcessingTimeUnit;
+	public Time SaturdayPickUpTime;
 	public Id ShippingCarrierId;
 	public ShippingCarrier ShippingCarrier;
 	public String ShippingScope;
+	public Time SundayPickUpTime;
 	public Datetime SystemModstamp;
+	public Time ThursdayPickUpTime;
 	public String TransitTimeUnit;
+	public Time TuesdayPickUpTime;
+	public Time WednesdayPickUpTime;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

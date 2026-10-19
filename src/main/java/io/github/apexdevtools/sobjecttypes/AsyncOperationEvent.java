@@ -29,10 +29,10 @@ public class AsyncOperationEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String EventUuid;
-	public Object OperationDetails;
+	public AsyncOperationStatus[] OperationDetails;
 	public String OperationId;
 	public String ReplayId;
-	public Object SourceEvent;
+	public SObject SourceEvent;
 
 	public AsyncOperationEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AsyncOperationEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

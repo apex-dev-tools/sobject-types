@@ -30,6 +30,7 @@ public class CreditMemo extends SObject {
 	public Datetime CreatedDate;
 	public String CreationMode;
 	public Date CreditDate;
+	public Datetime CreditMemoLockedDateTime;
 	public String CreditMemoNumber;
 	public String CurrencyIsoCode;
 	public String Description;
@@ -41,6 +42,7 @@ public class CreditMemo extends SObject {
 	public Decimal FunctionalCurrencyCvsnRate;
 	public String FunctionalCurrencyIsoCode;
 	public Id Id;
+	public Boolean IsCreditMemoLocked;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -48,11 +50,14 @@ public class CreditMemo extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Decimal NetCreditsApplied;
+	public Decimal NetRefundsApplied;
 	public Id OwnerId;
 	public Name Owner;
 	public String ReasonCode;
 	public Id ReferenceEntityId;
 	public Name ReferenceEntity;
+	public Id SavedPaymentMethodId;
+	public SavedPaymentMethod SavedPaymentMethod;
 	public String Status;
 	public Datetime SystemModstamp;
 	public Decimal TotalAdjustmentAmount;

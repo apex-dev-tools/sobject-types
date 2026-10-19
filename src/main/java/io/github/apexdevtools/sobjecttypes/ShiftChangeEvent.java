@@ -41,6 +41,7 @@ public class ShiftChangeEvent extends SObject {
 	public String RecurrencePattern;
 	public Date RecurrenceStartDate;
 	public String ReplayId;
+	public String RequestType;
 	public Id ServiceResourceId;
 	public ServiceResource ServiceResource;
 	public Id ServiceTerritoryId;

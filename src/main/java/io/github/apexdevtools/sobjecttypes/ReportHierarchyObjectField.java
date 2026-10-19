@@ -32,6 +32,8 @@ public class ReportHierarchyObjectField extends SObject {
 	public String ObjectType;
 	public Id ReportId;
 	public Report Report;
+	public String ScopeTargetNode;
+	public String ScopeType;
 	public Datetime SystemModstamp;
 
 	public ApprovalSubmission[] ApprovalSubmissions;

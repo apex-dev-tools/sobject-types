@@ -17,6 +17,8 @@ public class BusinessLicenseChangeEvent extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public Id ApplicationFormId;
+	public ApplicationForm ApplicationForm;
 	public Id BusinessTypeId;
 	public BusinessType BusinessType;
 	public Object ChangeEventHeader;

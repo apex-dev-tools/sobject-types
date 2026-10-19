@@ -19,7 +19,11 @@ public class BenefitDisbursement extends SObject {
 	public Datetime ActualCompletionDate;
 	public Decimal AdjustmentAmount;
 	public String ApprovalStatus;
+	public Id BenefitAssignmentId;
+	public BenefitAssignment BenefitAssignment;
 	public String BenefitCategory;
+	public Id BenefitSessionId;
+	public BenefitSession BenefitSession;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -39,8 +43,11 @@ public class BenefitDisbursement extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Datetime PaymentDate;
 	public String PaymentStatus;
 	public Decimal PayoutAmount;
+	public Id ProgramEnrollmentId;
+	public ProgramEnrollment ProgramEnrollment;
 	public Integer RecipientCount;
 	public Id RecipientId;
 	public Name Recipient;

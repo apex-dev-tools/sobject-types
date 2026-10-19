@@ -16,6 +16,7 @@ public class InsurancePolicySurcharge extends SObject {
 	public static SObjectFields$<InsurancePolicySurcharge> Fields;
 
 	public String ApplicableObjectType;
+	public String ConstraintModelDeveloperName;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

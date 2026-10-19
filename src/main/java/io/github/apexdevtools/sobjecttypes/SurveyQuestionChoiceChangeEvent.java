@@ -9,6 +9,7 @@ import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
+import io.github.apexdevtools.standardtypes.System.Integer;
 
 @SuppressWarnings("unused")
 public class SurveyQuestionChoiceChangeEvent extends SObject {
@@ -21,6 +22,7 @@ public class SurveyQuestionChoiceChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String DeveloperName;
+	public Integer DisplayOrder;
 	public Id Id;
 	public Boolean IsDeprecated;
 	public Id LastModifiedById;

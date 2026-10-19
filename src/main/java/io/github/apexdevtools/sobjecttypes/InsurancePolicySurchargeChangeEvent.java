@@ -17,6 +17,7 @@ public class InsurancePolicySurchargeChangeEvent extends SObject {
 
 	public String ApplicableObjectType;
 	public Object ChangeEventHeader;
+	public String ConstraintModelDeveloperName;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

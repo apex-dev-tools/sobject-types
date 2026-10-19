@@ -37,6 +37,10 @@ public class PromotionPartyUsageChangeEvent extends SObject {
 	public Integer OrderCount;
 	public Id PartyId;
 	public SObject Party;
+	public Decimal PersonalizedEasyTarget;
+	public Decimal PersonalizedHardTarget;
+	public Decimal PersonalizedModerateTarget;
+	public String PersonalizedTargetInformation;
 	public Decimal PointsCredited;
 	public Id PromotionId;
 	public Promotion Promotion;

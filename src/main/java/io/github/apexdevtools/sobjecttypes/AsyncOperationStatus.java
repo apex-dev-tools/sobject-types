@@ -28,7 +28,7 @@ public class AsyncOperationStatus extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String EventUuid;
-	public Object Fields;
+	public String[] Fields;
 	public String Message;
 	public String Status;
 	public String StatusCode;

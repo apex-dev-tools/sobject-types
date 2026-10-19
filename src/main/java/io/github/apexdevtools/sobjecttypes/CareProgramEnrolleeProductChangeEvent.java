@@ -33,6 +33,8 @@ public class CareProgramEnrolleeProductChangeEvent extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public User Owner;
+	public Id ProgramId;
+	public Program Program;
 	public String ReplayId;
 	public String SourceSystem;
 	public String SourceSystemIdentifier;

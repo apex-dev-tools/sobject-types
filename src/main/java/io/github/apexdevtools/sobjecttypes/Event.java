@@ -47,6 +47,8 @@ public class Event extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Location;
+	public String MeetingUrl;
+	public String OrchestratorIdentifier;
 	public Id OwnerId;
 	public Name Owner;
 	public Datetime Recurrence2PatternStartDate;

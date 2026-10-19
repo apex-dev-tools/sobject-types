@@ -31,6 +31,7 @@ public class Claim extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public Decimal EstimatedAmount;
+	public Decimal ExpenseReserveAmount;
 	public Datetime FinalizedDate;
 	public String FinancialAuthorityStatus;
 	public String FnolChannel;
@@ -62,6 +63,7 @@ public class Claim extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Datetime LossDate;
+	public Decimal LossReserveAmount;
 	public String LossType;
 	public String Name;
 	public Id OwnerId;

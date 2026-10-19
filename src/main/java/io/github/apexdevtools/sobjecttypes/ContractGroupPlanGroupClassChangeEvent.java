@@ -31,6 +31,7 @@ public class ContractGroupPlanGroupClassChangeEvent extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public User Owner;
+	public String PlanAllocationType;
 	public String ReplayId;
 
 	public ContractGroupPlanGroupClassChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}

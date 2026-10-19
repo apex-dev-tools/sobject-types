@@ -25,6 +25,7 @@ public class MessagingChannel extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DefaultApplication;
 	public String DefaultResponse;
 	public String Description;
 	public String DeveloperName;

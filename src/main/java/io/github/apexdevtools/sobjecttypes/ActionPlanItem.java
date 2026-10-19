@@ -20,6 +20,8 @@ public class ActionPlanItem extends SObject {
 	public ActionPlan ActionPlan;
 	public Id ActionPlanTemplateItemId;
 	public ActionPlanTemplateItem ActionPlanTemplateItem;
+	public Id AssignedToId;
+	public Name AssignedTo;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

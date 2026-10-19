@@ -16,13 +16,17 @@ public class CartItemPriceAdjustment extends SObject {
 	public static SObjectType$<CartItemPriceAdjustment> SObjectType;
 	public static SObjectFields$<CartItemPriceAdjustment> Fields;
 
+	public String AdjustmentAction;
 	public String AdjustmentAmountScope;
 	public Id AdjustmentBasisReferenceId;
 	public Coupon AdjustmentBasisReference;
 	public String AdjustmentSource;
 	public String AdjustmentTargetType;
+	public Id AdjustmentTierId;
+	public PromotionTier AdjustmentTier;
 	public String AdjustmentType;
 	public Decimal AdjustmentValue;
+	public Decimal AppliedAdjustmentAmount;
 	public Id CartId;
 	public WebCart Cart;
 	public Id CartItemId;

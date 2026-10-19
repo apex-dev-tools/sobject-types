@@ -33,6 +33,7 @@ public class ContractGroupPlanGroupClass extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public String PlanAllocationType;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;

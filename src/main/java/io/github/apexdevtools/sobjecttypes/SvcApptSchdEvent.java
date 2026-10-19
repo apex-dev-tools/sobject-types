@@ -18,13 +18,15 @@ public class SvcApptSchdEvent extends SObject {
 
 	public String AdditionalInformation;
 	public String Address;
+	public String AppointmentSchedulingPolicy;
 	public String AppointmentType;
-	public Object ChangedFields;
+	public String[] ChangedFields;
 	public String Comments;
 	public String ContactId;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String Description;
 	public Decimal DurationInMinutes;
 	public String Email;
 	public String EventUuid;

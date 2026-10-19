@@ -18,6 +18,7 @@ public class PromotionTarget extends SObject {
 	public Decimal AdjustmentAmount;
 	public Decimal AdjustmentPercent;
 	public String AdjustmentType;
+	public Boolean AreSubcategoriesIncluded;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

@@ -15,6 +15,7 @@ public class PrivacyJobSession extends SObject {
 	public static SObjectType$<PrivacyJobSession> SObjectType;
 	public static SObjectFields$<PrivacyJobSession> Fields;
 
+	public String AuditStatus;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

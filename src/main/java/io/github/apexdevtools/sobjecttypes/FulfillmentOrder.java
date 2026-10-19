@@ -62,6 +62,7 @@ public class FulfillmentOrder extends SObject {
 	public Id OwnerId;
 	public Name Owner;
 	public Integer ProcessingTimeInMinutes;
+	public String RoutingReference;
 	public Datetime StartFulfillmentDate;
 	public String Status;
 	public String StatusCategory;
