@@ -23,6 +23,7 @@ public class FieldSvcAddlMobSettings extends SObject {
 	public FieldServiceMobileSettings FieldServiceMobileSettings;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsEmergencyNotification;
 	public Boolean IsDummyChildField;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

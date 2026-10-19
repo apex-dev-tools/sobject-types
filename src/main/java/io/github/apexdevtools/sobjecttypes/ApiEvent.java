@@ -21,6 +21,8 @@ public class ApiEvent extends SObject {
 	public String ApiType;
 	public Decimal ApiVersion;
 	public String Application;
+	public Id BotId;
+	public BotDefinition Bot;
 	public String BotSessionIdentifier;
 	public String Client;
 	public Id ConnectedAppId;

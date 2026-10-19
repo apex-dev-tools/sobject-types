@@ -19,9 +19,11 @@ public class CalculationMatrix extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public String DataSource;
 	public Id DecisionMatrixDefinitionId;
 	public Name DecisionMatrixDefinition;
 	public String DecisionMatrixType;
+	public String DecisionTableType;
 	public String Description;
 	public String GroupKey;
 	public Id Id;
@@ -30,12 +32,15 @@ public class CalculationMatrix extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
+	public Datetime LastSyncDate;
 	public Datetime LastViewedDate;
 	public String MigrationStatus;
 	public String Name;
 	public String Namespace;
 	public Id OwnerId;
 	public Name Owner;
+	public String RefreshStatus;
+	public String Status;
 	public String SubGroupKey;
 	public Datetime SystemModstamp;
 	public String Type;

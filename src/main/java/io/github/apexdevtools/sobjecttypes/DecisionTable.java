@@ -15,6 +15,7 @@ public class DecisionTable extends SObject {
 	public static SObjectType$<DecisionTable> SObjectType;
 	public static SObjectFields$<DecisionTable> Fields;
 
+	public String AdditionalAttribute;
 	public String CollectOperator;
 	public String ConditionCriteria;
 	public String ConditionType;
@@ -31,6 +32,7 @@ public class DecisionTable extends SObject {
 	public String FilterResultBy;
 	public Boolean HasIncrementalSyncFailed;
 	public Id Id;
+	public Boolean IsBestFitEnabled;
 	public Boolean IsDeleted;
 	public Boolean IsIncrementalSyncEnabled;
 	public Boolean IsVersioned;

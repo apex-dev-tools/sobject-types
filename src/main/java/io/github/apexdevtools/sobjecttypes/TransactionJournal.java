@@ -96,6 +96,8 @@ public class TransactionJournal extends SObject {
 	public Asset ReferenceRecord;
 	public Id ReferredMemberId;
 	public LoyaltyProgramMember ReferredMember;
+	public Id ReferredPartyId;
+	public Name ReferredParty;
 	public Id RelatedCorporateMembershipId;
 	public LoyaltyProgramMember RelatedCorporateMembership;
 	public Id RelatedJournalId;
@@ -104,6 +106,7 @@ public class TransactionJournal extends SObject {
 	public Datetime StartDate;
 	public String Status;
 	public Datetime SystemModstamp;
+	public Decimal TotalPromotionDiscount;
 	public Decimal TransactionAmount;
 	public String TransactionLocation;
 	public String TraveledFareClass;

@@ -28,6 +28,7 @@ public class OmniScriptView extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String Namespace;
 	public Id OmniProcessId;
 	public OmniProcess OmniProcess;
 	public String OmniscriptName;

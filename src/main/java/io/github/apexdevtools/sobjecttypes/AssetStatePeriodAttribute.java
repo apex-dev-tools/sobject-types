@@ -31,6 +31,7 @@ public class AssetStatePeriodAttribute extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime SystemModstamp;
 
 	public AssetStatePeriodAttribute clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AssetStatePeriodAttribute clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

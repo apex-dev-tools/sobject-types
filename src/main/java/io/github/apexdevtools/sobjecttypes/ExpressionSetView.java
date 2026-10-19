@@ -26,6 +26,7 @@ public class ExpressionSetView extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public String NamespacePrefix;
+	public String Type;
 	public String UsageType;
 	public String UsageTypeLabel;
 

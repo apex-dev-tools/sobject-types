@@ -36,6 +36,8 @@ public class CareObservationChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataAbsentReasonId;
+	public CodeSetBundle DataAbsentReason;
 	public Id DerivationSourceId;
 	public SObject DerivationSource;
 	public Id DeviceId;
@@ -94,7 +96,10 @@ public class CareObservationChangeEvent extends SObject {
 	public Id UnitOfMeasureId;
 	public UnitOfMeasure UnitOfMeasure;
 	public Decimal UpperBaselineValue;
+	public Id ValueDenominatorUnitId;
+	public UnitOfMeasure ValueDenominatorUnit;
 	public String ValueInterpretation;
+	public Time ValueTime;
 
 	public CareObservationChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CareObservationChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -34,6 +34,7 @@ public class OpportunityLineItem extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
+	public Datetime LastSyncTime;
 	public Datetime LastViewedDate;
 	public Decimal ListPrice;
 	public String Name;

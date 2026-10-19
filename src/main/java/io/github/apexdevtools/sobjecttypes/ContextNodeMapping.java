@@ -22,6 +22,7 @@ public class ContextNodeMapping extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String Description;
 	public Id Id;
 	public String InheritedFrom;
 	public Boolean IsDeleted;
@@ -29,6 +30,7 @@ public class ContextNodeMapping extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String MappedContextDefinition;
+	public String MappedContextNode;
 	public String Object;
 	public Datetime SystemModstamp;
 

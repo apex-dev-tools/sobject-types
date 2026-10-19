@@ -17,6 +17,7 @@ public class AssetActionSrcPriceAdjustment extends SObject {
 	public static SObjectFields$<AssetActionSrcPriceAdjustment> Fields;
 
 	public Decimal AdjustmentValue;
+	public Decimal AppliedAdjustmentAmount;
 	public Datetime AppliedPriceAdjustmentDate;
 	public Id AssetActionSourceId;
 	public AssetActionSource AssetActionSource;

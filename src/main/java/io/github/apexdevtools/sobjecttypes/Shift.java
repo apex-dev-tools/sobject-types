@@ -42,6 +42,7 @@ public class Shift extends SObject {
 	public Date RecurrenceEndDate;
 	public String RecurrencePattern;
 	public Date RecurrenceStartDate;
+	public String RequestType;
 	public Id ServiceResourceId;
 	public ServiceResource ServiceResource;
 	public Id ServiceTerritoryId;

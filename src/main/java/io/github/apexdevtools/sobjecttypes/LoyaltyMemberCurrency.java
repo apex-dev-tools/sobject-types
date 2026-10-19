@@ -27,10 +27,12 @@ public class LoyaltyMemberCurrency extends SObject {
 	public Datetime LastAccrualProcessedDate;
 	public Datetime LastEscrowProcessedDate;
 	public Date LastExpirationProcessRunDate;
+	public Date LastExpiredPtTraceabilityRunDt;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastPointsAggregationDate;
+	public Datetime LastRedeemedLedgerDateTime;
 	public Datetime LastReferencedDate;
 	public Date LastResetDate;
 	public Datetime LastViewedDate;

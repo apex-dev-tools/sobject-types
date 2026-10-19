@@ -36,6 +36,8 @@ public class LoyaltyProgramWidget extends SObject {
 	public LoyaltyProgram Program;
 	public Id PromotionId;
 	public Promotion Promotion;
+	public Id PromotionStageId;
+	public PromotionStage PromotionStage;
 	public Datetime SystemModstamp;
 	public String TemplateName;
 	public Integer TemplateVersion;

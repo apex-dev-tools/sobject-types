@@ -16,6 +16,7 @@ public class AssetStatePeriod extends SObject {
 	public static SObjectFields$<AssetStatePeriod> Fields;
 
 	public Decimal Amount;
+	public Decimal ApplUnitPriceUpliftPct;
 	public Id AssetId;
 	public Asset Asset;
 	public String AssetStatePeriodNumber;
@@ -37,6 +38,7 @@ public class AssetStatePeriod extends SObject {
 	public LegalEntity LegalEntity;
 	public Decimal Mrr;
 	public Decimal Quantity;
+	public String RampUpliftType;
 	public Datetime StartDate;
 	public Datetime SystemModstamp;
 	public Decimal UnitPrice;

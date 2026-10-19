@@ -24,6 +24,7 @@ public class LoyaltyProgramProcessParameter extends SObject {
 	public Integer DecimalPlaces;
 	public String Description;
 	public Id Id;
+	public Boolean IsAvailableForPromotionConfig;
 	public Boolean IsCollection;
 	public Boolean IsDeleted;
 	public Boolean IsInput;

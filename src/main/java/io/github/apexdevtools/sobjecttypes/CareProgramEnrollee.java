@@ -26,6 +26,10 @@ public class CareProgramEnrollee extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id CurrentWorkOrderId;
+	public CarePgmEnrolleeWorkOrder CurrentWorkOrder;
+	public Id CurrentWorkOrderStepId;
+	public CarePgmEnrolleeWkOrdStep CurrentWorkOrderStep;
 	public String EnrolleeType;
 	public Id EnrollmentLocationId;
 	public ServiceTerritory EnrollmentLocation;

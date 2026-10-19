@@ -21,6 +21,8 @@ public class ReceivedDocumentTypeChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DocumentTypeId;
+	public DocumentType DocumentType;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

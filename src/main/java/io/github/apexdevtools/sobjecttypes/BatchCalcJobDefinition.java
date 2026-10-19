@@ -15,6 +15,7 @@ public class BatchCalcJobDefinition extends SObject {
 	public static SObjectType$<BatchCalcJobDefinition> SObjectType;
 	public static SObjectFields$<BatchCalcJobDefinition> Fields;
 
+	public String ApiVersion;
 	public Id BatchJobDefinitionId;
 	public BatchJobDefinition BatchJobDefinition;
 	public Id CreatedById;
@@ -23,6 +24,7 @@ public class BatchCalcJobDefinition extends SObject {
 	public String CurrencyConversion;
 	public String DataSpaceApiName;
 	public String DefinitionRunMode;
+	public String DefinitionType;
 	public String DeveloperName;
 	public Boolean DoesGenAllFailedRecords;
 	public String ExecutionPlatformObjectType;

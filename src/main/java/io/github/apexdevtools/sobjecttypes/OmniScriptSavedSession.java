@@ -30,6 +30,7 @@ public class OmniScriptSavedSession extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastSavedDateTime;
 	public Datetime LastViewedDate;
+	public String ManagedPkgSessKey;
 	public String Name;
 	public Id OmniScriptId;
 	public OmniProcess OmniScript;

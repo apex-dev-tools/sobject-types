@@ -15,6 +15,7 @@ public class Swarm extends SObject {
 	public static SObjectType$<Swarm> SObjectType;
 	public static SObjectFields$<Swarm> Fields;
 
+	public String AppName;
 	public String ChannelType;
 	public Id CollaborationRoomId;
 	public CollaborationRoom CollaborationRoom;
@@ -25,6 +26,9 @@ public class Swarm extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public Datetime EndedDateTime;
+	public String ExpertNotificationKey;
+	public Id ExpertRoomId;
+	public CollaborationRoom ExpertRoom;
 	public String HelpNeeded;
 	public Id Id;
 	public Boolean IsDedicatedChannel;

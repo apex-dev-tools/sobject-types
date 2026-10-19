@@ -16,6 +16,7 @@ public class InsuranceContract extends SObject {
 	public static SObjectType$<InsuranceContract> SObjectType;
 	public static SObjectFields$<InsuranceContract> Fields;
 
+	public Date ActualRenewalDate;
 	public Id BrokerageAgencyId;
 	public Producer BrokerageAgency;
 	public Id BusinessLicenseId;
@@ -33,6 +34,7 @@ public class InsuranceContract extends SObject {
 	public Date EnrollmentStartDate;
 	public Integer EnrollmentWaitingPeriod;
 	public Id Id;
+	public Boolean IsContractLocked;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -40,11 +42,22 @@ public class InsuranceContract extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Id OriginalContractId;
+	public Contract OriginalContract;
+	public Date OriginalEndDate;
+	public Date OriginalStartDate;
 	public Id OwnerId;
 	public Name Owner;
+	public Date PlannedRenewalDate;
+	public Id PriorContractId;
+	public Contract PriorContract;
 	public Id ProducerId;
 	public Producer Producer;
+	public Id RenewedFromContractId;
+	public Contract RenewedFromContract;
+	public Boolean ShouldAutoAssignPlan;
 	public Datetime SystemModstamp;
+	public String TransactionDetailLevel;
 	public Id UnderwriterId;
 	public User Underwriter;
 

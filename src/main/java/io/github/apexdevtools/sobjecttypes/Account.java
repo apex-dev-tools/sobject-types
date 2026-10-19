@@ -20,6 +20,8 @@ public class Account extends SObject {
 	public RecordType RecordType;
 	public String AccountNumber;
 	public String AccountSource;
+	public Id ActionVisibilityId;
+	public ActionVisibility ActionVisibility;
 	public Decimal AnnualRevenue;
 	public Address BillingAddress;
 	public String BillingCity;

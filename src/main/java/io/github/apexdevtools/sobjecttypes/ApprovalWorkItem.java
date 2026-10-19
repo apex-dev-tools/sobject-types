@@ -39,6 +39,8 @@ public class ApprovalWorkItem extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Id OwnerId;
+	public Name Owner;
 	public Id ParentWorkItemId;
 	public ApprovalWorkItem ParentWorkItem;
 	public Id RelatedRecordId;

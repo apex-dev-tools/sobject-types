@@ -32,6 +32,7 @@ public class PricingRecipe extends SObject {
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
 	public String NamespacePrefix;
+	public String PricingUsageSubType;
 	public Datetime SystemModstamp;
 
 	public PricingRecipeTableMapping[] PricingElementCanonicalMappings;

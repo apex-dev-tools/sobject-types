@@ -30,6 +30,8 @@ public class ProgramInitiative extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id ProgramId;
+	public Program Program;
 	public Datetime SystemModstamp;
 	public String Type;
 

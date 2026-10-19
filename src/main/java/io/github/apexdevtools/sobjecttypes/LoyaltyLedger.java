@@ -32,6 +32,8 @@ public class LoyaltyLedger extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Id LoyaltyPgmCrcySubtypeId;
+	public LoyaltyPgmCurrencySubtype LoyaltyPgmCrcySubtype;
 	public Id LoyaltyProgramCurrencyId;
 	public LoyaltyProgramCurrency LoyaltyProgramCurrency;
 	public Id LoyaltyProgramMemberId;
@@ -40,6 +42,7 @@ public class LoyaltyLedger extends SObject {
 	public Decimal Points;
 	public Id PromotionId;
 	public Promotion Promotion;
+	public String SourceIdentifier;
 	public Datetime SystemModstamp;
 	public Id TransactionJournalId;
 	public TransactionJournal TransactionJournal;

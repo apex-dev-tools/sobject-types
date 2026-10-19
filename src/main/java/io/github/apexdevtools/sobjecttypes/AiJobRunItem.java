@@ -25,6 +25,7 @@ public class AiJobRunItem extends SObject {
 	public String ErrorMessage;
 	public Id Id;
 	public String Input;
+	public String InputEncoding;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

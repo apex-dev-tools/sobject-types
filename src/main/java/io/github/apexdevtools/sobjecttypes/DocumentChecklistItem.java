@@ -17,12 +17,17 @@ public class DocumentChecklistItem extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public String AiDocDataVerificationStatus;
+	public String AiDocumentQualityStatus;
+	public String Comments;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public Id DocumentCategoryId;
 	public DocumentCategory DocumentCategory;
+	public Id DocumentTypeId;
+	public DocumentType DocumentType;
 	public Id Id;
 	public String Instruction;
 	public Boolean IsAccepted;
@@ -46,6 +51,9 @@ public class DocumentChecklistItem extends SObject {
 	public String TransformationInfo;
 	public Id UploadedById;
 	public User UploadedBy;
+	public Id ValidatedById;
+	public User ValidatedBy;
+	public Datetime ValidationDateTime;
 	public Id WhoId;
 	public Name Who;
 

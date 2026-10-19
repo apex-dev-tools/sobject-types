@@ -20,6 +20,8 @@ public class ActionPlanItemChangeEvent extends SObject {
 	public ActionPlan ActionPlan;
 	public Id ActionPlanTemplateItemId;
 	public ActionPlanTemplateItem ActionPlanTemplateItem;
+	public Id AssignedToId;
+	public SObject AssignedTo;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;

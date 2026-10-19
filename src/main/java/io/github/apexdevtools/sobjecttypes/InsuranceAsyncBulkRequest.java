@@ -33,6 +33,8 @@ public class InsuranceAsyncBulkRequest extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;

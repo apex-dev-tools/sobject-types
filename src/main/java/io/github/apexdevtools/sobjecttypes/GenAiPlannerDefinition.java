@@ -28,6 +28,8 @@ public class GenAiPlannerDefinition extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id LinkedBotVersionId;
+	public BotVersion LinkedBotVersion;
 	public String MasterLabel;
 	public String NamespacePrefix;
 	public String PlannerType;

@@ -15,6 +15,7 @@ public class OmniUiCard extends SObject {
 	public static SObjectType$<OmniUiCard> SObjectType;
 	public static SObjectFields$<OmniUiCard> Fields;
 
+	public String AiGeneratedDescription;
 	public String AuthorName;
 	public String ClonedFromOmniUiCardKey;
 	public Id CreatedById;
@@ -23,6 +24,7 @@ public class OmniUiCard extends SObject {
 	public String CurrencyIsoCode;
 	public String DataSourceConfig;
 	public String Description;
+	public String EmbeddingPayload;
 	public Id Id;
 	public Boolean IsActive;
 	public Boolean IsDeleted;

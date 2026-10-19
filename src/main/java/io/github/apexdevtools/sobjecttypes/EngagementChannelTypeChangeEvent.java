@@ -16,6 +16,7 @@ public class EngagementChannelTypeChangeEvent extends SObject {
 	public static SObjectFields$<EngagementChannelTypeChangeEvent> Fields;
 
 	public Object ChangeEventHeader;
+	public String ChannelTypeCode;
 	public String ContactPointType;
 	public Id CreatedById;
 	public User CreatedBy;

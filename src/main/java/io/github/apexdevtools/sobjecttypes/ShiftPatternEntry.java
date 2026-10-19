@@ -29,6 +29,7 @@ public class ShiftPatternEntry extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Integer Occurrence;
 	public Id ShiftPatternId;
 	public ShiftPattern ShiftPattern;
 	public Id ShiftTemplateId;

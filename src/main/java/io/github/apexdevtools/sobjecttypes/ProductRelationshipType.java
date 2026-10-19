@@ -19,6 +19,7 @@ public class ProductRelationshipType extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String GlobalKey;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

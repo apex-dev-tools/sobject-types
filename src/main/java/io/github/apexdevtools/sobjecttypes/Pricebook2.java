@@ -22,6 +22,7 @@ public class Pricebook2 extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String GlobalKey;
 	public Id Id;
 	public Boolean IsActive;
 	public Boolean IsArchived;

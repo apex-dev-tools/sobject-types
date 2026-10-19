@@ -34,6 +34,7 @@ public class Report extends SObject {
 	public String NamespacePrefix;
 	public Id OwnerId;
 	public Name Owner;
+	public String ReportTypeApiName;
 	public Datetime SystemModstamp;
 
 	public AttachedContentDocument[] AttachedContentDocuments;

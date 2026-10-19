@@ -27,6 +27,8 @@ public class PreliminaryApplicationRef extends SObject {
 	public String CurrencyIsoCode;
 	public String Description;
 	public String DynamicAttribute;
+	public Id FlowInterviewId;
+	public FlowInterview FlowInterview;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsSubmitted;
@@ -38,6 +40,8 @@ public class PreliminaryApplicationRef extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public Name Owner;
+	public Id ProgramId;
+	public Program Program;
 	public String RejectionReason;
 	public String SavedApplicationUrl;
 	public Integer Score;

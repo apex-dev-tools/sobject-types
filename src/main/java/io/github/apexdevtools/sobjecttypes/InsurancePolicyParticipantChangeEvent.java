@@ -28,6 +28,8 @@ public class InsurancePolicyParticipantChangeEvent extends SObject {
 	public Decimal EmployeeContribution;
 	public Decimal EmployerContribution;
 	public Datetime ExpirationDate;
+	public Id GroupClassId;
+	public GroupClass GroupClass;
 	public Id Id;
 	public Id InsurancePolicyId;
 	public InsurancePolicy InsurancePolicy;

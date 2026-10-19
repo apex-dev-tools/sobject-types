@@ -60,6 +60,7 @@ public class Opportunity extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastStageChangeDate;
+	public Datetime LastSyncTime;
 	public Datetime LastViewedDate;
 	public String LeadSource;
 	public String Name;

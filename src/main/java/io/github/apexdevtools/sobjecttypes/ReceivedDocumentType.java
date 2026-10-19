@@ -20,6 +20,8 @@ public class ReceivedDocumentType extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DocumentTypeId;
+	public DocumentType DocumentType;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

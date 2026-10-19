@@ -30,6 +30,10 @@ public class WebCartChangeEvent extends SObject {
 	public String BillingStateCode;
 	public String BillingStreet;
 	public Object ChangeEventHeader;
+	public Datetime CollaborationLockedAt;
+	public Id CollaborationLockedById;
+	public User CollaborationLockedBy;
+	public String CollaborationStatus;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -48,6 +52,8 @@ public class WebCartChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Id LastOperationJobId;
+	public BackgroundOperation LastOperationJob;
 	public Datetime LastRepricingDate;
 	public String Name;
 	public Id OrderOwnerId;
@@ -59,8 +65,10 @@ public class WebCartChangeEvent extends SObject {
 	public Id PaymentMethodId;
 	public SObject PaymentMethod;
 	public String PoNumber;
+	public Integer QuoteLineItemCount;
 	public String ReplayId;
 	public String Status;
+	public String SubStatus;
 	public String TaxType;
 	public Decimal TotalAdjustmentAmount;
 	public Decimal TotalCartLevelAdjAmount;

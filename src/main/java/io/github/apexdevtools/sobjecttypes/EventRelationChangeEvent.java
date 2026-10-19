@@ -25,6 +25,7 @@ public class EventRelationChangeEvent extends SObject {
 	public Event Event;
 	public Id Id;
 	public Boolean IsInvitee;
+	public Boolean IsOrganizer;
 	public Boolean IsParent;
 	public Boolean IsWhat;
 	public Id LastModifiedById;

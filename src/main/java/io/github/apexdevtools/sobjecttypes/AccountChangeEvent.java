@@ -18,6 +18,8 @@ public class AccountChangeEvent extends SObject {
 
 	public String AccountNumber;
 	public String AccountSource;
+	public Id ActionVisibilityId;
+	public ActionVisibility ActionVisibility;
 	public Decimal AnnualRevenue;
 	public Address BillingAddress;
 	public String BillingCity;

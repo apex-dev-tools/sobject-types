@@ -31,6 +31,8 @@ public class ServiceTerritoryWorkType extends SObject {
 	public Id ServiceTerritoryId;
 	public ServiceTerritory ServiceTerritory;
 	public Datetime SystemModstamp;
+	public Id TeamId;
+	public Team Team;
 	public Id WorkTypeId;
 	public WorkType WorkType;
 

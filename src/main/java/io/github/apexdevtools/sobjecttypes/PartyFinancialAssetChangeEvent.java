@@ -22,6 +22,8 @@ public class PartyFinancialAssetChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Datetime DeclarationDateTime;
+	public String Description;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -29,14 +31,18 @@ public class PartyFinancialAssetChangeEvent extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public User Owner;
+	public Datetime OwnershipEndDateTime;
+	public Decimal OwnershipPercent;
 	public Datetime OwnershipStartDateTime;
 	public Id PartyId;
 	public SObject Party;
 	public String ReplayId;
 	public String SourceSystemIdentifier;
+	public String Status;
 	public String Type;
 	public String UsageType;
 	public Decimal ValuationAmount;
+	public Datetime ValuationDateTime;
 
 	public PartyFinancialAssetChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PartyFinancialAssetChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

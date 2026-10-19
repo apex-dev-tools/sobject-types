@@ -9,6 +9,7 @@ import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
+import io.github.apexdevtools.standardtypes.System.Integer;
 
 @SuppressWarnings("unused")
 public class AsyncOperationLog extends SObject {
@@ -16,6 +17,7 @@ public class AsyncOperationLog extends SObject {
 	public static SObjectFields$<AsyncOperationLog> Fields;
 
 	public String AsyncOperationNumber;
+	public Integer CompletedWorkUnits;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -32,6 +34,8 @@ public class AsyncOperationLog extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastStatusUpdateAt;
 	public Datetime LastViewedDate;
+	public Id ParentAsyncOperationLogId;
+	public AsyncOperationLog ParentAsyncOperationLog;
 	public Id RelatedRecordId;
 	public Asset RelatedRecord;
 	public String Request;
@@ -39,6 +43,7 @@ public class AsyncOperationLog extends SObject {
 	public Datetime StartedAt;
 	public String Status;
 	public Datetime SystemModstamp;
+	public Integer TotalWorkUnits;
 	public String Type;
 
 	public AsyncOperationLog clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -17,6 +17,8 @@ public class ContactChangeEvent extends SObject {
 
 	public Id AccountId;
 	public Account Account;
+	public Id ActionVisibilityId;
+	public ActionVisibility ActionVisibility;
 	public String AssistantName;
 	public String AssistantPhone;
 	public Date Birthdate;

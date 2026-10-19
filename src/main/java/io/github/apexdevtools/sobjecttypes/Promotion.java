@@ -72,6 +72,7 @@ public class Promotion extends SObject {
 	public String Objective;
 	public Id OwnerId;
 	public Name Owner;
+	public String PersonalizationType;
 	public Decimal PointFactor;
 	public Integer PriorityNumber;
 	public String PromotionCode;

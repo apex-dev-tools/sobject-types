@@ -27,6 +27,8 @@ public class CareObservationComponentChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Id DataAbsentReasonId;
+	public CodeSetBundle DataAbsentReason;
 	public String Division;
 	public Id Id;
 	public Boolean IsObserved;
@@ -48,7 +50,10 @@ public class CareObservationComponentChangeEvent extends SObject {
 	public UnitOfMeasure ObservedValueUnit;
 	public String ReplayId;
 	public Decimal UpperBaselineValue;
+	public Id ValueDenominatorUnitId;
+	public UnitOfMeasure ValueDenominatorUnit;
 	public String ValueInterpretation;
+	public Time ValueTime;
 	public String ValueType;
 
 	public CareObservationComponentChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}

@@ -61,6 +61,7 @@ public class FulfillmentOrderChangeEvent extends SObject {
 	public User Owner;
 	public Integer ProcessingTimeInMinutes;
 	public String ReplayId;
+	public String RoutingReference;
 	public Datetime StartFulfillmentDate;
 	public String Status;
 	public String StatusCategory;

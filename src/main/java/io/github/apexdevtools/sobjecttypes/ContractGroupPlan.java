@@ -46,6 +46,7 @@ public class ContractGroupPlan extends SObject {
 	public String Name;
 	public Id OriginalContractPlanId;
 	public ContractGroupPlan OriginalContractPlan;
+	public String PlanAllocationType;
 	public String PlanType;
 	public String PricingStructure;
 	public Id Product2Id;

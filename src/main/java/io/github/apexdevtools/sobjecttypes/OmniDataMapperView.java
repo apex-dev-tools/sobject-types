@@ -28,6 +28,7 @@ public class OmniDataMapperView extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String Namespace;
 	public Id OmniDataTransformId;
 	public OmniDataTransform OmniDataTransform;
 	public String OutputType;

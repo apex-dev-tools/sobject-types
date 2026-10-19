@@ -29,6 +29,7 @@ public class OmniFlexCardView extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String Namespace;
 	public Id OmniUiCardId;
 	public OmniUiCard OmniUiCard;
 	public Integer VersionCount;

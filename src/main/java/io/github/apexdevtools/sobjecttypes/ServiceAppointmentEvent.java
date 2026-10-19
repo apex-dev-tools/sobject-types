@@ -15,14 +15,14 @@ public class ServiceAppointmentEvent extends SObject {
 	public static SObjectType$<ServiceAppointmentEvent> SObjectType;
 	public static SObjectFields$<ServiceAppointmentEvent> Fields;
 
-	public Object AsgnRsrcApptSchdDtlEvent;
+	public AsgnRsrcApptSchdEvent[] AsgnRsrcApptSchdDtlEvent;
 	public String ChangeType;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String EventUuid;
 	public String ReplayId;
-	public Object ServiceApptSchduleEvent;
+	public SvcApptSchdEvent ServiceApptSchduleEvent;
 
 	public ServiceAppointmentEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ServiceAppointmentEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

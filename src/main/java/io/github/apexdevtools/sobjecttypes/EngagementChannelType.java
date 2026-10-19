@@ -15,6 +15,7 @@ public class EngagementChannelType extends SObject {
 	public static SObjectType$<EngagementChannelType> SObjectType;
 	public static SObjectFields$<EngagementChannelType> Fields;
 
+	public String ChannelTypeCode;
 	public String ContactPointType;
 	public Id CreatedById;
 	public User CreatedBy;

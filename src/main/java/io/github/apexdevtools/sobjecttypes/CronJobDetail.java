@@ -16,6 +16,7 @@ public class CronJobDetail extends SObject {
 	public static SObjectType$<CronJobDetail> SObjectType;
 	public static SObjectFields$<CronJobDetail> Fields;
 
+	public String CronJobType;
 	public Id Id;
 	public String JobType;
 	public String Name;

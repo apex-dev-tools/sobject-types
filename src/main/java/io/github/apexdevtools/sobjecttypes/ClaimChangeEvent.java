@@ -32,6 +32,7 @@ public class ClaimChangeEvent extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public Decimal EstimatedAmount;
+	public Decimal ExpenseReserveAmount;
 	public Datetime FinalizedDate;
 	public String FinancialAuthorityStatus;
 	public String FnolChannel;
@@ -60,6 +61,7 @@ public class ClaimChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LossDate;
+	public Decimal LossReserveAmount;
 	public String LossType;
 	public String Name;
 	public Id OwnerId;

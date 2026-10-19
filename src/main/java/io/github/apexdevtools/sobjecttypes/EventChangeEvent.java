@@ -41,6 +41,8 @@ public class EventChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Location;
+	public String MeetingUrl;
+	public String OrchestratorIdentifier;
 	public Id OwnerId;
 	public User Owner;
 	public String Recurrence2PatternText;

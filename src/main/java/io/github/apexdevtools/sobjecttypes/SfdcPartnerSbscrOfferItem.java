@@ -20,6 +20,7 @@ public class SfdcPartnerSbscrOfferItem extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Decimal CustomerUnitPricePerPeriod;
 	public Decimal CustomerUnitPricePerMonth;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -36,6 +37,8 @@ public class SfdcPartnerSbscrOfferItem extends SObject {
 	public SfdcPartnerSbscrOffer PartnerSubscriberOffer;
 	public Integer Quantity;
 	public Date ServiceStartDate;
+	public Id SourceSbscrOfferItemId;
+	public SfdcPartnerSbscrOfferItem SourceSbscrOfferItem;
 	public Datetime SystemModstamp;
 
 	public ApprovalSubmission[] ApprovalSubmissions;

@@ -15,6 +15,7 @@ public class PromotionLineItemRule extends SObject {
 	public static SObjectType$<PromotionLineItemRule> SObjectType;
 	public static SObjectFields$<PromotionLineItemRule> Fields;
 
+	public Boolean AreSubcategoriesIncluded;
 	public Id AssociatedReferenceId;
 	public Name AssociatedReference;
 	public String AssociatedType;

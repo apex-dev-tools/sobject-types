@@ -24,7 +24,7 @@ public class AIUpdateRecordEvent extends SObject {
 	public Boolean IsUpdated;
 	public String RecordId;
 	public String ReplayId;
-	public Object UpdatedFields;
+	public String[] UpdatedFields;
 
 	public AIUpdateRecordEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AIUpdateRecordEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

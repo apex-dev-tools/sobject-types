@@ -21,6 +21,8 @@ public class DocumentCategoryDocumentType extends SObject {
 	public String DeveloperName;
 	public Id DocumentCategoryId;
 	public DocumentCategory DocumentCategory;
+	public Id DocumentTypeId;
+	public DocumentType DocumentType;
 	public Id Id;
 	public Boolean IsDeleted;
 	public String Language;

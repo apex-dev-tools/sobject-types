@@ -15,6 +15,9 @@ public class ContextAttribute extends SObject {
 	public static SObjectType$<ContextAttribute> SObjectType;
 	public static SObjectFields$<ContextAttribute> Fields;
 
+	public String AggregateFunctionType;
+	public Id AggregateSrcContextAttrId;
+	public ContextAttribute AggregateSrcContextAttr;
 	public Id ContextNodeId;
 	public ContextNode ContextNode;
 	public Id CreatedById;

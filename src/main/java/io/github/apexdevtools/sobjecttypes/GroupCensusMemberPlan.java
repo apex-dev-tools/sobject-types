@@ -22,18 +22,26 @@ public class GroupCensusMemberPlan extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String EnrollmentStatus;
+	public String EventAction;
 	public Id GroupCensusMemberId;
 	public GroupCensusMember GroupCensusMember;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsOptional;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public String OverrideTypeStatus;
 	public Id OwnerId;
 	public Name Owner;
+	public Id ProductCategoryId;
+	public ProductCategory ProductCategory;
+	public Decimal StandardFeeAmount;
+	public Decimal StandardPremiumAmount;
+	public Decimal StandardTaxAmount;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;

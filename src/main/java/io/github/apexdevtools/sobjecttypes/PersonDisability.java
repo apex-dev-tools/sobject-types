@@ -40,8 +40,11 @@ public class PersonDisability extends SObject {
 	public Datetime SystemModstamp;
 	public String Type;
 	public Date VerificationDate;
+	public String VerificationStatus;
 	public String VerifiedBy;
 	public String VerifiedByOther;
+	public Id VerifyingUserId;
+	public User VerifyingUser;
 
 	public ActivityHistory[] ActivityHistories;
 	public AdvAcctForecastSetUse[] AdvAcctForecastSetUseForecastContext;

@@ -22,6 +22,8 @@ public class DigitalVerification extends SObject {
 	public String CurrencyIsoCode;
 	public Id DesignatedVerifierId;
 	public Name DesignatedVerifier;
+	public Id DigitalVerificationSetupDetailId;
+	public DigitalVerfSetupDetail DigitalVerificationSetupDetail;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
