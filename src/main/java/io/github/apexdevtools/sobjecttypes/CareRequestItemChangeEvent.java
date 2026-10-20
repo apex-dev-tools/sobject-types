@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
@@ -31,7 +32,7 @@ public class CareRequestItemChangeEvent extends SObject {
 	public Case CareRequestCase;
 	public Id CareRequestId;
 	public CareRequest CareRequest;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public String ClinicalDetermination;
 	public String ClinicalDeterminationNotes;
 	public Id ClinicalDeterminationReasonId;

@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
@@ -15,7 +16,7 @@ public class AttributeCategoryChangeEvent extends SObject {
 	public static SObjectType$<AttributeCategoryChangeEvent> SObjectType;
 	public static SObjectFields$<AttributeCategoryChangeEvent> Fields;
 
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public String Code;
 	public Id CreatedById;
 	public User CreatedBy;

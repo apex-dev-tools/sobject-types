@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
@@ -18,7 +19,7 @@ public class ManagedContentChangeEvent extends SObject {
 	public String ApiName;
 	public Id AuthoredManagedContentSpaceId;
 	public ManagedContentSpace AuthoredManagedContentSpace;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public String ContentKey;
 	public String ContentTypeFullyQualifiedName;
 	public Id CreatedById;

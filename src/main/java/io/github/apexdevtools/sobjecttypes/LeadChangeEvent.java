@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
@@ -19,7 +20,7 @@ public class LeadChangeEvent extends SObject {
 	public Address Address;
 	public Decimal AnnualRevenue;
 	public Date BirthDate;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public String City;
 	public String CleanStatus;
 	public String Company;

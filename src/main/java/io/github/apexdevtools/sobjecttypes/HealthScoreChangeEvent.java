@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
@@ -21,7 +22,7 @@ public class HealthScoreChangeEvent extends SObject {
 	public Integer AssessmentYear;
 	public Id CareProgramEnrolleeId;
 	public CareProgramEnrollee CareProgramEnrollee;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Integer ConditionCategoryCount;
 	public String ConditionCategoryList;
 	public Id CreatedById;

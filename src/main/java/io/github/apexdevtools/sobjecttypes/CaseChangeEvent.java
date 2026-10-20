@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.String;
 import io.github.apexdevtools.standardtypes.System.*;
@@ -24,7 +25,7 @@ public class CaseChangeEvent extends SObject {
 	public Id BusinessHoursId;
 	public BusinessHours BusinessHours;
 	public String CaseNumber;
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Datetime ClosedDate;
 	public Id ContactId;
 	public Contact Contact;

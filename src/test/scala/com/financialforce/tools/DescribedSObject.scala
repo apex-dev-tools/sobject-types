@@ -76,6 +76,9 @@ case class DescribedSObject(describe: DescribeSObjectResult) {
       writer.write("import io.github.apexdevtools.standardtypes.Internal.SObjectType$;\n")
     }
 
+    if (fieldTypes.contains("ChangeEventHeader"))
+      writer.write("import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;\n")
+
     val hasRecordTypeId = recordTypeIdObjects.contains(name)
     val extendedFieldType: Set[String] =
       if (hasRecordTypeId)
@@ -202,6 +205,7 @@ object DescribedSObject {
       case "base64"                     => "Blob"
       case "boolean"                    => "Boolean"
       case "combobox"                   => "String"
+      case "complexvalue" if field.getName == "ChangeEventHeader" => "ChangeEventHeader"
       case "complexvalue"               => "Object"
       case "currency"                   => "Decimal"
       case "date"                       => "Date"

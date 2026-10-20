@@ -6,6 +6,7 @@ package io.github.apexdevtools.sobjecttypes;
 
 import io.github.apexdevtools.standardtypes.Internal.SObjectFields$;
 import io.github.apexdevtools.standardtypes.Internal.SObjectType$;
+import io.github.apexdevtools.standardtypes.eventbus.ChangeEventHeader;
 import io.github.apexdevtools.standardtypes.System.Boolean;
 import io.github.apexdevtools.standardtypes.System.Integer;
 import io.github.apexdevtools.standardtypes.System.String;
@@ -16,7 +17,7 @@ public class ProductRelatedComponentChangeEvent extends SObject {
 	public static SObjectType$<ProductRelatedComponentChangeEvent> SObjectType;
 	public static SObjectFields$<ProductRelatedComponentChangeEvent> Fields;
 
-	public Object ChangeEventHeader;
+	public ChangeEventHeader ChangeEventHeader;
 	public Id ChildProductClassificationId;
 	public ProductClassification ChildProductClassification;
 	public Id ChildProductId;
