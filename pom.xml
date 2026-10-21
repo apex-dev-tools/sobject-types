@@ -57,7 +57,7 @@
     <dependency>
       <groupId>io.github.apex-dev-tools</groupId>
       <artifactId>standard-types</artifactId>
-      <version>67.0.0</version>
+      <version>68.0.0</version>
     </dependency>
 
     <!-- Test Dependencies -->
@@ -192,7 +192,7 @@
       <plugin>
         <groupId>org.sonatype.central</groupId>
         <artifactId>central-publishing-maven-plugin</artifactId>
-        <version>0.10.0</version>
+        <version>0.12.0</version>
         <extensions>true</extensions>
         <configuration>
           <publishingServerId>central</publishingServerId>
